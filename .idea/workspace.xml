@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-Reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acessorios.html" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consolas.html" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos.html" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.html" afterDir="false" />
-    </list>
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-labels" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613042365610</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit-labels">
+      <created>1613042960591</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613042960591</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +103,7 @@
     <MESSAGE value="commit&amp;push-2,phpfiles" />
     <MESSAGE value="Commit-Produtos em destaque" />
     <MESSAGE value="Commit-Reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-Reviews" />
+    <MESSAGE value="Commit-labels" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-labels" />
   </component>
 </project>
