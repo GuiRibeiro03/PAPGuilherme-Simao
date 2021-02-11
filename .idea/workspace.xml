@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-DevilMaycryPag">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos.html" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevilMayCry.html" beforeDir="false" afterPath="$PROJECT_DIR$/DevilMayCry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
       <updated>1612956646111</updated>
       <workItem from="1612956647259" duration="668000" />
       <workItem from="1613049041903" duration="603000" />
-      <workItem from="1613079365556" duration="1075000" />
+      <workItem from="1613079365556" duration="2088000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1612956956772</created>
@@ -111,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613079380076</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Commit-11/2/2021-DevilMaycryPag">
+      <created>1613080711891</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613080711891</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,8 +144,8 @@
     <MESSAGE value="Commit-Produtos em destaque" />
     <MESSAGE value="Commit-Reviews" />
     <MESSAGE value="Commit-labels" />
-    <MESSAGE value="Commit-11/2/2021-DevilMaycryPag" />
     <MESSAGE value="workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml" />
+    <MESSAGE value="Commit-11/2/2021-DevilMaycryPag" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/2/2021-DevilMaycryPag" />
   </component>
 </project>

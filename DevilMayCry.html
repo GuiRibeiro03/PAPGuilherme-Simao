@@ -120,11 +120,35 @@
 
 
     <div class="container-md">
-        <div> <h1 style="text-shadow: 2px 2px 0px #FF0000; padding-left: 20%">Devil May Cry 5</h1></div>
+        <div> <h1 style="text-shadow: 2px 2px 0px #FF0000; padding-left: 20%"><strong>Devil May Cry 5</strong></h1></div>
+        <hr>
+        <br>
+        <br>
 
 
         <img src="img/jogos/devilmaycry5.jpg" style=" padding-top: 40px;">
 
+        <div style="color: #FFFFFF; font-size: 50px;">59,90€</div> <span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" max="5">
+        <p></p>
+        <button class="btn btn-danger  cart-button" style="color: #1b1e21;"><strong>
+            <span class="add-to-cart">Adicionar ao Carrinho</span>
+            <span class="added">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i class="fa fa-archive" aria-hidden="true"></i></strong>
+        </button>
+
+        <script>
+            const cartButtons=document.querySelectorAll('.cart-button');
+            cartButtons.forEach(button => {
+                button.addEventListener('click',cartClicker);
+            });
+
+            function cartClicker() {
+                let button = this;
+                button.classList.add('clicked');
+            }
+
+        </script>
 
 
     </div>
