@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-DevilMaycryPage">
-      <change afterPath="$PROJECT_DIR$/TheLastofUs2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevilMayCry.html" beforeDir="false" afterPath="$PROJECT_DIR$/DevilMayCry.html" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-ThelastofUsp2Page">
       <change beforePath="$PROJECT_DIR$/jogos.html" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +45,7 @@
       <updated>1612956646111</updated>
       <workItem from="1612956647259" duration="668000" />
       <workItem from="1613049041903" duration="603000" />
-      <workItem from="1613079365556" duration="5802000" />
+      <workItem from="1613079365556" duration="6165000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1612956956772</created>
@@ -176,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613084577811</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Commit-11/2/2021-DevilMaycryPage">
+      <created>1613085295706</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1613085295706</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Commit-11/2/2021-ThelastofUsp2Page">
+      <created>1613085402531</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1613085402531</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +215,7 @@
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="Commit-11/2/2021-DevilMaycryPag" />
     <MESSAGE value="Commit-11/2/2021-DevilMaycryPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/2/2021-DevilMaycryPage" />
+    <MESSAGE value="Commit-11/2/2021-ThelastofUsp2Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/2/2021-ThelastofUsp2Page" />
   </component>
 </project>
