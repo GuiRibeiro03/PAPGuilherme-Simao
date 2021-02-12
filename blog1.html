@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
@@ -7,11 +7,11 @@
     <meta name="keywords" content="Amin, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Amin | Template</title>
+    <title>Game On</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
+          rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
@@ -23,6 +23,24 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="shortcut icon" href="onbutton.ico">
+
+    <script>
+
+        localStorage.clickCount = localStorage.clickCount || 0;
+
+        function countClicks() {
+            localStorage.clickCount++;
+            document.getElementById("btnLike").innerHTML = localStorage.clickCount;
+
+        }
+
+
+
+
+    </script>
+
+
 </head>
 
 <body>
