@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-labels">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaGOW.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaGOW.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaSM.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +16,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1oHw6BDGziJUcGuNKehATv5ypyU" />
   <component name="ProjectViewState">
@@ -27,6 +26,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -46,6 +46,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612956646111</updated>
       <workItem from="1612956647259" duration="668000" />
+      <workItem from="1613049041903" duration="603000" />
+      <workItem from="1613079365556" duration="7820000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1612956956772</created>
@@ -96,7 +98,133 @@
       <option name="project" value="LOCAL" />
       <updated>1613043320466</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit-11/2/2021-DevilMaycryPag">
+      <created>1613049078020</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613049078020</updated>
+    </task>
+    <task id="LOCAL-00009" summary="workspace.xml">
+      <created>1613079380076</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613079380076</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Commit-11/2/2021-DevilMaycryPag">
+      <created>1613080711891</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1613080711891</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Commit-11/2/2021-DevilMaycryPag">
+      <created>1613081560104</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613081560104</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Commit-11/2/2021-DevilMaycryPag">
+      <created>1613082752321</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1613082752322</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Commit-11/2/2021-DevilMaycryPag">
+      <created>1613082781076</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613082781076</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Commit-11/2/2021-DevilMaycryPage">
+      <created>1613083603204</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1613083603204</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Commit-11/2/2021-DevilMaycryPage">
+      <created>1613084323823</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613084323823</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Commit-11/2/2021-DevilMaycryPage">
+      <created>1613084356606</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1613084356606</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Commit-11/2/2021-DevilMaycryPage">
+      <created>1613084369903</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1613084369903</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Commit-11/2/2021-DevilMaycryPage">
+      <created>1613084577811</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1613084577811</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Commit-11/2/2021-DevilMaycryPage">
+      <created>1613085295706</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1613085295706</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Commit-11/2/2021-ThelastofUsp2Page">
+      <created>1613085402531</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1613085402531</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Commit-11/2/2021-ThelastofUsp2Page">
+      <created>1613085613768</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1613085613768</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Commit-11/2/2021-ThelastofUsp2Page">
+      <created>1613085652812</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1613085652812</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Commit-11/2/2021-ProdDestaque">
+      <created>1613085848863</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1613085848863</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Commit-11/2/2021">
+      <created>1613086878262</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1613086878262</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Commit-11/2/2021">
+      <created>1613086945631</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1613086945631</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +249,12 @@
     <MESSAGE value="Commit-Produtos em destaque" />
     <MESSAGE value="Commit-Reviews" />
     <MESSAGE value="Commit-labels" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-labels" />
+    <MESSAGE value="workspace.xml" />
+    <MESSAGE value="Commit-11/2/2021-DevilMaycryPag" />
+    <MESSAGE value="Commit-11/2/2021-DevilMaycryPage" />
+    <MESSAGE value="Commit-11/2/2021-ThelastofUsp2Page" />
+    <MESSAGE value="Commit-11/2/2021-ProdDestaque" />
+    <MESSAGE value="Commit-11/2/2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/2/2021" />
   </component>
 </project>
