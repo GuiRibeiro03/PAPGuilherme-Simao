@@ -4338,7 +4338,7 @@ opacity: 0;
 }
 
 body {
-	background: linear-gradient(#ea4335, #0d0d0d);
+	background: linear-gradient(to right, #D31027 , #EA384D);
 }
 
 .card-signin {
