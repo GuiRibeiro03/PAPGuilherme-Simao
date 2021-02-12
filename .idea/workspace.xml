@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-labels">
-      <change afterPath="$PROJECT_DIR$/blog2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdicionaNoticia.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevilMayCry.html" beforeDir="false" afterPath="$PROJECT_DIR$/DevilMayCry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheLastofUs2.html" beforeDir="false" afterPath="$PROJECT_DIR$/TheLastofUs2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acessorios.html" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consolas.html" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaGOW.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaGOW.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaSM.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaTLoU2.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTLoU2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaUncharted4.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaUncharted4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos.html" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +18,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1oHw6BDGziJUcGuNKehATv5ypyU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,9 +30,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -62,6 +62,9 @@
       <workItem from="1612956647259" duration="668000" />
       <workItem from="1613049041903" duration="603000" />
       <workItem from="1613079365556" duration="7820000" />
+      <workItem from="1613096752542" duration="10000" />
+      <workItem from="1613099259236" duration="4000" />
+      <workItem from="1613124951281" duration="1280000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1612956956772</created>
@@ -238,7 +241,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613086945631</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Blog">
+      <created>1613093821212</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1613093821212</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Blog">
+      <created>1613093843093</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1613093843093</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +286,7 @@
     <MESSAGE value="Commit-11/2/2021-ThelastofUsp2Page" />
     <MESSAGE value="Commit-11/2/2021-ProdDestaque" />
     <MESSAGE value="Commit-11/2/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/2/2021" />
+    <MESSAGE value="Blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Blog" />
   </component>
 </project>
