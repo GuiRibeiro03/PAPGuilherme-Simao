@@ -93,8 +93,10 @@
     <input type="text" name="texto1"><br>
     <span style="color:white">Texto secundário:</span>
     <input type="text" name="texto2"><br>
-    <span style="color:white">Imagem do artigo</span>
+    <span style="color:white">Imagem do artigo:</span>
     <input type="file" name="imagemArtigo"><br>
+    <span style="color:white">Tags:</span>
+    <input type="checkbox" name="tagProduto"><span style="color:white"> PlayStation</span> <input type="checkbox" name="tagProduto"><span style="color:white"> Computador</span> <input type="checkbox" name="tagProduto"><span style="color:white"> Gaming</span> <br>
     <input type="Submit" value="Adiciona"><br>
 </section>
 

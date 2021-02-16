@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-href em as nossas escolhas">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +46,7 @@
       <workItem from="1612956647259" duration="668000" />
       <workItem from="1613049041903" duration="603000" />
       <workItem from="1613079365556" duration="7820000" />
-      <workItem from="1613471289147" duration="5652000" />
-      <workItem from="1613477005063" duration="34000" />
+      <workItem from="1613471289147" duration="5622000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1612956956772</created>
@@ -259,14 +258,7 @@
       <option name="project" value="LOCAL" />
       <updated>1613476862948</updated>
     </task>
-    <task id="LOCAL-00031" summary="Commit-LoginModal">
-      <created>1613476978404</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1613476978404</updated>
-    </task>
-    <option name="localTasksCounter" value="32" />
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
