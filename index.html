@@ -53,8 +53,7 @@
                     <div class="col-lg-12 col-md-8">
                         <div class="ht-widget">
                             <ul class="float-right">
-                                <li><i class="fa fa-sign-out"></i> <a href="loginRegister.html" style="color: #FFFFFF; font-size: 19px">Login / Sign up</a>
-                                </li>
+                               <li> <span onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><a href="#" style="color: #FFFFFF; font-size: 17px;">Entrar | Login</a></span> </li>
                             </ul>
                         </div>
                     </div>
@@ -62,7 +61,7 @@
                     <div class="col-lg-12 col-md-8">
                         <div class="ht-widget">
                             <ul class="float-right">
-                                <li style="color: #FFFFFF; font-size: 20px"><i class="fa fa-shopping-cart"></i>Carrinho &nbsp;<span class="badge badge-danger">0</span></li>
+                                <li style="color: #FFFFFF; font-size: 17px"><i class="fa fa-shopping-cart"></i>Carrinho &nbsp;<span id="bdg1" class="badge badge-danger"><script>print()</script></span></li>
 
                             </ul>
                         </div>
@@ -127,7 +126,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h5><span>News & updates</span></h5>
+                        <h5><span>Notícias </span></h5>
                     </div>
                     <div class="tab-elem">
                         <ul class="nav nav-tabs" role="tablist">
@@ -278,8 +277,10 @@
                                 });
 
                                 function cartClicker() {
+                                    var i=0;
                                     let button = this;
                                     button.classList.add('clicked');
+                                    document.getElementById("bdg1").innerHTML = ++i;
                                 }
 
                             </script>
@@ -725,11 +726,42 @@
 
 
 
-    <!-- Footer Section End -->
 
-    <!-- Sign Up Section Begin -->
+    <div id="id01" class="modal">
 
-    <!-- Sign Up Section End -->
+        <form class="modal-content animate" action="img/logo.png">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+                <img src="Game.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit">Login</button>
+                <input type="checkbox" checked=""> Remember me
+            </div>
+
+            <div class="container" style="background-color:#FFFFFF">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        var modal = document.getElementById('id01');
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
 
     <!-- Search model Begin -->
     <div class="search-model">
