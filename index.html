@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="shortcut icon" href="onbutton.ico">
-
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 
 
@@ -728,26 +728,27 @@
 
 
     <div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 
-
-        <!-- Modal Content -->
-        <form class="modal-content animate" action="/action_page.php">
+        <form class="modal-content animate" action="/action_page.php" method="post">
             <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                 <img src="Game.png" alt="Avatar" class="avatar">
             </div>
 
             <div class="container">
-                <label id="userName"><b>Username</b></label>
+                <label id="uname"><b>Username</b></label>
                 <input type="text" placeholder="Enter Username" name="uname" required>
 
-                <label id="password"><b>Password</b></label>
+                <label id="psw"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
 
                 <button type="submit">Login</button>
                 <label>
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
+                <hr>
+                <button type="button" class="btn btn-danger" style="height: 50px"><i class="fa fa-google"></i>&nbsp;&nbsp;Entrar com o Google</button>
+
             </div>
 
             <div class="container" style="background-color:#f1f1f1">
@@ -756,7 +757,6 @@
             </div>
         </form>
     </div>
-
 
     <script>
         // Get the modal
