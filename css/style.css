@@ -34,10 +34,12 @@
 
 html,
 body {
+	width: 100%;
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
+	background-color: #0d0d0d;
 
 }
 
@@ -4590,11 +4592,26 @@ span.psw {
 	}
 }
 
+body
+{
+	width:100%;
+	margin:0 auto;
+	padding:0px;
+	font-family: "Montserrat", sans-serif;
+	background-color:#0B3861;
+}
 
+#wrapper
+{
+	text-align:center;
+	padding:0px;
+	width:500px;
+}
+#output_image
+{
+	max-width:300px;
 
-
-
-
+}
 
 
 

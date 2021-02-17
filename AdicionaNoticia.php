@@ -27,12 +27,23 @@
 
 
 
-
+    <script type='text/javascript'>
+        function preview_image(event)
+        {
+            var reader = new FileReader();
+            reader.onload = function()
+            {
+                var output = document.getElementById('output_image');
+                output.src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
 
 
 </head>
 
-<body>
+<body  style="background-color: #0d0d0d;" >
 <!-- Page Preloder -->
 
 
@@ -74,30 +85,32 @@
 
 <section class="store" style="padding:50px">
 <form action="ConfirmaNovaNoticia.php" method="post" enctype="multipart/form-data">
-    <label style="color:white">Titulo: </label>
-    <input type="text" name="noticiaNome"><br>
+    <label style="color:white; width: 5%;">Titulo: </label>
+    <input type="text" name="noticiaNome" style="width: 50%;">
+    <br>
+    <br>
 
-    <label style="color:white">Imagem:</label>
 
-    <span style="color:white"> <input type="file" name="noticiaImagemURL"><br></span>
+    <div id="wrapper">
+        <input type="file" accept="image/*" onchange="preview_image(event)">
+        <img id="output_image"/>
+    </div>
+    <br>
 
-    <div style="height: 200px; width: 300px; float: right">
-        <img src="">
+    <div class="row" style="height: 510px; width: 100%;">
+    <span style="color:white">Texto primário:</span>
+    <br>
+    <textarea name="texto1" required spellcheck="true"  cols="60" rows="20"></textarea>
+    <span style="color:white">Texto secundário:</span> <br><textarea  name="texto2"  spellcheck="true"  cols="60" rows="20"></textarea>
     </div>
 
 
+<br>
 
-
-
-    <span style="color:white">Texto primário:</span>
-    <input type="text" name="texto1"><br>
-    <span style="color:white">Texto secundário:</span>
-    <input type="text" name="texto2"><br>
-    <span style="color:white">Imagem do artigo:</span>
-    <input type="file" name="imagemArtigo"><br>
-    <span style="color:white">Tags:</span>
     <input type="checkbox" name="tagProduto"><span style="color:white"> PlayStation</span> <input type="checkbox" name="tagProduto"><span style="color:white"> Computador</span> <input type="checkbox" name="tagProduto"><span style="color:white"> Gaming</span> <br>
     <input type="Submit" value="Adiciona"><br>
+
+
 </section>
 
 
