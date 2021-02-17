@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaAcessorio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaConsola.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaNoticia.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +53,7 @@
       <workItem from="1613471289147" duration="5622000" />
       <workItem from="1613556281974" duration="1671000" />
       <workItem from="1613563311663" duration="1063000" />
+      <workItem from="1613564799507" duration="687000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1612956956772</created>
@@ -314,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613564388189</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary=".">
+      <created>1613564991193</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1613564991194</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +366,7 @@
     <MESSAGE value="Commit-AdicionaNoticia&#10;17/2/2021" />
     <MESSAGE value="Commit-11/2/2021" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>

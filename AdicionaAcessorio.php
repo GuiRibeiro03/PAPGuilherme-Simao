@@ -26,6 +26,18 @@
     <link rel="shortcut icon" href="onbutton.ico">
 
 
+    <script type='text/javascript'>
+        function preview_image(event)
+        {
+            var reader = new FileReader();
+            reader.onload = function()
+            {
+                var output = document.getElementById('output_image');
+                output.src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
 
 
 
@@ -72,21 +84,21 @@
 </header>
 <div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Adicionar Novo Produto</span></div>
 
+
+
 <section class="store" style="padding:50px">
+    <a href="Administracao.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+
 <form action="ConfirmaNovoAcessorio.php" method="post" enctype="multipart/form-data">
     <label style="color:white">Nome: </label>
     <input type="text" name="acessorioNome"><br>
 
-    <label style="color:white">Imagem:</label>
 
-    <span style="color:white"> <input type="file" name="acessorioImagemURL"><br></span>
-
-    <div style="height: 200px; width: 300px; float: right">
-        <img src="">
+    <div id="wrapper">
+        <label style="color:white">Imagem:</label>
+        <input type="file" accept="image/*" onchange="preview_image(event)">
+        <img id="output_image"/>
     </div>
-
-
-
 
 
     <span style="color:white">Preço:</span>

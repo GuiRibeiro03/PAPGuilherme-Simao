@@ -81,42 +81,43 @@
         <div style="color: #FFFFFF" class="col-4">Remover Jogo: <a href="ApagaJogo.php"><button class="btn-danger">Apagar Jogo</button></a></div>
     </div>
 <br>
-
+<hr>
     <label style="float: left; position: relative" class="badge-pill badge-secondary">Consolas</label>
     <br>
     <div class="row">
-        <div style="color: #FFFFFF" class="col-4">Adicionar Jogo: <a href="AdicionaConsola.php"><button class="btn-secondary">Add Consola</button></a></div>
-        <div style="color: #FFFFFF" class="col-4">Editar Jogo: <a href="EditaConsola.php"><button class="btn-secondary">Edit Consola</button></a></div>
-        <div style="color: #FFFFFF" class="col-4">Remover Jogo: <a href="ApagaConsola.php"><button class="btn-secondary">Apagar Consola</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Adicionar Consola: <a href="AdicionaConsola.php"><button class="btn-secondary">Add Consola</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Editar Consola: <a href="EditaConsola.php"><button class="btn-secondary">Edit Consola</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Remover Consola: <a href="ApagaConsola.php"><button class="btn-secondary">Apagar Consola</button></a></div>
     </div>
     <br>
-
+    <hr>
     <label style="float: left; position: relative" class="badge-pill badge-dark">Acessórios</label>
     <br>
     <div class="row">
-        <div style="color: #FFFFFF" class="col-4">Adicionar Jogo: <a href="AdicionaAcessorio.php"><button class="btn-dark">Add Acessório</button></a></div>
-        <div style="color: #FFFFFF" class="col-4">Editar Jogo: <a href="EditaAcessorio.php"><button class="btn-dark">Edit Acessório</button></a></div>
-        <div style="color: #FFFFFF" class="col-4">Remover Jogo: <a href="ApagaAcessorio.php"><button class="btn-dark">Apagar Acessório</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Adicionar Acessório: <a href="AdicionaAcessorio.php"><button class="btn-dark">Add Acessório</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Editar Acessório: <a href="EditaAcessorio.php"><button class="btn-dark">Edit Acessório</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Remover Acessório: <a href="ApagaAcessorio.php"><button class="btn-dark">Apagar Acessório</button></a></div>
     </div>
     <br>
-
+    <hr>
     <label style="float: left; position: relative" class="badge-pill badge-info">Notícias</label>
     <br>
     <div class="row">
-        <div style="color: #FFFFFF" class="col-4">Adicionar Jogo: <a href="AdicionaNoticia.php"><button class="btn-info">Add Notícia</button></a></div>
-        <div style="color: #FFFFFF" class="col-4">Editar Jogo: <a href="EditaNoticia.php"><button class="btn-info">Edit Notícia</button></a></div>
-        <div style="color: #FFFFFF" class="col-4">Remover Jogo: <a href="ApagaNoticia.php"><button class="btn-info">Apagar Notícia</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Adicionar Notícia: <a href="AdicionaNoticia.php"><button class="btn-info">Add Notícia</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Editar Notícia: <a href="EditaNoticia.php"><button class="btn-info">Edit Notícia</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Remover Notícia: <a href="ApagaNoticia.php"><button class="btn-info">Apagar Notícia</button></a></div>
     </div>
     <br>
+    <hr>
 
-
-    <label style="float: left; position: relative" class="badge-pill badge-dark">Gerir Utilizadores</label>
+    <label style="float: left; position: relative" class="badge-pill badge-primary">Gerir Utilizadores</label>
     <br>
     <div class="row">
-        <div style="color: #FFFFFF" class="col-4">Lista de Utilizadores: <a href="ListaUtilizadores.php"><button class="btn-dark badge-pill">Lista Utilizadores</button></a></div>
-        <div style="color: #FFFFFF" class="col-4">Promover um Utilizador a Editor: <a href="PromoverUtilizadores.php"><button class="btn-dark badge-pill">Promover Utilizador</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Lista de Utilizador: <a href="ListaUtilizadores.php"><button class="btn-primary badge-pill">Lista Utilizadores</button></a></div>
+        <div style="color: #FFFFFF" class="col-4">Promover um Utilizador a Editor: <a href="PromoverUtilizadores.php"><button class="btn-primary badge-pill">Promover Utilizador</button></a></div>
     </div>
     <br>
+    <hr>
 </section>
 
 

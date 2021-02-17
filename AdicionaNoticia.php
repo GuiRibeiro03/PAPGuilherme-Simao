@@ -84,6 +84,9 @@
 <div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Adicionar Nova Notícia</span></div>
 
 <section class="store" style="padding:50px">
+
+    <a href="Administracao.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+
 <form action="ConfirmaNovaNoticia.php" method="post" enctype="multipart/form-data">
     <label style="color:white; width: 5%;">Titulo: </label>
     <input type="text" name="noticiaNome" style="width: 50%;">
