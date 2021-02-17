@@ -1,6 +1,4 @@
-<?php
-$con=mysqli_connect();
-?>
+
 
 
 <!DOCTYPE html>
