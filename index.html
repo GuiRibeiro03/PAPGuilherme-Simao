@@ -54,7 +54,7 @@
                         <div class="ht-widget">
                             <ul class="float-right">
 
-                                <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="color: #FFFFFF; font-size: 17px;">Login/Register</a></span></li>
+                                <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-in"></i>Login</a></span>   |  <span onclick="document.getElementById('id02').style.display='block'" ><a style="color: #FFFFFF; font-size: 17px;">Register</a></span></li>
                             </ul>
                         </div>
                     </div>
@@ -727,6 +727,56 @@
 
 
 
+    <div id="id02" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="Game.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label id="email"><b>Email</b></label>
+                <input type="text" placeholder="Introduza o seu Email" name="email" required>
+
+                <label id="userName"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label id="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+
+                <button type="submit">Registar</button>
+                <hr>
+                <button type="button" class="btn btn-danger" style="height: 50px"><i class="fa fa-google"></i>&nbsp;&nbsp;Entrar com o Google</button>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="password">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById('id02');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+
+
+
+
+
     <div id="id01" class="modal">
 
         <form class="modal-content animate" action="/action_page.php" method="post">
@@ -737,10 +787,10 @@
 
             <div class="container">
                 <label id="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <input type="text" placeholder="Nome de Utilizador" name="uname" required>
 
                 <label id="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <input type="password" placeholder="Palavra-Passe" name="psw" required>
 
                 <button type="submit">Login</button>
                 <label>
@@ -769,6 +819,11 @@
             }
         }
     </script>
+
+
+
+
+
 
 
     <!-- Search model Begin -->
