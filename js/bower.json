@@ -1,0 +1,29 @@
+{
+  "name": "Google Sign-In for Websites - Single Page App",
+  "version": "0.0.0",
+  "authors": [
+    "Eiji Kitamura <agektmr@google.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "Google Sign-In",
+    "OAuth2.0",
+    "OpenID Connect",
+    "ID Token",
+    "Authorization Code"
+  ],
+  "license": "Apache 2.0",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "paper-elements": "PolymerElements/paper-elements#~1.0.5"
+  }
+}

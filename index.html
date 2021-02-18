@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="shortcut icon" href="onbutton.ico">
-    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://apis.google.com/js/api.js" async defer></script>
 
 
     <link rel="import" href="bower_components/polymer/polymer.html">
@@ -43,53 +43,24 @@
     <link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
     <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
 
-    <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+
 
 
 <script>
+
+
     gapi.load('auth2' ,function () {
         gapi.auth2.init();
     });
-</script>
 
-    <script>
-        function onSuccess(googleUser) {
-            console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-        }
-        function onFailure(error) {
-            console.log(error);
-        }
-        function renderButton() {
-            gapi.signin2.render('my-signin2', {
-                'scope': 'profile email',
-                'width': 240,
-                'height': 50,
-                'longtitle': true,
-                'theme': 'dark',
-                'onsuccess': onSuccess,
-                'onfailure': onFailure
-            });
-        }
-    </script>
+    function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    auth2.signOut().then(function () {
+    console.log('User signed out.');
+});
+}
 
-    <script>
-        function onSuccess(googleUser) {
-            console.log('Logged in as: ' + googleUser.getBasicProfile().getName());
-        }
-        function onFailure(error) {
-            console.log(error);
-        }
-        function renderButton() {
-            gapi.signin3.render('my-signin3', {
-                'scope': 'profile email',
-                'width': 240,
-                'height': 50,
-                'longtitle': true,
-                'theme': 'dark',
-                'onsuccess': onSuccess,
-                'onfailure': onFailure
-            });
-        }
+
     </script>
 
 </head>
@@ -118,6 +89,8 @@
 
                                 <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-in"></i>Login</a></span>   |
                                     <span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Register</a></span></li>
+
+                                <li><a href="#" onClick="signOut();"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Sign out</span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -813,7 +786,7 @@
 
                 <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button>
                 <hr>
-                <button id="my-signin3" type="button"  style="height: 50px; background-color: #4285F4"><img src="g-logo.png" style="height: 50px;width: 50px"></img>&nbsp;&nbsp;Entrar com o Google</button>
+                <button id="my-signin1" type="button" onclick="addEventListener(signIn())" style="height: 50px; background-color: #4285F4"><img src="g-logo.png" style="height: 50px;width: 50px"></img>&nbsp;&nbsp;Entrar com o Google</button>
             </div>
 
             <div class="container" style="background-color:#f1f1f1">
@@ -864,7 +837,7 @@
 
 
                 <hr>
-                <button id="my-signin2" onclick="addEventListener('.signIn()')" type="button"  style="height: 50px; background-color: #4285F4"><img src="g-logo.png" style="height: 50px;width: 50px"></img>&nbsp;&nbsp;Entrar com o Google</button>
+                <button id="my-signin2" onclick="addEventListener(signIn())" type="button"  style="height: 50px; background-color: #4285F4"><img src="g-logo.png" style="height: 50px;width: 50px"></img>&nbsp;&nbsp;Entrar com o Google</button>
 
             </div>
 
@@ -885,6 +858,9 @@
                 modal.style.display = "none";
             }
         }
+
+
+
     </script>
     <!--*********** Modal Login-FIM ************** -->
 
