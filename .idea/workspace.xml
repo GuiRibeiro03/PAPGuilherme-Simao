@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaAcessorio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaConsola.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../google-sign-in-master" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -53,7 +52,9 @@
       <workItem from="1613471289147" duration="5622000" />
       <workItem from="1613556281974" duration="1671000" />
       <workItem from="1613563311663" duration="1063000" />
-      <workItem from="1613564799507" duration="687000" />
+      <workItem from="1613564799507" duration="1165000" />
+      <workItem from="1613577866595" duration="24000" />
+      <workItem from="1613606173563" duration="1935000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1612956956772</created>
@@ -328,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613564991194</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Administracao">
+      <created>1613565667778</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1613565667778</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,6 +375,7 @@
     <MESSAGE value="Commit-11/2/2021" />
     <MESSAGE value=".." />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Administracao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Administracao" />
   </component>
 </project>
