@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="shortcut icon" href="onbutton.ico">
-    <script src="https://apis.google.com/js/api.js" async defer></script>
+    <script src="https://apis.google.com/js/api.js"></script>
 
 
     <link rel="import" href="bower_components/polymer/polymer.html">
@@ -42,14 +42,14 @@
     <link rel="import" href="bower_components/paper-toast/paper-toast.html">
     <link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
     <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
-
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
 
 
 
 <script>
 
 
-    gapi.load('auth2' ,function () {
+    gapi.load('auth2', function () {
         gapi.auth2.init();
     });
 
@@ -59,8 +59,6 @@
     console.log('User signed out.');
 });
 }
-
-
     </script>
 
 </head>
@@ -837,7 +835,7 @@
 
 
                 <hr>
-                <button id="my-signin2" onclick="addEventListener(signIn())" type="button"  style="height: 50px; background-color: #4285F4"><img src="g-logo.png" style="height: 50px;width: 50px"></img>&nbsp;&nbsp;Entrar com o Google</button>
+                <button id="my-signin2" onclick="addEventListener(signIn())" type="button"  style="height: 50px; background-color: #4285f4"><img src="g-logo.png" style="height: 50px;width: 50px"></img>&nbsp;&nbsp;Entrar com o Google</button>
 
             </div>
 
@@ -858,8 +856,6 @@
                 modal.style.display = "none";
             }
         }
-
-
 
     </script>
     <!--*********** Modal Login-FIM ************** -->
