@@ -3,7 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+
+
     <meta name="google-signin-client-id" content="985368006103-kh4aclpepe73sei2u4j49n53ub6oe832.apps.googleusercontent.com">
+
+
+
     <meta name="description" content="Amin Template">
     <meta name="keywords" content="gameOn, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +30,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="shortcut icon" href="onbutton.ico">
-    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
 
 
     <link rel="import" href="bower_components/polymer/polymer.html">
@@ -58,9 +63,11 @@
 <script>
 
 
-    gapi.load('auth2', function () {
-        gapi.auth2.init();
-    });
+    function init() {
+        gapi.load('auth2', function() {
+            /* Ready. Make a call to gapi.auth2.init or some other API */
+        });
+    }
 
     function signOut() {
     var auth2 = gapi.auth2.getAuthInstance();
@@ -68,9 +75,6 @@
     console.log('User signed out.');
     });
     }
-
-
-
 
 
 
@@ -865,7 +869,7 @@
 
 
                 <hr>
-                <button id="my-signin2" onclick="addEventListener(signIn())" type="button"  style="height: 50px; background-color: #4285f4"><img src="g-logo.png" style="height: 50px;width: 50px"></img>&nbsp;&nbsp;Entrar com o Google</button>
+                <button id="my-signin2" onclick="addEventListener(init())" type="button"  style="height: 50px; background-color: #4285f4"><img src="g-logo.png" style="height: 50px;width: 50px"></img>&nbsp;&nbsp;Entrar com o Google</button>
 
             </div>
 
