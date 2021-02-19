@@ -100,7 +100,7 @@
     <div id="wrapper">
         <label style="color:white">Imagem:</label>
         <input type="file" accept="image/*" onchange="preview_image(event)">
-        <img id="output_image"/>
+
     </div>
 
 
