@@ -97,11 +97,6 @@
         <img id="output_image"/>
     </div>
 
-    <span style="color:white"> <input type="file" name="consolaImagemURL"><br></span>
-
-    <div style="height: 200px; width: 300px; float: right">
-        <img src="">
-    </div>
 
 
 
