@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaAcessorio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaConsola.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +26,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -53,7 +50,11 @@
       <workItem from="1613471289147" duration="5622000" />
       <workItem from="1613556281974" duration="1671000" />
       <workItem from="1613563311663" duration="1063000" />
-      <workItem from="1613564799507" duration="687000" />
+      <workItem from="1613564799507" duration="1165000" />
+      <workItem from="1613577866595" duration="24000" />
+      <workItem from="1613606173563" duration="3177000" />
+      <workItem from="1613609399232" duration="135000" />
+      <workItem from="1613645160984" duration="5435000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1612956956772</created>
@@ -328,7 +329,63 @@
       <option name="project" value="LOCAL" />
       <updated>1613564991194</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Administracao">
+      <created>1613565667778</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1613565667778</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Login|Register-Google">
+      <created>1613608327152</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1613608327152</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Login|Register-Google">
+      <created>1613609358308</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1613609358308</updated>
+    </task>
+    <task id="LOCAL-00043" summary="MoreloginNRegister">
+      <created>1613609472141</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1613609472141</updated>
+    </task>
+    <task id="LOCAL-00044" summary="..">
+      <created>1613647273562</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1613647273562</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Grease">
+      <created>1613732981667</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1613732981667</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Grease">
+      <created>1613733138037</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1613733138037</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Grease">
+      <created>1613733917936</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1613733917936</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,8 +422,12 @@
     <MESSAGE value="Commit-ModalLogin|Register&#10;17/2/2021" />
     <MESSAGE value="Commit-AdicionaNoticia&#10;17/2/2021" />
     <MESSAGE value="Commit-11/2/2021" />
-    <MESSAGE value=".." />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Administracao" />
+    <MESSAGE value="Login|Register-Google" />
+    <MESSAGE value="MoreloginNRegister" />
+    <MESSAGE value=".." />
+    <MESSAGE value="Grease" />
+    <option name="LAST_COMMIT_MESSAGE" value="Grease" />
   </component>
 </project>
