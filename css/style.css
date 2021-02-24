@@ -4207,10 +4207,9 @@ ol {
 	padding: 10px;
 	width: 200px;
 	height: 60px;
-	color:#0d0d0d;
 	border: 0;
 	border-radius: 10px;
-	background: red;
+	background: #dc3545;
 	outline: none;
 	cursor: pointer;
 	color: #FFFFFF;
@@ -4218,28 +4217,18 @@ ol {
 }
 
 
-.cart-button:hover {
-	background-color:#1b1e21;
-}
+
 
 .cart-button:active{
 	transform: scale(.9);
 }
 
 .cart-button.clicked {
-	background-color: red;
+	background-color: #dc3545;
 }
 
-.cart-button .fa-shopping-cart{
 
-	position: absolute;
-	z-index: 2;
-	top: 50%;
-	left: -10%;
-	font-size: 2em;
-	transform: translate(-50%,-50%);
 
-}
 .cart-button .fa-archive{
 
 	position: absolute;
@@ -4258,7 +4247,7 @@ ol {
 	top: 50%;
 	left: 50%;
 	font-size: 1em;
-	color: #1b1e21;
+	color: #FFFFFF;
 	transform: translate(-50%,-50%);
 }
 
@@ -4288,31 +4277,7 @@ opacity: 0;
 	animation: txt2 1.5s ease-in-out forwards;
 }
 
-@keyframes cart {
-	0%{
-		left: -10%;
-	}
-	40%, 60%{
-		left: 50%;
-	}
-	100%{
-		left: 110%;
-	}
-}
 
-@keyframes archive {
-	0%, 40%{
-		top: -20%;
-	}
-	60%{
-		top: 40%;
-		left: 50%;
-	}
-	100%{
-		top: 40%;
-		left: 112%;
-	}
-}
 
 @keyframes txt1 {
 	0%{
@@ -4494,7 +4459,8 @@ button {
 }
 
 button:hover {
-	opacity: 0.8;
+
+
 }
 
 /* Extra styles for the cancel button */
@@ -4557,6 +4523,7 @@ span.psw {
 	font-size: 35px;
 	font-weight: bold;
 }
+
 
 .close:hover,
 .close:focus {

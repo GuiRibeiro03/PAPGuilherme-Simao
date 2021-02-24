@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +58,9 @@
       <workItem from="1613606173563" duration="3177000" />
       <workItem from="1613609399232" duration="135000" />
       <workItem from="1613645160984" duration="5435000" />
+      <workItem from="1613735348343" duration="1901000" />
+      <workItem from="1614115673094" duration="147000" />
+      <workItem from="1614162766498" duration="902000" />
     </task>
     <task id="LOCAL-00001" summary="Add files via upload">
       <created>1612956956772</created>
@@ -385,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613733917936</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Grease">
+      <created>1613734658775</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1613734658775</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
