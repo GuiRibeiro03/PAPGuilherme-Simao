@@ -4229,18 +4229,6 @@ ol {
 
 
 
-.cart-button .fa-archive{
-
-	position: absolute;
-	z-index: 3;
-	top: -20%;
-	left: 52%;
-	font-size: 1.2em;
-	transform: translate(-50%,-50%);
-
-}
-
-
 .cart-button span{
 	position: absolute;
 	z-index: 3;
@@ -4259,14 +4247,6 @@ ol {
 
 .cart-button span.added{
 opacity: 0;
-}
-.cart-button.clicked .fa-shopping-cart{
-	animation: cart 1.5s ease-in-out forwards;
-}
-
-
-.cart-button.clicked .fa-archive{
-	animation: archive 1.5s ease-in-out forwards;
 }
 
 .cart-button.clicked span.add-to-cart{
