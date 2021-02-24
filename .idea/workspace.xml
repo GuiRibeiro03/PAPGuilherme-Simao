@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consolas.html" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogos.html" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,14 +59,7 @@
       <workItem from="1613645160984" duration="5435000" />
       <workItem from="1613735348343" duration="1901000" />
       <workItem from="1614115673094" duration="147000" />
-      <workItem from="1614162766498" duration="1935000" />
-    </task>
-    <task id="LOCAL-00001" summary="Add files via upload">
-      <created>1612956956772</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1612956956772</updated>
+      <workItem from="1614162766498" duration="2606000" />
     </task>
     <task id="LOCAL-00002" summary="commit&amp;push-1">
       <created>1612957138716</created>
@@ -404,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614163706531</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="....">
+      <created>1614164889054</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1614164889054</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,6 +447,7 @@
     <MESSAGE value="MoreloginNRegister" />
     <MESSAGE value="Grease" />
     <MESSAGE value=".." />
-    <option name="LAST_COMMIT_MESSAGE" value=".." />
+    <MESSAGE value="...." />
+    <option name="LAST_COMMIT_MESSAGE" value="...." />
   </component>
 </project>
