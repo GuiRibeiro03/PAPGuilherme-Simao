@@ -41,6 +41,7 @@ body {
 	font-smoothing: antialiased;
 	background-color: #0d0d0d;
 
+
 }
 
 h1,
@@ -4573,16 +4574,14 @@ body
  }
 
 .dropdown-content {
-	min-height: 500px;
+	min-height: 160px;
 	display: block;
 	position: absolute;
 	background-color: #f9f9f9;
-	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	min-width: 500px;
 	padding: 12px 16px;
 	z-index: 1;
 	overflow: scroll;
-
 }
 
 .dropdown:hover .dropdown-content {
