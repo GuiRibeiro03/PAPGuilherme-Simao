@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevilMayCry.html" beforeDir="false" afterPath="$PROJECT_DIR$/DevilMayCry.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TheLastofUs2.html" beforeDir="false" afterPath="$PROJECT_DIR$/TheLastofUs2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +61,7 @@
       <workItem from="1614162766498" duration="2896000" />
       <workItem from="1614251571583" duration="471000" />
       <workItem from="1614280421617" duration="2132000" />
-      <workItem from="1614290694613" duration="4443000" />
-    </task>
-    <task id="LOCAL-00010" summary="Commit-11/2/2021-DevilMaycryPag">
-      <created>1613080711891</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1613080711891</updated>
+      <workItem from="1614290694613" duration="4750000" />
     </task>
     <task id="LOCAL-00011" summary="Commit-11/2/2021-DevilMaycryPag">
       <created>1613081560104</created>
@@ -409,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614292891930</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="DevilMaycry&amp;thelastofus">
+      <created>1614295391518</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1614295391518</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +425,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="workspace.xml" />
     <MESSAGE value="Commit-11/2/2021-DevilMaycryPag" />
     <MESSAGE value="Commit-11/2/2021-DevilMaycryPage" />
     <MESSAGE value="Commit-11/2/2021-ThelastofUsp2Page" />
@@ -453,6 +449,7 @@
     <MESSAGE value="Reviews" />
     <MESSAGE value="....." />
     <MESSAGE value="DevilMaycry-Resultado" />
-    <option name="LAST_COMMIT_MESSAGE" value="DevilMaycry-Resultado" />
+    <MESSAGE value="DevilMaycry&amp;thelastofus" />
+    <option name="LAST_COMMIT_MESSAGE" value="DevilMaycry&amp;thelastofus" />
   </component>
 </project>
