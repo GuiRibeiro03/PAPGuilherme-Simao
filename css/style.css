@@ -3212,7 +3212,7 @@ ol {
 
 .details-text .dt-leave-comment form .input-list input::placeholder,
 .contact-form .dt-leave-comment form .input-list input::placeholder {
-	color: #444444;
+	color: #FFFFFF;
 }
 
 .details-text .dt-leave-comment form .input-list input:last-child,
@@ -3236,7 +3236,7 @@ ol {
 
 .details-text .dt-leave-comment form textarea::-webkit-input-placeholder,
 .contact-form .dt-leave-comment form textarea::-webkit-input-placeholder {
-	color: #444444;
+	color: #FFFFFF;
 }
 
 .details-text .dt-leave-comment form textarea::-moz-placeholder,
@@ -3256,7 +3256,7 @@ ol {
 
 .details-text .dt-leave-comment form textarea::placeholder,
 .contact-form .dt-leave-comment form textarea::placeholder {
-	color: #444444;
+	color: #FFFFFF;
 }
 
 .details-text .dt-leave-comment form button,
