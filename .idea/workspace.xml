@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
+      <change afterPath="$PROJECT_DIR$/criticaTWH3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaSM.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -425,7 +426,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-Produtos em destaque" />
     <MESSAGE value="Commit-Reviews" />
     <MESSAGE value="Commit-labels" />
     <MESSAGE value="workspace.xml" />
@@ -450,6 +450,7 @@
     <MESSAGE value="......" />
     <MESSAGE value="FIle-WHAT TO DO" />
     <MESSAGE value="Carrinho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carrinho" />
+    <MESSAGE value="Reviews" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reviews" />
   </component>
 </project>
