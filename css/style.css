@@ -4250,11 +4250,11 @@ opacity: 0;
 }
 
 .cart-button.clicked span.add-to-cart{
-	animation: txt1 1.5s ease-in-out forwards;
+	animation: txt1 .5s ease-in-out forwards;
 }
 
 .cart-button.clicked span.added{
-	animation: txt2 1.5s ease-in-out forwards;
+	animation: txt2 .5s ease-in-out forwards;
 }
 
 
