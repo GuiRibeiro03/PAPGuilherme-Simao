@@ -3,7 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevilMayCry.html" beforeDir="false" afterPath="$PROJECT_DIR$/DevilMayCry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acessorios.html" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consolas.html" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaGOW.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaGOW.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaSM.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaTLoU2.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTLoU2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaTWH3.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTWH3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaUncharted4.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaUncharted4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogos.html" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +72,7 @@
       <workItem from="1614162766498" duration="2896000" />
       <workItem from="1614251571583" duration="471000" />
       <workItem from="1614280421617" duration="2132000" />
-    </task>
-    <task id="LOCAL-00007" summary="Commit-labels">
-      <created>1613043320466</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1613043320466</updated>
+      <workItem from="1614290694613" duration="1971000" />
     </task>
     <task id="LOCAL-00008" summary="Commit-11/2/2021-DevilMaycryPag">
       <created>1613049078020</created>
@@ -406,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614289813880</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary=".....">
+      <created>1614290586131</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1614290586131</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +436,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-Reviews" />
     <MESSAGE value="Commit-labels" />
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="Commit-11/2/2021-DevilMaycryPag" />
@@ -450,6 +460,7 @@
     <MESSAGE value="FIle-WHAT TO DO" />
     <MESSAGE value="Carrinho" />
     <MESSAGE value="Reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reviews" />
+    <MESSAGE value="....." />
+    <option name="LAST_COMMIT_MESSAGE" value="....." />
   </component>
 </project>
