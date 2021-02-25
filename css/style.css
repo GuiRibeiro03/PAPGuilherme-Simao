@@ -721,8 +721,8 @@ ol {
 -----------------------*/
 
 .ht-options {
-	background: #080808;
-	padding: 13px 0;
+	background: #0d0d0d;
+	padding: 10px 0;
 }
 
 .ht-options .ht-widget ul li {
@@ -758,8 +758,8 @@ ol {
 	position: absolute;
 	right: -18px;
 	top: 2px;
-	content: "/";
-	color: #eaeaea4d;
+
+	color: #FFFFFF;
 }
 
 .ht-options .ht-widget ul li:last-child {
