@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
-      <change afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/adressForm.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaGOW.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaGOW.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaSM.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaTLoU2.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTLoU2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaTWH3.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTWH3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,21 +16,11 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="ProjectId" id="1oHw6BDGziJUcGuNKehATv5ypyU" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -42,19 +33,11 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp\www\papGuiSimao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
     </key>
   </component>
@@ -82,56 +65,7 @@
       <workItem from="1614162766498" duration="2896000" />
       <workItem from="1614251571583" duration="471000" />
       <workItem from="1614280421617" duration="2132000" />
-      <workItem from="1614335820598" duration="3689000" />
-    </task>
-    <task id="LOCAL-00007" summary="Commit-labels">
-      <created>1613043320466</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1613043320466</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Commit-11/2/2021-DevilMaycryPag">
-      <created>1613049078020</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1613049078020</updated>
-    </task>
-    <task id="LOCAL-00009" summary="workspace.xml">
-      <created>1613079380076</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1613079380076</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Commit-11/2/2021-DevilMaycryPag">
-      <created>1613080711891</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1613080711891</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Commit-11/2/2021-DevilMaycryPag">
-      <created>1613081560104</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1613081560104</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Commit-11/2/2021-DevilMaycryPag">
-      <created>1613082752321</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1613082752322</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Commit-11/2/2021-DevilMaycryPag">
-      <created>1613082781076</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1613082781076</updated>
+      <workItem from="1614290694613" duration="7244000" />
     </task>
     <task id="LOCAL-00014" summary="Commit-11/2/2021-DevilMaycryPage">
       <created>1613083603204</created>
@@ -427,7 +361,56 @@
       <option name="project" value="LOCAL" />
       <updated>1614289813880</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary=".....">
+      <created>1614290586131</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1614290586131</updated>
+    </task>
+    <task id="LOCAL-00057" summary="DevilMaycry-Resultado">
+      <created>1614292817815</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1614292817816</updated>
+    </task>
+    <task id="LOCAL-00058" summary="DevilMaycry-Resultado">
+      <created>1614292891930</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1614292891930</updated>
+    </task>
+    <task id="LOCAL-00059" summary="DevilMaycry&amp;thelastofus">
+      <created>1614295391518</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1614295391518</updated>
+    </task>
+    <task id="LOCAL-00060" summary="DevilMaycry&amp;thelastofus">
+      <created>1614295727415</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1614295727415</updated>
+    </task>
+    <task id="LOCAL-00061" summary="DevilMaycry&amp;thelastofus">
+      <created>1614296829598</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1614296829598</updated>
+    </task>
+    <task id="LOCAL-00062" summary="DevilMaycry&amp;thelastofus">
+      <created>1614297392102</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1614297392102</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,9 +429,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-Reviews" />
-    <MESSAGE value="Commit-labels" />
-    <MESSAGE value="workspace.xml" />
     <MESSAGE value="Commit-11/2/2021-DevilMaycryPag" />
     <MESSAGE value="Commit-11/2/2021-DevilMaycryPage" />
     <MESSAGE value="Commit-11/2/2021-ThelastofUsp2Page" />
@@ -471,6 +451,9 @@
     <MESSAGE value="FIle-WHAT TO DO" />
     <MESSAGE value="Carrinho" />
     <MESSAGE value="Reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reviews" />
+    <MESSAGE value="....." />
+    <MESSAGE value="DevilMaycry-Resultado" />
+    <MESSAGE value="DevilMaycry&amp;thelastofus" />
+    <option name="LAST_COMMIT_MESSAGE" value="DevilMaycry&amp;thelastofus" />
   </component>
 </project>
