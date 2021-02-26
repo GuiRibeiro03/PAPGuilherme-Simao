@@ -53,7 +53,7 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 500;
-	font-family: "Cinzel", serif;
+	font-family: 'Lato',sans-serif;
 	 color: white;
 
 }
@@ -63,24 +63,23 @@ h1 {
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 50px;
 }
 
 h3 {
-	font-size: 30px;
+	font-size: 40px;
 }
 
 h4 {
-	font-size: 24px;
+	font-size: 30px;
 }
 
 h5 {
-	font-size: 20px;
-	font-family: "Montserrat", sans-serif;
+	font-size: 25px;
 }
 
 h6 {
-	font-size: 18px;
+	font-size: 25px;
 }
 
 p {
