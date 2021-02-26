@@ -136,10 +136,10 @@
     <section class="latest-preview-section" style="height: 100%; width: 100%">
         <div class="row">
         <div class="col-8">
-            <span style="color: white; font-size: 75px;">Entrega</span>
             <div class="container" style="background-color: white">
                 <form action="/action_page.php">
-
+                    <span style="color: Black; font-size: 50px;"><strong>Endereço de Entrega |   Pagamento</strong></span>
+                    <hr>
                     <div class="row">
                         <div class="col-50">
                             <label for="fname"><i class="fa fa-user"></i> Nome completo</label>
@@ -171,31 +171,28 @@
                             <input type="text" id="cname" name="cardname" placeholder="Seu nome">
                             <label for="ccnum">Número do cartão</label>
                             <input type="text" id="ccnum" name="cardnumber" placeholder="0000-0000-0000-0000">
-                            <label for="expmonth">Mês de expiração</label>
-                            <input type="text" id="expmonth" name="expmonth" placeholder="Mês">
-                            <div class="row">
-                                <div class="col-50">
-                                    <label for="expyear">Ano de expiração</label>
-                                    <input type="text" id="expyear" name="expyear" placeholder="0000">
-                                </div>
-                                <div class="col-50">
+                            <label for="expmonth">Data de Expiração</label>
+                            <input type="date" min="27-02-2021" id="expmonth" name="expmonth">
+
+                                <div class="col-50" style="padding-top: 10px">
                                     <label for="cvv">CVV</label>
-                                    <input type="text" id="cvv" name="cvv" placeholder="000">
+                                    <input type="text" id="cvv" name="cvv" placeholder="000" style="width: 100px" min="000" max="999" maxlength="3">
                                 </div>
-                            </div>
                         </div>
 
                     </div>
                     <label>
                         <input type="checkbox" checked="checked" name="sameadr"> Endereço de entrega igual ao de pagamento
                     </label>
-                    <input type="submit" value="Aplicar" class="btn btn-danger" style="width: 100%">
+                    <input type="submit" value="Aplicar" class="btn btn-danger" style="width: 100%; height: 50px">
                 </form>
             </div>
             </div>
         <div class="col-4">
-            <span style="color: white; font-size: 75px;">Pagamento</span>
-            <div class="container">
+
+            <div class="container" style="background-color: white; ">
+                <span style="color: black; font-size: 50px; font-weight: bold">Finalizar:</span>
+                <hr>
                 <ul style="background-color: white; padding: 10px 20px;">
                     <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco"><strong>399,90€</strong></span>  <button style="float: right"><i class="fa fa-close" style="color: red"></i></button></span>
                     <p><input type="number" value="1" min="1" style="width: 50px; text-align: center"></p>
@@ -206,9 +203,9 @@
                     <span> Número de produtos: 2</span>
                 </ul>
                 <input type="text" style="width: 360px; font-size: 30px; padding-top: 5px; font-weight: bold" placeholder="Código Promocional">     <a href="#"><button class="btn btn-danger" style="height: 67px; width: 100px;"> Aplicar</button></a> <br>
-                <span style="color: white; font-size: 40px">Total a pagar:</span> <span style="color: white; font-size: 40px">&NonBreakingSpace;799.99€</span>
+                <span style="color: black; font-size: 40px; font-weight: bold">Total a pagar:&NonBreakingSpace;799.80€</span>
                 <br>
-                <a href="#"><button class="btn btn-danger" style="height: 100px; width: 200px; font-size: 20px">Finalizar Compra</button></a>
+                <a href="#"><button class="btn btn-danger" style="height: 50px; width: 80%; font-size: 20px">Finalizar Compra</button></a>
             </div>
         </div>
         </div>

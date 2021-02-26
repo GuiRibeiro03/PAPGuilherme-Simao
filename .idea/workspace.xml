@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaGOW.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaGOW.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaSM.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaTLoU2.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTLoU2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaTWH3.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTWH3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,28 +62,7 @@
       <workItem from="1614162766498" duration="2896000" />
       <workItem from="1614251571583" duration="471000" />
       <workItem from="1614280421617" duration="2132000" />
-      <workItem from="1614290694613" duration="7244000" />
-    </task>
-    <task id="LOCAL-00014" summary="Commit-11/2/2021-DevilMaycryPage">
-      <created>1613083603204</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1613083603204</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Commit-11/2/2021-DevilMaycryPage">
-      <created>1613084323823</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1613084323823</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Commit-11/2/2021-DevilMaycryPage">
-      <created>1613084356606</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1613084356606</updated>
+      <workItem from="1614290694613" duration="7544000" />
     </task>
     <task id="LOCAL-00017" summary="Commit-11/2/2021-DevilMaycryPage">
       <created>1613084369903</created>
@@ -410,7 +386,28 @@
       <option name="project" value="LOCAL" />
       <updated>1614297392102</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="REviews">
+      <created>1614298073853</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1614298073853</updated>
+    </task>
+    <task id="LOCAL-00064" summary="REviews">
+      <created>1614298228008</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1614298228008</updated>
+    </task>
+    <task id="LOCAL-00065" summary="REviews">
+      <created>1614298293169</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1614298293169</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +426,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-11/2/2021-DevilMaycryPag" />
     <MESSAGE value="Commit-11/2/2021-DevilMaycryPage" />
     <MESSAGE value="Commit-11/2/2021-ThelastofUsp2Page" />
     <MESSAGE value="Commit-11/2/2021-ProdDestaque" />
@@ -454,6 +450,7 @@
     <MESSAGE value="....." />
     <MESSAGE value="DevilMaycry-Resultado" />
     <MESSAGE value="DevilMaycry&amp;thelastofus" />
-    <option name="LAST_COMMIT_MESSAGE" value="DevilMaycry&amp;thelastofus" />
+    <MESSAGE value="REviews" />
+    <option name="LAST_COMMIT_MESSAGE" value="REviews" />
   </component>
 </project>
