@@ -142,58 +142,54 @@
 
                     <div class="row">
                         <div class="col-50">
-                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
-                            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
-                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
-                            <input type="text" id="email" name="email" placeholder="john@example.com">
-                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
-                            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
-                            <label for="city"><i class="fa fa-institution"></i> City</label>
-                            <input type="text" id="city" name="city" placeholder="New York">
+                            <label for="fname"><i class="fa fa-user"></i> Nome completo</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Seu nome">
+                            <label for="email"> Email</label>
+                            <input type="text" id="email" name="email" placeholder="Seu email">
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Morada</label>
+                            <input type="text" id="adr" name="address" placeholder="Seu endereço">
+                            <label for="city"><i class="fa fa-institution"></i> Cidade</label>
+                            <input type="text" id="city" name="city" placeholder="Sua cidade">
 
                             <div class="row">
                                 <div class="col-50">
-                                    <label for="state">State</label>
-                                    <input type="text" id="state" name="state" placeholder="NY">
-                                </div>
-                                <div class="col-50">
-                                    <label for="zip">Zip</label>
-                                    <input type="text" id="zip" name="zip" placeholder="10001">
+                                    <label for="zip"><i class="fa fa-envelope"></i> Código Postal</label>
+                                    <input type="text" id="zip" name="zip" placeholder="0000">
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-50">
-                            <label for="fname">Accepted Cards</label>
+                            <label for="fname">Cartões Aceitados</label>
                             <div class="icon-container">
                                 <i class="fa fa-cc-visa" style="color:navy;"></i>
                                 <i class="fa fa-cc-amex" style="color:blue;"></i>
                                 <i class="fa fa-cc-mastercard" style="color:red;"></i>
                                 <i class="fa fa-cc-discover" style="color:orange;"></i>
                             </div>
-                            <label for="cname">Name on Card</label>
-                            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-                            <label for="ccnum">Credit card number</label>
-                            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                            <label for="expmonth">Exp Month</label>
-                            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                            <label for="cname">Nome no cartão</label>
+                            <input type="text" id="cname" name="cardname" placeholder="Seu nome">
+                            <label for="ccnum">Número do cartão</label>
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="0000-0000-0000-0000">
+                            <label for="expmonth">Mês de expiração</label>
+                            <input type="text" id="expmonth" name="expmonth" placeholder="Mês">
                             <div class="row">
                                 <div class="col-50">
-                                    <label for="expyear">Exp Year</label>
-                                    <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                    <label for="expyear">Ano de expiração</label>
+                                    <input type="text" id="expyear" name="expyear" placeholder="0000">
                                 </div>
                                 <div class="col-50">
                                     <label for="cvv">CVV</label>
-                                    <input type="text" id="cvv" name="cvv" placeholder="352">
+                                    <input type="text" id="cvv" name="cvv" placeholder="000">
                                 </div>
                             </div>
                         </div>
 
                     </div>
                     <label>
-                        <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+                        <input type="checkbox" checked="checked" name="sameadr"> Endereço de entrega igual ao de pagamento
                     </label>
-                    <input type="submit" value="Continue to checkout" class="btn btn-danger">
+                    <input type="submit" value="Aplicar" class="btn btn-danger" style="width: 100%">
                 </form>
             </div>
             </div>
