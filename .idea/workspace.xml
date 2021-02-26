@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,13 +62,6 @@
       <workItem from="1614251571583" duration="471000" />
       <workItem from="1614280421617" duration="2132000" />
       <workItem from="1614290694613" duration="7544000" />
-    </task>
-    <task id="LOCAL-00021" summary="Commit-11/2/2021-ThelastofUsp2Page">
-      <created>1613085613768</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1613085613768</updated>
     </task>
     <task id="LOCAL-00022" summary="Commit-11/2/2021-ThelastofUsp2Page">
       <created>1613085652812</created>
@@ -408,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614344704156</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="ReviewsCrud">
+      <created>1614345160957</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1614345160957</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
