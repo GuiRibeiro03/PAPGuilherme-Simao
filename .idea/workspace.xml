@@ -64,13 +64,6 @@
       <workItem from="1614280421617" duration="2132000" />
       <workItem from="1614290694613" duration="7544000" />
     </task>
-    <task id="LOCAL-00017" summary="Commit-11/2/2021-DevilMaycryPage">
-      <created>1613084369903</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1613084369903</updated>
-    </task>
     <task id="LOCAL-00018" summary="Commit-11/2/2021-DevilMaycryPage">
       <created>1613084577811</created>
       <option name="number" value="00018" />
@@ -407,7 +400,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614298293169</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="checkout">
+      <created>1614342836252</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1614342836252</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +426,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-11/2/2021-DevilMaycryPage" />
     <MESSAGE value="Commit-11/2/2021-ThelastofUsp2Page" />
     <MESSAGE value="Commit-11/2/2021-ProdDestaque" />
     <MESSAGE value="LoginRegisterPage-12/2/2021" />
@@ -451,6 +450,7 @@
     <MESSAGE value="DevilMaycry-Resultado" />
     <MESSAGE value="DevilMaycry&amp;thelastofus" />
     <MESSAGE value="REviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="REviews" />
+    <MESSAGE value="checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkout" />
   </component>
 </project>

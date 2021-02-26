@@ -160,16 +160,16 @@
                         </div>
 
                         <div class="col-50">
-                            <label for="fname">Cartões Aceitados</label>
+                            <label for="fname"><i class="fa fa-credit-card"></i> Cartões Aceites</label>
                             <div class="icon-container">
                                 <i class="fa fa-cc-visa" style="color:navy;"></i>
                                 <i class="fa fa-cc-amex" style="color:blue;"></i>
                                 <i class="fa fa-cc-mastercard" style="color:red;"></i>
                                 <i class="fa fa-cc-discover" style="color:orange;"></i>
                             </div>
-                            <label for="cname">Nome no cartão</label>
+                            <label for="cname"><i class="fa fa-pencil" aria-hidden="true"></i> Nome no cartão</label>
                             <input type="text" id="cname" name="cardname" placeholder="Seu nome">
-                            <label for="ccnum">Número do cartão</label>
+                            <label for="ccnum"><i class="fa fa-credit-card"></i> Número do cartão</label>
                             <input type="text" id="ccnum" name="cardnumber" placeholder="0000-0000-0000-0000">
                             <label for="expmonth">Data de Expiração</label>
                             <input type="date" min="27-02-2021" id="expmonth" name="expmonth">
