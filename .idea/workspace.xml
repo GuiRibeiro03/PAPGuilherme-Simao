@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaAcessorio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaConsola.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Administracao.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +67,6 @@
       <workItem from="1614251571583" duration="471000" />
       <workItem from="1614280421617" duration="2132000" />
       <workItem from="1614290694613" duration="7544000" />
-    </task>
-    <task id="LOCAL-00019" summary="Commit-11/2/2021-DevilMaycryPage">
-      <created>1613085295706</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1613085295706</updated>
     </task>
     <task id="LOCAL-00020" summary="Commit-11/2/2021-ThelastofUsp2Page">
       <created>1613085402531</created>
@@ -407,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614343585058</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="carrinho">
+      <created>1614343875558</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1614343875558</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +430,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-11/2/2021-ThelastofUsp2Page" />
     <MESSAGE value="Commit-11/2/2021-ProdDestaque" />
     <MESSAGE value="LoginRegisterPage-12/2/2021" />
     <MESSAGE value="Commit-LoginModal" />
@@ -451,6 +454,7 @@
     <MESSAGE value="DevilMaycry&amp;thelastofus" />
     <MESSAGE value="REviews" />
     <MESSAGE value="checkout" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkout" />
+    <MESSAGE value="carrinho" />
+    <option name="LAST_COMMIT_MESSAGE" value="carrinho" />
   </component>
 </project>

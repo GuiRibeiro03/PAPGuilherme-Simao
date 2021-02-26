@@ -87,7 +87,7 @@
 
 
 <section class="store" style="padding:50px">
-    <a href="Administracao.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="acessorios.html"><button type="button" class="btn btn-danger">Voltar</button></a>
 
 <form action="ConfirmaNovoAcessorio.php" method="post" enctype="multipart/form-data">
     <label style="color:white">Nome: </label>
