@@ -76,10 +76,16 @@ h4 {
 
 h5 {
 	font-size: 25px;
+color: white;
 }
 
+
 h6 {
-	font-size: 25px;
+	font-size: 18px;
+}
+
+a{
+	color: #FFFFFF;
 }
 
 p {
