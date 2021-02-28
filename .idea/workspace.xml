@@ -76,20 +76,6 @@
       <workItem from="1614471596122" duration="344000" />
       <workItem from="1614540064654" duration="3598000" />
     </task>
-    <task id="LOCAL-00028" summary="LoginRegisterPage-12/2/2021">
-      <created>1613136348367</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1613136348367</updated>
-    </task>
-    <task id="LOCAL-00029" summary="LoginRegisterPage-12/2/2021">
-      <created>1613137436780</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1613137436780</updated>
-    </task>
     <task id="LOCAL-00030" summary="Commit-LoginModal">
       <created>1613476862948</created>
       <option name="number" value="00030" />
@@ -419,7 +405,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614547026262</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Font">
+      <created>1614547212888</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1614547212888</updated>
+    </task>
+    <task id="LOCAL-00078" summary="BGcolor">
+      <created>1614547357180</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1614547357180</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +438,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-ModalLogin|Register&#10;17/2/2021" />
     <MESSAGE value="Commit-AdicionaNoticia&#10;17/2/2021" />
     <MESSAGE value="Commit-11/2/2021" />
     <MESSAGE value="." />
@@ -463,6 +462,7 @@
     <MESSAGE value="Modal" />
     <MESSAGE value="Telemoveis" />
     <MESSAGE value="Font" />
-    <option name="LAST_COMMIT_MESSAGE" value="Font" />
+    <MESSAGE value="BGcolor" />
+    <option name="LAST_COMMIT_MESSAGE" value="BGcolor" />
   </component>
 </project>

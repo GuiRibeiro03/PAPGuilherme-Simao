@@ -138,18 +138,18 @@
         <div class="col-8">
             <div class="container" style="background-color: #e7e7e7">
                 <form action="/action_page.php">
-                    <span style="color: Black; font-size: 50px;"><strong>Endereço de Entrega |   Pagamento</strong></span>
+                    <span style="color: Black; font-size: 45px;"><strong>Endereço de Entrega   &nbsp;|&nbsp;&nbsp;   Pagamento</strong></span>
                     <hr>
                     <div class="row">
                         <div class="col-50">
                             <label for="fname"><i class="fa fa-user"></i> Nome completo</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Seu nome">
+                            <input type="text" id="fname" name="firstname" placeholder="O seu nome">
                             <label for="email"> Email</label>
-                            <input type="text" id="email" name="email" placeholder="Seu email">
+                            <input type="text" id="email" name="email" placeholder="O seu email">
                             <label for="adr"><i class="fa fa-address-card-o"></i> Morada</label>
-                            <input type="text" id="adr" name="address" placeholder="Seu endereço">
+                            <input type="text" id="adr" name="address" placeholder="O seu endereço">
                             <label for="city"><i class="fa fa-institution"></i> Cidade</label>
-                            <input type="text" id="city" name="city" placeholder="Sua cidade">
+                            <input type="text" id="city" name="city" placeholder="A sua cidade">
 
                             <div class="row">
                                 <div class="col-50">
@@ -168,7 +168,7 @@
                                 <i class="fa fa-cc-discover" style="color:orange;"></i>
                             </div>
                             <label for="cname"><i class="fa fa-pencil" aria-hidden="true"></i> Nome no cartão</label>
-                            <input type="text" id="cname" name="cardname" placeholder="Seu nome">
+                            <input type="text" id="cname" name="cardname" placeholder="O nome no seu cartão">
                             <label for="ccnum"><i class="fa fa-credit-card"></i> Número do cartão</label>
                             <input type="text" id="ccnum" name="cardnumber" placeholder="0000-0000-0000-0000" maxlength="19">
                             <label for="expmonth">Data de Expiração</label>
@@ -191,7 +191,7 @@
         <div class="col-4">
 
             <div class="container" style="background-color: #e7e7e7; ">
-                <span style="color: black; font-size: 50px; font-weight: bold">Finalizar:</span>
+                <span style="color: black; font-size: 45px; font-weight: bold">Finalizar:</span>
                 <hr>
                 <ul style="background-color: #e7e7e7; padding: 10px 20px;">
                     <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco"><strong>399,90€</strong></span>  <button style="float: right"><i class="fa fa-close" style="color: red"></i></button></span>
