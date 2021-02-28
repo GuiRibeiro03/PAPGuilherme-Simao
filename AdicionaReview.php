@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="shortcut icon" href="onbutton.ico">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 
     <script type='text/javascript'>
@@ -38,12 +38,15 @@
             }
             reader.readAsDataURL(event.target.files[0]);
         }
+
+
+
     </script>
 
 
 </head>
 
-<body  style="background-color: #0d0d0d;" >
+<body  style="background-color: #0d0d0d; height: 100%" >
 <!-- Page Preloder -->
 
 
@@ -87,31 +90,45 @@
 
     <a href="blog.html"><button type="button" class="btn btn-danger">Voltar</button></a>
 
-<form action="ConfirmaNovaNoticia.php" method="post" enctype="multipart/form-data">
-    <label style="color:white; width: 5%;">Titulo: </label>
-    <input type="text" name="noticiaNome" style="width: 50%;">
+<form action="ConfirmaNovaNoticia.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px">
+    <label style="color:white; width: 5%;">Titulo:</label>
+    <input type="text" name="noticiaNome" style="width: 20%; font-weight: bold">
     <br>
     <br>
 
 
-    <div id="wrapper">
+    <div id="wrapper" style="color: #FFFFFF">
         <input type="file" accept="image/*" onchange="preview_image(event)">
-        <img id="output_image"/>
+        <div style="height: 20px"></div>
+        <img style="border: 2px white" id="output_image"/>
     </div>
     <br>
 
-    <div class="row" style="height: 510px; width: 100%;">
-    <span style="color:white">Texto primário:</span>
+    <span >Review:</span>
+    <div class="row" style="color:white">
+
     <br>
-    <textarea name="texto1" required spellcheck="true"  cols="60" rows="20"></textarea>
-    <span style="color:white">Texto secundário:</span> <br><textarea  name="texto2"  spellcheck="true"  cols="60" rows="20"></textarea>
+        <textarea name="texto1"  rows="8"  cols="100" placeholder="Write your review here"></textarea>
+
+    </div>
+
+    <div class="row" style="color: #FFFFFF; padding-top: 40px;">
+        <span>Pontos Positivos:</span>
+   <textarea name="bons"  rows="8" cols="40"></textarea>
+<div style="width: 50px"></div>
+
+       <span>Pontos Negativos:</span>
+        <textarea name="maus"  rows="8" cols="40"></textarea>
+
     </div>
 
 
 <br>
 
     <input type="checkbox" name="tagProduto"><span style="color:white"> PlayStation</span> <input type="checkbox" name="tagProduto"><span style="color:white"> Computador</span> <input type="checkbox" name="tagProduto"><span style="color:white"> Gaming</span> <br>
-    <input type="Submit" value="Adiciona"><br>
+    <br>
+    <input type="Submit" value="Adicionar" style="width: 100px; height: 50px">
+
 
 
 </section>

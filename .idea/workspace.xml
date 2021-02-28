@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaSM.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,21 +67,8 @@
       <workItem from="1614290694613" duration="7544000" />
       <workItem from="1614348233551" duration="1045000" />
       <workItem from="1614467802795" duration="11000" />
-      <workItem from="1614471596122" duration="344000" />
-    </task>
-    <task id="LOCAL-00025" summary="Commit-11/2/2021">
-      <created>1613086945631</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1613086945631</updated>
-    </task>
-    <task id="LOCAL-00026" summary="LoginRegisterPage-12/2/2021">
-      <created>1613132315298</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1613132315298</updated>
+      <workItem from="1614471596122" duration="1177000" />
+      <workItem from="1614527341949" duration="2863000" />
     </task>
     <task id="LOCAL-00027" summary="LoginRegisterPage-12/2/2021">
       <created>1613136184303</created>
@@ -407,7 +399,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614471936332</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Header">
+      <created>1614472068922</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1614472068923</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Header">
+      <created>1614473382501</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1614473382501</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +432,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-16/2/2021" />
     <MESSAGE value="Commit-16/2/2021-Google Api" />
     <MESSAGE value="Commit-ModalLogin|Register&#10;17/2/2021" />
     <MESSAGE value="Commit-AdicionaNoticia&#10;17/2/2021" />
@@ -451,6 +456,7 @@
     <MESSAGE value="ReviewsCrud" />
     <MESSAGE value="h6,a" />
     <MESSAGE value="Modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modal" />
+    <MESSAGE value="Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header" />
   </component>
 </project>
