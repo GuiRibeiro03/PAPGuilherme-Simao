@@ -136,20 +136,20 @@
     <section class="latest-preview-section" style="height: 100%; width: 100%">
         <div class="row">
         <div class="col-8">
-            <div class="container" style="background-color: white">
+            <div class="container" style="background-color: #e7e7e7">
                 <form action="/action_page.php">
-                    <span style="color: Black; font-size: 50px;"><strong>Endereço de Entrega |   Pagamento</strong></span>
+                    <span style="color: Black; font-size: 45px;"><strong>Endereço de Entrega   &nbsp;|&nbsp;&nbsp;   Pagamento</strong></span>
                     <hr>
                     <div class="row">
                         <div class="col-50">
                             <label for="fname"><i class="fa fa-user"></i> Nome completo</label>
-                            <input type="text" id="fname" name="firstname" placeholder="Seu nome">
+                            <input type="text" id="fname" name="firstname" placeholder="O seu nome">
                             <label for="email"> Email</label>
-                            <input type="text" id="email" name="email" placeholder="Seu email">
+                            <input type="text" id="email" name="email" placeholder="O seu email">
                             <label for="adr"><i class="fa fa-address-card-o"></i> Morada</label>
-                            <input type="text" id="adr" name="address" placeholder="Seu endereço">
+                            <input type="text" id="adr" name="address" placeholder="O seu endereço">
                             <label for="city"><i class="fa fa-institution"></i> Cidade</label>
-                            <input type="text" id="city" name="city" placeholder="Sua cidade">
+                            <input type="text" id="city" name="city" placeholder="A sua cidade">
 
                             <div class="row">
                                 <div class="col-50">
@@ -168,9 +168,9 @@
                                 <i class="fa fa-cc-discover" style="color:orange;"></i>
                             </div>
                             <label for="cname"><i class="fa fa-pencil" aria-hidden="true"></i> Nome no cartão</label>
-                            <input type="text" id="cname" name="cardname" placeholder="Seu nome">
+                            <input type="text" id="cname" name="cardname" placeholder="O nome no seu cartão">
                             <label for="ccnum"><i class="fa fa-credit-card"></i> Número do cartão</label>
-                            <input type="text" id="ccnum" name="cardnumber" placeholder="0000-0000-0000-0000">
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="0000-0000-0000-0000" maxlength="19">
                             <label for="expmonth">Data de Expiração</label>
                             <input type="date" min="27-02-2021" id="expmonth" name="expmonth">
 
@@ -190,20 +190,20 @@
             </div>
         <div class="col-4">
 
-            <div class="container" style="background-color: white; ">
-                <span style="color: black; font-size: 50px; font-weight: bold">Finalizar:</span>
+            <div class="container" style="background-color: #e7e7e7; ">
+                <span style="color: black; font-size: 45px; font-weight: bold">Finalizar:</span>
                 <hr>
-                <ul style="background-color: white; padding: 10px 20px;">
+                <ul style="background-color: #e7e7e7; padding: 10px 20px;">
                     <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco"><strong>399,90€</strong></span>  <button style="float: right"><i class="fa fa-close" style="color: red"></i></button></span>
                     <p><input type="number" value="1" min="1" style="width: 50px; text-align: center"></p>
                     <hr>
                     <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco2"><strong>399,90€</strong></span>    <button style="float: right"><i class="fa fa-close" style="color: red"></i></button></span>
                     <p><input type="number" value="1" min="1" style="width: 50px; text-align: center"></p>
                     <hr>
-                    <span> Número de produtos: 2</span>
+                    <span> Número de produtos: <strong>2</strong></span>
                 </ul>
-                <input type="text" style="width: 360px; font-size: 30px; padding-top: 5px; font-weight: bold" placeholder="Código Promocional">     <a href="#"><button class="btn btn-danger" style="height: 67px; width: 100px;"> Aplicar</button></a> <br>
-                <span style="color: black; font-size: 40px; font-weight: bold">Total a pagar:&NonBreakingSpace;799.80€</span>
+                <input type="text" style="width: 40%; font-size: 18px; padding-top: 5px; font-weight: bold" placeholder="Código Promocional">&nbsp;<a href="#"><button type="submit" class="btn btn-danger" style="height: 49px; width: 100px;"> Aplicar</button></a> <br>
+                <span style="color: black; font-size: 30px; font-weight: bold">Total a pagar:&NonBreakingSpace;799.80€</span>
                 <br>
                 <a href="#"><button class="btn btn-danger" style="height: 50px; width: 80%; font-size: 20px">Finalizar Compra</button></a>
             </div>

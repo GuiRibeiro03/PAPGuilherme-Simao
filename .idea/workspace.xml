@@ -44,7 +44,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp\www\papGuiSimao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
     </key>
   </component>
@@ -76,7 +75,14 @@
       <workItem from="1614348233551" duration="1045000" />
       <workItem from="1614467802795" duration="11000" />
       <workItem from="1614471596122" duration="344000" />
-      <workItem from="1614540064654" duration="3910000" />
+      <workItem from="1614540064654" duration="3598000" />
+    </task>
+    <task id="LOCAL-00025" summary="Commit-11/2/2021">
+      <created>1613086945631</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1613086945631</updated>
     </task>
     <task id="LOCAL-00026" summary="LoginRegisterPage-12/2/2021">
       <created>1613132315298</created>
@@ -414,14 +420,7 @@
       <option name="project" value="LOCAL" />
       <updated>1614471936332</updated>
     </task>
-    <task id="LOCAL-00074" summary="outlet">
-      <created>1614545141803</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1614545141804</updated>
-    </task>
-    <option name="localTasksCounter" value="75" />
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,6 +439,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit-16/2/2021" />
     <MESSAGE value="Commit-16/2/2021-Google Api" />
     <MESSAGE value="Commit-ModalLogin|Register&#10;17/2/2021" />
     <MESSAGE value="Commit-AdicionaNoticia&#10;17/2/2021" />
@@ -464,7 +464,6 @@
     <MESSAGE value="ReviewsCrud" />
     <MESSAGE value="h6,a" />
     <MESSAGE value="Modal" />
-    <MESSAGE value="outlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="outlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modal" />
   </component>
 </project>
