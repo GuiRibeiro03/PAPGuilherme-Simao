@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaGOW.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaGOW.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaSM.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaTLoU2.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTLoU2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaTWH3.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTWH3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaUncharted4.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaUncharted4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,13 +75,6 @@
       <workItem from="1614467802795" duration="11000" />
       <workItem from="1614471596122" duration="344000" />
       <workItem from="1614540064654" duration="3598000" />
-    </task>
-    <task id="LOCAL-00033" summary="Commit-16/2/2021">
-      <created>1613492156631</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1613492156631</updated>
     </task>
     <task id="LOCAL-00034" summary="Commit-16/2/2021-Google Api">
       <created>1613500245338</created>
@@ -425,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614549193230</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Fonts">
+      <created>1614550644004</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1614550644004</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
