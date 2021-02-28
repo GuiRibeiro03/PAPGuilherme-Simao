@@ -170,7 +170,7 @@
                             <label for="cname"><i class="fa fa-pencil" aria-hidden="true"></i> Nome no cartão</label>
                             <input type="text" id="cname" name="cardname" placeholder="Seu nome">
                             <label for="ccnum"><i class="fa fa-credit-card"></i> Número do cartão</label>
-                            <input type="text" id="ccnum" name="cardnumber" placeholder="0000-0000-0000-0000">
+                            <input type="text" id="ccnum" name="cardnumber" placeholder="0000-0000-0000-0000" maxlength="19">
                             <label for="expmonth">Data de Expiração</label>
                             <input type="date" min="27-02-2021" id="expmonth" name="expmonth">
 
