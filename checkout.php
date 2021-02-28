@@ -200,10 +200,10 @@
                     <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco2"><strong>399,90€</strong></span>    <button style="float: right"><i class="fa fa-close" style="color: red"></i></button></span>
                     <p><input type="number" value="1" min="1" style="width: 50px; text-align: center"></p>
                     <hr>
-                    <span> Número de produtos: 2</span>
+                    <span> Número de produtos: <strong>2</strong></span>
                 </ul>
-                <input type="text" style="width: 360px; font-size: 30px; padding-top: 5px; font-weight: bold" placeholder="Código Promocional">     <a href="#"><button class="btn btn-danger" style="height: 67px; width: 100px;"> Aplicar</button></a> <br>
-                <span style="color: black; font-size: 40px; font-weight: bold">Total a pagar:&NonBreakingSpace;799.80€</span>
+                <input type="text" style="width: 40%; font-size: 18px; padding-top: 5px; font-weight: bold" placeholder="Código Promocional">&nbsp;<a href="#"><button type="submit" class="btn btn-danger" style="height: 49px; width: 100px;"> Aplicar</button></a> <br>
+                <span style="color: black; font-size: 30px; font-weight: bold">Total a pagar:&NonBreakingSpace;799.80€</span>
                 <br>
                 <a href="#"><button class="btn btn-danger" style="height: 50px; width: 80%; font-size: 20px">Finalizar Compra</button></a>
             </div>
