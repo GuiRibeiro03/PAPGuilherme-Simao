@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outlet.html" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,69 +75,6 @@
       <workItem from="1614467802795" duration="11000" />
       <workItem from="1614471596122" duration="344000" />
       <workItem from="1614540064654" duration="3598000" />
-    </task>
-    <task id="LOCAL-00025" summary="Commit-11/2/2021">
-      <created>1613086945631</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1613086945631</updated>
-    </task>
-    <task id="LOCAL-00026" summary="LoginRegisterPage-12/2/2021">
-      <created>1613132315298</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1613132315298</updated>
-    </task>
-    <task id="LOCAL-00027" summary="LoginRegisterPage-12/2/2021">
-      <created>1613136184303</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1613136184303</updated>
-    </task>
-    <task id="LOCAL-00028" summary="LoginRegisterPage-12/2/2021">
-      <created>1613136348367</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1613136348367</updated>
-    </task>
-    <task id="LOCAL-00029" summary="LoginRegisterPage-12/2/2021">
-      <created>1613137436780</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1613137436780</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Commit-LoginModal">
-      <created>1613476862948</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1613476862948</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Commit-16/2/2021">
-      <created>1613491755082</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1613491755082</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Commit-16/2/2021">
-      <created>1613491909682</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1613491909682</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Commit-16/2/2021">
-      <created>1613492156631</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1613492156631</updated>
     </task>
     <task id="LOCAL-00034" summary="Commit-16/2/2021-Google Api">
       <created>1613500245338</created>
@@ -420,7 +356,70 @@
       <option name="project" value="LOCAL" />
       <updated>1614471936332</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Telemoveis">
+      <created>1614545613773</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1614545613773</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Font">
+      <created>1614546698390</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1614546698390</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Font">
+      <created>1614547026262</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1614547026262</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Font">
+      <created>1614547212888</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1614547212888</updated>
+    </task>
+    <task id="LOCAL-00078" summary="BGcolor">
+      <created>1614547357180</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1614547357180</updated>
+    </task>
+    <task id="LOCAL-00079" summary="BGcolor">
+      <created>1614547520245</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1614547520245</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Fonts">
+      <created>1614548860900</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1614548860900</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Fonts">
+      <created>1614549193230</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1614549193230</updated>
+    </task>
+    <task id="LOCAL-00082" summary="Fonts">
+      <created>1614550644004</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1614550644004</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,10 +438,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-16/2/2021" />
-    <MESSAGE value="Commit-16/2/2021-Google Api" />
-    <MESSAGE value="Commit-ModalLogin|Register&#10;17/2/2021" />
-    <MESSAGE value="Commit-AdicionaNoticia&#10;17/2/2021" />
     <MESSAGE value="Commit-11/2/2021" />
     <MESSAGE value="." />
     <MESSAGE value="Administracao" />
@@ -464,6 +459,10 @@
     <MESSAGE value="ReviewsCrud" />
     <MESSAGE value="h6,a" />
     <MESSAGE value="Modal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modal" />
+    <MESSAGE value="Telemoveis" />
+    <MESSAGE value="Font" />
+    <MESSAGE value="BGcolor" />
+    <MESSAGE value="Fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fonts" />
   </component>
 </project>
