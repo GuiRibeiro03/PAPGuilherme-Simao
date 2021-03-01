@@ -52,7 +52,18 @@
 
 
 
+<style>
+    input[type=text] {
+        width: 130px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
 
+    /* When the input field gets focus, change its width to 100% */
+    input[type=text]:focus {
+        width: 40%;
+    }
+</style>
 
 
 
@@ -178,7 +189,13 @@
                     <li><a href="blog.html"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Blog</strong> </span></a></li>
 
 
+
+
+
+
                 </ul>
+                <input type="text" name="search" placeholder="Search.." style="margin-top: 20px">
+
             </div>
         </div>
     </div>

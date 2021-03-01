@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acessorios.html" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consolas.html" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogos.html" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,20 +80,7 @@
       <workItem from="1614467802795" duration="11000" />
       <workItem from="1614471596122" duration="344000" />
       <workItem from="1614540064654" duration="3598000" />
-    </task>
-    <task id="LOCAL-00034" summary="Commit-16/2/2021-Google Api">
-      <created>1613500245338</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1613500245338</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Commit-ModalLogin|Register&#10;17/2/2021">
-      <created>1613557287620</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1613557287620</updated>
+      <workItem from="1614607894361" duration="1011000" />
     </task>
     <task id="LOCAL-00036" summary="Commit-ModalLogin|Register&#10;17/2/2021">
       <created>1613557422333</created>
@@ -419,7 +411,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614550644004</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Fonts">
+      <created>1614551011069</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1614551011069</updated>
+    </task>
+    <task id="LOCAL-00084" summary="blogDisposição">
+      <created>1614551170968</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1614551170968</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +444,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-11/2/2021" />
     <MESSAGE value="." />
     <MESSAGE value="Administracao" />
     <MESSAGE value="Login|Register-Google" />
@@ -463,6 +468,7 @@
     <MESSAGE value="Font" />
     <MESSAGE value="BGcolor" />
     <MESSAGE value="Fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fonts" />
+    <MESSAGE value="blogDisposição" />
+    <option name="LAST_COMMIT_MESSAGE" value="blogDisposição" />
   </component>
 </project>
