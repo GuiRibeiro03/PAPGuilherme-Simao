@@ -75,7 +75,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="./index.html"><img src="gameOn.png" alt=""></a>
+                    <a href="./index.php"><img src="gameOn.png" alt=""></a>
                 </div>
             </div>
         </div>

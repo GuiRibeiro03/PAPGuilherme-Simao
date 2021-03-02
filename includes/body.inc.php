@@ -129,7 +129,7 @@ function top(){
         <div class="logo">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="./index.html"><img src="gameOn.png" alt=""></a>
+                    <a href="./index.php"><img src="gameOn.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -146,21 +146,21 @@ function top(){
                  </div> -->
                 <div class="nav-menu" >
                     <ul>
-                        <li class="active"><a href="./index.html"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Home</strong></span></a></li>
+                        <li class="active"><a href="./index.php"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Home</strong></span></a></li>
                         <li><a href="#"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
                             <div class="dropdown">
                                 <ul>
                                     <li><a href="consolas.html">Consolas</a></li>
-                                    <li><a href="jogos.html">Jogos</a></li>
+                                    <li><a href="jogos.php">Jogos</a></li>
                                     <li><a href="acessorios.html">Acessórios</a></li>
-                                    <li><a href="outlet.html">Outlet</a></li>
+                                    <li><a href="outlet.php">Outlet</a></li>
                                 </ul>
                             </div>
                         </li>
 
 
 
-                        <li><a href="reviews.html"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Reviews</strong> </span></a></li>
+                        <li><a href="reviews.php"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Reviews</strong> </span></a></li>
 
                         <li><a href="blog.php"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Blog</strong> </span></a></li>
 

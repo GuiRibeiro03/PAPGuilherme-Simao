@@ -78,7 +78,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="./index.html"><img src="gameOn.png" alt=""></a>
+                    <a href="./index.php"><img src="gameOn.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -88,7 +88,7 @@
 
 <section class="store" style="padding:50px">
 
-    <a href="jogos.html"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="jogos.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
 <form action="ConfirmaNovoJogo.php" method="post" enctype="multipart/form-data">
     <label style="color:white">Nome: </label>
