@@ -152,7 +152,7 @@ function top(){
                                 <ul>
                                     <li><a href="consolas.php">Consolas</a></li>
                                     <li><a href="jogos.php">Jogos</a></li>
-                                    <li><a href="acessorios.html">Acessórios</a></li>
+                                    <li><a href="acessorios.php">Acessórios</a></li>
                                     <li><a href="outlet.php">Outlet</a></li>
                                 </ul>
                             </div>
