@@ -92,15 +92,26 @@
     <input type="text" name="produtoNome" style="width: 20%"><br>
 
 
-    <div id="wrapper">
-        <label style="color:white">Imagem:</label>
+        <span style="color:white">Imagem principal:</span>
         <input type="file" accept="image/*" onchange="preview_image(event)">
         <img id="output_image"/>
-    </div>
+  <br>
 
 
     <span style="color:white">Preço original:</span>
     <input type="number" name="originalPreco"><br>
+    <span style="color: white">Descrição do produto:</span>
+    <input type="text" name="produtoDescricao" style="width: 50%"><br>
+        <span style="color:white">Imagens de apresentação:</span>
+    <br>
+        <input type="file" accept="image/*" onchange="preview_image(event)">
+        <img id="output_image"/>
+    <br>
+        <input type="file" accept="image/*" onchange="preview_image(event)">
+        <img id="output_image"/>
+    <br>
+        <input type="file" accept="image/*" onchange="preview_image(event)">
+        <img id="output_image"/> <br>
     <span style="color:white">Seu preço:</span>
     <input type="number" name="produtoPreco"><br>
     <span style="color: white">Nome do vendedor</span>
