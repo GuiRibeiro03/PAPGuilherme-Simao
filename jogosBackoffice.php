@@ -22,7 +22,7 @@ top();
     <th colspan="2">Opções</th>
 </tr>
 
-<tr style="margin-top: 20px">
+<tr >
 <td>#1</td>
 
 <td>Nome do Jogo</td>
