@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
+      <change afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,14 +80,7 @@
       <workItem from="1614607894361" duration="4687000" />
       <workItem from="1614617846210" duration="175000" />
       <workItem from="1614620496465" duration="757000" />
-      <workItem from="1614678868101" duration="696000" />
-    </task>
-    <task id="LOCAL-00041" summary="Login|Register-Google">
-      <created>1613608327152</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1613608327152</updated>
+      <workItem from="1614678868101" duration="2430000" />
     </task>
     <task id="LOCAL-00042" summary="Login|Register-Google">
       <created>1613609358308</created>
@@ -425,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614621210663</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="Carrinho Fica por cima das noticias pk o Orlando é um génio">
+      <created>1614679754014</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1614679754014</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +444,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Login|Register-Google" />
     <MESSAGE value="MoreloginNRegister" />
     <MESSAGE value="Grease" />
     <MESSAGE value=".." />
@@ -469,6 +468,7 @@
     <MESSAGE value="blogDisposição" />
     <MESSAGE value="Search Bar|Menu|Butão Outlet" />
     <MESSAGE value="adwwa" />
-    <option name="LAST_COMMIT_MESSAGE" value="adwwa" />
+    <MESSAGE value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
   </component>
 </project>
