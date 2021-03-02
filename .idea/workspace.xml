@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
+      <change beforePath="$PROJECT_DIR$/jogos.html" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogosBackoffice.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,13 +80,6 @@
       <workItem from="1614617846210" duration="175000" />
       <workItem from="1614620496465" duration="757000" />
       <workItem from="1614678868101" duration="2430000" />
-    </task>
-    <task id="LOCAL-00050" summary="....">
-      <created>1614164889054</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1614164889054</updated>
     </task>
     <task id="LOCAL-00051" summary="......">
       <created>1614165456368</created>
@@ -421,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614690539483</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="Backoffice-EM BRANCO">
+      <created>1614690836324</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1614690836324</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=".." />
     <MESSAGE value="...." />
     <MESSAGE value="......" />
     <MESSAGE value="FIle-WHAT TO DO" />
@@ -465,6 +467,7 @@
     <MESSAGE value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
     <MESSAGE value="Funções TOP e BOTTOM" />
     <MESSAGE value="Backoffice" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backoffice" />
+    <MESSAGE value="Backoffice-EM BRANCO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backoffice-EM BRANCO" />
   </component>
 </project>
