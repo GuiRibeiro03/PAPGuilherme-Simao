@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
+      <change afterPath="$PROJECT_DIR$/EditaJogo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaAnuncio.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaAnuncio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogosBackoffice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +34,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,13 +82,6 @@
       <workItem from="1614617846210" duration="175000" />
       <workItem from="1614620496465" duration="757000" />
       <workItem from="1614678868101" duration="2430000" />
-    </task>
-    <task id="LOCAL-00045" summary="Grease">
-      <created>1613732981667</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1613732981667</updated>
     </task>
     <task id="LOCAL-00046" summary="Grease">
       <created>1613733138037</created>
@@ -424,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614684943407</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Backoffice">
+      <created>1614686075248</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1614686075248</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
