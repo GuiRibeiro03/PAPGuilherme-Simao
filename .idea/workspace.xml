@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
-      <change beforePath="$PROJECT_DIR$/jogos.html" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/.bowerrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/authentication_with_backends.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/authorization_client.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/authorization_server.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/introduction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +46,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M18" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -80,13 +94,8 @@
       <workItem from="1614617846210" duration="175000" />
       <workItem from="1614620496465" duration="757000" />
       <workItem from="1614678868101" duration="2430000" />
-    </task>
-    <task id="LOCAL-00051" summary="......">
-      <created>1614165456368</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1614165456368</updated>
+      <workItem from="1614693939637" duration="28000" />
+      <workItem from="1614700482473" duration="340000" />
     </task>
     <task id="LOCAL-00052" summary="FIle-WHAT TO DO">
       <created>1614252035165</created>
@@ -424,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614690836324</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Backoffice-EM BRANCO">
+      <created>1614691289666</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1614691289666</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +459,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="...." />
     <MESSAGE value="......" />
     <MESSAGE value="FIle-WHAT TO DO" />
     <MESSAGE value="Carrinho" />
@@ -468,6 +483,7 @@
     <MESSAGE value="Funções TOP e BOTTOM" />
     <MESSAGE value="Backoffice" />
     <MESSAGE value="Backoffice-EM BRANCO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Backoffice-EM BRANCO" />
+    <MESSAGE value="Backoffice-EM PRETO" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backoffice-EM PRETO" />
   </component>
 </project>

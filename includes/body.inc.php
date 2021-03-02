@@ -162,7 +162,8 @@ function top(){
 
                         <li><a href="reviews.html"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Reviews</strong> </span></a></li>
 
-                        <li><a href="blog.html"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Blog</strong> </span></a></li>
+                        <li><a href="blog.php"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Blog</strong> </span></a></li>
+
 
 
                     </ul>
