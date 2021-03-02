@@ -86,7 +86,7 @@
 
 <section class="store" style="padding:50px">
 
-    <a href="consolas.html"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="consolas.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 <form action="ConfirmaNovaConsola.php" method="post" enctype="multipart/form-data">
     <label style="color:white">Nome: </label>
     <input type="text" name="consolaNome"><br>

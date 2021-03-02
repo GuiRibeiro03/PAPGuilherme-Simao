@@ -288,7 +288,7 @@ top();
                                     </div>
                                 </div>
                                 <div class="bp-text">
-                                    <h6><a href="criticaUncharted4.html">Uncharted 4</a></h6>
+                                    <h6><a href="criticaUncharted4.php">Uncharted 4</a></h6>
                                     <ul>
                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                         <li><i class="fa fa-comment-o"></i> 20</li>
@@ -306,7 +306,7 @@ top();
                                     </div>
                                 </div>
                                 <div class="bp-text">
-                                    <h6><a href="criticaSM.html">Marvel's Spider-Man</a></h6>
+                                    <h6><a href="criticaSM.php">Marvel's Spider-Man</a></h6>
                                     <ul>
                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                         <li><i class="fa fa-comment-o"></i> 20</li>
@@ -425,7 +425,7 @@ top();
                                     </div>
                                 </div>
                                 <div class="bp-text">
-                                    <h6><a href="criticaGOW.html">God of War</a></h6>
+                                    <h6><a href="criticaGOW.php">God of War</a></h6>
                                     <ul>
                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                         <li><i class="fa fa-comment-o"></i> 20</li>
@@ -461,7 +461,7 @@ top();
                                     </div>
                                 </div>
                                 <div class="bp-text">
-                                    <h6><a href="criticaTLoU2.html">The Last of Us 2</a></h6>
+                                    <h6><a href="criticaTLoU2.php">The Last of Us 2</a></h6>
                                     <ul>
                                         <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
                                         <li><i class="fa fa-comment-o"></i> 20</li>
@@ -523,7 +523,7 @@ top();
 
                         <div class="ec-item">
                             <div class="lp-item">
-                                <a href="criticaGOW.html"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/godofwar.jpg">
+                                <a href="criticaGOW.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/godofwar.jpg">
                                     <div class="review-loader">
                                         <div class="loader-circle-wrap">
                                             <div class="loader-circle">
@@ -535,7 +535,7 @@ top();
                                     </div>
                                 </div></a>
                                 <div class="lp-text">
-                                    <h5><a href="criticaGOW.html">God Of War</a></h5>
+                                    <h5><a href="criticaGOW.php">God Of War</a></h5>
                         </div>
                             </div>
                         </div>
@@ -544,7 +544,7 @@ top();
 
 
                             <div class="lp-item">
-                                <a href="criticaTLoU2.html"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/thelastofus2.jpg">
+                                <a href="criticaTLoU2.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/thelastofus2.jpg">
                                     <div class="review-loader">
                                         <div class="loader-circle-wrap">
                                             <div class="loader-circle">
@@ -556,7 +556,7 @@ top();
                                     </div>
                                 </div>
                                 <div class="lp-text">
-                                    <h5><a href="criticaTLoU2.html">The Last of Us 2</a></h5>
+                                    <h5><a href="criticaTLoU2.php">The Last of Us 2</a></h5>
 
                             </div></a>
                             </div>

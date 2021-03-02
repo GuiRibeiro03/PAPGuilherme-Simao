@@ -85,7 +85,7 @@
 
 <section class="store" style="padding:50px">
 
-    <a href="blog.html"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="blog.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
 <form action="ConfirmaNovaNoticia.php" method="post" enctype="multipart/form-data">
     <label style="color:white; width: 5%;">Titulo: </label>

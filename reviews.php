@@ -12,7 +12,7 @@ top();
             <div class="lp-item">
                 <div style="text-align: center"> <button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
                     <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
-                <a href="criticaSM.html"><div class="lp-pic set-bg"  data-setbg="img/reviewIMG/spiderman.jpg">
+                <a href="criticaSM.php"><div class="lp-pic set-bg"  data-setbg="img/reviewIMG/spiderman.jpg">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
                                 <div class="loader-circle">
@@ -24,7 +24,7 @@ top();
                         </div>
                     </div></a>
                 <div class="lp-text">
-                    <h6><a href="criticaSM.html" style="color: white">Marvel's Spider-Man</a></h6>
+                    <h6><a href="criticaSM.php" style="color: white">Marvel's Spider-Man</a></h6>
                     <ul>
                         <li><i class="fa fa-clock-o"></i> Set 07, 2018</li>
                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -38,7 +38,7 @@ top();
             <div class="lp-item" >
                 <div style="text-align: center"> <button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
                     <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
-                <a href="criticaGOW.html"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/godofwar.jpg">
+                <a href="criticaGOW.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/godofwar.jpg">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
                                 <div class="loader-circle">
@@ -50,7 +50,7 @@ top();
                         </div>
                     </div></a>
                 <div class="lp-text">
-                    <h6><a href="criticaGOW.html">God Of War</a></h6>
+                    <h6><a href="criticaGOW.php">God Of War</a></h6>
                     <ul>
                         <li><i class="fa fa-clock-o"></i> Abril 20 , 2018</li>
                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -64,7 +64,7 @@ top();
             <div class="lp-item">
                 <div style="text-align: center"> <button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
                     <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
-                <a href="criticaTLoU2.html"><div class="lp-pic set-bg" data-setbg="img/reviewIMG/thelastofus2.jpg">
+                <a href="criticaTLoU2.php"><div class="lp-pic set-bg" data-setbg="img/reviewIMG/thelastofus2.jpg">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
                                 <div class="loader-circle">
@@ -76,7 +76,7 @@ top();
                         </div>
                     </div></a>
                 <div class="lp-text">
-                    <h6><a href="criticaTLoU2.html">The Last of Us 2</a></h6>
+                    <h6><a href="criticaTLoU2.php">The Last of Us 2</a></h6>
                     <ul>
                         <li><i class="fa fa-clock-o"></i> Jun 19, 2020</li>
                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -89,7 +89,7 @@ top();
             <div class="lp-item " style=" padding-top:40px">
                 <div style="text-align: center"> <button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
                     <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
-                <a href="criticaUncharted4.html"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/uncharted4mini.jpg">
+                <a href="criticaUncharted4.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/uncharted4mini.jpg">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
                                 <div class="loader-circle">
@@ -101,7 +101,7 @@ top();
                         </div>
                     </div></a>
                 <div class="lp-text">
-                    <h6><a href="criticaUncharted4.html">Uncharted 4: A Thief's End</a></h6>
+                    <h6><a href="criticaUncharted4.php">Uncharted 4: A Thief's End</a></h6>
                     <ul>
                         <li><i class="fa fa-clock-o"></i> Jun 19, 2016</li>
                         <li><i class="fa fa-comment-o"></i> 12</li>
@@ -115,7 +115,7 @@ top();
             <div class="lp-item" style=" padding-top:40px">
                 <div style="text-align: center"> <button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
                     <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
-                <a href="criticaTWH3.html"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/thewitcher3.jpg">
+                <a href="criticaTWH3.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/thewitcher3.jpg">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
                                 <div class="loader-circle">
@@ -127,7 +127,7 @@ top();
                         </div>
                     </div></a>
                 <div class="lp-text">
-                    <h6><a href="criticaTWH3.html">The Witcher 3: Wild Hunt</a></h6>
+                    <h6><a href="criticaTWH3.php">The Witcher 3: Wild Hunt</a></h6>
                     <ul>
                         <li><i class="fa fa-clock-o"></i> Jun 13, 2015</li>
                         <li><i class="fa fa-comment-o"></i> 230</li>

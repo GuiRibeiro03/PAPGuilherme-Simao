@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
-      <change afterPath="$PROJECT_DIR$/TheLastofUs2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaAnuncio.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaAnuncio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevilMayCry.html" beforeDir="false" afterPath="$PROJECT_DIR$/DevilMayCry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheLastofUs2.html" beforeDir="false" afterPath="$PROJECT_DIR$/TheLastofUs2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaConsola.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheLastofUs2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/acessorios.html" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog1.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog1.html" afterDir="false" />
@@ -20,16 +16,15 @@
       <change beforePath="$PROJECT_DIR$/blog6.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog6.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blogTagExemplo.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogTagExemplo.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consolas.html" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaGOW.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaGOW.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaSM.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaTLoU2.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTLoU2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaTWH3.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTWH3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/criticaUncharted4.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaUncharted4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consolas.html" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaGOW.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaGOW.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaSM.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaTLoU2.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTLoU2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaTWH3.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTWH3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaUncharted4.html" beforeDir="false" afterPath="$PROJECT_DIR$/criticaUncharted4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos.html" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,14 +110,7 @@
       <workItem from="1614620496465" duration="757000" />
       <workItem from="1614678868101" duration="2430000" />
       <workItem from="1614693939637" duration="28000" />
-      <workItem from="1614700482473" duration="3320000" />
-    </task>
-    <task id="LOCAL-00053" summary="Carrinho">
-      <created>1614281814987</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1614281814987</updated>
+      <workItem from="1614700482473" duration="5393000" />
     </task>
     <task id="LOCAL-00054" summary="Reviews">
       <created>1614288100137</created>
@@ -460,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614701078463</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Includes">
+      <created>1614704295585</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1614704295585</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

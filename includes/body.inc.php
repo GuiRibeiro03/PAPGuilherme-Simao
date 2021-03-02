@@ -150,7 +150,7 @@ function top(){
                         <li><a href="#"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
                             <div class="dropdown">
                                 <ul>
-                                    <li><a href="consolas.html">Consolas</a></li>
+                                    <li><a href="consolas.php">Consolas</a></li>
                                     <li><a href="jogos.php">Jogos</a></li>
                                     <li><a href="acessorios.html">Acessórios</a></li>
                                     <li><a href="outlet.php">Outlet</a></li>
