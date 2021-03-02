@@ -39,6 +39,40 @@
             }
             reader.readAsDataURL(event.target.files[0]);
         }
+
+        function preview_image2(event)
+        {
+            var reader = new FileReader();
+            reader.onload = function()
+            {
+                var output = document.getElementById('output_image2');
+                output.src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+
+        function preview_image3(event)
+        {
+            var reader = new FileReader();
+            reader.onload = function()
+            {
+                var output = document.getElementById('output_image3');
+                output.src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+
+        function preview_image4(event)
+        {
+            var reader = new FileReader();
+            reader.onload = function()
+            {
+                var output = document.getElementById('output_image4');
+                output.src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+
     </script>
 
 </head>
@@ -92,31 +126,58 @@
     <input type="text" name="produtoNome" style="width: 20%"><br>
 
 
-        <span style="color:white">Imagem principal:</span>
-        <input type="file" accept="image/*" onchange="preview_image(event)">
-        <img id="output_image"/>
-  <br>
+
 
 
     <span style="color:white">Preço original:</span>
     <input type="number" name="originalPreco"><br>
+
+
+<div style="margin-top: 20px">
     <span style="color: white">Descrição do produto:</span>
-    <input type="text" name="produtoDescricao" style="width: 50%"><br>
+    <textarea cols="50" rows="10" name="produtoDescricao"></textarea>
+    </div>
+    <br>
+
+    <div style="margin-top:20px; margin-bottom: 20px; color:white">
+    <span >Imagem principal:</span>
+    <input type="file" accept="image/*" onchange="preview_image(event)">
+        <div style="margin-top: 20px; margin-left: 20px">
+            <img id="output_image"/>
+            <img id="output_image2"/>
+            <img id="output_image3"/>
+            <img id="output_image4"/>
+        </div>
+    </div>
+    <br>
+
         <span style="color:white">Imagens de apresentação:</span>
+    <div class="row" style="margin-top: 30px; margin-bottom: 30px; margin-left: 5px; color: white">
     <br>
-        <input type="file" accept="image/*" onchange="preview_image(event)">
-        <img id="output_image"/>
-    <br>
-        <input type="file" accept="image/*" onchange="preview_image(event)">
-        <img id="output_image"/>
-    <br>
-        <input type="file" accept="image/*" onchange="preview_image(event)">
-        <img id="output_image"/> <br>
+        <div>
+        <input type="file" accept="image/*" onchange="preview_image2(event)">
+
+         </div>
+
+        <div>
+            <input type="file" accept="image/*" onchange="preview_image3(event)">
+
+        </div>
+
+        <div>
+            <input type="file" accept="image/*" onchange="preview_image4(event)">
+
+        </div>
+
+
+    </div>
+
     <span style="color:white">Seu preço:</span>
-    <input type="number" name="produtoPreco"><br>
-    <span style="color: white">Nome do vendedor</span>
-    <input type="text" value="nome" readonly style="width: 250px"><br>
-    <input type="Submit" value="Adiciona"><br>
+    <input type="number" name="produtoPreco" style="margin-bottom: 20px"><br>
+    <input type="Submit" style="width: 100px;"><br>
+
+</form>
+
 </section>
 
 

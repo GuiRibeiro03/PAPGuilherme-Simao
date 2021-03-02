@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaAnuncio.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaAnuncio.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,13 +80,6 @@
       <workItem from="1614617846210" duration="175000" />
       <workItem from="1614620496465" duration="757000" />
       <workItem from="1614678868101" duration="2430000" />
-    </task>
-    <task id="LOCAL-00044" summary="..">
-      <created>1613647273562</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1613647273562</updated>
     </task>
     <task id="LOCAL-00045" summary="Grease">
       <created>1613732981667</created>
@@ -424,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614684171127</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="Backoffice">
+      <created>1614684943407</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1614684943407</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

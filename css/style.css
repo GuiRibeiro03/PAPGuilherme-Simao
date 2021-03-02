@@ -4568,7 +4568,10 @@ body
 	padding:0px;
 	width:500px;
 }
-#output_image
+#output_image,
+#output_image2,
+#output_image3,
+#output_image4
 {
 	max-width:300px;
 
