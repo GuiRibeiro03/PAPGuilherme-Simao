@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
+      <change afterPath="$PROJECT_DIR$/AdicionaAnuncio.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdicionaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaReview.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews.html" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\papGuiSimao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
     </key>
   </component>
@@ -78,7 +78,14 @@
       <workItem from="1614467802795" duration="11000" />
       <workItem from="1614471596122" duration="344000" />
       <workItem from="1614540064654" duration="3598000" />
-      <workItem from="1614607894361" duration="3776000" />
+      <workItem from="1614607894361" duration="2354000" />
+    </task>
+    <task id="LOCAL-00038" summary="..">
+      <created>1613564388189</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1613564388189</updated>
     </task>
     <task id="LOCAL-00039" summary=".">
       <created>1613564991193</created>
@@ -416,14 +423,7 @@
       <option name="project" value="LOCAL" />
       <updated>1614609529859</updated>
     </task>
-    <task id="LOCAL-00087" summary="Search Bar|Menu|Butão Outlet">
-      <created>1614610437802</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1614610437802</updated>
-    </task>
-    <option name="localTasksCounter" value="88" />
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
