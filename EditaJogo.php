@@ -3,7 +3,7 @@ include_once ("includes/body.inc.php");
 top();
 ?>
 <form action="confirmaEditaJogo.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
-    <a href="jogosBackoffice.php"><button type="button" class="btn btn-primary"></button></a>
+    <a href="jogosBackoffice.php"><button type="button" class="btn btn-primary" value="Voltar"></button></a>
 <h2>Editar Jogo</h2>
 <hr>
     <div><img id="output_image" src="img/jogos/cyberpunk2077.png" style="margin-left: 20px; margin-bottom: 20px"/></div>

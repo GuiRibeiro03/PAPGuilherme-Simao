@@ -6,10 +6,11 @@ top();
 
 
 
-<table class="table-striped" style="color: black; background-color: #FFFFFF; font-weight: bold; width: 100%; margin-left: 20px">
+<table class="table-striped" style=" color: #FFFFFF; font-weight: bold; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px">
+
 
 <tr>
-<td colspan="3" style="margin-bottom: 10px">
+<td colspan="3" style="margin-bottom: 30px">
 <a href="AdicionaJogo.php" style="color: black">Adicionar</a>
 </td>
 </tr>
@@ -27,8 +28,9 @@ top();
 <td>Nome do Jogo</td>
 <td><img src="img/jogos/cyberpunk2077.png" style="width: 220px; height: 210px"></td>
 <td>69,90€</td>
-<td style="color: black"><a href="EditaJogo.php"><i class="fa fa-edit"></i>Editar</a></td>
-<td style="color: black"><a href="#" onclick="confirmaElimina(1)"><i class="fa fa-close"></i>Remover</a></td>
+
+    <td><a href="EditaJogo.php"><i class="fa fa-edit"></i>Editar</a></td>
+    <td><a href="#" onclick="confirmaElimina(1)"><i class="fa fa-close"></i>Remover</a></td>
 
 
 
