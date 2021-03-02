@@ -27,8 +27,10 @@ top();
 <td>Nome do Jogo</td>
 <td><img src="img/jogos/cyberpunk2077.png" style="width: 220px; height: 210px"></td>
 <td>69,90€</td>
-<td><a href="EditaJogo.php">Editar</a></td>
-<td><a href="#" onclick="confirmaElimina(1)">Remover</a></td>
+<td style="color: black"><a href="EditaJogo.php"><i class="fa fa-edit"></i>Editar</a></td>
+<td style="color: black"><a href="#" onclick="confirmaElimina(1)"><i class="fa fa-close"></i>Remover</a></td>
+
+
 
 </tr>
 
