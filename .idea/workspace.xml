@@ -81,20 +81,6 @@
       <workItem from="1614620496465" duration="757000" />
       <workItem from="1614678868101" duration="2430000" />
     </task>
-    <task id="LOCAL-00042" summary="Login|Register-Google">
-      <created>1613609358308</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1613609358308</updated>
-    </task>
-    <task id="LOCAL-00043" summary="MoreloginNRegister">
-      <created>1613609472141</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1613609472141</updated>
-    </task>
     <task id="LOCAL-00044" summary="..">
       <created>1613647273562</created>
       <option name="number" value="00044" />
@@ -424,7 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614679754014</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="Funções TOP e BOTTOM">
+      <created>1614684081760</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1614684081760</updated>
+    </task>
+    <task id="LOCAL-00092" summary="Backoffice">
+      <created>1614684171127</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1614684171127</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,8 +443,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="MoreloginNRegister" />
-    <MESSAGE value="Grease" />
     <MESSAGE value=".." />
     <MESSAGE value="...." />
     <MESSAGE value="......" />
@@ -468,6 +466,8 @@
     <MESSAGE value="Search Bar|Menu|Butão Outlet" />
     <MESSAGE value="adwwa" />
     <MESSAGE value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
+    <MESSAGE value="Funções TOP e BOTTOM" />
+    <MESSAGE value="Backoffice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Backoffice" />
   </component>
 </project>
