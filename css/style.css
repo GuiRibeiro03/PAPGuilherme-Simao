@@ -40,6 +40,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	background-color: #0d0d0d;
+	background-color: #0d0d0d;
 
 
 }
@@ -4557,14 +4558,6 @@ span.psw {
 	}
 }
 
-body
-{
-	width:100%;
-	margin:0 auto;
-	padding:0px;
-	font-family: "Montserrat", sans-serif;
-	background-color:#0B3861;
-}
 
 #wrapper
 {
