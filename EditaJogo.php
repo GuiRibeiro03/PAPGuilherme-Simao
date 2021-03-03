@@ -17,9 +17,7 @@ top();
     <div><input type="checkbox" name="Tags">Playstation</div>
     <div><input type="checkbox" name="Tags">Computador</div>
     <div><input type="checkbox" name="Tags">CD Projekt Red</div>
-    <div><input type="checkbox" name="Tags">Escandalo</div>
-    <div><input type="checkbox" name="Tags">Uma xota</div>
-  </div>
+      </div>
     </div>
 
     <input type="Submit" value="Edita"><br>
