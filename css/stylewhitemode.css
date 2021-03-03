@@ -2656,7 +2656,9 @@ ol {
 .details-post-section {
 	background: #0d0d0d;
 	padding: 70px 0;
+	width: 100%;
 }
+
 
 .details-text.gallery-page .dt-item,
 .gallery-page.contact-form .dt-item {

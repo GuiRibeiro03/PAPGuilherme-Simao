@@ -32,7 +32,9 @@ top();
         </video>
     </div>
     <!-- Details Post Section Begin -->
-    <section class="details-post-section spad">
+    <section class="details-post-section">
+
+
                 <div class="container">
             <div class="row">
                 <div class="col-lg-8 p-0">

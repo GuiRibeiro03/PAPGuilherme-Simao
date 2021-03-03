@@ -144,9 +144,9 @@ function top(){
                 <!-- <div class="nav-search search-switch">
                      <i class="fa fa-search"></i>
                  </div> -->
-                <div class="nav-menu" >
+                <div class="nav-menu" style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">
                     <ul>
-                        <li class="active"><a href="./index.php"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Home</strong></span></a></li>
+                        <li><a href="./index.php"><span ><strong>Home</strong></span></a></li>
                         <li><a href="#"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
                             <div class="dropdown">
                                 <ul>
@@ -160,10 +160,10 @@ function top(){
 
 
 
-                        <li><a href="reviews.php"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Reviews</strong> </span></a></li>
+                        <li><a href="reviews.php"><span><strong>Reviews</strong> </span></a></li>
 
-                        <li><a href="blog.php"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Blog</strong> </span></a></li>
-
+                        <li><a href="blog.php"><span><strong>Blog</strong> </span></a></li>
+                        <li><a href="jogosBackoffice.php"><span><strong>BackOffice</strong></span></a></li>
 
 
                     </ul>
