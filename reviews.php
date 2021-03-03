@@ -4,14 +4,14 @@ top();
 ?>
 
 <section class="latest-preview-section" style="height: 100%; width: 100%">
-    <a href="adicionaReview.php"><button class="btn btn-danger" >Adicionar Notícia</button></a>
+    <a href="adicionaReview.php"><button class="btn btn-danger"  style="margin-left: 50px">Adicionar Review</button></a>
     <div class="container" style="padding-top: 30px; position: center">
         <div class="row">
 
 
             <div class="lp-item">
-                <div style="text-align: center"> <button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                    <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
+                <div style="text-align: center"> <button onclick="confirmaElimina(this)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
+                    <a href="EditaReview.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
                 <a href="criticaSM.php"><div class="lp-pic set-bg"  data-setbg="img/reviewIMG/spiderman.jpg">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
@@ -36,8 +36,8 @@ top();
 
 
             <div class="lp-item" >
-                <div style="text-align: center"> <button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                    <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
+                <div style="text-align: center"> <button onclick="confirmaElimina(this)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
+                    <a href="EditaReview.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
                 <a href="criticaGOW.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/godofwar.jpg">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
@@ -62,7 +62,7 @@ top();
 
 
             <div class="lp-item">
-                <div style="text-align: center"> <button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
+                <div style="text-align: center"> <button onclick="confirmaElimina(1)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
                     <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
                 <a href="criticaTLoU2.php"><div class="lp-pic set-bg" data-setbg="img/reviewIMG/thelastofus2.jpg">
                         <div class="review-loader">
@@ -87,7 +87,7 @@ top();
 
 
             <div class="lp-item " style=" padding-top:40px">
-                <div style="text-align: center"> <button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
+                <div style="text-align: center"> <button onclick="confirmaElimina(1)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
                     <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
                 <a href="criticaUncharted4.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/uncharted4mini.jpg">
                         <div class="review-loader">
@@ -113,7 +113,7 @@ top();
 
 
             <div class="lp-item" style=" padding-top:40px">
-                <div style="text-align: center"> <button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
+                <div style="text-align: center"> <button onclick="confirmaElimina(1)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
                     <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
                 <a href="criticaTWH3.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/thewitcher3.jpg">
                         <div class="review-loader">
