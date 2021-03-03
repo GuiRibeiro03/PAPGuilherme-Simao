@@ -119,62 +119,56 @@
 
 <section class="store" style="padding:50px">
 
-    <a href="jogos.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="outletBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
-<form action="ConfirmaNovoJogo.php" method="post" enctype="multipart/form-data">
-    <label style="color:white"> Nome do Produto: </label>
-    <input type="text" name="produtoNome" style="width: 20%"><br>
-
-
+<form action="ConfirmaNovoAnuncio.php" method="post" enctype="multipart/form-data">
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Nome do Produto:</label>
+    <input type="text" name="produtoNome" style="width: 20%"><hr>
 
 
 
-    <span style="color:white">Preço original:</span>
-    <input type="number" name="originalPreco"><br>
+
+
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Preço original:</label>
+    <input type="number" name="originalPreco"><hr>
 
 
 <div style="margin-top: 20px">
-    <span style="color: white">Descrição do produto:</span>
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Descrição do produto:</label>
     <textarea cols="50" rows="10" name="produtoDescricao"></textarea>
     </div>
-    <br>
+    <hr>
 
     <div style="margin-top:20px; margin-bottom: 20px; color:white">
-    <span >Imagem principal:</span>
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Imagem principal:</label>
     <input type="file" accept="image/*" onchange="preview_image(event)">
-        <div style="margin-top: 20px; margin-left: 20px">
             <img id="output_image"/>
-            <img id="output_image2"/>
-            <img id="output_image3"/>
-            <img id="output_image4"/>
-        </div>
     </div>
-    <br>
+    <hr>
 
-        <span style="color:white">Imagens de apresentação:</span>
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Imagens de apresentação:</label>
     <div class="row" style="margin-top: 30px; margin-bottom: 30px; margin-left: 5px; color: white">
-    <br>
         <div>
-        <input type="file" accept="image/*" onchange="preview_image2(event)">
-
+            <input type="file" accept="image/*" onchange="preview_image2(event)">
+            <img id="output_image2"/>
          </div>
 
         <div>
             <input type="file" accept="image/*" onchange="preview_image3(event)">
-
+            <img id="output_image3"/>
         </div>
 
         <div>
             <input type="file" accept="image/*" onchange="preview_image4(event)">
-
+            <img id="output_image4"/>
         </div>
 
 
     </div>
 
-    <span style="color:white">Seu preço:</span>
-    <input type="number" name="produtoPreco" style="margin-bottom: 20px"><br>
-    <input type="Submit" style="width: 100px;"><br>
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Seu preço:</label>
+    <input type="number" name="produtoPreco" style="margin-bottom: 20px"><hr>
+    <input type="Submit" class="btn btn-danger" style="width: 100px;">
 
 </form>
 

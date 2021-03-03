@@ -4,8 +4,9 @@ top();
 ?>
 
 <section class="latest-preview-section" style="height: 100%; width: 100%">
-    <a href="adicionaReview.php"><button class="btn btn-danger"  style="margin-left: 50px">Adicionar Review</button></a>
     <div class="container" style="padding-top: 30px; position: center">
+        <a href="jogosBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
+
         <div class="row">
 
 

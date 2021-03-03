@@ -87,24 +87,24 @@
 
 
 <section class="store" style="padding:50px">
-    <a href="acessorios.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="acessoriosBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
-<form action="ConfirmaNovoAcessorio.php" method="post" enctype="multipart/form-data">
-    <label style="color:white">Nome: </label>
-    <input type="text" name="acessorioNome"><br>
-
-
-    <div id="wrapper">
-        <label style="color:white">Imagem:</label>
-        <input type="file" accept="image/*" onchange="preview_image(event)">
-        <img id="output_image"/>
-    </div>
+    <form action="ConfirmaNovoAcessorio.php" method="post" enctype="multipart/form-data">
+        <hr>
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Nome: </label>
+        <input type="text" style="height: 99%" name="acessorioNome"><hr>
 
 
-    <span style="color:white">Preço:</span>
-    <input type="number" name="acessorioPreco"><br>
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Imagem:</label>
+        <input type="file" accept="image/*" onchange="preview_image(event)" style="color: darkgray">
+        <img id="output_image"/><hr>
 
-    <input type="Submit" value="Adiciona"><br>
+
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Preço:</label>
+        <input type="number" name="acessorioPreco"><hr>
+
+        <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
+    </form>
 </section>
 
 

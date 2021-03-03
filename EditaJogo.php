@@ -10,20 +10,29 @@ top();
     <div><img id="output_image" src="img/jogos/cyberpunk2077.png" style="margin-left: 20px; margin-bottom: 20px"/></div>
 <input type="file" name="jogoImagemURL" accept="image/*" onchange="preview_image(event)">
   <div style="margin-top: 20px">
-    <label>Titulo:</label>
+      <hr>
+      <label style="color:white; font-size: 15px" class="badge badge-dark">Nome:</label>
     <input type="text" name="jogoNome">
-    <label>Preço: </label>
+      <hr>
+      <label style="color:white; font-size: 15px" class="badge badge-dark">Preço: </label>
     <input type="number" name="jogoPreco">
+      <hr>
+      <label style="color:white; font-size: 15px" class="badge badge-dark">Sinopse:</label>
+      <input type="text" name="jogoSinopse">
+      <hr>
+      <label style="color:white; font-size: 15px" class="badge badge-dark">Trailer:</label>
+      <input type="url" name="jogoTrailer">
+      <hr>
     <div style="font-size: 20px;">
-    <div><input type="checkbox" name="Tags">Playstation</div>
-    <div><input type="checkbox" name="Tags">Computador</div>
-    <div><input type="checkbox" name="Tags">CD Projekt Red</div>
+    <div class="badge badge-dark"><input type="checkbox" name="Tags">Playstation</div>
+    <div class="badge badge-dark"><input type="checkbox" name="Tags">Computador</div>
+    <div class="badge badge-dark"><input type="checkbox" name="Tags">CD Projekt Red</div>
       </div>
     </div>
-
-    <input type="Submit" value="Edita"><br>
+<hr>
+    <input type="Submit" class="btn btn-danger" value="Edita"><br>
 </form>
-
+<br>
 <script>
 function preview_image(event)
 {

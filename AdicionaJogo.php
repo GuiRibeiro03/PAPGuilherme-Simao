@@ -88,28 +88,29 @@
 
 <section class="store" style="padding:50px">
 
-    <a href="jogos.php"><button type="button" class="btn btn-danger">Voltar</button></a>
-
+    <a href="jogosBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+<hr>
 <form action="ConfirmaNovoJogo.php" method="post" enctype="multipart/form-data">
-    <label style="color:white">Nome: </label>
-    <input type="text" name="jogoNome"><br>
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Nome: </label>
+    <input type="text" style="height: 99%" name="jogoNome"><hr>
 
 
-    <div id="wrapper">
-        <label style="color:white">Imagem:</label>
-        <input type="file" accept="image/*" onchange="preview_image(event)">
-        <img id="output_image"/>
-    </div>
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Imagem:</label>
+    <input type="file" accept="image/*" onchange="preview_image(event)" style="color: darkgray">
+    <img id="output_image"/><hr>
 
 
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Preço:</label>
+    <input type="number" name="jogoPreco"><hr>
 
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Sinopse: </label>
+    <input type="text" style="height: 99%; width: 95%" name="jogoSinopse"><hr>
 
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Link do Trailer (Opcional): </label>
+    <input type="url" style="height: 99%;" name="jogoTrailer"><hr>
 
-
-    <span style="color:white">Preço:</span>
-    <input type="number" name="jogoPreco"><br>
-
-    <input type="Submit" value="Adiciona"><br>
+    <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
+</form>
 </section>
 
 

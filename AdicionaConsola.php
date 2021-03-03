@@ -86,26 +86,24 @@
 
 <section class="store" style="padding:50px">
 
-    <a href="consolas.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="consolasBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 <form action="ConfirmaNovaConsola.php" method="post" enctype="multipart/form-data">
-    <label style="color:white">Nome: </label>
-    <input type="text" name="consolaNome"><br>
-
-    <div id="wrapper">
-        <label style="color:white">Imagem:</label>
-        <input type="file" accept="image/*" onchange="preview_image(event)">
-        <img id="output_image"/>
-    </div>
+    <hr>
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Nome: </label>
+        <input type="text" style="height: 99%" name="consolaNome"><hr>
 
 
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Imagem:</label>
+        <input type="file" accept="image/*" onchange="preview_image(event)" style="color: darkgray">
+        <img id="output_image"/><hr>
 
 
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Preço:</label>
+        <input type="number" name="consolaPreco"><hr>
 
 
-    <span style="color:white">Preço:</span>
-    <input type="number" name="consolaPreco"><br>
-
-    <input type="Submit" value="Adiciona"><br>
+        <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
+    </form>
 </section>
 
 
