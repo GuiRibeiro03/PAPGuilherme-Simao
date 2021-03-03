@@ -2674,11 +2674,15 @@ ol {
 	padding: 70px 0;
 	width: 100%;
 }
+.details-text{
+	margin-right: 40px;
+}
 
 
 .details-text.gallery-page .dt-item,
 .gallery-page.contact-form .dt-item {
 	margin-bottom: 15px;
+
 }
 
 .details-text.gallery-page .dt-pic-item .dp-text ul,

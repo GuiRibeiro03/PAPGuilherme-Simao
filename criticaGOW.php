@@ -33,12 +33,10 @@ top();
     </div>
     <!-- Details Post Section Begin -->
     <section class="details-post-section">
-
-
-                <div class="container">
+         <div class="container">
             <div class="row">
-                <div class="col-lg-8 p-0">
-                    <div class="details-text" style="width: 850px">
+
+                    <div class="details-text"  >
                         <div style="color: white">
                             <span style="color: #FFFFFF;"><b>Analista:</b></span>
                             <span>Antero Quintal |</span>
@@ -89,49 +87,7 @@ top();
                                     </div>
                                 </div>
                             </div>
-                                <div class="or-skill">
-                                    <div class="skill-item">
-                                        <p>Design</p>
-                                        <div id="bar-1" class="barfiller">
-                                            <span class="fill" data-percentage="100"></span>
-                                            <div class="tipWrap" style="display: inline;">
-                                                <span class="tip"></span>
-                                                <span class="bar-point"><b>100</b></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="skill-item">
-                                        <p>Graficos</p>
-                                        <div id="bar-2" class="barfiller">
-                                            <span class="fill" data-percentage="96"></span>
-                                            <div class="tipWrap" style="display: inline;">
-                                                <span class="tip"></span>
-                                                <span class="bar-point"><b>96</b></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="skill-item">
-                                        <p>História</p>
-                                        <div id="bar-3" class="barfiller">
-                                            <span class="fill" data-percentage="94"></span>
-                                            <div class="tipWrap" style="display: inline;">
-                                                <span class="tip"></span>
-                                                <span class="bar-point"><b>94</b></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="skill-item">
-                                        <p>Sountrack</p>
-                                        <div id="bar-4" class="barfiller">
-                                            <span class="fill" data-percentage="85"></span>
-                                            <div class="tipWrap" style="display: inline;">
-                                                <span class="tip"></span>
-                                                <span class="bar-point"><b>85</b></span>
-                                            </div>
-                                        </div>
-                                    </div>
 
-                            </div>
                             <div class="or-qualities">
                                 <div class="qualities-item">
                                     <p>The Goods</p>
@@ -224,7 +180,6 @@ top();
                                 </form>
                             </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>

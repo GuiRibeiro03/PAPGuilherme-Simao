@@ -39,8 +39,8 @@ top();
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 p-0">
-                    <div class="details-text" style="width: 850px">
+
+                    <div class="details-text" >
                         <div style="color: white">
                             <span style="color: #FFFFFF;"><b>Analista:</b></span>
                             <span>Balmiro Pereira  |</span>
@@ -256,7 +256,7 @@ top();
                                 </form>
                             </div>
                     </div>
-                </div>
+
                 </div>
             </div>
         </div>

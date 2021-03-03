@@ -31,13 +31,13 @@ top();
 </video>
 </div>
     <!-- Details Post Section Begin -->
-    <section class="details-post-section spad">
+    <section class="details-post-section" >
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 p-0">
-                    <div class="details-text" style="width: 850px">
+                    <div class="details-text" >
+
                         <div style="color: white">
-                            <span style="color: #FFFFFF;"><b>Analista:</b></span>
+                            <span style="color: white;"><b>Analista:</b></span>
                             <span>Basilio Flores   |</span>
                             &nbsp;
                             <span>17/11/2020</span>
@@ -229,7 +229,6 @@ top();
                             </form>
                         </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>

@@ -4,9 +4,11 @@
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/criticaGOW.php" beforeDir="false" afterPath="$PROJECT_DIR$/criticaGOW.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaSM.php" beforeDir="false" afterPath="$PROJECT_DIR$/criticaSM.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaTLoU2.php" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTLoU2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaTWH3.php" beforeDir="false" afterPath="$PROJECT_DIR$/criticaTWH3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaUncharted4.php" beforeDir="false" afterPath="$PROJECT_DIR$/criticaUncharted4.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stylewhitemode.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylewhitemode.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,14 +99,7 @@
       <workItem from="1614707516535" duration="642000" />
       <workItem from="1614768232288" duration="605000" />
       <workItem from="1614770775891" duration="2196000" />
-      <workItem from="1614792699869" duration="1099000" />
-    </task>
-    <task id="LOCAL-00059" summary="DevilMaycry&amp;thelastofus">
-      <created>1614295391518</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1614295391518</updated>
+      <workItem from="1614792699869" duration="2630000" />
     </task>
     <task id="LOCAL-00060" summary="DevilMaycry&amp;thelastofus">
       <created>1614295727415</created>
@@ -442,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614773298807</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="coise">
+      <created>1614793869495</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1614793869496</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,7 +463,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="....." />
     <MESSAGE value="DevilMaycry-Resultado" />
     <MESSAGE value="DevilMaycry&amp;thelastofus" />
     <MESSAGE value="REviews" />
@@ -486,6 +487,7 @@
     <MESSAGE value=".." />
     <MESSAGE value="[Guilherme] Connection" />
     <MESSAGE value="Commit-11/2/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/2/2021" />
+    <MESSAGE value="coise" />
+    <option name="LAST_COMMIT_MESSAGE" value="coise" />
   </component>
 </project>
