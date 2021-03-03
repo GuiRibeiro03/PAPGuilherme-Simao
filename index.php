@@ -6,6 +6,7 @@ top();
 
 ?>
 
+
     <!-- Update News Section Begin -->
     <section class="update-news-section">
         <div class="container">
