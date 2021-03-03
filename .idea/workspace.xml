@@ -92,13 +92,7 @@
       <workItem from="1614706523776" duration="6000" />
       <workItem from="1614707516535" duration="642000" />
       <workItem from="1614768232288" duration="605000" />
-    </task>
-    <task id="LOCAL-00056" summary=".....">
-      <created>1614290586131</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1614290586131</updated>
+      <workItem from="1614770775891" duration="701000" />
     </task>
     <task id="LOCAL-00057" summary="DevilMaycry-Resultado">
       <created>1614292817815</created>
@@ -436,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614706415362</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="..">
+      <created>1614770880804</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1614770880805</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,7 +456,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="FIle-WHAT TO DO" />
     <MESSAGE value="Carrinho" />
     <MESSAGE value="Reviews" />
     <MESSAGE value="....." />
@@ -480,6 +480,7 @@
     <MESSAGE value="Backoffice-EM BRANCO" />
     <MESSAGE value="Backoffice-EM PRETO" />
     <MESSAGE value="Includes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Includes" />
+    <MESSAGE value=".." />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
 </project>
