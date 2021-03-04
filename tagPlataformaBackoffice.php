@@ -28,9 +28,9 @@ while ($dados=mysqli_fetch_array($result)) {
     echo "<tr>";
     echo "<td>" . $dados['plataformaId'] . "</td>";
     echo "<td>" . $dados['plataformaNome'] . "</td>";
+    echo "<td><a href=\"EditaTagPlataforma.php?id=".$dados['plataformaId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
+    echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['plataformaId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
     echo "</tr>";
-    echo "<td><a href=\"editaTagPlataforma.php?id=".$dados['canalId']."\"> Editar</a></td>";
-    echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['plataformaId'].");\">Eliminar</a></td>";
 }
             ?>
 
