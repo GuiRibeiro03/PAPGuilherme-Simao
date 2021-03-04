@@ -1,6 +1,4 @@
 <?php
-$con = mysqli_connect("localhost", "root", "", "pap2021gameon");
-
 include_once("includes/body.inc.php");
 top();
 

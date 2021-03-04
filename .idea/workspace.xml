@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/AdicionaTagPlataforma.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EditaTagPlataforma.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TESTE.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confirmaTagPlataforma.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tagPlataformaBackoffice.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
+      <change afterPath="$PROJECT_DIR$/EditaAcessorio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditaAnuncio.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditaConsola.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acessoriosBackoffice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/consolasBackoffice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outletBackoffice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaAcessorio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaAnuncio.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaAnuncio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaConsola.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaJogo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/EditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acessorios.php" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +68,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\papGuiSimao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
     </key>
   </component>
@@ -101,8 +110,35 @@
       <workItem from="1614706523776" duration="6000" />
       <workItem from="1614707516535" duration="642000" />
       <workItem from="1614768232288" duration="605000" />
-      <workItem from="1614770775891" duration="2196000" />
-      <workItem from="1614792699869" duration="7491000" />
+      <workItem from="1614770775891" duration="701000" />
+    </task>
+    <task id="LOCAL-00057" summary="DevilMaycry-Resultado">
+      <created>1614292817815</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1614292817816</updated>
+    </task>
+    <task id="LOCAL-00058" summary="DevilMaycry-Resultado">
+      <created>1614292891930</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1614292891930</updated>
+    </task>
+    <task id="LOCAL-00059" summary="DevilMaycry&amp;thelastofus">
+      <created>1614295391518</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1614295391518</updated>
+    </task>
+    <task id="LOCAL-00060" summary="DevilMaycry&amp;thelastofus">
+      <created>1614295727415</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1614295727415</updated>
     </task>
     <task id="LOCAL-00061" summary="DevilMaycry&amp;thelastofus">
       <created>1614296829598</created>
@@ -419,35 +455,7 @@
       <option name="project" value="LOCAL" />
       <updated>1614770880805</updated>
     </task>
-    <task id="LOCAL-00106" summary="[Guilherme] Connection">
-      <created>1614772239171</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1614772239171</updated>
-    </task>
-    <task id="LOCAL-00107" summary="Commit-11/2/2021">
-      <created>1614773298807</created>
-      <option name="number" value="00107" />
-      <option name="presentableId" value="LOCAL-00107" />
-      <option name="project" value="LOCAL" />
-      <updated>1614773298807</updated>
-    </task>
-    <task id="LOCAL-00108" summary="coise">
-      <created>1614793869495</created>
-      <option name="number" value="00108" />
-      <option name="presentableId" value="LOCAL-00108" />
-      <option name="project" value="LOCAL" />
-      <updated>1614793869496</updated>
-    </task>
-    <task id="LOCAL-00109" summary="coise">
-      <created>1614795361841</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1614795361841</updated>
-    </task>
-    <option name="localTasksCounter" value="110" />
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,6 +474,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Carrinho" />
+    <MESSAGE value="Reviews" />
+    <MESSAGE value="....." />
     <MESSAGE value="DevilMaycry-Resultado" />
     <MESSAGE value="DevilMaycry&amp;thelastofus" />
     <MESSAGE value="REviews" />
@@ -488,9 +499,6 @@
     <MESSAGE value="Backoffice-EM PRETO" />
     <MESSAGE value="Includes" />
     <MESSAGE value=".." />
-    <MESSAGE value="[Guilherme] Connection" />
-    <MESSAGE value="Commit-11/2/2021" />
-    <MESSAGE value="coise" />
-    <option name="LAST_COMMIT_MESSAGE" value="coise" />
+    <option name="LAST_COMMIT_MESSAGE" value=".." />
   </component>
 </project>
