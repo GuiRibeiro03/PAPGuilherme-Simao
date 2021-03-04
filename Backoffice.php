@@ -13,7 +13,7 @@ top();
     <a href="jogosBackoffice.php"><button type="button" class="btn btn-primary">Reviews</button></a>
     <a href="jogosBackoffice.php"><button type="button" class="btn btn-primary">Noticias</button></a>
     <a href="outletBackoffice.php"><button type="button" class="btn btn-primary">Outlet</button></a>
-    <a href="outletBackoffice.php"><button type="button" class="btn btn-primary">Géneros</button></a>
+    <a href="tagGenerosBackoffice.php"><button type="button" class="btn btn-primary">Géneros</button></a>
     <a href="tagEmpresasBackoffice.php"><button type="button" class="btn btn-primary">Empresas</button></a>
     <a href="tagPlataformaBackoffice.php"><button type="button" class="btn btn-primary">Plataformas</button></a>
 

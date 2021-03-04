@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/AdicionaTagEmpresa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EditaTagEmpresa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EliminaEmpresa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EliminaPlataforma.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confirmaEditaTagEmpresa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confirmaEditaTagPlataforma.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confirmaTagEmpresa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tagEmpresasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tagGenerosBackoffice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditaTagPlataforma.php" beforeDir="false" afterPath="$PROJECT_DIR$/EditaTagPlataforma.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog5.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogTagExemplo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories-grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/categories-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagPlataformaBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/tagPlataformaBackoffice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,13 +95,6 @@
       <workItem from="1614768232288" duration="605000" />
       <workItem from="1614770775891" duration="2196000" />
       <workItem from="1614792699869" duration="7491000" />
-    </task>
-    <task id="LOCAL-00062" summary="DevilMaycry&amp;thelastofus">
-      <created>1614297392102</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1614297392102</updated>
     </task>
     <task id="LOCAL-00063" summary="REviews">
       <created>1614298073853</created>
@@ -458,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614854804144</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="Guilherme-CRUDS PLATAFORMAS E EMPRESAS COM BD">
+      <created>1614859528055</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1614859528055</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,7 +458,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="DevilMaycry&amp;thelastofus" />
     <MESSAGE value="REviews" />
     <MESSAGE value="checkout" />
     <MESSAGE value="carrinho" />
@@ -502,6 +482,7 @@
     <MESSAGE value="Commit-11/2/2021" />
     <MESSAGE value="coise" />
     <MESSAGE value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
+    <MESSAGE value="Guilherme-CRUDS PLATAFORMAS E EMPRESAS COM BD" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-CRUDS PLATAFORMAS E EMPRESAS COM BD" />
   </component>
 </project>
