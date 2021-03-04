@@ -34,8 +34,7 @@
 
 html,
 body {
-	width: 100%;
-	font-family: "Montserrat", sans-serif;
+		font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	background-color: #0d0d0d;
@@ -1320,7 +1319,7 @@ ol {
 -------------------------*/
 
 .latest-preview-section {
-	background: #080808;
+	background: #0d0d0d;
 	padding-top: 65px;
 	padding-bottom: 34px;
 }

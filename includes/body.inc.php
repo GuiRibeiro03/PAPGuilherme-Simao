@@ -1,5 +1,8 @@
 <?php
+
+
 function top(){
+
 ?>
     <!DOCTYPE html>
     <html lang="pt">
@@ -16,7 +19,7 @@ function top(){
         <meta name="keywords" content="gameOn, unica, creative, html">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Game On</title>
+        <title>GameOn</title>
 
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap"
@@ -58,6 +61,7 @@ function top(){
 
 
 
+
         <script>
             function preview_image(event)
             {
@@ -91,6 +95,7 @@ function top(){
     </div>
 
     <!-- Humberger Menu Begin -->
+
 
 
 
@@ -156,7 +161,7 @@ function top(){
 
 
 
-        <div class="nav-options">
+        <div class="nav-options" style="width: available">
             <div class="container">
 
                 <!-- <div class="nav-search search-switch">
@@ -198,12 +203,14 @@ function top(){
     <?php
 function bottom(){
     ?>
-    <footer class="footer-section">
+
+
+    <footer class="footer-section" >
         <div class="container">
 
             <div class="footer-about">
                 <div class="fa-logo">
-                    <a href="#"><img src="  gameOn.png" alt=""></a>
+                    <a href="index.php"><img src="gameOn.png"></a>
                 </div>
                 <p>Podes nos seguir na nossa Redes Sociais para seguires as novidades da loja e do mundo do gaming à tua volta.</p>
                 <div class="fa-social">
@@ -212,7 +219,7 @@ function bottom(){
                 </div>
             </div>
         </div>
-        <div class="copyright-area" style="width: 100%">
+        <div class="copyright-area" >
             <div class="row">
                 <div class="col-lg-6">
 
