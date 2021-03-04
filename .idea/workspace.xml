@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/AdicionaTagPlataforma.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EditaTagPlataforma.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TESTE.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confirmaTagPlataforma.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tagPlataformaBackoffice.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
+      <change afterPath="$PROJECT_DIR$/AdicionaTagGenero.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EditaTagGenero.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EliminaGenero.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmaEditaTagGenero.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confirmaTagGenero.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/tagGenerosBackoffice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +57,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\papGuiSimao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
     </key>
   </component>

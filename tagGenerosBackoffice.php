@@ -26,10 +26,10 @@ $result=mysqli_query($con, $sql);
     while ($dados=mysqli_fetch_array($result)) {
 
         echo "<tr>";
-        echo "<td>" . $dados['empresaId'] . "</td>";
-        echo "<td>" . $dados['empresaNome'] . "</td>";
-        echo "<td><a href=\"EditaTagEmpresa.php?id=".$dados['empresaId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
-        echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['empresaId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
+        echo "<td>" . $dados['generoId'] . "</td>";
+        echo "<td>" . $dados['generoNome'] . "</td>";
+        echo "<td><a href=\"EditaTagGenero.php?id=".$dados['generoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
+        echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['generoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
         echo "</tr>";
     }
     ?>
@@ -44,6 +44,6 @@ bottom();
 <script>
     function confirmaElimina(id) {
         if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-            window.location="eliminaEmpresa.php?id=" + id;
+            window.location="EliminaGenero.php?id=" + id;
     }
 </script>
