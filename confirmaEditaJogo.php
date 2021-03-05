@@ -8,19 +8,15 @@ $jogoPreco=("jogoPreco");
 $empresaId=intval("jogoEmpresaId");
 $jogoTrailer=addslashes("jogoTrailer");
 $img=$_FILES['jogoImagemURL']["name"];
-$novoNome="img/jogos/".$img;
 
 
-$sql="UPDATE jogos SET jogoNome='".$jogoNome."', jogoSinopse='".$jogoSinopse."',jogoTrailer='".$jogoTrailer."',jogoPreco='".$jogoPreco."', jogoEmpresaId='".$empresaId."'";
-
+$sql="UPDATE jogos  set jogoNome='".$jogoNome."', jogoSinopse='".$jogoSinopse."',jogoTrailer='".$jogoTrailer."',jogoPreco='".$jogoPreco."', jogoEmpresaId='".$empresaId."'  ";
 if($img!=''){
-    $sql.=", jogosImagemURL='img/jogos/".$img."'";
+    $sql.=", jogoImagemURL='img/jogos/".$img."'";
 }
-
-$sql.="where jogoId=".$id;
+$sql.=" where jogoId=".$id;
 
 mysqli_query($con,$sql);
-print_r(error_get_last());
 header("location: jogosBackoffice.php");
 
 

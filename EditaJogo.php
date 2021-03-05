@@ -18,16 +18,19 @@ $dados=mysqli_fetch_array($resultjogos);
     <a href="jogosBackoffice.php"><button type="button"  class="btn btn-primary">Voltar</button></a>
 <h2>Editar Jogo</h2>
 <hr>
-    <div><img id="output_image" src="img/jogos/<?php echo $dados["jogoImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px"/></div>
-    <input type="file" name="jogoImagemURL"  value="jogoImagemURL" accept="image/*" onchange="preview_image(event)">
+    <div><img  src="img/jogos/<?php echo $dados["jogoImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width: 300px; height: 400px"/></div>
+    <input type="file" name="jogoImagemURL" >
+
+
   <div style="margin-top: 20px">
+
       <hr>
       <label style="color:white; font-size: 15px" class="badge badge-dark">Nome:</label>
     <input type="text" name="jogoNome" value="<?php echo $dados["jogoNome"]?>">
 
       <hr>
       <label style="color:white; font-size: 15px" class="badge badge-dark">Preço: </label>
-    <input type="number" name="jogoPreco" value="<?php echo $dados["jogoPreco"]?>">
+    <input type="text" name="jogoPreco" value="<?php echo $dados["jogoPreco"]?>">
 
       <hr>
       <label style="color:white; font-size: 15px" class="badge badge-dark">Sinopse:</label>
@@ -39,14 +42,25 @@ $dados=mysqli_fetch_array($resultjogos);
       <hr>
 
       <label style="color:white; font-size: 15px" class="badge badge-dark">Empresa</label>
+
+
+
       <select name="jogoEmpresaId" >
-          <option value="<?php  echo $dados["jogoEmpresaId"]?>">Escolha a empresa...</option>
+          <option value="-1">Escolha a empresa...</option>
           <?php
           $sql="select * from empresas order by empresaNome";
           $result=mysqli_query($con,$sql);
-          while ($dados=mysqli_fetch_array($result)){
+          while ($dadosEmpresas=mysqli_fetch_array($result)){
               ?>
-              <option value="<?php echo $dados['empresaId']?>"><?php echo $dados['empresaNome']?></option>
+              <option value="<?php echo $dadosEmpresas['empresaId']?>"
+              <?php
+              if($dados["jogoEmpresaId"]==$dadosEmpresas["empresaId"])
+                    echo "Selected" ;
+
+                  ?>
+                  >
+                <?php echo $dadosEmpresas["empresaNome"] ?>
+              </option>
               <?php
           }
 
