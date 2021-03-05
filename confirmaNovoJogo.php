@@ -12,7 +12,7 @@ echo $sql="insert into jogos (jogoNome,jogoSinopse,jogoTrailer,jogoPreco,jogoEmp
 values('".$jogoNome."','".$jogoSinopse."','".$jogoTrailer."','".$jogoImagemURL."', '".$jogoPreco."', '".$jogoempresaId."')";
 
 mysqli_query($con,$sql);
-header("location: jogosBackoffice.php");
+header("jogosBackoffice.php");
 ?>
 
 

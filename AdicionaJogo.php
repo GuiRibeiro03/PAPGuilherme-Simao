@@ -12,7 +12,7 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
     <a href="jogosBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 <hr>
-<form action="ConfirmaNovoJogo.php" method="post" enctype="multipart/form-data">
+<form action="confirmaNovoJogo.php" method="post" enctype="multipart/form-data">
     <label style="color:white; font-size: 15px" class="badge badge-dark">Nome: </label>
     <input type="text" style="width: 300px" name="jogoNome"><hr>
 
