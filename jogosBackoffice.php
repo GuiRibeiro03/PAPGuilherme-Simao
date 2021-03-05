@@ -2,7 +2,7 @@
 include_once("includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from jogos";
+$sql="select * from jogos inner join empresas where empresaId=jogoEmpresaId";
 $result=mysqli_query($con, $sql);
 ?>
 
@@ -31,9 +31,8 @@ $result=mysqli_query($con, $sql);
                 echo "<td>" . $dados['jogoId'] . "</td>";
                 echo "<td>" . $dados['jogoNome'] . "</td>";
                 echo "<td>" . $dados['jogoGlobalRating'] . "</td>";
-                echo "<td>" . $dados['jogoImagemURL'] . "</td>";
                 echo "<td> <img src=\"img/jogos/".$dados['jogoimagemURL']."\"></td>";
-                echo "<td>" . $dados['jogoEmpresaId'] . "</td>";
+                echo "<td>" . $dados['empresaNome'] . "</td>";
                 echo "<td><a href=\"EditaJogo.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
                 echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['jogoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
                 echo "</tr>";
