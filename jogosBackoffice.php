@@ -2,7 +2,7 @@
 include_once("includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from jogos inner join empresas where empresaId=jogoEmpresaId";
+$sql="select * from jogos inner join empresas where jogoEmpresaId=empresaId";
 $result=mysqli_query($con, $sql);
 ?>
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/confirmaNovoJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaNovoJogo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogosBackoffice.php" afterDir="false" />
     </list>
@@ -97,21 +96,7 @@
       <workItem from="1614770775891" duration="2196000" />
       <workItem from="1614792699869" duration="7491000" />
       <workItem from="1614861249465" duration="60000" />
-      <workItem from="1614942916670" duration="2588000" />
-    </task>
-    <task id="LOCAL-00066" summary="checkout">
-      <created>1614342836252</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1614342836252</updated>
-    </task>
-    <task id="LOCAL-00067" summary="checkout">
-      <created>1614343585058</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1614343585058</updated>
+      <workItem from="1614942916670" duration="2886000" />
     </task>
     <task id="LOCAL-00068" summary="carrinho">
       <created>1614343875558</created>
@@ -442,7 +427,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614944882363</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="Guilherme-CRUD JOGOS">
+      <created>1614945587684</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1614945587684</updated>
+    </task>
+    <task id="LOCAL-00116" summary="Guilherme-CRUD JOGOS">
+      <created>1614945699145</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1614945699145</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
