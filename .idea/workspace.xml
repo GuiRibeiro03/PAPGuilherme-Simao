@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/EditaJogo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaEditaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogosBackoffice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +98,27 @@
       <workItem from="1614792699869" duration="7491000" />
       <workItem from="1614861249465" duration="60000" />
       <workItem from="1614942916670" duration="4035000" />
+    </task>
+    <task id="LOCAL-00073" summary="Modal">
+      <created>1614471936332</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1614471936332</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Telemoveis">
+      <created>1614545613773</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1614545613773</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Font">
+      <created>1614546698390</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1614546698390</updated>
     </task>
     <task id="LOCAL-00076" summary="Font">
       <created>1614547026262</created>
@@ -422,28 +442,7 @@
       <option name="project" value="LOCAL" />
       <updated>1614946675785</updated>
     </task>
-    <task id="LOCAL-00122" summary="Guilherme-confirmaEditaJogo">
-      <created>1614961566343</created>
-      <option name="number" value="00122" />
-      <option name="presentableId" value="LOCAL-00122" />
-      <option name="project" value="LOCAL" />
-      <updated>1614961566343</updated>
-    </task>
-    <task id="LOCAL-00123" summary="Guilherme-confirmaEditaJogo">
-      <created>1614965318679</created>
-      <option name="number" value="00123" />
-      <option name="presentableId" value="LOCAL-00123" />
-      <option name="project" value="LOCAL" />
-      <updated>1614965318679</updated>
-    </task>
-    <task id="LOCAL-00124" summary="Guilherme-confirmaEditaJogo">
-      <created>1614965783022</created>
-      <option name="number" value="00124" />
-      <option name="presentableId" value="LOCAL-00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1614965783022</updated>
-    </task>
-    <option name="localTasksCounter" value="125" />
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,6 +461,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="DevilMaycry&amp;thelastofus" />
     <MESSAGE value="REviews" />
     <MESSAGE value="checkout" />
     <MESSAGE value="carrinho" />
@@ -486,7 +486,6 @@
     <MESSAGE value="Commit-11/2/2021" />
     <MESSAGE value="coise" />
     <MESSAGE value="Guilherme-CRUD JOGOS" />
-    <MESSAGE value="Guilherme-confirmaEditaJogo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-confirmaEditaJogo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-CRUD JOGOS" />
   </component>
 </project>
