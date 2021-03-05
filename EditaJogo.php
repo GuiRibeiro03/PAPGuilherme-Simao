@@ -3,8 +3,6 @@ include_once ("includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET["id"]);
-
-
 $sql="select * from jogos where jogoId=".$id;
 
 $resultjogos=mysqli_query($con,$sql);
@@ -12,7 +10,7 @@ $dados=mysqli_fetch_array($resultjogos);
 
 ?>
 
-<div style="color: #FFFFFF">
+<div style="color: #FFFFFF" xmlns="http://www.w3.org/1999/html">
 </div>
 
 
@@ -34,15 +32,15 @@ $dados=mysqli_fetch_array($resultjogos);
       <hr>
       <label style="color:white; font-size: 15px" class="badge badge-dark">Sinopse:</label>
       <input type="text" name="jogoSinopse" value="<?php echo $dados["jogoSinopse"]?>">
-
       <hr>
+
       <label style="color:white; font-size: 15px" class="badge badge-dark">Trailer:</label>
       <input type="url" name="jogoTrailer" value="<?php  echo $dados["jogoTrailer"]?>">
       <hr>
 
       <label style="color:white; font-size: 15px" class="badge badge-dark">Empresa</label>
       <select name="jogoEmpresaId" >
-          <option value="<?php $dados["jogoEmpresaId"]?>">Escolha a empresa...</option>
+          <option value="<?php  echo $dados["jogoEmpresaId"]?>">Escolha a empresa...</option>
           <?php
           $sql="select * from empresas order by empresaNome";
           $result=mysqli_query($con,$sql);

@@ -1,24 +1,25 @@
 <?php
 $con = mysqli_connect("localhost", "root", "","pap2021gameon");
 
+$id=intval($_GET["id"]);
 $jogoNome=addslashes($_POST["jogoNome"]);
 $jogoSinopse=addslashes($_POST["jogoSinopse"]);
 $jogoPreco=("jogoPreco");
 $empresaId=intval("jogoEmpresaId");
 $jogoTrailer=addslashes("jogoTrailer");
-$id=intval($_GET["id"]);
-$img=$_FILES['jogoImagemURL']['name'];
-$novoNome="../imagens/".$img;
+$img=$_FILES['jogoImagemURL']["name"];
 
 
-$sql="UPDATE jogos SET jogoNome='".$jogoNome."', jogoSinopse='".$jogoSinopse."',jogoPreco='".$jogoPreco."',jogoTrailer='".$jogoTrailer."',jogoEmpresaId='".$empresaId."'";
+
+$sql="UPDATE jogos SET jogoNome='".$jogoNome."', jogoSinopse='".$jogoSinopse."',jogoTrailer='".$jogoTrailer."',jogoPreco='".$jogoPreco."',jogoImagemURL='".$img."', jogoEmpresaId='".$empresaId."'";
+
 if($img!=''){
-    $sql.=", jogoImagemURL='imagens/jogos/".$img."'";
-    copy($_FILES['jogoImagemURL']['tmp_name'],$novoNome);
+    $sql.=", jogosImagemURL='img/jogos/".$img."'";
 }
 
 $sql.="where jogoId=".$id;
 mysqli_query($con,$sql);
+print_r(error_get_last());
 header("location: jogosBackoffice.php");
 
 
