@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021">
-      <change afterPath="$PROJECT_DIR$/AdicionaTagGenero.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EditaTagGenero.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EliminaGenero.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confirmaEditaTagGenero.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/confirmaTagGenero.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
+      <change afterPath="$PROJECT_DIR$/confirmaNovoJogo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/tagGenerosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_1.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_1.0.mwb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,7 +54,6 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp\www\papGuiSimao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
     </key>
   </component>
@@ -101,6 +97,8 @@
       <workItem from="1614768232288" duration="605000" />
       <workItem from="1614770775891" duration="2196000" />
       <workItem from="1614792699869" duration="7491000" />
+      <workItem from="1614861249465" duration="60000" />
+      <workItem from="1614942916670" duration="636000" />
     </task>
     <task id="LOCAL-00061" summary="DevilMaycry&amp;thelastofus">
       <created>1614296829598</created>
