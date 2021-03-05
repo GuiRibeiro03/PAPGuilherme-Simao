@@ -4,9 +4,9 @@ $con = mysqli_connect("localhost", "root", "","pap2021gameon");
 $id=intval($_GET["id"]);
 $jogoNome=addslashes($_POST["jogoNome"]);
 $jogoSinopse=addslashes($_POST["jogoSinopse"]);
-$jogoPreco=("jogoPreco");
-$empresaId=intval("jogoEmpresaId");
-$jogoTrailer=addslashes("jogoTrailer");
+$jogoPreco=($_POST["jogoPreco"]);
+$empresaId=intval($_POST["jogoEmpresaId"]);
+$jogoTrailer=addslashes($_POST["jogoTrailer"]);
 $img=$_FILES['jogoImagemURL']["name"];
 $novoNome="img/jogos/".$img;
 
@@ -20,7 +20,6 @@ if($img!=''){
 $sql.="where jogoId=".$id;
 
 mysqli_query($con,$sql);
-print_r(error_get_last());
 header("location: jogosBackoffice.php");
 
 

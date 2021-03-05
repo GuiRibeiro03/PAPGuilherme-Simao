@@ -19,7 +19,7 @@ $dados=mysqli_fetch_array($resultjogos);
 <h2>Editar Jogo</h2>
 <hr>
     <div><img  src="img/jogos/<?php echo $dados["jogoImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width: 300px; height: 400px"/></div>
-    <input type="file" name="jogoImagemURL" >
+    <input type="file" name="jogoImagemURL">
 
 
   <div style="margin-top: 20px">
