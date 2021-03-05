@@ -28,7 +28,7 @@ $result=mysqli_query($con, $sql);
         echo "<tr>";
         echo "<td>" . $dados['generoId'] . "</td>";
         echo "<td>" . $dados['generoNome'] . "</td>";
-        echo "<td><a href=\"EditaTagGenero.php?id=".$dados['generoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
+        echo "<td>< a href=\"EditaTagGenero.php?id=".$dados['generoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
         echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['generoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
         echo "</tr>";
     }

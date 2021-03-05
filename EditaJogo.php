@@ -2,19 +2,21 @@
 include_once ("includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-
 $id=intval($_GET["id"]);
 
+
 $sql="select * from jogos where jogoId=".$id;
+
 $resultjogos=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($resultjogos);
+print_r($dados);
 ?>
 <form action="confirmaEditaJogo.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
     <a href="jogosBackoffice.php"><button type="button" class="btn btn-primary">Voltar</button></a>
 <h2>Editar Jogo</h2>
 <hr>
     <div><img id="output_image" src="img/jogos/<?php $dados["jogoImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px"/></div>
-<input type="file" name="jogoImagemURL"  value="<?php $dados["jogoImagemURL"] ?>" accept="image/*" onchange="preview_image(event)">
+<input type="file" name="jogoImagemURL"  value=" jogoImagemURL " accept="image/*" onchange="preview_image(event)">
   <div style="margin-top: 20px">
       <hr>
       <label style="color:white; font-size: 15px" class="badge badge-dark">Nome:</label>

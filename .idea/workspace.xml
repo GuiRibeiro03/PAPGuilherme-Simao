@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/EditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaEditaJogo.php.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaEditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/tagGenerosBackoffice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -95,7 +98,92 @@
       <workItem from="1614770775891" duration="2196000" />
       <workItem from="1614792699869" duration="7491000" />
       <workItem from="1614861249465" duration="60000" />
-      <workItem from="1614942916670" duration="4035000" />
+      <workItem from="1614942916670" duration="636000" />
+      <workItem from="1614954164896" duration="3672000" />
+    </task>
+    <task id="LOCAL-00061" summary="DevilMaycry&amp;thelastofus">
+      <created>1614296829598</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1614296829598</updated>
+    </task>
+    <task id="LOCAL-00062" summary="DevilMaycry&amp;thelastofus">
+      <created>1614297392102</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1614297392102</updated>
+    </task>
+    <task id="LOCAL-00063" summary="REviews">
+      <created>1614298073853</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1614298073853</updated>
+    </task>
+    <task id="LOCAL-00064" summary="REviews">
+      <created>1614298228008</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1614298228008</updated>
+    </task>
+    <task id="LOCAL-00065" summary="REviews">
+      <created>1614298293169</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1614298293169</updated>
+    </task>
+    <task id="LOCAL-00066" summary="checkout">
+      <created>1614342836252</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1614342836252</updated>
+    </task>
+    <task id="LOCAL-00067" summary="checkout">
+      <created>1614343585058</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1614343585058</updated>
+    </task>
+    <task id="LOCAL-00068" summary="carrinho">
+      <created>1614343875558</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1614343875558</updated>
+    </task>
+    <task id="LOCAL-00069" summary="ReviewsCrud">
+      <created>1614344704156</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1614344704156</updated>
+    </task>
+    <task id="LOCAL-00070" summary="ReviewsCrud">
+      <created>1614345160957</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1614345160957</updated>
+    </task>
+    <task id="LOCAL-00071" summary="ReviewsCrud">
+      <created>1614348116746</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1614348116746</updated>
+    </task>
+    <task id="LOCAL-00072" summary="h6,a">
+      <created>1614349263234</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1614349263234</updated>
     </task>
     <task id="LOCAL-00073" summary="Modal">
       <created>1614471936332</created>
@@ -356,91 +444,7 @@
       <option name="project" value="LOCAL" />
       <updated>1614795361841</updated>
     </task>
-    <task id="LOCAL-00110" summary="Guilherme-CRUD JOGOS">
-      <created>1614943808304</created>
-      <option name="number" value="00110" />
-      <option name="presentableId" value="LOCAL-00110" />
-      <option name="project" value="LOCAL" />
-      <updated>1614943808304</updated>
-    </task>
-    <task id="LOCAL-00111" summary="Guilherme-CRUD JOGOS">
-      <created>1614944513953</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1614944513953</updated>
-    </task>
-    <task id="LOCAL-00112" summary="Guilherme-CRUD JOGOS">
-      <created>1614944526740</created>
-      <option name="number" value="00112" />
-      <option name="presentableId" value="LOCAL-00112" />
-      <option name="project" value="LOCAL" />
-      <updated>1614944526740</updated>
-    </task>
-    <task id="LOCAL-00113" summary="Guilherme-CRUD JOGOS">
-      <created>1614944714310</created>
-      <option name="number" value="00113" />
-      <option name="presentableId" value="LOCAL-00113" />
-      <option name="project" value="LOCAL" />
-      <updated>1614944714310</updated>
-    </task>
-    <task id="LOCAL-00114" summary="Guilherme-CRUD JOGOS">
-      <created>1614944882363</created>
-      <option name="number" value="00114" />
-      <option name="presentableId" value="LOCAL-00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1614944882363</updated>
-    </task>
-    <task id="LOCAL-00115" summary="Guilherme-CRUD JOGOS">
-      <created>1614945587684</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1614945587684</updated>
-    </task>
-    <task id="LOCAL-00116" summary="Guilherme-CRUD JOGOS">
-      <created>1614945699145</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1614945699145</updated>
-    </task>
-    <task id="LOCAL-00117" summary="Guilherme-CRUD JOGOS">
-      <created>1614945833327</created>
-      <option name="number" value="00117" />
-      <option name="presentableId" value="LOCAL-00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1614945833327</updated>
-    </task>
-    <task id="LOCAL-00118" summary="Guilherme-CRUD JOGOS">
-      <created>1614945890311</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1614945890311</updated>
-    </task>
-    <task id="LOCAL-00119" summary="Guilherme-CRUD JOGOS">
-      <created>1614946155357</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1614946155357</updated>
-    </task>
-    <task id="LOCAL-00120" summary="Guilherme-CRUD JOGOS">
-      <created>1614946481688</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1614946481688</updated>
-    </task>
-    <task id="LOCAL-00121" summary="Guilherme-CRUD JOGOS">
-      <created>1614946675785</created>
-      <option name="number" value="00121" />
-      <option name="presentableId" value="LOCAL-00121" />
-      <option name="project" value="LOCAL" />
-      <updated>1614946675785</updated>
-    </task>
-    <option name="localTasksCounter" value="122" />
+    <option name="localTasksCounter" value="110" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,6 +463,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="DevilMaycry-Resultado" />
     <MESSAGE value="DevilMaycry&amp;thelastofus" />
     <MESSAGE value="REviews" />
     <MESSAGE value="checkout" />
@@ -483,7 +488,6 @@
     <MESSAGE value="[Guilherme] Connection" />
     <MESSAGE value="Commit-11/2/2021" />
     <MESSAGE value="coise" />
-    <MESSAGE value="Guilherme-CRUD JOGOS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-CRUD JOGOS" />
+    <option name="LAST_COMMIT_MESSAGE" value="coise" />
   </component>
 </project>
