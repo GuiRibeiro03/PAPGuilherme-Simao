@@ -30,6 +30,23 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
     <label style="color:white; font-size: 15px" class="badge badge-dark">Preço:</label>
     <input type="text" name="jogoPreco" style="width: 100px"><hr>
 
+
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Empresa</label>
+    <select name="jogoEmpresaId">
+        <option value="-1">Escolha a empresa...</option>
+        <?php
+        $sql="select * from empresas order by empresaNome";
+        $result=mysqli_query($con,$sql);
+        while ($dados=mysqli_fetch_array($result)){
+            ?>
+            <option value="<?php echo $dados['empresaId']?>"><?php echo $dados['empresaNome']?></option>
+            <?php
+        }
+
+
+        ?>
+    </select>
+
     <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
 
 </form>

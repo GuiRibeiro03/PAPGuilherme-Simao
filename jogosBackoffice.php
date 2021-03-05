@@ -1,7 +1,9 @@
 <?php
 include_once("includes/body.inc.php");
 top();
-
+$con=mysqli_connect("localhost","root","","pap2021gameon");
+$sql="select * from jogos";
+$result=mysqli_query($con, $sql);
 ?>
 
 
@@ -22,16 +24,18 @@ top();
         </tr>
 
         <tr >
-        <td>#1</td>
+            <?php
+            while ($dados=mysqli_fetch_array($result)) {
 
-        <td>Nome do Jogo</td>
-        <td><img src="img/jogos/cyberpunk2077.png" style="width: 220px; height: 210px"></td>
-        <td>69,90€</td>
-
-            <td><a href="EditaJogo.php" style="color: #FFFFFF"><button type="button" class="btn btn-primary"><i class="fa fa-edit"></i>Editar</button></a></td>
-        <td><a href="#" onclick="confirmaElimina(1)" style="color: #FFFFFF"><button type="button" class="btn btn-danger"><i class="fa fa-close"></i>Remover</button></a></td>
-
-
+                echo "<tr>";
+                echo "<td>" . $dados['jogoId'] . "</td>";
+                echo "<td>" . $dados['jogoNome'] . "</td>";
+                echo "<td>" . $dados['jogoImagemURL'] . "</td>";
+                echo "<td><a href=\"EditaTagEmpresa.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
+                echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['jogoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
+                echo "</tr>";
+            }
+            ?>
 
         </tr>
         </table>
@@ -43,7 +47,7 @@ bottom();
 <script>
     function confirmaElimina(id) {
         if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-            window.location="../elimina/eliminaCanais.php?id=" + id;
+            window.location="eliminaJogo?id=" + id;
     }
 
 
