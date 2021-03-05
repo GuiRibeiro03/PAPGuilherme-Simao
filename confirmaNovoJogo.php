@@ -8,11 +8,11 @@ $jogoImagemURL=$_FILES["jogoImagemURl"]["name"];
 $jogoPreco=intval($_POST["jogoPreco"]);
 $jogoempresaId=intval($_POST["jogoEmpresaId"]);
 
-echo $sql="insert into jogos (jogoNome,jogoSinopse,jogoTrailer,jogoPreco,jogoEmpresaId) 
+echo $sql="insert into jogos (jogoNome,jogoSinopse,jogoTrailer,jogoImagemURl,jogoPreco,jogoEmpresaId) 
 values('".$jogoNome."','".$jogoSinopse."','".$jogoTrailer."','".$jogoImagemURL."', '".$jogoPreco."', '".$jogoempresaId."')";
 
 mysqli_query($con,$sql);
-header("jogosBackoffice.php");
+header("location: jogosBackoffice.php");
 ?>
 
 

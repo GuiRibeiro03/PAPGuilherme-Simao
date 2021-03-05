@@ -18,7 +18,6 @@ $result=mysqli_query($con, $sql);
         <tr>
             <th>Id</th>
             <th>Nome</th>
-            <th>Rating</th>
             <th>Imagem</th>
             <th>Empresa</th>
             <th>Preço</th>
@@ -31,7 +30,6 @@ $result=mysqli_query($con, $sql);
                 echo "<tr>";
                 echo "<td>" . $dados['jogoId'] . "</td>";
                 echo "<td>" . $dados['jogoNome'] . "</td>";
-                echo "<td>" . $dados['jogoGlobalRating'] . "</td>";
                 echo "<td> <img  style='width: 300px; height: 350px' src=\"img/jogos/".$dados['jogoImagemURL']."\"></td>";
                 echo "<td>" . $dados['empresaNome'] . "</td>";
                 echo "<td>" . $dados['jogoPreco'] . "€</td>";
