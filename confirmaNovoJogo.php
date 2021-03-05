@@ -9,10 +9,12 @@ $jogoPreco=intval($_POST["jogoPreco"]);
 $jogoempresaId=intval($_POST["jogoEmpresaId"]);
 
 echo $sql="insert into jogos (jogoNome,jogoSinopse,jogoTrailer,jogoPreco,jogoEmpresaId) 
-values(0, '".$jogoNome."','".$jogoSinopse."','".$jogoTrailer."','".$jogoImagemURL."', '".$jogoPreco."', '".$jogoempresaId."')";
+values('".$jogoNome."','".$jogoSinopse."','".$jogoTrailer."','".$jogoImagemURL."', '".$jogoPreco."', '".$jogoempresaId."')";
 
 mysqli_query($con,$sql);
-header("location: jogosBackoffice.php");
+print_r(error_get_last( ));
+
+//header("location: jogosBackoffice.php");
 ?>
 
 
