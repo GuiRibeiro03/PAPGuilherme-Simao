@@ -20,6 +20,7 @@ $result=mysqli_query($con, $sql);
             <th>Nome</th>
             <th>Rating</th>
             <th>Imagem</th>
+            <th>Empresa</th>
             <th>Preço</th>
             <th colspan="2">Opções</th>
         </tr>
@@ -31,8 +32,9 @@ $result=mysqli_query($con, $sql);
                 echo "<td>" . $dados['jogoId'] . "</td>";
                 echo "<td>" . $dados['jogoNome'] . "</td>";
                 echo "<td>" . $dados['jogoGlobalRating'] . "</td>";
-                echo "<td> <img src=\"img/jogos/".$dados['jogoImagemURL']."\"></td>";
+                echo "<td> <img  style='width: 300px; height: 350px' src=\"img/jogos/".$dados['jogoImagemURL']."\"></td>";
                 echo "<td>" . $dados['empresaNome'] . "</td>";
+                echo "<td>" . $dados['jogoPreco'] . "€</td>";
                 echo "<td><a href=\"EditaJogo.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
                 echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['jogoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
                 echo "</tr>";
