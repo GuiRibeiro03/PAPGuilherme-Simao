@@ -9,27 +9,35 @@ $sql="select * from jogos where jogoId=".$id;
 
 $resultjogos=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($resultjogos);
-print_r($dados);
+
 ?>
-<form action="confirmaEditaJogo.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
-    <a href="jogosBackoffice.php"><button type="button" class="btn btn-primary">Voltar</button></a>
+
+<div style="color: #FFFFFF">
+</div>
+
+
+<form action="confirmaEditaJogo.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
+    <a href="jogosBackoffice.php"><button type="button"  class="btn btn-primary">Voltar</button></a>
 <h2>Editar Jogo</h2>
 <hr>
-    <div><img id="output_image" src="img/jogos/<?php $dados["jogoImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px"/></div>
-<input type="file" name="jogoImagemURL"  value=" jogoImagemURL " accept="image/*" onchange="preview_image(event)">
+    <div><img id="output_image" src="img/jogos/<?php echo $dados["jogoImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px"/></div>
+    <input type="file" name="jogoImagemURL"  value="jogoImagemURL" accept="image/*" onchange="preview_image(event)">
   <div style="margin-top: 20px">
       <hr>
       <label style="color:white; font-size: 15px" class="badge badge-dark">Nome:</label>
-    <input type="text" name="jogoNome" value="<?php $dados["jogoNome"]?>">
+    <input type="text" name="jogoNome" value="<?php echo $dados["jogoNome"]?>">
+
       <hr>
       <label style="color:white; font-size: 15px" class="badge badge-dark">Preço: </label>
-    <input type="number" name="jogoPreco" value="<?php $dados["jogoPreco"]?>">
+    <input type="number" name="jogoPreco" value="<?php echo $dados["jogoPreco"]?>">
+
       <hr>
       <label style="color:white; font-size: 15px" class="badge badge-dark">Sinopse:</label>
-      <input type="text" name="jogoSinopse" value="<?php $dados["jogoSinopse"]?>">
+      <input type="text" name="jogoSinopse" value="<?php echo $dados["jogoSinopse"]?>">
+
       <hr>
       <label style="color:white; font-size: 15px" class="badge badge-dark">Trailer:</label>
-      <input type="url" name="jogoTrailer" value="<?php $dados["jogoTrailer"]?>">
+      <input type="url" name="jogoTrailer" value="<?php  echo $dados["jogoTrailer"]?>">
       <hr>
 
       <label style="color:white; font-size: 15px" class="badge badge-dark">Empresa</label>
