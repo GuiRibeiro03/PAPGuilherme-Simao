@@ -6,7 +6,6 @@ top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET["id"]);
 $sql="select * from jogos where jogoId=".$id;
-
 $resultjogos=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($resultjogos);
 

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/confirmaEditaReview.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eliminaReview.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reviewsBackoffice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/Backoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/EditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaEditaJogo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,21 +106,7 @@
       <workItem from="1615311450536" duration="12000" />
       <workItem from="1615314390364" duration="188000" />
       <workItem from="1615368047446" duration="4034000" />
-      <workItem from="1615372565193" duration="315000" />
-    </task>
-    <task id="LOCAL-00077" summary="Font">
-      <created>1614547212888</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1614547212888</updated>
-    </task>
-    <task id="LOCAL-00078" summary="BGcolor">
-      <created>1614547357180</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1614547357180</updated>
+      <workItem from="1615372565193" duration="960000" />
     </task>
     <task id="LOCAL-00079" summary="BGcolor">
       <created>1614547520245</created>
@@ -457,7 +437,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615142211478</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="Guilherme-Edita">
+      <created>1615373077496</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1615373077496</updated>
+    </task>
+    <task id="LOCAL-00127" summary="Guilherme-Edita">
+      <created>1615373088729</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1615373088729</updated>
+    </task>
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +470,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="checkout" />
     <MESSAGE value="carrinho" />
     <MESSAGE value="ReviewsCrud" />
     <MESSAGE value="h6,a" />
@@ -501,6 +494,7 @@
     <MESSAGE value="Guilherme-CRUD JOGOS" />
     <MESSAGE value="Guilherme-confirmaEditaJogo" />
     <MESSAGE value="Guilherme-LogIn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-LogIn" />
+    <MESSAGE value="Guilherme-Edita" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Edita" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 <?php
 $con = mysqli_connect("localhost", "root", "","pap2021gameon");
 
-$id=intval($_GET["Id"]);
+$id=intval($_GET["id"]);
 $jogoNome=addslashes($_POST["jogoNome"]);
 $jogoSinopse=addslashes($_POST["jogoSinopse"]);
 $jogoPreco=addslashes($_POST["jogoPreco"]);
