@@ -1,49 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>API</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script>
 
-        function getName(){
-            $.ajax({
-                POST: "https://id.twitch.tv/oauth2/token?client_id=abcdefg12345&client_secret=hijklmn67890&grant_type=client_credentials",
-                Client_ID: "x6vzfmpjecjafohpdh8muj2ladt8xd",
-                Authorization: "Bearer yfb4t31wos78svif4834jn5jg19mbp",
-                grant_type:"client_credentials";
-
-
-            url:"https://api.igdb.com/v4/games/",
-                type:"POST",
-                data:{
-                    fields name; limit 10;
-            },
-            success:function (result){
-                $('#nome').html(result);
-            }
-        });
+        {
+            "access_token": "epz2ym5b3y3uq6skv9xtdqz97v27pj",
+            "expires_in": 4849659,
+            "token_type": "bearer"
         }
 
+    function auth(id){
+        $.ajax({
+                POST: "https://id.twitch.tv/oauth2/token",
+                client_id: "x6vzfmpjecjafohpdh8muj2ladt8xd",
+                client_secret:"yfb4t31wos78svif4834jn5jg19mbp",
+                grant_type: "client_credentials",
+                fields "*";
+
+
+                url: "https://api.igdb.com/v4/games",
+                type: "post",
+                data: {
+                        name:id
+                }
+                success: function (auth){
+                        $('#nome').html(auth);
+                }
+
+                });
+            }
+
         $('document').ready(function (){
-            getName(5017)
+           auth();
         });
-    </script>
-</head>
-
-
+</script>
 
 <body>
 <span id="nome"></span>
-
-
-
-<footer>
-
-
-</footer>
-
 </body>
-</html>
+

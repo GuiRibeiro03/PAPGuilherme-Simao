@@ -218,6 +218,17 @@ function bottom(){
                     <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
                 </div>
             </div>
+
+            <div class="footer-about">
+                <div class="fa-logo">
+                    <a href="index.php"><img src="igdb2.png"></a>
+                </div>
+                <p>The data was freely provided by IGDB.com</p>
+                <div class="fa-social">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
         </div>
         <div class="copyright-area" >
             <div class="row">
