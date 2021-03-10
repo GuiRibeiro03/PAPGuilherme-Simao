@@ -37,7 +37,7 @@ function top(){
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="shortcut icon" href="onbutton.ico">
         <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <link rel="import" href="bower_components/polymer/polymer.html">
         <link rel="import" href="bower_components/iron-flex-layout/classes/iron-flex-layout.html">

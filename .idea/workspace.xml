@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/indexAPI.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexAPI.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,14 +110,7 @@
       <workItem from="1615372565193" duration="960000" />
       <workItem from="1615373629239" duration="308000" />
       <workItem from="1615376326877" duration="168000" />
-      <workItem from="1615388012482" duration="1519000" />
-    </task>
-    <task id="LOCAL-00082" summary="Fonts">
-      <created>1614550644004</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1614550644004</updated>
+      <workItem from="1615388012482" duration="2667000" />
     </task>
     <task id="LOCAL-00083" summary="Fonts">
       <created>1614551011069</created>
@@ -454,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615376485194</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <task id="LOCAL-00131" summary="fsdf">
+      <created>1615393320583</created>
+      <option name="number" value="00131" />
+      <option name="presentableId" value="LOCAL-00131" />
+      <option name="project" value="LOCAL" />
+      <updated>1615393320583</updated>
+    </task>
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +474,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="h6,a" />
     <MESSAGE value="Modal" />
     <MESSAGE value="Telemoveis" />
     <MESSAGE value="Font" />
@@ -498,6 +498,7 @@
     <MESSAGE value="Guilherme-Edita" />
     <MESSAGE value="Guilherme-Hotfix id" />
     <MESSAGE value="Guilherme-confirmaEditaReview" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-confirmaEditaReview" />
+    <MESSAGE value="fsdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="fsdf" />
   </component>
 </project>
