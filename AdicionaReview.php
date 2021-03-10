@@ -8,7 +8,7 @@ top();
 
 <section class="store" style="margin-top: 100px; margin-left: 50px">
 
-    <a href="reviews.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="reviewsBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
 
 
