@@ -1,12 +1,13 @@
 <?php
 $con = mysqli_connect("localhost", "root", "","pap2021gameon");
 
-$id=intval($_GET["Id"]);
-$jogoNome=addslashes($_POST["jogoNome"]);
-$jogoSinopse=addslashes($_POST["jogoSinopse"]);
-$jogoPreco=addslashes($_POST["jogoPreco"]);
-$empresaId=intval($_POST["jogoEmpresaId"]);
-$jogoTrailer=addslashes($_POST["jogoTrailer"]);
+$id=intval($_GET["id"]);
+$jogoNome=addslashes($_POST["reviewNome"]);
+$jogoSinopse=addslashes($_POST["reviewSinopse"]);
+$jogoPreco=addslashes($_POST["reviewTitulo"]);
+$empresaId=intval($_POST["reviewImagemURL"]);
+$jogoTrailer=addslashes($_POST["jogoPontosPositivos"]);
+$jogoTrailer=addslashes($_POST["jogoPontosNegativos"]);
 $img=$_FILES['jogoImagemURL']["name"];
 $novoNome="img/jogos/".$img;
 

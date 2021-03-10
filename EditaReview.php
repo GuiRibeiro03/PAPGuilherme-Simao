@@ -12,35 +12,35 @@ top();
 
 
 
-    <form action="ConfirmaNovaNoticia.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px; width: 100%">
+    <form action="ConfirmaEditaReview.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px; width: 100%">
 
 
         <div id="wrapper" style="color: #FFFFFF">
-            <input type="file" accept="image/*" onchange="preview_image(event)">
-            <div style="height: 20px"></div>
-            <img id="output_image"/>
+            <input type="file" accept="image/*" name="reviewImagemURL" onchange="preview_image(event)">
+            <div style="height: 50px">
+            <img id="output_image"/></div>
         </div>
         <br>
 
 
         <div class="mb-3">
             <label  class="form-label">Titulo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" style="width: 40%" autofocus>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" name="reviewNome" style="width: 40%" autofocus>
         </div>
+
+
         <div class="mb-3">
             <label  class="form-label">Review</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="20" style="width: 70%"></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="20" name="reviewSinopse" style="width: 70%"></textarea>
         </div>
-
-
 
 
 
         <div class="mb-3" style="width: 300px">
             <label  class="form-label">Pontos Positivos:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1"  rows="5" ></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1"  rows="5" name="reviewPontosPositivos" ></textarea>
             <label  class="form-label">Pontos Negativos:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1"  rows="5"  ></textarea>
+            <textarea class="form-control" id="exampleFormControlTextarea1"  rows="5" ame="reviewPontosNegativos"  ></textarea>
 
         </div>
 
@@ -60,6 +60,7 @@ top();
             <label class="form-check-label" >
                 Jogo
             </label>
+
         </div>
         <input type="Submit" value="Adicionar" style="width: 100px; height: 50px">
 
