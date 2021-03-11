@@ -112,14 +112,7 @@
       <workItem from="1615376326877" duration="168000" />
       <workItem from="1615388012482" duration="6904000" />
       <workItem from="1615400038625" duration="1589000" />
-      <workItem from="1615422406076" duration="303000" />
-    </task>
-    <task id="LOCAL-00086" summary="Search Bar|Menu|Butão Outlet">
-      <created>1614609529859</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1614609529859</updated>
+      <workItem from="1615422406076" duration="1425000" />
     </task>
     <task id="LOCAL-00087" summary="Search Bar|Menu|Butão Outlet">
       <created>1614610437802</created>
@@ -457,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615398736546</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <task id="LOCAL-00135" summary="Guilherme-API">
+      <created>1615422737468</created>
+      <option name="number" value="00135" />
+      <option name="presentableId" value="LOCAL-00135" />
+      <option name="project" value="LOCAL" />
+      <updated>1615422737468</updated>
+    </task>
+    <option name="localTasksCounter" value="136" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -476,7 +476,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Telemoveis" />
     <MESSAGE value="Font" />
     <MESSAGE value="BGcolor" />
     <MESSAGE value="Fonts" />
@@ -501,6 +500,7 @@
     <MESSAGE value="Guilherme-confirmaEditaReview" />
     <MESSAGE value="fsdf" />
     <MESSAGE value="IGDB API" />
-    <option name="LAST_COMMIT_MESSAGE" value="IGDB API" />
+    <MESSAGE value="Guilherme-API" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-API" />
   </component>
 </project>
