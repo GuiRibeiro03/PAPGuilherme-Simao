@@ -110,14 +110,9 @@
       <workItem from="1615372565193" duration="960000" />
       <workItem from="1615373629239" duration="308000" />
       <workItem from="1615376326877" duration="168000" />
-      <workItem from="1615388012482" duration="6062000" />
-    </task>
-    <task id="LOCAL-00085" summary="Search Bar|Menu|Butão Outlet">
-      <created>1614609184941</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1614609184942</updated>
+      <workItem from="1615388012482" duration="6904000" />
+      <workItem from="1615400038625" duration="1589000" />
+      <workItem from="1615422406076" duration="303000" />
     </task>
     <task id="LOCAL-00086" summary="Search Bar|Menu|Butão Outlet">
       <created>1614609529859</created>
@@ -455,7 +450,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615396357356</updated>
     </task>
-    <option name="localTasksCounter" value="134" />
+    <task id="LOCAL-00134" summary="IGDB API">
+      <created>1615398736546</created>
+      <option name="number" value="00134" />
+      <option name="presentableId" value="LOCAL-00134" />
+      <option name="project" value="LOCAL" />
+      <updated>1615398736546</updated>
+    </task>
+    <option name="localTasksCounter" value="135" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
