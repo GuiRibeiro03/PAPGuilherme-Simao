@@ -1,5 +1,6 @@
-
-<head><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script></head>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
 
     <script>
         var settings = {
@@ -10,11 +11,11 @@
 
         $.ajax(settings).done(function (response) {
             console.log(response);
-            $("#nome").html(response);
+            $('#nome').html(response);
         });
 </script>
 
 <body>
-<span id="nome">    </span>
+<span id="nome"></span>
 </body>
 
