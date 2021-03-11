@@ -4,9 +4,12 @@
 
     <script>
         var settings = {
-            "url": "https://id.twitch.tv/oauth2/token?client_id=x6vzfmpjecjafohpdh8muj2ladt8xd&client_secret=yfb4t31wos78svif4834jn5jg19mbp&grant_type=client_credentials",
-            "method": "POST",
-            "timeout": 0,
+            "type": "POST",
+            "url": "https://api.igdb.com/v4/games",
+            "headers": {
+                "Client-ID":"x6vzfmpjecjafohpdh8muj2ladt8xd",
+                "Authorization":"Bearer xy0d3yz5z5s8qa5fhmfsxgdzq8m4w6",
+            }
         };
 
         $.ajax(settings).done(function (response) {
