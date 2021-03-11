@@ -3,19 +3,15 @@
 </head>
 
     <script>
-        var settings = {
-            "type": "POST",
-            "url": "https://api.igdb.com/v4/games",
-            "headers": {
-                "Client-ID":"x6vzfmpjecjafohpdh8muj2ladt8xd",
-                "Authorization":"Bearer xy0d3yz5z5s8qa5fhmfsxgdzq8m4w6",
-            }
-        };
-
-        $.ajax(settings).done(function (response) {
-            console.log(response);
-            $('#nome').html(response);
-        });
+        $.ajax({
+            url: "https://cors-anywhere.herokuapp.com/api.igdb.com/v4/games?fields=id%2Cname",
+            headers: {
+                "Authorization": "Bearer ivzh4qch0aty83qd867jq7ni44olq3",
+                "Client-ID": "x6vzfmpjecjafohpdh8muj2ladt8xd"
+            },
+        }).done((data) => {
+            data.forEach((game) => console.log(game.name))
+        }).fail((e) => console.error(e))
 </script>
 
 <body>

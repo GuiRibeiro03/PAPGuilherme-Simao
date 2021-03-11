@@ -112,21 +112,9 @@
       <workItem from="1615376326877" duration="168000" />
       <workItem from="1615388012482" duration="6904000" />
       <workItem from="1615400038625" duration="1589000" />
-      <workItem from="1615422406076" duration="1425000" />
-    </task>
-    <task id="LOCAL-00087" summary="Search Bar|Menu|Butão Outlet">
-      <created>1614610437802</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1614610437802</updated>
-    </task>
-    <task id="LOCAL-00088" summary="Search Bar|Menu|Butão Outlet">
-      <created>1614612973147</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1614612973147</updated>
+      <workItem from="1615422406076" duration="1725000" />
+      <workItem from="1615453350483" duration="441000" />
+      <workItem from="1615459399505" duration="49000" />
     </task>
     <task id="LOCAL-00089" summary="adwwa">
       <created>1614621210662</created>
@@ -457,7 +445,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615422737468</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="Guilherme-API">
+      <created>1615423910220</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1615423910220</updated>
+    </task>
+    <task id="LOCAL-00137" summary="Guilherme-API">
+      <created>1615424136289</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1615424136289</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

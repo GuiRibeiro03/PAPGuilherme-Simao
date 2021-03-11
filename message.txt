@@ -1,0 +1,97 @@
+{
+        "id": 70,
+        "aggregated_rating": 92.0,
+        "aggregated_rating_count": 1,
+        "category": 0,
+        "cover": 71,
+        "created_at": 1297900800,
+        "external_games": [
+            8545,
+            78221,
+            154955,
+            1193716
+        ],
+        "first_release_date": 825984000,
+        "follows": 2,
+        "game_modes": [
+            1
+        ],
+        "genres": [
+            5,
+            13,
+            15
+        ],
+        "involved_companies": [
+            709
+        ],
+        "keywords": [
+            453,
+            970,
+            1025,
+            1669,
+            3782,
+            6351
+        ],
+        "name": "Terra Nova: Strike Force Centauri",
+        "platforms": [
+            13
+        ],
+        "player_perspectives": [
+            1
+        ],
+        "rating": 70.0,
+        "rating_count": 2,
+        "release_dates": [
+            544
+        ],
+        "screenshots": [
+            84914,
+            84915,
+            84916,
+            84917,
+            84918
+        ],
+        "similar_games": [
+            13200,
+            16806,
+            17130,
+            24620,
+            25311,
+            34823,
+            55038,
+            68286,
+            68287
+        ],
+        "slug": "terra-nova-strike-force-centauri",
+        "summary": "Lead an elite fighting team battling for freedom from the sinister forces of the Earth Hegemony. Engage in combat on the bloody battlefields of four unique worlds. Encased in your Powered Battle Armour (PBA) you are an unstoppable fighting force.",
+        "tags": [
+            1,
+            18,
+            268435461,
+            268435469,
+            268435471,
+            536871365,
+            536871882,
+            536871937,
+            536872581,
+            536874694,
+            536877263
+        ],
+        "themes": [
+            1,
+            18
+        ],
+        "total_rating": 81.0,
+        "total_rating_count": 3,
+        "updated_at": 1571270400,
+        "url": "https://www.igdb.com/games/terra-nova-strike-force-centauri",
+        "videos": [
+            506
+        ],
+        "websites": [
+            23691,
+            23692,
+            119708
+        ],
+        "checksum": "987b8ba1-56a2-09eb-cf31-cf4dca3eab46"
+    }
