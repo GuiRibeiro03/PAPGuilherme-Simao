@@ -264,13 +264,13 @@ function bottom(){
                 <label id="email"><b>Email</b></label>
                 <input type="text" placeholder="Introduza o seu Email" name="email" required>
 
-                <label id="userName"><b>Username</b></label>
+                <label id="userName"><b>Nome de Utilizador</b></label>
                 <input type="text" placeholder="Enter Username" name="uname" required>
 
-                <label id="password"><b>Password</b></label>
+                <label id="password"><b>Palavra-passe</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
 
-                <label id="password"><b>Password</b></label>
+                <label id="password"><b>Repete a Palavra-passe</b></label>
                 <input type="password" placeholder="Enter Password" name="pswRepeat" required>
 
 
