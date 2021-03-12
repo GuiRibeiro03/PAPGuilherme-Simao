@@ -10,21 +10,22 @@ top();
     <br>
     <br>
     <div class="container-md">
-        <img src="img/jogos/TloU2.jpg" style=" padding-top: 40px;">
+        <img src="img/jogos/TloU2.jpg" style="background-color: #FFFFFF; padding: 15px; padding-top: 40px;">
         <div style="float: right;  width: 700px; height: 200px">
+
             <section class="details-post-section spad">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 p-0">
                             <div class="details-text" style="width: 850px">
                                 <div class="dt-overall-rating">
+                                    <div style="color: #FFFFFF; font-size: 30px; padding-left: 10px"><strong><span >Resultados:</span></strong></div>
                                     <div class="or-heading">
-                                        <div class="or-item" >
-                                            <div class="or-item" >
-                                                <div class="or-loader">
+                                        <div class="or-item" style="margin-left: 20% ">
+                                            <div class="or-loader">
                                                     <div class="loader-circle-wrap">
                                                         <div class="loader-circle">
-                                                            <span class="circle-progress-2" data-cpid="circle1" data-cpvalue="88"  data-cpcolor="#4bcf13"></span>
+                                                            <span class="circle-progress-2" data-cpid="circle1" data-cpvalue="94"  data-cpcolor="#4bcf13"></span>
                                                             <div class="review-point">
                                                                 <div style="padding-left: 10px; padding-top: 10px">94</div>
                                                             </div>
@@ -42,7 +43,7 @@ top();
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div>
+
                                         </div>
                                         <div class="or-skill">
                                             <div class="skill-item">
@@ -143,18 +144,22 @@ top();
 
 
 
-        <section class="store" style="color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px;">
-            <div style="width: 500px; height: 100%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px">
-                <div><strong>Conteudo:</strong></div>
-                <hr>
-                <ul>
-                    <li><strong>Jogo - The Last of us Parte II</strong></li>
-                </ul>
+        <div style="height: 100%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; width: 100%">
+            <h2>Acerca do jogo:</h2>
+            <hr>
+            <div>
+                <h3>Resumo:</h3>
+                A história se passa cinco anos após os eventos de Devil May Cry 4, com Nero montando sua própria agência
+                de caça a demônios baseada em uma van adornada com um letreiro em neon de "Devil May Cry" que Dante deu a ele com apoio de Kyrie e a sua engenheira,
+                Nico. Mas em 30 de abril, Nero encontra um demônio agonizando que arranca seu braço,
+                <strong>Devil Bringer</strong> e o transforma no Devil Arm Yamato para abrir um portal para escapar.
             </div>
-
-
-
-        </section>
+            <hr>
+            <div><h4>Empresa:</h4><span>Naughty Dog</span>
+                <h4>Género: </h4><span>FPS/RPG</span>
+                <h4>Plataforma: </h4><span>PS4</span>
+            </div>
+        </div>
     </div>
 
 </section>

@@ -2657,6 +2657,7 @@ width: 100%;
 	background: #0d0d0d;
 	padding: 70px 0;
 	width: 100%;
+	z-index: 1;
 }
 
 

@@ -4,6 +4,8 @@
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DevilMayCry.php" beforeDir="false" afterPath="$PROJECT_DIR$/DevilMayCry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheLastofUs2.php" beforeDir="false" afterPath="$PROJECT_DIR$/TheLastofUs2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylewhitemode.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylewhitemode.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,14 +123,7 @@
       <workItem from="1615467535821" duration="323000" />
       <workItem from="1615468041770" duration="15000" />
       <workItem from="1615503944810" duration="4635000" />
-      <workItem from="1615512837742" duration="1253000" />
-    </task>
-    <task id="LOCAL-00091" summary="Funções TOP e BOTTOM">
-      <created>1614684081760</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1614684081760</updated>
+      <workItem from="1615512837742" duration="1894000" />
     </task>
     <task id="LOCAL-00092" summary="Backoffice">
       <created>1614684171127</created>
@@ -466,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615512155359</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="Guilherme-Jogos">
+      <created>1615514293778</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1615514293778</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +487,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Fonts" />
     <MESSAGE value="blogDisposição" />
     <MESSAGE value="Search Bar|Menu|Butão Outlet" />
     <MESSAGE value="adwwa" />
@@ -510,6 +511,7 @@
     <MESSAGE value="Guilherme-API" />
     <MESSAGE value="Guilherme-indexAPI" />
     <MESSAGE value="Guilherme-Resumo Jogos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Resumo Jogos" />
+    <MESSAGE value="Guilherme-Jogos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Jogos" />
   </component>
 </project>

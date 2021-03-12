@@ -10,7 +10,7 @@ top();
         <br>
 
     <div class="container-md">
-        <img src="img/jogos/devilmaycry5.jpg" style=" padding-top: 40px;">
+        <img src="img/jogos/devilmaycry5.jpg" style="background-color: #FFFFFF; padding: 15px; padding-top: 40px;">
         <div style="float: right;  width: 700px; height: 200px">
             <section class="details-post-section spad">
                 <div class="container">
@@ -18,9 +18,9 @@ top();
                         <div class="col-lg-8 p-0">
                             <div class="details-text" style="width: 850px">
                                 <div class="dt-overall-rating">
-                                        <div style="color: #FFFFFF; font-size: 30px; padding-left: 10px"><strong><span >Resultado Global:</span></strong></div>
+                                        <div style="color: #FFFFFF; font-size: 30px; padding-left: 10px"><strong><span >Resultados:</span></strong></div>
                                     <div class="or-heading">
-                                        <div class="or-item" >
+                                        <div class="or-item" style="margin-left: 20% ">
                                             <div class="or-loader">
 
                                                 <div class="loader-circle-wrap">
