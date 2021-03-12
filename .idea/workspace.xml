@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/indexAPI.php" beforeDir="false" afterPath="$PROJECT_DIR$/indexAPI.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevilMayCry.php" beforeDir="false" afterPath="$PROJECT_DIR$/DevilMayCry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,13 +116,12 @@
       <workItem from="1615422406076" duration="1725000" />
       <workItem from="1615453350483" duration="441000" />
       <workItem from="1615459399505" duration="49000" />
-    </task>
-    <task id="LOCAL-00089" summary="adwwa">
-      <created>1614621210662</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1614621210663</updated>
+      <workItem from="1615461395661" duration="508000" />
+      <workItem from="1615463941088" duration="285000" />
+      <workItem from="1615464822460" duration="1022000" />
+      <workItem from="1615467535821" duration="323000" />
+      <workItem from="1615468041770" duration="15000" />
+      <workItem from="1615503944810" duration="4005000" />
     </task>
     <task id="LOCAL-00090" summary="Carrinho Fica por cima das noticias pk o Orlando é um génio">
       <created>1614679754014</created>
@@ -459,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615424136289</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="Guilherme-indexAPI">
+      <created>1615461612068</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1615461612068</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Font" />
     <MESSAGE value="BGcolor" />
     <MESSAGE value="Fonts" />
     <MESSAGE value="blogDisposição" />
@@ -503,6 +509,7 @@
     <MESSAGE value="fsdf" />
     <MESSAGE value="IGDB API" />
     <MESSAGE value="Guilherme-API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-API" />
+    <MESSAGE value="Guilherme-indexAPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-indexAPI" />
   </component>
 </project>

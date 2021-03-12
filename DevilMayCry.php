@@ -87,6 +87,8 @@ top();
                                             </div>
 
                                         </div>
+
+
                                         <div class="or-qualities">
                                             <div class="qualities-item">
                                                 <p>The Goods</p>
@@ -150,17 +152,20 @@ top();
 
 
 
-        <section class="store" style="color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px;">
-        <div style="width: 500px; height: 100%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px">
-            <div>Conteudo:</div>
+
+        <div style="height: 100%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; width: 100%">
+            <h2>Acerca do jogo:</h2>
             <hr>
-            <ul>
-                <li>Jogo - Devil May Cry 5</li>
-                <li>2500 Moedas Virtuais</li>
-                <li>DLC Virgil </li>
-            </ul>
+            <div>
+                <h3>Resumo:</h3>
+                A história se passa cinco anos após os eventos de Devil May Cry 4, com Nero montando sua própria agência
+                de caça a demônios baseada em uma van adornada com um letreiro em neon de "Devil May Cry" que Dante deu a ele com apoio de Kyrie e a sua engenheira,
+                Nico. Mas em 30 de abril, Nero encontra um demônio agonizando que arranca seu braço,
+                <strong>Devil Bringer</strong> e o transforma no Devil Arm Yamato para abrir um portal para escapar.
             </div>
-        </section>
+            <hr>
+            </div>
+
 
     </div>
 

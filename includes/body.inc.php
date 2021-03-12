@@ -210,24 +210,19 @@ function bottom(){
 
             <div class="footer-about">
                 <div class="fa-logo">
-                    <a href="index.php"><img src="gameOn.png"></a>
+                    <a href="index.php"><img src="gameOn.png">
+                        <p>Podes nos seguir na nossa Redes Sociais para seguires</p>
+                        <p> as novidades da loja e do mundo do gaming à tua volta.</p></a>
+
+
+                    <a href="index.php" style="margin-left: 20%"><img src="igdb2.png"><p>The data was freely provided by IGDB.com</p></a>
                 </div>
-                <p>Podes nos seguir na nossa Redes Sociais para seguires as novidades da loja e do mundo do gaming à tua volta.</p>
-                <div class="fa-social">
-                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
-                </div>
+
             </div>
 
-            <div class="footer-about">
-                <div class="fa-logo">
-                    <a href="index.php"><img src="igdb2.png"></a>
-                </div>
-                <p>The data was freely provided by IGDB.com</p>
-                <div class="fa-social">
-                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
-                </div>
+            <div class=" footer-about fa-social">
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
             </div>
         </div>
         <div class="copyright-area" >
