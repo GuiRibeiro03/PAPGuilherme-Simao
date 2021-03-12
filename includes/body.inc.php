@@ -215,8 +215,9 @@ function bottom(){
                         <p> as novidades da loja e do mundo do gaming à tua volta.</p></a>
 
 
-                    <a href="index.php" style="margin-left: 20%"><img src="igdb2.png"><p>The data was freely provided by IGDB.com</p></a>
+                    <a href="index.php" style="margin-left: 20%;"><img src="igdb2.png" style="width: 200px; height: 200px"><p>The data was freely provided by IGDB.com</p></a>
                 </div>
+
 
             </div>
             <hr>
@@ -268,6 +269,9 @@ function bottom(){
 
                 <label id="password"><b>Password</b></label>
                 <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <label id="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="pswRepeat" required>
 
 
 

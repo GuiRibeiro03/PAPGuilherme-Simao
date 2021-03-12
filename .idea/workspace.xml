@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DevilMayCry.php" beforeDir="false" afterPath="$PROJECT_DIR$/DevilMayCry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TheLastofUs2.php" beforeDir="false" afterPath="$PROJECT_DIR$/TheLastofUs2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stylewhitemode.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylewhitemode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,14 +121,8 @@
       <workItem from="1615467535821" duration="323000" />
       <workItem from="1615468041770" duration="15000" />
       <workItem from="1615503944810" duration="4635000" />
-      <workItem from="1615512837742" duration="1894000" />
-    </task>
-    <task id="LOCAL-00092" summary="Backoffice">
-      <created>1614684171127</created>
-      <option name="number" value="00092" />
-      <option name="presentableId" value="LOCAL-00092" />
-      <option name="project" value="LOCAL" />
-      <updated>1614684171127</updated>
+      <workItem from="1615512837742" duration="1963000" />
+      <workItem from="1615541344235" duration="317000" />
     </task>
     <task id="LOCAL-00093" summary="Backoffice">
       <created>1614684943407</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615514293778</updated>
     </task>
-    <option name="localTasksCounter" value="141" />
+    <task id="LOCAL-00141" summary="Guilherme-Jogos">
+      <created>1615514800985</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1615514800985</updated>
+    </task>
+    <option name="localTasksCounter" value="142" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
