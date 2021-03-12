@@ -126,14 +126,15 @@ function top(){
                                 <div class="dropdown">
                                     <li><i class="fa fa-shopping-cart"></i><span>Carrinho &nbsp;</span><span id="bdg1" class="badge badge-danger">0</span></li>
                                     <div class="dropdown-content" >
-                                        <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco"><strong>399,90€</strong></span>  <button style="float: right"><i class="fa fa-close" style="color: red"></i></button></span>
+                                        <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco"><strong>399,90€</strong></span>  <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
                                         <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                                         <hr>
-                                        <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco2"><strong>399,90€</strong></span>    <button style="float: right"><i class="fa fa-close" style="color: red"></i></button></span>
+                                        <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco2"><strong>399,90€</strong></span>    <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
                                         <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                                         <hr>
-                                        <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco2"><strong>399,90€</strong></span>    <button style="float: right"><i class="fa fa-close" style="color: red"></i></button></span>
+                                        <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco2"><strong>399,90€</strong></span>    <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
                                         <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+
                                         <hr>
                                         <span></spam><strong>Total: 799,80€</strong></span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
                                     </div>

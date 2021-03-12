@@ -3,7 +3,7 @@ include_once ("includes/body.inc.php");
 top();
 ?>
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" style="height: 70%" data-setbg="img/wallpapers/cyberpunk2077.jpg">
+    <section class="details-hero-section set-bg" data-setbg="img/wallpapers/cyberpunk2077.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">

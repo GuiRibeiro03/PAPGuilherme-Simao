@@ -61,7 +61,7 @@ top();
                                                 <div class="ub-text">
                                                     <div class="label"><span>Notícias</span></div>
 
-                                                    <h4 style=" color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="blog1.html">Adiado Pela 4 vez!!</a></h4>
+                                                    <h4 style=" color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="blog1.php">Adiado Pela 4 vez!!</a></h4>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
                                                         <li><i class="fa fa-clock-o"></i> Set 06, 2020</li>
