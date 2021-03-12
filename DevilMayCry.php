@@ -164,7 +164,11 @@ top();
                 <strong>Devil Bringer</strong> e o transforma no Devil Arm Yamato para abrir um portal para escapar.
             </div>
             <hr>
+            <div><h4>Empresa:</h4><span>Capcom</span>
+                <h4>Género: </h4><span>FPS/RPG</span>
+                <h4>Plataforma: </h4><span>PS5</span>
             </div>
+        </div>
 
 
     </div>

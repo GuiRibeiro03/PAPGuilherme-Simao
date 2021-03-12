@@ -219,13 +219,15 @@ function bottom(){
                 </div>
 
             </div>
-
+            <hr>
+         <div class="footer-about">
             <div class=" footer-about fa-social">
                 <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
                 <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
             </div>
         </div>
-        <div class="copyright-area" >
+        </div>
+        <div class="copyright-area"  >
             <div class="row">
                 <div class="col-lg-6">
 

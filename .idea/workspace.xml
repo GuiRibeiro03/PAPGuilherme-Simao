@@ -4,7 +4,6 @@
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DevilMayCry.php" beforeDir="false" afterPath="$PROJECT_DIR$/DevilMayCry.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,14 +120,8 @@
       <workItem from="1615464822460" duration="1022000" />
       <workItem from="1615467535821" duration="323000" />
       <workItem from="1615468041770" duration="15000" />
-      <workItem from="1615503944810" duration="4005000" />
-    </task>
-    <task id="LOCAL-00090" summary="Carrinho Fica por cima das noticias pk o Orlando é um génio">
-      <created>1614679754014</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1614679754014</updated>
+      <workItem from="1615503944810" duration="4635000" />
+      <workItem from="1615512837742" duration="1253000" />
     </task>
     <task id="LOCAL-00091" summary="Funções TOP e BOTTOM">
       <created>1614684081760</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615461612068</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="Guilherme-Resumo Jogos">
+      <created>1615512155359</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1615512155359</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BGcolor" />
     <MESSAGE value="Fonts" />
     <MESSAGE value="blogDisposição" />
     <MESSAGE value="Search Bar|Menu|Butão Outlet" />
@@ -510,6 +509,7 @@
     <MESSAGE value="IGDB API" />
     <MESSAGE value="Guilherme-API" />
     <MESSAGE value="Guilherme-indexAPI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-indexAPI" />
+    <MESSAGE value="Guilherme-Resumo Jogos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Resumo Jogos" />
   </component>
 </project>
