@@ -26,7 +26,7 @@ include_once("includes/bodyBase.inc.php");
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="shortcut icon" href="onbutton.ico">
+    <link rel="shortcut icon" href="img/onbutton.ico">
     <link rel="stylesheet" href="css/adressForm.css" type="text/css">
 
 </head>
@@ -93,7 +93,7 @@ include_once("includes/bodyBase.inc.php");
         <div class="logo">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="./index.php"><img src="gameOn.png" alt=""></a>
+                    <a href="./index.php"><img src="img/gameOn.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -225,7 +225,7 @@ include_once("includes/bodyBase.inc.php");
 
                     <div class="footer-about">
                         <div class="fa-logo">
-                            <a href="#"><img src="  gameOn.png" alt=""></a>
+                            <a href="#"><img src="img/gameOn.png" alt=""></a>
                         </div>
                         <p>Podes nos seguir na nossa Redes Sociais para seguires as novidades da loja e do mundo do gaming à tua volta.</p>
                         <div class="fa-social">

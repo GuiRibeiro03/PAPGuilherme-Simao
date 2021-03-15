@@ -32,7 +32,7 @@ include_once("includes/bodyBase.inc.php");
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="shortcut icon" href="onbutton.ico">
+    <link rel="shortcut icon" href="img/onbutton.ico">
     <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
 
 
@@ -142,7 +142,7 @@ include_once("includes/bodyBase.inc.php");
     <div class="logo">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <a href="./index.php"><img src="gameOn.png" alt=""></a>
+                <a href="./index.php"><img src="img/gameOn.png" alt=""></a>
             </div>
         </div>
     </div>
@@ -176,7 +176,7 @@ include_once("includes/bodyBase.inc.php");
                     <li><a href="reviews.php"><span><strong>Reviews</strong> </span></a></li>
 
                     <li><a href="blog.php"><span><strong>Blog</strong> </span></a></li>
-                    <li><a href="Backoffice.php"><span><strong>BackOffice</strong></span></a></li>
+                    <li><a href="backoffice/Backoffice.php"><span><strong>BackOffice</strong></span></a></li>
 
 
                 </ul>
@@ -197,7 +197,7 @@ include_once("includes/bodyBase.inc.php");
 
         <div class="footer-about">
             <div class="fa-logo">
-                <a href="#"><img src="  gameOn.png" alt=""></a>
+                <a href="#"><img src="img/gameOn.png" alt=""></a>
             </div>
             <p>Podes nos seguir na nossa Redes Sociais para seguires as novidades da loja e do mundo do gaming à tua volta.</p>
             <div class="fa-social">
@@ -235,7 +235,7 @@ include_once("includes/bodyBase.inc.php");
     <form class="modal-content animate" action="/action_page.php" method="post">
         <div class="imgcontainer">
             <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-            <img src="Game.png" alt="Avatar" class="avatar">
+            <img src="img/Game.png" alt="Avatar" class="avatar">
         </div>
 
         <div class="container">
@@ -285,7 +285,7 @@ include_once("includes/bodyBase.inc.php");
     <form class="modal-content animate" action="/action_page.php" method="post">
         <div class="imgcontainer">
             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-            <img src="Game.png" alt="Avatar" class="avatar">
+            <img src="img/Game.png" alt="Avatar" class="avatar">
         </div>
 
         <div class="container">

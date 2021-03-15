@@ -26,7 +26,7 @@ include_once("includes/body.inc.php");
     <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="../css/style.css" type="text/css">
-    <link rel="shortcut icon" href="../onbutton.ico">
+    <link rel="shortcut icon" href="../img/onbutton.ico">
 
 
 
@@ -112,7 +112,7 @@ include_once("includes/body.inc.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="../index.php"><img src="../gameOn.png" alt=""></a>
+                    <a href="../index.php"><img src="../img/gameOn.png" alt=""></a>
                 </div>
             </div>
         </div>
