@@ -12,7 +12,7 @@ $result=mysqli_query($con, $sql);
 
         <tr>
         <td colspan="3" style="margin-bottom: 30px">
-        <a href="Adiciona/AdicionaJogo.php" style="color: #FFFFFF"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a>
+        <a href="/Adiciona/AdicionaJogo.php" style="color: #FFFFFF"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a>
         </td>
         </tr>
         <tr>
@@ -33,7 +33,7 @@ $result=mysqli_query($con, $sql);
                 echo "<td> <img  style='width: 300px; height: 350px' src=\"../img/jogos/".$dados['jogoImagemURL']."\"></td>";
                 echo "<td>" . $dados['empresaNome'] . "</td>";
                 echo "<td>" . $dados['jogoPreco'] . "€</td>";
-                echo "<td><a href=\"EditaJogo.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
+                echo "<td><a href=\"../Edita/EditaJogo.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
                 echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['jogoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
                 echo "</tr>";
             }
