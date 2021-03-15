@@ -1,32 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaTagEmpresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaTagEmpresa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaTagGenero.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaTagGenero.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaTagPlataforma.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaTagPlataforma.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaTagEmpresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaTagEmpresa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaTagGenero.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaTagGenero.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaTagPlataforma.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaTagPlataforma.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaAcessorio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaAnuncio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaAnuncio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaConsola.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaTagEmpresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaTagEmpresa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaTagGenero.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaTagGenero.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaTagPlataforma.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaTagPlataforma.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elimina/EliminaEmpresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/EliminaEmpresa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elimina/EliminaGenero.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/EliminaGenero.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elimina/EliminaPlataforma.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/EliminaPlataforma.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elimina/eliminaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/eliminaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elimina/eliminaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/eliminaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-    </list>
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -145,13 +120,6 @@
       <workItem from="1615503944810" duration="4635000" />
       <workItem from="1615512837742" duration="1963000" />
       <workItem from="1615541344235" duration="317000" />
-    </task>
-    <task id="LOCAL-00093" summary="Backoffice">
-      <created>1614684943407</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1614684943407</updated>
     </task>
     <task id="LOCAL-00094" summary="Backoffice">
       <created>1614686075248</created>
@@ -489,7 +457,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615514800985</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="pastas">
+      <created>1615827808600</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1615827808600</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -508,7 +483,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="blogDisposição" />
     <MESSAGE value="Search Bar|Menu|Butão Outlet" />
     <MESSAGE value="adwwa" />
     <MESSAGE value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
@@ -533,6 +507,7 @@
     <MESSAGE value="Guilherme-indexAPI" />
     <MESSAGE value="Guilherme-Resumo Jogos" />
     <MESSAGE value="Guilherme-Jogos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Jogos" />
+    <MESSAGE value="pastas" />
+    <option name="LAST_COMMIT_MESSAGE" value="pastas" />
   </component>
 </project>

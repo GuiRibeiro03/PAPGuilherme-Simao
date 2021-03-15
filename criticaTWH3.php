@@ -1,5 +1,5 @@
 <?php
-include_once ("includes/body.inc.php");
+include_once ("includes/bodyBase.inc.php");
 top();
 ?>
     <!-- Details Hero Section Begin -->
