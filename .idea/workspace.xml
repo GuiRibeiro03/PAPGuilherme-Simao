@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,20 +121,7 @@
       <workItem from="1615503944810" duration="4635000" />
       <workItem from="1615512837742" duration="1963000" />
       <workItem from="1615541344235" duration="317000" />
-    </task>
-    <task id="LOCAL-00095" summary="Backoffice">
-      <created>1614689629841</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1614689629841</updated>
-    </task>
-    <task id="LOCAL-00096" summary="Backoffice">
-      <created>1614689958663</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1614689958663</updated>
+      <workItem from="1615828859910" duration="318000" />
     </task>
     <task id="LOCAL-00097" summary="Backoffice">
       <created>1614690248105</created>
@@ -467,7 +452,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615828250790</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="imagens">
+      <created>1615828993960</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1615828993960</updated>
+    </task>
+    <task id="LOCAL-00145" summary="backoffice include">
+      <created>1615829060997</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1615829060997</updated>
+    </task>
+    <option name="localTasksCounter" value="146" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,8 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adwwa" />
-    <MESSAGE value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
     <MESSAGE value="Funções TOP e BOTTOM" />
     <MESSAGE value="Backoffice" />
     <MESSAGE value="Backoffice-EM BRANCO" />
@@ -511,6 +508,8 @@
     <MESSAGE value="Guilherme-Jogos" />
     <MESSAGE value="pastas" />
     <MESSAGE value="includes base" />
-    <option name="LAST_COMMIT_MESSAGE" value="includes base" />
+    <MESSAGE value="imagens" />
+    <MESSAGE value="backoffice include" />
+    <option name="LAST_COMMIT_MESSAGE" value="backoffice include" />
   </component>
 </project>
