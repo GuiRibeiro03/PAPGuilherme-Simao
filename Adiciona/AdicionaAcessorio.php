@@ -1,5 +1,5 @@
 <?php
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt">
@@ -90,7 +90,7 @@ include_once("includes/body.inc.php");
 
 
 <section class="store" style="padding:50px">
-    <a href="../acessoriosBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="../backoffice/acessoriosBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
     <form action="ConfirmaNovoAcessorio.php" method="post" enctype="multipart/form-data">
         <hr>

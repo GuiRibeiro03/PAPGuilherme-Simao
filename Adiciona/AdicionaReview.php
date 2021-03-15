@@ -1,5 +1,5 @@
 <?php
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 top();
 ?>
 <div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Adicionar Review</span></div>
@@ -8,7 +8,7 @@ top();
 
 <section class="store" style="margin-top: 100px; margin-left: 50px">
 
-    <a href="../reviewsBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="../backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
 
 

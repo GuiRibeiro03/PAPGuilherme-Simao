@@ -1,5 +1,5 @@
 <?php
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from jogos inner join empresas where jogoEmpresaId=empresaId";
@@ -30,7 +30,7 @@ $result=mysqli_query($con, $sql);
                 echo "<tr>";
                 echo "<td>" . $dados['jogoId'] . "</td>";
                 echo "<td>" . $dados['jogoNome'] . "</td>";
-                echo "<td> <img  style='width: 300px; height: 350px' src=\"img/jogos/".$dados['jogoImagemURL']."\"></td>";
+                echo "<td> <img  style='width: 300px; height: 350px' src=\"../img/jogos/".$dados['jogoImagemURL']."\"></td>";
                 echo "<td>" . $dados['empresaNome'] . "</td>";
                 echo "<td>" . $dados['jogoPreco'] . "€</td>";
                 echo "<td><a href=\"EditaJogo.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";

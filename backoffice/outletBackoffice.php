@@ -1,5 +1,5 @@
 <?php
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 top();
 
 ?>
@@ -25,7 +25,7 @@ top();
         <td>#1</td>
 
         <td>Nome do Produto</td>
-        <td><img src="img/Telemoveis/iphone8.jpg" style="width: 220px; height: 210px"></td>
+        <td><img src="../img/Telemoveis/iphone8.jpg" style="width: 220px; height: 210px"></td>
         <td>249,99€</td>
 
             <td><a href="EditaAnuncio.php" style="color: #FFFFFF"><button type="button" class="btn btn-primary"><i class="fa fa-edit"></i>Editar</button></a></td>

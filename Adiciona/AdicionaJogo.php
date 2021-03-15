@@ -1,5 +1,5 @@
 <?php
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 
@@ -10,7 +10,7 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
 <section class="store" style="padding:50px">
 
-    <a href="../jogosBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="../backoffice/jogosBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 <hr>
 <form action="../Confirma/confirmaNovoJogo.php" method="post" enctype="multipart/form-data">
     <label style="color:white; font-size: 15px" class="badge badge-dark">Nome: </label>

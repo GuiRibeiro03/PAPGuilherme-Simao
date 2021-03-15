@@ -1,5 +1,5 @@
 <?php
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from generos";
