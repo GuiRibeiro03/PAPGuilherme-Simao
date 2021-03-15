@@ -8,7 +8,7 @@ $sql="UPDATE plataformas SET plataformaNome='".$platNome."' where plataformaId="
 
 
 mysqli_query($con,$sql);
-header("location: tagPlataformaBackoffice.php");
+header("location: ../backoffice/tagPlataformaBackoffice.php");
 
 
 

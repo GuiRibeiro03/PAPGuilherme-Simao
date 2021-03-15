@@ -8,7 +8,7 @@ $sql="UPDATE empresas SET empresaNome='".$platNome."' where empresaId=".$id;
 
 
 mysqli_query($con,$sql);
-header("location: tagEmpresasBackoffice.php");
+header("location: ../backoffice/tagEmpresasBackoffice.php");
 
 
 

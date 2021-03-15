@@ -7,7 +7,7 @@ echo $sql="insert into generos(generoNome)
 values('".$genNome."')";
 
 mysqli_query($con,$sql);
-header("location: tagGenerosBackoffice.php");
+header("location: ../backoffice/tagGenerosBackoffice.php");
 ?>
 
 

@@ -1,10 +1,10 @@
 <?php
 
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 top();
 ?>
-<form action="confirmaEditaConsola.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
-    <a href="consolasBackoffice.php"><button type="button" class="btn btn-primary">Voltar</button></a>
+<form action="../Confirma/confirmaEditaConsola.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
+    <a href="../backoffice/consolasBackoffice.php"><button type="button" class="btn btn-primary">Voltar</button></a>
 <h2>Editar Consola</h2>
 <hr>
     <div><img id="output_image" src="../img/consola/ps4.png" style="margin-left: 20px; margin-bottom: 20px"/></div>

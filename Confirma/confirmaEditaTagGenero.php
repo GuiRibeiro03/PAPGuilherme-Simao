@@ -8,7 +8,7 @@ $sql="UPDATE generos SET generoNome='".$genNome."' where generoId=".$id;
 
 
 mysqli_query($con,$sql);
-header("location: tagGenerosBackoffice.php");
+header("location: ../backoffice/tagGenerosBackoffice.php");
 
 
 

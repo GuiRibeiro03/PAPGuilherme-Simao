@@ -1,6 +1,6 @@
 
 <?php
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET["id"]);
@@ -14,7 +14,7 @@ $dadosEmpresas=mysqli_fetch_array($resultEmpresas);
 
 <section class="store" style="padding:50px">
 
-    <a href="Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 <hr>
 
 <form action="../Confirma/confirmaEditaTagEmpresa.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data">

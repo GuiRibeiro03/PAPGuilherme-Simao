@@ -3,7 +3,7 @@ $con = mysqli_connect("localhost", "root", "","pap2021gameon");
 $id=intval($_GET["id"]);
 $sql="delete from empresas where empresaId=".$id;
 mysqli_query($con,$sql);
-header("location: tagEmpresasBackoffice.php");
+header("location: ../backoffice/tagEmpresasBackoffice.php");
 
 
 

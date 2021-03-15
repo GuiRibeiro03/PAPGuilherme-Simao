@@ -7,7 +7,7 @@ echo $sql="insert into plataformas(plataformaNome)
 values('".$platNome."')";
 
 mysqli_query($con,$sql);
-header("location: tagPlataformaBackoffice.php");
+header("location: ../backoffice/tagPlataformaBackoffice.php");
 ?>
 
 

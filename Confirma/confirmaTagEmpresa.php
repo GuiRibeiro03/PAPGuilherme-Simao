@@ -7,7 +7,7 @@ echo $sql="insert into empresas(empresaNome)
 values('".$platNome."')";
 
 mysqli_query($con,$sql);
-header("location: tagEmpresasBackoffice.php");
+header("location: ../backoffice/tagEmpresasBackoffice.php");
 ?>
 
 

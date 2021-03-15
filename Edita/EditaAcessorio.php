@@ -1,10 +1,10 @@
 <?php
 
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 top();
 ?>
-<form action="confirmaEditaAcessorio.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
-    <a href="acessoriosBackoffice.php"><button type="button" class="btn btn-primary">Voltar</button></a>
+<form action="../Confirma/confirmaEditaAcessorio.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
+    <a href="../backoffice/acessoriosBackoffice.php"><button type="button" class="btn btn-primary">Voltar</button></a>
 <h2>Editar Acessório</h2>
 <hr>
     <div><img id="output_image" src="../img/acessorios/dualshock4.png" style="margin-left: 20px; margin-bottom: 20px"/></div>

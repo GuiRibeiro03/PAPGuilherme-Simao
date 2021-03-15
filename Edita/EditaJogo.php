@@ -1,5 +1,5 @@
 <?php
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 top();
 
 
@@ -16,7 +16,7 @@ $dados=mysqli_fetch_array($resultjogos);
 
 
 <form action="../Confirma/confirmaEditaJogo.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
-    <a href="jogosBackoffice.php"><button type="button"  class="btn btn-primary">Voltar</button></a>
+    <a href="../backoffice/jogosBackoffice.php"><button type="button"  class="btn btn-primary">Voltar</button></a>
 <h2>Editar Jogo</h2>
 <hr>
     <div><img id="output_image" src="img/jogos/<?php echo $dados["jogoImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width: 300px; height: 400px"/></div>

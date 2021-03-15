@@ -9,7 +9,7 @@ $reviewCapa=intval($_POST["reviewImagemURL"]);
 $reviewPP=addslashes($_POST["jogoPontosPositivos"]);
 $reviewPN=addslashes($_POST["jogoPontosNegativos"]);
 $img=$_FILES['jogoImagemURL']["name"];
-$novoNome="img/jogos/".$img;
+$novoNome="../img/jogos/".$img;
 
 
 $sql="UPDATE reviews SET reviewNome='".$reviewNome."', reviewSinopse='".$reviewSinopse."', reviewTitulo='".$reviewTitulo."',jogoPontosPositivos='".$reviewPP."', jogoPontosNegativos='".$reviewPN."'";
@@ -22,7 +22,7 @@ $sql.="where jogoId=".$id;
 
 mysqli_query($con,$sql);
 print_r($sql);
-header("location: reviewsBackoffice.php");
+header("location: ../backoffice/reviewsBackoffice.php");
 
 
 

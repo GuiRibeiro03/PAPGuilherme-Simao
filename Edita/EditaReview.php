@@ -1,5 +1,5 @@
 <?php
-include_once("includes/body.inc.php");
+include_once("../includes/body.inc.php");
 top();
 ?>
 
@@ -12,7 +12,7 @@ top();
 
 
 
-    <form action="ConfirmaEditaReview.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px; width: 100%">
+    <form action="../Edita/ConfirmaEditaReview.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px; width: 100%">
 
 
         <div id="wrapper" style="color: #FFFFFF">
