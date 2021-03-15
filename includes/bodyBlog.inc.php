@@ -3,7 +3,7 @@
 
 function top(){
 
-?>
+    ?>
     <!DOCTYPE html>
     <html lang="pt">
 
@@ -27,15 +27,15 @@ function top(){
         <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">
 
         <!-- Css Styles -->
-        <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
-        <link rel="stylesheet" href="../css/elegant-icons.css" type="text/css">
-        <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
-        <link rel="stylesheet" href="../css/barfiller.css" type="text/css">
-        <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
-        <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
-        <link rel="stylesheet" href="../css/style.css" type="text/css">
-        <link rel="shortcut icon" href="../img/onbutton.ico">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="css/barfiller.css" type="text/css">
+        <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="shortcut icon" href="img/onbutton.ico">
         <script src="https://apis.google.com/js/platform.js?onload=init" async defer></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
@@ -76,7 +76,7 @@ function top(){
 
             function confirmaElimina(id) {
                 if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-                    window.location="../elimina/eliminaCanais.php?id=" + id;
+                    window.location="elimina/eliminaCanais.php?id=" + id;
             }
 
         </script>
@@ -90,6 +90,9 @@ function top(){
 
     <body>
     <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
 
     <!-- Humberger Menu Begin -->
 
@@ -150,9 +153,8 @@ function top(){
         <div class="logo">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="../index.php"><img src="gameOn.png" alt="LOGO" ></a>
+                    <a href="./index.php"><img src="img/gameOnBlog.png" alt=""></a>
                 </div>
-
             </div>
         </div>
         </div>
@@ -168,24 +170,24 @@ function top(){
                  </div> -->
                 <div class="nav-menu" style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">
                     <ul>
-                        <li><a href="../index.php"><span ><strong>Home</strong></span></a></li>
+                        <li><a href="./index.php"><span ><strong>Home</strong></span></a></li>
                         <li><a href="#"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
                             <div class="dropdown">
                                 <ul>
-                                    <li><a href="../consolas.php">Consolas</a></li>
-                                    <li><a href="../jogos.php">Jogos</a></li>
-                                    <li><a href="../acessorios.php">Acessórios</a></li>
-                                    <li><a href="../outlet.php">Outlet</a></li>
+                                    <li><a href="consolas.php">Consolas</a></li>
+                                    <li><a href="jogos.php">Jogos</a></li>
+                                    <li><a href="acessorios.php">Acessórios</a></li>
+                                    <li><a href="outlet.php">Outlet</a></li>
                                 </ul>
                             </div>
                         </li>
 
 
 
-                        <li><a href="../reviews.php"><span><strong>Reviews</strong> </span></a></li>
+                        <li><a href="reviews.php"><span><strong>Reviews</strong> </span></a></li>
 
-                        <li><a href="../blog.php"><span><strong>Blog</strong> </span></a></li>
-                        <li><a href="../backoffice/Backoffice.php"><span><strong>Backoffice</strong></span></a></li>
+                        <li><a href="blog.php"><span><strong>Blog</strong> </span></a></li>
+                        <li><a href="backoffice/Backoffice.php"><span><strong>BackOffice</strong></span></a></li>
 
 
                     </ul>
@@ -194,12 +196,12 @@ function top(){
         </div>
     </header>
 
-<?php
+    <?php
 }
 ?>
 
 
-    <?php
+<?php
 function bottom(){
     ?>
 
@@ -209,23 +211,23 @@ function bottom(){
 
             <div class="footer-about">
                 <div class="fa-logo">
-                        <a href="../index.php"><img src="../img/gameOn.png">
+                    <a href="index.php"><img src="img/gameOn.png">
                         <p>Podes nos seguir na nossa Redes Sociais para seguires</p>
                         <p> as novidades da loja e do mundo do gaming à tua volta.</p></a>
 
 
-                    <a href="index.php" style="margin-left: 20%;"><img src="../img/igdb2.png" style="width: 200px; height: 200px"><p>The data was freely provided by IGDB.com</p></a>
+                    <a href="index.php" style="margin-left: 20%;"><img src="img/igdb2.png" style="width: 200px; height: 200px"><p>The data was freely provided by IGDB.com</p></a>
                 </div>
 
 
             </div>
             <hr>
-         <div class="footer-about">
-            <div class=" footer-about fa-social">
-                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
+            <div class="footer-about">
+                <div class=" footer-about fa-social">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
+                </div>
             </div>
-        </div>
         </div>
         <div class="copyright-area"  >
             <div class="row">
@@ -388,4 +390,4 @@ function bottom(){
 
     <?php
 }
-        ?>
+?>
