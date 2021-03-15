@@ -3,10 +3,49 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog1.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog1.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/tagGenerosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaAcessorio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaAnuncio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaAnuncio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaConsola.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaTagEmpresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaTagEmpresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaTagGenero.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaTagGenero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaTagPlataforma.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaTagPlataforma.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/Backoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaAcessorio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditaAnuncio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaAnuncio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaConsola.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditaTagEmpresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaTagEmpresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditaTagGenero.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaTagGenero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EditaTagPlataforma.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaTagPlataforma.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EliminaEmpresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/EliminaEmpresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EliminaGenero.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/EliminaGenero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EliminaPlataforma.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/EliminaPlataforma.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acessoriosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/acessoriosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaEditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaEditaTagEmpresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaTagEmpresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaEditaTagGenero.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaTagGenero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaEditaTagPlataforma.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaTagPlataforma.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaNovoJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaTagEmpresa.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaTagEmpresa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaTagGenero.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaTagGenero.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaTagPlataforma.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaTagPlataforma.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consolasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/consolasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eliminaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/eliminaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eliminaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/eliminaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outletBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/outletBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagEmpresasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tagPlataformaBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +89,19 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Edita" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -126,14 +172,13 @@
       <workItem from="1615503944810" duration="4635000" />
       <workItem from="1615512837742" duration="1963000" />
       <workItem from="1615541344235" duration="1203000" />
-      <workItem from="1615544648464" duration="306000" />
-    </task>
-    <task id="LOCAL-00095" summary="Backoffice">
-      <created>1614689629841</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1614689629841</updated>
+      <workItem from="1615544648464" duration="1294000" />
+      <workItem from="1615561567179" duration="2000" />
+      <workItem from="1615566454455" duration="22000" />
+      <workItem from="1615571530351" duration="3244000" />
+      <workItem from="1615579236053" duration="123000" />
+      <workItem from="1615583115339" duration="40000" />
+      <workItem from="1615820670924" duration="1509000" />
     </task>
     <task id="LOCAL-00096" summary="Backoffice">
       <created>1614689958663</created>
@@ -471,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615541797161</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="Guilherme-FIX">
+      <created>1615545346852</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1615545346852</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -490,7 +542,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Search Bar|Menu|Butão Outlet" />
     <MESSAGE value="adwwa" />
     <MESSAGE value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
     <MESSAGE value="Funções TOP e BOTTOM" />
@@ -515,6 +566,7 @@
     <MESSAGE value="Guilherme-Resumo Jogos" />
     <MESSAGE value="Guilherme-Jogos" />
     <MESSAGE value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
+    <MESSAGE value="Guilherme-FIX" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-FIX" />
   </component>
 </project>

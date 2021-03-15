@@ -18,16 +18,15 @@ include_once("includes/body.inc.php");
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="shortcut icon" href="onbutton.ico">
-
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="shortcut icon" href="../onbutton.ico">
 
 
     <script type='text/javascript'>
@@ -44,9 +43,11 @@ include_once("includes/body.inc.php");
     </script>
 
 
+
+
 </head>
 
-<body  style="background-color: #0d0d0d;" >
+<body>
 <!-- Page Preloder -->
 
 
@@ -78,45 +79,35 @@ include_once("includes/body.inc.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="./index.php"><img src="gameOn.png" alt=""></a>
+                    <a href="../index.php"><img src="../gameOn.png" alt=""></a>
                 </div>
             </div>
         </div>
     </div>
 </header>
-<div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Adicionar Nova Notícia</span></div>
+<div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Adicionar Novo </span></div>
+
+
 
 <section class="store" style="padding:50px">
+    <a href="../acessoriosBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
-    <a href="blog.php"><button type="button" class="btn btn-danger">Voltar</button></a>
-
-<form action="ConfirmaNovaNoticia.php" method="post" enctype="multipart/form-data">
-    <label style="color:white; width: 5%;">Titulo: </label>
-    <input type="text" name="noticiaNome" style="width: 50%;">
-    <br>
-    <br>
+    <form action="ConfirmaNovoAcessorio.php" method="post" enctype="multipart/form-data">
+        <hr>
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Nome: </label>
+        <input type="text" style="height: 99%" name="acessorioNome"><hr>
 
 
-    <div id="wrapper">
-        <input type="file" accept="image/*" onchange="preview_image(event)">
-        <img id="output_image"/>
-    </div>
-    <br>
-
-    <div class="row" style="height: 510px; width: 100%;">
-    <span style="color:white">Texto primário:</span>
-    <br>
-    <textarea name="texto1" required spellcheck="true"  cols="60" rows="20"></textarea>
-    <span style="color:white">Texto secundário:</span> <br><textarea  name="texto2"  spellcheck="true"  cols="60" rows="20"></textarea>
-    </div>
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Imagem:</label>
+        <input type="file" accept="image/*" onchange="preview_image(event)" style="color: darkgray">
+        <img id="output_image"/><hr>
 
 
-<br>
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Preço:</label>
+        <input type="number" name="acessorioPreco"><hr>
 
-    <input type="checkbox" name="tagProduto"><span style="color:white"> PlayStation</span> <input type="checkbox" name="tagProduto"><span style="color:white"> Computador</span> <input type="checkbox" name="tagProduto"><span style="color:white"> Gaming</span> <br>
-    <input type="Submit" value="Adiciona"><br>
-
-
+        <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
+    </form>
 </section>
 
 

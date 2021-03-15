@@ -13,7 +13,7 @@ $result=mysqli_query($con, $sql);
 
     <tr>
         <td colspan="3" style="margin-bottom: 30px">
-            <a href="AdicionaTagGenero.php" style="color: #FFFFFF"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a>
+            <a href="Adiciona/AdicionaTagGenero.php" style="color: #FFFFFF"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a>
         </td>
     </tr>
     <tr>

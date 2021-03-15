@@ -2,7 +2,7 @@
 include_once("includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from reviews";
+$sql="select * from jogos inner join empresas where jogoEmpresaId=empresaId";
 $result=mysqli_query($con, $sql);
 ?>
 <a href="Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
@@ -12,13 +12,15 @@ $result=mysqli_query($con, $sql);
 
         <tr>
         <td colspan="3" style="margin-bottom: 30px">
-        <a href="AdicionaReview.php" style="color: #FFFFFF"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a>
+        <a href="Adiciona/AdicionaJogo.php" style="color: #FFFFFF"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a>
         </td>
         </tr>
         <tr>
             <th>Id</th>
-            <th>Titulo</th>
+            <th>Nome</th>
             <th>Imagem</th>
+            <th>Empresa</th>
+            <th>Preço</th>
             <th colspan="2">Opções</th>
         </tr>
 
@@ -26,11 +28,13 @@ $result=mysqli_query($con, $sql);
             <?php
             while ($dados=mysqli_fetch_array($result)) {
                 echo "<tr>";
-                echo "<td>" . $dados['reviewId'] . "</td>";
-                echo "<td>" . $dados['reviewNome'] . "</td>";
-                echo "<td> <img  style='width: 300px; height: 350px' src=\"img/jogos/".$dados['reviewImagemURL']."\"></td>";
-                echo "<td><a href=\"EditaReview.php?id=".$dados['reviewId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
-                echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['reviewId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
+                echo "<td>" . $dados['jogoId'] . "</td>";
+                echo "<td>" . $dados['jogoNome'] . "</td>";
+                echo "<td> <img  style='width: 300px; height: 350px' src=\"img/jogos/".$dados['jogoImagemURL']."\"></td>";
+                echo "<td>" . $dados['empresaNome'] . "</td>";
+                echo "<td>" . $dados['jogoPreco'] . "€</td>";
+                echo "<td><a href=\"EditaJogo.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
+                echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['jogoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
                 echo "</tr>";
             }
             ?>
@@ -45,7 +49,7 @@ bottom();
 <script>
     function confirmaElimina(id) {
         if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-            window.location="eliminaReview?id=" + id;
+            window.location="eliminaJogo?id=" + id;
     }
 
 

@@ -17,7 +17,7 @@ $dadosGeneros=mysqli_fetch_array($resultGeneros);
     <a href="Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 <hr>
 
-<form action="confirmaEditaTagGenero.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data">
+<form action="../Confirma/confirmaEditaTagGenero.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data">
 
     <label style="color:white; font-size: 15px" class="badge badge-dark">Nome: </label>
     <input type="text" style="height: 99%" name="generoNome" value="<?php echo $dadosGeneros["generoNome"]?>"><hr>

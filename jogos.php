@@ -30,7 +30,7 @@ top();
                                 </i></strong>
                         </button>
                         <div style="text-align: center"> <a href="#" onclick="confirmaElimina(1)"></a><button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                            <a href="EditaJogo.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
+                            <a href="Edita/EditaJogo.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
                         <script>
                             const cartButtons=document.querySelectorAll('.cart-button');
                             cartButtons.forEach(button => {

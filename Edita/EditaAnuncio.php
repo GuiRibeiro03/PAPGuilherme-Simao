@@ -1,13 +1,13 @@
 <?php
 
-include_once ("includes/body.inc.php");
+include_once("includes/body.inc.php");
 top();
 ?>
 <form action="confirmaEditaAnuncio.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
     <a href="outletBackoffice.php"><button type="button" class="btn btn-primary">Voltar</button></a>
 <h2>Editar Anuncio</h2>
 <hr>
-    <div><img id="output_image" src="img/Telemoveis/iphone8.jpg" style="margin-left: 20px; margin-bottom: 20px"/></div>
+    <div><img id="output_image" src="../img/Telemoveis/iphone8.jpg" style="margin-left: 20px; margin-bottom: 20px"/></div>
 <input type="file" name="produtoImagemPrincipalURL" accept="image/*" onchange="preview_image(event)">
   <div style="margin-top: 20px">
       <hr>

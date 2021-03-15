@@ -12,7 +12,7 @@ top();
 
             <div class="lp-item">
                 <div style="text-align: center"> <button onclick="confirmaElimina(this)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                    <a href="EditaReview.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
+                    <a href="Edita/EditaReview.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
                 <a href="criticaSM.php"><div class="lp-pic set-bg"  data-setbg="img/reviewIMG/spiderman.jpg">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
@@ -38,7 +38,7 @@ top();
 
             <div class="lp-item" >
                 <div style="text-align: center"> <button onclick="confirmaElimina(this)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                    <a href="EditaReview.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
+                    <a href="Edita/EditaReview.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
                 <a href="criticaGOW.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/godofwar.jpg">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">

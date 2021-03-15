@@ -17,7 +17,7 @@ $dadosEmpresas=mysqli_fetch_array($resultEmpresas);
     <a href="Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 <hr>
 
-<form action="confirmaEditaTagEmpresa.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data">
+<form action="../Confirma/confirmaEditaTagEmpresa.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data">
 
     <label style="color:white; font-size: 15px" class="badge badge-dark">Nome: </label>
     <input type="text" style="height: 99%" name="empresaNome" value="<?php echo $dadosEmpresas["empresaNome"]?>"><hr>

@@ -18,15 +18,15 @@ include_once("includes/body.inc.php");
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
-    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="shortcut icon" href="onbutton.ico">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <link rel="shortcut icon" href="../onbutton.ico">
 
 
 
@@ -112,7 +112,7 @@ include_once("includes/body.inc.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="./index.php"><img src="gameOn.png" alt=""></a>
+                    <a href="../index.php"><img src="../gameOn.png" alt=""></a>
                 </div>
             </div>
         </div>
@@ -122,7 +122,7 @@ include_once("includes/body.inc.php");
 
 <section class="store" style="padding:50px">
 
-    <a href="outletBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="../outletBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
 <form action="ConfirmaNovoAnuncio.php" method="post" enctype="multipart/form-data">
     <label style="color:white; font-size: 15px" class="badge badge-dark">Nome do Produto:</label>
