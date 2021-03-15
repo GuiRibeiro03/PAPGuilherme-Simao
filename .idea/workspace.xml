@@ -2,22 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaAcessorio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaAnuncio.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaAnuncio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaConsola.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/Game.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TESTE.php" beforeDir="false" afterPath="$PROJECT_DIR$/TESTE.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backoffice/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/Backoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/g-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/g-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameOn.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/gameOn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/igdb.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/igdb.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/igdb2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/igdb2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onbutton.ico" beforeDir="false" afterPath="$PROJECT_DIR$/img/onbutton.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,13 +124,6 @@
       <workItem from="1615503944810" duration="4635000" />
       <workItem from="1615512837742" duration="1963000" />
       <workItem from="1615541344235" duration="317000" />
-    </task>
-    <task id="LOCAL-00095" summary="Backoffice">
-      <created>1614689629841</created>
-      <option name="number" value="00095" />
-      <option name="presentableId" value="LOCAL-00095" />
-      <option name="project" value="LOCAL" />
-      <updated>1614689629841</updated>
     </task>
     <task id="LOCAL-00096" summary="Backoffice">
       <created>1614689958663</created>
@@ -482,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615828250790</updated>
     </task>
-    <option name="localTasksCounter" value="144" />
+    <task id="LOCAL-00144" summary="g">
+      <created>1615830077087</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1615830077087</updated>
+    </task>
+    <option name="localTasksCounter" value="145" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +487,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adwwa" />
     <MESSAGE value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
     <MESSAGE value="Funções TOP e BOTTOM" />
     <MESSAGE value="Backoffice" />
@@ -526,6 +511,7 @@
     <MESSAGE value="Guilherme-Jogos" />
     <MESSAGE value="pastas" />
     <MESSAGE value="includes base" />
-    <option name="LAST_COMMIT_MESSAGE" value="includes base" />
+    <MESSAGE value="g" />
+    <option name="LAST_COMMIT_MESSAGE" value="g" />
   </component>
 </project>
