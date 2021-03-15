@@ -211,12 +211,12 @@ function bottom(){
 
             <div class="footer-about">
                 <div class="fa-logo">
-                    <a href="index.php"><img src="gameOn.png">
+                    <a href="../index.php"><img src="../gameOn.png">
                         <p>Podes nos seguir na nossa Redes Sociais para seguires</p>
                         <p> as novidades da loja e do mundo do gaming à tua volta.</p></a>
 
 
-                    <a href="index.php" style="margin-left: 20%;"><img src="igdb2.png" style="width: 200px; height: 200px"><p>The data was freely provided by IGDB.com</p></a>
+                    <a href="../index.php" style="margin-left: 20%;"><img src="../igdb2.png" style="width: 200px; height: 200px"><p>The data was freely provided by IGDB.com</p></a>
                 </div>
 
 
