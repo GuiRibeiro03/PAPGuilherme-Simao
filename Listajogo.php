@@ -2,11 +2,9 @@
 include_once ("includes/bodyBase.inc.php");
 
 top();
-
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET['id']);
-$sql="select * from jogos on jogoEmpresaId=empresaId";
-$sql.="where jogoId=".$id;
+$sql="select * from jogos where jogoId=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 ?>
