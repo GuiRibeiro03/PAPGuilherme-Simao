@@ -22,11 +22,11 @@ while ($dados=mysqli_fetch_array($result)){
 
                 <div class="card" style="width: 250px; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
 
-                    <a href="Listajogo.php?id="<?php echo $dados["jogoId"] ?>><img src="img/jogos/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..."></a>
+                    <a href="Listajogo.php?id=<?php echo $dados["jogoId"]?>"><img src="img/jogos/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..."></a>
 
                     <div class="card-body">
 
-                        <a href="Listajogo.php?id="<?php echo $dados["jogoId"] ?>><h5 class="card-title"><?php echo $dados["jogoNome"] ?></h5></a>
+                        <a href="Listajogo.php?id=<?php echo $dados["jogoId"] ?>"><h5 class="card-title"><?php echo $dados["jogoNome"] ?></h5></a>
 
                         <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["jogoPreco"] ?></strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
