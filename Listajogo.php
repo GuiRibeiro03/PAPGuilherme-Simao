@@ -1,17 +1,17 @@
 <?php
 include_once ("includes/bodyBase.inc.php");
-$con=mysqli_connect("localhost","root","","pap2021gameon");
-$id=intval($_GET['id']);
-$sql="select * from jogos where jogoId=".$id;
-$result=mysqli_query($con,$sql);
 
 top();
+
+$con=mysqli_connect("localhost","root","","pap2021gameon");
+$id=intval($_GET['id']);
+$sql="select * from jogos on jogoEmpresaId=empresaId";
+$sql.="where jogoId=".$id;
+$result=mysqli_query($con,$sql);
+$dados=mysqli_fetch_array($result);
 ?>
 
     <section class="store">
-        <?php
-        while ($dados=mysqli_fetch_array($result)){
-        ?>
         <div style="text-align: center"> <h1 style="text-shadow: 2px 2px 0px #000000; padding-top:20px "><strong><?php echo $dados["jogoNome"] ?></strong></h1></div>
         <br>
         <br>
@@ -106,10 +106,6 @@ top();
     </div>
 
 
-            <?php
-
-        }
-            ?>
     </section>
 
 

@@ -35,29 +35,6 @@ while ($dados=mysqli_fetch_array($result)){
                                 <span class="added">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
                                 </i></strong>
                         </button>
-                        <div style="text-align: center"> <a href="#" onclick="confirmaElimina(1)"></a><button type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                            <a href="Edita/EditaJogo.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
-                        <script>
-                            const cartButtons=document.querySelectorAll('.cart-button');
-                            cartButtons.forEach(button => {
-                                button.addEventListener('click',cartClicker);
-                            });
-
-                            function cartClicker() {
-                                var cart=0;
-                                let button = this;
-                                button.classList.add('clicked');
-                                document.getElementById("bdg1").innerHTML = cart + 1;
-
-                            }
-
-                            function confirmaElimina(id) {
-                                if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-                                    window.location="../elimina/eliminaJogo.php?id=" + id;
-                            }
-
-                        </script>
-
 
 
                     </div>
