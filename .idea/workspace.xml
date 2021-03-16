@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/includes/bodyBlog.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backoffice/gameOn.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DevilMayCry.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backoffice" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,9 +58,13 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\includes" />
       <recent name="D:\wamp\www\papGuiSimao\includes" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -127,21 +135,8 @@
       <workItem from="1615503944810" duration="4635000" />
       <workItem from="1615512837742" duration="1963000" />
       <workItem from="1615541344235" duration="317000" />
-      <workItem from="1615832258602" duration="634000" />
-    </task>
-    <task id="LOCAL-00096" summary="Backoffice">
-      <created>1614689958663</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1614689958663</updated>
-    </task>
-    <task id="LOCAL-00097" summary="Backoffice">
-      <created>1614690248105</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1614690248105</updated>
+      <workItem from="1615832258602" duration="758000" />
+      <workItem from="1615901386964" duration="4339000" />
     </task>
     <task id="LOCAL-00098" summary="Backoffice">
       <created>1614690539483</created>
@@ -472,7 +467,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615830077087</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Guilherme-coise">
+      <created>1615832955435</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1615832955435</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Guilherme-coise">
+      <created>1615832975511</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1615832975511</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +500,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
     <MESSAGE value="Funções TOP e BOTTOM" />
     <MESSAGE value="Backoffice" />
     <MESSAGE value="Backoffice-EM BRANCO" />
@@ -516,6 +524,7 @@
     <MESSAGE value="pastas" />
     <MESSAGE value="includes base" />
     <MESSAGE value="g" />
-    <option name="LAST_COMMIT_MESSAGE" value="g" />
+    <MESSAGE value="Guilherme-coise" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-coise" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 <?php
-
+$con=mysqli_connect("localhost","root","","pap2021gameon");
 
 function top(){
 
@@ -9,11 +9,6 @@ function top(){
 
     <head>
         <meta charset="UTF-8">
-
-
-        <meta name="google-signin-client-id" content="985368006103-kh4aclpepe73sei2u4j49n53ub6oe832.apps.googleusercontent.com">
-
-
 
         <meta name="description" content="Amin Template">
         <meta name="keywords" content="gameOn, unica, creative, html">
@@ -150,7 +145,7 @@ function top(){
         <div class="logo">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="../index.php"><img src="gameOn.png" alt="LOGO" ></a>
+                    <a href="../index.php"><img src="../gameOn.png" alt="LOGO" ></a>
                 </div>
 
             </div>
