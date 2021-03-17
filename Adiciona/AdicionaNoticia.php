@@ -11,7 +11,7 @@ top();
 
 <form action="../Confirma/confirmaNovaNoticia.php" method="post" enctype="multipart/form-data">
     <h4>Titulo:</h4>
-    <input type="text" name="noticiaNome" style="width: 50%;">
+    <input type="text" name="noticiaTitulo"  style="width: 50%;">
     <br>
     <br>
 
@@ -31,7 +31,7 @@ top();
 
    <div style="width: 100%;">
        <h4>Desenvolvimento:</h4>
-       <textarea cols="100" rows="20"></textarea>
+       <textarea cols="100" rows="20" name="noticiaDesenvolvimento"></textarea>
    </div>
 
 <br>
@@ -46,7 +46,7 @@ top();
 
     <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
 
-
+</form>
 </section>
 
 <?php

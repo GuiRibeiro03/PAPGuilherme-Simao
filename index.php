@@ -29,10 +29,10 @@ $result=mysqli_query($con,$sql);
                                     <div class="un-slider owl-carousel">
                                         <div class="col-lg-12" >
 
-                                            <?php
-while ($dadosNoticias=mysqli_fetch_array($result)){
-                                            ?>
-                                            <div class="un-big-item set-bg" data-setbg="img/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>>">
+                                    <?php
+                                                while ($dadosNoticias=mysqli_fetch_array($result)){
+                                        ?>
+                                            <div class="un-big-item set-bg" data-setbg="img/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>">
 
                                                 <div class="ub-text" >
                                                     <div class="label"><span>Notícias</span></div>

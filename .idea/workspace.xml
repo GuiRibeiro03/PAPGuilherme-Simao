@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/Elimina/eliminaNoticia.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,14 +130,7 @@
       <workItem from="1615512837742" duration="1963000" />
       <workItem from="1615541344235" duration="317000" />
       <workItem from="1615832258602" duration="634000" />
-      <workItem from="1616008757355" duration="4433000" />
-    </task>
-    <task id="LOCAL-00098" summary="Backoffice">
-      <created>1614690539483</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1614690539483</updated>
+      <workItem from="1616008757355" duration="6333000" />
     </task>
     <task id="LOCAL-00099" summary="Backoffice-EM BRANCO">
       <created>1614690836324</created>
@@ -476,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616009727913</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="Guilherme-Noticias">
+      <created>1616013472526</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1616013472526</updated>
+    </task>
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
