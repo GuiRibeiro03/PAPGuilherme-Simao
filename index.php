@@ -138,7 +138,7 @@ while ($i < 6){
                                 <div class="bp-loader">
                                     <div class="loader-circle-wrap">
                                         <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-1" data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"]?>" data-cpcolor="#c20000"></span>
+                                        <span class="circle-progress-1" data-cpid="id-<?php echo $i + 1?>" data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"]?>" data-cpcolor="#c20000"></span>
                                             <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"]?></div>
                                         </div>
                                     </div>
@@ -165,8 +165,8 @@ while ($i < 6){
                                 <br>
                             </div>
                             <?php
-                            $i = 0;
-                            while ($i < 6){
+
+                            while ($i < 12){
                                 $dadosJogos2=mysqli_fetch_array($result3);
                                 $dadosReviews=mysqli_fetch_array($result4);
                                 ?>
@@ -174,7 +174,7 @@ while ($i < 6){
                                     <div class="bp-loader">
                                         <div class="loader-circle-wrap">
                                             <div class="loader-circle">
-                                                <span class="circle-progress-<?php echo $i + 1?>" data-cpid="id-<?php echo $i + 1?>" data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"]?>" data-cpcolor="#c20000"></span>
+                                                <span class="circle-progress-1" data-cpid="id-<?php echo $i + 1?>" data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"]?>" data-cpcolor="#c20000"></span>
                                                 <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"]?></div>
                                             </div>
                                         </div>
