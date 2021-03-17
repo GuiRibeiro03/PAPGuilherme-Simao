@@ -1,28 +1,28 @@
 <?php
-$con = mysqli_connect("localhost", "root", "","pap2021gameon");
+$con = mysqli_connect("localhost", "root", "", "pap2021gameon");
 
 $id=intval($_GET["id"]);
-$reviewNome=addslashes($_POST["reviewNome"]);
-$reviewSinopse=addslashes($_POST["reviewSinopse"]);
-$reviewTitulo=addslashes($_POST["reviewTitulo"]);
-$reviewCapa=intval($_POST["reviewImagemURL"]);
-$reviewPP=addslashes($_POST["jogoPontosPositivos"]);
-$reviewPN=addslashes($_POST["jogoPontosNegativos"]);
-$img=$_FILES['jogoImagemURL']["name"];
-$novoNome="../img/jogos/".$img;
+$noticiaTitulo = addslashes($_POST["noticiaTitulo"]);
+$noticiaDesenvolvimento = addslashes($_POST["noticiaDesenvolvimento"]);
+$noticiaData = addslashes($_POST["noticiaData"]);
+$noticiaImagemFundoURL = $_FILES["noticiaImagemFundoURL"]["name"];
 
+$sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."', noticiaData='".$noticiaData."', noticiaDesenvolvimento='".$noticiaDesenvolvimento."' ";
 
-$sql="UPDATE reviews SET reviewNome='".$reviewNome."', reviewSinopse='".$reviewSinopse."', reviewTitulo='".$reviewTitulo."',jogoPontosPositivos='".$reviewPP."', jogoPontosNegativos='".$reviewPN."'";
-
-if($img!=''){
-    $sql.=", reviewImagemURL='".$img."'";
+if($noticiaImagemFundoURL!=''){
+    $sql.=", reviewImagemURL='".$noticiaImagemFundoURL."'";
 }
 
-$sql.="where jogoId=".$id;
+$sql.="where noticiaId=".$id;
 
-mysqli_query($con,$sql);
+
+
+mysqli_query($con, $sql);
 print_r($sql);
-header("location: ../backoffice/reviewsBackoffice.php");
+header("location: ../backoffice/NoticiasBackoffice.php");
+
+
+
 
 
 

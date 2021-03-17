@@ -1,70 +1,54 @@
 <?php
 include_once("../includes/body.inc.php");
 top();
+$id=intval($_GET["id"]);
+$con=mysqli_connect("localhost","root","","pap2021gameon");
+$sql="select * from noticias where noticiaId=".$id;
+$result=mysqli_query($con, $sql);
+$dados=mysqli_fetch_array($result)
 ?>
 
 <div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Edita Review</span></div>
 
 <section class="store" style="margin-top: 100px; margin-left: 50px">
-    <a href="../reviews.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="../backoffice/NoticiasBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
-
-
-
-
-    <form action="../Edita/ConfirmaEditaReview.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px; width: 100%">
+    <form action="../Confirma/confirmaEditaNoticia.php?id=<?php echo $dados['noticiaId'] ?>" method="post" enctype="multipart/form-data">
+        <h4>Titulo:</h4>
+        <input type="text" name="noticiaTitulo"  value="<?php echo $dados['noticiaTitulo'] ?>" style="width: 50%;">
+        <br>
+        <br>
 
 
         <div id="wrapper" style="color: #FFFFFF">
-            <input type="file" accept="image/*" name="reviewImagemURL" onchange="preview_image(event)">
-            <div style="height: 50px">
-            <img id="output_image"/></div>
+            <span></span>
+            <input type="file" accept="image/*" name="noticiaImagemFundoURL" value="<?php echo $dados['noticiaImagemFundoURL']?>" onchange="preview_image(event)">
+            <img id="output_image"/>
+        </div>
+        <br>
+        <div id="wrapper" style="color: #FFFFFF">
+            <input type="file" accept="image/*" name="noticiaImagemURL" value="<?php echo $dados['noticiaImagemURL']?>" onchange="preview_image(event)">
+            <img id="output_image"/>
         </div>
         <br>
 
 
-        <div class="mb-3">
-            <label  class="form-label">Titulo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" name="reviewNome" style="width: 40%" autofocus>
+        <div style="width: 100%;">
+            <h4>Desenvolvimento:</h4>
+            <textarea cols="100" rows="20" name="noticiaDesenvolvimento"  value="<?php echo $dados['noticiaDesenvolvimento']?>"    ></textarea>
         </div>
-
-
-        <div class="mb-3">
-            <label  class="form-label">Review</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="20" name="reviewSinopse" style="width: 70%"></textarea>
-        </div>
-
-
-
-        <div class="mb-3" style="width: 300px">
-            <label  class="form-label">Pontos Positivos:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1"  rows="5" name="reviewPontosPositivos" ></textarea>
-            <label  class="form-label">Pontos Negativos:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1"  rows="5" ame="reviewPontosNegativos"  ></textarea>
-
-        </div>
-
-        </div>
-
 
         <br>
 
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" >
-            <label class="form-check-label" >
-                Review
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" >
-            <label class="form-check-label" >
-                Jogo
-            </label>
+        <div style="margin-top: 40px; margin-bottom: 40px">
+            <h4>Data:</h4>
+            <input type="date" name="noticiaData" value="<?php echo $dados['noticiaData']?>">
 
         </div>
-        <input type="Submit" value="Adicionar" style="width: 100px; height: 50px">
 
 
+
+        <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
 
     </form>
 </section>
