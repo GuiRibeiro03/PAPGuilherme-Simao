@@ -73,8 +73,8 @@ $i = 0;
 
             <div class="row">
 <?php
-while ($dadosJogos=mysqli_fetch_array($result2)){
-
+while ($i < 4){
+    $dadosJogos=mysqli_fetch_array($result2)
     ?>
                 <div class="col-lg-3">
                     <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
