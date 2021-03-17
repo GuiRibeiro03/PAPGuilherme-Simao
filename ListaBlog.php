@@ -1,6 +1,10 @@
 <?php
 include_once ("includes/bodyBase.inc.php");
 top();
+$con = mysqli_connect("localhost", "root", "","pap2021gameon");
+$sql="select * from noticias";
+$result=mysqli_query($con,$sql);
+$dados=mysqli_fetch_array($result);
 ?>
     <!-- Details Hero Section Begin -->
     <section class="details-hero-section set-bg" data-setbg="img/wallpapers/cyberpunk2077.jpg">

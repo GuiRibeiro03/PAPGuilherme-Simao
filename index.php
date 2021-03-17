@@ -107,7 +107,6 @@ while ($i < 4){
                     </div>
                 </div>
     <?php
-$i = $i + 1;
 }
         ?>
             </div>
