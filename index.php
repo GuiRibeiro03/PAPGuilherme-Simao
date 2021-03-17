@@ -32,7 +32,7 @@ $result=mysqli_query($con,$sql);
                                     <?php
                                                 while ($dadosNoticias=mysqli_fetch_array($result)){
                                         ?>
-                                            <div class="un-big-item set-bg" data-setbg="img/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>">
+                                            <div class="un-big-item set-bg" data-setbg="img/wallpapers/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>">
 
                                                 <div class="ub-text" >
                                                     <div class="label"><span>Notícias</span></div>

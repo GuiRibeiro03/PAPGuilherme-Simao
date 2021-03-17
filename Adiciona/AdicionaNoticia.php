@@ -7,7 +7,7 @@ top();
 
 <section class="store" style="margin:50px">
 
-    <a href="../blog.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+    <a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
 <form action="../Confirma/confirmaNovaNoticia.php" method="post" enctype="multipart/form-data">
     <h4>Titulo:</h4>

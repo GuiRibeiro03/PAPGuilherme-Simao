@@ -7,7 +7,7 @@ $noticiaData=addslashes($_POST["noticiaData"]);
 $noticiaImagemFundoURL=$_FILES["noticiaImagemFundoURL"]["name"];
 
 
-echo $sql="insert into noticias(noticiaTitulo,noticiaImagemFundoURL,noticiaData,noticiaDesenvolvimento) values('".$noticiaTitulo."','".$noticiaImagemFundoURL."','".$noticiaDesenvolvimento."','".$noticiaData."')";
+$sql="insert into noticias(noticiaTitulo,noticiaImagemFundoURL,noticiaData,noticiaDesenvolvimento) values('".$noticiaTitulo."','".$noticiaImagemFundoURL."','".$noticiaData."','".$noticiaDesenvolvimento."')";
 
 mysqli_query($con,$sql);
 print_r($sql);
