@@ -29,7 +29,7 @@ $result=mysqli_query($con, $sql);
             echo "<tr>";
             echo "<td>" . $dados['noticiaId'] . "</td>";
             echo "<td>" . $dados['noticiaTitulo'] . "</td>";
-            echo "<td> <img  style='width: 300px; height: 350px' src=\"../img/jogos/".$dados['noticiaImagemFundoURL']."\"></td>";
+            echo "<td> <img  style='width: 600px; height: 350px' src=\"../img/".$dados['noticiaImagemFundoURL']."\"></td>";
             echo "<td>" . $dados['noticiaData'] . "</td>";
             echo "<td><a href=\"../Edita/EditaNoticia.php?id=".$dados['noticiaId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
             echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['noticiaId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
@@ -47,7 +47,7 @@ bottom();
 <script>
     function confirmaElimina(id) {
         if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-            window.location="eliminaNoticia?id=" + id;
+            window.location="../Elimina/eliminaNoticia?id=" + id;
     }
 
 

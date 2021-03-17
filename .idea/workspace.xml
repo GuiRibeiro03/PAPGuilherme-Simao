@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Elimina/eliminaNoticia.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_1.0.mwb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_1.0.mwb.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/Backoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backoffice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Elimina" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,10 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\includes" />
       <recent name="D:\wamp\www\papGuiSimao\includes" />
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -131,14 +131,7 @@
       <workItem from="1615512837742" duration="1963000" />
       <workItem from="1615541344235" duration="317000" />
       <workItem from="1615832258602" duration="634000" />
-      <workItem from="1616008757355" duration="658000" />
-    </task>
-    <task id="LOCAL-00097" summary="Backoffice">
-      <created>1614690248105</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1614690248105</updated>
+      <workItem from="1616008757355" duration="4433000" />
     </task>
     <task id="LOCAL-00098" summary="Backoffice">
       <created>1614690539483</created>
@@ -476,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616008822147</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="Guilherme-Noticias">
+      <created>1616009727913</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1616009727913</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +495,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Funções TOP e BOTTOM" />
     <MESSAGE value="Backoffice" />
     <MESSAGE value="Backoffice-EM BRANCO" />
     <MESSAGE value="Backoffice-EM PRETO" />
@@ -520,6 +519,7 @@
     <MESSAGE value="includes base" />
     <MESSAGE value="g" />
     <MESSAGE value="Guilherme-Just some files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Just some files" />
+    <MESSAGE value="Guilherme-Noticias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Noticias" />
   </component>
 </project>

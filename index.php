@@ -2,6 +2,10 @@
 include_once("includes/bodyBase.inc.php");
 top();
 
+$con=mysqli_connect("localhost", "root","","pap2021gameon");
+$sql="select * from noticias";
+$result=mysqli_query($con,$sql);
+
 ?>
 
 
@@ -25,100 +29,26 @@ top();
                                     <div class="un-slider owl-carousel">
                                         <div class="col-lg-12" >
 
-                                            <div class="un-big-item set-bg" data-setbg="img/wallpapers/miles.png">
+                                            <?php
+while ($dadosNoticias=mysqli_fetch_array($result)){
+                                            ?>
+                                            <div class="un-big-item set-bg" data-setbg="img/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>>">
 
                                                 <div class="ub-text" >
                                                     <div class="label"><span>Notícias</span></div>
-                                                    <h4 style=" color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="#">A sequela de Spider-Man, 2018, é um
-                                                        dos mais aguardados da proxima geração</a></h4>
+                                                    <h4 style=" color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="#"><?php echo $dadosNoticias["noticiaTitulo"]?></a></h4>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Set 06, 2020</li>
+                                                        <li><i class="fa fa-clock-o"></i> <?php echo $dadosNoticias["noticiaData"]?></li>
                                                         <li><i class="fa fa-comment-o"></i> 20</li>
                                                     </ul>
                                                 </div>
                                             </div>
-
-                                        </div>
-                                        <div class="col-lg-12">
-                                            <div class="un-big-item set-bg" data-setbg="img/wallpapers/demonsouls.png">
-                                                <div class="ub-text">
-                                                    <div class="label"><span>Notícias</span></div>
-
-                                            <h4 style="color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="#">Demon Soul's pode vir a ser o melhor remake de todos os tempos</a></h4>
-                                                    <ul>
-                                                        <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Set 06, 2020</li>
-                                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
                                         </div>
 
-                                        <div class="col-lg-12">
-                                                <div class="un-big-item set-bg" data-setbg="img/wallpapers/cyberpunk2077.jpg">
-                                                <div class="ub-text">
-                                                    <div class="label"><span>Notícias</span></div>
-
-                                                    <h4 style=" color: white; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="blog1.php">Adiado Pela 4 vez!!</a></h4>
-                                                    <ul>
-                                                        <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Set 06, 2020</li>
-                                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-lg-12">
-                                            <div class="un-big-item set-bg" data-setbg="img/wallpapers/watchdogsLegion.jpg">
-                                                <div class="ub-text">
-                                                    <div class="label"><span>Notícias</span></div>
-                                                    <h4 style=" color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="#">Watch Dogs Legion Decepciona</a></h4>
-                                                    <ul>
-                                                        <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Set 06, 2020</li>
-                                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-lg-12">
-                                            <div class="un-big-item set-bg" data-setbg="img/wallpapers/assassinscreedWall.jpg">
-                                                <div class="ub-text">
-                                                    <div class="label"><span>Notícias</span></div>
-                                                    <h4 style=" color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="#">Assassin's Creed Valhala impressiona criticos</a></h4>
-                                                    <ul>
-                                                        <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Set 06, 2020</li>
-                                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <div class="col-lg-12">
-                                            <div class="un-big-item set-bg" data-setbg="img/wallpapers/kingdomhearts3.jpg">
-                                                <div class="ub-text">
-                                                    <div class="label"><span>Notícias</span></div>
-                                                    <h4 style=" color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="#">Kingdom Hearts 3 aumenta stock em 16%!</a></h4>
-                                                    <ul>
-                                                        <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> Set 06, 2020</li>
-                                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-
-
+                                    <?php
+                                    }
+                                    ?>
                                     </div>
                                 </div>
                             </div>
