@@ -78,10 +78,12 @@ while ($i < 4){
     ?>
                 <div class="col-lg-3">
                     <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
-                        <img src="img/jogos/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="...">
+                        <img src="img/jogos/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px">
                         <span class="badge badge-danger">Bom Negocio!</span>
+
                         <div class="card-body">
-                            <h5 class="card-title"><?php echo $dadosJogos["jogoNome"]?> &nbsp; <?php echo $dadosJogos["jogoPreco"]?>€</h5>
+                            <h4 class="card-title"><strong><?php echo $dadosJogos["jogoNome"]?></strong> &nbsp; </h4>
+                                <h5  class="card-text"><?php echo $dadosJogos["jogoPreco"]?>€</h5>
                             <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
                                 <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
                                 <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
