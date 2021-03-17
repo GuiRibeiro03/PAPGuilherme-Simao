@@ -4,8 +4,10 @@ top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql="select * from noticias";
+$sql2="select * from jogos";
 $result=mysqli_query($con,$sql);
-
+$result2=mysqli_query($con,$sql2);
+$i = 0;
 ?>
 
 
@@ -70,14 +72,16 @@ $result=mysqli_query($con,$sql);
             </div>
 
             <div class="row">
-
+<?php
+while ($i < 4){
+    $dadosJogos=mysqli_fetch_array($result2)
+    ?>
                 <div class="col-lg-3">
                     <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
-                        <img src="img/ps4.png" class="card-img-top" alt="...">
+                        <img src="img/jogos/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="...">
                         <span class="badge badge-danger">Bom Negocio!</span>
                         <div class="card-body">
-                            <h5 class="card-title">Playstation 4 Slim </h5>
-
+                            <h5 class="card-title"><?php echo $dadosJogos["jogoNome"]?> &nbsp; <?php echo $dadosJogos["jogoPreco"]?>€</h5>
                             <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
                                 <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
                                 <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
@@ -86,8 +90,8 @@ $result=mysqli_query($con,$sql);
                             </button>
 
                             <script>
-                                const cartButtons1=document.querySelectorAll('.cart-button');
-                                cartButtons1.forEach(button => {
+                                const cartButtons<?php $i?>=document.querySelectorAll('.cart-button');
+                                cartButtons<?php $i?>.forEach(button => {
                                     button.addEventListener('click',cartClicker);
                                 });
 
@@ -102,99 +106,10 @@ $result=mysqli_query($con,$sql);
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3">
-                    <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
-                        <img src="img/ps5.jpg" class="card-img-top" alt="...">
-                        <span class="badge badge-danger">Bom Negocio!</span>
-                        <div class="card-body">
-                            <h5 class="card-title">Playstation 5 Digital</h5>
-
-                            <button class="btn btn-danger  cart-button" style="color: #1b1e21"><strong>
-                                <span class="add-to-cart">Adicionar ao Carrinho</span>
-                                <span class="added">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                            </strong>
-                            </button>
-
-                            <script>
-                                const cartButtons2=document.querySelectorAll('.cart-button');
-                                cartButtons2.forEach(button => {
-                                    button.addEventListener('click',cartClicker);
-                                });
-
-                                function cartClicker() {
-                                    var cart=0;
-                                    let button = this;
-                                    button.classList.add('clicked');
-                                    document.getElementById("bdg1").innerHTML = cart + 1;
-
-                                }
-
-                            </script>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3">
-                    <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">                        <img src="img/xboxs.png" class="card-img-top" alt="...">
-                        <span class="badge badge-danger">Bom Negocio!</span>
-                        <div class="card-body">
-                            <h5 class="card-title">XBox series S</h5>
-
-                            <button class="btn btn-danger  cart-button" style="color: #1b1e21"><strong>
-                                <span class="add-to-cart">Adicionar ao Carrinho</span>
-                                <span class="added">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                            </strong>
-                            </button>
-
-                            <script>
-                                const cartButtons3=document.querySelectorAll('.cart-button');
-                                cartButtons3.forEach(button => {
-                                    button.addEventListener('click',cartClicker);
-                                });
-
-                                function cartClicker() {
-                                    var cart=0;
-                                    let button = this;
-                                    button.classList.add('clicked');
-                                    document.getElementById("bdg1").innerHTML = cart + 1;
-
-                                }
-
-                            </script>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
-                        <img src="img/xboxx.png" class="card-img-top" alt="...">
-                        <span class="badge badge-danger">Bom Negocio!</span>
-                        <div class="card-body">
-                            <h5 class="card-title">XBox Series X</h5>
-
-                            <button class="btn btn-danger  cart-button" style="color: #1b1e21"><strong>
-                                <span class="add-to-cart">Adicionar ao Carrinho</span>
-                                <span class="added">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                                </strong>
-                            </button>
-
-                            <script>
-                                const cartButtons4=document.querySelectorAll('.cart-button');
-                                cartButtons4.forEach(button => {
-                                    button.addEventListener('click',cartClicker);
-                                });
-
-                                function cartClicker() {
-                                    var cart=0;
-                                    let button = this;
-                                    button.classList.add('clicked');
-                                    document.getElementById("bdg1").innerHTML = cart + 1;
-
-                                }
-
-                            </script>
-                        </div>
-                    </div>
-                </div>
+    <?php
+$i = $i + 1;
+}
+        ?>
             </div>
         </div>
     </section>
