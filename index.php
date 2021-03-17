@@ -5,9 +5,11 @@ top();
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql="select * from noticias";
 $sql2="select * from jogos";
+$sql3="select * from reviews";
 $result=mysqli_query($con,$sql);
 $result2=mysqli_query($con,$sql2);
-$i = 0;
+$result3=mysqli_query($con,$sql2);
+$result4=mysqli_query($con,$sql3);
 ?>
 
 
@@ -73,6 +75,7 @@ $i = 0;
 
             <div class="row">
 <?php
+$i = 0;
 while ($i < 4){
     $dadosJogos=mysqli_fetch_array($result2)
     ?>
@@ -90,8 +93,8 @@ while ($i < 4){
                             </button>
 
                             <script>
-                                const cartButtons<?php $i?>=document.querySelectorAll('.cart-button');
-                                cartButtons<?php $i?>.forEach(button => {
+                                const cartButtons<?php echo $i + 1?>=document.querySelectorAll('.cart-button');
+                                cartButtons<?php echo $i + 1?>.forEach(button => {
                                     button.addEventListener('click',cartClicker);
                                 });
 
@@ -99,7 +102,7 @@ while ($i < 4){
                                     var cart=0;
                                     let button = this;
                                     button.classList.add('clicked');
-                                    document.getElementById("bdg1").innerHTML = cart + 1;
+                                    document.getElementById("bdg<?php echo $i + 1?>").innerHTML = cart + 1;
                                 }
                             </script>
 
@@ -123,115 +126,32 @@ $i = $i + 1;
                             <div class="section-title">
                                 <h5>O melhor</h5>
                             </div>
+<?php
+$i = 0;
+while ($i < 6){
+    $dadosJogos2=mysqli_fetch_array($result3);
+    $dadosReviews=mysqli_fetch_array($result4);
+    ?>
                             <div class="bp-item">
                                 <div class="bp-loader">
                                     <div class="loader-circle-wrap">
                                         <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-1" data-cpvalue="92"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">92</div>
+                                        <span class="circle-progress-1" data-cpid="id-1" data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"]?>" data-cpcolor="#c20000"></span>
+                                            <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"]?></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="bp-text">
-                                    <h6><a href="criticaUncharted4.php">Uncharted 4</a></h6>
+                                    <h6><a href="#"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
+                                        <li><i class="fa fa-clock-o"></i> <?php echo $dadosReviews["reviewData"]?></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-2" data-cpvalue="95"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">95</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6><a href="criticaSM.php">Marvel's Spider-Man</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-3" data-cpvalue="87"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">87</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6><a href="#">Kingdom Hearts 3</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-4" data-cpvalue="78"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">78</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6><a href="#">Rainbow Six</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-4" data-cpvalue="89"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">89</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6><a href="#">Devil May Cry 5</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-4" data-cpvalue="92"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">92</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6><a href="#">Hades</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
-
+    <?php
+    $i = $i + 1;
+}
+?>
                         </div>
                     </div>
                 </div>
@@ -242,114 +162,32 @@ $i = $i + 1;
                             <div class="section-title">
                                 <br>
                             </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-5" data-cpvalue="93"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">93</div>
+                            <?php
+                            $i = 0;
+                            while ($i < 6){
+                                $dadosJogos2=mysqli_fetch_array($result3);
+                                $dadosReviews=mysqli_fetch_array($result4);
+                                ?>
+                                <div class="bp-item">
+                                    <div class="bp-loader">
+                                        <div class="loader-circle-wrap">
+                                            <div class="loader-circle">
+                                                <span class="circle-progress-<?php echo $i + 1?>" data-cpid="id-<?php echo $i + 1?>" data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"]?>" data-cpcolor="#c20000"></span>
+                                                <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"]?></div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6><a href="#">The Last of Us</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-6" data-cpvalue="100"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">100</div>
-                                        </div>
+                                    <div class="bp-text">
+                                        <h6><a href="#"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
+                                        <ul>
+                                            <li><i class="fa fa-clock-o"></i> <?php echo $dadosReviews["reviewData"]?></li>
+                                        </ul>
                                     </div>
                                 </div>
-                                <div class="bp-text">
-                                    <h6><a href="criticaGOW.php">God of War</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-7" data-cpvalue="72"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">72</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6><a href="#">Watch Dogs</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-8" data-cpvalue="94"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">94</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6><a href="criticaTLoU2.php">The Last of Us 2</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-8" data-cpvalue="94"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">94</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6><a href="#">Half-Life: Alyx</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-8" data-cpvalue="94"
-                                              data-cpcolor="#c20000"></span>
-                                            <div class="review-point">94</div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6 ><a href="#">Detroit Become: Human</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 20</li>
-                                    </ul>
-                                </div>
-                            </div>
+                                <?php
+                                $i = $i + 1;
+                            }
+                            ?>
 
                         </div>
                     </div>
