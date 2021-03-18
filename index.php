@@ -31,11 +31,12 @@ $result4=mysqli_query($con,$sql3);
                             <div class="tab-pane fade show active" id="news" role="tabpanel">
                                 <div class="row">
                                     <div class="un-slider owl-carousel">
+                                        <?php
+                                        while ($dadosNoticias=mysqli_fetch_array($result)){
+                                            ?>
                                         <div class="col-lg-12" >
 
-                                    <?php
-                                                while ($dadosNoticias=mysqli_fetch_array($result)){
-                                        ?>
+
                                             <div class="un-big-item set-bg" data-setbg="img/wallpapers/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>">
 
                                                 <div class="ub-text" >
