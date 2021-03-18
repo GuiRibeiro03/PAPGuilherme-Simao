@@ -1,140 +1,47 @@
 <?php
 include_once("includes/bodyBase.inc.php");
 top();
+$con=mysqli_connect("localhost", "root","","pap2021gameon");
+$sql="select * from reviews  inner join jogos on jogoId = reviewJogoId";
+$result=mysqli_query($con,$sql);
+
 ?>
 
 <section class="latest-preview-section" style="height: 100%; width: 100%">
     <div class="container" style="padding-top: 30px; position: center">
-        <a href="jogosBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
+        <a href="Backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
 
         <div class="row">
 
-
+            <?php
+            $i = 0;
+            while ($dados=mysqli_fetch_array($result)){
+            ?>
             <div class="lp-item">
-                <div style="text-align: center"> <button onclick="confirmaElimina(this)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                    <a href="Edita/EditaReview.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
-                <a href="criticaSM.php"><div class="lp-pic set-bg"  data-setbg="img/reviewIMG/spiderman.jpg">
+                <a href="ListaReview.php?id=<?php echo $dados['reviewId']?>"><div class="lp-pic set-bg"  data-setbg="img/reviewIMG/<?php echo $dados["reviewImagemURL"] ?>">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
                                 <div class="loader-circle">
-                                            <span class="circle-progress" data-cpid="id1" data-cpvalue="88"
+                                            <span class="circle-progress" data-cpid="id<?php echo $i+1?>" data-cpvalue="<?php echo $dados['jogoGlobalRating']?>"
                                                   data-cpcolor="#4bcf13"></span>
-                                    <div class="review-point">88</div>
+                                    <div class="review-point"><?php echo $dados['jogoGlobalRating']?></div>
                                 </div>
                             </div>
                         </div>
                     </div></a>
                 <div class="lp-text">
-                    <h6><a href="criticaSM.php" style="color: white">Marvel's Spider-Man</a></h6>
+                    <h6><a href="ListaReview.php?id=<?php echo $dados['reviewId']?>" style="color: white"><?php echo $dados['jogoNome']?></a></h6>
                     <ul>
-                        <li><i class="fa fa-clock-o"></i> Set 07, 2018</li>
-                        <li><i class="fa fa-comment-o"></i> 12</li>
+                        <li><i class="fa fa-clock-o"></i> <?php echo $dados['reviewData']?> </li>
                     </ul>
                 </div>
             </div>
+            <?php
+            $i = $i + 1;
+            }
+            ?>
 
 
-
-
-            <div class="lp-item" >
-                <div style="text-align: center"> <button onclick="confirmaElimina(this)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                    <a href="Edita/EditaReview.php"><button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button></a> </div>
-                <a href="criticaGOW.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/godofwar.jpg">
-                        <div class="review-loader">
-                            <div class="loader-circle-wrap">
-                                <div class="loader-circle">
-                                            <span class="circle-progress" data-cpid="id2" data-cpvalue="100"
-                                                  data-cpcolor="#4bcf13"></span>
-                                    <div class="review-point">100</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div></a>
-                <div class="lp-text">
-                    <h6><a href="criticaGOW.php">God Of War</a></h6>
-                    <ul>
-                        <li><i class="fa fa-clock-o"></i> Abril 20 , 2018</li>
-                        <li><i class="fa fa-comment-o"></i> 12</li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-
-            <div class="lp-item">
-                <div style="text-align: center"> <button onclick="confirmaElimina(1)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                    <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
-                <a href="criticaTLoU2.php"><div class="lp-pic set-bg" data-setbg="img/reviewIMG/thelastofus2.jpg">
-                        <div class="review-loader">
-                            <div class="loader-circle-wrap">
-                                <div class="loader-circle">
-                                            <span class="circle-progress" data-cpid="id3" data-cpvalue="95"
-                                                  data-cpcolor="#4bcf13"></span>
-                                    <div class="review-point">95</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div></a>
-                <div class="lp-text">
-                    <h6><a href="criticaTLoU2.php">The Last of Us 2</a></h6>
-                    <ul>
-                        <li><i class="fa fa-clock-o"></i> Jun 19, 2020</li>
-                        <li><i class="fa fa-comment-o"></i> 12</li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-            <div class="lp-item " style=" padding-top:40px">
-                <div style="text-align: center"> <button onclick="confirmaElimina(1)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                    <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
-                <a href="criticaUncharted4.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/uncharted4mini.jpg">
-                        <div class="review-loader">
-                            <div class="loader-circle-wrap">
-                                <div class="loader-circle">
-                                            <span class="circle-progress" data-cpid="id3" data-cpvalue="95"
-                                                  data-cpcolor="#4bcf13"></span>
-                                    <div class="review-point">95</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div></a>
-                <div class="lp-text">
-                    <h6><a href="criticaUncharted4.php">Uncharted 4: A Thief's End</a></h6>
-                    <ul>
-                        <li><i class="fa fa-clock-o"></i> Jun 19, 2016</li>
-                        <li><i class="fa fa-comment-o"></i> 12</li>
-                    </ul>
-                </div>
-            </div>
-
-
-
-
-            <div class="lp-item" style=" padding-top:40px">
-                <div style="text-align: center"> <button onclick="confirmaElimina(1)" type="button" class="btn btn-danger" style=""><i class="fa fa-close"> </i></button>
-                    <button type="button" class="btn btn-info"><i class="fa fa-edit"></i></button> </div>
-                <a href="criticaTWH3.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/thewitcher3.jpg">
-                        <div class="review-loader">
-                            <div class="loader-circle-wrap">
-                                <div class="loader-circle">
-                                            <span class="circle-progress" data-cpid="id3" data-cpvalue="95"
-                                                  data-cpcolor="#4bcf13"></span>
-                                    <div class="review-point">95</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div></a>
-                <div class="lp-text">
-                    <h6><a href="criticaTWH3.php">The Witcher 3: Wild Hunt</a></h6>
-                    <ul>
-                        <li><i class="fa fa-clock-o"></i> Jun 13, 2015</li>
-                        <li><i class="fa fa-comment-o"></i> 230</li>
-                    </ul>
-                </div>
-            </div>
 
 
         </div>

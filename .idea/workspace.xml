@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaNoticia.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backoffice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,10 +52,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Edita" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\includes" />
     </key>
   </component>
@@ -133,6 +129,20 @@
       <workItem from="1615541344235" duration="317000" />
       <workItem from="1615832258602" duration="634000" />
       <workItem from="1616008757355" duration="7709000" />
+    </task>
+    <task id="LOCAL-00102" summary="Includes">
+      <created>1614704295585</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1614704295585</updated>
+    </task>
+    <task id="LOCAL-00103" summary="Includes">
+      <created>1614706176609</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1614706176609</updated>
     </task>
     <task id="LOCAL-00104" summary="Includes">
       <created>1614706415362</created>
@@ -463,21 +473,7 @@
       <option name="project" value="LOCAL" />
       <updated>1616067843478</updated>
     </task>
-    <task id="LOCAL-00151" summary="Guilherme-Noticias">
-      <created>1616068168192</created>
-      <option name="number" value="00151" />
-      <option name="presentableId" value="LOCAL-00151" />
-      <option name="project" value="LOCAL" />
-      <updated>1616068168192</updated>
-    </task>
-    <task id="LOCAL-00152" summary="Guilherme-Base de Dados versao 1.5.5">
-      <created>1616068531924</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1616068531924</updated>
-    </task>
-    <option name="localTasksCounter" value="153" />
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,6 +492,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Backoffice" />
     <MESSAGE value="Backoffice-EM BRANCO" />
     <MESSAGE value="Backoffice-EM PRETO" />
     <MESSAGE value="Includes" />
@@ -520,7 +517,6 @@
     <MESSAGE value="g" />
     <MESSAGE value="Guilherme-Just some files" />
     <MESSAGE value="Guilherme-Noticias" />
-    <MESSAGE value="Guilherme-Base de Dados versao 1.5.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Base de Dados versao 1.5.5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Noticias" />
   </component>
 </project>
