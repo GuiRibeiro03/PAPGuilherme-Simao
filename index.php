@@ -149,7 +149,7 @@ while ($i < 6){
                                     </div>
                                 </div>
                                 <div class="bp-text">
-                                    <h6><a href="#"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
+                                    <h6><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
                                     <ul>
                                             <li><i class="fa fa-clock-o"></i> </li>
                                     </ul>
