@@ -11,9 +11,6 @@ $dados=mysqli_fetch_array($result)
 <link href="summernote.css" rel="stylesheet">
 <script src='../js/tinymce/tinymce.min.js'></script>
 <script>
-
-
-
     tinymce.init({
         selector: 'textarea#myTextarea',
         plugins: 'print preview paste importcss searchreplace autolink autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap quickbars emoticons',
@@ -101,7 +98,7 @@ $dados=mysqli_fetch_array($result)
 
         <div style="width: 70%;">
             <h4>Desenvolvimento:</h4>
-            <textarea name="noticiaDesenvolvimento" id="myTextarea" ><?php echo $dados["noticiaDesenvolvimento"]?></textarea>
+            <textarea name="noticiaDesenvolvimento" id="myTextarea" content="<?php echo $dados["noticiaDesenvolvimento"]?>"><?php echo $dados["noticiaDesenvolvimento"]?></textarea>
         </div>
 
         <br>

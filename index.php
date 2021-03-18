@@ -30,7 +30,7 @@ $result4=mysqli_query($con,$sql3);
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="news" role="tabpanel">
                                 <div class="row">
-                                    <div class="un-slider owl-carousel">
+                                    <div class="un-slider owl-carousel" >
                                         <?php
                                         while ($dadosNoticias=mysqli_fetch_array($result)){
                                             ?>
