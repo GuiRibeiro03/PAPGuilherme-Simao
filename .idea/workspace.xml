@@ -129,10 +129,13 @@
       <workItem from="1615541344235" duration="317000" />
       <workItem from="1615832258602" duration="634000" />
       <workItem from="1616008757355" duration="7709000" />
-      <workItem from="1616025905834" duration="155000" />
-      <workItem from="1616026590176" duration="124000" />
-      <workItem from="1616027897698" duration="436000" />
-      <workItem from="1616060489241" duration="350000" />
+    </task>
+    <task id="LOCAL-00101" summary="Includes">
+      <created>1614701078463</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1614701078463</updated>
     </task>
     <task id="LOCAL-00102" summary="Includes">
       <created>1614704295585</created>
@@ -470,14 +473,7 @@
       <option name="project" value="LOCAL" />
       <updated>1616017885792</updated>
     </task>
-    <task id="LOCAL-00150" summary="progress bar com cores">
-      <created>1616024654258</created>
-      <option name="number" value="00150" />
-      <option name="presentableId" value="LOCAL-00150" />
-      <option name="project" value="LOCAL" />
-      <updated>1616024654258</updated>
-    </task>
-    <option name="localTasksCounter" value="151" />
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,6 +492,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Backoffice" />
     <MESSAGE value="Backoffice-EM BRANCO" />
     <MESSAGE value="Backoffice-EM PRETO" />
     <MESSAGE value="Includes" />
@@ -520,7 +517,6 @@
     <MESSAGE value="g" />
     <MESSAGE value="Guilherme-Just some files" />
     <MESSAGE value="Guilherme-Noticias" />
-    <MESSAGE value="progress bar com cores" />
-    <option name="LAST_COMMIT_MESSAGE" value="progress bar com cores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Noticias" />
   </component>
 </project>

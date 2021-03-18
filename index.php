@@ -131,7 +131,7 @@ $i = $i + 1;
                             </div>
 <?php
 $i = 0;
-while ($i < 6){
+while ($i < 5){
     $dadosJogos2=mysqli_fetch_array($result3);
     $dadosReviews=mysqli_fetch_array($result4);
     ?>
@@ -147,7 +147,7 @@ while ($i < 6){
                                 <div class="bp-text">
                                     <h6><a href="#"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> <?php echo $dadosReviews["reviewData"]?></li>
+                                            <li><i class="fa fa-clock-o"></i> </li>
                                     </ul>
                                 </div>
                             </div>
@@ -167,7 +167,7 @@ while ($i < 6){
                             </div>
                             <?php
 
-                            while ($i < 12){
+                            while ($i < 7){
                                 $dadosJogos2=mysqli_fetch_array($result3);
                                 $dadosReviews=mysqli_fetch_array($result4);
                                 ?>
@@ -183,7 +183,7 @@ while ($i < 6){
                                     <div class="bp-text">
                                         <h6><a href="#"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
                                         <ul>
-                                            <li><i class="fa fa-clock-o"></i> <?php echo $dadosReviews["reviewData"]?></li>
+                                            <li><i class="fa fa-clock-o"></i></li>
                                         </ul>
                                     </div>
                                 </div>

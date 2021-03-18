@@ -1,22 +1,24 @@
 <?php
 include_once ("includes/bodyBase.inc.php");
 top();
+
+$id=intval($_GET["id"]);
 $con = mysqli_connect("localhost", "root", "","pap2021gameon");
-$sql="select * from noticias";
+$sql="select * from noticias where noticiaId=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 ?>
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="img/wallpapers/cyberpunk2077.jpg">
+    <section class="details-hero-section set-bg" data-setbg="img/wallpapers/<?php echo $dados["noticiaImagemFundoURL"]?>">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="details-hero-text" >
                         <div class="label"><span>Notícia</span></div>
-                        <h3 style=" font-size: 30px; color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Cyberpunk adiado pela quarta vez!</h3>
+                        <h3 style=" font-size: 30px; color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><?php echo $dados["noticiaTitulo"]?></h3>
                         <ul>
                             <li>by <span>Admin</span></li>
-                            <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                            <li><i class="fa fa-clock-o"></i> <?php echo $dados["noticiaData"]?></li>
                             <li><i class="fa fa-comment-o"></i> 20</li>
                         </ul>
                     </div>
@@ -33,21 +35,11 @@ $dados=mysqli_fetch_array($result);
                 <div class="col-lg-8 p-0">
                     <div class="details-text">
                         <div class="dt-item">
-                            <h5>Jogo Cyberpunk 2077 adiado pela quarta vez após vários problemas no desenvolvimento</h5>
-                            <p>Os developers da CD Projekt adiaram o lançamento deste título devido a problemas no desenvolvimento, e o lançamento foi definido para dezembro.
-                                O jogo foi adiado devido à existência de inúmeros bugs no jogo que causavam problemas enormes no gameplay, e devido a isto, um adiamento foi anunciado.
-                            </p>
+                            <p> <?php echo $dados["noticiaDesenvolvimento"]?> </p>
                         </div>
-                        <div class="dt-pic-item">
-                            <div class="dp-pic">
-                                <img src="img/details/dp-p.jpg" alt="">
-                            </div>
-                            <div class="dp-text">
-                                <p>A data de lançamento do jogo foi definida para 10 de dezembro. Se os developers continuarem com as dificuldades atuais o jogo poderá sair incompleto ou com muitos bugs ainda, por isso os fans estão preocupados com este lançamento.</p>
-                            </div>
-                        </div>
+
                         <div class="dt-last-desc">
-                            <img src="img/trending/silverhand.jpg" alt="">
+                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="">
                         </div>
                         <div class="dt-tags">
                             <a href="blog.php"><span>Gaming</span></a>
