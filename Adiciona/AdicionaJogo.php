@@ -24,7 +24,7 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
 
     <label style="color:white; font-size: 15px" class="badge badge-dark">Imagem:</label>
-    <input type="file" accept="image/*" name="jogoImagemURl" onchange="preview_image(event)" style="color: darkgray">
+    <input type="file" accept="image/*" name="jogoImagemURL" onchange="preview_image(event)" style="color: darkgray">
     <img id="output_image"/><hr>
 
     <label style="color:white; font-size: 15px" class="badge badge-dark">Preço:</label>
@@ -46,6 +46,17 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
         ?>
     </select>
+
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Produto em destaque:</label>
+
+
+<div style="color: #FFFFFF; margin-top: 50px">
+    <label>Produto em destaque:</label>
+  <p><input type="radio" name="jogoDestaque" value="sim" >&nbsp;Sim</p>
+  <p><input type="radio" name="jogoDestaque" value="nao" checked>&nbsp;Não</p>
+    </div>
+
+
 
     <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
 

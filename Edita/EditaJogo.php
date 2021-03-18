@@ -140,8 +140,19 @@ $dados=mysqli_fetch_array($resultjogos);
 
           ?>
       </select>
+
+      <label style="color:white; font-size: 15px" class="badge badge-dark">Produto em destaque:</label>
+
+
+      <div style="color: #FFFFFF; margin-top: 50px">
+          <label>Produto em destaque:</label>
+          <p><input type="radio" name="jogoDestaque" value="sim" >&nbsp;Sim</p>
+          <p><input type="radio" name="jogoDestaque" value="nao" >&nbsp;Não</p>
+      </div>
+
     </div>
 <hr>
+
     <input type="Submit" class="btn btn-danger" value="Edita"><br>
 </form>
 <br>

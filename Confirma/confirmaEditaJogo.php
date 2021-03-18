@@ -9,9 +9,9 @@ $empresaId=intval($_POST["jogoEmpresaId"]);
 $jogoTrailer=addslashes($_POST["jogoTrailer"]);
 $img=$_FILES['jogoImagemURL']["name"];
 $novoNome="../img/jogos/".$img;
+$produtoDestaque=addslashes($_POST["jogoDestaque"]);
 
-
-$sql="UPDATE jogos SET jogoNome='".$jogoNome."', jogoSinopse='".$jogoSinopse."', jogoTrailer='".$jogoTrailer."',jogoPreco='".$jogoPreco."', jogoEmpresaId='".$empresaId."'";
+$sql="UPDATE jogos SET jogoNome='".$jogoNome."', jogoSinopse='".$jogoSinopse."', jogoTrailer='".$jogoTrailer."',jogoPreco='".$jogoPreco."', jogoEmpresaId='".$empresaId."', jogoDestaque='".$produtoDestaque."' ";
 
 if($img!=''){
     $sql.=", jogoImagemURL='".$img."'";

@@ -4,7 +4,7 @@ top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql="select * from noticias";
-$sql2="select * from jogos";
+$sql2="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
 $result=mysqli_query($con,$sql);
 $result2=mysqli_query($con,$sql2);
@@ -78,7 +78,8 @@ $result4=mysqli_query($con,$sql3);
 <?php
 $i = 0;
 while ($i < 4){
-    $dadosJogos=mysqli_fetch_array($result2)
+    $dadosJogos=mysqli_fetch_array($result2);
+
     ?>
                 <div class="col-lg-3">
                     <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
@@ -114,6 +115,7 @@ while ($i < 4){
                 </div>
     <?php
 $i = $i + 1;
+
 }
         ?>
             </div>
