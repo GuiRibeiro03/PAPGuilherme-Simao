@@ -171,7 +171,7 @@ while ($i < 6){
                             </div>
                             <?php
 
-                            while ($i < 7){
+                            while ($i < 12){
                                 $dadosJogos2=mysqli_fetch_array($result3);
                                 $dadosReviews=mysqli_fetch_array($result4);
                                 ?>
