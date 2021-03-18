@@ -4,10 +4,12 @@ top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql="select * from noticias";
-$sql2="select * from jogos where jogoDestaque LIKE 'sim' ";
+$sql2="select * from jogos";
+$sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
 $result=mysqli_query($con,$sql);
 $result2=mysqli_query($con,$sql2);
+$result2_2=mysqli_query($con,$sql2_2);
 $result3=mysqli_query($con,$sql2);
 $result4=mysqli_query($con,$sql3);
 ?>
@@ -77,8 +79,8 @@ $result4=mysqli_query($con,$sql3);
             <div class="row">
 <?php
 $i = 0;
-while ($i < 4){
-    $dadosJogos=mysqli_fetch_array($result2);
+while ($i < 6){
+    $dadosJogos=mysqli_fetch_array($result2_2);
 
     ?>
                 <div class="col-lg-3">
@@ -133,7 +135,7 @@ $i = $i + 1;
                             </div>
 <?php
 $i = 0;
-while ($i < 5){
+while ($i < 6){
     $dadosJogos2=mysqli_fetch_array($result3);
     $dadosReviews=mysqli_fetch_array($result4);
     ?>
