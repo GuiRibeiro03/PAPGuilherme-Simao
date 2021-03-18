@@ -15,7 +15,7 @@ top();
 
 
 
-    <form action="ConfirmaNovaNoticia.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px; width: 100%">
+    <form action="Confirma/confirmaNovaReview.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px; width: 100%">
 
 
         <div id="wrapper" style="color: #FFFFFF">
@@ -28,7 +28,7 @@ top();
 
         <div class="mb-3">
             <label  class="form-label">Titulo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" style="width: 40%" autofocus>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" style="width: 40%" autofocus>
         </div>
         <div class="mb-3">
             <label  class="form-label">Review</label>

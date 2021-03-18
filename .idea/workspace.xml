@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +39,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp\www\papGuiSimao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Edita" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\includes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -126,6 +128,13 @@
       <workItem from="1615541344235" duration="317000" />
       <workItem from="1615832258602" duration="634000" />
       <workItem from="1616008757355" duration="7709000" />
+    </task>
+    <task id="LOCAL-00103" summary="Includes">
+      <created>1614706176609</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1614706176609</updated>
     </task>
     <task id="LOCAL-00104" summary="Includes">
       <created>1614706415362</created>
@@ -463,14 +472,7 @@
       <option name="project" value="LOCAL" />
       <updated>1616081796116</updated>
     </task>
-    <task id="LOCAL-00152" summary="lista reviews menos comentários e goods/bads, resto tudo feito">
-      <created>1616083428884</created>
-      <option name="number" value="00152" />
-      <option name="presentableId" value="LOCAL-00152" />
-      <option name="project" value="LOCAL" />
-      <updated>1616083428884</updated>
-    </task>
-    <option name="localTasksCounter" value="153" />
+    <option name="localTasksCounter" value="152" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,6 +491,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Backoffice-EM BRANCO" />
     <MESSAGE value="Backoffice-EM PRETO" />
     <MESSAGE value="Includes" />
     <MESSAGE value=".." />
@@ -513,7 +516,6 @@
     <MESSAGE value="Guilherme-Just some files" />
     <MESSAGE value="Guilherme-Noticias" />
     <MESSAGE value="review listagem" />
-    <MESSAGE value="lista reviews menos comentários e goods/bads, resto tudo feito" />
-    <option name="LAST_COMMIT_MESSAGE" value="lista reviews menos comentários e goods/bads, resto tudo feito" />
+    <option name="LAST_COMMIT_MESSAGE" value="review listagem" />
   </component>
 </project>
