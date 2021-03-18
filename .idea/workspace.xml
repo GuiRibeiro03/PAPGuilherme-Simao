@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="[leandro] workspace" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaNoticia.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -49,9 +52,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Edita" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\includes" />
-      <recent name="D:\wamp\www\papGuiSimao\includes" />
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -123,48 +128,7 @@
       <workItem from="1615512837742" duration="1963000" />
       <workItem from="1615541344235" duration="317000" />
       <workItem from="1615832258602" duration="634000" />
-    </task>
-    <task id="LOCAL-00096" summary="Backoffice">
-      <created>1614689958663</created>
-      <option name="number" value="00096" />
-      <option name="presentableId" value="LOCAL-00096" />
-      <option name="project" value="LOCAL" />
-      <updated>1614689958663</updated>
-    </task>
-    <task id="LOCAL-00097" summary="Backoffice">
-      <created>1614690248105</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1614690248105</updated>
-    </task>
-    <task id="LOCAL-00098" summary="Backoffice">
-      <created>1614690539483</created>
-      <option name="number" value="00098" />
-      <option name="presentableId" value="LOCAL-00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1614690539483</updated>
-    </task>
-    <task id="LOCAL-00099" summary="Backoffice-EM BRANCO">
-      <created>1614690836324</created>
-      <option name="number" value="00099" />
-      <option name="presentableId" value="LOCAL-00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1614690836324</updated>
-    </task>
-    <task id="LOCAL-00100" summary="Backoffice-EM BRANCO">
-      <created>1614691289666</created>
-      <option name="number" value="00100" />
-      <option name="presentableId" value="LOCAL-00100" />
-      <option name="project" value="LOCAL" />
-      <updated>1614691289666</updated>
-    </task>
-    <task id="LOCAL-00101" summary="Includes">
-      <created>1614701078463</created>
-      <option name="number" value="00101" />
-      <option name="presentableId" value="LOCAL-00101" />
-      <option name="project" value="LOCAL" />
-      <updated>1614701078463</updated>
+      <workItem from="1616008757355" duration="7709000" />
     </task>
     <task id="LOCAL-00102" summary="Includes">
       <created>1614704295585</created>
@@ -467,7 +431,49 @@
       <option name="project" value="LOCAL" />
       <updated>1615830077087</updated>
     </task>
-    <option name="localTasksCounter" value="145" />
+    <task id="LOCAL-00145" summary="Guilherme-Just some files">
+      <created>1616008822146</created>
+      <option name="number" value="00145" />
+      <option name="presentableId" value="LOCAL-00145" />
+      <option name="project" value="LOCAL" />
+      <updated>1616008822147</updated>
+    </task>
+    <task id="LOCAL-00146" summary="Guilherme-Noticias">
+      <created>1616009727913</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1616009727913</updated>
+    </task>
+    <task id="LOCAL-00147" summary="Guilherme-Noticias">
+      <created>1616013472526</created>
+      <option name="number" value="00147" />
+      <option name="presentableId" value="LOCAL-00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1616013472526</updated>
+    </task>
+    <task id="LOCAL-00148" summary="Guilherme-Noticias">
+      <created>1616017121977</created>
+      <option name="number" value="00148" />
+      <option name="presentableId" value="LOCAL-00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1616017121977</updated>
+    </task>
+    <task id="LOCAL-00149" summary="Guilherme-Noticias">
+      <created>1616017885792</created>
+      <option name="number" value="00149" />
+      <option name="presentableId" value="LOCAL-00149" />
+      <option name="project" value="LOCAL" />
+      <updated>1616017885792</updated>
+    </task>
+    <task id="LOCAL-00150" summary="Guilherme-Noticias">
+      <created>1616067843478</created>
+      <option name="number" value="00150" />
+      <option name="presentableId" value="LOCAL-00150" />
+      <option name="project" value="LOCAL" />
+      <updated>1616067843478</updated>
+    </task>
+    <option name="localTasksCounter" value="151" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,8 +492,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Carrinho Fica por cima das noticias pk o Orlando é um génio" />
-    <MESSAGE value="Funções TOP e BOTTOM" />
     <MESSAGE value="Backoffice" />
     <MESSAGE value="Backoffice-EM BRANCO" />
     <MESSAGE value="Backoffice-EM PRETO" />
@@ -511,6 +515,8 @@
     <MESSAGE value="pastas" />
     <MESSAGE value="includes base" />
     <MESSAGE value="g" />
-    <option name="LAST_COMMIT_MESSAGE" value="g" />
+    <MESSAGE value="Guilherme-Just some files" />
+    <MESSAGE value="Guilherme-Noticias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Noticias" />
   </component>
 </project>
