@@ -16,10 +16,10 @@ $result=mysqli_query($con, $sql);
         </td>
     </tr>
     <tr>
-        <th>Id</th>
-        <th>Titulo</th>
-        <th>Imagem</th>
-        <th>Data</th>
+        <th>|  Id  |</th>
+        <th>Titulo  |</th>
+        <th>Imagem  |</th>
+        <th>Data  |</th>
         <th colspan="2">Opções</th>
     </tr>
 

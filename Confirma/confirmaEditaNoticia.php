@@ -10,7 +10,7 @@ $noticiaImagemFundoURL = $_FILES["noticiaImagemFundoURL"]["name"];
 $sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."', noticiaData='".$noticiaData."', noticiaDesenvolvimento='".$noticiaDesenvolvimento."' ";
 
 if($noticiaImagemFundoURL!=''){
-    $sql.=", reviewImagemURL='".$noticiaImagemFundoURL."'";
+    $sql.=", noticiaImagemFundoURL='".$noticiaImagemFundoURL."'";
 }
 
 $sql.="where noticiaId=".$id;

@@ -13,21 +13,20 @@ $dados=mysqli_fetch_array($result)
 <section class="store" style="margin-top: 100px; margin-left: 50px">
     <a href="../backoffice/NoticiasBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
-    <form action="../Confirma/confirmaEditaNoticia.php?id=<?php echo $dados['noticiaId'] ?>" method="post" enctype="multipart/form-data">
+    <form action="../Confirma/confirmaEditaNoticia.php?id=<?php $id ?>" method="post" enctype="multipart/form-data">
         <h4>Titulo:</h4>
-        <input type="text" name="noticiaTitulo"  value="<?php echo $dados['noticiaTitulo'] ?>" style="width: 50%;">
+        <input type="text" name="noticiaTitulo"  value="<?php echo $dados["noticiaTitulo"] ?>" style="width: 50%;">
         <br>
         <br>
 
 
         <div id="wrapper" style="color: #FFFFFF">
-            <span></span>
-            <input type="file" accept="image/*" name="noticiaImagemFundoURL" value="<?php echo $dados['noticiaImagemFundoURL']?>" onchange="preview_image(event)">
+            <input type="file" accept="image/*" name="noticiaImagemFundoURL" value="../img/wallpapers/<?php echo $dados["noticiaImagemFundoURL"]?>" onchange="preview_image(event)">
             <img id="output_image"/>
         </div>
         <br>
         <div id="wrapper" style="color: #FFFFFF">
-            <input type="file" accept="image/*" name="noticiaImagemURL" value="<?php echo $dados['noticiaImagemURL']?>" onchange="preview_image(event)">
+            <input type="file" accept="image/*" name="noticiaImagemURL" value="<?php echo $dados["noticiaImagemURL"]?>" onchange="preview_image(event)">
             <img id="output_image"/>
         </div>
         <br>
@@ -35,14 +34,14 @@ $dados=mysqli_fetch_array($result)
 
         <div style="width: 100%;">
             <h4>Desenvolvimento:</h4>
-            <textarea cols="100" rows="20" name="noticiaDesenvolvimento"  value="<?php echo $dados['noticiaDesenvolvimento']?>"    ></textarea>
+            <textarea cols="100" rows="20" name="noticiaDesenvolvimento"  value="<?php echo $dados["noticiaDesenvolvimento"]?>"> <?php echo $dados["noticiaDesenvolvimento"]?></textarea>
         </div>
 
         <br>
 
         <div style="margin-top: 40px; margin-bottom: 40px">
             <h4>Data:</h4>
-            <input type="date" name="noticiaData" value="<?php echo $dados['noticiaData']?>">
+            <input type="date" name="noticiaData" value="<?php echo $dados["noticiaData"]?>">
 
         </div>
 

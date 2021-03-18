@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +19,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,6 +143,7 @@
       <workItem from="1615541344235" duration="317000" />
       <workItem from="1615832258602" duration="634000" />
       <workItem from="1616008757355" duration="7709000" />
+      <workItem from="1616029525056" duration="692000" />
     </task>
     <task id="LOCAL-00101" summary="Includes">
       <created>1614701078463</created>
