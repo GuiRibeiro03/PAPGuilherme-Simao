@@ -97,11 +97,11 @@ top();
     </div>
     <br>
 
+    <div style="width: 70%;">
+        <h4>Desenvolvimento:</h4>
+        <textarea name="noticiaDesenvolvimento" id="myTextarea" ></textarea>
+    </div>
 
-   <div style="width: 70%;">
-       <h4>Desenvolvimento:</h4>
-       <textarea name="noticiaDesenvolvimento" id="myTextarea" ></textarea>
-   </div>
 
 <br>
 
