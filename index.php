@@ -214,23 +214,12 @@ while ($i < 6){
 <?php
 while ($dadosNoticias2=mysqli_fetch_array($result_2)){
     ?>
-
-
                         <div class="ec-item">
                             <div class="lp-item">
-                                <a href="ListaBlog.php?id=<?php $dadosNoticias2['noticiaId']?>"> <div class="lp-pic set-bg" data-setbg="<?php echo $dadosNoticias2["noticiaImagemURL"] ?>">
-                                    <div class="review-loader">
-                                        <div class="loader-circle-wrap">
-                                            <div class="loader-circle">
-                                            <span class="circle-progress" data-cpid="id2" data-cpvalue="100"
-                                                  data-cpcolor="#4bcf13"></span>
-                                                <div class="review-point">100</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <a href="ListaBlog.php?id=<?php echo $dadosNoticias2['noticiaId']?>"> <div class="lp-pic set-bg" data-setbg="img/wallpapers/<?php echo $dadosNoticias2["noticiaImagemURL"] ?>">
                                 </div></a>
                                 <div class="lp-text">
-                                    <h5><a href="criticaGOW.php">God Of War</a></h5>
+                                    <h5><a href="ListaBlog.php?id=<?php echo $dadosNoticias2['noticiaId']?>"><?php echo $dadosNoticias2['noticiaTitulo']?></a></h5>
                         </div>
                             </div>
                         </div>

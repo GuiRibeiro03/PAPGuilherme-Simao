@@ -6,7 +6,6 @@ $noticiaTitulo = addslashes($_POST["noticiaTitulo"]);
 $noticiaDesenvolvimento = addslashes($_POST["noticiaDesenvolvimento"]);
 $noticiaData = addslashes($_POST["noticiaData"]);
 $noticiaImagemFundoURL = $_FILES["noticiaImagemFundoURL"]["name"];
-$noticiaEscolha=addslashes($_POST["noticiaEscolha"]);
 
 
 $sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."' ";
@@ -15,7 +14,7 @@ if($noticiaImagemFundoURL!=''){
     $sql.=", noticiaImagemFundoURL='".$noticiaImagemFundoURL."'";
 }
 
-$sql.=", noticiaData='".$noticiaData."', noticiaDesenvolvimento='".$noticiaDesenvolvimento."' where noticiaId=".$id.", noticiaEscolha='".$noticiaEscolha;
+$sql.=", noticiaData='".$noticiaData."', noticiaDesenvolvimento='".$noticiaDesenvolvimento."' where noticiaId=".$id;
 
 
 
