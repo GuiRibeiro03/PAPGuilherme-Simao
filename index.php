@@ -3,16 +3,15 @@ include_once("includes/bodyBase.inc.php");
 top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
-$sqlNoticias="select * from noticias";
-$sqlNotciaEscolha="select * from noticias where noticiaEscolha LIKE 'sim' ";
-$sqlJogos="select * from jogos";
-$sqlJogoDestaque="select * from jogos where jogoDestaque LIKE 'sim' ";
+$sql2="select * from noticias";
+$sql_2="select * from noticias where noticiaEscolha LIKE 'sim' ";
+$sqlJogos="select * from jogos where jogoGlobalRating > 70";
+$sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
-$result=mysqli_query($con,$sqlNoticias);
-$result_2=mysqli_query($con,$sqlNotciaEscolha);
+$result=mysqli_query($con, $sql2);
+$result_2=mysqli_query($con,$sql_2);
 $result2=mysqli_query($con,$sqlJogos);
-$result2_2=mysqli_query($con,$sqlJogoDestaque);
-$result3=mysqli_query($con,$sqlJogos);
+$result2_2=mysqli_query($con,$sql2_2);
 $result4=mysqli_query($con,$sql3);
 ?>
 
@@ -133,48 +132,12 @@ $i = $i + 1;
                     <div class="sidebar-option">
                         <div class="best-of-post">
                             <div class="section-title">
-                                <h5>O melhor:</h5>
-                            </div>
-                        <?php
-                        $i = 0;
-                        while ($i < 5){
-                            $dadosJogos2=mysqli_fetch_array($result2);
-                            $dadosReviews=mysqli_fetch_array($result4);
-                            ?>
-                            <div class="bp-item">
-                                <div class="bp-loader">
-                                    <div class="loader-circle-wrap">
-                                        <div class="loader-circle">
-                                        <span class="circle-progress-1" data-cpid="id-<?php echo $i + 1?>" data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"]?>" data-cpcolor="#c20000"></span>
-                                            <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"]?></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="bp-text">
-                                    <h6><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        <?php
-                        $i = $i + 1;
-                    }
-                    ?>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-7" style="color: #FFFFFF">
-                    <div class="sidebar-option">
-                        <div class="best-of-post">
-                            <div class="section-title">
-                                <br>
+                                <h5>O melhor</h5>
                             </div>
                             <?php
+                            $i = 0;
                             while ($i < 5){
-                                $dadosJogos2=mysqli_fetch_array($result3);
-                                $dadosReviews=mysqli_fetch_array($result4);
+                                $dadosJogos2=mysqli_fetch_array($result2);
                                 ?>
                                 <div class="bp-item">
                                     <div class="bp-loader">
@@ -187,6 +150,41 @@ $i = $i + 1;
                                     </div>
                                     <div class="bp-text">
                                         <h6><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
+                                        <ul>
+                                            <li><i class="fa fa-clock-o"></i> </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <?php
+                                $i = $i + 1;
+                            }
+                            ?>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-7" style="color: #FFFFFF">
+                    <div class="sidebar-option">
+                        <div class="best-of-post">
+                            <div class="section-title">
+                                <br>
+                            </div>
+                            <?php
+
+                            while ($i < 5){
+                                $dadosJogos2=mysqli_fetch_array($result2);
+                                                                ?>
+                                <div class="bp-item">
+                                    <div class="bp-loader">
+                                        <div class="loader-circle-wrap">
+                                            <div class="loader-circle">
+                                                <span class="circle-progress-1" data-cpid="id-<?php echo $i + 1?>" data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"]?>" data-cpcolor="#c20000"></span>
+                                                <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"]?></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bp-text">
+                                        <h6><a href="#"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
                                         <ul>
                                             <li><i class="fa fa-clock-o"></i></li>
                                         </ul>
