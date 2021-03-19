@@ -69,28 +69,41 @@ $dados=mysqli_fetch_array($result)
         contextmenu: "link image imagetools table",
     });
 
+
+    function preview_image2(event)
+    {
+        var reader = new FileReader();
+        reader.onload = function()
+        {
+            var output = document.getElementById('output_image2');
+            output.src = reader.result;
+        }
+        reader.readAsDataURL(event.target.files[0]);
+    }
+
 </script>
 
-<div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Edita Review ID= <?php echo $id ?></span></div>
+<div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Edita Review ID=<?php echo $id ?></span></div>
 
 <section class="store" style="margin-top: 100px; margin-left: 50px">
     <a href="../backoffice/NoticiasBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
-    <form action="../Confirma/confirmaEditaNoticia.php?id=<?php $id ?>" method="post" enctype="multipart/form-data">
+    <form action="../Confirma/confirmaEditaNoticia.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data">
         <h4>Titulo:</h4>
         <input type="text" name="noticiaTitulo"  value="<?php echo $dados["noticiaTitulo"] ?>" style="width: 50%;">
         <br>
         <br>
 
 
+
         <div id="wrapper" style="color: #FFFFFF">
-            <input type="file" accept="image/*" name="noticiaImagemFundoURL" value="../img/wallpapers/<?php echo $dados["noticiaImagemFundoURL"]?>" onchange="preview_image(event)">
-            <img id="output_image"/>
+            <div><img id="output_image" src="../img/wallpapers/<?php echo $dados["noticiaImagemFundoURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width:700px; height: 400px"/></div>
+            <input type="file" name="noticiaImagemFundoURL" accept="image/*" onclick="preview_image(event)">
         </div>
         <br>
         <div id="wrapper" style="color: #FFFFFF">
-            <input type="file" accept="image/*" name="noticiaImagemURL" value="<?php echo $dados["noticiaImagemURL"]?>" onchange="preview_image(event)">
-            <img id="output_image"/>
+            <div><img id="output_image2" src="../img/<?php echo $dados["noticiaImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width: 300px; height: 400px"/></div>
+            <input type="file" name="noticiaImagemURL" accept="image/*" onclick="preview_image2(event)">
         </div>
         <br>
 
@@ -98,7 +111,7 @@ $dados=mysqli_fetch_array($result)
 
         <div style="width: 70%;">
             <h4>Desenvolvimento:</h4>
-            <textarea name="noticiaDesenvolvimento" id="myTextarea" content="<?php echo $dados["noticiaDesenvolvimento"]?>"><?php echo $dados["noticiaDesenvolvimento"]?></textarea>
+            <textarea name="noticiaDesenvolvimento" id="myTextarea" content="<?php echo $dados["noticiaDesenvolvimento"]?>"></textarea>
         </div>
 
         <br>
@@ -115,7 +128,7 @@ $dados=mysqli_fetch_array($result)
             <p><input type="radio" name="noticiaEscolha" value="nao" <?php if ($dados['noticiaEscolha'] == 'nao') { echo "checked";} ?>>&nbsp;Não</p>
         </div>
 
-        <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
+        <input type="Submit" class="btn btn-danger" value="Edita"><br>
 
     </form>
 </section>

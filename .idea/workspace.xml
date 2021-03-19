@@ -3,9 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_1.5.5.mwb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_1.5.5.mwb.bak" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_1.5.6.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_1.5.6.mwb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_1.5.6.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_1.5.6.mwb.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaGOW.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaSM.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaTLoU2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaTWH3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/criticaUncharted4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

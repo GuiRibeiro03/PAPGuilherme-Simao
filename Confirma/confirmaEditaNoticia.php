@@ -6,12 +6,13 @@ $noticiaTitulo = addslashes($_POST["noticiaTitulo"]);
 $noticiaDesenvolvimento = addslashes($_POST["noticiaDesenvolvimento"]);
 $noticiaData = addslashes($_POST["noticiaData"]);
 $noticiaImagemFundoURL = $_FILES["noticiaImagemFundoURL"]["name"];
+$noticiaImagemURL = $_FILES["noticiaImagemURL"]["name"];
 
 
-$sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."' ";
+$sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."'";
 
-if($noticiaImagemFundoURL!=''){
-    $sql.=", noticiaImagemFundoURL='".$noticiaImagemFundoURL."'";
+if($noticiaImagemFundoURL!='' || $noticiaImagemURL!=''){
+    $sql.=", noticiaImagemFundoURL='".$noticiaImagemFundoURL."', noticiaImagemURL='".$noticiaImagemURL."'";
 }
 
 $sql.=", noticiaData='".$noticiaData."', noticiaDesenvolvimento='".$noticiaDesenvolvimento."' where noticiaId=".$id;
@@ -20,7 +21,7 @@ $sql.=", noticiaData='".$noticiaData."', noticiaDesenvolvimento='".$noticiaDesen
 
 mysqli_query($con, $sql);
 print_r($sql);
-//header("location: ../backoffice/NoticiasBackoffice.php");
+header("location: ../backoffice/NoticiasBackoffice.php");
 
 
 

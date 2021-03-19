@@ -69,6 +69,7 @@ function top(){
                 reader.readAsDataURL(event.target.files[0]);
             }
 
+
             function confirmaElimina(id) {
                 if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
                     window.location="../elimina/eliminaCanais.php?id=" + id;

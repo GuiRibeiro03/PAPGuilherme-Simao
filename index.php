@@ -3,16 +3,16 @@ include_once("includes/bodyBase.inc.php");
 top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
-$sql="select * from noticias";
-$sql_2="select * from noticias where noticiaEscolha LIKE 'sim' ";
-$sql2="select * from jogos";
-$sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
+$sqlNoticias="select * from noticias";
+$sqlNotciaEscolha="select * from noticias where noticiaEscolha LIKE 'sim' ";
+$sqlJogos="select * from jogos";
+$sqlJogoDestaque="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
-$result=mysqli_query($con,$sql);
-$result_2=mysqli_query($con,$sql_2);
-$result2=mysqli_query($con,$sql2);
-$result2_2=mysqli_query($con,$sql2_2);
-$result3=mysqli_query($con,$sql2);
+$result=mysqli_query($con,$sqlNoticias);
+$result_2=mysqli_query($con,$sqlNotciaEscolha);
+$result2=mysqli_query($con,$sqlJogos);
+$result2_2=mysqli_query($con,$sqlJogoDestaque);
+$result3=mysqli_query($con,$sqlJogos);
 $result4=mysqli_query($con,$sql3);
 ?>
 
@@ -45,7 +45,7 @@ $result4=mysqli_query($con,$sql3);
 
                                                 <div class="ub-text" >
                                                     <div class="label"><span>Notícias</span></div>
-                                                    <h4 style=" color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="#"><?php echo $dadosNoticias["noticiaTitulo"]?></a></h4>
+                                                    <h4 style=" color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="ListaBlog.php?id=<?php echo $dadosNoticias["noticiaId"] ?>"><?php echo $dadosNoticias["noticiaTitulo"]?></a></h4>
                                                     <ul>
                                                         <li>by <span>Admin</span></li>
                                                         <li><i class="fa fa-clock-o"></i> <?php echo $dadosNoticias["noticiaData"]?></li>
@@ -133,7 +133,7 @@ $i = $i + 1;
                     <div class="sidebar-option">
                         <div class="best-of-post">
                             <div class="section-title">
-                                <h5>O melhor</h5>
+                                <h5>O melhor:</h5>
                             </div>
 <?php
 $i = 0;
@@ -173,7 +173,7 @@ while ($i < 6){
                             </div>
                             <?php
 
-                            while ($i < 12){
+                            while ($i < 6){
                                 $dadosJogos2=mysqli_fetch_array($result3);
                                 $dadosReviews=mysqli_fetch_array($result4);
                                 ?>
