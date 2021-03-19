@@ -4,10 +4,12 @@ top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql="select * from noticias";
+$sql_2="select * from noticias where noticiaEscolha LIKE 'sim' ";
 $sql2="select * from jogos";
 $sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
 $result=mysqli_query($con,$sql);
+$result_2=mysqli_query($con,$sql_2);
 $result2=mysqli_query($con,$sql2);
 $result2_2=mysqli_query($con,$sql2_2);
 $result3=mysqli_query($con,$sql2);
@@ -209,12 +211,14 @@ while ($i < 6){
                             <h5>As nossas escolhas:</h5>
                         </div>
 
-
+<?php
+while ($dadosNoticias2=mysqli_fetch_array($result_2)){
+    ?>
 
 
                         <div class="ec-item">
                             <div class="lp-item">
-                                <a href="criticaGOW.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/godofwar.jpg">
+                                <a href="ListaBlog.php?id=<?php $dadosNoticias2['noticiaId']?>"> <div class="lp-pic set-bg" data-setbg="<?php echo $dadosNoticias2["noticiaImagemURL"] ?>">
                                     <div class="review-loader">
                                         <div class="loader-circle-wrap">
                                             <div class="loader-circle">
@@ -230,28 +234,9 @@ while ($i < 6){
                         </div>
                             </div>
                         </div>
-
-
-
-
-                            <div class="lp-item">
-                                <a href="criticaTLoU2.php"> <div class="lp-pic set-bg" data-setbg="img/reviewIMG/thelastofus2.jpg">
-                                    <div class="review-loader">
-                                        <div class="loader-circle-wrap">
-                                            <div class="loader-circle">
-                                            <span class="circle-progress" data-cpid="id3" data-cpvalue="95"
-                                                  data-cpcolor="#4bcf13"></span>
-                                                <div class="review-point">95</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="lp-text">
-                                    <h5><a href="criticaTLoU2.php">The Last of Us 2</a></h5>
-
-                            </div></a>
-                            </div>
-
+    <?php
+}
+    ?>
                     </div>
                 </div>
             </div>
