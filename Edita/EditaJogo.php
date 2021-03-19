@@ -146,8 +146,8 @@ $dados=mysqli_fetch_array($resultjogos);
 
       <div style="color: #FFFFFF; margin-top: 50px">
           <label>Produto em destaque:</label>
-          <p><input type="radio" name="jogoDestaque" value="sim" >&nbsp;Sim</p>
-          <p><input type="radio" name="jogoDestaque" value="nao" >&nbsp;Não</p>
+          <p><input type="radio" name="jogoDestaque" value="sim" <?php if ($dados['jogoDestaque'] == 'sim') { echo "checked";} ?> >&nbsp;Sim</p>
+          <p><input type="radio" name="jogoDestaque" value="nao" <?php if ($dados['jogoDestaque'] == 'nao') { echo "checked";} ?>>&nbsp;Não</p>
       </div>
 
     </div>

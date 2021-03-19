@@ -71,7 +71,7 @@ $dados=mysqli_fetch_array($result)
 
 </script>
 
-<div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Edita Review ID= <?php $id ?></span></div>
+<div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Edita Review ID= <?php echo $id ?></span></div>
 
 <section class="store" style="margin-top: 100px; margin-left: 50px">
     <a href="../backoffice/NoticiasBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
@@ -109,7 +109,11 @@ $dados=mysqli_fetch_array($result)
 
         </div>
 
-
+        <div style="color: #FFFFFF; margin-top: 50px">
+            <label>Nossas Escolhas:</label>
+            <p><input type="radio" name="noticiaEscolha" value="sim" <?php if ($dados['noticiaEscolha'] == 'sim') { echo "checked";} ?>>&nbsp;Sim</p>
+            <p><input type="radio" name="noticiaEscolha" value="nao" <?php if ($dados['noticiaEscolha'] == 'nao') { echo "checked";} ?>>&nbsp;Não</p>
+        </div>
 
         <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
 

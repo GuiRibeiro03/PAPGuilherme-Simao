@@ -112,6 +112,11 @@ top();
     </div>
 
 
+    <div style="color: #FFFFFF; margin-top: 50px">
+        <label>Nossas Escolhas:</label>
+        <p><input type="radio" name="noticiaEscolha" value="sim" >&nbsp;Sim</p>
+        <p><input type="radio" name="noticiaEscolha" value="nao" checked>&nbsp;Não</p>
+    </div>
 
     <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
 
