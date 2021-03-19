@@ -23,7 +23,7 @@ $result=mysqli_query($con, $sql);
         <th colspan="2">Opções</th>
     </tr>
 
-    <tr >
+    <tr>
         <?php
         while ($dados=mysqli_fetch_array($result)) {
             echo "<tr>";

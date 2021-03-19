@@ -39,8 +39,6 @@ $result4=mysqli_query($con,$sql3);
                                         while ($dadosNoticias=mysqli_fetch_array($result)){
                                             ?>
                                         <div class="col-lg-12" >
-
-
                                             <div class="un-big-item set-bg" data-setbg="img/wallpapers/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>">
 
                                                 <div class="ub-text" >
@@ -74,6 +72,7 @@ $result4=mysqli_query($con,$sql3);
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h5> PRODUTOS EM DESTAQUE:</h5>
+                        <a href="backoffice/jogosBackoffice.php"> <button type="button" class="btn btn-primary" >Backoffice</button></a>
                     </div>
                 </div>
             </div>
@@ -85,13 +84,14 @@ while ($i < 4){
     $dadosJogos=mysqli_fetch_array($result2_2);
 
     ?>
+
                 <div class="col-lg-3">
                     <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
-                        <img src="img/jogos/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px">
+                        <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><img src="img/jogos/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
                         <span class="badge badge-danger">Bom Negocio!</span>
 
                         <div class="card-body">
-                            <h4 class="card-title"><strong><?php echo $dadosJogos["jogoNome"]?></strong> &nbsp; </h4>
+                            <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><h4 class="card-title"><strong><?php echo $dadosJogos["jogoNome"]?></strong> &nbsp; </h4></a>
                                 <h5  class="card-text"><?php echo $dadosJogos["jogoPreco"]?>€</h5>
                             <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
                                 <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
@@ -135,12 +135,12 @@ $i = $i + 1;
                             <div class="section-title">
                                 <h5>O melhor:</h5>
                             </div>
-<?php
-$i = 0;
-while ($i < 6){
-    $dadosJogos2=mysqli_fetch_array($result3);
-    $dadosReviews=mysqli_fetch_array($result4);
-    ?>
+                        <?php
+                        $i = 0;
+                        while ($i < 5){
+                            $dadosJogos2=mysqli_fetch_array($result2);
+                            $dadosReviews=mysqli_fetch_array($result4);
+                            ?>
                             <div class="bp-item">
                                 <div class="bp-loader">
                                     <div class="loader-circle-wrap">
@@ -153,14 +153,14 @@ while ($i < 6){
                                 <div class="bp-text">
                                     <h6><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
                                     <ul>
-                                            <li><i class="fa fa-clock-o"></i> </li>
+                                        <li><i class="fa fa-clock-o"></i> </li>
                                     </ul>
                                 </div>
                             </div>
-    <?php
-    $i = $i + 1;
-}
-?>
+                        <?php
+                        $i = $i + 1;
+                    }
+                    ?>
                         </div>
                     </div>
                 </div>
@@ -172,8 +172,7 @@ while ($i < 6){
                                 <br>
                             </div>
                             <?php
-
-                            while ($i < 6){
+                            while ($i < 5){
                                 $dadosJogos2=mysqli_fetch_array($result3);
                                 $dadosReviews=mysqli_fetch_array($result4);
                                 ?>
@@ -187,7 +186,7 @@ while ($i < 6){
                                         </div>
                                     </div>
                                     <div class="bp-text">
-                                        <h6><a href="#"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
+                                        <h6><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
                                         <ul>
                                             <li><i class="fa fa-clock-o"></i></li>
                                         </ul>
@@ -211,21 +210,21 @@ while ($i < 6){
                             <h5>As nossas escolhas:</h5>
                         </div>
 
-<?php
-while ($dadosNoticias2=mysqli_fetch_array($result_2)){
-    ?>
+                    <?php
+                    while ($dadosNoticias2=mysqli_fetch_array($result_2)){
+                    ?>
                         <div class="ec-item">
                             <div class="lp-item">
-                                <a href="ListaBlog.php?id=<?php echo $dadosNoticias2['noticiaId']?>"> <div class="lp-pic set-bg" data-setbg="img/wallpapers/<?php echo $dadosNoticias2["noticiaImagemURL"] ?>">
+                                <a href="ListaBlog.php?id=<?php echo $dadosNoticias2['noticiaId']?>"> <div class="lp-pic set-bg" data-setbg="img/wallpapers/<?php echo $dadosNoticias2["noticiaImagemFundoURL"] ?>">
                                 </div></a>
                                 <div class="lp-text">
-                                    <h5><a href="ListaBlog.php?id=<?php echo $dadosNoticias2['noticiaId']?>"><?php echo $dadosNoticias2['noticiaTitulo']?></a></h5>
+                                    <h6><a href="ListaBlog.php?id=<?php echo $dadosNoticias2['noticiaId']?>"><?php echo $dadosNoticias2['noticiaTitulo']?></a></h6>
                         </div>
                             </div>
                         </div>
-    <?php
-}
-    ?>
+                        <?php
+                        }
+                        ?>
                     </div>
                 </div>
             </div>

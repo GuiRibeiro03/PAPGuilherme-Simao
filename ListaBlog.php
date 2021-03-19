@@ -7,6 +7,12 @@ $con = mysqli_connect("localhost", "root", "","pap2021gameon");
 $sql="select * from noticias where noticiaId=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
+
+
+
+$sql2="select * from noticias";
+$result2=mysqli_query($con,$sql2);
+$dados2=mysqli_fetch_array($result2);
 ?>
     <!-- Details Hero Section Begin -->
     <section class="details-hero-section set-bg" data-setbg="img/wallpapers/<?php echo $dados["noticiaImagemFundoURL"]?>">
@@ -39,7 +45,7 @@ $dados=mysqli_fetch_array($result);
                         </div>
 
                         <div class="dt-last-desc">
-                            <img src="img/Others/<?php echo $dados["noticiaImagemURL"] ?>" alt="">
+                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="">
                         </div>
                         <div class="dt-tags">
                             <a href="blog.php"><span>Gaming</span></a>
@@ -160,57 +166,25 @@ $dados=mysqli_fetch_array($result);
                             <div class="section-title">
                                 <h5>Mais noticias</h5>
                             </div>
+                            <?php
+                            while($dados2=mysqli_fetch_array($result2)){
+                            ?>
                             <div class="trending-item">
                                 <div class="ti-pic">
-                                    <img src="img/wallpapers/watchdogsLegion.jpg" style="height: 80px; width: 80px" alt="">
+                                    <img src="img/<?php echo $dados["noticiaImagemFundoURL"]?>" style="height: 80px; width: 80px" alt="">
                                 </div>
                                 <div class="ti-text">
-                                    <h6><a href="#">Watch dogs legion decepciona!</a>
+                                    <h6><a href="ListaBlog.php?id=<?php echo $dados["noticiaId"]?>"><?php echo $dados["noticiaTitulo"]?></a>
                                     </h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
+                                        <li><i class="fa fa-clock-o"></i><?php echo $dados["noticiaData"]?></li>
                                         <li><i class="fa fa-comment-o"></i> 12</li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/wallpapers/assassinsCreedWall.jpg" style="height: 80px; width: 80px" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">AC VALHALLA É IMPRESSIONANTE</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 12</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/wallpapers/miles.png" style="height: 80px; width: 80px" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">A sequela de Spider-man, 2018, é um dos mais aguardados da próxima geração</a>
-                                    </h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 12</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <img src="img/wallpapers/demonsouls.png" style="height: 80px; width: 80px" alt="">
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="#">DEMON SOUL'S PODE VIR A SER  O MELHOR REMAKE DE TODOS OS TEMPOS</a></h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                        <li><i class="fa fa-comment-o"></i> 12</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                           <?php
+                            }
+                           ?>
                         <div class="hardware-guides">
                             <div class="section-title">
                                 <h5>Contacte um administrador</h5>
