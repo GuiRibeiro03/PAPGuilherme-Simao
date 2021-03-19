@@ -111,7 +111,7 @@ $dados=mysqli_fetch_array($result)
 
         <div style="width: 70%;">
             <h4>Desenvolvimento:</h4>
-            <textarea name="noticiaDesenvolvimento" id="myTextarea" content="<?php echo $dados["noticiaDesenvolvimento"]?>"></textarea>
+            <textarea name="noticiaDesenvolvimento" id="myTextarea" content="<?php echo $dados["noticiaDesenvolvimento"]?>"><?php echo $dados["noticiaDesenvolvimento"]?></textarea>
         </div>
 
         <br>

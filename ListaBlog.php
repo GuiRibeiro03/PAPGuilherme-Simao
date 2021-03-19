@@ -39,7 +39,7 @@ $dados=mysqli_fetch_array($result);
                         </div>
 
                         <div class="dt-last-desc">
-                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="">
+                            <img src="img/Others/<?php echo $dados["noticiaImagemURL"] ?>" alt="">
                         </div>
                         <div class="dt-tags">
                             <a href="blog.php"><span>Gaming</span></a>
