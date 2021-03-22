@@ -5,7 +5,7 @@ top();
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql2="select * from noticias";
 $sql_2="select * from noticias where noticiaEscolha LIKE 'sim' ";
-$sqlJogos="select * from jogos where jogoGlobalRating > 70";
+$sqlJogos="select * from jogos where jogoGlobalRating > 80";
 $sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
 $result=mysqli_query($con, $sql2);
@@ -136,8 +136,8 @@ $i = $i + 1;
                             </div>
                             <?php
                             $i = 0;
-                            while ($i < 5){
-                                $dadosJogos2=mysqli_fetch_array($result2);
+                            while ($i < 6 && $dadosJogos2=mysqli_fetch_array($result2)){
+
                                 ?>
                                 <div class="bp-item">
                                     <div class="bp-loader">
@@ -170,10 +170,10 @@ $i = $i + 1;
                                 <br>
                             </div>
                             <?php
+                            $i = 0;
+                            while ($i < 6 && $dadosJogos2=mysqli_fetch_array($result2)){
 
-                            while ($i < 5){
-                                $dadosJogos2=mysqli_fetch_array($result2);
-                                                                ?>
+                                ?>
                                 <div class="bp-item">
                                     <div class="bp-loader">
                                         <div class="loader-circle-wrap">
@@ -184,9 +184,9 @@ $i = $i + 1;
                                         </div>
                                     </div>
                                     <div class="bp-text">
-                                        <h6><a href="#"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
+                                        <h6><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
                                         <ul>
-                                            <li><i class="fa fa-clock-o"></i></li>
+                                            <li><i class="fa fa-clock-o"></i> </li>
                                         </ul>
                                     </div>
                                 </div>
