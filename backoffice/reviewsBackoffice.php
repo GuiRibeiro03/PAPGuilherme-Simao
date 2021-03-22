@@ -2,9 +2,10 @@
 include_once("../includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from reviews inner join jogos where reviewJogoId=jogoId";
+$sql="select * from reviews inner join jogos on reviewJogoId=jogoId";
 $result=mysqli_query($con, $sql);
 ?>
+
 <a href="Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
 
@@ -17,7 +18,6 @@ $result=mysqli_query($con, $sql);
         </tr>
         <tr>
             <th>Id</th>
-            <th>Titulo</th>
             <th>Imagem</th>
             <th>Jogo</th>
             <th colspan="2">Opções</th>
@@ -28,10 +28,9 @@ $result=mysqli_query($con, $sql);
             while ($dados=mysqli_fetch_array($result)) {
                 echo "<tr>";
                 echo "<td>" . $dados['reviewId'] . "</td>";
-                echo "<td>" . $dados['reviewNome'] . "</td>";
-                echo "<td> <img  style='width: 300px; height: 350px' src=\"../img/wallpapers/".$dados['reviewImagemURL']."\"></td>";
+                echo "<td> <img  style='width: 600px; height: 350px' src=\"../img/wallpapers/".$dados['reviewImagemURL']."\"></td>";
                 echo "<td>" . $dados['jogoNome'] . "</td>";
-                echo "<td><a href=\"EditaReview.php?id=".$dados['reviewId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
+                echo "<td><a href=\"../Edita/EditaReview.php?id=".$dados['reviewId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
                 echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['reviewId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
                 echo "</tr>";
             }

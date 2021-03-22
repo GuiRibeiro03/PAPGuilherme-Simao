@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,13 +144,8 @@
       <workItem from="1616414448493" duration="791000" />
       <workItem from="1616417781031" duration="551000" />
       <workItem from="1616418348961" duration="692000" />
-    </task>
-    <task id="LOCAL-00116" summary="Guilherme-CRUD JOGOS">
-      <created>1614945699145</created>
-      <option name="number" value="00116" />
-      <option name="presentableId" value="LOCAL-00116" />
-      <option name="project" value="LOCAL" />
-      <updated>1614945699145</updated>
+      <workItem from="1616419381589" duration="306000" />
+      <workItem from="1616421858132" duration="2340000" />
     </task>
     <task id="LOCAL-00117" summary="Guilherme-CRUD JOGOS">
       <created>1614945833327</created>
@@ -486,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616408276467</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <task id="LOCAL-00165" summary="Guilherme-ConfirmaNovaReview">
+      <created>1616419519145</created>
+      <option name="number" value="00165" />
+      <option name="presentableId" value="LOCAL-00165" />
+      <option name="project" value="LOCAL" />
+      <updated>1616419519145</updated>
+    </task>
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +509,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Edita" />
     <MESSAGE value="Guilherme-Hotfix id" />
     <MESSAGE value="Guilherme-confirmaEditaReview" />
     <MESSAGE value="fsdf" />
@@ -530,6 +533,7 @@
     <MESSAGE value="Guilherme-Jogos Os melhores" />
     <MESSAGE value="Guilherme-Adiciona Review" />
     <MESSAGE value="Guilherme-Review" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Review" />
+    <MESSAGE value="Guilherme-ConfirmaNovaReview" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-ConfirmaNovaReview" />
   </component>
 </project>

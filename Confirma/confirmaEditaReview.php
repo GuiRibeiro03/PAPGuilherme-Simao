@@ -12,7 +12,7 @@ $img=$_FILES['jogoImagemURL']["name"];
 $novoNome="../img/jogos/".$img;
 
 
-$sql="UPDATE reviews SET reviewNome='".$reviewNome."', reviewSinopse='".$reviewSinopse."', reviewTitulo='".$reviewTitulo."',jogoPontosPositivos='".$reviewPP."', jogoPontosNegativos='".$reviewPN."'";
+$sql="UPDATE reviews SET reviewNome='".$reviewNome."', reviewTexto='".$reviewSinopse."', reviewTitulo='".$reviewTitulo."'";
 
 if($img!=''){
     $sql.=", reviewImagemURL='".$img."'";

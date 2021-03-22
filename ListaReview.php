@@ -27,7 +27,7 @@ $dados=mysqli_fetch_array($result);
         </div>
     </section>
     <!-- Details Hero Section End -->
-    <iframe width="1000" height="600" src="<?php echo $dados["jogoTrailer"]?>" frameborder="0" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="1000" height="600" src="<?php echo $dados["jogoTrailer"]?>" frameborder="2" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
 
     <!-- Details Post Section Begin -->
     <section class="details-post-section" >
