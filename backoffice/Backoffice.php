@@ -5,7 +5,7 @@ top();
 ?>
 
 <section class="store" >
-    <div style="margin-left: 35%; margin-top: 5%; margin-bottom: 5%">
+    <div style="margin-left: 25%; margin-top: 5%; margin-bottom: 5%">
 
     <a href="jogosBackoffice.php"><button type="button" class="btn btn-primary">Jogos</button></a>
     <a href="consolasBackoffice.php"><button type="button" class="btn btn-primary">Consolas</button></a>
