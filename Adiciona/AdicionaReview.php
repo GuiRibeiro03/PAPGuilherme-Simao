@@ -99,7 +99,7 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
 
         <div class="mb-3">
-            <label  class="badge badge-dark">Titulo</label>
+            <label  class="badge badge-dark">Titulo:</label>
             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" style="width: 40%" autofocus>
         </div>
         <div class="mb-3" style="width: 70%;">

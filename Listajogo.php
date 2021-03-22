@@ -18,6 +18,7 @@ $dados=mysqli_fetch_array($result);
         <div style="float: right;  width: 400px; height: 200px">
 
             <section class="details-post-section spad">
+
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 p-0">
@@ -58,6 +59,9 @@ $dados=mysqli_fetch_array($result);
 
 
     </section>
+
+
+
     </div>
 
         <div style="color: #FFFFFF; font-size: 50px;"><strong><span ><?php echo $dados["jogoPreco"] ?></span></strong></div> <span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" value="1" max="5" style="width: 50px">
@@ -90,6 +94,9 @@ $dados=mysqli_fetch_array($result);
         <div style="height: 100%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; width: 100%">
             <h2>Acerca do jogo:</h2>
             <hr>
+            <div>
+                <iframe width="1000" height="600" src="<?php echo $dados["jogoTrailer"] ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <div>
                 <h3>Resumo:</h3>
                 <?php echo $dados["jogoSinopse"] ?>

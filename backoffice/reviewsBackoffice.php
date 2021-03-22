@@ -29,7 +29,7 @@ $result=mysqli_query($con, $sql);
                 echo "<tr>";
                 echo "<td>" . $dados['reviewId'] . "</td>";
                 echo "<td>" . $dados['reviewNome'] . "</td>";
-                echo "<td> <img  style='width: 300px; height: 350px' src=\"../img/jogos/".$dados['reviewImagemURL']."\"></td>";
+                echo "<td> <img  style='width: 300px; height: 350px' src=\"../img/wallpapers/".$dados['reviewImagemURL']."\"></td>";
                 echo "<td>" . $dados['jogoNome'] . "</td>";
                 echo "<td><a href=\"EditaReview.php?id=".$dados['reviewId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
                 echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['reviewId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";

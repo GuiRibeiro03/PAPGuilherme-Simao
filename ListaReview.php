@@ -17,7 +17,7 @@ $dados=mysqli_fetch_array($result);
                         <div class="label"><span>Análise</span></div>
                         <h1 style="text-shadow: 2px 2px 0px #FF0000;"><?php echo $dados['jogoNome']?></h1>
                         <ul>
-                            <li>by <span><?php echo $dados['reviewAutor']?></span></li>
+                            <li><span><?php echo $dados['reviewAutor']?></span></li>
                             <li><i class="fa fa-clock-o"></i> <?php echo $dados['reviewData']?></li>
 
                         </ul>
@@ -27,6 +27,7 @@ $dados=mysqli_fetch_array($result);
         </div>
     </section>
     <!-- Details Hero Section End -->
+    <iframe width="1000" height="600" src="<?php echo $dados["jogoTrailer"]?>" frameborder="0" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
 
     <!-- Details Post Section Begin -->
     <section class="details-post-section" >
@@ -75,30 +76,7 @@ $dados=mysqli_fetch_array($result);
                                 </div>
 
 
-                                <div class="or-qualities">
-                                    <div class="qualities-item">
-                                        <p style="color: lawngreen; font-size: 18px; font-weight: bold"><i class="fa fa-check"></i> &nbsp;Aspetos Positivos:</p>
-                                        <ul style="font-size: 18px; color: #FFFFFF">
-                                           <div>
-                                               <p>Representação da Cidade</p>
-                                               <p>Navegação</p>
-                                               <p>Combate</p>
-                                               <p>Imersão</p>
-                                           </div>
 
-                                        </ul>
-                                    </div>
-                                    <div class="qualities-item bad-item">
-                                        <p style="color: red; font-size: 18px; font-weight: bold"><i class="fa fa-close"></i>&nbsp;Aspetos Negativos:</p>
-                                        <ul >
-                                            <div style="font-size: 18px; color: #FFFFFF">
-                                                <p>Exposição Exagerada</p>
-                                                <p>Pessimo Timing para DLC's</p>
-                                            </div>
-
-                                        </ul>
-                                    </div>
-                                </div>
                             </div>
 
                         </div>
