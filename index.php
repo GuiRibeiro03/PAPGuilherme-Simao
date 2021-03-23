@@ -86,7 +86,7 @@ while ($i < 4){
 
                 <div class="col-lg-3">
                     <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
-                        <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><img src="img/jogos/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
+                        <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><img src="img/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
                         <span class="badge badge-danger">Bom Negocio!</span>
 
                         <div class="card-body">
@@ -171,7 +171,7 @@ $i = $i + 1;
                             </div>
                             <?php
                             $i = 0;
-                            while ($i < 6 && $dadosJogos2=mysqli_fetch_array($result2)){
+                            while ($i < 6   && $dadosJogos2=mysqli_fetch_array($result2)){
 
                                 ?>
                                 <div class="bp-item">

@@ -27,7 +27,6 @@ $dados=mysqli_fetch_array($result);
         </div>
     </section>
     <!-- Details Hero Section End -->
-    <iframe width="1000" height="600" src="<?php echo $dados["jogoTrailer"]?>" frameborder="2" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
 
     <!-- Details Post Section Begin -->
     <section class="details-post-section" >
@@ -56,7 +55,7 @@ $dados=mysqli_fetch_array($result);
                                                 <span class="circle-progress-2" data-cpid="circle1" data-cpvalue="<?php echo $dados['jogoGlobalRating']?>"  data-cpcolor="#4bcf13"></span>
                                                 <div class="review-point">
                                                     <span style="padding-left: 10px; color: #FFFFFF">Global Rating:</span>
-                                                    <div style="padding-left: 10px; padding-top: 10px"><?php echo $dados['jogoGlobalRating']?></div>
+                                                    <div style="margin-right:10px; margin-top: 10px"><?php echo $dados['jogoGlobalRating']?></div>
                                                 </div>
                                             </div>
                                         </div>

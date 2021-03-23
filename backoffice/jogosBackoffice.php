@@ -31,7 +31,7 @@ $result=mysqli_query($con, $sql);
                 echo "<tr>";
                 echo "<td>" . $dados['jogoId'] . "</td>";
                 echo "<td>" . $dados['jogoNome'] . "</td>";
-                echo "<td> <img  style='width: 300px; height: 350px' src=\"../img/jogos/".$dados['jogoImagemURL']."\"></td>";
+                echo "<td> <img  style='width: 300px; height: 350px' src=".$dados['jogoImagemURL']."></td>";
                 echo "<td>" . $dados['empresaNome'] . "</td>";
                 echo "<td>" . $dados['jogoPreco'] . "€</td>";
                 echo "<td>" . $dados['jogoDestaque'] . "</td>";
@@ -51,7 +51,7 @@ bottom();
 <script>
     function confirmaElimina(id) {
         if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-            window.location="eliminaJogo?id=" + id;
+            window.location="../Elimina/eliminaJogo?id=" + id;
     }
 
 

@@ -13,7 +13,8 @@ $dados=mysqli_fetch_array($result);
         <div style="text-align: center"> <h1 style="text-shadow: 2px 2px 0px #000000; padding-top:20px "><strong><?php echo $dados["jogoNome"] ?></strong></h1></div>
         <br>
         <br>
-    <div class="container-md">
+
+        <div class="container-md">
         <img src="img/jogos/<?php echo $dados["jogoImagemURL"] ?>" style="background-color: #FFFFFF; padding: 15px; padding-top: 40px; width: 300px; height: 400px">
         <div style="float: right;  width: 400px; height: 200px">
 
@@ -64,7 +65,7 @@ $dados=mysqli_fetch_array($result);
 
     </div>
 
-        <div style="color: #FFFFFF; font-size: 50px;"><strong><span ><?php echo $dados["jogoPreco"] ?></span></strong></div> <span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" value="1" max="5" style="width: 50px">
+        <div style="color: #FFFFFF; font-size: 50px;"><strong><span ><?php echo $dados["jogoPreco"] ?>€</span></strong></div> <span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" value="1" max="5" style="width: 50px">
         <p></p>
         <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
             <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
@@ -95,7 +96,8 @@ $dados=mysqli_fetch_array($result);
             <h2>Acerca do jogo:</h2>
             <hr>
             <div>
-                <iframe width="1000" height="600" src="<?php echo $dados["jogoTrailer"] ?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="<?php echo $dados["jogoTrailer"] ?>" width="100%" height="600" style="border:1px solid black;">
+                </iframe>
             </div>
             <div>
                 <h3>Resumo:</h3>

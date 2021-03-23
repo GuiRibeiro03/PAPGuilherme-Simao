@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -145,14 +149,9 @@
       <workItem from="1616419381589" duration="306000" />
       <workItem from="1616421858132" duration="2534000" />
       <workItem from="1616442869463" duration="2000" />
-      <workItem from="1616489927600" duration="1093000" />
-    </task>
-    <task id="LOCAL-00118" summary="Guilherme-CRUD JOGOS">
-      <created>1614945890311</created>
-      <option name="number" value="00118" />
-      <option name="presentableId" value="LOCAL-00118" />
-      <option name="project" value="LOCAL" />
-      <updated>1614945890311</updated>
+      <workItem from="1616489927600" duration="1758000" />
+      <workItem from="1616491737364" duration="1984000" />
+      <workItem from="1616495514738" duration="1944000" />
     </task>
     <task id="LOCAL-00119" summary="Guilherme-CRUD JOGOS">
       <created>1614946155357</created>
@@ -490,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616426008964</updated>
     </task>
-    <option name="localTasksCounter" value="167" />
+    <task id="LOCAL-00167" summary="GUilherme-Adiciona Noticia">
+      <created>1616491416999</created>
+      <option name="number" value="00167" />
+      <option name="presentableId" value="LOCAL-00167" />
+      <option name="project" value="LOCAL" />
+      <updated>1616491416999</updated>
+    </task>
+    <option name="localTasksCounter" value="168" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,7 +515,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Hotfix id" />
     <MESSAGE value="Guilherme-confirmaEditaReview" />
     <MESSAGE value="fsdf" />
     <MESSAGE value="IGDB API" />
@@ -534,6 +539,7 @@
     <MESSAGE value="Guilherme-Adiciona Review" />
     <MESSAGE value="Guilherme-ConfirmaNovaReview" />
     <MESSAGE value="Guilherme-Review" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Review" />
+    <MESSAGE value="GUilherme-Adiciona Noticia" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUilherme-Adiciona Noticia" />
   </component>
 </project>
