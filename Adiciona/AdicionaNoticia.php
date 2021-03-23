@@ -69,6 +69,33 @@ top();
         contextmenu: "link image imagetools table",
     });
 
+
+
+
+
+
+    function preview_image(event)
+    {
+        var reader = new FileReader();
+        reader.onload = function()
+        {
+            var output = document.getElementById('output_image');
+            output.src = reader.result;
+        }
+        reader.readAsDataURL(event.target.files[0]);
+    }
+
+    function preview_image2(event)
+    {
+        var reader = new FileReader();
+        reader.onload = function()
+        {
+            var output = document.getElementById('output_image2');
+            output.src = reader.result;
+        }
+        reader.readAsDataURL(event.target.files[0]);
+    }
+
 </script>
 
 
@@ -92,8 +119,8 @@ top();
     </div>
     <br>
     <div id="wrapper" style="color: #FFFFFF">
-        <input type="file" accept="image/*" name="noticiaImagemURL" onchange="preview_image(event)">
-        <img id="output_image"/>
+        <input type="file" accept="image/*" name="noticiaImagemURL" onchange="preview_image2(event)">
+        <img id="output_image2"/>
     </div>
     <br>
 
