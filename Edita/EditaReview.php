@@ -82,11 +82,11 @@ $dados=mysqli_fetch_array($result);
 
 
 
-    <form action="../Edita/ConfirmaEditaReview.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px; width: 100%">
+    <form action="../Confirma/ConfirmaEditaReview.php?id=<?php echo $dados["reviewId"]?>" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px; width: 100%">
 
 
         <div id="wrapper" style="color: #FFFFFF; margin-bottom: 5%">
-            <input type="file" accept="image/*" name="reviewImagemURL" onchange="preview_image(event)" value="<?php echo $dados["reviewImagemURL"] ?>">
+            <input type="file" accept="image/*" src="<?php echo $dados["reviewImagemURL"] ?>" name="reviewImagemURL" onchange="preview_image(event)" value="<?php echo $dados["reviewImagemURL"] ?>">
             <div style="height: 50px">
             <img id="output_image"/></div>
         </div>
@@ -95,34 +95,38 @@ $dados=mysqli_fetch_array($result);
 
         <div class="mb-3">
             <label  class="form-label">Autor:</label>
-            <input value="<?php echo $dados["reviewAutor"] ?>" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" name="reviewNome"  style="width: 40%" autofocus>
+            <input value="<?php echo $dados["reviewAutor"] ?>" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" name="reviewAutor"  style="width: 40%" autofocus>
         </div>
 
 
          <div style="width: 70%;">
             <h4>Texto:</h4>
-            <textarea name="reviewTexto" id="myTextarea" ><?php echo $dados["reviewTexto"] ?></textarea>
+            <textarea name="reviewTexto" id="myTextarea"  content="<?php echo $dados["reviewTexto"] ?>"><?php echo $dados["reviewTexto"] ?></textarea>
         </div>
 
         </div>
 
+        <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Jogo:</label>
+        <select name="reviewJogoId" >
+            <option value="-1">Escolha o jogo...</option>
+            <?php
+            $sql="select * from jogos order by jogoNome";
+            $result=mysqli_query($con,$sql);
+            while ($dados=mysqli_fetch_array($result)){
+                ?>
+                <option value="<?php echo $dados['jogoId']?>"><?php echo $dados['jogoNome']?></option>
+                <?php
+            }
 
+
+            ?>
+        </select>
         <br>
 
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" >
-            <label class="form-check-label" >
-                Review
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" >
-            <label class="form-check-label" >
-                Jogo
-            </label>
+        <input type="date" name="reviewData">
 
-        </div>
-        <input type="Submit" value="Adicionar" style="width: 100px; height: 50px">
+
+        <input type="Submit" class="btn btn-danger" value="Edita"><br>
 
 
 

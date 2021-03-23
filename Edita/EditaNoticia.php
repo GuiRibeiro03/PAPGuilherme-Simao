@@ -97,7 +97,7 @@ $dados=mysqli_fetch_array($result)
 
 
         <div id="wrapper" style="color: #FFFFFF">
-            <div><img id="output_image" src="../img/wallpapers/<?php echo $dados["noticiaImagemFundoURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width:700px; height: 400px"/></div>
+            <div><img id="output_image" src="../img/<?php echo $dados["noticiaImagemFundoURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width:700px; height: 400px"/></div>
             <input type="file" name="noticiaImagemFundoURL" accept="image/*" onclick="preview_image(event)">
         </div>
         <br>

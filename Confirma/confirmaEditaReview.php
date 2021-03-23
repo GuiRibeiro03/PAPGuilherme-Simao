@@ -2,23 +2,21 @@
 $con = mysqli_connect("localhost", "root", "","pap2021gameon");
 
 $id=intval($_GET["id"]);
-$reviewNome=addslashes($_POST["reviewNome"]);
-$reviewSinopse=addslashes($_POST["reviewSinopse"]);
-$reviewTitulo=addslashes($_POST["reviewTitulo"]);
-$reviewCapa=intval($_POST["reviewImagemURL"]);
-$reviewPP=addslashes($_POST["jogoPontosPositivos"]);
-$reviewPN=addslashes($_POST["jogoPontosNegativos"]);
-$img=$_FILES['jogoImagemURL']["name"];
-$novoNome="../img/wallpapers/".$img;
+$reviewData=addslashes($_POST["reviewData"]);
+$reviewText=addslashes($_POST["reviewTexto"]);
+$reviewAutor=addslashes($_POST["reviewAutor"]);
+$reviewJogoId=intval($_POST["reviewJogoId"]);
+$img=$_FILES['reviewImagemURL']["name"];
+$novoNome="../img/".$img;
 
 
-$sql="UPDATE reviews SET reviewNome='".$reviewNome."', reviewTexto='".$reviewSinopse."', reviewTitulo='".$reviewTitulo."'";
+$sql="UPDATE reviews SET reviewAutor='".$reviewAutor."', reviewTexto='".$reviewText."',reviewJogoId='".$reviewJogoId."'";
 
 if($img!=''){
-    $sql.=", reviewImagemURL='".$img."'";
+    $sql.=", reviewImagemURL='".$novoNome."'";
 }
 
-$sql.="where jogoId=".$id;
+$sql.="where reviewId=".$id;
 
 mysqli_query($con,$sql);
 print_r($sql);

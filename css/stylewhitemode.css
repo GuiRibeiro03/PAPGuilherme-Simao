@@ -149,6 +149,8 @@ ol {
 	background-size: cover;
 	background-position: top center;
 	background-color: white;
+	width: 80%;
+	height: 40%;
 }
 
 .spad {
