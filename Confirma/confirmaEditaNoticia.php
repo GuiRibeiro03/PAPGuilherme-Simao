@@ -7,10 +7,10 @@ $noticiaDesenvolvimento = addslashes($_POST["noticiaDesenvolvimento"]);
 $noticiaData = addslashes($_POST["noticiaData"]);
 $noticiaImagemFundoURL = $_FILES["noticiaImagemFundoURL"]["name"];
 $noticiaImagemURL = $_FILES["noticiaImagemURL"]["name"];
-$novoNome="../img/".$noticiaImagemFundoURL;
-$novoNome2="../img/".$noticiaImagemURL;
+$novoNome="../img/wallpapers/".$noticiaImagemFundoURL;
+$novoNome2="../img/wallpapers".$noticiaImagemURL;
 
-$sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."'";
+$sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."' ";
 
 if($noticiaImagemFundoURL!='' || $noticiaImagemURL!=''){
     $sql.=", noticiaImagemFundoURL='".$noticiaImagemFundoURL."', noticiaImagemURL='".$noticiaImagemURL."'";

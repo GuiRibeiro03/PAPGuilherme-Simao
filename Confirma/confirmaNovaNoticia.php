@@ -18,7 +18,7 @@ echo $sql="insert into noticias(noticiaTitulo,noticiaImagemFundoURL,noticiaImage
 
 
 mysqli_query($con,$sql);
-//header("location: ../backoffice/NoticiasBackoffice.php");
+header("location: ../backoffice/NoticiasBackoffice.php");
 ?>
 
 

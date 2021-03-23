@@ -4,7 +4,7 @@ top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql2="select * from noticias";
-$sql_2="select * from noticias where noticiaEscolha LIKE 'sim' ";
+$sql_2="select * from jogos where jogoGlobalRating=100";
 $sqlJogos="select * from jogos where jogoGlobalRating > 80";
 $sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
@@ -38,7 +38,7 @@ $result4=mysqli_query($con,$sql3);
                                         while ($dadosNoticias=mysqli_fetch_array($result)){
                                             ?>
                                         <div class="col-lg-12" >
-                                            <div class="un-big-item set-bg" data-setbg="img/wallpapers/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>">
+                                            <div class="un-big-item set-bg" data-setbg="img/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>">
 
                                                 <div class="ub-text" >
                                                     <div class="label"><span>Notícias</span></div>
@@ -203,7 +203,7 @@ $i = $i + 1;
                 <div class="col-lg-4 col-md-8">
                     <div class="editor-choice">
                         <div class="section-title">
-                            <h5>As nossas escolhas:</h5>
+                            <h5>Ultimas Notícias:</h5>
                         </div>
 
                     <?php
@@ -211,10 +211,10 @@ $i = $i + 1;
                     ?>
                         <div class="ec-item">
                             <div class="lp-item">
-                                <a href="ListaBlog.php?id=<?php echo $dadosNoticias2['noticiaId']?>"> <div class="lp-pic set-bg" data-setbg="img/wallpapers/<?php echo $dadosNoticias2["noticiaImagemFundoURL"] ?>">
+                                <a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"> <div class="lp-pic set-bg" data-setbg="img/wallpapers/<?php echo $dadosNoticias2["jogoImagemURL"] ?>">
                                 </div></a>
                                 <div class="lp-text">
-                                    <h6><a href="ListaBlog.php?id=<?php echo $dadosNoticias2['noticiaId']?>"><?php echo $dadosNoticias2['noticiaTitulo']?></a></h6>
+                                    <h6><a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"><?php echo $dadosNoticias2['jogoNome']?></a></h6>
                         </div>
                             </div>
                         </div>

@@ -4,7 +4,7 @@ include_once ("includes/bodyBase.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET['id']);
-$sql="select * from jogos where jogoId=".$id;
+$sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId where jogoId=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 ?>
@@ -104,7 +104,7 @@ $dados=mysqli_fetch_array($result);
                 <?php echo $dados["jogoSinopse"] ?>
             </div>
             <hr>
-            <div><h4>Empresa:</h4><span>Capcom</span>
+            <div><h4>Empresa:</h4><span><?php echo $dados["empresaNome"] ?></span>
                 <h4>Género: </h4><span>FPS/RPG</span>
                 <h4>Plataforma: </h4><span>PS5</span>
             </div>
