@@ -79,8 +79,7 @@ $result4=mysqli_query($con,$sql3);
             <div class="row">
 <?php
 $i = 0;
-while ($i < 4){
-    $dadosJogos=mysqli_fetch_array($result2_2);
+while ($i < 4 && $dadosJogos=mysqli_fetch_array($result2_2)){
 
     ?>
 
@@ -96,7 +95,6 @@ while ($i < 4){
                                 <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
                                 <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
                             </strong>
-
                             </button>
 
                             <script>

@@ -15,7 +15,7 @@ $dados=mysqli_fetch_array($result);
         <br>
 
         <div class="container-md">
-        <img src="img/jogos/<?php echo $dados["jogoImagemURL"] ?>" style="background-color: #FFFFFF; padding: 15px; padding-top: 40px; width: 300px; height: 400px">
+        <img src="img/<?php echo $dados["jogoImagemURL"] ?>" style="background-color: #FFFFFF; padding: 15px; padding-top: 40px; width: 300px; height: 400px">
         <div style="float: right;  width: 400px; height: 200px">
 
             <section class="details-post-section spad">

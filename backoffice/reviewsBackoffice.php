@@ -28,7 +28,7 @@ $result=mysqli_query($con, $sql);
             while ($dados=mysqli_fetch_array($result)) {
                 echo "<tr>";
                 echo "<td>" . $dados['reviewId'] . "</td>";
-                echo "<td> <img  style='width: 600px; height: 350px' src=\"../img/wallpapers/".$dados['reviewImagemURL']."\"></td>";
+                echo "<td> <img  style='width: 600px; height: 350px' src=".$dados['reviewImagemURL']."></td>";
                 echo "<td>" . $dados['jogoNome'] . "</td>";
                 echo "<td><a href=\"../Edita/EditaReview.php?id=".$dados['reviewId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
                 echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['reviewId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
@@ -46,7 +46,7 @@ bottom();
 <script>
     function confirmaElimina(id) {
         if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-            window.location="eliminaReview?id=" + id;
+            window.location="../Elimina/eliminaReview?id=" + id;
     }
 
 

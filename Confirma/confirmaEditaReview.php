@@ -9,7 +9,7 @@ $reviewCapa=intval($_POST["reviewImagemURL"]);
 $reviewPP=addslashes($_POST["jogoPontosPositivos"]);
 $reviewPN=addslashes($_POST["jogoPontosNegativos"]);
 $img=$_FILES['jogoImagemURL']["name"];
-$novoNome="../img/jogos/".$img;
+$novoNome="../img/wallpapers/".$img;
 
 
 $sql="UPDATE reviews SET reviewNome='".$reviewNome."', reviewTexto='".$reviewSinopse."', reviewTitulo='".$reviewTitulo."'";

@@ -7,12 +7,14 @@ $reviewData= addslashes($_POST["reviewData"]);
 $reviewImagemURL = $_FILES["reviewImagemURL"]["name"];
 $reviewJogoId = intval($_POST["reviewJogoId"]);
 $reviewAutor = intval($_POST["reviewAutor"]);
+$novoNome="../img/wallpapers/".$reviewImagemURL;
+copy($_FILES['reviewImagemURL']['tmp_name'],$novoNome);
 
-echo $sql = "insert into reviews (jogoNome,jogoSinopse,jogoTrailer,jogoImagemURL,jogoPreco,jogoEmpresaId, jogoDestaque) 
-values('" . $jogoNome . "','" . $jogoSinopse . "','" . $jogoTrailer . "','" . $jogoImagemURL . "', '" . $jogoPreco . "', '" . $jogoempresaId . "','" . $jogoDestaque . "')";
+echo $sql = "insert into reviews (reviewData,reviewAutor,reviewTexto,reviewJogoId,reviewImagemURL) 
+values('" . $reviewData . "','" . $reviewAutor . "','" . $reviewTexto . "','" . $reviewJogoId  . "','" . $novoNome . "')";
 
 mysqli_query($con, $sql);
-header("location: ../backoffice/jogosBackoffice.php");
+header("location: ../backoffice/reviewsBackoffice.php");
 
 
 

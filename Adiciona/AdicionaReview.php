@@ -91,7 +91,7 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
 
         <div id="wrapper" style="color: #FFFFFF">
-            <input type="file" accept="image/*" onchange="preview_image(event)">
+            <input type="file" accept="image/*" name="reviewImagemURL" onchange="preview_image(event)">
             <div style="height: 20px"></div>
             <img id="output_image"/>
         </div>
@@ -99,12 +99,12 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
 
         <div class="mb-3">
-            <label  class="badge badge-dark">Titulo:</label>
-            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" style="width: 40%" autofocus>
+            <label  class="badge badge-dark">Autor:</label>
+            <input name="reviewAutor" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Autor" style="width: 40%">
         </div>
         <div class="mb-3" style="width: 70%;">
             <h4> <label  class="badge badge-dark">Desenvolvimento:</label></h4>
-            <textarea name="reviewTexto " id="myTextarea" ></textarea>
+            <textarea name="reviewTexto" id="myTextarea" ></textarea>
         </div>
 
 

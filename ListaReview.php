@@ -9,7 +9,7 @@ $dados=mysqli_fetch_array($result);
 ?>
 
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="img/reviewIMG/<?php echo $dados['reviewImagemURL']?>">
+    <section class="details-hero-section set-bg" data-setbg="img/<?php echo $dados['reviewImagemURL']?>">
         <div class="container">
             <div class="row">
 

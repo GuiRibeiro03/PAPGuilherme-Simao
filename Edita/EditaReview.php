@@ -1,6 +1,10 @@
 <?php
 include_once("../includes/body.inc.php");
 top();
+$con =mysqli_connect("localhost","root","","pap2021gameon");
+$sql="select * from reviews";
+$result=mysqli_query($con,$sql);
+$dados=mysqli_fetch_array($result);
 ?>
 
 <link href="summernote.css" rel="stylesheet">
@@ -82,7 +86,7 @@ top();
 
 
         <div id="wrapper" style="color: #FFFFFF; margin-bottom: 5%">
-            <input type="file" accept="image/*" name="reviewImagemURL" onchange="preview_image(event)">
+            <input type="file" accept="image/*" name="reviewImagemURL" onchange="preview_image(event)" value="<?php echo $dados["reviewImagemURL"] ?>">
             <div style="height: 50px">
             <img id="output_image"/></div>
         </div>
@@ -90,14 +94,14 @@ top();
 
 
         <div class="mb-3">
-            <label  class="form-label">Titulo</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" name="reviewNome" style="width: 40%" autofocus>
+            <label  class="form-label">Autor:</label>
+            <input value="<?php echo $dados["reviewAutor"] ?>" type="email" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" name="reviewNome"  style="width: 40%" autofocus>
         </div>
 
 
          <div style="width: 70%;">
             <h4>Texto:</h4>
-            <textarea name="reviewTexto" id="myTextarea" ></textarea>
+            <textarea name="reviewTexto" id="myTextarea" ><?php echo $dados["reviewTexto"] ?></textarea>
         </div>
 
         </div>
