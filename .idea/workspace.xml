@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elimina/eliminaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/eliminaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +145,7 @@
       <workItem from="1616442869463" duration="2000" />
       <workItem from="1616489927600" duration="1758000" />
       <workItem from="1616491737364" duration="1984000" />
-      <workItem from="1616495514738" duration="4704000" />
-    </task>
-    <task id="LOCAL-00120" summary="Guilherme-CRUD JOGOS">
-      <created>1614946481688</created>
-      <option name="number" value="00120" />
-      <option name="presentableId" value="LOCAL-00120" />
-      <option name="project" value="LOCAL" />
-      <updated>1614946481688</updated>
+      <workItem from="1616495514738" duration="5026000" />
     </task>
     <task id="LOCAL-00121" summary="Guilherme-CRUD JOGOS">
       <created>1614946675785</created>
@@ -500,7 +483,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616497657754</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <task id="LOCAL-00169" summary="Guilherme-Correções COPY imagens">
+      <created>1616500647779</created>
+      <option name="number" value="00169" />
+      <option name="presentableId" value="LOCAL-00169" />
+      <option name="project" value="LOCAL" />
+      <updated>1616500647779</updated>
+    </task>
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
