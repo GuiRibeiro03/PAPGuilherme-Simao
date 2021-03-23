@@ -57,7 +57,6 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
     </div>
 
 
-
     <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
 
 </form>

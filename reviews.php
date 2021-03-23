@@ -18,7 +18,7 @@ $result=mysqli_query($con,$sql);
             while ($dados=mysqli_fetch_array($result)){
             ?>
             <div class="lp-item">
-                <a href="ListaReview.php?id=<?php echo $dados['reviewId']?>"><div class="lp-pic set-bg"  data-setbg="img/<?php echo $dados["reviewImagemURL"] ?>">
+                <a href="ListaReview.php?id=<?php echo $dados['reviewId']?>"><div class="lp-pic set-bg"  data-setbg="   <?php echo $dados["reviewImagemURL"] ?>">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
                                 <div class="loader-circle">

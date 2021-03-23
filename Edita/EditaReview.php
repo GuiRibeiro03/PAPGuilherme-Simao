@@ -2,7 +2,8 @@
 include_once("../includes/body.inc.php");
 top();
 $con =mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from reviews";
+$id=intval($_GET["id"]);
+$sql="select * from reviews inner join jogos on reviewJogoId=jogoId where reviewid=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 ?>
@@ -10,9 +11,6 @@ $dados=mysqli_fetch_array($result);
 <link href="summernote.css" rel="stylesheet">
 <script src='../js/tinymce/tinymce.min.js'></script>
 <script>
-
-
-
     tinymce.init({
         selector: 'textarea#myTextarea',
         plugins: 'print preview paste importcss searchreplace autolink autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap quickbars emoticons',
@@ -73,7 +71,12 @@ $dados=mysqli_fetch_array($result);
 
 </script>
 
-<div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Edita Review</span></div>
+<div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><?php echo $dados["jogoNome"] ?></span></div>
+
+
+
+
+
 
 <section class="store" style="margin-top: 100px; margin-left: 50px">
     <a href="../reviews.php"><button type="button" class="btn btn-danger">Voltar</button></a>
@@ -86,9 +89,8 @@ $dados=mysqli_fetch_array($result);
 
 
         <div id="wrapper" style="color: #FFFFFF; margin-bottom: 5%">
-            <input type="file" accept="image/*" src="<?php echo $dados["reviewImagemURL"] ?>" name="reviewImagemURL" onchange="preview_image(event)" value="<?php echo $dados["reviewImagemURL"] ?>">
-            <div style="height: 50px">
-            <img id="output_image"/></div>
+            <div><img id="output_image" src="../<?php echo $dados["reviewImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width: 300px; height: 400px"/></div>
+            <input type="file" name="reviewImagemURL" accept="image/*" onclick="preview_image(event)">
         </div>
         <br>
 
@@ -124,8 +126,6 @@ $dados=mysqli_fetch_array($result);
         <br>
 
         <input type="date" name="reviewData">
-
-
         <input type="Submit" class="btn btn-danger" value="Edita"><br>
 
 

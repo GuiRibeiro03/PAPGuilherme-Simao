@@ -26,13 +26,19 @@ $result=mysqli_query($con, $sql);
         <tr >
             <?php
             while ($dados=mysqli_fetch_array($result)) {
-                echo "<tr>";
-                echo "<td>" . $dados['reviewId'] . "</td>";
-                echo "<td> <img  style='width: 600px; height: 350px' src=".$dados['reviewImagemURL']."></td>";
-                echo "<td>" . $dados['jogoNome'] . "</td>";
-                echo "<td><a href=\"../Edita/EditaReview.php?id=".$dados['reviewId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
-                echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['reviewId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
-                echo "</tr>";
+                ?>
+
+            <tr>
+                <td><?php echo $dados['reviewId'] ?></td>
+                <td> <img  style='width: 600px; height: 350px' src="<?php echo $dados['reviewImagemURL']?>"></td>
+                <td><?php echo $dados['jogoNome'] ?></td>
+                <td><a href="../Edita/EditaReview.php?id=<?php echo $dados['reviewId']?>"><button type='button' class='btn btn-primary'>Editar</button></a></td>
+                <td><a href="#" onclick="confirmaElimina(<?php echo $dados['reviewId']?>);"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>
+                </tr>
+
+
+
+            <?php
             }
             ?>
 
