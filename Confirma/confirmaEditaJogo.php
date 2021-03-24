@@ -9,7 +9,7 @@ $empresaId=intval($_POST["jogoEmpresaId"]);
 $jogoTrailer=addslashes($_POST["jogoTrailer"]);
 $img=$_FILES['jogoImagemURL']["name"];
 $produtoDestaque=addslashes($_POST["jogoDestaque"]);
-$novoNome="../img/jogos/".$img;
+$novoNome="img/jogos/".$img;
 
 
 
