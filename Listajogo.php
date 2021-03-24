@@ -15,16 +15,18 @@ $dados=mysqli_fetch_array($result);
         <br>
 
         <div class="container-md">
-            <div class="card" style="width: 18rem; background-color: #000000">
+            <div class="card" style="width: 19rem; background-color: #000000">
                 <img src="img/<?php echo $dados["jogoImagemURL"] ?>" style="background-color: #000000; padding: 15px; padding-top: 40px; width: 300px; height: 400px" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h3 class="card-title"><strong><span ><?php echo $dados["jogoPreco"] ?>€</span></strong></div> <span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" value="1" max="5" style="width: 50px"></h5>
-                <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
+                <div class="card-body" >
+                    <h3 class="card-title"><strong><span ><?php echo $dados["jogoPreco"] ?>€</span></strong> </h3>
+                        <p><span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" value="1" max="5" style="width: 50px"></p>
+                <button class="btn btn-danger  cart-button" style="color: #dc3545">
+                    <strong>
                         <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
                         <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
                     </strong>
-
                 </button>
+                </div>
                 </div>
             </div>
 
@@ -95,8 +97,9 @@ $dados=mysqli_fetch_array($result);
 
 
 
-        <div style="height: 100%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; width: 100%">
+        <div style="height: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; width: 100%">
             <h2>Acerca do jogo:</h2>
+
             <hr>
             <div>
 

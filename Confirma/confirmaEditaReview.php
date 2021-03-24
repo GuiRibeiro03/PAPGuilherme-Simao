@@ -10,14 +10,15 @@ $img=$_FILES['reviewImagemFundoURL']["name"];
 $img2=$_FILES['reviewImagemURL']["name"];
 $novoNome="../img/wallpapers/".$img;
 $novoNome2="../img/wallpapers/".$img2;
-copy($_FILES['reviewImagemFundoURL']['tmp_name'],$novoNome);
-copy($_FILES['reviewImagemURL']['tmp_name'],$novoNome2);
+
 
 
 $sql="UPDATE reviews SET reviewAutor='".$reviewAutor."', reviewTexto='".$reviewText."',reviewJogoId='".$reviewJogoId."', reviewData='".$reviewData."'";
 
 if($img!=''){
     $sql.=", reviewImagemFundoURL='".$novoNome."', reviewImagemURL='".$novoNome2."'";
+    copy($_FILES['reviewImagemFundoURL']['name'],$novoNome);
+    copy($_FILES['reviewImagemURL']['name'],$novoNome2);
 }
 
 $sql.="where reviewId=".$id;
