@@ -15,8 +15,33 @@ $dados=mysqli_fetch_array($result);
         <br>
 
         <div class="container-md">
-        <img src="img/<?php echo $dados["jogoImagemURL"] ?>" style="background-color: #FFFFFF; padding: 15px; padding-top: 40px; width: 300px; height: 400px">
-        <div style="float: right;  width: 400px; height: 200px">
+            <div class="card" style="width: 18rem; background-color: #000000">
+                <img src="img/<?php echo $dados["jogoImagemURL"] ?>" style="background-color: #000000; padding: 15px; padding-top: 40px; width: 300px; height: 400px" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title"><strong><span ><?php echo $dados["jogoPreco"] ?>€</span></strong></div> <span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" value="1" max="5" style="width: 50px"></h5>
+                <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
+                        <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
+                        <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                    </strong>
+
+                </button>
+                </div>
+            </div>
+
+        <script>
+                const cartButtons=document.querySelectorAll('.cart-button');
+                cartButtons.forEach(button => {
+                    button.addEventListener('click',cartClicker);
+                });
+
+                function cartClicker() {
+                    var cart=0;
+                    let button = this;
+                    button.classList.add('clicked');
+                    document.getElementById("bdg1").innerHTML = cart + 1;
+                }
+            </script>
+
 
             <section class="details-post-section spad">
 
@@ -65,28 +90,6 @@ $dados=mysqli_fetch_array($result);
 
     </div>
 
-        <div style="color: #FFFFFF; font-size: 50px;"><strong><span ><?php echo $dados["jogoPreco"] ?>€</span></strong></div> <span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" value="1" max="5" style="width: 50px">
-        <p></p>
-        <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
-            <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
-            <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-        </strong>
-
-        </button>
-
-        <script>
-            const cartButtons=document.querySelectorAll('.cart-button');
-            cartButtons.forEach(button => {
-                button.addEventListener('click',cartClicker);
-            });
-
-            function cartClicker() {
-                var cart=0;
-                let button = this;
-                button.classList.add('clicked');
-                document.getElementById("bdg1").innerHTML = cart + 1;
-            }
-        </script>
 
 
 
@@ -96,9 +99,11 @@ $dados=mysqli_fetch_array($result);
             <h2>Acerca do jogo:</h2>
             <hr>
             <div>
-                <iframe src="<?php echo $dados["jogoTrailer"] ?>" width="100%" height="600" style="border:1px solid black;">
+
+                <iframe src="<?php echo $dados["jogoTrailer"] ?>"  style="border:1px solid black; width: 100%; height: 100%">
                 </iframe>
-            </div>
+
+                            </div>
             <div>
                 <h3>Resumo:</h3>
                 <?php echo $dados["jogoSinopse"] ?>
