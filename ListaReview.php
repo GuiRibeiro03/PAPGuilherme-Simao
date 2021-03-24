@@ -9,10 +9,9 @@ $dados=mysqli_fetch_array($result);
 ?>
 
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="img/<?php echo $dados['reviewImagemURL']?>">
+    <section class="details-hero-section set-bg" data-setbg="<?php echo $dados['reviewImagemURL']?>">
         <div class="container">
             <div class="row">
-
                     <div class="details-hero-text">
                         <div class="label"><span>Análise</span></div>
                         <h1 style="text-shadow: 2px 2px 0px #FF0000;"><?php echo $dados['jogoNome']?></h1>

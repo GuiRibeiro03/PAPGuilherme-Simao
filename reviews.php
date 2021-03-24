@@ -4,13 +4,13 @@ top();
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql="select * from reviews  inner join jogos on jogoId = reviewJogoId";
 $result=mysqli_query($con,$sql);
-
 ?>
+
+
 
 <section class="latest-preview-section" style="height: 100%; width: 100%">
     <div class="container" style="padding-top: 30px; position: center">
         <a href="Backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
-
         <div class="row">
 
             <?php
@@ -18,7 +18,7 @@ $result=mysqli_query($con,$sql);
             while ($dados=mysqli_fetch_array($result)){
             ?>
             <div class="lp-item">
-                <a href="ListaReview.php?id=<?php echo $dados['reviewId']?>"><div class="lp-pic set-bg"  data-setbg="   <?php echo $dados["reviewImagemURL"] ?>">
+                <a href="ListaReview.php?id=<?php echo $dados['reviewId']?>"><div class="lp-pic set-bg"  data-setbg="<?php echo $dados["reviewImagemURL"] ?>">
                         <div class="review-loader">
                             <div class="loader-circle-wrap">
                                 <div class="loader-circle">
