@@ -259,7 +259,6 @@ function bottom(){
         <form class="modal-content animate" action="/action_page.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="Game.png" alt="Avatar" class="avatar">
             </div>
 
             <div class="container">
@@ -312,7 +311,7 @@ function bottom(){
         <form class="modal-content animate" action="/action_page.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="Game.png" alt="Avatar" class="avatar">
+
             </div>
 
             <div class="container">

@@ -159,8 +159,9 @@ function top(){
         <div class="logo">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="../index.php"><img src="../img/Game.png" alt="LOGO" ></a>
+                    <a href="../index.php"><img src="../gameOn.png" alt="LOGO" ></a>
                 </div>
+
 
             </div>
         </div>
@@ -263,7 +264,6 @@ function bottom(){
         <form class="modal-content animate" action="/action_page.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="../img/Game.png" alt="Avatar" class="avatar">
             </div>
 
             <div class="container">
@@ -316,7 +316,7 @@ function bottom(){
         <form class="modal-content animate" action="/action_page.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="../img/Game.png" alt="Avatar" class="avatar">
+
             </div>
 
             <div class="container">

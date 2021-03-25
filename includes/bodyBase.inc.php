@@ -259,7 +259,7 @@ function bottom(){
         <form class="modal-content animate" action="/action_page.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="img/Game.png" alt="Avatar" class="avatar">
+
             </div>
 
             <div class="container">

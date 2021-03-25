@@ -3,7 +3,7 @@ include_once("../includes/body.inc.php");
 top();
 $con =mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET["id"]);
-$sql="select * from reviews inner join jogos on reviewJogoId=jogoId where reviewid=".$id;
+$sql="select * from reviews inner join jogos on jogoId=reviewJogoId where reviewId=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 ?>
@@ -113,10 +113,18 @@ $dados=mysqli_fetch_array($result);
             <option value="-1">Escolha o jogo...</option>
             <?php
             $sql="select * from jogos order by jogoNome";
-            $result=mysqli_query($con,$sql);
-            while ($dados=mysqli_fetch_array($result)){
+            $result2=mysqli_query($con,$sql);
+            while ($dadosJogos=mysqli_fetch_array($result2)){
                 ?>
-                <option value="<?php echo $dados['jogoId']?>"><?php echo $dados['jogoNome']?></option>
+                <option value="<?php echo $dadosJogos['jogoId']?>"
+                    <?php
+                    if($dados["reviewJogoId"]==$dadosJogos["jogoId"])
+                        echo "Selected" ;
+
+                    ?>
+                >
+                    <?php echo $dadosJogos["jogoNome"] ?>
+                </option>
                 <?php
             }
 
@@ -125,7 +133,13 @@ $dados=mysqli_fetch_array($result);
         </select>
         <br>
 
-        <input type="date" name="reviewData">
+        <div style="margin-top: 40px; margin-bottom: 40px">
+            <h4>Data:</h4>
+            <input type="date" name="reviewData" value="<?php echo $dados["reviewData"]?>">
+
+        </div>
+
+
         <input type="Submit" class="btn btn-danger" value="Edita"><br>
 
 
