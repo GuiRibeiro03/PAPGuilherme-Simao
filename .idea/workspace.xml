@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kingdomHearts3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/godofwar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/wallpapers/godofwar.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/kingdomhearts3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/wallpapers/kingdomhearts3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/uncharted4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/wallpapers/uncharted4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +39,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PAPOrlando" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papLuisF" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,28 +148,10 @@
       <workItem from="1616495514738" duration="8413000" />
       <workItem from="1616509553622" duration="703000" />
       <workItem from="1616511327381" duration="1805000" />
-      <workItem from="1616539902071" duration="3815000" />
-    </task>
-    <task id="LOCAL-00125" summary="Guilherme-LogIn">
-      <created>1615142211478</created>
-      <option name="number" value="00125" />
-      <option name="presentableId" value="LOCAL-00125" />
-      <option name="project" value="LOCAL" />
-      <updated>1615142211478</updated>
-    </task>
-    <task id="LOCAL-00126" summary="Guilherme-Edita">
-      <created>1615373077496</created>
-      <option name="number" value="00126" />
-      <option name="presentableId" value="LOCAL-00126" />
-      <option name="project" value="LOCAL" />
-      <updated>1615373077496</updated>
-    </task>
-    <task id="LOCAL-00127" summary="Guilherme-Edita">
-      <created>1615373088729</created>
-      <option name="number" value="00127" />
-      <option name="presentableId" value="LOCAL-00127" />
-      <option name="project" value="LOCAL" />
-      <updated>1615373088729</updated>
+      <workItem from="1616539902071" duration="4521000" />
+      <workItem from="1616578908610" duration="4192000" />
+      <workItem from="1616617435176" duration="895000" />
+      <workItem from="1616681198030" duration="3853000" />
     </task>
     <task id="LOCAL-00128" summary="Guilherme-Hotfix id">
       <created>1615373719797</created>
@@ -505,7 +475,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616543055423</updated>
     </task>
-    <option name="localTasksCounter" value="174" />
+    <task id="LOCAL-00174" summary="Guilherme-ListaJogo empresa">
+      <created>1616544094727</created>
+      <option name="number" value="00174" />
+      <option name="presentableId" value="LOCAL-00174" />
+      <option name="project" value="LOCAL" />
+      <updated>1616544094727</updated>
+    </task>
+    <task id="LOCAL-00175" summary="Guilherme-Correção de Erros e endereços">
+      <created>1616582179382</created>
+      <option name="number" value="00175" />
+      <option name="presentableId" value="LOCAL-00175" />
+      <option name="project" value="LOCAL" />
+      <updated>1616582179382</updated>
+    </task>
+    <task id="LOCAL-00176" summary="Guilherme-Jogos dimensões/Imagens editajogo">
+      <created>1616684986183</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1616684986183</updated>
+    </task>
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,9 +515,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="IGDB API" />
-    <MESSAGE value="Guilherme-API" />
-    <MESSAGE value="Guilherme-indexAPI" />
     <MESSAGE value="Guilherme-Resumo Jogos" />
     <MESSAGE value="Guilherme-Jogos" />
     <MESSAGE value="pastas" />
@@ -549,6 +537,9 @@
     <MESSAGE value="GUilherme-Adiciona Noticia" />
     <MESSAGE value="Guilherme-Correções COPY imagens" />
     <MESSAGE value="Guilherme-Copy imagens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Copy imagens" />
+    <MESSAGE value="Guilherme-ListaJogo empresa" />
+    <MESSAGE value="Guilherme-Correção de Erros e endereços" />
+    <MESSAGE value="Guilherme-Jogos dimensões/Imagens editajogo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Jogos dimensões/Imagens editajogo" />
   </component>
 </project>

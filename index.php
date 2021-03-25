@@ -4,7 +4,7 @@ top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql2="select * from noticias";
-$sql_2="select * from jogos inner join review on jogoId=reviewJogoId where jogoGlobalRating=100";
+$sql_2="select * from jogos inner join reviews on jogoId=reviewJogoId where jogoGlobalRating=100";
 $sqlJogos="select * from jogos where jogoGlobalRating > 70";
 $sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
@@ -211,7 +211,7 @@ $i = $i + 1;
                     ?>
                         <div class="ec-item">
                             <div class="lp-item">
-                                <a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"> <div class="lp-pic set-bg" data-setbg="img/<?php echo $dadosNoticias2["reviewImagemURL"] ?>">
+                                <a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"> <div class="lp-pic set-bg" data-setbg="<?php echo $dadosNoticias2["reviewImagemURL"] ?>">
                                 </div></a>
                                 <div class="lp-text">
                                     <h6><a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"><?php echo $dadosNoticias2['jogoNome']?></a></h6>
