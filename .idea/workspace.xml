@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
+      <change afterPath="$PROJECT_DIR$/Adiciona/AdicionaProduto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Confirma/confirmaAdicionaProduto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Elimina/eliminaProduto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBlog.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBlog.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaAcessorio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaAnuncio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaConsola.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/Backoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/acessoriosBackoffice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/consolasBackoffice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/outletBackoffice.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/acessorios/dualsense5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/acessorios/dualshock4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/acessorios/headsetsPlatinum.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/acessorios/headsetsPlatinum.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/acessorios/turtlebeach400.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,14 +169,7 @@
       <workItem from="1616539902071" duration="4521000" />
       <workItem from="1616578908610" duration="4192000" />
       <workItem from="1616617435176" duration="895000" />
-      <workItem from="1616681198030" duration="5114000" />
-    </task>
-    <task id="LOCAL-00129" summary="Guilherme-Hotfix id">
-      <created>1615373934102</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1615373934102</updated>
+      <workItem from="1616681198030" duration="9699000" />
     </task>
     <task id="LOCAL-00130" summary="Guilherme-confirmaEditaReview">
       <created>1615376485194</created>
@@ -501,7 +507,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616685348625</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <task id="LOCAL-00178" summary="Guilherme-Base de dados/imagem Modal">
+      <created>1616686692368</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1616686692368</updated>
+    </task>
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +533,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Jogos" />
     <MESSAGE value="pastas" />
     <MESSAGE value="includes base" />
     <MESSAGE value="g" />
@@ -545,6 +557,7 @@
     <MESSAGE value="Guilherme-Correção de Erros e endereços" />
     <MESSAGE value="Guilherme-Jogos dimensões/Imagens editajogo" />
     <MESSAGE value="Guilherme-Index jogo Escolhas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Index jogo Escolhas" />
+    <MESSAGE value="Guilherme-Base de dados/imagem Modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Base de dados/imagem Modal" />
   </component>
 </project>

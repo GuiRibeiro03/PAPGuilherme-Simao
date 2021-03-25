@@ -1,8 +1,7 @@
 <?php
-include_once("../includes/body.inc.php");
+include_once ("../includes/body.inc.php");
 top();
 
-$con=mysqli_connect("localhost","root","","pap2021gameon");
 ?>
 
 <link href="summernote.css" rel="stylesheet">
@@ -73,79 +72,45 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
 </script>
 
-
-<div style="height: 60px; width: 100%; background-color: red;"><span style="padding-left: 40%; font-size: 30px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">Adicionar Review</span></div>
-
-
-
-<section class="store" style="margin-top: 100px; margin-left: 50px">
-
-    <a href="../backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
-
-
-
-
-
-
-    <form action="../Confirma/confirmaNovaReview.php" method="post" enctype="multipart/form-data" style="color: #FFFFFF; font-size: 18px; width: 100%">
-
-
+<form action="../Confirma/confirmaAdicionaProduto.php" method="post"  enctype="multipart/form-data" style="color: #FFFFFF; margin: 20px">
+    <div class="mb-3">
+        <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Nome:</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" name="produtoNome">
+    </div>
+    <div class="mb-3">
+        <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Descrição:</label>
+        <textarea name="produtoDescricao" id="myTextarea"></textarea>
+    </div>
+    <div class="mb-3">
+        <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Preço:</label>
+        <input type="text" class="form-control" name="produtoPreco" >
+    </div>
+    <div class="mb-3">
         <div id="wrapper" style="color: #FFFFFF">
-            <input type="file" accept="image/*" name="reviewImagemURL" onchange="preview_image(event)">
+            <input type="file" accept="image/*" name="produtoImagemURL" onchange="preview_image(event)">
             <div style="height: 20px"></div>
             <img id="output_image"/>
         </div>
-        <br>
+    </div>
 
+    <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Tipo:</label>
+    <div style="color: #FFFFFF; margin-top: 50px">
+        <label>Produto em destaque:</label>
+        <p><input type="radio" name="produtoTipo" value="consola" checked>&nbsp;Consola</p>
+        <p><input type="radio" name="produtoTipo" value="acessório" >&nbsp;Acessório</p>
+        <p><input type="radio" name="produtoTipo" value="outlet" >&nbsp;Outlet</p>
+    </div>
 
-        <div class="mb-3">
-            <label  class="badge badge-dark">Autor:</label>
-            <input name="reviewAutor" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Autor" style="width: 40%">
-        </div>
-        <div class="mb-3" style="width: 70%;">
-            <h4> <label  class="badge badge-dark">Desenvolvimento:</label></h4>
-            <textarea name="reviewTexto" id="myTextarea" ></textarea>
-        </div>
+    <br>
 
-
-
-        </div>
-
-
-        <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Jogo:</label>
-        <select name="reviewJogoId">
-            <option value="-1">Escolha o jogo...</option>
-            <?php
-            $sql="select * from jogos order by jogoNome";
-            $result=mysqli_query($con,$sql);
-            while ($dados=mysqli_fetch_array($result)){
-                ?>
-                <option value="<?php echo $dados['jogoId']?>"><?php echo $dados['jogoNome']?></option>
-                <?php
-            }
-            ?>
-        </select>
-
-        <br>
-
-
-        <div class="form-check" style="margin-bottom: 5%; margin-top: 3%">
-            <label class="badge badge-dark">Data:</label>
-            <input type="date" name="reviewData">
-            <br>
-        </div>
+    <button type="submit" class="btn btn-primary">Adiciona</button>
+</form>
 
 
 
-        <input type="Submit" value="Adicionar" style="width: 100px; height: 50px">
 
 
-    </form>
-</section>
 
 <?php
 bottom();
 ?>
-
-
-

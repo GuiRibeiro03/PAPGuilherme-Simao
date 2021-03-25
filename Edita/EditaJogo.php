@@ -50,7 +50,7 @@ $dados=mysqli_fetch_array($resultjogos);
 
 
 
-      <select name="jogoEmpresaId" >
+      <select class="form-select"  aria-label="Default select example" name="jogoEmpresaId" >
           <option value="-1">Escolha a empresa...</option>
           <?php
           $sql="select * from empresas order by empresaNome";
@@ -73,11 +73,11 @@ $dados=mysqli_fetch_array($resultjogos);
           ?>
       </select>
 
-      <label style="color:white; font-size: 15px" class="badge badge-dark">Produto em destaque:</label>
+
 
 
       <div style="color: #FFFFFF; margin-top: 50px">
-          <label>Produto em destaque:</label>
+          <label style="color:white; font-size: 15px" class="badge badge-dark">Produto em destaque:</label>
           <p><input type="radio" name="jogoDestaque" value="sim" <?php if ($dados['jogoDestaque'] == 'sim') { echo "checked";} ?> >&nbsp;Sim</p>
           <p><input type="radio" name="jogoDestaque" value="nao" <?php if ($dados['jogoDestaque'] == 'nao') { echo "checked";} ?>>&nbsp;Não</p>
       </div>
