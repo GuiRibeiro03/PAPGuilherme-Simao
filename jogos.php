@@ -20,7 +20,7 @@ while ($dados=mysqli_fetch_array($result)){
 
             <div class="col-lg-4 col-md-3">
 
-                <div class="card" style="width: 250px; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
+                <div class="card" style="width: 19rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
 
                     <a href="Listajogo.php?id=<?php echo $dados["jogoId"]?>"><img src="img/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..."></a>
 

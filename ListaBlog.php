@@ -35,7 +35,7 @@ $dados2=mysqli_fetch_array($result2);
     <!-- Details Hero Section End -->
 
     <!-- Details Post Section Begin -->
-    <section class="details-post-section spad">
+    <section class="details-post-section spad" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 p-0">
@@ -146,14 +146,11 @@ $dados2=mysqli_fetch_array($result2);
                                 </div>
                             </div>
                         </div>
+                        <hr>
                         <div class="dt-leave-comment">
-                            <h4>Deixe um comentário</h4>
+                            <h4>Deixa um comentário</h4>
                             <form action="#">
-                                <div class="input-list">
-                                    <input type="text" placeholder="Nome">
-                                    <input type="text" placeholder="Email">
-                                </div>
-                                <textarea placeholder="Mensagem"></textarea>
+                                <textarea placeholder="Mensagem...  "></textarea>
                                 <button type="submit">Submeter</button>
                             </form>
                         </div>
@@ -194,6 +191,11 @@ $dados2=mysqli_fetch_array($result2);
                                     <ul>
                                         <li><i class="fa fa-envelope"></i>simaobercial80@gmail.com <br>
                                             <i class="fa fa-phone"></i>914064958</li>
+                                    </ul>
+                                    <br>
+                                    <ul>
+                                        <li><i class="fa fa-envelope"></i>guilhas.ribeiro23@yahoo.com <br>
+                                            <i class="fa fa-phone"></i>227tiratirametemete</li>
                                     </ul>
                                 </div>
                             </div>

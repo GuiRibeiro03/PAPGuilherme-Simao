@@ -108,7 +108,7 @@ function top(){
     <!-- Humberger Menu End -->
 
     <!-- Header Section Begin -->
-    <header class="header-section">
+    <header class="header-section" >
         <div class="ht-options">
             <div class="container">
                 <div class="row">
@@ -159,7 +159,7 @@ function top(){
         <div class="logo">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <a href="../index.php"><img src="../gameOn.png" alt="LOGO" ></a>
+                    <a href="../index.php"><img src="../img/Game.png" alt="LOGO" ></a>
                 </div>
 
             </div>
@@ -195,10 +195,6 @@ function top(){
 
                         <li><a href="../blog.php"><span><strong>Blog</strong> </span></a></li>
                         <li><a href="../backoffice/Backoffice.php"><span><strong>Backoffice</strong></span></a></li>
-                        <li><form action="#" class="search-404">
-                                <input type="text" placeholder="Enter your keyword">
-                                <button type="submit"><i class="fa fa-search"></i></button>
-                            </form></li>
 
                     </ul>
                 </div>
@@ -292,7 +288,7 @@ function bottom(){
 
             <div class="container" style="background-color:#f1f1f1">
                 <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancelar</button>
-                <span class="password">Forgot <a href="#" style="color: #00aff1">password?</a></span>
+                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">password?</a></span>
             </div>
         </form>
     </div>
@@ -344,7 +340,7 @@ function bottom(){
 
             <div class="container" style="background-color:#f1f1f1">
                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-                <span class="password">Forgot <a href="#" style="color: #00aff1">password?</a></span>
+                <span class="password">Esqueces-te da<a href="#" style="color: #00aff1">password?</a></span>
             </div>
         </form>
     </div>

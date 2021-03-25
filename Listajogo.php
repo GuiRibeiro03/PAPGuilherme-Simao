@@ -16,7 +16,7 @@ $dados=mysqli_fetch_array($result);
 
         <div class="container-md">
             <div class="card" style="width: 19rem; background-color: #000000">
-                <img src="img/<?php echo $dados["jogoImagemURL"] ?>" style="background-color: #000000; padding: 15px; padding-top: 40px; width: 300px; height: 400px" class="card-img-top" alt="...">
+                <img src="img/<?php echo $dados["jogoImagemURL"] ?>" style="background-color: #000000; padding: 15px; padding-top: 40px; width: 300px; height: 500px" class="card-img-top" alt="...">
                 <div class="card-body" >
                     <h3 class="card-title"><strong><span ><?php echo $dados["jogoPreco"] ?>€</span></strong> </h3>
                         <p><span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" value="1" max="5" style="width: 50px"></p>
