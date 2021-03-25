@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaProduto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acessorios.php" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/kingdomhearts3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/wallpapers/kingdomhearts3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Confirma/confirmaEditaProduto.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,43 +151,7 @@
       <workItem from="1616539902071" duration="4521000" />
       <workItem from="1616578908610" duration="4192000" />
       <workItem from="1616617435176" duration="895000" />
-      <workItem from="1616681198030" duration="3853000" />
-      <workItem from="1616701612834" duration="5120000" />
-    </task>
-    <task id="LOCAL-00128" summary="Guilherme-Hotfix id">
-      <created>1615373719797</created>
-      <option name="number" value="00128" />
-      <option name="presentableId" value="LOCAL-00128" />
-      <option name="project" value="LOCAL" />
-      <updated>1615373719798</updated>
-    </task>
-    <task id="LOCAL-00129" summary="Guilherme-Hotfix id">
-      <created>1615373934102</created>
-      <option name="number" value="00129" />
-      <option name="presentableId" value="LOCAL-00129" />
-      <option name="project" value="LOCAL" />
-      <updated>1615373934102</updated>
-    </task>
-    <task id="LOCAL-00130" summary="Guilherme-confirmaEditaReview">
-      <created>1615376485194</created>
-      <option name="number" value="00130" />
-      <option name="presentableId" value="LOCAL-00130" />
-      <option name="project" value="LOCAL" />
-      <updated>1615376485194</updated>
-    </task>
-    <task id="LOCAL-00131" summary="fsdf">
-      <created>1615393320583</created>
-      <option name="number" value="00131" />
-      <option name="presentableId" value="LOCAL-00131" />
-      <option name="project" value="LOCAL" />
-      <updated>1615393320583</updated>
-    </task>
-    <task id="LOCAL-00132" summary="fsdf">
-      <created>1615394259313</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1615394259313</updated>
+      <workItem from="1616681198030" duration="10665000" />
     </task>
     <task id="LOCAL-00133" summary="IGDB API">
       <created>1615396357356</created>
@@ -502,7 +461,42 @@
       <option name="project" value="LOCAL" />
       <updated>1616684986183</updated>
     </task>
-    <option name="localTasksCounter" value="177" />
+    <task id="LOCAL-00177" summary="Guilherme-Index jogo Escolhas">
+      <created>1616685348625</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1616685348625</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Guilherme-Base de dados/imagem Modal">
+      <created>1616686692368</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1616686692368</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Guilherme-CRUD Adiciona/ELimina Produtos">
+      <created>1616692853422</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1616692853422</updated>
+    </task>
+    <task id="LOCAL-00180" summary="Guilherme-Pasta Produtos">
+      <created>1616692867761</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1616692867762</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Guilherme-Edita Produto">
+      <created>1616693368913</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1616693368913</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,11 +515,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Resumo Jogos" />
-    <MESSAGE value="Guilherme-Jogos" />
-    <MESSAGE value="pastas" />
-    <MESSAGE value="includes base" />
-    <MESSAGE value="g" />
     <MESSAGE value="Guilherme-Just some files" />
     <MESSAGE value="Guilherme-Noticias" />
     <MESSAGE value="review listagem" />
@@ -546,6 +535,11 @@
     <MESSAGE value="Guilherme-ListaJogo empresa" />
     <MESSAGE value="Guilherme-Correção de Erros e endereços" />
     <MESSAGE value="Guilherme-Jogos dimensões/Imagens editajogo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Jogos dimensões/Imagens editajogo" />
+    <MESSAGE value="Guilherme-Index jogo Escolhas" />
+    <MESSAGE value="Guilherme-Base de dados/imagem Modal" />
+    <MESSAGE value="Guilherme-CRUD Adiciona/ELimina Produtos" />
+    <MESSAGE value="Guilherme-Pasta Produtos" />
+    <MESSAGE value="Guilherme-Edita Produto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Edita Produto" />
   </component>
 </project>
