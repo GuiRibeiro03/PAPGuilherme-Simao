@@ -97,7 +97,7 @@ top();
     <div style="color: #FFFFFF; margin-top: 50px">
         <label>Produto em destaque:</label>
         <p><input type="radio" name="produtoTipo" value="consola" checked>&nbsp;Consola</p>
-        <p><input type="radio" name="produtoTipo" value="acessório" >&nbsp;Acessório</p>
+        <p><input type="radio" name="produtoTipo" value="acessorio" >&nbsp;Acessório</p>
         <p><input type="radio" name="produtoTipo" value="outlet" >&nbsp;Outlet</p>
     </div>
 
