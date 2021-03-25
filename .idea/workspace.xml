@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/Edita/editaProduto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Confirma/confirmaEditaProduto.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,14 +151,7 @@
       <workItem from="1616539902071" duration="4521000" />
       <workItem from="1616578908610" duration="4192000" />
       <workItem from="1616617435176" duration="895000" />
-      <workItem from="1616681198030" duration="10348000" />
-    </task>
-    <task id="LOCAL-00132" summary="fsdf">
-      <created>1615394259313</created>
-      <option name="number" value="00132" />
-      <option name="presentableId" value="LOCAL-00132" />
-      <option name="project" value="LOCAL" />
-      <updated>1615394259313</updated>
+      <workItem from="1616681198030" duration="10665000" />
     </task>
     <task id="LOCAL-00133" summary="IGDB API">
       <created>1615396357356</created>
@@ -497,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616692867762</updated>
     </task>
-    <option name="localTasksCounter" value="181" />
+    <task id="LOCAL-00181" summary="Guilherme-Edita Produto">
+      <created>1616693368913</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1616693368913</updated>
+    </task>
+    <option name="localTasksCounter" value="182" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +515,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="g" />
     <MESSAGE value="Guilherme-Just some files" />
     <MESSAGE value="Guilherme-Noticias" />
     <MESSAGE value="review listagem" />
@@ -541,6 +539,7 @@
     <MESSAGE value="Guilherme-Base de dados/imagem Modal" />
     <MESSAGE value="Guilherme-CRUD Adiciona/ELimina Produtos" />
     <MESSAGE value="Guilherme-Pasta Produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Pasta Produtos" />
+    <MESSAGE value="Guilherme-Edita Produto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Edita Produto" />
   </component>
 </project>
