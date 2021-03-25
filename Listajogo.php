@@ -10,11 +10,11 @@ $dados=mysqli_fetch_array($result);
 ?>
 
     <section class="store">
-        <div style="text-align: center"> <h1 style="text-shadow: 2px 2px 0px #000000; padding-top:20px "><strong><?php echo $dados["jogoNome"] ?></strong></h1></div>
+        <div style="text-align: center"> <h1 style="text-shadow: 5px 5px 0px #000000; padding-top:20px "><strong><?php echo $dados["jogoNome"] ?></strong></h1></div>
         <br>
         <br>
-
-        <div class="container-md">
+        <div class="row" style="width: 100%">
+            <div class="container-md">
             <div class="card" style="width: 19rem; background-color: #000000">
                 <img src="img/<?php echo $dados["jogoImagemURL"] ?>" style="background-color: #000000; padding: 15px; padding-top: 40px; width: 300px; height: 500px" class="card-img-top" alt="...">
                 <div class="card-body" >
@@ -28,9 +28,7 @@ $dados=mysqli_fetch_array($result);
                 </button>
                 </div>
                 </div>
-            </div>
-
-        <script>
+            <script>
                 const cartButtons=document.querySelectorAll('.cart-button');
                 cartButtons.forEach(button => {
                     button.addEventListener('click',cartClicker);
@@ -43,16 +41,14 @@ $dados=mysqli_fetch_array($result);
                     document.getElementById("bdg1").innerHTML = cart + 1;
                 }
             </script>
-
-
-            <section class="details-post-section spad">
-
+            </div>
+            <section class="details-post-section">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 p-0">
-                            <div class="details-text" style="width: 850px">
+                            <div class="details-text" style="width: 100%">
                                 <div class="dt-overall-rating">
-                                        <div style="color: #FFFFFF; font-size: 30px; padding-left: 10px"><strong><span >Resultados:</span></strong></div>
+                                    <div style="color: #FFFFFF; font-size: 30px; padding-left: 10px"><strong><span >Resultados:</span></strong></div>
                                     <div class="or-heading">
                                         <div class="or-item" style="margin-left: 20% ">
                                             <div class="or-loader">
@@ -76,37 +72,21 @@ $dados=mysqli_fetch_array($result);
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+            </section>
         </div>
 
-
-
-
-
-    </section>
-
-
-
-    </div>
-
-
-
-
-
-
-        <div style="height: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; width: 100%">
+        <div style="height: 80%;width: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; margin-left: 15%">
             <h2>Acerca do jogo:</h2>
-
             <hr>
             <div>
-
-                <iframe src="<?php echo $dados["jogoTrailer"] ?>"  style="border:1px solid black; width: 100%; height: 100%">
-                </iframe>
-
-                            </div>
+                <div style=" margin-left:5%; width: 1280px; height: 720px" >
+                    <?php echo $dados["jogoTrailer"] ?>
+                </div>
+            </div>
             <div>
                 <h3>Resumo:</h3>
                 <?php echo $dados["jogoSinopse"] ?>
@@ -117,9 +97,6 @@ $dados=mysqli_fetch_array($result);
                 <h4>Plataforma: </h4><span>PS5</span>
             </div>
         </div>
-
-
-    </div>
 
 
     </section>

@@ -19,8 +19,8 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
     <label style="color:white; font-size: 15px" class="badge badge-dark">Sinopse: </label>
     <textarea type="text" cols="100" rows="10" name="jogoSinopse"></textarea><hr>
 
-    <label style="color:white; font-size: 15px" class="badge badge-dark">Link do Trailer (Opcional): </label>
-    <input type="url" style="height: 99%;" name="jogoTrailer"><hr>
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Link do Trailer (Codigo Embebido): </label>
+    <input type="text" style="height: 99%;" name="jogoTrailer"><hr>
 
 
     <label style="color:white; font-size: 15px" class="badge badge-dark">Imagem:</label>
