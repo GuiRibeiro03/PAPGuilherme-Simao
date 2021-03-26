@@ -41,7 +41,7 @@ while ($dados=mysqli_fetch_array($result)) {
     echo "<tr>";
     echo "<td>" . $dados['plataformaId'] . "</td>";
     echo "<td>" . $dados['plataformaNome'] . "</td>";
-    echo "<td><a href=\"EditaTagPlataforma.php?id=".$dados['plataformaId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
+    echo "<td><a href=\"../Edita/EditaTagPlataforma.php?id=".$dados['plataformaId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
     echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['plataformaId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
      echo "</tr>";
 }
@@ -56,6 +56,6 @@ bottom();
 <script>
     function confirmaElimina(id) {
         if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-            window.location="eliminaPlataforma.php?id=" + id;
+            window.location="../Elimina/eliminaPlataforma.php?id=" + id;
     }
 </script>

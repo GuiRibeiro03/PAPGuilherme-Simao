@@ -57,6 +57,6 @@ bottom();
 <script>
     function confirmaElimina(id) {
         if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-            window.location="../ELimina/EliminaGenero.php?id=" + id;
+            window.location="../Elimina/EliminaGenero.php?id=" + id;
     }
 </script>
