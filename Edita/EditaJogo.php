@@ -39,7 +39,7 @@ $dados=mysqli_fetch_array($resultjogos);
 
       <hr>
       <label style="color:white; font-size: 15px" class="badge badge-dark">Sinopse:</label>
-      <input type="text" name="jogoSinopse" value="<?php echo $dados["jogoSinopse"]?>">
+      <input type="text" name="jogoSinopse" value="<?php echo $dados["jogoSinopse"]?>" content="<?php echo $dados["jogoSinopse"]?>">
       <hr>
 
       <label style="color:white; font-size: 15px" class="badge badge-dark">Trailer:</label>
@@ -50,7 +50,7 @@ $dados=mysqli_fetch_array($resultjogos);
 
 
 
-      <select class="form-select"  aria-label="Default select example" name="jogoEmpresaId" >
+      <select class="form-select"  aria-label="Default select example" name="jogoEmpresaId">
           <option value="-1">Escolha a empresa...</option>
           <?php
           $sql="select * from empresas order by empresaNome";
