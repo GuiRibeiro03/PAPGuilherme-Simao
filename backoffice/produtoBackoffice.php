@@ -49,8 +49,8 @@ $result=mysqli_query($con, $sql);
             echo "<td> <img  style='width: 300px; height: 350px' src=\"".$dados['produtoImagemURL']."\"></td>";
             echo "<td>" . $dados['produtoTipo'] . "</td>";
             echo "<td>" . $dados['produtoPreco'] . "€</td>";
-            echo "<td><a href=\"../Edita/EditaProduto.php?id=".$dados['produtoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
-            echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['produtoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
+            echo "<td><a href=\"../Edita/EditaProduto.php?id=".$dados['produtoId']."\"><button type='button' class='btn btn-primary'><i class='fa fa-edit'></i>&nbsp;Editar</button></a></td>";
+            echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['produtoId'].");\"><button type='button' class='btn btn-danger'><i class='fa fa-trash'></i>&nbsp;Eliminar</button></a></td>";
             echo "</tr>";
         }
         ?>

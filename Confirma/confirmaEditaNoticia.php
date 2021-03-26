@@ -7,8 +7,8 @@ $noticiaDesenvolvimento = addslashes($_POST["noticiaDesenvolvimento"]);
 $noticiaData = addslashes($_POST["noticiaData"]);
 $noticiaImagemFundoURL = $_FILES["noticiaImagemFundoURL"]["name"];
 $noticiaImagemURL = $_FILES["noticiaImagemURL"]["name"];
-$novoNome="img/wallpapers/".$noticiaImagemFundoURL;
-$novoNome2="img/wallpapers".$noticiaImagemURL;
+$novoNome="../img/wallpapers/".$noticiaImagemFundoURL;
+$novoNome2="../img/wallpapers/".$noticiaImagemURL;
 
 $sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."' ";
 

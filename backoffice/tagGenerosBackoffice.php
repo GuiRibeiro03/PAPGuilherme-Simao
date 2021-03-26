@@ -41,8 +41,8 @@ $result=mysqli_query($con, $sql);
         echo "<tr>";
         echo "<td>" . $dados['generoId'] . "</td>";
         echo "<td>" . $dados['generoNome'] . "</td>";
-        echo "<td><a href=\"../Edita/EditaTagGenero.php?id=".$dados['generoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
-        echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['generoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
+        echo "<td><a href=\"../Edita/EditaTagGenero.php?id=".$dados['generoId']."\"><button type='button' class='btn btn-primary'><i class='fa fa-edit'></i>Editar</button></a></td>";
+        echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['generoId'].");\"><button type='button' class='btn btn-danger'><i class='fa fa-trash'></i>&nbsp;Eliminar</button></a></td>";
         echo "</tr>";
     }
     ?>

@@ -15,7 +15,7 @@ $result2=mysqli_query($con,$sql2);
 $dados2=mysqli_fetch_array($result2);
 ?>
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="img/wallpapers/<?php echo $dados["noticiaImagemFundoURL"]?>">
+    <section class="details-hero-section set-bg" data-setbg="img/<?php echo $dados["noticiaImagemFundoURL"]?>">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -175,7 +175,7 @@ $dados2=mysqli_fetch_array($result2);
                                     </h6>
                                     <ul>
                                         <li><i class="fa fa-clock-o"></i><?php echo $dados["noticiaData"]?></li>
-                                        <li><i class="fa fa-comment-o"></i> 12</li>
+
                                     </ul>
                                 </div>
                             </div>

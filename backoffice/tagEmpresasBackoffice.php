@@ -41,8 +41,8 @@ while ($dados=mysqli_fetch_array($result)) {
     echo "<tr>";
     echo "<td>" . $dados['empresaId'] . "</td>";
     echo "<td>" . $dados['empresaNome'] . "</td>";
-    echo "<td><a href=\"../Edita/EditaTagEmpresa.php?id=".$dados['empresaId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
-    echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['empresaId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
+    echo "<td><a href=\"../Edita/EditaTagEmpresa.php?id=".$dados['empresaId']."\"><button type='button' class='btn btn-primary'><i class='fa fa-edit'></i>&nbsp;Editar</button></a></td>";
+    echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['empresaId'].");\"><button type='button' class='btn btn-danger'><i class='fa fa-trash'></i>&nbsp;Eliminar</button></a></td>";
      echo "</tr>";
 }
             ?>

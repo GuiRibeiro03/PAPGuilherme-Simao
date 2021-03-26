@@ -18,7 +18,9 @@ $result=mysqli_query($con, $sql);
             <a href="tagEmpresasBackoffice.php"><button type="button" class="btn btn-light">Empresas</button></a>
             <a href="tagPlataformaBackoffice.php"><button type="button" class="btn btn-light">Plataformas</button></a>
         </div>
-
+<div style="width: 100%"><input type="text" placeholder="procurar..." style="width: 45%;">
+<button style="color: #000000; width: 3%; height: 50px; background-color: #FFFFFF"><i class='fa fa-search' style="color: #000000; width: 20%; background-color: #FFFFFF"></i></button>
+</div>
     </div>
 </section>
         <table class="table-striped" style=" color: #FFFFFF; font-weight: bold; font-size: 20px; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px">
@@ -48,8 +50,8 @@ $result=mysqli_query($con, $sql);
                 echo "<td>" . $dados['empresaNome'] . "</td>";
                 echo "<td>" . $dados['jogoPreco'] . "€</td>";
                 echo "<td>" . $dados['jogoDestaque'] . "</td>";
-                echo "<td><a href=\"../Edita/EditaJogo.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
-                echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['jogoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
+                echo "<td><a href=\"../Edita/EditaJogo.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-primary'><i class='fa fa-edit'></i>&nbsp;Editar</button></a></td>";
+                echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['jogoId'].");\"><button type='button' class='btn btn-danger'><i class='fa fa-trash'>&nbsp;Eliminar</button></a></td>";
                 echo "</tr>";
             }
             ?>
