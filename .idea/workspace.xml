@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/godofwar2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/wallpapers/godofwar2.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,13 +155,9 @@
       <workItem from="1616617435176" duration="895000" />
       <workItem from="1616681198030" duration="10665000" />
       <workItem from="1616715141934" duration="466000" />
-    </task>
-    <task id="LOCAL-00133" summary="IGDB API">
-      <created>1615396357356</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1615396357356</updated>
+      <workItem from="1616751192337" duration="271000" />
+      <workItem from="1616751603354" duration="49000" />
+      <workItem from="1616752374876" duration="381000" />
     </task>
     <task id="LOCAL-00134" summary="IGDB API">
       <created>1615398736546</created>
@@ -497,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616693368913</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="confirmaeditajogo">
+      <created>1616751372334</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1616751372335</updated>
+    </task>
+    <option name="localTasksCounter" value="183" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +521,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Just some files" />
     <MESSAGE value="Guilherme-Noticias" />
     <MESSAGE value="review listagem" />
     <MESSAGE value="Base de dados update noticiaEscolha" />
@@ -541,6 +545,7 @@
     <MESSAGE value="Guilherme-CRUD Adiciona/ELimina Produtos" />
     <MESSAGE value="Guilherme-Pasta Produtos" />
     <MESSAGE value="Guilherme-Edita Produto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Edita Produto" />
+    <MESSAGE value="confirmaeditajogo" />
+    <option name="LAST_COMMIT_MESSAGE" value="confirmaeditajogo" />
   </component>
 </project>

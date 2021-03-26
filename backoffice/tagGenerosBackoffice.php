@@ -13,7 +13,7 @@ $result=mysqli_query($con, $sql);
 
     <tr>
         <td colspan="3" style="margin-bottom: 30px">
-            <a href="Adiciona/AdicionaTagGenero.php" style="color: #FFFFFF"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a>
+            <a href="../Adiciona/AdicionaTagGenero.php" style="color: #FFFFFF"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a>
         </td>
     </tr>
     <tr>
@@ -28,7 +28,7 @@ $result=mysqli_query($con, $sql);
         echo "<tr>";
         echo "<td>" . $dados['generoId'] . "</td>";
         echo "<td>" . $dados['generoNome'] . "</td>";
-        echo "<td><a href=\"EditaTagGenero.php?id=".$dados['generoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
+        echo "<td><a href=\"../Edita/EditaTagGenero.php?id=".$dados['generoId']."\"><button type='button' class='btn btn-primary'>Editar</button></a></td>";
         echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['generoId'].");\"><button type='button' class='btn btn-danger'>Eliminar</button></a></td>";
         echo "</tr>";
     }
@@ -44,6 +44,6 @@ bottom();
 <script>
     function confirmaElimina(id) {
         if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-            window.location="EliminaGenero.php?id=" + id;
+            window.location="../Elimina/EliminaGenero.php?id=" + id;
     }
 </script>
