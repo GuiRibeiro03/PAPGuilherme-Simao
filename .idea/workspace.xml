@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +152,7 @@
       <workItem from="1616578908610" duration="4192000" />
       <workItem from="1616617435176" duration="895000" />
       <workItem from="1616681198030" duration="10665000" />
+      <workItem from="1616715141934" duration="466000" />
     </task>
     <task id="LOCAL-00133" summary="IGDB API">
       <created>1615396357356</created>
