@@ -112,7 +112,39 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
         ?>
     </select>
+<br>
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Plataforma</label>
+    <select name="jogoPlataformaId">
+        <option value="-1">Escolha a plataforma...</option>
+        <?php
+        $sql="select * from plataformas order by plataformaNome";
+        $result=mysqli_query($con,$sql);
+        while ($dados=mysqli_fetch_array($result)){
+            ?>
+            <option value="<?php echo $dados['plataformaId']?>"><?php echo $dados['plataformaNome']?></option>
+            <?php
+        }
 
+
+        ?>
+    </select>
+<br>
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Género</label>
+    <select name="jogoGeneroId">
+        <option value="-1">Escolha o género...</option>
+        <?php
+        $sql="select * from generos order by generoNome";
+        $result=mysqli_query($con,$sql);
+        while ($dados=mysqli_fetch_array($result)){
+            ?>
+            <option value="<?php echo $dados['generoId']?>"><?php echo $dados['generoNome']?></option>
+            <?php
+        }
+
+
+        ?>
+    </select>
+<hr>
     <label style="color:white; font-size: 15px" class="badge badge-dark">Produto em destaque:</label>
 
 
