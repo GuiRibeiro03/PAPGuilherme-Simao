@@ -3,20 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/godofwar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/assassinsCreedWall.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/wallpapers/assassinsCreedWall.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/godofwar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/wallpapers/godofwar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +156,9 @@
       <workItem from="1616681198030" duration="10665000" />
       <workItem from="1616715141934" duration="466000" />
       <workItem from="1616753337796" duration="7842000" />
+      <workItem from="1617717409321" duration="13000" />
+      <workItem from="1617736877515" duration="12000" />
+      <workItem from="1617738424259" duration="2398000" />
     </task>
     <task id="LOCAL-00135" summary="Guilherme-API">
       <created>1615422737468</created>
