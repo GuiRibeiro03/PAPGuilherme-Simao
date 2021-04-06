@@ -8,9 +8,10 @@ $sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId where j
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 ?>
+
     <div style="text-align: center"> <h1 style="text-shadow: 5px 5px 0px #000000; padding-top:20px "><strong><?php echo $dados["jogoNome"] ?></strong></h1></div>
     <section class="store" style="margin-left: 15%">
-
+    </div>
         <br>
         <br>
         <div class="row" style="width: 100%">
