@@ -2,34 +2,60 @@
 include_once("includes/bodyBase.inc.php");
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from jogos";
-$sqlGeneros="select * from generos";
-$sqlPlataformas="select * from plataformas";
-$sqlEmpresas="select * from empresas";
 $result=mysqli_query($con,$sql);
-$resultGeneros=mysqli_query($con,$sqlGeneros);
-$resultPlataformas=mysqli_query($con,$sqlPlataformas);
-$resultEmpresas=mysqli_query($con,$sqlEmpresas);
+
 top();
 
 ?>
     <a href="backoffice/jogosBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
-
     <div class="dropdown">
         <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">Filtros </button>
-        <div class="dropdown">
+        <div class="dropdown-content" style="background-color: #0d0d0d">
             <div style="color: #FFFFFF">
                 <span>Generos:</span>
                 <?php
+                $con=mysqli_connect("localhost","root","","pap2021gameon");
+                $sqlGeneros="select * from generos";
+                $resultGeneros=mysqli_query($con,$sqlGeneros);
                 while ($dadosGeneros=mysqli_fetch_array($resultGeneros))
-                ?>
-                <br>
-                <input type="radio"> <?php echo $dadosGeneros["generoNome"] ?>
+                    ?>
+                    <br>
+                    <input type="checkbox"> <?php echo $dadosGeneros["generoNome"] ?>
                 <br>
 
             </div>
+            <div style="color: #FFFFFF">
+                <span>Plataformas:</span>
+                <?php
+                $con=mysqli_connect("localhost","root","","pap2021gameon");
+                $sqlPlataformas="select * from plataformas";
+                $resultPlataformas=mysqli_query($con,$sqlPlataformas);
+                while ($dadosPlataformas=mysqli_fetch_array($resultPlataformas))
+                    ?>
+                    <br>
+                    <input type="checkbox"> <?php echo $dadosPlataformas["plataformaNome"] ?>
+                <br>
+
+            </div>
+            <div style="color: #FFFFFF">
+                <span>Empresas:</span>
+                <?php
+                $con=mysqli_connect("localhost","root","","pap2021gameon");
+                $sqlEmpresas="select * from empresas";
+                $resultEmpresas=mysqli_query($con,$sqlEmpresas);
+                while ($dadosEmpresas=mysqli_fetch_array($resultEmpresas))
+                    ?>
+                    <br>
+                    <input type="checkbox"> <?php echo $dadosEmpresas["empresaNome"] ?>
+                <br>
+
+            </div>
+
+            <button type="button" class="btn btn-danger">Aplicar</button>
         </div>
     </div>
     <hr>
+
     <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
 
 

@@ -4249,7 +4249,7 @@ tr{
 
 .cart-button span{
 	position: absolute;
-	z-index: 3;
+	z-index:1;
 	top: 50%;
 	left: 50%;
 	font-size: 1em;
@@ -4260,6 +4260,7 @@ tr{
 
 .cart-button span.add-to-cart{
 	opacity: 1;
+
 }
 
 
@@ -4589,6 +4590,7 @@ body
 .dropdown {
 	position: relative;
 	display: inline-block;
+	z-index: 2;
 }
 
 .dropdown-content {
