@@ -3,8 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/godofwar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/assassinsCreedWall.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/wallpapers/assassinsCreedWall.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/godofwar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/wallpapers/godofwar.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +53,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papLuisF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../M18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -155,24 +167,7 @@
       <workItem from="1616617435176" duration="895000" />
       <workItem from="1616681198030" duration="10665000" />
       <workItem from="1616715141934" duration="466000" />
-      <workItem from="1617653439585" duration="41000" />
-      <workItem from="1617661914618" duration="150000" />
-      <workItem from="1617666497640" duration="1426000" />
-      <workItem from="1617668014356" duration="341000" />
-    </task>
-    <task id="LOCAL-00133" summary="IGDB API">
-      <created>1615396357356</created>
-      <option name="number" value="00133" />
-      <option name="presentableId" value="LOCAL-00133" />
-      <option name="project" value="LOCAL" />
-      <updated>1615396357356</updated>
-    </task>
-    <task id="LOCAL-00134" summary="IGDB API">
-      <created>1615398736546</created>
-      <option name="number" value="00134" />
-      <option name="presentableId" value="LOCAL-00134" />
-      <option name="project" value="LOCAL" />
-      <updated>1615398736546</updated>
+      <workItem from="1616753337796" duration="7842000" />
     </task>
     <task id="LOCAL-00135" summary="Guilherme-API">
       <created>1615422737468</created>
@@ -503,7 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616693368913</updated>
     </task>
-    <option name="localTasksCounter" value="182" />
+    <task id="LOCAL-00182" summary="Guilherme-tagGeneros">
+      <created>1616752416506</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1616752416507</updated>
+    </task>
+    <task id="LOCAL-00183" summary="Guilherme-GroupButton">
+      <created>1616756336862</created>
+      <option name="number" value="00183" />
+      <option name="presentableId" value="LOCAL-00183" />
+      <option name="project" value="LOCAL" />
+      <updated>1616756336862</updated>
+    </task>
+    <option name="localTasksCounter" value="184" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -522,8 +531,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Just some files" />
-    <MESSAGE value="Guilherme-Noticias" />
     <MESSAGE value="review listagem" />
     <MESSAGE value="Base de dados update noticiaEscolha" />
     <MESSAGE value="Escolhas" />
@@ -547,6 +554,8 @@
     <MESSAGE value="Guilherme-CRUD Adiciona/ELimina Produtos" />
     <MESSAGE value="Guilherme-Pasta Produtos" />
     <MESSAGE value="Guilherme-Edita Produto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Edita Produto" />
+    <MESSAGE value="Guilherme-tagGeneros" />
+    <MESSAGE value="Guilherme-GroupButton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-GroupButton" />
   </component>
 </project>

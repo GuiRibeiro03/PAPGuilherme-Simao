@@ -56,7 +56,7 @@ $dados=mysqli_fetch_array($result);
                                                 <div class="loader-circle">
                                                     <span class="circle-progress-2" data-cpid="circle1" data-cpvalue="<?php echo $dados['jogoGlobalRating']?>"  data-cpcolor="#4bcf13"></span>
                                                     <div class="review-point">
-                                                        <span style="padding-left: 10px; color: #FFFFFF">Global Rating:</span>
+                                                        <span style="padding-left: 5px; color: #FFFFFF">Global Rating:</span>
                                                         <div style="margin-right:10px; margin-top: 10px"><?php echo $dados['jogoGlobalRating']?></div>
                                                     </div>
                                                 </div>
@@ -69,7 +69,7 @@ $dados=mysqli_fetch_array($result);
                                                     <span class="circle-progress-2" data-cpid="circle2" data-cpvalue="<?php echo $dados['jogoUserRating']?>"  data-cpcolor="#c20000"></span>
                                                     <div class="review-point">
                                                         <span style="padding-left: 10px; color: #FFFFFF">User Rating:</span>
-                                                        <div style="padding-left: 10px; padding-top: 10px"><?php echo $dados['jogoUserRating']?></div>
+                                                        <div style="padding-left: 5px; padding-top: 10px"><?php echo $dados['jogoUserRating']?></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -95,14 +95,16 @@ $dados=mysqli_fetch_array($result);
                 <?php echo $dados["jogoTrailer"] ?>
             </div>
         </div>
+        <hr>
         <div>
             <h3>Resumo:</h3>
             <?php echo $dados["jogoSinopse"] ?>
         </div>
         <hr>
-        <div><h4>Empresa:</h4><span><?php echo $dados["empresaNome"] ?></span>
-            <h4>Género: </h4><span>FPS/RPG</span>
-            <h4>Plataforma: </h4><span>PS5</span>
+        <div class="row" style="margin-left: 20%">
+            <h4 style="margin-left: 30px">Empresa:</h4><span>&nbsp;<?php echo $dados["empresaNome"] ?></span>
+            <h4 style="margin-left: 30px">Género: </h4><span>&nbsp;FPS/RPG</span>
+            <h4 style="margin-left: 30px">Plataforma: </h4><span>&nbsp;PS5</span>
         </div>
     </div>
     </section>
