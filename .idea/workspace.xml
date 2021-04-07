@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovoJogo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,14 +156,8 @@
       <workItem from="1616753337796" duration="7842000" />
       <workItem from="1617717409321" duration="13000" />
       <workItem from="1617736877515" duration="12000" />
-      <workItem from="1617738424259" duration="3759000" />
-    </task>
-    <task id="LOCAL-00136" summary="Guilherme-API">
-      <created>1615423910220</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1615423910220</updated>
+      <workItem from="1617738424259" duration="4347000" />
+      <workItem from="1617780762304" duration="302000" />
     </task>
     <task id="LOCAL-00137" summary="Guilherme-API">
       <created>1615424136289</created>
@@ -502,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617741244802</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="confirmaNovoJogo algumas mudanças (continua a adicionar o jogo mas o resto não funciona ainda)">
+      <created>1617742567209</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1617742567209</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,8 +521,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Base de dados update noticiaEscolha" />
-    <MESSAGE value="Escolhas" />
     <MESSAGE value="Base de dados / index mudanças" />
     <MESSAGE value="Base de dados" />
     <MESSAGE value="Guilherme- Edita Noticias" />
@@ -546,6 +544,8 @@
     <MESSAGE value="Guilherme-tagGeneros" />
     <MESSAGE value="Guilherme-GroupButton" />
     <MESSAGE value="Simão - Add Generos e plataformas no adicionaJogo e confirma incompleto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simão - Add Generos e plataformas no adicionaJogo e confirma incompleto" />
+    <MESSAGE value="confirmaNovoJogo algumas mudanças (adiciona o jogo mas o resto não funciona ainda)" />
+    <MESSAGE value="confirmaNovoJogo algumas mudanças (continua a adicionar o jogo mas o resto não funciona ainda)" />
+    <option name="LAST_COMMIT_MESSAGE" value="confirmaNovoJogo algumas mudanças (continua a adicionar o jogo mas o resto não funciona ainda)" />
   </component>
 </project>

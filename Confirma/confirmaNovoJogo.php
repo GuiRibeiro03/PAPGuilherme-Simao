@@ -19,8 +19,7 @@ values('".$jogoNome."','".$jogoSinopse."','".$jogoTrailer."','".$novoNome."', '"
 
 mysqli_query($con,$sql);
 
-echo $sql2="SELECT jogoId FROM jogos ORDER BY jogoId DESC LIMIT 1";
-$novoId = mysqli_query($con,$sql2);
+$novoId = mysqli_insert_id($con);
 
 echo $sql3="insert into jogoplataformas (jogoPlataformaPlataformaId,jogoPlataformaJogoId) values('".$jogoPlataformaId."','".$novoId."')";
 echo $sql4="insert into jogogeneros (jogoGeneroGeneroId,jogoGeneroJogoId) values('".$jogoGeneroId."','".$novoId."')";
