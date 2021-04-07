@@ -1,10 +1,28 @@
 <?php
 include_once("../includes/body.inc.php");
 top();
+$search=addslashes($_POST["txt"]);
+$search="c";
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from jogos inner join empresas where jogoEmpresaId=empresaId";
+$sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId where jogoNome like '%$search%' ";
 $result=mysqli_query($con, $sql);
 ?>
+
+<script>
+
+    $('document').ready(function (){
+        $('#search').keyup(function (){
+            fillJogosBackoffice(this.value);
+        });
+        fillJogosBackoffice();
+    })
+
+</script>
+
+
+
+
+
 <a href="Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
 <section class="store" >
@@ -18,12 +36,12 @@ $result=mysqli_query($con, $sql);
             <a href="tagEmpresasBackoffice.php"><button type="button" class="btn btn-light">Empresas</button></a>
             <a href="tagPlataformaBackoffice.php"><button type="button" class="btn btn-light">Plataformas</button></a>
         </div>
-<div style="width: 100%"><input type="text" placeholder="procurar..." style="width: 45%;">
+<div style="width: 100%"><input type="text" placeholder="procurar..." id="search" value="<?php $search ?>" style="width: 45%;">
 <button style="color: #000000; width: 3%; height: 50px; background-color: #FFFFFF"><i class='fa fa-search' style="color: #000000; width: 20%; background-color: #FFFFFF"></i></button>
 </div>
     </div>
 </section>
-        <table class="table-striped" style=" color: #FFFFFF; font-weight: bold; font-size: 20px; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px">
+        <table class="table-striped" style=" color: #FFFFFF; font-weight: bold; font-size: 20px; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px" >
 
         <tr>
         <td colspan="3" style="margin-bottom: 30px">
@@ -40,7 +58,7 @@ $result=mysqli_query($con, $sql);
             <th colspan="2">Opções</th>
         </tr>
 
-        <tr >
+        <tr id="content">
             <?php
             while ($dados=mysqli_fetch_array($result)) {
                 echo "<tr>";

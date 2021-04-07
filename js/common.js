@@ -10,3 +10,16 @@ function fillJogos(txt = ''){
         }
     });
 }
+
+function fillJogosBackoffice(txt = ''){
+    $.ajax({
+        url:"backoffice/jogosBackoffice.php",
+        type:"post",
+        data:{
+            txt:txt
+        },
+        success:function (result){
+            $('#content').html(result);
+        }
+    });
+}

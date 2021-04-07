@@ -2,7 +2,6 @@
 include_once("includes/bodyBase.inc.php");
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $search=addslashes($_POST["txt"]);
-$search="";
 $sql="select * from jogos where jogoNome like '%$search%' ";
 $result=mysqli_query($con,$sql);
 
@@ -18,6 +17,7 @@ top();
         });
         fillJogos();
     })
+
 </script>
 
     <a href="backoffice/jogosBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
@@ -25,15 +25,18 @@ top();
     <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
         <input type="text" placeholder="Procura o jogo que desejas..." id="search" style="width: 50%; margin-left: 25%">
 
-        <!-- <div class="row">
+         <div class="row">
         <form action="blog.php" method="post"  enctype="multipart/form-data" >
             <div class="row" style="width: 200px; outline: #5a6268">
                 <div style="color: #FFFFFF;margin-left: 40px; margin-bottom: 30px">
                     <h5><strong>Preço:</strong></h5>
-                        <input type="hidden" id="valorMinimo" value="0" />
-                        <input type="hidden" id="valorMaximo" value="3000" />
-                    <p id="price_show">1000 - 6500 </p>
-                    <div id="price_change"></div>
+                    <br>
+                    <div class="price-slider"><span>
+                         Mínimo:
+                        <input type="text" value="0" min="0" max="120000" />
+                          Máximo:
+                        <input type="text" value="5000" min="0" max="120000"/></span>
+                    </div>
                 </div>
 
 
@@ -92,15 +95,17 @@ top();
             <button type="submit" class="btn btn-danger">Aplicar Filtros &nbsp;<i class="fa fa-check"></i></button>
         </form>
         </div>
--->
+
 
         <div class="row">
 
 
 
 <?php
+$i=0;
 while ($dados=mysqli_fetch_array($result)){
 ?>
+
 
             <div id="content"  class="col-lg-4 col-md-3">
 
@@ -122,8 +127,8 @@ while ($dados=mysqli_fetch_array($result)){
                         </button>
 
                         <script>
-                            const cartButtons1=document.querySelectorAll('.cart-button');
-                            cartButtons1.forEach(button => {
+                            const cartButtons<?php echo $i + 1?>=document.querySelectorAll('.cart-button');
+                            cartButtons<?php echo $i + 1?>.forEach(button => {
                                 button.addEventListener('click',cartClicker);
                             });
 
@@ -131,7 +136,7 @@ while ($dados=mysqli_fetch_array($result)){
                                 var cart=0;
                                 let button = this;
                                 button.classList.add('clicked');
-                                document.getElementById("bdg1").innerHTML = cart + 1;
+                                document.getElementById("bdg<?php echo $i + 1?>").innerHTML = cart + 1;
                             }
                         </script>
                     </div>
@@ -152,3 +157,6 @@ while ($dados=mysqli_fetch_array($result)){
 <?php
 bottom();
 ?>
+
+
+
