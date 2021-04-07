@@ -65,7 +65,7 @@ function top(){
         <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
         <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
-
+        <script src="js/common.js"></script>
 
 
 
@@ -385,6 +385,7 @@ function bottom(){
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/common.js"></script>
 
 
 

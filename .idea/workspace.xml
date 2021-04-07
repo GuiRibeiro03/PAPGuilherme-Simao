@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/AJAX/AJaxFiltrosJogos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,13 +166,6 @@
       <workItem from="1617717409321" duration="13000" />
       <workItem from="1617736877515" duration="12000" />
       <workItem from="1617738424259" duration="3759000" />
-    </task>
-    <task id="LOCAL-00136" summary="Guilherme-API">
-      <created>1615423910220</created>
-      <option name="number" value="00136" />
-      <option name="presentableId" value="LOCAL-00136" />
-      <option name="project" value="LOCAL" />
-      <updated>1615423910220</updated>
     </task>
     <task id="LOCAL-00137" summary="Guilherme-API">
       <created>1615424136289</created>
@@ -511,7 +503,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617741244802</updated>
     </task>
-    <option name="localTasksCounter" value="185" />
+    <task id="LOCAL-00185" summary="Guilherme- Search bar">
+      <created>1617815812904</created>
+      <option name="number" value="00185" />
+      <option name="presentableId" value="LOCAL-00185" />
+      <option name="project" value="LOCAL" />
+      <updated>1617815812904</updated>
+    </task>
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,7 +529,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Base de dados update noticiaEscolha" />
     <MESSAGE value="Escolhas" />
     <MESSAGE value="Base de dados / index mudanças" />
     <MESSAGE value="Base de dados" />
@@ -555,6 +553,7 @@
     <MESSAGE value="Guilherme-tagGeneros" />
     <MESSAGE value="Guilherme-GroupButton" />
     <MESSAGE value="Simão - Add Generos e plataformas no adicionaJogo e confirma incompleto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Simão - Add Generos e plataformas no adicionaJogo e confirma incompleto" />
+    <MESSAGE value="Guilherme- Search bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Search bar" />
   </component>
 </project>
