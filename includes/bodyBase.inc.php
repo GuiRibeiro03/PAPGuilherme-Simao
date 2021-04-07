@@ -37,7 +37,7 @@ function top(){
         <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
         <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <link rel="shortcut icon" href="img/onbutton.ico">
+        <link rel="shortcut icon" href="../img/onbutton.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <link rel="import" href="bower_components/polymer/polymer.html">
@@ -312,7 +312,7 @@ function bottom(){
         <form class="modal-content animate" action="/action_page.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="img/Game.png" alt="Avatar" class="avatar">
+                <img src="/img/Game.png" alt="Avatar" class="avatar">
             </div>
 
             <div class="container">
