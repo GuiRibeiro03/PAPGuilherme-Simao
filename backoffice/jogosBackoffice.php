@@ -1,10 +1,9 @@
 <?php
 include_once("../includes/body.inc.php");
 top();
-$search=addslashes($_POST["txt"]);
-$search="c";
+
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId where jogoNome like '%$search%' ";
+$sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId";
 $result=mysqli_query($con, $sql);
 ?>
 
@@ -55,7 +54,7 @@ $result=mysqli_query($con, $sql);
             <th>Empresa</th>
             <th>Preço</th>
             <th>Destaque</th>
-            <th colspan="2">Opções</th>
+            <th colspan="3">Opções</th>
         </tr>
 
         <tr id="content">
@@ -69,6 +68,7 @@ $result=mysqli_query($con, $sql);
                 echo "<td>" . $dados['jogoPreco'] . "€</td>";
                 echo "<td>" . $dados['jogoDestaque'] . "</td>";
                 echo "<td><a href=\"../Edita/EditaJogo.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-primary'><i class='fa fa-edit'></i>&nbsp;Editar</button></a></td>";
+                echo "<td><a href=\"../Edita/EditaTagsJogo.php?id=".$dados['jogoId']."\"><button type='button' class='btn btn-secondary'><i class='fa fa-edit'></i>&nbsp;Editar Tags</button></a></td>";
                 echo "<td><a href=\"#\" onclick=\"confirmaElimina(".$dados['jogoId'].");\"><button type='button' class='btn btn-danger'><i class='fa fa-trash'>&nbsp;Eliminar</button></a></td>";
                 echo "</tr>";
             }
