@@ -1,82 +1,110 @@
 <?php
 include_once("includes/bodyBase.inc.php");
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from jogos";
+$search=addslashes($_POST["txt"]);
+$search="";
+$sql="select * from jogos where jogoNome like '%$search%' ";
 $result=mysqli_query($con,$sql);
 
 top();
 
 ?>
 
+<script>
+
+    $('document').ready(function (){
+        $('#search').keyup(function (){
+            fillJogos(this.value);
+        });
+        fillJogos();
+    })
+</script>
+
+    <a href="backoffice/jogosBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
 
     <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
-        <a href="backoffice/jogosBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
-        <form action="ListaOutlet.php" method="post"  enctype="multipart/form-data">
+        <input type="text" placeholder="Procura o jogo que desejas..." id="search" style="width: 50%; margin-left: 25%">
 
-            <div class="dropdown">
-                <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">Filtros </button>
-                <div class="dropdown-content" style="background-color: #0d0d0d; width: 600px">
-                    <div class="row">
-                        <div style="color: #FFFFFF;margin-left: 40px ">
-                            <span>Generos:</span>
-                            <?php
-                            $sqlGeneros="select * from generos";
-                            $resultGeneros=mysqli_query($con,$sqlGeneros);
-                            while ($dadosGeneros=mysqli_fetch_array($resultGeneros)){
-                                ?>
-                                <br>
-                                <input type="checkbox"> <?php echo $dadosGeneros["generoNome"] ?>
-                                <br>
-                                <?php
-                            }
-                            ?>
-                        </div>
+        <!-- <div class="row">
+        <form action="blog.php" method="post"  enctype="multipart/form-data" >
+            <div class="row" style="width: 200px; outline: #5a6268">
+                <div style="color: #FFFFFF;margin-left: 40px; margin-bottom: 30px">
+                    <h5><strong>Preço:</strong></h5>
+                        <input type="hidden" id="valorMinimo" value="0" />
+                        <input type="hidden" id="valorMaximo" value="3000" />
+                    <p id="price_show">1000 - 6500 </p>
+                    <div id="price_change"></div>
+                </div>
 
-                        <div style="color: #FFFFFF; margin-left: 40px">
-                            <span>Plataformas:</span>
-                            <?php
-                            $sqlPlataformas="select * from plataformas";
-                            $resultPlataformas=mysqli_query($con,$sqlPlataformas);
-                            while ($dadosPlataformas=mysqli_fetch_array($resultPlataformas)){
-                                ?>
-                                <br>
-                                <input type="checkbox"> <?php echo $dadosPlataformas["plataformaNome"] ?>
-                                <br>
-                                <?php
-                            }
-                            ?>
-                        </div>
 
-                        <div style="color: #FFFFFF; margin-left: 40px">
-                            <span>Empresas:</span>
-                            <?php
-                            $sqlEmpresas="select * from empresas";
-                            $resultEmpresas=mysqli_query($con,$sqlEmpresas);
-                            while ($dadosEmpresas=mysqli_fetch_array($resultEmpresas)){
-                                ?>
-                                <br>
-                                <input type="checkbox"> <?php echo $dadosEmpresas["empresaNome"] ?>
-                                <br>
-                                <?php
-                            }
-                            ?>
-                        </div>
-                    </div>
-                    <button type="button" class="btn btn-danger">Aplicar</button>
+
+                <div style="color: #FFFFFF;margin-left: 40px; margin-bottom: 30px">
+                    <h5><strong>Generos:</strong></h5>
+                    <br>
+                    <?php
+                    $sqlGeneros="select * from generos";
+                    $resultGeneros=mysqli_query($con,$sqlGeneros);
+                    while ($dadosGeneros=mysqli_fetch_array($resultGeneros)){
+                        ?>
+                        <br>
+                        <input type="checkbox" value="<?php echo $dadosGeneros["generoNome"] ?>"> <?php echo $dadosGeneros["generoNome"] ?>
+                        <br>
+                        <?php
+                    }
+                    ?>
+                </div>
+
+                <div style="color: #FFFFFF; margin-left: 40px;margin-bottom: 30px">
+                    <hr>
+                    <h5><strong>Plataformas:</strong></h5>
+                    <br>
+                    <?php
+                    $sqlPlataformas="select * from plataformas";
+                    $resultPlataformas=mysqli_query($con,$sqlPlataformas);
+                    while ($dadosPlataformas=mysqli_fetch_array($resultPlataformas)){
+                        ?>
+                        <br>
+                        <input type="checkbox" value="<?php echo $dadosPlataformas["plataformaNome"] ?>"> <?php echo $dadosPlataformas["plataformaNome"] ?>
+                        <br>
+                        <?php
+                    }
+                    ?>
+                </div>
+
+                <div style="color: #FFFFFF; margin-left: 40px;  margin-bottom: 30px;">
+                    <hr>
+                    <h5><strong>Empresas:</strong></h5>
+                    <br>
+                    <?php
+
+                    $sqlEmpresas="select * from empresas ";
+                    $resultEmpresas=mysqli_query($con,$sqlEmpresas);
+                    while ($dadosEmpresas=mysqli_fetch_array($resultEmpresas)){
+                        ?>
+                        <br>
+                        <input type="checkbox" value="<?php echo $dadosEmpresas["empresaNome"] ?>"> <?php echo $dadosEmpresas["empresaNome"] ?>
+                        <br>
+                        <?php
+                    }
+                    ?>
                 </div>
             </div>
+            <button type="submit" class="btn btn-danger">Aplicar Filtros &nbsp;<i class="fa fa-check"></i></button>
         </form>
-        <hr>
+        </div>
+-->
 
         <div class="row">
+
+
 
 <?php
 while ($dados=mysqli_fetch_array($result)){
 ?>
 
-            <div class="col-lg-4 col-md-3">
+            <div id="content"  class="col-lg-4 col-md-3">
 
-                <div class="card" style="width: 19rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
+                <div  class="card" style="width: 19rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
 
                     <a href="Listajogo.php?id=<?php echo $dados["jogoId"]?>"><img src="img/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..."></a>
 
