@@ -15,7 +15,7 @@ top();
                 <hr>
                 <h4 class="card-title" style="text-align: center">Guilherme Ribeiro</h4>
                 <hr>
-                <p class="card-text" style="font-size: 18px; margin-left: 10%"><strong></strong>&nbsp;&nbsp;<span class="badge bg-primary" style="width: 10rem; height: 2rem; text-align: center; font-size: 100%">Administrador</span></p>
+                <p class="card-text" style="font-size: 18px; margin-left: 10%"><strong></strong>&nbsp;&nbsp;<span class="badge bg-primary" style=" font-size: 100%">Administrador &nbsp;<i class="fa fa-user-circle-o"></i></span></p>
             </div>
         </div>
 

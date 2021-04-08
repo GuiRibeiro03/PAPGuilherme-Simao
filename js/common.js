@@ -1,17 +1,17 @@
-function fillJogos(txt = ''){
+function fillJogosBackoffice(txt = ''){
     $.ajax({
-        url:"jogos.php",
+        url:"backoffiec/jogosBackoffice.php",
         type:"post",
         data:{
             txt:txt
         },
         success:function (result){
-            $('#content').html(result);
+            $('#Content').html(result);
         }
     });
 }
 
-function fillJogosBackoffice(txt = ''){
+function fillJogosBackofficeTeste(txt = ''){
     $.ajax({
         url:"backoffice/jogosBackofficeTeste.php",
         type:"post",
@@ -19,7 +19,7 @@ function fillJogosBackoffice(txt = ''){
             txt:txt
         },
         success:function (result){
-            $('#content').html(result);
+            $('#Content').html(result);
         }
     });
 }

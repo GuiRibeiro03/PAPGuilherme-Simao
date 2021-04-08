@@ -36,8 +36,8 @@ $result=mysqli_query($con, $sql);
             <a href="tagEmpresasBackoffice.php"><button type="button" class="btn btn-light">Empresas</button></a>
             <a href="tagPlataformaBackoffice.php"><button type="button" class="btn btn-light">Plataformas</button></a>
         </div>
-<div style="width: 100%"><input type="text" placeholder="procurar..." id="search" value="<?php $search ?>" style="width: 45%;">
-<button style="color: #000000; width: 3%; height: 50px; background-color: #FFFFFF"><i class='fa fa-search' style="color: #000000; width: 20%; background-color: #FFFFFF"></i></button>
+<div style="width: 100%"><input type="text" placeholder="procurar..." id="search"  style="width: 45%;">
+
 </div>
     </div>
 </section>

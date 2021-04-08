@@ -115,7 +115,7 @@ function top(){
                     <div class="col-lg-12 col-md-8">
                         <div class="ht-widget">
                             <ul class="float-left">
-                                <a href="../perfilUser.php"><img src="../img/pessoas/bacanoEu.jpg" style="width: 60px; height: 60px; border-radius: 50%"><span></span></a>
+                                <a href="../perfilUser.php"><img src="../img/pessoas/bacanoEu.jpg" style="width: 60px; height: 60px; border-radius: 50%">&nbsp;<span style="margin-left: 10px"> <strong>Guilherme Ribeiro</strong></span></a>
                             </ul>
                         </div>
                         <div class="ht-widget">
