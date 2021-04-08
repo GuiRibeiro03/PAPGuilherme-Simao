@@ -37,7 +37,7 @@ function top(){
         <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
         <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <link rel="shortcut icon" href="../img/onbutton.ico">
+        <link rel="shortcut icon" href="img/onbutton.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
         <link rel="import" href="bower_components/polymer/polymer.html">
