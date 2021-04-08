@@ -1,24 +1,24 @@
-
 <?php
-include_once("../includes/body.inc.php");
+include_once ("../includes/body.inc.php");
 top();
 
+
 ?>
+
 <script>
-        function confirmaElimina(id) {
+    function confirmaElimina(id) {
         $.ajax({
-            url:"AJAX/AJAXGetNameJogo.php",
+            url:"AJAX/AJAXGetNamejogo.php",
             type:"post",
             data:{
-                jogoId:id
+                operadoraId:id
             },
             success:function (result){
-                if(confirm('Confirma que deseja eliminar o registo com o ID #'+result+"?"))
-                    window.location="../Elimina/eliminaJogo?id=" + id;
+                if(confirm('Confirma que deseja eliminar o jogo:' + result + "?"))
+                    window.location="../Elimina/eliminaJogo.php?id=" + id;
             }
         })
     };
-
 
     function preview_image(event)
     {
@@ -31,22 +31,31 @@ top();
         reader.readAsDataURL(event.target.files[0]);
     }
 
-        $('document').ready(function (){
-            $('#search').keyup(function (){
-                fillJogosBackofficeTeste(this.value);
-            });
-            fillJogosBackofficeTeste();
-        })
-
+    $('document').ready(function (){
+        $('#search').keyup(function (){
+            fillJogosBackofficeTeste()o(this.value);
+        });
+        fillJogosBackofficeTeste();
+    })
 </script>
-<input type="text" id="search" placeholder="procure o jogo..." style="width: 25%; margin-left: 40%">
 
-<div id="Content">
+
+
+<input type="text" id="search">
+<div id="tableContent">
+
 
 </div>
 
 
-
 <?php
-bottom();
+Bottom();
 ?>
+
+
+
+
+
+
+
+
