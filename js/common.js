@@ -23,3 +23,19 @@ function fillJogosBackofficeTeste(txt = ''){
         }
     });
 }
+
+function fillJogosBackofficeTeste(txt=''){
+    $.ajax({
+        url:"AJAX/AJAXFillOperadoras.php",
+        type:"post",
+        data:{
+            txt:txt
+        },
+        success:function (result) {
+            $('#tableContent').html(result);
+
+        }
+    });
+
+
+}

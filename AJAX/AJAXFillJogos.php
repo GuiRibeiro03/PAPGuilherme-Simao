@@ -2,7 +2,7 @@
 include_once("../includes/body.inc.php");
 top();
 
-$search=addslashes($_POST["txt"]);
+$txt=addslashes($_POST["txt"]);
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId where jogoNome like '%$search%'";
 $result=mysqli_query($con, $sql);
@@ -23,9 +23,6 @@ $result=mysqli_query($con, $sql);
             <a href="../backoffice/tagGenerosBackoffice.php"><button type="button" class="btn btn-light">Géneros</button></a>
             <a href="../backoffice/tagEmpresasBackoffice.php"><button type="button" class="btn btn-light">Empresas</button></a>
             <a href="../backoffice/tagPlataformaBackoffice.php"><button type="button" class="btn btn-light">Plataformas</button></a>
-        </div>
-        <div style="width: 100%"><input type="text" placeholder="procurar..." id="search" value="<?php echo $search ?>" style="width: 45%;">
-            <button style="color: #000000; width: 3%; height: 50px; background-color: #FFFFFF"><i class='fa fa-search' style="color: #000000; width: 20%; background-color: #FFFFFF"></i></button>
         </div>
     </div>
 </section>
