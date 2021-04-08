@@ -111,7 +111,7 @@ while ($dados=mysqli_fetch_array($result)){
 
                 <div  class="card" style="width: 19rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
 
-                    <a href="Listajogo.php?id=<?php echo $dados["jogoId"]?>"><img src="img/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..."></a>
+                    <a href="Listajogo.php?id=<?php echo $dados["jogoId"]?>"><img src="img/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
 
                     <div class="card-body">
 
@@ -119,9 +119,9 @@ while ($dados=mysqli_fetch_array($result)){
 
                         <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["jogoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
-                        <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
+                        <button class="btn btn-danger  cart-button" style="color: #FF0000; width: 100%"><strong>
                                 <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
-                                <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                                <span class="added" style="color: #FFFFFF">Adicionado &nbsp;<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
                             </strong>
 
                         </button>

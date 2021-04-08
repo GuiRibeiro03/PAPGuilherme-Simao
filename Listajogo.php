@@ -21,7 +21,7 @@ $dados=mysqli_fetch_array($result);
                 <div class="card-body" >
                     <h3 class="card-title"><strong><span ><?php echo $dados["jogoPreco"] ?>€</span></strong> </h3>
                         <p><span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" value="1" max="5" style="width: 50px"></p>
-                <button class="btn btn-danger  cart-button" style="color: #dc3545">
+                <button class="btn btn-danger  cart-button" style="color: #dc3545; width: 100%">
                     <strong>
                         <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
                         <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
