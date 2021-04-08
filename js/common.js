@@ -13,7 +13,7 @@ function fillJogos(txt = ''){
 
 function fillJogosBackoffice(txt = ''){
     $.ajax({
-        url:"backoffice/jogosBackoffice.php",
+        url:"backoffice/jogosBackofficeTeste.php",
         type:"post",
         data:{
             txt:txt

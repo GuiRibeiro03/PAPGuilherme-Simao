@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
+      <change afterPath="$PROJECT_DIR$/backoffice/jogosBackofficeTeste.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/stylePerfil.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TESTE.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +55,8 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Edita" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PAPFilipe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,11 +68,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
       <recent name="D:\wamp\www\papGuiSimao\Edita" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Edita" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -162,13 +175,7 @@
       <workItem from="1617736877515" duration="12000" />
       <workItem from="1617738424259" duration="4347000" />
       <workItem from="1617780762304" duration="302000" />
-    </task>
-    <task id="LOCAL-00137" summary="Guilherme-API">
-      <created>1615424136289</created>
-      <option name="number" value="00137" />
-      <option name="presentableId" value="LOCAL-00137" />
-      <option name="project" value="LOCAL" />
-      <updated>1615424136289</updated>
+      <workItem from="1617899672644" duration="7297000" />
     </task>
     <task id="LOCAL-00138" summary="Guilherme-indexAPI">
       <created>1615461612068</created>
@@ -506,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617742567209</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <task id="LOCAL-00186" summary="Guilherme-Jogos  altura imagem/Butão cor">
+      <created>1617872903260</created>
+      <option name="number" value="00186" />
+      <option name="presentableId" value="LOCAL-00186" />
+      <option name="project" value="LOCAL" />
+      <updated>1617872903260</updated>
+    </task>
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Base de dados / index mudanças" />
     <MESSAGE value="Base de dados" />
     <MESSAGE value="Guilherme- Edita Noticias" />
     <MESSAGE value="adw" />
@@ -550,6 +563,7 @@
     <MESSAGE value="Simão - Add Generos e plataformas no adicionaJogo e confirma incompleto" />
     <MESSAGE value="confirmaNovoJogo algumas mudanças (adiciona o jogo mas o resto não funciona ainda)" />
     <MESSAGE value="confirmaNovoJogo algumas mudanças (continua a adicionar o jogo mas o resto não funciona ainda)" />
-    <option name="LAST_COMMIT_MESSAGE" value="confirmaNovoJogo algumas mudanças (continua a adicionar o jogo mas o resto não funciona ainda)" />
+    <MESSAGE value="Guilherme-Jogos  altura imagem/Butão cor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Jogos  altura imagem/Butão cor" />
   </component>
 </project>

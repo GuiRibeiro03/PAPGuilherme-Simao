@@ -1,11 +1,11 @@
 <?php
 include_once("../includes/body.inc.php");
 top();
-
 $search=addslashes($_POST["txt"]);
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId order by jogoId asc  ";
+$sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId";
 $result=mysqli_query($con, $sql);
+
 ?>
 
 <script>
@@ -42,8 +42,6 @@ $result=mysqli_query($con, $sql);
     </div>
 </section>
         <table class="table-striped" style=" color: #FFFFFF; font-weight: bold; font-size: 20px; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px" >
-
-
         <tr>
             <th>Id</th>
             <th>Nome</th>
@@ -52,13 +50,13 @@ $result=mysqli_query($con, $sql);
             <th>Preço</th>
             <th>Destaque</th>
             <th colspan="3">Opções</th>
+            <th></t><a href="../Adiciona/AdicionaJogo.php" style="color: #FFFFFF;"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a></th>
+            <th></th>
         </tr>
 
-            <tr>
-                <td colspan="3" style="margin-bottom: 30px">
-                    <a href="../Adiciona/AdicionaJogo.php" style="color: #FFFFFF;"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a>
-                </td>
-            </tr>
+
+
+
 
         <tr id="content">
             <?php

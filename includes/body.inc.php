@@ -114,18 +114,20 @@ function top(){
                 <div class="row">
                     <div class="col-lg-12 col-md-8">
                         <div class="ht-widget">
+                            <ul class="float-left">
+                                <a href="../perfilUser.php"><img src="../img/pessoas/bacanoEu.jpg" style="width: 60px; height: 60px; border-radius: 50%"><span></span></a>
+                            </ul>
+                        </div>
+                        <div class="ht-widget">
                             <ul class="float-right">
-
                                 <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-in"></i>Login</a></span>   |
                                     <span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Register</a></span></li>
-
                                 <li><a href="#" onClick="signOut();"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Sign out &nbsp;</span><i class="fa fa-sign-out"></i></a>
 
                                 </li>
                             </ul>
                         </div>
                     </div>
-
                     <div class="col-lg-12 col-md-8">
                         <div class="ht-widget">
                             <ul class="float-right">
