@@ -16,19 +16,17 @@ $dados=mysqli_fetch_array($result);
 
         <div class="row">
 
-            <?php
-            while ($dados=mysqli_fetch_array($result)){
-                ?>
+
 
                 <div class="col-lg-4 col-md-3">
 
-                    <div class="card" style="width: 19rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
+                    <div class="card" style="width: 19rem; margin-left: 30%; margin-right: 10px; margin-top: 10px; background-color: black">
 
-                        <a href="Listaconsola.php?id=<?php echo $dados["produtoId"]?>"><img src="img/<?php echo $dados["produtoImagemURL"] ?>" class="card-img-top" alt="..."></a>
+                        <img src="img/<?php echo $dados["produtoImagemURL"] ?>" class="card-img-top" alt="...">
 
                         <div class="card-body">
 
-                            <a href="Listaconsola.php?id=<?php echo $dados["produtoId"] ?>"><h5 class="card-title"><?php echo $dados["produtoNome"] ?></h5></a>
+                            <h5 class="card-title"><?php echo $dados["produtoNome"] ?></h5>
 
                             <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["produtoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
@@ -58,9 +56,7 @@ $dados=mysqli_fetch_array($result);
 
                 </div>
 
-                <?php
-            }
-            ?>
+
 
         </div>
 
@@ -75,6 +71,8 @@ $dados=mysqli_fetch_array($result);
             </div>
         </section>
     </section>
+
+
 <?php
 bottom();
 ?>
