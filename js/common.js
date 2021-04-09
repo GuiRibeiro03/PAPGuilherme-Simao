@@ -20,8 +20,9 @@ function fillJogosBackofficeTeste(txt = ''){
         data:{
             txt:txt
         },
-        success:function (result){
+        success:function (result) {
             $('#tableContent').html(result);
+
         }
     });
 }

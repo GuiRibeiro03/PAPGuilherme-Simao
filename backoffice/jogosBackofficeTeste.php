@@ -33,7 +33,7 @@ top();
 
     $('document').ready(function (){
         $('#search').keyup(function (){
-            fillJogosBackofficeTeste()o(this.value);
+            fillJogosBackofficeTeste(this.value);
         });
         fillJogosBackofficeTeste();
     })
@@ -41,7 +41,7 @@ top();
 
 
 
-<input type="text" id="search">
+<input type="text" id="search" style="width: 30%; margin-left: 30%" placeholder="procurar...">
 <div id="tableContent">
 
 

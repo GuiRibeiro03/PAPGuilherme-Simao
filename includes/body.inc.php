@@ -65,6 +65,7 @@ function top(){
         <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
         <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="js/jquery.min.js"></script>
         <script src="js/common.js"></script>
 
 

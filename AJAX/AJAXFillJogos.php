@@ -27,7 +27,7 @@ $result=mysqli_query($con, $sql);
     </div>
 </section>
 
-<table class=" table table-striped" style=" color: #FFFFFF; font-weight: bold; font-size: 20px; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px" >
+<table class="table table-striped" style=" color: #FFFFFF; font-weight: bold; font-size: 20px; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px" >
     <tr>
         <th>Id</th>
         <th>Nome</th>
@@ -60,30 +60,11 @@ $result=mysqli_query($con, $sql);
             echo "</tr>";
         }
         ?>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-danger">Apagar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </tr>
+</table>
+
 
 
 <?php
 bottom();
 ?>
 
-</table>

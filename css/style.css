@@ -3614,9 +3614,8 @@ tr{
 }
 
 .text-404 {
+	width: 100%;
 	text-align: center;
-	background: #080808;
-	padding: 100px 0 120px;
 }
 
 .text-404 h1 {
