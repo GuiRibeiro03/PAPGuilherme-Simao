@@ -106,7 +106,7 @@ $dados=mysqli_fetch_array($resultjogos);
       <hr>
 
       <label style="color:white; font-size: 15px" class="badge badge-dark">Trailer:</label>
-      <input type="text" name="jogoTrailer" value="<?php  echo $dados["jogoTrailer"]?>">
+      <input type="text" name="jogoTrailer" value='<?php  echo $dados['jogoTrailer'] ?>'>
       <hr>
 
       <label style="color:white; font-size: 15px" class="badge badge-dark">Empresa</label>

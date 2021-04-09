@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/ListaAcessorio.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ListaConsola.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-Lista Consola/Outlet/Acessorio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_2.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_2.0.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_2.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_2.0.mwb.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acessorios.php" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +60,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
       <recent name="D:\wamp\www\papGuiSimao\Edita" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Edita" />
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -180,14 +172,7 @@
       <workItem from="1617962881137" duration="97000" />
       <workItem from="1617979240266" duration="1040000" />
       <workItem from="1617994862110" duration="1820000" />
-      <workItem from="1617999045019" duration="744000" />
-    </task>
-    <task id="LOCAL-00146" summary="Guilherme-Noticias">
-      <created>1616009727913</created>
-      <option name="number" value="00146" />
-      <option name="presentableId" value="LOCAL-00146" />
-      <option name="project" value="LOCAL" />
-      <updated>1616009727913</updated>
+      <workItem from="1617999045019" duration="1385000" />
     </task>
     <task id="LOCAL-00147" summary="Guilherme-Noticias">
       <created>1616013472526</created>
@@ -525,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617994882024</updated>
     </task>
-    <option name="localTasksCounter" value="195" />
+    <task id="LOCAL-00195" summary="Commit-Lista Consola/Outlet/Acessorio">
+      <created>1617999821223</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1617999821223</updated>
+    </task>
+    <option name="localTasksCounter" value="196" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +536,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-eliminar trending" />
     <MESSAGE value="Guilherme-Jogos Os melhores" />
     <MESSAGE value="Guilherme-Adiciona Review" />
     <MESSAGE value="Guilherme-ConfirmaNovaReview" />
@@ -569,6 +560,7 @@
     <MESSAGE value="Guilherme-Perfil" />
     <MESSAGE value="Guilherme-Perfil/Jogos /Pesquisa" />
     <MESSAGE value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
+    <MESSAGE value="Commit-Lista Consola/Outlet/Acessorio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-Lista Consola/Outlet/Acessorio" />
   </component>
 </project>
