@@ -14,6 +14,7 @@ top();
             <a href="tagGenerosBackoffice.php"><button type="button" class="btn btn-light">Géneros</button></a>
             <a href="tagEmpresasBackoffice.php"><button type="button" class="btn btn-light">Empresas</button></a>
             <a href="tagPlataformaBackoffice.php"><button type="button" class="btn btn-light">Plataformas</button></a>
+            <a href="utilizadores.php"><button type="button" class="btn btn-light">utilizadores</button></a>
 </div>
 
     </div>

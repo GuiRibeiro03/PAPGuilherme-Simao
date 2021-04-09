@@ -43,7 +43,7 @@ $result=mysqli_query($con, $sql);
 
     </div>
 </section>
-        <table class="table-striped" style=" color: #FFFFFF; font-weight: bold; font-size: 20px; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px" >
+        <table class="table table-striped" style=" color: #FFFFFF; font-weight: bold; font-size: 20px; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px" >
 
 
         <tr>
@@ -54,13 +54,9 @@ $result=mysqli_query($con, $sql);
             <th>Preço</th>
             <th>Destaque</th>
             <th colspan="3">Opções</th>
+            <th><a href="../Adiciona/AdicionaJogo.php" style="color: #FFFFFF;"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a></th>
         </tr>
 
-            <tr>
-                <td colspan="3" style="margin-bottom: 30px">
-                    <a href="../Adiciona/AdicionaJogo.php" style="color: #FFFFFF;"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a>
-                </td>
-            </tr>
 
         <tr id="content">
             <?php
