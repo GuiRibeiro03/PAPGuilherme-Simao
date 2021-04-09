@@ -20,8 +20,8 @@ top();
         })
     };
 
-    function preview_image(event)
-    {
+    function preview_image(event){
+
         var reader = new FileReader();
         reader.onload = function()
         {
@@ -29,7 +29,7 @@ top();
             output.src = reader.result;
         }
         reader.readAsDataURL(event.target.files[0]);
-    }
+    };
 
     $('document').ready(function (){
         $('#search').keyup(function (){
@@ -41,7 +41,7 @@ top();
 
 
 
-<input type="text" id="search" style="width: 30%; margin-left: 30%" placeholder="procurar...">
+<input type="text" id="search"  style="width: 30%; margin-left: 30%" placeholder="procurar...">
 <div id="tableContent">
 
 

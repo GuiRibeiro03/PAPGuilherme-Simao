@@ -3,8 +3,9 @@ include_once("../includes/body.inc.php");
 top();
 
 $txt=addslashes($_POST["txt"]);
+$txt="Ghost";
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId where jogoNome like '%$search%'";
+$sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId where jogoNome like '%$txt%'";
 $result=mysqli_query($con, $sql);
 
 ?>
