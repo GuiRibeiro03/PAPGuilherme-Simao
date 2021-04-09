@@ -198,7 +198,6 @@ function top(){
                         <li><a href="../reviews.php"><span><strong>Reviews</strong> </span></a></li>
 
                         <li><a href="../blog.php"><span><strong>Blog</strong> </span></a></li>
-                        <li><a href="../backoffice/Backoffice.php"><span><strong>Backoffice</strong></span></a></li>
 
                     </ul>
                 </div>

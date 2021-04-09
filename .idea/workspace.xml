@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <change afterPath="$PROJECT_DIR$/backoffice/utilizadores.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/Backoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,13 +11,6 @@
   </component>
   <component name="ComposerSettings">
     <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,8 +39,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fase2" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Edita" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -69,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
       <recent name="D:\wamp\www\papGuiSimao\Edita" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Edita" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -176,8 +158,62 @@
       <workItem from="1617736877515" duration="12000" />
       <workItem from="1617738424259" duration="4347000" />
       <workItem from="1617780762304" duration="302000" />
-      <workItem from="1617899672644" duration="17955000" />
-      <workItem from="1617927063128" duration="2130000" />
+    </task>
+    <task id="LOCAL-00137" summary="Guilherme-API">
+      <created>1615424136289</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1615424136289</updated>
+    </task>
+    <task id="LOCAL-00138" summary="Guilherme-indexAPI">
+      <created>1615461612068</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1615461612068</updated>
+    </task>
+    <task id="LOCAL-00139" summary="Guilherme-Resumo Jogos">
+      <created>1615512155359</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1615512155359</updated>
+    </task>
+    <task id="LOCAL-00140" summary="Guilherme-Jogos">
+      <created>1615514293778</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1615514293778</updated>
+    </task>
+    <task id="LOCAL-00141" summary="Guilherme-Jogos">
+      <created>1615514800985</created>
+      <option name="number" value="00141" />
+      <option name="presentableId" value="LOCAL-00141" />
+      <option name="project" value="LOCAL" />
+      <updated>1615514800985</updated>
+    </task>
+    <task id="LOCAL-00142" summary="pastas">
+      <created>1615827808600</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1615827808600</updated>
+    </task>
+    <task id="LOCAL-00143" summary="includes base">
+      <created>1615828250790</created>
+      <option name="number" value="00143" />
+      <option name="presentableId" value="LOCAL-00143" />
+      <option name="project" value="LOCAL" />
+      <updated>1615828250790</updated>
+    </task>
+    <task id="LOCAL-00144" summary="g">
+      <created>1615830077087</created>
+      <option name="number" value="00144" />
+      <option name="presentableId" value="LOCAL-00144" />
+      <option name="project" value="LOCAL" />
+      <updated>1615830077087</updated>
     </task>
     <task id="LOCAL-00145" summary="Guilherme-Just some files">
       <created>1616008822146</created>
@@ -466,63 +502,7 @@
       <option name="project" value="LOCAL" />
       <updated>1617742567209</updated>
     </task>
-    <task id="LOCAL-00186" summary="Guilherme-Jogos  altura imagem/Butão cor">
-      <created>1617872903260</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1617872903260</updated>
-    </task>
-    <task id="LOCAL-00187" summary="Guilherme-Perfil">
-      <created>1617912152421</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1617912152421</updated>
-    </task>
-    <task id="LOCAL-00188" summary="Guilherme-Perfil">
-      <created>1617912166622</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1617912166622</updated>
-    </task>
-    <task id="LOCAL-00189" summary="Guilherme-Perfil">
-      <created>1617912180496</created>
-      <option name="number" value="00189" />
-      <option name="presentableId" value="LOCAL-00189" />
-      <option name="project" value="LOCAL" />
-      <updated>1617912180496</updated>
-    </task>
-    <task id="LOCAL-00190" summary="Guilherme-Perfil/Jogos /Pesquisa">
-      <created>1617922428781</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1617922428781</updated>
-    </task>
-    <task id="LOCAL-00191" summary="Guilherme-Perfil/Jogos /Pesquisa">
-      <created>1617923203736</created>
-      <option name="number" value="00191" />
-      <option name="presentableId" value="LOCAL-00191" />
-      <option name="project" value="LOCAL" />
-      <updated>1617923203736</updated>
-    </task>
-    <task id="LOCAL-00192" summary="Guilherme-Perfil/Jogos /Pesquisa">
-      <created>1617923724187</created>
-      <option name="number" value="00192" />
-      <option name="presentableId" value="LOCAL-00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1617923724187</updated>
-    </task>
-    <task id="LOCAL-00193" summary="Guilherme-Perfil/Jogos /Pesquisa">
-      <created>1617927026903</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1617927026903</updated>
-    </task>
-    <option name="localTasksCounter" value="194" />
+    <option name="localTasksCounter" value="186" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -541,6 +521,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Base de dados / index mudanças" />
+    <MESSAGE value="Base de dados" />
+    <MESSAGE value="Guilherme- Edita Noticias" />
     <MESSAGE value="adw" />
     <MESSAGE value="Guilherme-eliminar trending" />
     <MESSAGE value="Guilherme-Jogos Os melhores" />
@@ -563,9 +546,6 @@
     <MESSAGE value="Simão - Add Generos e plataformas no adicionaJogo e confirma incompleto" />
     <MESSAGE value="confirmaNovoJogo algumas mudanças (adiciona o jogo mas o resto não funciona ainda)" />
     <MESSAGE value="confirmaNovoJogo algumas mudanças (continua a adicionar o jogo mas o resto não funciona ainda)" />
-    <MESSAGE value="Guilherme-Jogos  altura imagem/Butão cor" />
-    <MESSAGE value="Guilherme-Perfil" />
-    <MESSAGE value="Guilherme-Perfil/Jogos /Pesquisa" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Perfil/Jogos /Pesquisa" />
+    <option name="LAST_COMMIT_MESSAGE" value="confirmaNovoJogo algumas mudanças (continua a adicionar o jogo mas o resto não funciona ainda)" />
   </component>
 </project>

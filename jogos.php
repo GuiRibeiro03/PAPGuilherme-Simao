@@ -21,7 +21,6 @@ top();
 
 </script>
 
-    <a href="backoffice/jogosBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
 <input type="text" placeholder="Procura o jogo que desejas..." id="search" style="width: 30%; margin-left: 30%">
     <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
         <div class="row" style="width: 300px; float: left">

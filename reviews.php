@@ -10,7 +10,6 @@ $result=mysqli_query($con,$sql);
 
 <section class="latest-preview-section" style="height: 100%; width: 100%">
     <div class="container" style="padding-top: 30px; position: center">
-        <a href="Backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
         <div class="row">
 
             <?php

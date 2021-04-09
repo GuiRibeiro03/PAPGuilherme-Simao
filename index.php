@@ -70,9 +70,7 @@ $result4=mysqli_query($con,$sql3);
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h5> PRODUTOS EM DESTAQUE:</h5>
-                        <a href="backoffice/jogosBackoffice.php"> <button type="button" class="btn btn-primary" >Backoffice</button></a>
-                    </div>
+                        <h5> PRODUTOS EM DESTAQUE:</h5></div>
                 </div>
             </div>
 
