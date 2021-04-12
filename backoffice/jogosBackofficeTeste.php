@@ -11,7 +11,7 @@ top();
             url:"AJAX/AJAXGetNamejogo.php",
             type:"post",
             data:{
-                operadoraId:id
+                id:id
             },
             success:function (result){
                 if(confirm('Confirma que deseja eliminar o jogo:' + result + "?"))
@@ -19,6 +19,15 @@ top();
             }
         })
     };
+
+
+    $('document').ready(function (){
+        $('#search').keyup(function (){
+            fillJogosBackofficeTeste(this.value);
+        });
+        fillJogosBackofficeTeste();
+    })
+
 
     function preview_image(event){
 
@@ -31,12 +40,7 @@ top();
         reader.readAsDataURL(event.target.files[0]);
     };
 
-    $('document').ready(function (){
-        $('#search').keyup(function (){
-            fillJogosBackofficeTeste(this.value);
-        });
-        fillJogosBackofficeTeste();
-    })
+
 </script>
 
 
@@ -58,6 +62,7 @@ top();
         </div>
     </div>
 </section>
+
 <div id="tableContent">
 
 
