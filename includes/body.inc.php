@@ -4,6 +4,8 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+
+
 function top(){
 
 ?>
@@ -322,25 +324,36 @@ function bottom(){
 
     <div id="id01" class="modal">
 
-        <form class="modal-content animate" action="/action_page.php" method="post">
+        <form class="modal-content animate" action="../" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 
             </div>
 
             <div class="container">
-                <label id="uname"><b>Username</b></label>
+        <!--        <label id="uname"><b>Username</b></label>
                 <input type="text" placeholder="Nome de Utilizador" name="uname" required>
 
                 <label id="psw"><b>Password</b></label>
                 <input type="password" placeholder="Palavra-Passe" name="psw" required>
 
-                <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button>
-                <label>
+
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
+        -->
 
+                <select name="utilizador">
+                    <?php
+                    while ($dados = mysqli_fetch_array($res)){
+                        ?>
+                    <option value="<?php echo $dados['userId']?>"><?php echo $dados['userName']?></option>
+                    <?php
+                    }
+                    ?>
+                </select>
 
+                <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Entrar</strong></button>
+                <label>
 
                 <hr>
 
