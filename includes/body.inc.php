@@ -330,24 +330,24 @@ function bottom(){
 
             </div>
 
-            <div class="container">
 
-                <select name="utilizador">
-                    <?php
-                    $con=mysqli_connect("localhost","root","","pap2021gameon");
-                    $sql="Select * from users";
-                    $res=mysqli_query($con,$sql);
-                    while ($dados = mysqli_fetch_array($res)){
+                <div class="container">
+
+                    <select name="utilizador" >
+                        <option value="-1">Utilizador...</option>
+                        <?php
+                        $con=mysqli_connect("localhost","root","","pap2021gameon");
+                        $sql="select * from users";
+                        $res = mysqli_query($con,$sql);
+                        while ($dados=mysqli_fetch_array($res)){
+                            ?>
+                            <option value="<?php echo $dados['userId'] ?>"><?php echo $dados['userName'] ?></option>
+
+                            <?php
+                        }
                         ?>
-                    <option value="<?php echo $dados['userId']?>"><?php echo $dados['userName']?></option>
-                    <?php
-                    }
-                    ?>
-                </select>
-
-                <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Entrar</strong></button>
-                <label>
-
+                    </select>
+                    <input type="submit" value="submeter">
                 <hr>
 
 
