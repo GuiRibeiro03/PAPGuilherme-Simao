@@ -331,19 +331,12 @@ function bottom(){
             </div>
 
             <div class="container">
-        <!--        <label id="uname"><b>Username</b></label>
-                <input type="text" placeholder="Nome de Utilizador" name="uname" required>
-
-                <label id="psw"><b>Password</b></label>
-                <input type="password" placeholder="Palavra-Passe" name="psw" required>
-
-
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
-                </label>
-        -->
 
                 <select name="utilizador">
                     <?php
+                    $con=mysqli_connect("localhost","root","","pap2021gameon");
+                    $sql="Select * from users";
+                    $res=mysqli_query($con,$sql);
                     while ($dados = mysqli_fetch_array($res)){
                         ?>
                     <option value="<?php echo $dados['userId']?>"><?php echo $dados['userName']?></option>

@@ -4,10 +4,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 function top(){
-    $con=mysqli_connect("localhost","root","","pap2021gameon");
-    $sql = "Select userName from users where userId=".$_GET['nome'];
-    $res=mysqli_query($con,$sql);
-    $dados=mysqli_fetch_array($res);
+
 ?>
     <!DOCTYPE html>
     <html lang="pt">
@@ -113,17 +110,23 @@ function top(){
                     <div class="col-lg-12 col-md-8">
                         <div class="ht-widget">
                             <ul class="float-left">
-                                <a href="perfilUser.php"><img src="img/pessoas/bacanoEu.jpg" style="width: 60px; height: 60px; border-radius: 50%"><span style="margin-left: 10px"><strong><?php $dados[0]?></strong></span></a>
+                                <a href="perfilUser.php"><img src="img/pessoas/bacanoEu.jpg" style="width: 60px; height: 60px; border-radius: 50%"><span style="margin-left: 10px"><strong><?php $_SESSION['nome'] ?></strong></span></a>
                             </ul>
                         </div>
                         <div class="ht-widget">
                             <ul class="float-right">
+<?php
+session_start();
+if(!isset($_SESSION['id'])){
 
-                                <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-in"></i>Login</a></span>   |
+?>
+                                <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-in"></i>Login</a></span> &nbsp;  |&nbsp;
                                     <span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Register</a></span></li>
-
-                                <li><a href="#" onClick="signOut();"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Sign out &nbsp;</span><i class="fa fa-sign-out"></i></a>
-
+<?php
+}else{
+?>
+                                <li><a href="../logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Sign out &nbsp;</span><i class="fa fa-sign-out"></i></a>
+<?php } ?>
                                 </li>
                             </ul>
                         </div>
@@ -319,36 +322,26 @@ function bottom(){
         <form class="modal-content animate" action="confirmaLogin.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-
             </div>
 
             <div class="container">
-                <!--        <label id="uname"><b>Username</b></label>
-                        <input type="text" placeholder="Nome de Utilizador" name="uname" required>
 
-                        <label id="psw"><b>Password</b></label>
-                        <input type="password" placeholder="Palavra-Passe" name="psw" required>
-
-
-                            <input type="checkbox" checked="checked" name="remember"> Remember me
-                        </label>
-                -->
-
-                <select name="utilizador">
-                    <?php
-                    $con=mysqli_connect("localhost","root","","pap2021gameon");
-                    $sql = "Select * from users";
-                    $res = mysqli_query($con,$sql);
-                    while ($dados = mysqli_fetch_array($res)){
-                        ?>
-                        <option value="<?php echo $dados['userId']?>"><?php echo $dados['userName']?></option>
+                    <select name="utilizador" >
+                        <option value="-1">Utilizador...</option>
                         <?php
-                    }
-                    ?>
-                </select>
-<br>
-                <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Entrar</strong></button>
-                <label>
+                        $con=mysqli_connect("localhost","root","","pap2021gameon");
+                        $sql="select * from users";
+                        $res = mysqli_query($con,$sql);
+                        while ($dados=mysqli_fetch_array($res)){
+                            ?>
+                            <option value="<?php echo $dados['userId'] ?>"><?php echo $dados['userName'] ?></option>
+
+                            <?php
+                        }
+                        ?>
+                    </select>
+                    <input type="submit" value="submeter">
+
 
                     <hr>
 
@@ -357,7 +350,7 @@ function bottom(){
 
             <div class="container" style="background-color:#f1f1f1">
                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-                <span class="password">Esqueces-te da<a href="#" style="color: #00aff1">password?</a></span>
+                <span class="password">Esqueces-te da<a href="#" style="color: #00aff1">&nbsp;password?</a></span>
             </div>
         </form>
     </div>
