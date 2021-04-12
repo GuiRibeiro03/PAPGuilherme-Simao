@@ -21,12 +21,7 @@ top();
     };
 
 
-    $('document').ready(function (){
-        $('#search').keyup(function (){
-            fillJogosBackofficeTeste(this.value);
-        });
-        fillJogosBackofficeTeste();
-    })
+
 
 
     function preview_image(event){
@@ -40,7 +35,12 @@ top();
         reader.readAsDataURL(event.target.files[0]);
     };
 
-
+    $('document').ready(function (){
+        $('#search').keyup(function (){
+            fillJogosBackofficeTeste(this.value);
+        });
+        fillJogosBackofficeTeste();
+    })
 </script>
 
 
@@ -64,9 +64,6 @@ top();
 </section>
 
 <div id="tableContent">
-
-
-
 
 </div>
 
