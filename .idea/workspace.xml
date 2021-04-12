@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-Lista Consola/Outlet/Acessorio">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-EditaJogo Link Trailer arranjado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackofficeTeste.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackofficeTeste.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fase2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -172,14 +174,8 @@
       <workItem from="1617962881137" duration="97000" />
       <workItem from="1617979240266" duration="1040000" />
       <workItem from="1617994862110" duration="1820000" />
-      <workItem from="1617999045019" duration="1385000" />
-    </task>
-    <task id="LOCAL-00147" summary="Guilherme-Noticias">
-      <created>1616013472526</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1616013472526</updated>
+      <workItem from="1617999045019" duration="1580000" />
+      <workItem from="1618226253716" duration="1672000" />
     </task>
     <task id="LOCAL-00148" summary="Guilherme-Noticias">
       <created>1616017121977</created>
@@ -517,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617999821223</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="Commit-EditaJogo Link Trailer arranjado">
+      <created>1618000630130</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1618000630130</updated>
+    </task>
+    <option name="localTasksCounter" value="197" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +539,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Jogos Os melhores" />
     <MESSAGE value="Guilherme-Adiciona Review" />
     <MESSAGE value="Guilherme-ConfirmaNovaReview" />
     <MESSAGE value="Guilherme-Review" />
@@ -561,6 +563,7 @@
     <MESSAGE value="Guilherme-Perfil/Jogos /Pesquisa" />
     <MESSAGE value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
     <MESSAGE value="Commit-Lista Consola/Outlet/Acessorio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-Lista Consola/Outlet/Acessorio" />
+    <MESSAGE value="Commit-EditaJogo Link Trailer arranjado" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-EditaJogo Link Trailer arranjado" />
   </component>
 </project>

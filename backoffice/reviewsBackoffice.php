@@ -11,6 +11,7 @@ $result=mysqli_query($con, $sql);
     <div style="margin-left: 35%">
         <div class="btn-group" >
             <a href="jogosBackoffice.php"><button type="button" class="btn btn-light">Jogos</button></a>
+            <a href="../backoffice/jogosBackofficeTeste.php"><button type="button" class="btn btn-light">Jogos Teste</button></a>
             <a href="reviewsBackoffice.php"><button type="button" class="btn btn-primary">Reviews</button></a>
             <a href="NoticiasBackoffice.php"><button type="button" class="btn btn-light">Noticias</button></a>
             <a href="produtoBackoffice.php"><button type="button" class="btn btn-light">Produto</button></a>
