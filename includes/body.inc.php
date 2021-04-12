@@ -4,7 +4,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-
+session_start();
 
 function top(){
 
@@ -118,26 +118,45 @@ function top(){
     <!-- Humberger Menu End -->
 
     <!-- Header Section Begin -->
-    <header class="header-section" >
+    <header class="header-section">
         <div class="ht-options">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-8">
-                        <div class="ht-widget">
-                            <ul class="float-left">
-                                <a href="../perfilUser.php"><img src="../img/pessoas/bacanoEu.jpg" style="width: 60px; height: 60px; border-radius: 50%">&nbsp;<span style="margin-left: 10px"> <strong>Guilherme Ribeiro</strong></span></a>
-                            </ul>
-                        </div>
+
                         <div class="ht-widget">
                             <ul class="float-right">
-                                <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-in"></i>Login</a></span>   |
-                                    <span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Register</a></span></li>
-                                <li><a href="#" onClick="signOut();"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Sign out &nbsp;</span><i class="fa fa-sign-out"></i></a>
+                                <?php
+                                if(!isset($_SESSION['id'])){
 
+                                    ?>
+                                    <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
+                                            <span class="badge badge-light" style="color: black">Login</span></a></span>
+
+                                    </li>
+
+                                    <li>|</li>
+
+                                    <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
+                                            <span class="badge badge-danger">Register</span></a></span></li>
+                                    <?php
+                                }else{
+                                ?>
+
+                                <li><div class="ht-widget">
+                                        <ul class="float-left">
+                                            <a href="perfilUser.php"><img src="../img/pessoas/bacanoEu.jpg" style="width: 60px; height: 60px; border-radius: 50%"><span style="margin-left: 10px"><strong><?php $_SESSION['nome'] ?></strong></span></a>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li><a href="../logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Sign out &nbsp;</span><i class="fa fa-sign-out"></i></a>
+                                    <?php } ?>
                                 </li>
                             </ul>
                         </div>
                     </div>
+
                     <div class="col-lg-12 col-md-8">
                         <div class="ht-widget">
                             <ul class="float-right">
@@ -324,38 +343,24 @@ function bottom(){
 
     <div id="id01" class="modal">
 
-        <form class="modal-content animate" action="../" method="post">
+        <form class="modal-content animate" action="confirmaLogin.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-
+                <img src="../img/Game.png">
             </div>
-
-
-                <div class="container">
-
-                    <select name="utilizador" >
-                        <option value="-1">Utilizador...</option>
-                        <?php
-                        $con=mysqli_connect("localhost","root","","pap2021gameon");
-                        $sql="select * from users";
-                        $res = mysqli_query($con,$sql);
-                        while ($dados=mysqli_fetch_array($res)){
-                            ?>
-                            <option value="<?php echo $dados['userId'] ?>"><?php echo $dados['userName'] ?></option>
-
-                            <?php
-                        }
-                        ?>
-                    </select>
-                    <input type="submit" value="submeter">
+            <div class="container">
+                <label class="badge badge-dark">Username:</label>
+                <input type="text" name="nome" placeholder="nome de utilizador..">
+                <label class="badge badge-dark">Password:</label>
+                <input type="text" name="password" placeholder="nome de utilizador..">
+                <br>
+                <input type="submit" class="btn btn-danger" value="Entrar">
                 <hr>
-
-
             </div>
 
             <div class="container" style="background-color:#f1f1f1">
                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-                <span class="password">Esqueces-te da<a href="#" style="color: #00aff1">password?</a></span>
+                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">&nbsp;password?</a></span>
             </div>
         </form>
     </div>

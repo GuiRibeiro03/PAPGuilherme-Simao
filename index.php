@@ -13,9 +13,7 @@ $result_2=mysqli_query($con,$sql_2);
 $result2=mysqli_query($con,$sqlJogos);
 $result2_2=mysqli_query($con,$sql2_2);
 $result4=mysqli_query($con,$sql3);
-$sql = "Select userName from users where userId=".$_GET['nome'];
-$res=mysqli_query($con,$sql);
-$dados=mysqli_fetch_array($res);
+
 
 ?>
 
