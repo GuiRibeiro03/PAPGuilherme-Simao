@@ -76,7 +76,7 @@ function top(){
         <link rel="stylesheet" href="css/barfiller.css" type="text/css">
         <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
         <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="../css/style.css" type="text/css">
         <script src="js/jquery.min.js"></script>
         <script src="js/common.js"></script>
 
@@ -151,17 +151,34 @@ function top(){
                             $dados=mysqli_fetch_array($result);
                             ?>
                             <ul>
-                                <li><div class="ht-widget" style="float: right">
-                                        <ul class="float-right">
-                                            <div class="dropdown">
-                                                <a href="../perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="../<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
-                                                <div class="dropdown-content" style="background-color: #202020;     ">
-                                                    <li style="float: right;"><a href="../logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Sign out &nbsp;</span><i class="fa fa-sign-out"></i></a></li>
-                                                </div>
+                                <li style="float: right"><div class="ht-widget"">
+                                    <ul class="float-right">
+                                        <div class="dropdown">
+                                            <a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="../<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
+                                            <div class="dropdown-content" style="background-color: #202020;">
+
+
+                                                <?php
+                                                $con=mysqli_connect("localhost","root","","pap2021gameon");
+                                                $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
+                                                $result=mysqli_query($con, $sql);
+                                                $dados=mysqli_fetch_array($result);
+                                                if($dados["userType"]=="admin"){
+                                                    ?>
+                                                    <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Backoffice</button></a></li>
+                                                    <li ><a href="logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></a></li>
+                                                    <?php
+                                                }else{
+                                                    ?>
+                                                    <li ><a href="logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></a></li>
+                                                    <?php
+                                                }
+                                                ?>
+
+
                                             </div>
-
-                                        </ul>
-
+                                        </div>
+                                    </ul>
                                     </div>
                                 </li>
 
