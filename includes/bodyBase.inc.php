@@ -134,45 +134,88 @@ $result=mysqli_query($con, $sql);
 $dados=mysqli_fetch_array($result);
 ?>
                 <ul>
-                   <li><div class="ht-widget" style="float: right">
+                   <li style="float: right"><div class="ht-widget"">
                            <ul class="float-right">
                                <div class="dropdown">
                                    <a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
-                                   <div class="dropdown-content" style="background-color: #202020;     ">
-                                       <li style="float: right;"><a href="logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Sign out &nbsp;</span><i class="fa fa-sign-out"></i></a></li>
+                                   <div class="dropdown-content" style="background-color: #202020;">
+
+
+                                       <?php
+                                       $con=mysqli_connect("localhost","root","","pap2021gameon");
+                                       $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
+                                       $result=mysqli_query($con, $sql);
+                                       $dados=mysqli_fetch_array($result);
+                                       if($dados["userType"]=="admin"){
+                                        ?>
+                                       <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Backoffice</button></a></li>
+                                       <li ><a href="logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></a></li>
+                                       <?php
+                                       }else{
+                                           ?>
+                                           <li ><a href="logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></a></li>
+                                           <?php
+                                       }
+                                       ?>
+
+
                                    </div>
                                </div>
-
                            </ul>
-
                        </div>
                    </li>
 
 
-<?php } ?>
+<?php
+}
+?>
 
 
                         </div>
                     </div>
 
-                        <div class="col-lg-12 col-md-8" style="margin-top: 20px; ">
-                        <div class="ht-widget">
+                        <div class="col-lg-12 col-md-8" style="margin-top: 20px;">
+                        <div class="ht-widget" style=" color: #FFF">
                             <ul class="float-right">
                                 <div class="button-dropdown">
-                                    <li><i class="fa fa-shopping-cart"></i><span>Carrinho &nbsp;</span><span id="bdg1" class="badge badge-danger">0</span></li>
-                                    <div class="dropdown-content" style="width: 450px !important;" >
-                                        <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco"><strong>399,90€</strong></span>  <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
-                                        <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
-                                        <hr>
-                                        <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco2"><strong>399,90€</strong></span>    <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
-                                        <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
-                                        <hr>
-                                        <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco2"><strong>399,90€</strong></span>    <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
-                                        <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
 
-                                        <hr>
-                                        <span></spam><strong>Total: 799,80€</strong></span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+                                    <div id="mySidenav" class="sidenav" style="color: #0b0b0b; margin-left: 3px">
+                                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                        <?php
+                                        $con=mysqli_connect("localhost","root","","pap2021gameon");
+                                        $sqlprod="select * from produtos ";
+                                        $resultprod=mysqli_query($con, $sqlprod);
+                                        $i=0;
+                                        $k=0;
+                                        while($dadosprod=mysqli_fetch_array($resultprod)){
+
+                                        ?>
+                                            <span> <img src="img/<?php echo $dadosprod["produtoImagemURL"] ?>" height="60px" width="70px"> <?php echo $dadosprod["produtoNome"] ?>: &nbsp;<span id="preco"><strong><?php echo $dadosprod["produtoPreco"] ?>€</strong></span>  <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
+                                            <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                            <hr>
+
+                                            <?php
+                                            $k++;
+                                        $i+=$dadosprod["produtoPreco"];
+                                        }?>
+                                            <span></spam><strong>Total: <?php echo $i ?>€</strong></span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
                                     </div>
+
+                                    <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-shopping-cart" style="font-size: 1em"></i></span>
+
+                                    <script>
+                                        function openNav() {
+                                            document.getElementById("mySidenav").style.width = "450px";
+                                        }
+
+                                        function closeNav() {
+                                            document.getElementById("mySidenav").style.width = "0";
+                                        }
+                                    </script>
+
+
+                                    <li><span id="bdg1" class="badge badge-danger"><?php echo $k ?></span></li>
+
                                 </div>
 
                             </ul>

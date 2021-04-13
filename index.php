@@ -83,8 +83,8 @@ while ($i < 4 && $dadosJogos=mysqli_fetch_array($result2_2)){
 
     ?>
 
-                <div class="col-lg-3">
-                    <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
+                <div class="col-lg-3" >
+                    <div class="card" style="width: 300px; height:100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black; border-radius: 2%">
                         <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><img src="img/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
                         <span class="badge badge-danger">Bom Negocio!</span>
 

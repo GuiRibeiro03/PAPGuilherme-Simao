@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-Logins">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit-Logins/Perfil">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBlog.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBlog.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PAPOrlando" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papGiovanna" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -180,14 +181,10 @@
       <workItem from="1618233229488" duration="1291000" />
       <workItem from="1618238950143" duration="1517000" />
       <workItem from="1618243624096" duration="1706000" />
-      <workItem from="1618271219820" duration="2978000" />
-    </task>
-    <task id="LOCAL-00153" summary="Base de dados update noticiaEscolha">
-      <created>1616149056525</created>
-      <option name="number" value="00153" />
-      <option name="presentableId" value="LOCAL-00153" />
-      <option name="project" value="LOCAL" />
-      <updated>1616149056525</updated>
+      <workItem from="1618271219820" duration="3840000" />
+      <workItem from="1618313189405" duration="1495000" />
+      <workItem from="1618314800608" duration="3002000" />
+      <workItem from="1618330466835" duration="3708000" />
     </task>
     <task id="LOCAL-00154" summary="Escolhas">
       <created>1616150135516</created>
@@ -525,7 +522,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618266746433</updated>
     </task>
-    <option name="localTasksCounter" value="202" />
+    <task id="LOCAL-00202" summary="Commit-Logins/Perfil">
+      <created>1618274466479</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1618274466479</updated>
+    </task>
+    <option name="localTasksCounter" value="203" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,7 +548,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Review" />
     <MESSAGE value="GUilherme-Adiciona Noticia" />
     <MESSAGE value="Guilherme-Correções COPY imagens" />
     <MESSAGE value="Guilherme-Copy imagens" />
@@ -569,6 +572,7 @@
     <MESSAGE value="Commit-EditaJogo Link Trailer arranjado" />
     <MESSAGE value="Commit-Ajax links bootstrap" />
     <MESSAGE value="Commit-Logins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit-Logins" />
+    <MESSAGE value="Commit-Logins/Perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit-Logins/Perfil" />
   </component>
 </project>
