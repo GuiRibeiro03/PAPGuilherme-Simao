@@ -39,8 +39,8 @@ $result4=mysqli_query($con,$sql3);
                                         <?php
                                         while ($dadosNoticias=mysqli_fetch_array($result)){
                                             ?>
-                                        <div class="col-lg-12" >
-                                            <div class="un-big-item set-bg" data-setbg="img/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>">
+                                        <div class="col-lg-12" style="outline-color: red; outline-width: 2px" >
+                                            <div class="un-big-item set-bg" data-setbg="img/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>" style="border-radius: 10px; border: red">
 
                                                 <div class="ub-text" >
                                                     <div class="label"><span>Notícias</span></div>

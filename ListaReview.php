@@ -33,7 +33,7 @@ $dados=mysqli_fetch_array($result);
             <div class="row">
                     <div class="details-text" >
 
-                        <div style="color: white">
+                        <div style="color: white; font-size: 20px;">
                             <span style="color: white;"><b>Analista:</b></span>
                             <span><?php echo $dados['reviewAutor']?>   |</span>
                             &nbsp;
@@ -41,13 +41,14 @@ $dados=mysqli_fetch_array($result);
                         </div>
 <br>
                         <div class="dt-desc">
-                            <p style="font-size: 16px"><?php echo $dados['reviewTexto']?></p>
+                            <p style="font-size: 16px;"><?php echo $dados['reviewTexto']?></p>
                         </div>
                         <div class="dt-overall-rating">
-                            <div style="color: #FFFFFF; font-size: 30px; padding-left: 10px;"><strong><span >Resultado Global:</span></strong></div>
+                            <div style="color: #FFFFFF; font-size: 40px; margin-left: 40%;"><strong><span><strong>RESULTADOS</strong></span></strong></div>
+                            <hr>
                             <div class="or-heading">
-                                <div class="or-item" style="padding-left: 150px">
-                                    <div class="or-loader">
+                                <div class="or-item" style="margin-left: 30%">
+                                    <div class="or-loader" >
 
                                         <div class="loader-circle-wrap">
                                             <div class="loader-circle">
@@ -98,29 +99,13 @@ $dados=mysqli_fetch_array($result);
                                 e não muito em outras, o que me deixou ignorando o conteúdo paralelo depois de um ponto
                                 e apenas navegando pela história principal. Eu gostei do meu tempo com o jogo e ficarei feliz
                                 em ver como a inevitável sequência o melhora, mas não acho que voltarei para limpar a cidade do pós-jogo.</p>
+                            <br>
+                            <div class="row" style="margin-left: 5px">
+
+                                <span  id="btnLike" onclick="countClicks(this)" class="fa fa-thumbs-up text-secondary" style="font-size: 20px; margin-right: 5px"></span>
+                                <span  id="btnDislike" onclick="countClicks2(this)" class="fa fa-thumbs-down text-secondary" style="font-size: 20px; margin-left: 5px"></span></div>
                         </div>
 
-                        <div class="dt-quote">
-                            <div style="color: white; width: 100%">
-                                <span><b>Guilherme Ribeiro</b></span> <span style="float: right"><b>17/11/2020</b></span>
-                                <p style="font-size: 30px;margin-top: 15px"><span style="color: lawngreen">100%</span></p>
-                            </div>
-                            <hr>
-                            <br>
-                            <p>Já joguei este jogo 5/6 vezes porque é incrível, espetacular e incrível !!.
-                                Este é outro jogo perfeito para mim. Ok, sou um pouco influênciado porque o Homem-Aranha é meu herói favorito,
-                                então quando jogo um jogo excelente como este tendo tendência a ficar muito feliz.</p>
-                        </div>
-                        <div class="dt-quote">
-                            <div style="color: white; width: 100%">
-                                <span><b>Orlando Lopes</b></span> <span style="float: right"><b>17/11/2020</b></span>
-
-                                <p style="font-size: 30px; margin-top: 15px"><span style="color: red">40%</span></p>
-                            </div>
-                            <hr>
-                            <br>
-                            <p>Meh.</p>
-                        </div>
                         <div class="dt-tags">
                             &nbsp;
                             &nbsp;
@@ -133,11 +118,6 @@ $dados=mysqli_fetch_array($result);
                             <div class="ds-title">Partilha:</div>
                             <div class="ds-links">
 
-                                    <span id="btnLike" onclick="countClicks(this)" class="fa fa-thumbs-up text-danger"></span>
-                                   &nbsp;
-                                   &nbsp;
-                                   &nbsp;
-                                   &nbsp;
                                 <a href="#"><i class="fa fa-facebook"></i></a>
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
@@ -161,7 +141,20 @@ $dados=mysqli_fetch_array($result);
         </div>
     </section>
     <!-- Details Post Section End -->
+<script>
 
+    localStorage.clickCount = localStorage.clickCount || 0;
+    localStorage.clickCount2 = localStorage.clickCount2 || 0;
+
+    function countClicks() {
+        localStorage.clickCount++;
+        document.getElementById("btnLike").innerHTML = "&nbsp;&nbsp;" + localStorage.clickCount ;
+    }
+    function countClicks2() {
+        localStorage.clickCount2++;
+        document.getElementById("btnDislike").innerHTML =  "&nbsp;&nbsp;" + localStorage.clickCount2 ;
+    }
+</script>
     <!-- Footer Section Begin -->
 <?php
 bottom();

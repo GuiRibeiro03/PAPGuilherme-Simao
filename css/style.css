@@ -114,13 +114,13 @@ input:focus,
 select:focus,
 button:focus,
 textarea:focus {
-	outline: none;
+
 }
 
 a:hover,
 a:focus {
 	text-decoration: none;
-	outline: none;
+
 	color: #fff;
 }
 
@@ -4693,3 +4693,4 @@ background-color: transparent;
 	.sidenav a {font-size: 18px;}
 
 }
+
