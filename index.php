@@ -211,7 +211,7 @@ $i = $i + 1;
                     ?>
                         <div class="ec-item">
                             <div class="lp-item">
-                                <a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"> <div class="lp-pic set-bg" data-setbg="<?php echo $dadosNoticias2["reviewImagemURL"] ?>">
+                                <a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"> <div class="lp-pic set-bg" data-setbg="<?php echo $dadosNoticias2["reviewImagemURL"] ?>" style="border-radius: 10px">
                                 </div></a>
                                 <div class="lp-text">
                                     <h6><a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"><?php echo $dadosNoticias2['jogoNome']?></a></h6>
