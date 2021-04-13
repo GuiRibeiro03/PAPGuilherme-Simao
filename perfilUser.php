@@ -11,14 +11,25 @@ top();
     <div  class="col-lg-4 col-md-3">
 
         <div  class="card" style="width: 19rem; margin-left: 10px; margin-right: 10px; margin-top: 10px; background-color: black">
-
+<?php
+$con=mysqli_connect("localhost","root","","pap2021gameon");
+$sql="select * from perfis inner join users on perfilUserId=userId where perfilId=".$_GET["id"];
+$result=mysqli_query($con, $sql);
+while ($dados=mysqli_fetch_array($result)){
+?>
             <div class="card-body">
-                <img src="img/pessoas/bacanoEu.JPG">
+                <img src="<?php echo $dados["perfilAvatarURL"] ?>">
                 <hr>
-                <h4 class="card-title" style="text-align: center">Guilherme Ribeiro</h4>
+                <h4 class="card-title" style="text-align: center"><?php echo $dados["perfilNome"]?></h4>
                 <hr>
-                <p class="card-text" style="font-size: 18px; margin-left: 10%"><strong></strong>&nbsp;&nbsp;<span class="badge bg-primary" style=" font-size: 100%">Administrador &nbsp;<i class="fa fa-user-circle-o"></i></span></p>
+                <p class="card-text" style="font-size: 18px; margin-left: 10%"><strong></strong>&nbsp;&nbsp;<span class="badge bg-primary" style=" font-size: 100%"><?php echo $dados["userType"]?> &nbsp;<i class="fa fa-user-circle-o"></i></span></p>
+                <h4></h4>
             </div>
+
+
+            <?php
+            }
+            ?>
         </div>
 
 

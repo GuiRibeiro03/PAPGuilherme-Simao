@@ -110,11 +110,12 @@ function top(){
                     <div class="col-lg-12 col-md-8">
 
                         <div class="ht-widget">
-                            <ul class="float-right">
+
 <?php
 if(!isset($_SESSION['id'])){
 
 ?>
+                            <ul class="float-right">
                                 <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
                                             <span class="badge badge-light" style="color: black">Login</span></a></span>
 
@@ -124,31 +125,42 @@ if(!isset($_SESSION['id'])){
 
                                     <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
                                             <span class="badge badge-danger">Register</span></a></span></li>
+                            </ul>
 <?php
 }else{
+$con=mysqli_connect("localhost","root","","pap2021gameon");
+$sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
+$result=mysqli_query($con, $sql);
+$dados=mysqli_fetch_array($result);
 ?>
-
-                               <li><div class="ht-widget">
-                                       <ul class="float-left">
-                                           <a href="perfilUser.php"><img src="img/pessoas/bacanoEu.jpg" style="width: 60px; height: 60px; border-radius: 50%"><span style="margin-left: 10px"><strong><?php $_SESSION['nome'] ?></strong></span></a>
-                                       </ul>
+                <ul>
+                   <li><div class="ht-widget" style="float: right">
+                           <ul class="float-right">
+                               <div class="dropdown">
+                                   <a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
+                                   <div class="dropdown-content" style="background-color: #202020;     ">
+                                       <li style="float: right;"><a href="logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Sign out &nbsp;</span><i class="fa fa-sign-out"></i></a></li>
                                    </div>
-                               </li>
+                               </div>
 
-                                <li><a href="logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Sign out &nbsp;</span><i class="fa fa-sign-out"></i></a>
+                           </ul>
+
+                       </div>
+                   </li>
+
+
 <?php } ?>
-                                </li>
-                            </ul>
+
+
                         </div>
                     </div>
 
-
-                    <div class="col-lg-12 col-md-8" style="margin-top: 20px">
+                        <div class="col-lg-12 col-md-8" style="margin-top: 20px; ">
                         <div class="ht-widget">
                             <ul class="float-right">
-                                <div class="dropdown">
+                                <div class="button-dropdown">
                                     <li><i class="fa fa-shopping-cart"></i><span>Carrinho &nbsp;</span><span id="bdg1" class="badge badge-danger">0</span></li>
-                                    <div class="dropdown-content" >
+                                    <div class="dropdown-content" style="width: 450px !important;" >
                                         <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco"><strong>399,90€</strong></span>  <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
                                         <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                                         <hr>
