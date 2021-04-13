@@ -37,9 +37,12 @@ body {
 		font-family: "Montserrat", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
-	background-color: #0d0d0d;
 	overflow: auto;
 	overflow-x: hidden;
+	width:100%;
+	margin:0 auto;
+	padding:0px;
+	background-color:#0d0d0d;
 
 }
 
@@ -4215,6 +4218,7 @@ tr{
 .store{
 	background-color:#0d0d0d;
 	width: 100%;
+	height: 100%;
 
 }
 
@@ -4303,9 +4307,6 @@ opacity: 0;
 	--input-padding-y: .75rem;
 }
 
-body {
-	background: #0d0d0d;
-}
 
 .card-signin {
 	border: 0;
@@ -4555,14 +4556,7 @@ span.psw {
 	}
 }
 
-body
-{
-	width:100%;
-	margin:0 auto;
-	padding:0px;
-	font-family: "Montserrat", sans-serif;
-	background-color:#0d0d0d;
-}
+
 
 #wrapper
 {

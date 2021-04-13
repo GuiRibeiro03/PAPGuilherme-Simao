@@ -4,9 +4,9 @@ top();
 
 ?>
 
-<section class="store" >
-    <div style="margin-top: 5%; margin-bottom: 5%; margin-left: 35%">
-        <div class="btn-group" role="group" aria-label="Basic example">
+<section class="store" style="background-color: #0b0b0b" >
+    <div style="width: 100%; height: 100%">
+        <div class="btn-group" role="group" aria-label="Basic example" style="margin-left: 32%; margin-top: 20px; margin-bottom: 20px">
             <a href="jogosBackoffice.php"><button type="button" class="btn btn-light">Jogos</button></a>
             <a href="reviewsBackoffice.php"><button type="button" class="btn btn-light">Reviews</button></a>
             <a href="NoticiasBackoffice.php"><button type="button" class="btn btn-light">Noticias</button></a>

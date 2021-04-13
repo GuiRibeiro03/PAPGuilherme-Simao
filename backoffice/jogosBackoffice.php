@@ -25,7 +25,7 @@ $result=mysqli_query($con, $sql);
 
 <a href="Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
-<section class="store" >
+<section class="store"  style="background-color: #0b0b0b">
     <div style="margin-left: 35%">
         <div class="btn-group" >
             <a href="jogosBackoffice.php"><button type="button" class="btn btn-primary">Jogos</button></a>

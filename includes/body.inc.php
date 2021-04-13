@@ -110,7 +110,7 @@ function top(){
 
     </head>
 
-    <body>
+    <body style="background-color: #0b0b0b">
     <!-- Page Preloder -->
 
     <!-- Humberger Menu Begin -->
