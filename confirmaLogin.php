@@ -1,6 +1,6 @@
 <?php
 $id=intval($_POST['utilizador']);
-$con=mysqli_connect("localhost","root","","users");
+$con=mysqli_connect("localhost","root","","pap2021gameon");
 $nome=addslashes($_POST['utilizador']);
 $sql="select * from users where userId=".$id;
 $res=mysqli_query($con, $sql);
