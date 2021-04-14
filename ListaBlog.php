@@ -96,64 +96,66 @@ $dados2=mysqli_fetch_array($result2);
                                 </div>
                             </div>
                         </div>
-                        <div class="dt-author">
-                            <div class="da-pic">
-                                <img src="img/pessoas/bacano1.jpg" alt="">
+                        <?php
+                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade = 'noticia' and comentarioEntidadeId=$id";
+                        $resultComents=mysqli_query($con,$sql);
+                        $i=0;
+                        while ($dadosComents=mysqli_fetch_array($resultComents)){
+                            ?>
+
+                            <div class="dt-quote">
+                                <div style="color: white;">
+                                    <span><b><?php echo $dadosComents["perfilNome"]?></b></span>
+                                    <span style="float: right"><b><?php echo $dadosComents["comentarioData"]?></b></span>
+                                </div>
+                                <hr>
+                                <br>
+                                <p><?php echo $dadosComents["comentarioTexto"]?></p>
+
+                                <div class="row" style="margin-left: 5px">
+
+                                    <span  id="btnLike" onclick="countClicks(this)" class="fa fa-thumbs-up text-secondary" style="font-size: 20px; margin-right: 5px"></span>
+                                    <span  id="btnDislike" onclick="countClicks2(this)" class="fa fa-thumbs-down text-secondary" style="font-size: 20px; margin-left: 5px"></span></div>
                             </div>
-                            <div class="da-text">
-                                <h5>João Abilio</h5>
-                                <p>Editor para o site Game ON e entusiasta de gaming</p>
-                                <div class="da-links">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                </div>
+                            <?php
+                        }
+                        ?>
+
+
+                        <?php
+                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade = 'review' and comentarioEntidadeId=".$id;
+                        $resultComents=mysqli_query($con,$sql);
+                        if(isset($_SESSION['id'])){
+                            ?>
+
+                            <div class="dt-leave-comment" >
+
+                                <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</strong> </span>
+                                <form action="Confirma/ConfirmaAdicionaComentarioNoticia.php?id=<?php echo $_SESSION['id'] ?>" style="padding-top: 20px" >
+                                    <textarea required spellcheck="true" name="comentarioTexto"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px "></textarea>
+                                    <input type="hidden" name="comentarioEntidade" value="review">
+                                    <input type="hidden" name="perfilId" value="<?php echo $id?>">
+                                    <button type="submit">Comentar</button>
+                                </form>
                             </div>
-                        </div>
-                        <div class="dt-comment">
-                            <h4>Comentários</h4>
-                            <div class="dc-item">
-                                <div class="dc-pic">
-                                    <img src="img/pessoas/bacano2.jpg" alt="">
-                                </div>
-                                <div class="dc-text">
-                                    <h5>André Bandeira</h5>
-                                    <span class="c-date">15 Aug 2017</span>
-                                    <p>Estou farto de esperar!!!! Quero o jogo agora!!</p>
-                                    <a href="#" class="reply-btn"><span>Responder</span></a>
-                                </div>
-                            </div>
-                            <div class="dc-item reply-item">
-                                <div class="dc-pic">
-                                    <img src="img/pessoas/bacano3.jpg" alt="">
-                                </div>
-                                <div class="dc-text">
-                                    <h5>Ana Barros</h5>
-                                    <span class="c-date">15 Aug 2017</span>
-                                    <p>Podemos ter que esperar mas o jogo irá ficar mais completo quanto mais esperarmos, por isso apressar os desenvolvedores não é uma boa ideia!!!</p>
-                                    <a href="#" class="reply-btn"><span>Responder</span></a>
-                                </div>
-                            </div>
-                            <div class="dc-item">
-                                <div class="dc-pic">
-                                    <img src="img/pessoas/bacano4.jpg" alt="">
-                                </div>
-                                <div class="dc-text">
-                                    <h5>Eduardo Ferreira</h5>
-                                    <span class="c-date">15 Aug 2017</span>
-                                    <p>Espero que o jogo não saia incompleto e com inúmeros bugs, não quero esperar mas jogar um jogo incompleto não é divertido.</p>
-                                    <a href="#" class="reply-btn"><span>Responder</span></a>
-                                </div>
-                            </div>
-                        </div>
+
+                            <?php
+                        }else{
+                        ?>
+
                         <hr>
-                        <div class="dt-leave-comment">
-                            <h4>Deixa um comentário</h4>
-                            <form action="#">
-                                <textarea placeholder="Mensagem...  "></textarea>
-                                <button type="submit">Submeter</button>
-                            </form>
-                        </div>
+                        <div style="margin: 30px; font-size: 20px; color: #FFFFFF">
+                            <span>Para comentar nesta review  <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
+                                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></span>
+                            <div>
+                                <hr>
+                                <?php
+                                }
+
+
+                                ?>
+
+
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-7">

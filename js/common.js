@@ -1,5 +1,5 @@
 
-
+//**********************************Funções Fill*****************************************
 function fillJogosBackoffice(txt = ''){
     $.ajax({
         url:"../AJAX/AJAXfillJogos.php",
@@ -91,6 +91,9 @@ function fillPlataformasBackoffice(txt = ''){
     });
 }
 
+//******************************************EliminaFunções****************************************
+
+
 function confirmaElimina(id) {
     if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
         window.location="../Elimina/eliminaJogo?id=" + id;
@@ -126,6 +129,8 @@ function confirmaEliminaPlataforma(id) {
         window.location="../Elimina/eliminaPlataforma?id=" + id;
 }
 
+
+//***********FunçõesPreviewImagem***********************
 function preview_image(event)
 {
     var reader = new FileReader();
@@ -137,7 +142,7 @@ function preview_image(event)
     reader.readAsDataURL(event.target.files[0]);
 }
 
-
+//*************************ClickFunção****************************
 
 localStorage.clickCount = localStorage.clickCount || 0;
 
