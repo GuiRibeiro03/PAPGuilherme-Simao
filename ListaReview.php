@@ -126,12 +126,12 @@ $dados=mysqli_fetch_array($result);
                         <div class="dt-leave-comment" >
 
                             <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</ strong</span>
-                            <form action="#" style="padding-top: 20px" >
+                            <form action="adicionaComentario.php" style="padding-top: 20px" >
                                 <div class="input-list" >
                                     <input type="number" placeholder="Rating" style="width: 100px; color: #FFFFFF;">
                                 </div>
-                                <textarea required spellcheck="true"  rows="100" placeholder="Message" style="color: #FFFFFF;  "></textarea>
-                                <button type="submit">Submeter</button>
+                                <textarea required spellcheck="true"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px "></textarea>
+                                <button type="submit">Comentar</button>
                             </form>
                         </div>
                     </div>

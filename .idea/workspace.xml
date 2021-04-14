@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit: &#10;  Frontoffice:&#10;  background: #ob0b0b0b">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Border-Radius imagens index,blog,reviews">
+      <change afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,21 +184,8 @@
       <workItem from="1618271219820" duration="3840000" />
       <workItem from="1618313189405" duration="1495000" />
       <workItem from="1618314800608" duration="3002000" />
-      <workItem from="1618330466835" duration="4606000" />
-    </task>
-    <task id="LOCAL-00156" summary="Base de dados">
-      <created>1616150977261</created>
-      <option name="number" value="00156" />
-      <option name="presentableId" value="LOCAL-00156" />
-      <option name="project" value="LOCAL" />
-      <updated>1616150977261</updated>
-    </task>
-    <task id="LOCAL-00157" summary="Guilherme- Edita Noticias">
-      <created>1616166854830</created>
-      <option name="number" value="00157" />
-      <option name="presentableId" value="LOCAL-00157" />
-      <option name="project" value="LOCAL" />
-      <updated>1616166854830</updated>
+      <workItem from="1618330466835" duration="4874000" />
+      <workItem from="1618349224408" duration="5320000" />
     </task>
     <task id="LOCAL-00158" summary="Guilherme- Edita Noticias">
       <created>1616167088853</created>
@@ -525,7 +516,21 @@
       <option name="project" value="LOCAL" />
       <updated>1618335214016</updated>
     </task>
-    <option name="localTasksCounter" value="205" />
+    <task id="LOCAL-00205" summary="Commit: &#10;  bodyBlog">
+      <created>1618335633566</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1618335633566</updated>
+    </task>
+    <task id="LOCAL-00206" summary="Border-Radius imagens index,blog,reviews">
+      <created>1618349459462</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1618349459462</updated>
+    </task>
+    <option name="localTasksCounter" value="207" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,8 +549,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Copy imagens" />
-    <MESSAGE value="Guilherme-ListaJogo empresa" />
     <MESSAGE value="Guilherme-Correção de Erros e endereços" />
     <MESSAGE value="Guilherme-Jogos dimensões/Imagens editajogo" />
     <MESSAGE value="Guilherme-Index jogo Escolhas" />
@@ -569,6 +572,8 @@
     <MESSAGE value="Commit-Logins/Perfil" />
     <MESSAGE value="Commit: &#10;  Frontoffice:&#10;  -Avatar&#10;  -Se for admin mostrar butão backoffice&#10;  -Carrinho com produtos inseridos da BD para simulação responsiva" />
     <MESSAGE value="Commit: &#10;  Frontoffice:&#10;  background: #ob0b0b0b" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit: &#10;  Frontoffice:&#10;  background: #ob0b0b0b" />
+    <MESSAGE value="Commit: &#10;  bodyBlog" />
+    <MESSAGE value="Border-Radius imagens index,blog,reviews" />
+    <option name="LAST_COMMIT_MESSAGE" value="Border-Radius imagens index,blog,reviews" />
   </component>
 </project>
