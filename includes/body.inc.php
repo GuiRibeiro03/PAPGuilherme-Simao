@@ -89,9 +89,50 @@ function top($menu=HOME){
                 });
                 fillJogosBackoffice();
                 <?php
+                } elseif($menu==REVIEWS){
+                ?>
+                $('#search').keyup(function (){
+                   fillReviewsBackoffice(this.value);
+                });
+                fillReviewsBackoffice();
+                <?php
+                } elseif($menu==NEWS){
+                ?>
+                $('#search').keyup(function (){
+                    fillNoticiasBackoffice(this.value);
+                });
+                fillNoticiasBackoffice();
+                <?php
+                } elseif($menu==PRODUCT){
+                ?>
+                $('#search').keyup(function (){
+                    fillProdutoBackoffice(this.value);
+                });
+                fillProdutoBackoffice();
+                <?php
+                } elseif($menu==COMPANIES){
+                ?>
+                $('#search').keyup(function (){
+                    fillEmpresasBackoffice(this.value);
+                });
+                fillEmpresasBackoffice();
+                <?php
+                } elseif($menu==GENRES){
+                ?>
+                $('#search').keyup(function (){
+                    fillGenerosBackoffice(this.value);
+                });
+                fillGenerosBackoffice();
+                <?php
+                } elseif($menu==PLATFORMS){
+                ?>
+                $('#search').keyup(function (){
+                    fillPlataformasBackoffice(this.value);
+                });
+                fillPlataformasBackoffice();
+                <?php
                 }
                 ?>
-
             })
 
         </script>
@@ -143,7 +184,7 @@ function top($menu=HOME){
                                 <li style="float: right"><div class="ht-widget"">
                                     <ul class="float-right">
                                         <div class="dropdown">
-                                            <a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="../<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
+                                            <a href="../perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="../<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
                                             <div class="dropdown-content" style="background-color: #202020;">
 
 

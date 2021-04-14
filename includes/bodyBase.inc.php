@@ -1,9 +1,11 @@
 <?php
+include_once("config.inc.php");
+$con=mysqli_connect(HOST,USER, PASSWORD,DATABASE);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 session_start();
-function top(){
+function top($menu=HOME){
 
 ?>
     <!DOCTYPE html>
@@ -40,6 +42,15 @@ function top(){
         <link rel="shortcut icon" href="img/onbutton.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/circle-progress.min.js"></script>
+        <script src="js/jquery.barfiller.js"></script>
+        <script src="js/jquery.slicknav.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/main.js"></script>
+
         <link rel="import" href="bower_components/polymer/polymer.html">
         <link rel="import" href="bower_components/iron-flex-layout/classes/iron-flex-layout.html">
         <link rel="import" href="bower_components/iron-icons/iron-icons.html">
@@ -64,21 +75,39 @@ function top(){
 
 
         <script>
-            function preview_image(event)
-            {
-                var reader = new FileReader();
-                reader.onload = function()
-                {
-                    var output = document.getElementById('output_image');
-                    output.src = reader.result;
+            $('document').ready(function (){
+                <?php
+                if($menu==GAMES){
+                ?>
+                $('#search').keyup(function (){
+                    fillJogosBackoffice(this.value);
+                });
+                fillJogosBackoffice();
+                <?php
+                } elseif($menu==REVIEWS){
+                ?>
+                $('#search').keyup(function (){
+                    fillReviewsBackoffice(this.value);
+                });
+                fillReviewsBackoffice();
+                <?php
+                } elseif($menu==NEWS){
+                ?>
+                $('#search').keyup(function (){
+                    fillNoticiasBackoffice(this.value);
+                });
+                fillNoticiasBackoffice();
+                <?php
+                } elseif($menu==PRODUCT){
+                ?>
+                $('#search').keyup(function (){
+                    fillProdutoBackoffice(this.value);
+                });
+                fillProdutoBackoffice();
+                <?php
                 }
-                reader.readAsDataURL(event.target.files[0]);
-            }
-
-            function confirmaElimina(id) {
-                if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-                    window.location="elimina/eliminaCanais.php?id=" + id;
-            }
+                ?>
+            })
 
         </script>
 
@@ -466,17 +495,6 @@ function bottom(){
         </div>
     </div>
     <!-- Search model end -->
-
-
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/circle-progress.min.js"></script>
-    <script src="js/jquery.barfiller.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
 
 
 

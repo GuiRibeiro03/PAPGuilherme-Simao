@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Border-Radius imagens index,blog,reviews">
-      <change afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Commit: &#10;  Frontoffice:&#10;  background: #ob0b0b0b">
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillEmpresas.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillGeneros.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillNoticias.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillProduto.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillReviews.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Elimina/eliminaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/eliminaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +62,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papGiovanna" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AJAX" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -64,11 +75,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\papGuiSimao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
       <recent name="D:\wamp\www\papGuiSimao\Edita" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Edita" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

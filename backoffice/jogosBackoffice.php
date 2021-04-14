@@ -26,7 +26,7 @@ $result=mysqli_query($con, $sql);
         </div>
 
 
-    <div style="width: 100%"><input type="text" placeholder="procurar..." id="search"  style="width: 45%;"></div>
+    <div style="width: 100%"><input type="text" placeholder="Procurar..." id="search"  style="width: 45%;"></div>
 
 
     </div>
