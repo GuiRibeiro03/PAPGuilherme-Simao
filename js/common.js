@@ -136,3 +136,21 @@ function preview_image(event)
     }
     reader.readAsDataURL(event.target.files[0]);
 }
+
+
+
+localStorage.clickCount = localStorage.clickCount || 0;
+
+function countClicks() {
+    localStorage.clickCount++;
+    document.getElementById("btnLike").innerHTML = "&nbsp;&nbsp;" + localStorage.clickCount ;
+}
+
+
+
+localStorage.clickCountDislike = localStorage.clickCountDislike || 0;
+
+function countClicks2() {
+    localStorage.clickCountDislike++;
+    document.getElementById("btnDislike").innerHTML = "&nbsp;&nbsp;" + localStorage.clickCountDislike ;
+}
