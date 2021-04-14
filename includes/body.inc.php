@@ -1,12 +1,13 @@
 <?php
-$con=mysqli_connect("localhost","root","","pap2021gameon");
+include_once("config.inc.php");
+$con=mysqli_connect(HOST,USER, PASSWORD,DATABASE);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 session_start();
 
-function top(){
+function top($menu=HOME){
 
 ?>
     <!DOCTYPE html>
@@ -61,12 +62,11 @@ function top(){
               integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/common.css">
-        <script src="js/jquery.min.js"></script>
-        <script src="js/common.js"></script>
-        <script src="js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="../css/common.css">
+
+        <script src="../js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+   <!--     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      -->  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <!-- Css Styles -->
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
@@ -77,35 +77,24 @@ function top(){
         <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
         <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
         <link rel="stylesheet" href="../css/style.css" type="text/css">
-        <script src="js/jquery.min.js"></script>
-        <script src="js/common.js"></script>
-
-
-
-
+        <script src="../js/jquery.min.js"></script>
+        <script src="../js/common.js"></script>
         <script>
-            function preview_image(event)
-            {
-                var reader = new FileReader();
-                reader.onload = function()
-                {
-                    var output = document.getElementById('output_image');
-                    output.src = reader.result;
+            $('document').ready(function (){
+               <?php
+                if($menu==GAMES){
+               ?>
+                $('#search').keyup(function (){
+                    fillJogosBackoffice(this.value);
+                });
+                fillJogosBackoffice();
+                <?php
                 }
-                reader.readAsDataURL(event.target.files[0]);
-            }
+                ?>
 
-
-            function confirmaElimina(id) {
-                if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-                    window.location="../elimina/eliminaCanais.php?id=" + id;
-            }
+            })
 
         </script>
-
-
-
-
 
 
     </head>
@@ -447,19 +436,7 @@ function bottom(){
             </form>
         </div>
     </div>
-    <!-- Search model end -->
 
-
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/circle-progress.min.js"></script>
-    <script src="js/jquery.barfiller.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/common.js"></script>
 
 
 

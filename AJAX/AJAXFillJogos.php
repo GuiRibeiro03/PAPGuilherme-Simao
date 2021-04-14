@@ -1,16 +1,14 @@
 <?php
 include_once("../includes/body.inc.php");
-
-
 $txt=addslashes($_POST['txt']);
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId where jogoNome like '%$txt%' order by jogoId asc ";
 $result=mysqli_query($con, $sql);
 
 ?>
-
-
 <table class="table table-striped" style=" color: #FFFFFF; font-weight: bold; font-size: 20px; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px" >
+
+
     <tr>
         <th>Id</th>
         <th>Nome</th>
@@ -19,16 +17,14 @@ $result=mysqli_query($con, $sql);
         <th>Preço</th>
         <th>Destaque</th>
         <th colspan="3">Opções</th>
-        <th></t><a href="../Adiciona/AdicionaJogo.php" style="color: #FFFFFF;"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a></th>
-        <th></th>
+        <th><a href="../Adiciona/AdicionaJogo.php" style="color: #FFFFFF;"><button type="button" class="btn btn-success"><i class="fa fa-plus-circle"></i>&nbsp;Adicionar</button></a></th>
     </tr>
-    <tr>
         <?php
         while ($dados=mysqli_fetch_array($result)) {
             echo "<tr>";
             echo "<td>" . $dados['jogoId'] . "</td>";
             echo "<td>" . $dados['jogoNome'] . "</td>";
-            echo "<td> <img  style='width: 300px; height: 350px' src='../".$dados['jogoImagemURL']."'></td>";
+            echo "<td> <img  style='width: 300px; height: 350px' src=".$dados['jogoImagemURL']."></td>";
             echo "<td>" . $dados['empresaNome'] . "</td>";
             echo "<td>" . $dados['jogoPreco'] . "€</td>";
             echo "<td>" . $dados['jogoDestaque'] . "</td>";
