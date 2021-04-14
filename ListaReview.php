@@ -55,7 +55,8 @@ $dados=mysqli_fetch_array($result);
                                                 <span class="circle-progress-2" data-cpid="circle1" data-cpvalue="<?php echo $dados['jogoGlobalRating']?>"  data-cpcolor="#4bcf13"></span>
                                                 <div class="review-point">
                                                     <span style="padding-left: 10px; color: #FFFFFF">Global Rating:</span>
-                                                    <div style="margin-right:10px; margin-top: 10px"><?php echo $dados['jogoGlobalRating']?></div>
+                                                    <div style="margin-right:10px; margin-top: 10px; font-size: 70px"><?php echo $dados['jogoGlobalRating']?>%</div>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -67,7 +68,7 @@ $dados=mysqli_fetch_array($result);
                                                 <span class="circle-progress-2" data-cpid="circle2" data-cpvalue="<?php echo $dados['jogoUserRating']?>"  data-cpcolor="#c20000"></span>
                                                 <div class="review-point">
                                                     <span style="padding-left: 10px; color: #FFFFFF">User Rating:</span>
-                                                    <div style="padding-left: 10px; padding-top: 10px"><?php echo $dados['jogoUserRating']?></div>
+                                                    <div style="padding-left: 10px; padding-top: 10px; font-size: 70px"><?php echo $dados['jogoUserRating']?>%</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -79,33 +80,64 @@ $dados=mysqli_fetch_array($result);
                             </div>
 
                         </div>
-                        <div class="dt-quote">
-                            <div style="color: white">
-                                <span><b>Simão Bercial</b></span>
-                                <span style="float: right"><b>17/11/2020</b></span>
-                                <p style="font-size: 30px;margin-top: 15px"><span style="color: lawngreen">90%</span></p>
+                        <?php
+                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade = 'review' and comentarioEntidadeId=$id";
+                        $resultComents=mysqli_query($con,$sql);
+                        $i=0;
+                        while ($dadosComents=mysqli_fetch_array($resultComents)){
+                        ?>
 
+                        <div class="dt-quote">
+                            <div style="color: white;">
+                                <span><b><?php echo $dadosComents["perfilNome"]?></b></span>
+                                <span style="float: right"><b><?php echo $dadosComents["comentarioData"]?></b></span>
                             </div>
                             <hr>
                             <br>
-                            <p>Embora muito divertido. Parecia que eu já tinha jogado o jogo. A história era boa.
-                                Mas às vezes a jogabilidade me deixava querendo. O websling foi maravilhoso,
-                                mas ir para os marcadores parecia uma rotina. Particularmente com as missões secundárias que
-                                parecem muito decepcionantes, raramente com algum conteúdo interessante envolvido.
-                                Apenas os dois vilões principais pareciam uma ameaça válida, deixando os outros facilmente derrotados,
-                                mesmo estando em maior número do que você.</p>
+                            <p><?php echo $dadosComents["comentarioTexto"]?></p>
 
-                            <p>  Eu sinto que houve muito trabalho em algumas áreas,
-                                e não muito em outras, o que me deixou ignorando o conteúdo paralelo depois de um ponto
-                                e apenas navegando pela história principal. Eu gostei do meu tempo com o jogo e ficarei feliz
-                                em ver como a inevitável sequência o melhora, mas não acho que voltarei para limpar a cidade do pós-jogo.</p>
-                            <br>
                             <div class="row" style="margin-left: 5px">
 
                                 <span  id="btnLike" onclick="countClicks(this)" class="fa fa-thumbs-up text-secondary" style="font-size: 20px; margin-right: 5px"></span>
                                 <span  id="btnDislike" onclick="countClicks2(this)" class="fa fa-thumbs-down text-secondary" style="font-size: 20px; margin-left: 5px"></span></div>
                         </div>
+                        <?php
+                          }
+                        ?>
 
+
+                        <?php
+                        if(isset($_SESSION['id'])){
+                        ?>
+
+                        <div class="dt-leave-comment" >
+
+                            <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</ strong</span>
+                            <form action="Confirma/ConfirmaAdicionaComentario.php" style="padding-top: 20px" >
+                                <textarea required spellcheck="true" name="comentarioTexto"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px "></textarea>
+                                <input type="hidden" name="comentarioEntidade" value="review">
+                                <button type="submit">Comentar</button>
+                            </form>
+                        </div>
+
+                        <?php
+                        }else{
+                        ?>
+
+                        <hr>
+                          <div style="margin: 30px; font-size: 20px; color: #FFFFFF">
+                            <span>Para comentar nesta review  <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
+                                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></span>
+                              <div>
+                          <hr>
+                        <?php
+                        }
+
+
+                        ?>
+
+
+                        <br>
                         <div class="dt-tags">
                             &nbsp;
                             &nbsp;
@@ -122,18 +154,6 @@ $dados=mysqli_fetch_array($result);
                                 <a href="#"><i class="fa fa-instagram"></i></a>
                             </div>
                         </div>
-
-                        <div class="dt-leave-comment" >
-
-                            <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</ strong</span>
-                            <form action="adicionaComentario.php" style="padding-top: 20px" >
-                                <div class="input-list" >
-                                    <input type="number" placeholder="Rating" style="width: 100px; color: #FFFFFF;">
-                                </div>
-                                <textarea required spellcheck="true"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px "></textarea>
-                                <button type="submit">Comentar</button>
-                            </form>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -141,20 +161,45 @@ $dados=mysqli_fetch_array($result);
         </div>
     </section>
     <!-- Details Post Section End -->
-<script>
 
-    localStorage.clickCount = localStorage.clickCount || 0;
-    localStorage.clickCount2 = localStorage.clickCount2 || 0;
 
-    function countClicks() {
-        localStorage.clickCount++;
-        document.getElementById("btnLike").innerHTML = "&nbsp;&nbsp;" + localStorage.clickCount ;
-    }
-    function countClicks2() {
-        localStorage.clickCount2++;
-        document.getElementById("btnDislike").innerHTML =  "&nbsp;&nbsp;" + localStorage.clickCount2 ;
-    }
-</script>
+
+
+
+
+
+    <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="confirmaLogin.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="img/Game.png">
+            </div>
+            <div class="container">
+                <select name="utilizador" >
+                    <option value="-1">Utilizador...</option>
+                    <?php
+                    $con=mysqli_connect("localhost","root","","pap2021gameon");
+                    $sql="select * from users";
+                    $res = mysqli_query($con,$sql);
+                    while ($dados=mysqli_fetch_array($res)){
+                        ?>
+                        <option value="<?php echo $dados['userId'] ?>"><?php echo $dados['userName'] ?></option>
+
+                        <?php
+                    }
+                    ?>
+                </select>
+                <input type="submit" class="btn btn-danger" value="Entrar">
+                <hr>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">&nbsp;password?</a></span>
+            </div>
+        </form>
+    </div>
     <!-- Footer Section Begin -->
 <?php
 bottom();
