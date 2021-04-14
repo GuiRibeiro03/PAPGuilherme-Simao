@@ -133,7 +133,7 @@ $dados2=mysqli_fetch_array($result2);
                                 <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</strong> </span>
                                 <form action="Confirma/ConfirmaAdicionaComentarioNoticia.php?id=<?php echo $_SESSION['id'] ?>" style="padding-top: 20px" >
                                     <textarea required spellcheck="true" name="comentarioTexto"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px "></textarea>
-                                    <input type="hidden" name="comentarioEntidade" value="review">
+                                    <input type="hidden" name="comentarioEntidade" value="noticia">
                                     <input type="hidden" name="perfilId" value="<?php echo $id?>">
                                     <button type="submit">Comentar</button>
                                 </form>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Comentarios" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Comentarios">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioReview.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,13 +182,7 @@
       <workItem from="1618314800608" duration="3002000" />
       <workItem from="1618330466835" duration="4874000" />
       <workItem from="1618349224408" duration="5320000" />
-    </task>
-    <task id="LOCAL-00161" summary="Guilherme-eliminar trending">
-      <created>1616405080949</created>
-      <option name="number" value="00161" />
-      <option name="presentableId" value="LOCAL-00161" />
-      <option name="project" value="LOCAL" />
-      <updated>1616405080949</updated>
+      <workItem from="1618441666898" duration="310000" />
     </task>
     <task id="LOCAL-00162" summary="Guilherme-Jogos Os melhores">
       <created>1616405907890</created>
@@ -523,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618423494727</updated>
     </task>
-    <option name="localTasksCounter" value="210" />
+    <task id="LOCAL-00210" summary="Guilherme- Comentarios">
+      <created>1618424200998</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1618424200998</updated>
+    </task>
+    <option name="localTasksCounter" value="211" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
