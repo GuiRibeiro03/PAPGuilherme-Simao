@@ -117,14 +117,14 @@ if(!isset($_SESSION['id'])){
 ?>
                             <ul class="float-right">
                                 <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
-                                            <span class="badge badge-light" style="color: black">Login</span></a></span>
+                                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span>
 
                                 </li>
 
                                     <li>|</li>
 
                                     <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
-                                            <span class="badge badge-danger">Register</span></a></span></li>
+                                            <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
                             </ul>
 <?php
 }else{
@@ -149,11 +149,11 @@ $dados=mysqli_fetch_array($result);
                                            if($dados["userType"]=="admin"){
                                                ?>
                                                <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Backoffice</button></a></li>
-                                               <li ><a href="logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></a></li>
+                                               <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                <?php
                                            }else{
                                                ?>
-                                               <li ><a href="logout.php"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></a></li>
+                                               <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                <?php
                                            }
                                            ?>
@@ -180,26 +180,47 @@ $dados=mysqli_fetch_array($result);
                                 <div class="button-dropdown">
 
                                     <div id="mySidenav" class="sidenav" style="color: #0b0b0b; margin-left: 3px">
+                                        <h3 style="color: #0b0b0b"><strong>Carrinho:</strong></h3>
+                                        <hr>
                                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                        <?php
-                                        $con=mysqli_connect("localhost","root","","pap2021gameon");
-                                        $sqlprod="select * from produtos ";
-                                        $resultprod=mysqli_query($con, $sqlprod);
-                                        $i=0;
-                                        $k=0;
-                                        while($dadosprod=mysqli_fetch_array($resultprod)){
 
-                                        ?>
-                                            <span> <img src="img/<?php echo $dadosprod["produtoImagemURL"] ?>" height="60px" width="70px"> <?php echo $dadosprod["produtoNome"] ?>: &nbsp;<span id="preco"><strong><?php echo $dadosprod["produtoPreco"] ?>€</strong></span>  <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
-                                            <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
-                                            <hr>
+    <?php
+if(isset($_SESSION['id'])){
 
-                                            <?php
-                                            $k++;
-                                        $i+=$dadosprod["produtoPreco"];
-                                        }?>
+    ?>
+
+                                                <?php
+                                                $con=mysqli_connect("localhost","root","","pap2021gameon");
+                                                $sqlprod="select * from produtos where produtoTipo='consola' ";
+                                                $resultprod=mysqli_query($con, $sqlprod);
+                                                $i=0;
+                                                $k=0;
+                                                while($dadosprod=mysqli_fetch_array($resultprod)){
+
+                                                ?>
+
+                                                            <span> <img src="img/<?php echo $dadosprod["produtoImagemURL"] ?>" height="60px" width="70px"> <?php echo $dadosprod["produtoNome"] ?>: &nbsp;<span id="preco"><strong><?php echo $dadosprod["produtoPreco"] ?>€</strong></span>  <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
+                                                            <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                                            <hr>
+
+                                                    <?php
+                                                    $k++;
+                                                $i+=$dadosprod["produtoPreco"];
+                                                }?>
                                             <span></spam><strong>Total: <?php echo $i ?>€</strong></span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+
+<?php
+}else{
+    $k=0;
+?>
+
+                            <span>Para adicionar produtos ao carrinho, </span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span>
+
+        <?php
+}
+        ?>
                                     </div>
+
 
                                     <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fa fa-shopping-cart" style="font-size: 1em"></i></span>
 
