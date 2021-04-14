@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Commit 14/4/2021">
-      <change afterPath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentario.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-    </list>
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Comentarios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,13 +179,6 @@
       <workItem from="1618314800608" duration="3002000" />
       <workItem from="1618330466835" duration="4874000" />
       <workItem from="1618349224408" duration="5320000" />
-    </task>
-    <task id="LOCAL-00160" summary="adw">
-      <created>1616180373302</created>
-      <option name="number" value="00160" />
-      <option name="presentableId" value="LOCAL-00160" />
-      <option name="project" value="LOCAL" />
-      <updated>1616180373302</updated>
     </task>
     <task id="LOCAL-00161" summary="Guilherme-eliminar trending">
       <created>1616405080949</created>
@@ -532,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618412713325</updated>
     </task>
-    <option name="localTasksCounter" value="209" />
+    <task id="LOCAL-00209" summary="Guilherme- Comentarios">
+      <created>1618423494727</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1618423494727</updated>
+    </task>
+    <option name="localTasksCounter" value="210" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +542,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Jogos dimensões/Imagens editajogo" />
     <MESSAGE value="Guilherme-Index jogo Escolhas" />
     <MESSAGE value="Guilherme-Base de dados/imagem Modal" />
     <MESSAGE value="Guilherme-CRUD Adiciona/ELimina Produtos" />
@@ -576,6 +566,7 @@
     <MESSAGE value="Commit: &#10;  bodyBlog" />
     <MESSAGE value="Border-Radius imagens index,blog,reviews" />
     <MESSAGE value="Guilherme- Commit 14/4/2021" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Commit 14/4/2021" />
+    <MESSAGE value="Guilherme- Comentarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Comentarios" />
   </component>
 </project>

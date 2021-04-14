@@ -115,11 +115,10 @@ $dados=mysqli_fetch_array($result);
                         <div class="dt-leave-comment" >
 
                             <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</strong> </span>
-                            <form action="Confirma/ConfirmaAdicionaComentarioReview.php?id=" style="padding-top: 20px" >
+                            <form action="Confirma/ConfirmaAdicionaComentarioReview.php?id=<?php echo $id?>" style="padding-top: 20px" >
                                 <textarea required spellcheck="true" name="comentarioTexto"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px "></textarea>
                                 <input type="hidden" name="comentarioEntidade" value="review">
                                 <input type="datetime-local" name="comentarioData">
-                                <input type="hidden" name="entidadeId" value="<?php echo $id?>">
                                 <button type="submit">Comentar</button>
                             </form>
                         </div>
