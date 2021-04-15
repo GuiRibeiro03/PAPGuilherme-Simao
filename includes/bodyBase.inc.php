@@ -102,13 +102,13 @@ if(!isset($_SESSION['id'])){
                                     <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
                                             <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
                             </ul>
-<?php
-}else{
-$con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
-$result=mysqli_query($con, $sql);
-$dados=mysqli_fetch_array($result);
-?>
+            <?php
+            }else{
+            $con=mysqli_connect("localhost","root","","pap2021gameon");
+            $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
+            $result=mysqli_query($con, $sql);
+            $dados=mysqli_fetch_array($result);
+            ?>
                 <ul>
                            <li style="float: right"><div class="ht-widget"">
                                <ul class="float-right">
