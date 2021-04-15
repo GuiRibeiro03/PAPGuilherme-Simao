@@ -1,9 +1,13 @@
 <?php
+include_once("config.inc.php");
+$con=mysqli_connect(HOST,USER, PASSWORD,DATABASE);
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
 session_start();
-function top(){
+
+function top($menu=HOME){
 
 ?>
     <!DOCTYPE html>
@@ -58,7 +62,70 @@ function top(){
         <script src="js/jquery.min.js"></script>
         <script src="js/common.js"></script>
 
+        <script>
+            $('document').ready(function (){
+                <?php
+                if($menu==GAMES){
+                ?>
+                $('#search').keyup(function (){
+                    fillJogosBackoffice(this.value);
+                });
+                fillJogosBackoffice();
+                <?php
+                } elseif($menu==REVIEWS){
+                ?>
+                $('#search').keyup(function (){
+                    fillReviewsBackoffice(this.value);
+                });
+                fillReviewsBackoffice();
+                <?php
+                } elseif($menu==NEWS){
+                ?>
+                $('#search').keyup(function (){
+                    fillNoticiasBackoffice(this.value);
+                });
+                fillNoticiasBackoffice();
+                <?php
+                } elseif($menu==PRODUCT){
+                ?>
+                $('#search').keyup(function (){
+                    fillProdutoBackoffice(this.value);
+                });
+                fillProdutoBackoffice();
+                <?php
+                } elseif($menu==COMPANIES){
+                ?>
+                $('#search').keyup(function (){
+                    fillEmpresasBackoffice(this.value);
+                });
+                fillEmpresasBackoffice();
+                <?php
+                } elseif($menu==GENRES){
+                ?>
+                $('#search').keyup(function (){
+                    fillGenerosBackoffice(this.value);
+                });
+                fillGenerosBackoffice();
+                <?php
+                } elseif($menu==PLATFORMS){
+                ?>
+                $('#search').keyup(function (){
+                    fillPlataformasBackoffice(this.value);
+                });
+                fillPlataformasBackoffice();
+                <?php
+                } elseif($menu==GAMESFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillJogosFrontoffice(this.value);
+                });
+                fillJogosFrontoffice();
+                <?php
+                }
+                ?>
+            })
 
+        </script>
 
 
 

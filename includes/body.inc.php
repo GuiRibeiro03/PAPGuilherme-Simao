@@ -131,6 +131,13 @@ function top($menu=HOME){
                 });
                 fillPlataformasBackoffice();
                 <?php
+                } elseif($menu==GAMESFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillJogosFrontoffice(this.value);
+                });
+                fillJogosFrontoffice();
+                <?php
                 }
                 ?>
             })

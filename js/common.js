@@ -91,9 +91,9 @@ function fillPlataformasBackoffice(txt = ''){
     });
 }
 
-function filljogos(txt = ''){
+function fillJogosFrontoffice(txt = ''){
     $.ajax({
-        url:"../jogos.php",
+        url:"AJAX/AJAXFillJogosFront.php",
         type:"post",
         data:{
             txt:txt
