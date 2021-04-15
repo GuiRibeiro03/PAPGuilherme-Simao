@@ -102,8 +102,6 @@ $result2=mysqli_query($con,$sql2);
                             <?php
                         }else{
                         ?>
-
-
                         <hr>
                         <div style="margin: 30px; font-size: 20px; color: #FFFFFF">
                             <span>Para comentar nesta review  <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
@@ -112,13 +110,12 @@ $result2=mysqli_query($con,$sql2);
                                 <hr>
                                 <?php
                                 }
-
-
                                 ?>
                                 <!-- ************************************************FIM************************************************-->
 
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-7">
                     <div class="sidebar-option">
 
