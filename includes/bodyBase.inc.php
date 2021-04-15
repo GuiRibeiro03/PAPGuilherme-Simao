@@ -281,49 +281,6 @@ function bottom(){
     ?>
 
 
-    <footer class="footer-section" >
-        <div class="container">
-
-            <div class="footer-about">
-                <div class="fa-logo">
-                    <a href="index.php"><img src="img/gameOn.png">
-                        <p>Podes nos seguir na nossa Redes Sociais para seguires</p>
-                        <p> as novidades da loja e do mundo do gaming à tua volta.</p></a>
-
-
-                    <a href="jogos.php" style="margin-left: 20%;"><img src="img/igdb2.png" style="width: 200px; height: 200px"><p>The data was freely provided by IGDB.com</p></a>
-                </div>
-
-
-            </div>
-            <hr>
-         <div class="footer-about">
-            <div class=" footer-about fa-social">
-                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
-            </div>
-        </div>
-        </div>
-        <div class="copyright-area"  >
-            <div class="row">
-                <div class="col-lg-6">
-
-                    <div class="ca-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="ca-links">
-                        <a href="#">About</a>
-                        <a href="#">Contact</a>
-                        <a href="#">Support</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
-
 
 
     <!--*********** Modal Registar **************-->

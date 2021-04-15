@@ -99,11 +99,11 @@ top();
 
 
 
-<?php
-$i=0;
-while ($dados=mysqli_fetch_array($result)){
-    $i+=1;
-?>
+        <?php
+        $i=0;
+        while ($dados=mysqli_fetch_array($result)){
+            $i+=1;
+        ?>
 
 
             <div id="content"  class="col-lg-4 col-md-3">
@@ -148,8 +148,20 @@ while ($dados=mysqli_fetch_array($result)){
 }
         ?>
 
-</div>
 
+
+</div>
+        <hr>
+        <div  class="align-center" style="width: 100%; margin-top: 20px;">
+            <div class="btn-group" role="group" aria-label="Basic example" style="font-size: 20px; font-weight: bold">
+                <button type="button" class="btn btn-danger" style="font-size: 20px"><i class="fa fa-fast-backward" style="font-size: 20px"></i>&nbsp;Inicio.</button>
+                <button type="button" class="btn btn-danger" style="font-size: 20px"><i class="fa fa-arrow-left" style="font-size: 20px"></i>&nbsp;Ant.</button>
+                <button type="button" class="btn btn-danger" style="font-size: 20px">1</button>
+                <button type="button" class="btn btn-danger" style="font-size: 20px">2</button>
+                <button type="button" class="btn btn-danger" style="font-size: 20px">3</button>
+                <button type="button" class="btn btn-danger" style="font-size: 20px">Prox.&nbsp;<i class="fa fa-arrow-right" style="font-size: 20px"></i></button>
+                <button type="button" class="btn btn-danger" style="font-size: 20px">Fim &nbsp;<i class="fa fa-fast-forward" style="font-size: 20px"></i></button>
+            </div></div>
 
     </section>
 
