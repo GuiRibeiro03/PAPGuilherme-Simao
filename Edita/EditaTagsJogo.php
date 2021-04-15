@@ -4,8 +4,8 @@ top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET["id"]);
 
-$sql="select * from jogogeneros where jogoGeneroJogoId=".$id;
-$sql2="select * from jogoplataformas where jogoPlataformaJogoId =".$id;
+$sql="select * from  jogogeneros where jogoGeneroJogoId=".$id;
+$sql1="select * from jogoplataformas where jogoPlataformaJogoId=".$id;
 
 
 ?>
@@ -22,8 +22,8 @@ $sql2="select * from jogoplataformas where jogoPlataformaJogoId =".$id;
     <select class="form-select"  aria-label="Default select example" name="generoId">
         <option value="-1">Escolha o genero...</option>
         <?php
-        $sql="select * from jogogeneros inner join generos on jogoGeneroGeneroId = generoId order by generoNome";
-        $result=mysqli_query($con,$sql);
+        $sql2="select * from generos inner join jogogeneros on generoId=jogoGeneroGeneroId order by generoId";
+        $result=mysqli_query($con,$sql2);
         while ($dadosGeneros=mysqli_fetch_array($result)){
             ?>
             <option value="<?php echo $dadosGeneros['jogoGeneroGeneroId']?>">
@@ -37,8 +37,8 @@ $sql2="select * from jogoplataformas where jogoPlataformaJogoId =".$id;
     <select class="form-select"  aria-label="Default select example" name="plataformaId">
         <option value="-1">Escolha a plataforma...</option>
         <?php
-        $sql2="select * from jogoplataformas inner join plataformas on jogoPlataformaPlataformaId = plataformaId order by plataformaNome";
-        $result2=mysqli_query($con,$sql2);
+        $sql3="select * from plataformas  inner join jogoplataformas on plataformaId  = jogoPlataformaPlataformaId order by plataformaId";
+        $result2=mysqli_query($con,$sql3);
         while ($dadosPlataformas=mysqli_fetch_array($result2)){
             ?>
             <option value="<?php echo $dadosPlataformas['jogoPlataformaPlataformaId']?>">

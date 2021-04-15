@@ -1,4 +1,4 @@
-<?php
+    <?php
 include_once("../includes/body.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
@@ -96,7 +96,7 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
     <label style="color:white; font-size: 15px" class="badge badge-dark">Preço:</label>
     <input type="text" name="jogoPreco" style="width: 100px"><hr>
 
-
+    <div class="row">
     <label style="color:white; font-size: 15px" class="badge badge-dark">Empresa</label>
     <select name="jogoEmpresaId">
         <option value="-1">Escolha a empresa...</option>
@@ -144,12 +144,14 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
         ?>
     </select>
+
+    </div>
 <hr>
-    <label style="color:white; font-size: 15px" class="badge badge-dark">Produto em destaque:</label>
+
 
 
 <div style="color: #FFFFFF; margin-top: 50px">
-    <label>Produto em destaque:</label>
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Produto em destaque:</label>
   <p><input type="radio" name="jogoDestaque" value="sim" >&nbsp;Sim</p>
   <p><input type="radio" name="jogoDestaque" value="nao" checked>&nbsp;Não</p>
     </div>
