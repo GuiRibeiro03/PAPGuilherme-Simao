@@ -81,7 +81,7 @@ $dados=mysqli_fetch_array($result);
 
                         </div>
                         <?php
-                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade = 'review' and comentarioEntidadeId=$id";
+                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade like 'review' and comentarioEntidadeId=$id";
                         $resultComents=mysqli_query($con,$sql);
                         $i=0;
                         while ($dadosComents=mysqli_fetch_array($resultComents)){
@@ -107,18 +107,16 @@ $dados=mysqli_fetch_array($result);
 
 
                         <?php
-                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade = 'review' and comentarioEntidadeId=".$id;
-                        $resultComents=mysqli_query($con,$sql);
                         if(isset($_SESSION['id'])){
                         ?>
 
                         <div class="dt-leave-comment" >
 
                             <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</strong> </span>
-                            <form action="Confirma/ConfirmaAdicionaComentarioReview.php?id=<?php echo $id?>" style="padding-top: 20px" >
-                                <textarea required spellcheck="true" name="comentarioTexto"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px "></textarea>
+                            <form action="Confirma/ConfirmaAdicionaComentarioReview.php?id=<?php echo $id?>" style="padding-top: 20px" method="post">
+                                <input type="datetime-local" name="comentarioData" style="margin-bottom: 20px">
+                                <textarea required spellcheck="true" name="comentarioTexto"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px"></textarea>
                                 <input type="hidden" name="comentarioEntidade" value="review">
-                                <input type="datetime-local" name="comentarioData">
                                 <button type="submit">Comentar</button>
                             </form>
                         </div>

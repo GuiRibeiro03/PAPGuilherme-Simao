@@ -113,10 +113,11 @@ $dados=mysqli_fetch_array($result);
                            <li style="float: right"><div class="ht-widget"">
                                <ul class="float-right">
                                    <div class="dropdown">
-                                       <a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
+                                       </span><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
                                        <div class="dropdown-content" style="background-color: #202020;">
 
-
+                                           <span><?php echo $dados["perfilNome"]?></span>
+                                                    <hr>
                                            <?php
                                            $con=mysqli_connect("localhost","root","","pap2021gameon");
                                            $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];

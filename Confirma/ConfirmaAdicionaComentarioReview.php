@@ -1,12 +1,17 @@
 <?php
-include_once ("../includes/body.inc.php");
+require_once ("../includes/body.inc.php");
 
-$utilizadorId=intval($_SESSION["id"]);
+$utilizadorId=($_SESSION["id"]);
 
-$entidadeTipo=addslashes($_POST['comentarioEntidade']);
-$entidadeId=intval($_GET['id']);
-$comentarioTexto=addslashes($_POST['comentarioTexto']);
-$comentarioData=$_POST['comentarioData'];
+
+
+//********Nao deteta***************************************
+$entidadeId=intval($_GET["id"]);
+$entidadeTipo=addslashes($_POST["comentarioEntidade"]);
+$comentarioTexto=addslashes($_POST["comentarioTexto"]);
+$comentarioData=addslashes($_POST["comentarioData"]);
+//*********************************************************
+
 
 
 $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
@@ -14,6 +19,6 @@ echo $sql="insert into comentarios (comentarioData,comentarioTexto,comentarioPer
 values ('".$comentarioData."','".$comentarioTexto."','".$utilizadorId."','".$entidadeTipo."','".$entidadeId."')";
 
 mysqli_query($con, $sql);
-
+header("location: ../ListaReview.php?id=".$entidadeId);
 
 ?>
