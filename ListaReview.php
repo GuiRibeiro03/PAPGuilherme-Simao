@@ -81,7 +81,7 @@ $dados=mysqli_fetch_array($result);
 
                         </div>
                         <?php
-                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade like 'review' and comentarioEntidadeId=$id";
+                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade like 'review' and comentarioEntidadeId=$id order by comentarioData desc";
                         $resultComents=mysqli_query($con,$sql);
                         $i=0;
                         while ($dadosComents=mysqli_fetch_array($resultComents)){
