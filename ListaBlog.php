@@ -10,7 +10,7 @@ $dados=mysqli_fetch_array($result);
 
 
 
-$sql2="select * from noticias limit 3";
+$sql2="select * from noticias limit 5";
 $result2=mysqli_query($con,$sql2);
 
 ?>
@@ -128,7 +128,7 @@ $result2=mysqli_query($con,$sql2);
                             ?>
                             <div class="trending-item">
                                 <div class="ti-pic">
-                                    <img src="img/<?php echo $dados2["noticiaImagemFundoURL"]?>" style="height: 80px; width: 80px" alt="">
+                                    <a href="ListaBlog.php?id=<?php echo $dados2["noticiaId"]?>"><img src="img/<?php echo $dados2["noticiaImagemFundoURL"]?>" style="height: 140px; width: 180px" alt=""></a>
                                 </div>
                                 <div class="ti-text">
                                     <h6><a href="ListaBlog.php?id=<?php echo $dados2["noticiaId"]?>"><?php echo $dados2["noticiaTitulo"]?></a>
