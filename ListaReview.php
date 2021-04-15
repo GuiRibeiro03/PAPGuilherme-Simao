@@ -80,6 +80,9 @@ $dados=mysqli_fetch_array($result);
                             </div>
 
                         </div>
+
+                        <!-- ***********************************Comentários section******************************-->
+
                         <?php
                         $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade like 'review' and comentarioEntidadeId=$id order by comentarioData desc";
                         $resultComents=mysqli_query($con,$sql);
@@ -136,7 +139,7 @@ $dados=mysqli_fetch_array($result);
 
 
                         ?>
-
+<!-- ************************************************FIM************************************************-->
 
                         <br>
                         <div class="dt-tags">

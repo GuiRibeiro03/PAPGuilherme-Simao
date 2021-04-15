@@ -2,6 +2,7 @@
 include_once("includes/bodyBase.inc.php");
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $search=addslashes($_POST["txt"]);
+$search="";
 $sql="select * from jogos where jogoNome like '%$search%' ";
 $result=mysqli_query($con,$sql);
 
@@ -10,16 +11,7 @@ top();
 ?>
 
 
-<script>
 
-    $('document').ready(function (){
-        $('#search').keyup(function (){
-            fillJogos(this.value);
-        });
-        fillJogos();
-    })
-
-</script>
 
 <input type="text" placeholder="Procura o jogo que desejas..." id="search" style="width: 30%; margin-left: 30%">
     <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">

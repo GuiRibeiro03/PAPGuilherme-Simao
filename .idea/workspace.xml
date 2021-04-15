@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Carrinho não cria 2a scrollbar">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Menu Paginas jogos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,14 +189,10 @@
       <workItem from="1618330466835" duration="4874000" />
       <workItem from="1618349224408" duration="5320000" />
       <workItem from="1618441666898" duration="552000" />
-      <workItem from="1618478043230" duration="20126000" />
-    </task>
-    <task id="LOCAL-00168" summary="Guilherme-Correções COPY imagens">
-      <created>1616497657754</created>
-      <option name="number" value="00168" />
-      <option name="presentableId" value="LOCAL-00168" />
-      <option name="project" value="LOCAL" />
-      <updated>1616497657754</updated>
+      <workItem from="1618478043230" duration="20160000" />
+      <workItem from="1618511412976" duration="58000" />
+      <workItem from="1618513462103" duration="1597000" />
+      <workItem from="1618515391462" duration="649000" />
     </task>
     <task id="LOCAL-00169" summary="Guilherme-Correções COPY imagens">
       <created>1616500647779</created>
@@ -530,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618510271714</updated>
     </task>
-    <option name="localTasksCounter" value="217" />
+    <task id="LOCAL-00217" summary="Guilherme- Menu Paginas jogos">
+      <created>1618511384111</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1618511384111</updated>
+    </task>
+    <option name="localTasksCounter" value="218" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -549,7 +556,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Edita Produto" />
     <MESSAGE value="Guilherme-tagGeneros" />
     <MESSAGE value="Guilherme-GroupButton" />
     <MESSAGE value="Simão - Add Generos e plataformas no adicionaJogo e confirma incompleto" />
@@ -574,6 +580,7 @@
     <MESSAGE value="Guilherme- Adiciona Comentário a Funcionar!!" />
     <MESSAGE value="Guilherme- Comentários a ordenar por o mais recente" />
     <MESSAGE value="Guilherme- Carrinho não cria 2a scrollbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Carrinho não cria 2a scrollbar" />
+    <MESSAGE value="Guilherme- Menu Paginas jogos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Menu Paginas jogos" />
   </component>
 </project>

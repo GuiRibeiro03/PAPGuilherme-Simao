@@ -10,9 +10,9 @@ $dados=mysqli_fetch_array($result);
 
 
 
-$sql2="select * from noticias";
+$sql2="select * from noticias limit 3";
 $result2=mysqli_query($con,$sql2);
-$dados2=mysqli_fetch_array($result2);
+
 ?>
     <!-- Details Hero Section Begin -->
     <section class="details-hero-section set-bg" data-setbg="img/<?php echo $dados["noticiaImagemFundoURL"]?>">
@@ -53,51 +53,13 @@ $dados2=mysqli_fetch_array($result2);
                             <a href="blogTagExemplo.html"><span>Playstation</span></a>
                             <a href="blog.php"><span>CD Projekt Red</span></a>
                         </div>
-                        <div class="dt-share">
-                            <div class="ds-title">Sociais</div>
-                            <div class="ds-links">
-                                <div class="ds-links">
 
-                                    <span id="btnLike" onclick="countClicks(this)" class="fa fa-thumbs-up text-danger"></span>
-                                    &nbsp;
-                                    &nbsp;
-                                    &nbsp;
-                                    &nbsp;
-                                </div>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                            </div>
-                        </div>
-                        <div class="dt-related-post">
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <a href="#" class="rp-prev">
-                                        <span>Anterior</span>
-                                        <div class="rp-pic">
-                                            <img src="img/details/prev.jpg" alt="">
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="col-lg-6">
-                                    <a href="blog2.html" class="rp-next">
-                                        <span>Próximo</span>
-                                        <div class="rp-pic">
-                                            <img src="img/details/next.jpg" alt="">
-                                        </div>
-                                        <div class="rp-text">
-                                            <h6>Watch dogs legion decepciona</h6>
-                                            <ul>
-                                                <li><i class="fa fa-clock-o"></i> Aug 01, 2019</li>
-                                                <li><i class="fa fa-comment-o"></i> 20</li>
-                                            </ul>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+
+
+                        <!-- ***********************************Comentários section******************************-->
+
                         <?php
-                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade = 'noticia' and comentarioEntidadeId=$id";
+                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade like 'noticia' and comentarioEntidadeId=$id order by comentarioData desc";
                         $resultComents=mysqli_query($con,$sql);
                         $i=0;
                         while ($dadosComents=mysqli_fetch_array($resultComents)){
@@ -113,28 +75,26 @@ $dados2=mysqli_fetch_array($result2);
                                 <p><?php echo $dadosComents["comentarioTexto"]?></p>
 
                                 <div class="row" style="margin-left: 5px">
-
                                     <span  id="btnLike" onclick="countClicks(this)" class="fa fa-thumbs-up text-secondary" style="font-size: 20px; margin-right: 5px"></span>
                                     <span  id="btnDislike" onclick="countClicks2(this)" class="fa fa-thumbs-down text-secondary" style="font-size: 20px; margin-left: 5px"></span></div>
                             </div>
+
                             <?php
                         }
                         ?>
 
 
                         <?php
-                        $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade = 'review' and comentarioEntidadeId=".$id;
-                        $resultComents=mysqli_query($con,$sql);
                         if(isset($_SESSION['id'])){
                             ?>
 
                             <div class="dt-leave-comment" >
 
                                 <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</strong> </span>
-                                <form action="Confirma/ConfirmaAdicionaComentarioNoticia.php?id=<?php echo $_SESSION['id'] ?>" style="padding-top: 20px" >
-                                    <textarea required spellcheck="true" name="comentarioTexto"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px "></textarea>
+                                <form action="Confirma/ConfirmaAdicionaComentarioNoticia.php?id=<?php echo $id?>" style="padding-top: 20px" method="post">
+                                    <input type="datetime-local" name="comentarioData" style="margin-bottom: 20px">
+                                    <textarea required spellcheck="true" name="comentarioTexto"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px"></textarea>
                                     <input type="hidden" name="comentarioEntidade" value="noticia">
-                                    <input type="hidden" name="perfilId" value="<?php echo $id?>">
                                     <button type="submit">Comentar</button>
                                 </form>
                             </div>
@@ -142,6 +102,7 @@ $dados2=mysqli_fetch_array($result2);
                             <?php
                         }else{
                         ?>
+
 
                         <hr>
                         <div style="margin: 30px; font-size: 20px; color: #FFFFFF">
@@ -151,8 +112,10 @@ $dados2=mysqli_fetch_array($result2);
                                 <hr>
                                 <?php
                                 }
-                                ?>
 
+
+                                ?>
+                                <!-- ************************************************FIM************************************************-->
 
                     </div>
                 </div>
@@ -168,14 +131,13 @@ $dados2=mysqli_fetch_array($result2);
                             ?>
                             <div class="trending-item">
                                 <div class="ti-pic">
-                                    <img src="img/<?php echo $dados["noticiaImagemFundoURL"]?>" style="height: 80px; width: 80px" alt="">
+                                    <img src="img/<?php echo $dados2["noticiaImagemFundoURL"]?>" style="height: 80px; width: 80px" alt="">
                                 </div>
                                 <div class="ti-text">
-                                    <h6><a href="ListaBlog.php?id=<?php echo $dados["noticiaId"]?>"><?php echo $dados["noticiaTitulo"]?></a>
+                                    <h6><a href="ListaBlog.php?id=<?php echo $dados2["noticiaId"]?>"><?php echo $dados2["noticiaTitulo"]?></a>
                                     </h6>
                                     <ul>
-                                        <li><i class="fa fa-clock-o"></i><?php echo $dados["noticiaData"]?></li>
-
+                                        <li><i class="fa fa-clock-o"></i><?php echo $dados2["noticiaData"]?></li>
                                     </ul>
                                 </div>
                             </div>

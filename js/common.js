@@ -91,6 +91,18 @@ function fillPlataformasBackoffice(txt = ''){
     });
 }
 
+function filljogos(txt = ''){
+    $.ajax({
+        url:"../jogos.php",
+        type:"post",
+        data:{
+            txt:txt
+        },
+        success:function (result){
+            $('#tableContent').html(result);
+        }
+    });
+}
 //******************************************EliminaFunções****************************************
 
 
@@ -159,9 +171,6 @@ function countClicks2() {
     localStorage.clickCountDislike++;
     document.getElementById("btnDislike").innerHTML = "&nbsp;&nbsp;" + localStorage.clickCountDislike ;
 }
-
-
-
 
 
 
