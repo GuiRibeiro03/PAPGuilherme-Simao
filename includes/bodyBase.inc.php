@@ -190,7 +190,7 @@ if(isset($_SESSION['id'])){
     $k=0;
 ?>
 
-                            <span>Para adicionar produtos ao carrinho, </span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span>
+    <div class="row"><span>Para adicionar produtos ao carrinho, </span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
 
         <?php
 }
@@ -290,7 +290,7 @@ function bottom(){
                         <p> as novidades da loja e do mundo do gaming à tua volta.</p></a>
 
 
-                    <a href="index.php" style="margin-left: 20%;"><img src="img/igdb2.png" style="width: 200px; height: 200px"><p>The data was freely provided by IGDB.com</p></a>
+                    <a href="jogos.php" style="margin-left: 20%;"><img src="img/igdb2.png" style="width: 200px; height: 200px"><p>The data was freely provided by IGDB.com</p></a>
                 </div>
 
 

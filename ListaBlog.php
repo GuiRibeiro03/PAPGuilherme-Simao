@@ -151,8 +151,6 @@ $dados2=mysqli_fetch_array($result2);
                                 <hr>
                                 <?php
                                 }
-
-
                                 ?>
 
 

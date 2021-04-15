@@ -23,8 +23,8 @@ $dados=mysqli_fetch_array($result);
                         <p><span style="color: #FFFFFF">Qtn:</span><input type="number" id="quantity" name="quantity" min="1" value="1" max="5" style="width: 50px"></p>
                 <button class="btn btn-danger  cart-button" style="color: #dc3545; width: 100%">
                     <strong>
-                        <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
-                        <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                        <span class="add-to-cart" style="color: #FFFFFF">Comprar &nbsp;<i class="fa fa-shopping-basket"> </i></span>
+                        <span class="added" style="color: #FFFFFF">Adicionado &nbsp;<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
                     </strong>
                 </button>
                 </div>
@@ -102,10 +102,22 @@ $dados=mysqli_fetch_array($result);
             <?php echo $dados["jogoSinopse"] ?>
         </div>
         <hr>
+        <?php
+
+        $sql1="SELECT * FROM jogos 
+                inner join jogogeneros on jogoId=jogoGeneroJogoId 
+                inner join jogoplataformas on jogoId=jogoPlataformaJogoId
+                inner join generos on jogoGeneroGeneroId=generoId
+                inner join plataformas on jogoPlataformaPlataformaId=plataformaId
+                where jogoId=".$id;
+
+        $result1=mysqli_query($con,$sql1);
+        $dados1=mysqli_fetch_array($result1);
+        ?>
         <div class="row" style="margin-left: 20%">
             <h4 style="margin-left: 30px">Empresa:</h4><span>&nbsp;<?php echo $dados["empresaNome"] ?></span>
-            <h4 style="margin-left: 30px">Género: </h4><span>&nbsp;FPS/RPG</span>
-            <h4 style="margin-left: 30px">Plataforma: </h4><span>&nbsp;PS5</span>
+            <h4 style="margin-left: 30px">Género: </h4><span>&nbsp;<?php echo $dados1["generoNome"] ?></span>
+            <h4 style="margin-left: 30px">Plataforma: </h4><span>&nbsp;<?php echo $dados1["plataformaNome"] ?></span>
         </div>
     </div>
     </section>
