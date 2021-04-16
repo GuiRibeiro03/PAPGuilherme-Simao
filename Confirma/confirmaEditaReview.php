@@ -7,7 +7,7 @@ $reviewText=addslashes($_POST["reviewTexto"]);
 $reviewAutor=addslashes($_POST["reviewAutor"]);
 $reviewJogoId=intval($_POST["reviewJogoId"]);
 $img2=$_FILES['reviewImagemURL']["name"];
-$novoNome2="img/wallpapers/".$img2;
+$novoNome2="../img/wallpapers/".$img2;
 
 
 

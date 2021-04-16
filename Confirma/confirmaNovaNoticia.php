@@ -8,9 +8,9 @@ $noticiaImagemFundoURL=$_FILES["noticiaImagemFundoURL"]["name"];
 $noticiaImagemURL=$_FILES["noticiaImagemURL"]["name"];
 $noticiaEscolha=addslashes($_POST["noticiaEscolha"]);
 
-$novoNome="img/wallpapers/".$noticiaImagemFundoURL;
+$novoNome="../img/wallpapers/".$noticiaImagemFundoURL;
 copy($_FILES['noticiaImagemFundoURL']['tmp_name'],$novoNome);
-$novoNome2="img/wallpapers/".$noticiaImagemURL;
+$novoNome2="../img/wallpapers/".$noticiaImagemURL;
 copy($_FILES['noticiaImagemURL']['tmp_name'],$novoNome2);
 
 echo $sql="insert into noticias(noticiaTitulo,noticiaImagemFundoURL,noticiaImagemURL,noticiaData,noticiaDesenvolvimento, noticiaEscolha)
