@@ -9,7 +9,7 @@ $result=mysqli_query($con, $sql);
 
 <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
     <div class="row" style="width: 300px; float: left; height: 100%">
-        <form action="blog.php" method="post"  enctype="multipart/form-data" >
+        <form action="jogos.php" method="post"  enctype="multipart/form-data" >
             <div class="row" style="width: 200px; outline: #5a6268">
                 <div style="color: #FFFFFF;margin-left: 40px; margin-bottom: 30px">
                     <h5><strong>Preço:</strong></h5>
@@ -33,7 +33,7 @@ $result=mysqli_query($con, $sql);
                     while ($dadosGeneros=mysqli_fetch_array($resultGeneros)){
                         ?>
                         <br>
-                        <input type="checkbox" value="<?php echo $dadosGeneros["generoNome"] ?>"> <?php echo $dadosGeneros["generoNome"] ?>
+                        <input name="genero[]" type="checkbox" value="<?php echo $dadosGeneros["generoId"] ?>"> <?php echo $dadosGeneros["generoNome"] ?>
                         <br>
                         <?php
                     }
@@ -50,7 +50,7 @@ $result=mysqli_query($con, $sql);
                     while ($dadosPlataformas=mysqli_fetch_array($resultPlataformas)){
                         ?>
                         <br>
-                        <input type="checkbox" value="<?php echo $dadosPlataformas["plataformaNome"] ?>"> <?php echo $dadosPlataformas["plataformaNome"] ?>
+                        <input name="plataforma[]" type="checkbox" value="<?php echo $dadosPlataformas["plataformaId"] ?>"> <?php echo $dadosPlataformas["plataformaNome"] ?>
                         <br>
                         <?php
                     }
@@ -68,7 +68,7 @@ $result=mysqli_query($con, $sql);
                     while ($dadosEmpresas=mysqli_fetch_array($resultEmpresas)){
                         ?>
                         <br>
-                        <input type="checkbox" value="<?php echo $dadosEmpresas["empresaNome"] ?>"> <?php echo $dadosEmpresas["empresaNome"] ?>
+                        <input name="empresa[]" type="checkbox" value="<?php echo $dadosEmpresas["empresaId"] ?>"> <?php echo $dadosEmpresas["empresaNome"] ?>
                         <br>
                         <?php
                     }
