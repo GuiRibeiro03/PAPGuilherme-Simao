@@ -79,12 +79,12 @@ h4 {
 
 h5 {
 	font-size: 25px;
-color: white;
+	color: white;
 }
 
 
 h6 {
-	font-size: 18px;
+	font-size: 20px;
 }
 
 a{
@@ -142,7 +142,6 @@ ol {
 .section-title h5 {
 	color: #ffffff;
 	font-size: 20px;
-	font-weight: 700;
 	text-transform: uppercase;
 	font-style: italic;
 	padding-left: 16px;
@@ -2054,7 +2053,6 @@ ol {
 .sidebar-option .best-of-post .bp-item .bp-text h6 a {
 	font-size: 14px;
 	color: #ffffff;
-	font-weight: 700;
 	line-height: 20px;
 	text-transform: uppercase;
 }
@@ -2172,7 +2170,7 @@ ol {
 
 .footer-section {
 	background: #080808;
-	height: 100%;
+	width: 100%;
 
 }
 
@@ -4219,6 +4217,8 @@ tr{
 .store{
 	background-color:#0d0d0d;
 	width: 100%;
+	height: available;
+	position: relative;
 }
 
 
@@ -4687,8 +4687,7 @@ background-color: transparent;
 }
 
 @media screen and (max-height: 700px) {
-	.sidenav {padding-top: 15px;}
-	.sidenav {margin-left: 15px;}
+		.sidenav {margin-left: 15px;}
 	.sidenav a {font-size: 18px;}
 
 }

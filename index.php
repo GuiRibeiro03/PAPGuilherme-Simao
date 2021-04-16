@@ -147,10 +147,7 @@ $i = $i + 1;
                                         </div>
                                     </div>
                                     <div class="bp-text">
-                                        <h6><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
-                                        <ul>
-                                            <li><i class="fa fa-clock-o"></i> </li>
-                                        </ul>
+                                        <h6><strong><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></strong></h6>
                                     </div>
                                 </div>
                                 <?php
@@ -182,10 +179,7 @@ $i = $i + 1;
                                         </div>
                                     </div>
                                     <div class="bp-text">
-                                        <h6><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></h6>
-                                        <ul>
-                                            <li><i class="fa fa-clock-o"></i> </li>
-                                        </ul>
+                                        <h6 style="font-size: 22px"><strong><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></strong></h6>
                                     </div>
                                 </div>
                                 <?php
@@ -202,8 +196,8 @@ $i = $i + 1;
                 <!-- NOSSAS ESCHOlHAS -->
                 <div class="col-lg-4 col-md-8">
                     <div class="editor-choice">
-                        <div class="section-title">
-                            <h5>Ultimas Notícias:</h5>
+                        <div class="section-title" style="margin-left: 30px">
+                            <h5>As nossas Escolhas:</h5>
                         </div>
 
                     <?php

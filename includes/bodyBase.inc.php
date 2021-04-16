@@ -243,7 +243,7 @@ if(isset($_SESSION['id'])){
 
                                                 ?>
 
-                                                            <span> <img src="img/<?php echo $dadosprod["produtoImagemURL"] ?>" height="60px" width="70px"> <?php echo $dadosprod["produtoNome"] ?>: &nbsp;<span id="preco"><strong><?php echo $dadosprod["produtoPreco"] ?>€</strong></span>  <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
+                                                            <span> <img src="img/<?php echo $dadosprod["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dadosprod["produtoNome"] ?>: &nbsp;<span id="preco"><strong><?php echo $dadosprod["produtoPreco"] ?>€</strong></span>  <button style="float: right; background-color: transparent"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px"></i></button></span>
                                                             <p><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                                                             <hr>
 
@@ -258,7 +258,7 @@ if(isset($_SESSION['id'])){
     $k=0;
 ?>
 
-    <div class="row"><span>Para adicionar produtos ao carrinho, </span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
+    <div class="row"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
 
         <?php
 }
@@ -348,7 +348,48 @@ function bottom(){
     ?>
 
 
+    <footer class="footer-section" >
+        <div class="container">
 
+            <div class="footer-about">
+                <div class="fa-logo">
+                    <a href="index.php"><img src="img/gameOn.png">
+                        <p>Podes nos seguir na nossa Redes Sociais para seguires</p>
+                        <p> as novidades da loja e do mundo do gaming à tua volta.</p></a>
+
+
+                    <a href="index.php" style="margin-left: 20%;"><img src="img/igdb2.png" style="width: 200px; height: 200px"><p>The data was freely provided by IGDB.com</p></a>
+                </div>
+
+
+            </div>
+            <hr>
+            <div class="footer-about">
+                <div class=" footer-about fa-social">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area"  >
+            <div class="row">
+                <div class="col-lg-6">
+
+                    <div class="ca-text"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="ca-links">
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                        <a href="#">Support</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
 
     <!--*********** Modal Registar **************-->
 
