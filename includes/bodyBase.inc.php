@@ -44,21 +44,7 @@ function top($menu=HOME){
         <link rel="shortcut icon" href="img/onbutton.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-        <link rel="import" href="bower_components/polymer/polymer.html">
-        <link rel="import" href="bower_components/iron-flex-layout/classes/iron-flex-layout.html">
-        <link rel="import" href="bower_components/iron-icons/iron-icons.html">
-        <link rel="import" href="bower_components/paper-drawer-panel/paper-drawer-panel.html">
-        <link rel="import" href="bower_components/paper-icon-button/paper-icon-button.html">
-        <link rel="import" href="bower_components/paper-item/paper-item.html">
-        <link rel="import" href="bower_components/paper-button/paper-button.html">
-        <link rel="import" href="bower_components/paper-menu/paper-menu.html">
-        <link rel="import" href="bower_components/paper-scroll-header-panel/paper-scroll-header-panel.html">
-        <link rel="import" href="bower_components/paper-styles/paper-styles-classes.html">
-        <link rel="import" href="bower_components/paper-styles/paper-styles.html">
-        <link rel="import" href="bower_components/paper-toast/paper-toast.html">
-        <link rel="import" href="bower_components/paper-dialog/paper-dialog.html">
-        <link rel="import" href="bower_components/paper-toolbar/paper-toolbar.html">
-        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
         <script src="js/jquery.min.js"></script>
         <script src="js/common.js"></script>
 

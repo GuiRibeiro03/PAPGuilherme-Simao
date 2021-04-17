@@ -137,7 +137,7 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
 
 
-        <input type="Submit" value="Adicionar" style="width: 100px; height: 50px">
+        <input type="Submit" class="btn btn-danger" value="Adicionar">
 
 
     </form>

@@ -28,7 +28,7 @@ $dados=mysqli_fetch_array($result);
     <!-- Details Hero Section End -->
 
     <!-- Details Post Section Begin -->
-    <section class="details-post-section" >
+    <section class="details-post-section" style="margin-left: auto">
         <div class="container">
             <div class="row">
                     <div class="details-text" >

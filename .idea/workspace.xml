@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- 16/4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillReviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillReviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/transferir.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/wallpapers/transferir.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -190,14 +195,9 @@
       <workItem from="1618523676807" duration="2683000" />
       <workItem from="1618562656647" duration="1183000" />
       <workItem from="1618564947555" duration="534000" />
-      <workItem from="1618582758363" duration="1926000" />
-    </task>
-    <task id="LOCAL-00171" summary="Guilherme-Correções COPY imagens">
-      <created>1616504095632</created>
-      <option name="number" value="00171" />
-      <option name="presentableId" value="LOCAL-00171" />
-      <option name="project" value="LOCAL" />
-      <updated>1616504095632</updated>
+      <workItem from="1618582758363" duration="2748000" />
+      <workItem from="1618598756933" duration="1235000" />
+      <workItem from="1618655438457" duration="2502000" />
     </task>
     <task id="LOCAL-00172" summary="Guilherme-Copy imagens">
       <created>1616542085383</created>
@@ -535,7 +535,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618583268431</updated>
     </task>
-    <option name="localTasksCounter" value="220" />
+    <task id="LOCAL-00220" summary="Guilherme- 16/4">
+      <created>1618584909093</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1618584909093</updated>
+    </task>
+    <option name="localTasksCounter" value="221" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

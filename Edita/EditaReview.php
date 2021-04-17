@@ -10,6 +10,7 @@ $dados=mysqli_fetch_array($result);
 
 <link href="summernote.css" rel="stylesheet">
 <script src='../js/tinymce/tinymce.min.js'></script>
+
 <script>
     tinymce.init({
         selector: 'textarea#myTextarea',
@@ -89,7 +90,7 @@ $dados=mysqli_fetch_array($result);
 
 
         <div id="wrapper" style="color: #FFFFFF; margin-bottom: 5%">
-            <div><img id="output_image" src="../<?php echo $dados["reviewImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width: 300px; height: 400px"/></div>
+            <div><img id="output_image" src="../<?php echo $dados["reviewImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; "/></div>
             <input type="file" name="reviewImagemURL" accept="image/*" onclick="preview_image(event)">
         </div>
         <br>
@@ -101,12 +102,13 @@ $dados=mysqli_fetch_array($result);
         </div>
 
 
-         <div style="width: 70%;">
+        <div style="width: 70%;">
             <h4>Texto:</h4>
-            <textarea name="reviewTexto" id="myTextarea"  content="<?php echo $dados["reviewTexto"] ?>"><?php echo $dados["reviewTexto"] ?></textarea>
+            <textarea name="noticiaDesenvolvimento" id="myTextarea" content="<?php echo $dados["reviewTexto"] ?>"><?php echo $dados["reviewTexto"] ?></textarea>
         </div>
 
-        </div>
+
+
 
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Jogo:</label>
         <select name="reviewJogoId" >
