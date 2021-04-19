@@ -733,7 +733,6 @@ ol {
 
 .ht-options .ht-widget ul li {
 	font-size: 13px;
-	color: #c4c4c4;
 	list-style: none;
 	display: inline-block;
 	margin-right: 30px;
@@ -752,7 +751,7 @@ ol {
 
 .ht-options .ht-widget ul li span {
 	font-size: 14px;
-	color: #eaeaea;
+	color: #0b0b0b;
 }
 
 .ht-options .ht-widget ul li span sup {
@@ -790,6 +789,8 @@ ol {
 .logo {
 	background: #0d0d0d;
 	padding: 44px 0;
+	position: relative;
+	margin-left: 43%;
 }
 
 .logo a {
