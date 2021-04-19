@@ -196,6 +196,11 @@ include_once("includes/bodyBase.inc.php");
             <div class="container" style="background-color: #e7e7e7; ">
                 <span style="color: black; font-size: 45px; font-weight: bold">Finalizar:</span>
                 <hr>
+
+                <?php
+
+                $sql="";
+                ?>
                 <ul style="background-color: #e7e7e7; padding: 10px 20px;">
                     <span> <img src="img/ps4.png" height="60px" width="70px"> Playstation 4 Slim 500Gb: &nbsp;<span id="preco"><strong>399,90€</strong></span>  <button style="float: right"><i class="fa fa-close" style="color: red"></i></button></span>
                     <p><input type="number" value="1" min="1" style="width: 50px; text-align: center"></p>
