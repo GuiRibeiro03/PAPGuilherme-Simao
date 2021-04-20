@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- 19/4">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +37,7 @@
   </component>
   <component name="ProjectId" id="1oHw6BDGziJUcGuNKehATv5ypyU" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -83,7 +83,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -215,13 +215,8 @@
       <workItem from="1618851946093" duration="1079000" />
       <workItem from="1618853059172" duration="5957000" />
       <workItem from="1618932836891" duration="1040000" />
-    </task>
-    <task id="LOCAL-00176" summary="Guilherme-Jogos dimensões/Imagens editajogo">
-      <created>1616684986183</created>
-      <option name="number" value="00176" />
-      <option name="presentableId" value="LOCAL-00176" />
-      <option name="project" value="LOCAL" />
-      <updated>1616684986183</updated>
+      <workItem from="1618954078697" duration="506000" />
+      <workItem from="1618954597531" duration="23000" />
     </task>
     <task id="LOCAL-00177" summary="Guilherme-Index jogo Escolhas">
       <created>1616685348625</created>
@@ -559,7 +554,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618862971050</updated>
     </task>
-    <option name="localTasksCounter" value="225" />
+    <task id="LOCAL-00225" summary="Guilherme- 19/4">
+      <created>1618954238162</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1618954238162</updated>
+    </task>
+    <option name="localTasksCounter" value="226" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

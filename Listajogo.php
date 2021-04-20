@@ -10,7 +10,7 @@ $dados=mysqli_fetch_array($result);
 ?>
 
     <div style="text-align: center"> <h1 style="text-shadow: 5px 5px 0px #000000; padding-top:20px "><strong><?php echo $dados["jogoNome"] ?></strong></h1></div>
-    <section class="store" style="margin-left: 15%">
+    <section class="store" style="margin-left: 15%; width: auto">
     </div>
         <br>
         <br>
@@ -91,7 +91,7 @@ $dados=mysqli_fetch_array($result);
         <h2>Acerca do jogo:</h2>
         <hr>
         <div>
-            <div style=" margin-left:5%; width: 1280px; height: 720px" >
+            <div style=" margin-left:5%; width: available; height: available" >
                 <?php echo $dados["jogoTrailer"] ?>
             </div>
         </div>
