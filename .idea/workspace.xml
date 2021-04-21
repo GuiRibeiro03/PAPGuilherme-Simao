@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Reviews&#10;-Comentários e Resultados Div Tamanho">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Noticias&#10;-Imagens">
+      <change afterPath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillNoticias.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillNoticias.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,14 +205,7 @@
       <workItem from="1618954597531" duration="23000" />
       <workItem from="1618955049084" duration="232000" />
       <workItem from="1618993686139" duration="5507000" />
-      <workItem from="1619010506559" duration="4481000" />
-    </task>
-    <task id="LOCAL-00181" summary="Guilherme-Edita Produto">
-      <created>1616693368913</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1616693368913</updated>
+      <workItem from="1619010506559" duration="7476000" />
     </task>
     <task id="LOCAL-00182" summary="Guilherme-tagGeneros">
       <created>1616752416506</created>
@@ -554,7 +543,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619013017797</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="Guilherme- Noticias&#10;-Imagens">
+      <created>1619016427528</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1619016427528</updated>
+    </task>
+    <option name="localTasksCounter" value="231" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -573,7 +569,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Perfil" />
     <MESSAGE value="Guilherme-Perfil/Jogos /Pesquisa" />
     <MESSAGE value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
     <MESSAGE value="Commit-Lista Consola/Outlet/Acessorio" />
@@ -598,6 +593,7 @@
     <MESSAGE value="Guilherme- ListaJogo" />
     <MESSAGE value="Guilherme- Reviews&#10;-Endereço de imagem fixed&#10;-Reviews pagina fixed" />
     <MESSAGE value="Guilherme- Reviews&#10;-Comentários e Resultados Div Tamanho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Reviews&#10;-Comentários e Resultados Div Tamanho" />
+    <MESSAGE value="Guilherme- Noticias&#10;-Imagens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Noticias&#10;-Imagens" />
   </component>
 </project>
