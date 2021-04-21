@@ -10,16 +10,10 @@ $result=mysqli_query($con, $sql);
 <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
     <div class="row" style="width: 300px; float: left; height: 100%">
         <form action="jogos.php" method="post"  enctype="multipart/form-data" >
-            <div class="row" style="width: 200px; outline: #5a6268">
-                <div style="color: #FFFFFF;margin-left: 40px; margin-bottom: 30px">
+            <div class="row" style="width: 100%; outline: #5a6268">
+                <div style="color: #FFFFFF; margin-bottom: 20%; width: 50%">
                     <h5><strong>Preço:</strong></h5>
                     <br>
-                    <div class="price-slider"><span>
-                         Mínimo:
-                        <input type="text" value="0" min="0" max="120000" />
-                          Máximo:
-                        <input type="text" value="5000" min="0" max="120000"/></span>
-                    </div>
                 </div>
 
 
@@ -91,9 +85,9 @@ $result=mysqli_query($con, $sql);
             ?>
 
 
-            <div id="content"  class="col-lg-4 col-md-3">
+            <div id="content"  class="col-lg-4 col-md-3" style="width: auto;">
 
-                <div  class="card" style="width: 19rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
+                <div  class="card" style="width: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
 
                     <a href="Listajogo.php?id=<?php echo $dados["jogoId"]?>"><img src="img/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
 
