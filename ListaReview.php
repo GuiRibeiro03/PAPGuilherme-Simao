@@ -9,7 +9,7 @@ $dados=mysqli_fetch_array($result);
 ?>
 
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="<?php echo $dados['reviewImagemURL']?>">
+    <section class="details-hero-section set-bg" data-setbg="<?php echo $dados['reviewImagemURL']?>" style="height: 60%">
         <div class="container">
             <div class="row">
                     <div class="details-hero-text">
@@ -31,7 +31,7 @@ $dados=mysqli_fetch_array($result);
     <section class="details-post-section" style="margin-left: auto">
         <div class="container">
             <div class="row">
-                    <div class="details-text" >
+                    <div class="details-text"  style="width: 100%">
 
                         <div style="color: white; font-size: 20px;">
                             <span style="color: white;"><b>Analista:</b></span>
@@ -80,7 +80,7 @@ $dados=mysqli_fetch_array($result);
                             </div>
 
                         </div>
-
+<hr>
                         <!-- ***********************************Comentários section******************************-->
 
                         <?php
@@ -90,7 +90,7 @@ $dados=mysqli_fetch_array($result);
                         while ($dadosComents=mysqli_fetch_array($resultComents)){
                         ?>
 
-                        <div class="dt-quote">
+                        <div class="dt-quote" style="width: 100%; ">
                             <div style="color: white;">
                                 <span><b><?php echo $dadosComents["perfilNome"]?></b></span>
                                 <span style="float: right"><b><?php echo $dadosComents["comentarioData"]?></b></span>
@@ -113,7 +113,7 @@ $dados=mysqli_fetch_array($result);
                         if(isset($_SESSION['id'])){
                         ?>
 
-                        <div class="dt-leave-comment" >
+                        <div class="dt-leave-comment" style="margin-top: 10%">
 
                             <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</strong> </span>
                             <form action="Confirma/ConfirmaAdicionaComentarioReview.php?id=<?php echo $id?>" style="padding-top: 20px" method="post">

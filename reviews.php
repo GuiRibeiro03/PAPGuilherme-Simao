@@ -10,7 +10,7 @@ $result=mysqli_query($con,$sql);
 
 <section class="store" style="height: auto; width: auto; ">
 
-        <div class="row" style="position: center;!important;">
+        <div class="row" style="position: center;!important; margin-left: 10%">
 
             <?php
             $i = 0;
