@@ -8,9 +8,9 @@ $result=mysqli_query($con,$sql);
 
 
 
-<section class="latest-preview-section" style="height: 100%; width: 100%">
-    <div class="container" style="padding-top: 30px; position: center">
-        <div class="row">
+<section class="store" style="height: auto; width: auto; ">
+
+        <div class="row" style="position: center;!important;">
 
             <?php
             $i = 0;
@@ -23,7 +23,7 @@ $result=mysqli_query($con,$sql);
                                 <div class="loader-circle">
                                             <span class="circle-progress" data-cpid="id<?php echo $i+1?>" data-cpvalue="<?php echo $dados['jogoGlobalRating']?>"
                                                   data-cpcolor="#4bcf13"></span>
-                                    <div class="review-point"><?php echo $dados['jogoGlobalRating']?></div>
+                                    <div class="review-point"><strong><?php echo $dados['jogoGlobalRating']?></strong></div>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +44,7 @@ $result=mysqli_query($con,$sql);
 
 
         </div>
-    </div>
+
 </section>
 
 <?php
