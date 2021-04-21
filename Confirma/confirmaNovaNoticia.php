@@ -10,6 +10,7 @@ $noticiaEscolha=addslashes($_POST["noticiaEscolha"]);
 
 $novoNome="../img/wallpapers/".$noticiaImagemFundoURL;
 copy($_FILES['noticiaImagemFundoURL']['tmp_name'],$novoNome);
+
 $novoNome2="../img/wallpapers/".$noticiaImagemURL;
 copy($_FILES['noticiaImagemURL']['tmp_name'],$novoNome2);
 

@@ -24,14 +24,16 @@ $result=mysqli_query($con, $sql);
     <tr>
         <?php
         while ($dados=mysqli_fetch_array($result)) {
-            echo "<tr>";
-            echo "<td>" . $dados['noticiaId'] . "</td>";
-            echo "<td>" . $dados['noticiaTitulo'] . "</td>";
-            echo "<td> <img  style='width: 600px; height: 350px' src=\"".$dados['noticiaImagemFundoURL']."\"></td>";
-            echo "<td>" . $dados['noticiaData'] . "</td>";
-            echo "<td><a href=\"../Edita/EditaNoticia.php?id=".$dados['noticiaId']."\"><button type='button' class='btn btn-primary'><i class='fa fa-edit'></i>&nbsp;Editar</button></a></td>";
-            echo "<td><a href=\"#\" onclick=\"confirmaEliminaNoticia(".$dados['noticiaId'].");\"><button type='button' class='btn btn-danger'><i class='fa fa-trash'>&nbsp;Eliminar</button></a></td>";
-            echo "</tr>";
+            ?>
+           <tr>
+           <td><?php echo $dados['noticiaId'] ?></td>
+            <td> <?php echo  $dados['noticiaTitulo']?></td>
+            <td> <img  style='width: 600px; height: 350px' src="<?php echo $dados['noticiaImagemFundoURL']?>"></td>
+            <td><?php $dados['noticiaData'] ?> </td>
+            <td><a href="../Edita/EditaNoticia.php?id=<?php echo $dados['noticiaId'] ?>"><button type='button' class='btn btn-primary'><i class='fa fa-edit'></i>&nbsp;Editar</button></a></td>
+            <td><a href="#" onclick="confirmaEliminaNoticia(<?php echo $dados['noticiaId'] ?>);"><button type='button' class='btn btn-danger'><i class='fa fa-trash'>&nbsp;Eliminar</button></a></td>
+            </tr>
+    <?php
         }
         ?>
 

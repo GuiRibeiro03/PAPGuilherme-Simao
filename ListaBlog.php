@@ -15,7 +15,7 @@ $result2=mysqli_query($con,$sql2);
 
 ?>
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="img/<?php echo $dados["noticiaImagemFundoURL"]?>">
+    <section class="details-hero-section set-bg" data-setbg="img/<?php echo $dados["noticiaImagemFundoURL"]?>" style="height: 80%">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -35,7 +35,7 @@ $result2=mysqli_query($con,$sql2);
     <!-- Details Hero Section End -->
 
     <!-- Details Post Section Begin -->
-    <section class="details-post-section spad" >
+    <section class="details-post-section spad" style="width: 100%" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 p-0">
@@ -65,7 +65,7 @@ $result2=mysqli_query($con,$sql2);
                         while ($dadosComents=mysqli_fetch_array($resultComents)){
                             ?>
 
-                            <div class="dt-quote">
+                            <div class="dt-quote" style="width: 100%">
                                 <div style="color: white;">
                                     <span><b><?php echo $dadosComents["perfilNome"]?></b></span>
                                     <span style="float: right"><b><?php echo $dadosComents["comentarioData"]?></b></span>
@@ -88,7 +88,7 @@ $result2=mysqli_query($con,$sql2);
                         if(isset($_SESSION['id'])){
                             ?>
 
-                            <div class="dt-leave-comment" >
+                            <div class="dt-leave-comment" style="margin-top: 10%">
 
                                 <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</strong> </span>
                                 <form action="Confirma/ConfirmaAdicionaComentarioNoticia.php?id=<?php echo $id?>" style="padding-top: 20px" method="post">

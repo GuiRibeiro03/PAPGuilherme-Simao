@@ -113,12 +113,13 @@ top();
 
 
     <div id="wrapper" style="color: #FFFFFF">
-        <span></span>
+        <span class="badge badge-dark">Imagem Fundo URL</span>
         <input type="file" accept="image/*" name="noticiaImagemFundoURL" onchange="preview_image(event)">
         <img id="output_image"/>
     </div>
     <br>
     <div id="wrapper" style="color: #FFFFFF">
+        <span class="badge badge-dark">Imagem secundária URL</span>
         <input type="file" accept="image/*" name="noticiaImagemURL" onchange="preview_image2(event)">
         <img id="output_image2"/>
     </div>

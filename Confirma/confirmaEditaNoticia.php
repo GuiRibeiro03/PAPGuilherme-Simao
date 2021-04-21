@@ -10,14 +10,14 @@ $noticiaImagemURL = $_FILES["noticiaImagemURL"]["name"];
 $novoNome="../img/wallpapers/".$noticiaImagemFundoURL;
 $novoNome2="../img/wallpapers/".$noticiaImagemURL;
 
-$sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."' ";
+echo $sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."' ";
 
 if($noticiaImagemFundoURL!=''){
-    $sql.=", noticiaImagemFundoURL='".$noticiaImagemFundoURL."', noticiaImagemURL='".$noticiaImagemURL."'";
+    $sql.=", noticiaImagemFundoURL='".$noticiaImagemFundoURL."' ";
     copy($_FILES['noticiaImagemFundoURL']['tmp_name'],$novoNome);
 }
 if($noticiaImagemURL!=''){
-    $sql.=", noticiaImagemURL='".$noticiaImagemURL."'";
+    $sql.=", noticiaImagemURL='".$noticiaImagemURL."'  ";
     copy($_FILES['noticiaImagemURL']['tmp_name'],$novoNome2);
 }
 
@@ -26,7 +26,7 @@ $sql.=", noticiaData='".$noticiaData."', noticiaDesenvolvimento='".$noticiaDesen
 
 
 mysqli_query($con, $sql);
-print_r($sql);
+
 header("location: ../backoffice/NoticiasBackoffice.php");
 
 
