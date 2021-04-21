@@ -39,7 +39,7 @@ top();
         </div>
         <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Eu concordo com os termos de utilizador</label>
+            <label class="form-check-label" for="exampleCheck1">Eu concordo com a random bullshit</label>
         </div>
         <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck2">

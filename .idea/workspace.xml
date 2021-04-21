@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Noticias&#10;-Imagens">
-      <change afterPath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Adicionar Perfil">
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,14 +204,7 @@
       <workItem from="1618954597531" duration="23000" />
       <workItem from="1618955049084" duration="232000" />
       <workItem from="1618993686139" duration="5507000" />
-      <workItem from="1619010506559" duration="7476000" />
-    </task>
-    <task id="LOCAL-00182" summary="Guilherme-tagGeneros">
-      <created>1616752416506</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1616752416507</updated>
+      <workItem from="1619010506559" duration="7892000" />
     </task>
     <task id="LOCAL-00183" summary="Guilherme-GroupButton">
       <created>1616756336862</created>
@@ -550,7 +542,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619016427528</updated>
     </task>
-    <option name="localTasksCounter" value="231" />
+    <task id="LOCAL-00231" summary="Guilherme- Adicionar Perfil">
+      <created>1619018858709</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1619018858709</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +568,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Perfil/Jogos /Pesquisa" />
     <MESSAGE value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
     <MESSAGE value="Commit-Lista Consola/Outlet/Acessorio" />
     <MESSAGE value="Commit-EditaJogo Link Trailer arranjado" />
@@ -594,6 +592,7 @@
     <MESSAGE value="Guilherme- Reviews&#10;-Endereço de imagem fixed&#10;-Reviews pagina fixed" />
     <MESSAGE value="Guilherme- Reviews&#10;-Comentários e Resultados Div Tamanho" />
     <MESSAGE value="Guilherme- Noticias&#10;-Imagens" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Noticias&#10;-Imagens" />
+    <MESSAGE value="Guilherme- Adicionar Perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Adicionar Perfil" />
   </component>
 </project>
