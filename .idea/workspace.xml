@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- 19/4">
-      <change afterPath="$PROJECT_DIR$/Confirma/confirmaAdicionaPerfil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Confirma/confirmaEditaPerfil.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editaPerfil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaAdicionaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaAdicionaPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AJAX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Adiciona" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,11 +64,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
       <recent name="D:\wamp\www\papGuiSimao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
-      <recent name="D:\wamp\www\papGuiSimao\Edita" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -196,14 +202,7 @@
       <workItem from="1618655438457" duration="2540000" />
       <workItem from="1618851946093" duration="1079000" />
       <workItem from="1618853059172" duration="5957000" />
-      <workItem from="1619083386733" duration="3983000" />
-    </task>
-    <task id="LOCAL-00178" summary="Guilherme-Base de dados/imagem Modal">
-      <created>1616686692368</created>
-      <option name="number" value="00178" />
-      <option name="presentableId" value="LOCAL-00178" />
-      <option name="project" value="LOCAL" />
-      <updated>1616686692368</updated>
+      <workItem from="1619083386733" duration="4947000" />
     </task>
     <task id="LOCAL-00179" summary="Guilherme-CRUD Adiciona/ELimina Produtos">
       <created>1616692853422</created>
@@ -541,7 +540,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619087516056</updated>
     </task>
-    <option name="localTasksCounter" value="227" />
+    <task id="LOCAL-00227" summary="Guilherme- confirmaAdicionaPerfil.php">
+      <created>1619088056521</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1619088056521</updated>
+    </task>
+    <option name="localTasksCounter" value="228" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +566,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Jogos  altura imagem/Butão cor" />
     <MESSAGE value="Guilherme-Perfil" />
     <MESSAGE value="Guilherme-Perfil/Jogos /Pesquisa" />
     <MESSAGE value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
@@ -585,6 +590,7 @@
     <MESSAGE value="Guilherme- 19/4" />
     <MESSAGE value="Guilherme- Endereço imagens Noticias Fixed" />
     <MESSAGE value="Guilherme- Nonsense" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Nonsense" />
+    <MESSAGE value="Guilherme- confirmaAdicionaPerfil.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- confirmaAdicionaPerfil.php" />
   </component>
 </project>
