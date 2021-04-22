@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- 19/4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillNoticias.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillNoticias.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/post03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +199,7 @@
       <workItem from="1618655438457" duration="2540000" />
       <workItem from="1618851946093" duration="1079000" />
       <workItem from="1618853059172" duration="5957000" />
+      <workItem from="1619083386733" duration="1157000" />
     </task>
     <task id="LOCAL-00176" summary="Guilherme-Jogos dimensões/Imagens editajogo">
       <created>1616684986183</created>

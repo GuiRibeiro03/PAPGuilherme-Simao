@@ -23,7 +23,7 @@ if($img!=''){
 
 $sql.="where jogoId=".$id;
 
-mysqli_query($con,$sql);
+mysqli_query($con,$sql) or die(mysqli_error($con));
 print_r($sql);
 header("location: ../backoffice/jogosBackoffice.php");
 
