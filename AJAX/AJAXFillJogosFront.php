@@ -2,7 +2,7 @@
 include_once("../includes/body.inc.php");
 $txt=addslashes($_POST['txt']);
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from jogos where jogoNome like '%$txt%' order by jogoId asc ";
+$sql="select * from jogos where jogoNome like '%$txt%' order by jogoId asc  ";
 $result=mysqli_query($con, $sql);
 
 
