@@ -717,9 +717,9 @@ ol {
   Header
 -----------------------*/
 
+
 .ht-options {
 	background: #080808;
-	padding: 13px 0;
 	position: relative;
 
 }
@@ -728,9 +728,7 @@ ol {
 	font-size: 13px;
 	color: #c4c4c4;
 	list-style: none;
-	display: inline-block;
-	margin-right: 30px;
-	position: relative;
+	display: inline-block;	position: relative;
 }
 
 .ht-options .ht-widget ul li.signup-open {

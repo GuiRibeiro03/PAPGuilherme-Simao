@@ -143,12 +143,12 @@ function top($menu=HOME){
 
 
 
-        <div class="logo" style="width: 100%">
+        <div class="logo" style="width: 100%;">
                 <div class="text-center">
                     <a href="index.php"><img src="img/gameOn.png" alt="LOGO"></a>
                 </div>
-            <div>
-                <div class="col-lg-12" style="margin-left:80%; width: 300px; ">
+            <div style="width: 20%; float: right; ">
+                <div class="col-lg-12" >
                     <div class="ht-options">
 
                             <div class="row">
@@ -214,15 +214,9 @@ function top($menu=HOME){
                     </div>
                 </div>
                 <!--************************************** FIM PERFIL*******************************************-->
-            </div>
-        </div>
 
-
-
-
-
-            <!--************************************** CARRINHO*******************************************-->
-            <div class="col-lg-12" style="margin-left:80%; width: 300px;  ">
+                <div style="50%; text-align: center">
+                    <div class="col-lg-12" >
                         <div class="row">
                             <div class="ht-widget">
                                 <div class="button-dropdown" >
@@ -290,7 +284,17 @@ function top($menu=HOME){
                             </div>
                         </div>
 
+                    </div>
+                </div>
             </div>
+        </div>
+
+
+
+
+
+            <!--************************************** CARRINHO*******************************************-->
+
         </div>
 
 
