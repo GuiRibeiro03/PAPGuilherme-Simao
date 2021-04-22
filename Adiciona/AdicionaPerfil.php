@@ -7,7 +7,7 @@ top();
 <section >
 
 
-    <form style="color: #FFF; margin-left: 20%; margin-top: 5%;width: 50%">
+    <form action="Confirma/confirmaAdicionaPerfil.php" style="color: #FFF; margin-left: 20%; margin-top: 5%;width: 50%" method="post" enctype="multipart/form-data">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="badge badge-dark" style="font-size: 20px">Nome de Perfil</label>
             <input type="text" class="form-control" name="perfilNome">
