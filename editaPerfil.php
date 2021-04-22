@@ -11,7 +11,7 @@ $dados=mysqli_fetch_array($result);
 <section >
 
 
-    <form action="Confirma/confirmaAdicionaPerfil.php?id=<?php echo $dados['perfilId'] ?>" style="color: #FFF; margin-left: 20%; margin-top: 5%;width: 50%" method="post" enctype="multipart/form-data">
+    <form action="Confirma/confirmaEditaPerfil.php?id=<?php echo $dados['perfilId'] ?>" style="color: #FFF; margin-left: 20%; margin-top: 5%;width: 50%" method="post" enctype="multipart/form-data">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="badge badge-primary" style="font-size: 20px">Nome de Perfil: </label>
             <input type="text" class="form-control" name="perfilNome" value="<?php echo $dados['perfilNome'] ?>">

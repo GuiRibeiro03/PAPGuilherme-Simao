@@ -21,5 +21,6 @@ if ($perfilAvatarURL!=''){
 
 $sql.=", perfilMorada='".$perfilMorada."', perfilTelefone='".$perfilTele."', perfilEmail='".$perfilEmail."', perfilUserId='".$userId."' where perfilId=$id";
 
+print_r($sql);
 mysqli_query($con, $sql);
 header("location: ../perfilUser.php?id=$userId");
