@@ -9,12 +9,7 @@ $dados=mysqli_fetch_array($result);
 
 <link href="summernote.css" rel="stylesheet">
 <script src='../js/tinymce/tinymce.min.js'></script>
-
-
 <script>
-
-
-
     tinymce.init({
         selector: 'textarea#myTextarea',
         plugins: 'print preview paste importcss searchreplace autolink autosave save directionality code visualblocks visualchars fullscreen image link media template codesample table charmap hr pagebreak nonbreaking anchor toc insertdatetime advlist lists wordcount imagetools textpattern noneditable help charmap quickbars emoticons',
@@ -74,7 +69,6 @@ $dados=mysqli_fetch_array($result);
     });
 
 </script>
-
 <form action="../Confirma/confirmaEditaProduto.php?id=<?php echo  $id?>" method="post"  enctype="multipart/form-data" style="color: #FFFFFF; margin: 20px">
     <div class="mb-3">
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Nome:</label>
@@ -82,7 +76,7 @@ $dados=mysqli_fetch_array($result);
     </div>
     <div class="mb-3">
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Descrição:</label>
-        <textarea name="produtoDescricao" id="myTextarea"  content="<?php echo $dados["produtoDescricao"]?>"><?php echo $dados["produtoDescricao"]?></textarea>
+        <textarea name="produtoDescricao" id="myTextarea"  content="<?php echo $dados["produtoDescricao"]?>"></textarea>
     </div>
     <div class="mb-3">
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Preço:</label>
@@ -91,13 +85,17 @@ $dados=mysqli_fetch_array($result);
     <div class="mb-3">
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Imagem:</label>
         <div id="wrapper" style="color: #FFFFFF">
-            <div style="height: 20px"> <img id="output_image"/> </div>
             <input src="<?php echo $dados["produtoImagemURL"]?>" type="file" accept="image/*" name="produtoImagemURL" onchange="preview_image(event)">
+            <div style="max-height: 100px">
+                <img id="output_image" src="<?php echo $dados["produtoImagemURL"]?>"/>
+            </div>
+
         </div>
     </div>
 
 
-    <div style="color: #FFFFFF; margin-top: 50px">
+
+    <div style="color: #FFFFFF; margin-top: 15%">
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Tipo:</label>
         <p><input type="radio" name="produtoTipo" value="consola" <?php if ($dados['produtoTipo'] == 'consola') { echo "checked";} ?>>&nbsp;Consola</p>
         <p><input type="radio" name="produtoTipo" value="acessório" <?php if ($dados['produtoTipo'] == 'acessorio') { echo "checked";} ?>>&nbsp;Acessório</p>
@@ -106,7 +104,7 @@ $dados=mysqli_fetch_array($result);
 
     <br>
 
-    <button type="submit" class="btn btn-primary">Adiciona</button>
+    <button type="submit" class="btn btn-primary">Edita</button>
 </form>
 
 

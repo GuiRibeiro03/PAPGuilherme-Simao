@@ -12,11 +12,12 @@ $novoNome="../img/produtos/".$prodImagem;
 
 $sql="update produtos set produtoNome='".$prodNome."',produtoDescricao='".$prodDesc."'";
 
-if(!$prodImagem=''){
+if($prodImagem!=''){
     $sql.=", produtoImagemURL='".$novoNome."'";
     copy($_FILES['produtoImagemURL']['tmp_name'],$novoNome);
 }
 
-$sql.=", produtoPreco='".$prodPreco."',produtoTipo='".$prodTipo."' where produtoId=".$id;
+$sql.=", produtoPreco='".$prodPreco."', produtoTipo='".$prodTipo."' where produtoId=".$id;
 mysqli_query($con,$sql);
+print_r($sql);
 header("location: ../backoffice/produtoBackoffice.php");
