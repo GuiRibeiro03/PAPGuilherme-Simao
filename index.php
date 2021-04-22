@@ -5,7 +5,7 @@ top();
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql2="select * from noticias";
 $sql_2="select * from jogos inner join reviews on jogoId=reviewJogoId where jogoGlobalRating=100";
-$sqlJogos="select * from jogos where jogoGlobalRating > 70 order  by jogoGlobalRating desc";
+$sqlJogos="select * from jogos where jogoGlobalRating > 70 order  by jogoGlobalRating asc ";
 $sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
 $result=mysqli_query($con, $sql2);
@@ -72,7 +72,7 @@ $result4=mysqli_query($con,$sql3);
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h5> PRODUTOS EM DESTAQUE:</h5></div>
+                        <h5> JOGOS EM DESTAQUE:</h5></div>
                 </div>
             </div>
 
@@ -150,6 +150,7 @@ $i = $i + 1;
                                         <h6><strong><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></strong></h6>
                                     </div>
                                 </div>
+
                                 <?php
                                 $i = $i + 1;
                             }

@@ -56,7 +56,6 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 500;
-	font-family: 'Lato',sans-serif;
 	 color: white;
 
 }
@@ -137,9 +136,11 @@ ol {
 
 .section-title {
 	margin-bottom: 35px;
+	font-family: "Arial Black";
 }
 
 .section-title h5 {
+	font-family: "Arial Black";
 	color: #ffffff;
 	font-size: 20px;
 	text-transform: uppercase;

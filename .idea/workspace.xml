@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Adicionar Perfil">
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -204,14 +205,8 @@
       <workItem from="1618954597531" duration="23000" />
       <workItem from="1618955049084" duration="232000" />
       <workItem from="1618993686139" duration="5507000" />
-      <workItem from="1619010506559" duration="7892000" />
-    </task>
-    <task id="LOCAL-00183" summary="Guilherme-GroupButton">
-      <created>1616756336862</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1616756336862</updated>
+      <workItem from="1619010506559" duration="8545000" />
+      <workItem from="1619079567165" duration="1241000" />
     </task>
     <task id="LOCAL-00184" summary="Simão - Add Generos e plataformas no adicionaJogo e confirma incompleto">
       <created>1617741244801</created>
@@ -549,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619018858709</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="Guilherme- Adicionar Perfil">
+      <created>1619019234301</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1619019234301</updated>
+    </task>
+    <option name="localTasksCounter" value="233" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
