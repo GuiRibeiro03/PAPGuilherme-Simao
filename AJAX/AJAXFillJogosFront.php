@@ -5,9 +5,10 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from jogos where jogoNome like '%$txt%' order by jogoId asc ";
 $result=mysqli_query($con, $sql);
 
+
 ?>
 
-<section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
+<section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;color: #FFFFFF">
     <div class="row" style="width: 300px; float: left; height: 100%">
         <form action="jogos.php" method="post"  enctype="multipart/form-data" >
             <div class="row" style="width: 100%; outline: #5a6268">
@@ -85,9 +86,9 @@ $result=mysqli_query($con, $sql);
             ?>
 
 
-            <div id="content"  class="col-lg-4 col-md-3" style="width: auto;">
+            <div id="content"  class="col-lg-4 col-md-3" style=" margin-bottom: 5%">
 
-                <div  class="card" style="width: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
+                <div  class="card" style="max-width:19rem; width: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
 
                     <a href="Listajogo.php?id=<?php echo $dados["jogoId"]?>"><img src="img/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
 
@@ -131,7 +132,7 @@ $result=mysqli_query($con, $sql);
 
     </div>
     <hr>
-    <div  class="align-center" style="width: 100%; margin-top: 20px;">
+    <div  class="align-center" style="width: 100%; margin-top: 20px; text-align: center">
         <div class="btn-group" role="group" aria-label="Basic example" style="font-size: 20px; font-weight: bold">
             <button type="button" class="btn btn-danger" style="font-size: 20px"><i class="fa fa-fast-backward" style="font-size: 20px"></i>&nbsp;Inicio.</button>
             <button type="button" class="btn btn-danger" style="font-size: 20px"><i class="fa fa-arrow-left" style="font-size: 20px"></i>&nbsp;Ant.</button>
