@@ -10,7 +10,7 @@ $perfilAvatarURL = $_FILES['perfilAvatarURL']['name'];
 $perfilMorada = addslashes($_POST['perfilMorada']);
 $perfilEmail = addslashes($_POST['perfilEmail']);
 $perfilTele = intval($_POST['perfilTele']);
-$novoNome = "/img/pessoas/" . $perfilAvatarURL;
+$novoNome = "img/pessoas/" . $perfilAvatarURL;
 
 
 $sql = "UPDATE perfis set perfilNome='".$perfilNome."' ";

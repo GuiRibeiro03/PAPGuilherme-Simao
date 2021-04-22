@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- 19/4">
-      <change afterPath="$PROJECT_DIR$/Confirma/confirmaEditaPerfil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editaPerfil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaAdicionaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaAdicionaPerfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,21 +199,7 @@
       <workItem from="1618655438457" duration="2540000" />
       <workItem from="1618851946093" duration="1079000" />
       <workItem from="1618853059172" duration="5957000" />
-      <workItem from="1619083386733" duration="4947000" />
-    </task>
-    <task id="LOCAL-00179" summary="Guilherme-CRUD Adiciona/ELimina Produtos">
-      <created>1616692853422</created>
-      <option name="number" value="00179" />
-      <option name="presentableId" value="LOCAL-00179" />
-      <option name="project" value="LOCAL" />
-      <updated>1616692853422</updated>
-    </task>
-    <task id="LOCAL-00180" summary="Guilherme-Pasta Produtos">
-      <created>1616692867761</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1616692867762</updated>
+      <workItem from="1619083386733" duration="5704000" />
     </task>
     <task id="LOCAL-00181" summary="Guilherme-Edita Produto">
       <created>1616693368913</created>
@@ -547,7 +530,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619088056521</updated>
     </task>
-    <option name="localTasksCounter" value="228" />
+    <task id="LOCAL-00228" summary="Guilherme- editaPerfil.php|confirmaEditaPerfil.php">
+      <created>1619089165078</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1619089165078</updated>
+    </task>
+    <task id="LOCAL-00229" summary="Guilherme- editaPerfil.php|confirmaEditaPerfil.php">
+      <created>1619089256564</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1619089256564</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,7 +563,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Perfil" />
     <MESSAGE value="Guilherme-Perfil/Jogos /Pesquisa" />
     <MESSAGE value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
     <MESSAGE value="Commit-Lista Consola/Outlet/Acessorio" />
@@ -591,6 +587,7 @@
     <MESSAGE value="Guilherme- Endereço imagens Noticias Fixed" />
     <MESSAGE value="Guilherme- Nonsense" />
     <MESSAGE value="Guilherme- confirmaAdicionaPerfil.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- confirmaAdicionaPerfil.php" />
+    <MESSAGE value="Guilherme- editaPerfil.php|confirmaEditaPerfil.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- editaPerfil.php|confirmaEditaPerfil.php" />
   </component>
 </project>
