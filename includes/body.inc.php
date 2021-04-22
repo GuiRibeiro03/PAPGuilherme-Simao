@@ -160,7 +160,7 @@ function top($menu=HOME){
     <header class="header-section" style="background-color: #0b0b0b>
         <div class="logo" style="width: 300px">
             <div class="col-lg-12 text-center">
-                <a href="index.php"><img src="../img/gameOn.png" alt="LOGO"></a>
+                <a href="../index.php"><img src="../img/gameOn.png" alt="LOGO"></a>
             </div>
         </div>
         <div class="col-lg-12" style="margin-left:70%; width: 300px; ">

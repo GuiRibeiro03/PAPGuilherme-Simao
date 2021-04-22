@@ -5,29 +5,31 @@ $id=intval($_GET["id"]);
 $noticiaTitulo = addslashes($_POST["noticiaTitulo"]);
 $noticiaDesenvolvimento = addslashes($_POST["noticiaDesenvolvimento"]);
 $noticiaData = addslashes($_POST["noticiaData"]);
-$noticiaImagemFundoURL = $_FILES["noticiaImagemFundoURL"]["name"];
-$noticiaImagemURL = $_FILES["noticiaImagemURL"]["name"];
+
+
+$noticiaImagemFundoURL = $_FILES['noticiaImagemFundoURL']["name"];
+$noticiaImagemURL = $_FILES['noticiaImagemURL']["name"];
 $novoNome="../img/wallpapers/".$noticiaImagemFundoURL;
 $novoNome2="../img/wallpapers/".$noticiaImagemURL;
 
-echo $sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."' ";
+ $sql=" UPDATE noticias SET noticiaTitulo='".$noticiaTitulo."' ";
 
 if($noticiaImagemFundoURL!=''){
-    $sql.=", noticiaImagemFundoURL='".$noticiaImagemFundoURL."' ";
+    $sql.=", noticiaImagemFundoURL='".$novoNome."' ";
     copy($_FILES['noticiaImagemFundoURL']['tmp_name'],$novoNome);
 }
 if($noticiaImagemURL!=''){
-    $sql.=", noticiaImagemURL='".$noticiaImagemURL."'  ";
+    $sql.=", noticiaImagemURL='".$novoNome2."'  ";
     copy($_FILES['noticiaImagemURL']['tmp_name'],$novoNome2);
 }
 
 $sql.=", noticiaData='".$noticiaData."', noticiaDesenvolvimento='".$noticiaDesenvolvimento."' where noticiaId=".$id;
 
 
+print_r($sql);
+mysqli_query($con, $sql) or die(mysqli_error($con));
 
-mysqli_query($con, $sql);
-
-header("location: ../backoffice/NoticiasBackoffice.php");
+//header("location: ../backoffice/NoticiasBackoffice.php");
 
 
 

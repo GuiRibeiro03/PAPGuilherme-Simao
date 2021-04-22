@@ -37,7 +37,7 @@ while ($dados=mysqli_fetch_array($result)){
 
 
         <div  style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
-                <a href="#"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Edita Perfil <i class="fa fa-edit"></i></button></a>
+                <a href="editaPerfil.php"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Edita Perfil <i class="fa fa-edit"></i></button></a>
                 <a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="margin-left: 20%; font-size: 100% ">Backoffice</button></a>
         </div>
 

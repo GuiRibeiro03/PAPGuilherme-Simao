@@ -28,8 +28,8 @@ $result=mysqli_query($con, $sql);
            <tr>
            <td><?php echo $dados['noticiaId'] ?></td>
             <td> <?php echo  $dados['noticiaTitulo']?></td>
-            <td> <img  style='width: 600px; height: 350px' src="<?php echo $dados['noticiaImagemFundoURL']?>"></td>
-            <td><?php $dados['noticiaData'] ?> </td>
+            <td> <img  style="max-width: 600px; max-height: 350px; width: auto; height: auto;" src="<?php echo $dados['noticiaImagemFundoURL']?>"></td>
+        <td><?php $dados['noticiaData'] ?> </td>
             <td><a href="../Edita/EditaNoticia.php?id=<?php echo $dados['noticiaId'] ?>"><button type='button' class='btn btn-primary'><i class='fa fa-edit'></i>&nbsp;Editar</button></a></td>
             <td><a href="#" onclick="confirmaEliminaNoticia(<?php echo $dados['noticiaId'] ?>);"><button type='button' class='btn btn-danger'><i class='fa fa-trash'>&nbsp;Eliminar</button></a></td>
             </tr>

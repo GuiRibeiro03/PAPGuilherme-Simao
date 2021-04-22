@@ -143,7 +143,47 @@ function top($menu=HOME){
                     <a href="index.php"><img src="img/gameOn.png" alt="LOGO"></a>
                 </div>
         </div>
-                <div class="col-lg-12" style="margin-left:70%; width: 300px; ">
+
+
+
+
+
+
+
+
+        <div class="nav-options" style="width: available; height: 120px">
+            <div class="container">
+
+                <!-- <div class="nav-search search-switch">
+                     <i class="fa fa-search"></i>
+                 </div> -->
+                <div class="nav-menu" style="font-size: 20px; color: #fff; ">
+                    <ul>
+                        <li><a href="./index.php"><span ><strong>Home</strong></span></a></li>
+                        <li><a href="#"><span style="font-size: 20px; color: #fff; "><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="consolas.php">Consolas</a></li>
+                                    <li><a href="jogos.php">Jogos</a></li>
+                                    <li><a href="acessorios.php">Acessórios</a></li>
+                                    <li><a href="outlet.php">Outlet</a></li>
+                                </ul>
+                            </div>
+                        </li>
+
+
+
+                        <li><a href="reviews.php"><span><strong>Reviews</strong> </span></a></li>
+
+                        <li><a href="blog.php"><span><strong>Blog</strong> </span></a></li>
+
+
+
+                    </ul>
+
+                </div>
+
+                <div class="col-lg-12" style="margin-left:80%; width: 300px; ">
                     <div class="ht-options">
                         <div class="container">
                             <div class="row">
@@ -205,13 +245,23 @@ function top($menu=HOME){
                                 <?php
                                 }
                                 ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <!--************************************** FIM PERFIL*******************************************-->
 
 
 
-
-                                <div class="button-dropdown">
+                <!--************************************** CARRINHO*******************************************-->
+                <div class="col-lg-12" style="margin-left:80%; width: 300px;  ">
+                    <div class="ht-options">
+                        <div class="container">
+                            <div class="row">
+                                <div class="ht-widget">
+                                <div class="button-dropdown" >
                                     <div id="mySidenav" class="sidenav" style="color: #0b0b0b!important; margin-left: 3px">
-                                        <h3 style="color: #0b0b0b"><strong>Carrinho:</strong></h3>
+                                        <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
                                         <hr>
                                         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
@@ -232,8 +282,8 @@ function top($menu=HOME){
                                                 <div >
                                                 <span style="color: #000000!important; font-size: 20px"> <img src="img/<?php echo $dadosprod["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dadosprod["produtoNome"] ?>: &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dadosprod["produtoPreco"] ?>€</strong> </span>
                                                     <button style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
-                                                <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
-                                                <hr>
+                                                    <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                                    <hr>
                                                 </div>
                                                 <?php
                                                 $k++;
@@ -270,48 +320,18 @@ function top($menu=HOME){
                                     <span id="bdg1" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
 
                                 </div>
+                                <!--************************************** FIM CARRINHO*******************************************-->
+                            </div>
+                            </div>
+                            </div>
+                            </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!--************************************** PERFIL*******************************************-->
 
-
-
-
-
-
-        <div class="nav-options" style="width: available">
-            <div class="container">
-
-                <!-- <div class="nav-search search-switch">
-                     <i class="fa fa-search"></i>
-                 </div> -->
-                <div class="nav-menu" style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;">
-                    <ul>
-                        <li><a href="./index.php"><span ><strong>Home</strong></span></a></li>
-                        <li><a href="#"><span style="font-size: 20px; color: #fff; text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;"><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li><a href="consolas.php">Consolas</a></li>
-                                    <li><a href="jogos.php">Jogos</a></li>
-                                    <li><a href="acessorios.php">Acessórios</a></li>
-                                    <li><a href="outlet.php">Outlet</a></li>
-                                </ul>
-                            </div>
-                        </li>
-
-
-
-                        <li><a href="reviews.php"><span><strong>Reviews</strong> </span></a></li>
-
-                        <li><a href="blog.php"><span><strong>Blog</strong> </span></a></li>
-
-
-
-                    </ul>
-                </div>
-            </div>
         </div>
     </header>
 

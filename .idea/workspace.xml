@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Adicionar Perfil">
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaPerfil.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- 19/4">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,6 @@
   </component>
   <component name="ProjectId" id="1oHw6BDGziJUcGuNKehATv5ypyU" />
   <component name="ProjectLevelVcsManager">
-    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -48,7 +48,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TesteHandle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AJAX" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,9 +69,6 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="" />
@@ -199,12 +196,55 @@
       <workItem from="1618655438457" duration="2540000" />
       <workItem from="1618851946093" duration="1079000" />
       <workItem from="1618853059172" duration="5957000" />
-      <workItem from="1618932836891" duration="1040000" />
-      <workItem from="1618954078697" duration="506000" />
-      <workItem from="1618954597531" duration="23000" />
-      <workItem from="1618955049084" duration="232000" />
-      <workItem from="1618993686139" duration="5507000" />
-      <workItem from="1619010506559" duration="7892000" />
+    </task>
+    <task id="LOCAL-00176" summary="Guilherme-Jogos dimensões/Imagens editajogo">
+      <created>1616684986183</created>
+      <option name="number" value="00176" />
+      <option name="presentableId" value="LOCAL-00176" />
+      <option name="project" value="LOCAL" />
+      <updated>1616684986183</updated>
+    </task>
+    <task id="LOCAL-00177" summary="Guilherme-Index jogo Escolhas">
+      <created>1616685348625</created>
+      <option name="number" value="00177" />
+      <option name="presentableId" value="LOCAL-00177" />
+      <option name="project" value="LOCAL" />
+      <updated>1616685348625</updated>
+    </task>
+    <task id="LOCAL-00178" summary="Guilherme-Base de dados/imagem Modal">
+      <created>1616686692368</created>
+      <option name="number" value="00178" />
+      <option name="presentableId" value="LOCAL-00178" />
+      <option name="project" value="LOCAL" />
+      <updated>1616686692368</updated>
+    </task>
+    <task id="LOCAL-00179" summary="Guilherme-CRUD Adiciona/ELimina Produtos">
+      <created>1616692853422</created>
+      <option name="number" value="00179" />
+      <option name="presentableId" value="LOCAL-00179" />
+      <option name="project" value="LOCAL" />
+      <updated>1616692853422</updated>
+    </task>
+    <task id="LOCAL-00180" summary="Guilherme-Pasta Produtos">
+      <created>1616692867761</created>
+      <option name="number" value="00180" />
+      <option name="presentableId" value="LOCAL-00180" />
+      <option name="project" value="LOCAL" />
+      <updated>1616692867762</updated>
+    </task>
+    <task id="LOCAL-00181" summary="Guilherme-Edita Produto">
+      <created>1616693368913</created>
+      <option name="number" value="00181" />
+      <option name="presentableId" value="LOCAL-00181" />
+      <option name="project" value="LOCAL" />
+      <updated>1616693368913</updated>
+    </task>
+    <task id="LOCAL-00182" summary="Guilherme-tagGeneros">
+      <created>1616752416506</created>
+      <option name="number" value="00182" />
+      <option name="presentableId" value="LOCAL-00182" />
+      <option name="project" value="LOCAL" />
+      <updated>1616752416507</updated>
     </task>
     <task id="LOCAL-00183" summary="Guilherme-GroupButton">
       <created>1616756336862</created>
@@ -500,56 +540,7 @@
       <option name="project" value="LOCAL" />
       <updated>1618862971050</updated>
     </task>
-    <task id="LOCAL-00225" summary="Guilherme- 19/4">
-      <created>1618954238162</created>
-      <option name="number" value="00225" />
-      <option name="presentableId" value="LOCAL-00225" />
-      <option name="project" value="LOCAL" />
-      <updated>1618954238162</updated>
-    </task>
-    <task id="LOCAL-00226" summary="Guilherme- ListaJogo">
-      <created>1618955280435</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1618955280437</updated>
-    </task>
-    <task id="LOCAL-00227" summary="Guilherme- ListaJogo">
-      <created>1618999747387</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
-      <option name="project" value="LOCAL" />
-      <updated>1618999747389</updated>
-    </task>
-    <task id="LOCAL-00228" summary="Guilherme- Reviews&#10;-Endereço de imagem fixed&#10;-Reviews pagina fixed">
-      <created>1619011377850</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1619011377859</updated>
-    </task>
-    <task id="LOCAL-00229" summary="Guilherme- Reviews&#10;-Comentários e Resultados Div Tamanho">
-      <created>1619013017796</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1619013017797</updated>
-    </task>
-    <task id="LOCAL-00230" summary="Guilherme- Noticias&#10;-Imagens">
-      <created>1619016427528</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1619016427528</updated>
-    </task>
-    <task id="LOCAL-00231" summary="Guilherme- Adicionar Perfil">
-      <created>1619018858709</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
-      <option name="project" value="LOCAL" />
-      <updated>1619018858709</updated>
-    </task>
-    <option name="localTasksCounter" value="232" />
+    <option name="localTasksCounter" value="225" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -568,6 +559,11 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="confirmaNovoJogo algumas mudanças (adiciona o jogo mas o resto não funciona ainda)" />
+    <MESSAGE value="confirmaNovoJogo algumas mudanças (continua a adicionar o jogo mas o resto não funciona ainda)" />
+    <MESSAGE value="Guilherme-Jogos  altura imagem/Butão cor" />
+    <MESSAGE value="Guilherme-Perfil" />
+    <MESSAGE value="Guilherme-Perfil/Jogos /Pesquisa" />
     <MESSAGE value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
     <MESSAGE value="Commit-Lista Consola/Outlet/Acessorio" />
     <MESSAGE value="Commit-EditaJogo Link Trailer arranjado" />
@@ -588,11 +584,6 @@
     <MESSAGE value="Guilherme- 16/4" />
     <MESSAGE value="Guilherme- 17/4" />
     <MESSAGE value="Guilherme- 19/4" />
-    <MESSAGE value="Guilherme- ListaJogo" />
-    <MESSAGE value="Guilherme- Reviews&#10;-Endereço de imagem fixed&#10;-Reviews pagina fixed" />
-    <MESSAGE value="Guilherme- Reviews&#10;-Comentários e Resultados Div Tamanho" />
-    <MESSAGE value="Guilherme- Noticias&#10;-Imagens" />
-    <MESSAGE value="Guilherme- Adicionar Perfil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Adicionar Perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- 19/4" />
   </component>
 </project>
