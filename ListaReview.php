@@ -80,7 +80,7 @@ $dados=mysqli_fetch_array($result);
                             </div>
 
                         </div>
-<hr>
+
                         <!-- ***********************************Comentários section******************************-->
 
                         <?php

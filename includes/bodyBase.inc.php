@@ -143,127 +143,88 @@ function top($menu=HOME){
 
 
 
-        <div class="logo" style="width: 300px">
-                <div class="col-lg-12 text-center">
+        <div class="logo" style="width: 100%">
+                <div class="text-center">
                     <a href="index.php"><img src="img/gameOn.png" alt="LOGO"></a>
                 </div>
-        </div>
-
-
-
-
-
-
-
-
-        <div class="nav-options" style="width: available; height: 120px">
-            <div class="container">
-
-                <!-- <div class="nav-search search-switch">
-                     <i class="fa fa-search"></i>
-                 </div> -->
-                <div class="nav-menu" style="font-size: 20px; color: #fff; ">
-                    <ul>
-                        <li><a href="./index.php"><span ><strong>Home</strong></span></a></li>
-                        <li><a href="#"><span style="font-size: 20px; color: #fff; "><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
-                            <div class="dropdown">
-                                <ul>
-                                    <li><a href="consolas.php">Consolas</a></li>
-                                    <li><a href="jogos.php">Jogos</a></li>
-                                    <li><a href="acessorios.php">Acessórios</a></li>
-                                    <li><a href="outlet.php">Outlet</a></li>
-                                </ul>
-                            </div>
-                        </li>
-
-
-
-                        <li><a href="reviews.php"><span><strong>Reviews</strong> </span></a></li>
-
-                        <li><a href="blog.php"><span><strong>Blog</strong> </span></a></li>
-
-
-
-                    </ul>
-
-                </div>
-
-<div class="col-lg-12" style="margin-left:80%; width: 300px; ">
-    <div class="ht-options">
-        <div class="container">
-            <div class="row">
-                <div class="ht-widget">
-                    <?php
-                    if(!isset($_SESSION['id'])){
-
-                        ?>
-                        <ul class="float-right">
-                            <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
-                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span>
-
-                            </li>
-
-                            <li>|</li>
-
-                            <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
-                            <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
-                        </ul>
-                        <?php
-                    }else{
-                    $con=mysqli_connect("localhost","root","","pap2021gameon");
-                    $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
-                    $result=mysqli_query($con, $sql);
-                    $dados=mysqli_fetch_array($result);
-                    ?>
-                    <ul>
-                        <li style="float: right"><div class="ht-widget"">
-                            <ul class="float-right">
-                                <div class="dropdown">
-                                    </span><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
-                                    <div class="dropdown-content" style="background-color: #202020; color: #FFF">
-
-                                        <span><?php echo $dados["perfilNome"]?></span>
-                                        <hr>
-                                        <?php
-                                        $con=mysqli_connect("localhost","root","","pap2021gameon");
-                                        $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
-                                        $result=mysqli_query($con, $sql);
-                                        $dados=mysqli_fetch_array($result);
-                                        if($dados["userType"]=="admin"){
-                                            ?>
-                                            <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Backoffice</button></a></li>
-                                            <li ><a href="adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
-                                            <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
-                                            <?php
-                                        }else{
-                                            ?>
-                                            <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
-                                            <?php
-                                        }
-                                        ?>
-
-
-                                    </div>
-                                </div>
-                            </ul>
-                </div>
-                <?php
-                }
-                ?>
-            </div>
-        </div>
-    </div>
-</div>
-                                <!--************************************** FIM PERFIL*******************************************-->
-
-
-
-                <!--************************************** CARRINHO*******************************************-->
-                <div class="col-lg-12" style="margin-left:80%; width: 300px;  ">
+            <div>
+                <div class="col-lg-12" style="margin-left:80%; width: 300px; ">
                     <div class="ht-options">
-                        <div class="container">
+
                             <div class="row">
                                 <div class="ht-widget">
+                                    <?php
+                                    if(!isset($_SESSION['id'])){
+
+                                        ?>
+                                        <ul class="float-right">
+                                            <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
+                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span>
+
+                                            </li>
+
+                                            <li>|</li>
+
+                                            <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
+                            <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
+                                        </ul>
+                                        <?php
+                                    }else{
+                                    $con=mysqli_connect("localhost","root","","pap2021gameon");
+                                    $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
+                                    $result=mysqli_query($con, $sql);
+                                    $dados=mysqli_fetch_array($result);
+                                    ?>
+                                    <ul>
+                                        <li style="float: right"><div class="ht-widget"">
+                                            <ul class="float-right">
+                                                <div class="dropdown">
+                                                    </span><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
+                                                    <div class="dropdown-content" style="background-color: #202020; color: #FFF">
+
+                                                        <span><?php echo $dados["perfilNome"]?></span>
+                                                        <hr>
+                                                        <?php
+                                                        $con=mysqli_connect("localhost","root","","pap2021gameon");
+                                                        $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
+                                                        $result=mysqli_query($con, $sql);
+                                                        $dados=mysqli_fetch_array($result);
+                                                        if($dados["userType"]=="admin"){
+                                                            ?>
+                                                            <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Backoffice</button></a></li>
+                                                            <li ><a href="adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
+                                                            <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
+                                                            <?php
+                                                        }else{
+                                                            ?>
+                                                            <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
+                                                            <?php
+                                                        }
+                                                        ?>
+
+
+                                                    </div>
+                                                </div>
+                                            </ul>
+                                </div>
+                                <?php
+                                }
+                                ?>
+                            </div>
+                    </div>
+                </div>
+                <!--************************************** FIM PERFIL*******************************************-->
+            </div>
+        </div>
+
+
+
+
+
+            <!--************************************** CARRINHO*******************************************-->
+            <div class="col-lg-12" style="margin-left:80%; width: 300px;  ">
+                        <div class="row">
+                            <div class="ht-widget">
                                 <div class="button-dropdown" >
                                     <div id="mySidenav" class="sidenav" style="color: #0b0b0b!important; margin-left: 3px">
                                         <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
@@ -327,10 +288,49 @@ function top($menu=HOME){
                                 </div>
                                 <!--************************************** FIM CARRINHO*******************************************-->
                             </div>
+                        </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="nav-options" style="width: available; height: 120px">
+            <div class="container">
+
+                <!-- <div class="nav-search search-switch">
+                     <i class="fa fa-search"></i>
+                 </div> -->
+                <div class="nav-menu" style="font-size: 20px; color: #fff; ">
+                    <ul>
+                        <li><a href="./index.php"><span ><strong>Home</strong></span></a></li>
+                        <li><a href="#"><span style="font-size: 20px; color: #fff; "><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
+                            <div class="dropdown">
+                                <ul>
+                                    <li><a href="consolas.php">Consolas</a></li>
+                                    <li><a href="jogos.php">Jogos</a></li>
+                                    <li><a href="acessorios.php">Acessórios</a></li>
+                                    <li><a href="outlet.php">Outlet</a></li>
+                                </ul>
                             </div>
-                            </div>
-                            </div>
-                            </div>
+                        </li>
+
+
+
+                        <li><a href="reviews.php"><span><strong>Reviews</strong> </span></a></li>
+
+                        <li><a href="blog.php"><span><strong>Blog</strong> </span></a></li>
+
+
+
+                    </ul>
+
+                </div>
+
+
                         </div>
                     </div>
                 </div>

@@ -32,9 +32,9 @@ $result=mysqli_query($con,$sql);
 
 
 
-
-<input type="text" placeholder="Procura o jogo que desejas..." id="search" style="width: 30%; margin-left: 30%">
-
+<div style="text-align: center">
+<input type="text" placeholder="Procura o jogo que desejas..." id="search" style="width: 30%;">
+</div>
 <div id="tableContent">
 
 </div>

@@ -96,7 +96,7 @@ $result=mysqli_query($con, $sql);
 
                         <a href="Listajogo.php?id=<?php echo $dados["jogoId"] ?>"><h5 class="card-title"><?php echo $dados["jogoNome"] ?></h5></a>
 
-                        <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["jogoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
+                        <p class="card-text" style="font-size: 18px; color: #FFF"><strong><?php echo $dados["jogoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
                         <button class="btn btn-danger  cart-button" style="color: #FF0000; width: 100%"><strong>
                                 <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
