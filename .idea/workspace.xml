@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- jogos">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- h5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaProduto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
   </component>
   <component name="ProjectId" id="1oHw6BDGziJUcGuNKehATv5ypyU" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -48,7 +51,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AJAX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TesteHandle" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -69,6 +72,9 @@
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="" />
@@ -196,21 +202,12 @@
       <workItem from="1618655438457" duration="2540000" />
       <workItem from="1618851946093" duration="1079000" />
       <workItem from="1618853059172" duration="5957000" />
-      <workItem from="1619166293688" duration="2699000" />
-    </task>
-    <task id="LOCAL-00181" summary="Guilherme-Edita Produto">
-      <created>1616693368913</created>
-      <option name="number" value="00181" />
-      <option name="presentableId" value="LOCAL-00181" />
-      <option name="project" value="LOCAL" />
-      <updated>1616693368913</updated>
-    </task>
-    <task id="LOCAL-00182" summary="Guilherme-tagGeneros">
-      <created>1616752416506</created>
-      <option name="number" value="00182" />
-      <option name="presentableId" value="LOCAL-00182" />
-      <option name="project" value="LOCAL" />
-      <updated>1616752416507</updated>
+      <workItem from="1618932836891" duration="1040000" />
+      <workItem from="1618954078697" duration="506000" />
+      <workItem from="1618954597531" duration="23000" />
+      <workItem from="1618955049084" duration="232000" />
+      <workItem from="1618993686139" duration="5507000" />
+      <workItem from="1619010506559" duration="7892000" />
     </task>
     <task id="LOCAL-00183" summary="Guilherme-GroupButton">
       <created>1616756336862</created>
@@ -506,42 +503,56 @@
       <option name="project" value="LOCAL" />
       <updated>1618862971050</updated>
     </task>
-    <task id="LOCAL-00225" summary="Guilherme- UI">
-      <created>1619120526000</created>
+    <task id="LOCAL-00225" summary="Guilherme- 19/4">
+      <created>1618954238162</created>
       <option name="number" value="00225" />
       <option name="presentableId" value="LOCAL-00225" />
       <option name="project" value="LOCAL" />
-      <updated>1619120526000</updated>
+      <updated>1618954238162</updated>
     </task>
-    <task id="LOCAL-00226" summary="Guilherme- HEADER">
-      <created>1619121085230</created>
+    <task id="LOCAL-00226" summary="Guilherme- ListaJogo">
+      <created>1618955280435</created>
       <option name="number" value="00226" />
       <option name="presentableId" value="LOCAL-00226" />
       <option name="project" value="LOCAL" />
-      <updated>1619121085230</updated>
+      <updated>1618955280437</updated>
     </task>
-    <task id="LOCAL-00227" summary="Guilherme- HEADER">
-      <created>1619121273499</created>
+    <task id="LOCAL-00227" summary="Guilherme- ListaJogo">
+      <created>1618999747387</created>
       <option name="number" value="00227" />
       <option name="presentableId" value="LOCAL-00227" />
       <option name="project" value="LOCAL" />
-      <updated>1619121273499</updated>
+      <updated>1618999747389</updated>
     </task>
-    <task id="LOCAL-00228" summary="Guilherme- jogos">
-      <created>1619166916362</created>
+    <task id="LOCAL-00228" summary="Guilherme- Reviews&#10;-Endereço de imagem fixed&#10;-Reviews pagina fixed">
+      <created>1619011377850</created>
       <option name="number" value="00228" />
       <option name="presentableId" value="LOCAL-00228" />
       <option name="project" value="LOCAL" />
-      <updated>1619166916362</updated>
+      <updated>1619011377859</updated>
     </task>
-    <task id="LOCAL-00229" summary="Guilherme- jogos">
-      <created>1619167883590</created>
+    <task id="LOCAL-00229" summary="Guilherme- Reviews&#10;-Comentários e Resultados Div Tamanho">
+      <created>1619013017796</created>
       <option name="number" value="00229" />
       <option name="presentableId" value="LOCAL-00229" />
       <option name="project" value="LOCAL" />
-      <updated>1619167883590</updated>
+      <updated>1619013017797</updated>
     </task>
-    <option name="localTasksCounter" value="230" />
+    <task id="LOCAL-00230" summary="Guilherme- Noticias&#10;-Imagens">
+      <created>1619016427528</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1619016427528</updated>
+    </task>
+    <task id="LOCAL-00231" summary="Guilherme- Adicionar Perfil">
+      <created>1619018858709</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1619018858709</updated>
+    </task>
+    <option name="localTasksCounter" value="232" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,8 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Perfil" />
-    <MESSAGE value="Guilherme-Perfil/Jogos /Pesquisa" />
     <MESSAGE value="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews" />
     <MESSAGE value="Commit-Lista Consola/Outlet/Acessorio" />
     <MESSAGE value="Commit-EditaJogo Link Trailer arranjado" />
@@ -582,9 +591,11 @@
     <MESSAGE value="Guilherme- 16/4" />
     <MESSAGE value="Guilherme- 17/4" />
     <MESSAGE value="Guilherme- 19/4" />
-    <MESSAGE value="Guilherme- UI" />
-    <MESSAGE value="Guilherme- HEADER" />
-    <MESSAGE value="Guilherme- jogos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- jogos" />
+    <MESSAGE value="Guilherme- ListaJogo" />
+    <MESSAGE value="Guilherme- Reviews&#10;-Endereço de imagem fixed&#10;-Reviews pagina fixed" />
+    <MESSAGE value="Guilherme- Reviews&#10;-Comentários e Resultados Div Tamanho" />
+    <MESSAGE value="Guilherme- Noticias&#10;-Imagens" />
+    <MESSAGE value="Guilherme- Adicionar Perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Adicionar Perfil" />
   </component>
 </project>

@@ -86,9 +86,9 @@ $result=mysqli_query($con, $sql);
             ?>
 
 
-            <div id="content"  class="col-lg-4 col-lg-3" style="max-width: 23rem;min-width: 15rem; margin-bottom: 5%">
+            <div id="content"  class="col-lg-4 col-md-3" style=" margin-bottom: 5%">
 
-                <div  class="card" style="max-width:19rem; width: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
+                <div  class="card" style="max-width: 23rem; min-width: 15rem; width: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
 
                     <a href="Listajogo.php?id=<?php echo $dados["jogoId"]?>"><img src="img/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
 
@@ -96,7 +96,7 @@ $result=mysqli_query($con, $sql);
 
                         <a href="Listajogo.php?id=<?php echo $dados["jogoId"] ?>"><h5 class="card-title"><?php echo $dados["jogoNome"] ?></h5></a>
 
-                        <p class="card-text" style="font-size: 18px; color: #FFF"><strong><?php echo $dados["jogoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
+                        <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["jogoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
                         <button class="btn btn-danger  cart-button" style="color: #FF0000; width: 100%"><strong>
                                 <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>

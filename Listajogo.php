@@ -86,15 +86,13 @@ $dados=mysqli_fetch_array($result);
 
 
     </section>
-<section class="store">
+<section class="store" >
     <div style="height: 80%; width: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; margin-left: 10%">
         <h2>Acerca do jogo:</h2>
         <hr>
-        <div>
-            <div style=" margin-left:5%; width: 1280px; height: 720px" >
+            <div style=" text-align: center; max-width: 1920px;!important; min-width: 400px;!important; height: auto;!important; " >
                 <?php echo $dados["jogoTrailer"] ?>
             </div>
-        </div>
         <hr>
         <div>
             <h3>Resumo:</h3>
