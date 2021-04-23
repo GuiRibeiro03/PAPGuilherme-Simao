@@ -85,8 +85,8 @@ $dados=mysqli_fetch_array($result);
     <div class="mb-3">
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Imagem:</label>
         <div id="wrapper" style="color: #FFFFFF">
-            <input src="<?php echo $dados["produtoImagemURL"]?>" type="file" accept="image/*" name="produtoImagemURL" onchange="preview_image(event)">
-            <div style="max-height: 100px">
+            <input type="file" accept="image/*" name="produtoImagemURL" onchange="preview_image(event)">
+            <div style="max-height: 100px; margin: 10%">
                 <img id="output_image" src="<?php echo $dados["produtoImagemURL"]?>"/>
             </div>
 
@@ -98,7 +98,7 @@ $dados=mysqli_fetch_array($result);
     <div style="color: #FFFFFF; margin-top: 15%">
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Tipo:</label>
         <p><input type="radio" name="produtoTipo" value="consola" <?php if ($dados['produtoTipo'] == 'consola') { echo "checked";} ?>>&nbsp;Consola</p>
-        <p><input type="radio" name="produtoTipo" value="acessório" <?php if ($dados['produtoTipo'] == 'acessorio') { echo "checked";} ?>>&nbsp;Acessório</p>
+        <p><input type="radio" name="produtoTipo" value="acessorio" <?php if ($dados['produtoTipo'] == 'acessorio') { echo "checked";} ?>>&nbsp;Acessório</p>
         <p><input type="radio" name="produtoTipo" value="outlet" <?php if ($dados['produtoTipo'] == 'outlet') { echo "checked";} ?>>&nbsp;Outlet</p>
     </div>
 
