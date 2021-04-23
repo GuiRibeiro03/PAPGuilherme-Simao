@@ -86,7 +86,7 @@ $result=mysqli_query($con, $sql);
             ?>
 
 
-            <div id="content"  class="col-lg-4 col-lg-3" style="max-width: 23rem; margin-bottom: 5%">
+            <div id="content"  class="col-lg-4 col-lg-3" style="max-width: 23rem;min-width: 15rem; margin-bottom: 5%">
 
                 <div  class="card" style="max-width:19rem; width: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
 

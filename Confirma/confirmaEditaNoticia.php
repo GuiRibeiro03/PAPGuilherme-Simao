@@ -29,7 +29,7 @@ $sql.=", noticiaData='".$noticiaData."', noticiaDesenvolvimento='".$noticiaDesen
 print_r($sql);
 mysqli_query($con, $sql) or die(mysqli_error($con));
 
-//header("location: ../backoffice/NoticiasBackoffice.php");
+header("location: ../backoffice/NoticiasBackoffice.php");
 
 
 
