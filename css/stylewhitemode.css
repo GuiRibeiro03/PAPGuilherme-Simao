@@ -781,8 +781,8 @@ ol {
 .logo {
 	background: #0d0d0d;
 	padding: 50px 20px;
-	position: relative;
-
+	position: absolute;
+	 margin-left: 45%;
 }
 
 .logo a {

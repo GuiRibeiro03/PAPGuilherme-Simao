@@ -208,13 +208,6 @@
       <workItem from="1618993686139" duration="5507000" />
       <workItem from="1619010506559" duration="7892000" />
     </task>
-    <task id="LOCAL-00186" summary="Guilherme-Jogos  altura imagem/Butão cor">
-      <created>1617872903260</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1617872903260</updated>
-    </task>
     <task id="LOCAL-00187" summary="Guilherme-Perfil">
       <created>1617912152421</created>
       <option name="number" value="00187" />
@@ -551,7 +544,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619101629107</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="Guilherme- Edita produto fixed">
+      <created>1619187934852</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1619187934852</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

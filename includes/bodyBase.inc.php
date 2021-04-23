@@ -140,7 +140,10 @@ function top($menu=HOME){
 
     <header class="header-section" >
 
-        <div class="logo" style="width: 100%; margin-right: 50%">
+
+
+
+        <div class="logo" style="width: 100%;">
                 <div class="text-center">
                     <a href="index.php"><img src="img/gameOn.png" alt="LOGO"></a>
                 </div>
