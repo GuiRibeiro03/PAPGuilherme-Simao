@@ -147,146 +147,7 @@ function top($menu=HOME){
                 <div class="text-center">
                     <a href="index.php"><img src="img/gameOn.png" alt="LOGO"></a>
                 </div>
-            <div style="width: 20%; float: right; ">
-                <div class="col-lg-12" >
-                    <div class="ht-options">
 
-                            <div class="row">
-                                <div class="ht-widget">
-                                    <?php
-                                    if(!isset($_SESSION['id'])){
-
-                                        ?>
-                                        <ul class="float-right">
-                                            <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
-                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span>
-
-                                            </li>
-
-                                            <li>|</li>
-
-                                            <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
-                            <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
-                                        </ul>
-                                        <?php
-                                    }else{
-                                    $con=mysqli_connect("localhost","root","","pap2021gameon");
-                                    $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
-                                    $result=mysqli_query($con, $sql);
-                                    $dados=mysqli_fetch_array($result);
-                                    ?>
-                                    <ul>
-                                        <li style="float: right"><div class="ht-widget"">
-                                            <ul class="float-right">
-                                                <div class="dropdown">
-                                                    </span><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
-                                                    <div class="dropdown-content" style="background-color: #202020; color: #FFF">
-
-                                                        <span><?php echo $dados["perfilNome"]?></span>
-                                                        <hr>
-                                                        <?php
-                                                        $con=mysqli_connect("localhost","root","","pap2021gameon");
-                                                        $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
-                                                        $result=mysqli_query($con, $sql);
-                                                        $dados=mysqli_fetch_array($result);
-                                                        if($dados["userType"]=="admin"){
-                                                            ?>
-                                                            <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Backoffice</button></a></li>
-                                                            <li ><a href="adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
-                                                            <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
-                                                            <?php
-                                                        }else{
-                                                            ?>
-                                                            <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
-                                                            <?php
-                                                        }
-                                                        ?>
-
-
-                                                    </div>
-                                                </div>
-                                            </ul>
-                                </div>
-                                <?php
-                                }
-                                ?>
-                            </div>
-                    </div>
-                </div>
-                <!--************************************** FIM PERFIL*******************************************-->
-
-                <div style="50%; text-align: center">
-                    <div class="col-lg-12" >
-                        <div class="row">
-                            <div class="ht-widget">
-                                <div class="button-dropdown" >
-                                    <div id="mySidenav" class="sidenav" style="color: #0b0b0b!important; margin-left: 3px">
-                                        <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
-                                        <hr>
-                                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-                                        <?php
-                                        if(isset($_SESSION['id'])){
-
-                                            ?>
-
-                                            <?php
-                                            $con=mysqli_connect("localhost","root","","pap2021gameon");
-                                            $sqlprod="select * from produtos where produtoTipo='consola' ";
-                                            $resultprod=mysqli_query($con, $sqlprod);
-                                            $i=0;
-                                            $k=0;
-                                            while($dadosprod=mysqli_fetch_array($resultprod)){
-
-                                                ?>
-                                                <div >
-                                                <span style="color: #000000!important; font-size: 20px"> <img src="img/<?php echo $dadosprod["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dadosprod["produtoNome"] ?>: &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dadosprod["produtoPreco"] ?>€</strong> </span>
-                                                    <button style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
-                                                    <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
-                                                    <hr>
-                                                </div>
-                                                <?php
-                                                $k++;
-                                                $i+=$dadosprod["produtoPreco"];
-                                            }?>
-                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $i ?>&nbsp;€</span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
-
-                                            <?php
-                                        }else{
-                                            $k=0;
-                                            ?>
-
-                                            <div class="row"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
-
-                                            <?php
-                                        }
-                                        ?>
-                                    </div>
-
-
-                                    <span style="font-size:30px; cursor:pointer" onclick="openNav()"><i class="fa fa-shopping-cart" style="font-size: 1em"></i></span>
-
-                                    <script>
-                                        function openNav() {
-                                            document.getElementById("mySidenav").style.width = "450px";
-                                        }
-
-                                        function closeNav() {
-                                            document.getElementById("mySidenav").style.width = "0";
-                                        }
-                                    </script>
-
-
-                                    <span id="bdg1" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
-
-                                </div>
-                                <!--************************************** FIM CARRINHO*******************************************-->
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
         </div>
 
 
@@ -294,7 +155,145 @@ function top($menu=HOME){
 
 
             <!--************************************** CARRINHO*******************************************-->
+        <div style="width: 20%; float: right; ">
+            <div class="col-lg-12" >
+                <div class="ht-options">
+                    <div class="row">
+                        <div class="ht-widget">
+                            <?php
+                            if(!isset($_SESSION['id'])){
 
+                                ?>
+                                <ul class="float-right">
+                                    <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
+                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span>
+
+                                    </li>
+
+                                    <li>|</li>
+
+                                    <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
+                            <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
+                                </ul>
+                                <?php
+                            }else{
+                            $con=mysqli_connect("localhost","root","","pap2021gameon");
+                            $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
+                            $result=mysqli_query($con, $sql);
+                            $dados=mysqli_fetch_array($result);
+                            ?>
+                            <ul>
+                                <li style="float: right"><div class="ht-widget"">
+                                    <ul class="float-right">
+                                        <div class="dropdown">
+                                            </span><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
+                                            <div class="dropdown-content" style="background-color: #202020; color: #FFF">
+
+                                                <span><?php echo $dados["perfilNome"]?></span>
+                                                <hr>
+                                                <?php
+                                                $con=mysqli_connect("localhost","root","","pap2021gameon");
+                                                $sql="select * from users inner join perfis on userId=perfilUserId where userId=".$_SESSION['id'];
+                                                $result=mysqli_query($con, $sql);
+                                                $dados=mysqli_fetch_array($result);
+                                                if($dados["userType"]=="admin"){
+                                                    ?>
+                                                    <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Backoffice</button></a></li>
+                                                    <li ><a href="adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
+                                                    <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
+                                                    <?php
+                                                }else{
+                                                    ?>
+                                                    <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
+                                                    <?php
+                                                }
+                                                ?>
+
+
+                                            </div>
+                                        </div>
+                                    </ul>
+                        </div>
+                        <?php
+                        }
+                        ?>
+                    </div>
+                </div>
+            </div>
+            <!--************************************** FIM PERFIL*******************************************-->
+
+            <div style="50%; text-align: left">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="ht-widget">
+                            <div class="button-dropdown" >
+                                <div id="mySidenav" class="sidenav" style="color: #0b0b0b!important; margin-left: 3px">
+                                    <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
+                                    <hr>
+                                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                                    <?php
+                                    if(isset($_SESSION['id'])){
+
+                                        ?>
+
+                                        <?php
+                                        $con=mysqli_connect("localhost","root","","pap2021gameon");
+                                        $sqlprod="select * from produtos where produtoTipo='consola' ";
+                                        $resultprod=mysqli_query($con, $sqlprod);
+                                        $i=0;
+                                        $k=0;
+                                        while($dadosprod=mysqli_fetch_array($resultprod)){
+
+                                            ?>
+                                            <div >
+                                                <span style="color: #000000!important; font-size: 20px"> <img src="img/<?php echo $dadosprod["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dadosprod["produtoNome"] ?>: &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dadosprod["produtoPreco"] ?>€</strong> </span>
+                                                    <button style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                                <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                                <hr>
+                                            </div>
+                                            <?php
+                                            $k++;
+                                            $i+=$dadosprod["produtoPreco"];
+                                        }?>
+                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $i ?>&nbsp;€</span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+
+                                        <?php
+                                    }else{
+                                        $k=0;
+                                        ?>
+
+                                        <div class="row"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
+
+                                        <?php
+                                    }
+                                    ?>
+                                </div>
+
+
+                                <span style="font-size:30px; cursor:pointer" onclick="openNav()"><i class="fa fa-shopping-cart" style="font-size: 1em"></i></span>
+
+                                <script>
+                                    function openNav() {
+                                        document.getElementById("mySidenav").style.width = "450px";
+                                    }
+
+                                    function closeNav() {
+                                        document.getElementById("mySidenav").style.width = "0";
+                                    }
+                                </script>
+
+
+                                <span id="bdg1" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
+
+                            </div>
+                            <!--************************************** FIM CARRINHO*******************************************-->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         </div>
 
 
