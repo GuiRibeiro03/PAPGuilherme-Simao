@@ -220,13 +220,14 @@ function top($menu=HOME){
                     </div>
                 </div>
             </div>
-            <!--************************************** FIM PERFIL*******************************************-->
 
-            <div style="50%; text-align: left">
+            <!--************************************** FIM PERFIL*******************************************-->
+            
+            <div style=" text-align: left">
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="ht-widget">
-                            <div class="button-dropdown" >
+                            <div class="button-dropdown" style="margin-bottom:10%">
                                 <div id="mySidenav" class="sidenav" style="color: #0b0b0b!important; margin-left: 3px">
                                     <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
                                     <hr>
