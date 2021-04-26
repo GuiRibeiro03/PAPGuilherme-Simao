@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elimina/eliminaProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/eliminaProdutoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +62,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="D:\wamp\www\papGuiSimao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\backoffice" />
+      <recent name="D:\wamp\www\papGuiSimao\Edita" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -207,7 +207,14 @@
       <workItem from="1618993686139" duration="5507000" />
       <workItem from="1619010506559" duration="7892000" />
       <workItem from="1619428309708" duration="6486000" />
-      <workItem from="1619435376929" duration="6805000" />
+      <workItem from="1619435376929" duration="4667000" />
+    </task>
+    <task id="LOCAL-00192" summary="Guilherme-Perfil/Jogos /Pesquisa">
+      <created>1617923724187</created>
+      <option name="number" value="00192" />
+      <option name="presentableId" value="LOCAL-00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1617923724187</updated>
     </task>
     <task id="LOCAL-00193" summary="Guilherme-Perfil/Jogos /Pesquisa">
       <created>1617927026903</created>
@@ -545,14 +552,7 @@
       <option name="project" value="LOCAL" />
       <updated>1619437503736</updated>
     </task>
-    <task id="LOCAL-00241" summary="Adiciona Carrinho / Elimina Carrinho">
-      <created>1619444051264</created>
-      <option name="number" value="00241" />
-      <option name="presentableId" value="LOCAL-00241" />
-      <option name="project" value="LOCAL" />
-      <updated>1619444051264</updated>
-    </task>
-    <option name="localTasksCounter" value="242" />
+    <option name="localTasksCounter" value="241" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,6 +571,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit: &#10;  Frontoffice:&#10;  -Avatar&#10;  -Se for admin mostrar butão backoffice&#10;  -Carrinho com produtos inseridos da BD para simulação responsiva" />
     <MESSAGE value="Commit: &#10;  Frontoffice:&#10;  background: #ob0b0b0b" />
     <MESSAGE value="Commit: &#10;  bodyBlog" />
     <MESSAGE value="Border-Radius imagens index,blog,reviews" />
@@ -595,7 +596,6 @@
     <MESSAGE value="Guilherme- ListaAcessorio.php | ListaConsola.php | ListaOutlet.php | ListaJogo.php" />
     <MESSAGE value="Guilherme- UI lista" />
     <MESSAGE value="Adiciona Carrinho" />
-    <MESSAGE value="Adiciona Carrinho / Elimina Carrinho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona Carrinho / Elimina Carrinho" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adiciona Carrinho" />
   </component>
 </project>
