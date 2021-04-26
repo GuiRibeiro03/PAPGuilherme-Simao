@@ -178,13 +178,14 @@ function countClicks2() {
 function adicionaCarrinho(id){
     alert(id);
     $.ajax({
-        url:"admin/AJAX/AJAXNovoProdutoCarrinho.php",
+        url:"AJAX/AJAXNovoProdutoCarrinho.php",
         type:"post",
         data: {
-            idPrd:id
+            id:id
         },
         success:function(result){
             alert(result);
+           location.reload();
         }
     });
 }
@@ -201,7 +202,7 @@ function confirmaEliminaCarrinho(idProduto) {
         success:function (result){
             nomeProduto=result;
             if(confirm('Confirma que deseja eliminar o produto:'+nomeProduto+'?'))
-                window.location="eliminaProduto.php?id=" + idProduto;
+                window.location="Elimina/eliminaProdutoCarrinho.php?id=" + idProduto;
         }
     });
 }
