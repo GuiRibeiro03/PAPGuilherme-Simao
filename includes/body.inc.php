@@ -7,6 +7,18 @@ error_reporting(E_ALL);
 
 session_start();
 
+
+$lista="(0";
+if(isset($_SESSION['carrinho'])){
+    foreach ($_SESSION['carrinho'] as $produto){
+        $lista.=",".$produto;
+    }
+}
+$lista.=")";
+
+
+$sql1="select * from produtos where produtoId in ".$lista;
+
 function top($menu=HOME){
 
 ?>
@@ -240,12 +252,12 @@ function top($menu=HOME){
                                     ?>
 
                                     <?php
-                                    $con=mysqli_connect("localhost","root","","pap2021gameon");
-                                    $sqlprod="select * from produtos where produtoTipo='consola' ";
-                                    $resultprod=mysqli_query($con, $sqlprod);
+
+
+                                    $result1=mysqli_query($con,$sql1);
                                     $i=0;
                                     $k=0;
-                                    while($dadosprod=mysqli_fetch_array($resultprod)){
+                                    while($dadosprod=mysqli_fetch_array($result1)){
 
                                         ?>
 

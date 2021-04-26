@@ -98,26 +98,8 @@ $result=mysqli_query($con, $sql);
 
                         <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["jogoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
-                        <button class="btn btn-danger  cart-button" style="color: #FF0000; width: 100%"><strong>
-                                <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
-                                <span class="added" style="color: #FFFFFF">Adicionado &nbsp;<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                            </strong>
-
-                        </button>
-
-                        <script>
-                            const cartButtons<?php echo $i + 1?>=document.querySelectorAll('.cart-button');
-                            cartButtons<?php echo $i + 1?>.forEach(button => {
-                                button.addEventListener('click',cartClicker);
-                            });
-
-                            function cartClicker() {
-                                var cart=0;
-                                let button = this;
-                                button.classList.add('clicked');
-                                document.getElementById("bdg<?php echo $i + 1?>").innerHTML = cart + 1;
-                            }
-                        </script>
+                        <a onclick="adicionaCarrinho(<?php echo $dados["jogoId"] ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;">
+                            <input type="submit" class="btn-danger" value="Adicionar ao Carrinho"></a>
                     </div>
 
                 </div>

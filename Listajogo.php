@@ -28,13 +28,9 @@ $dados=mysqli_fetch_array($result);
                 <br>
                 <br>
                 <h3 class="card-title"><strong><span ><?php echo $dados["jogoPreco"] ?>€</span></strong> </h3>
-                <button onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;">
-                    <strong>
-                        <span class="add-to-cart" style="color: #FFFFFF">Comprar &nbsp;<i class="fa fa-shopping-basket"> </i></span>
-                        <br>
-                        <span class="added" style="color: #FFFFFF">Adicionado &nbsp;<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                    </strong>
-                </button>
+                <a onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;">
+                <input type="submit" class="btn-danger" value="Adicionar ao Carrinho"></a>
+
             </div>
 
 
