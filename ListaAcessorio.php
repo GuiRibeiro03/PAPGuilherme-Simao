@@ -22,7 +22,7 @@ $dados=mysqli_fetch_array($result);
 
                 <div style="width: 19rem; margin-left: 30%; margin-right: 10px; margin-top: 10px; background-color: black">
 
-                    <img src="img/<?php echo $dados["produtoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 1920px; width: 1080px" >
+                    <img src="img/<?php echo $dados["produtoImagemURL"] ?>" class="card-img-top" alt="..." >
                 </div>
 
             </div>
@@ -63,7 +63,6 @@ $dados=mysqli_fetch_array($result);
             <div style="height: 80%; width: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; margin-left: 10%">
                 <div style="text-align: center; width: 100%">
                 <h2>Acerca do Produto</h2>
-                    <br>
                 </div>
                 <br>
                 <div>

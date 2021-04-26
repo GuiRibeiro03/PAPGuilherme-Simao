@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaAcessorio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaConsola.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -210,14 +208,7 @@
       <workItem from="1618955049084" duration="232000" />
       <workItem from="1618993686139" duration="5507000" />
       <workItem from="1619010506559" duration="7892000" />
-      <workItem from="1619428309708" duration="2893000" />
-    </task>
-    <task id="LOCAL-00187" summary="Guilherme-Perfil">
-      <created>1617912152421</created>
-      <option name="number" value="00187" />
-      <option name="presentableId" value="LOCAL-00187" />
-      <option name="project" value="LOCAL" />
-      <updated>1617912152421</updated>
+      <workItem from="1619428309708" duration="6394000" />
     </task>
     <task id="LOCAL-00188" summary="Guilherme-Perfil">
       <created>1617912166622</created>
@@ -555,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619187934852</updated>
     </task>
-    <option name="localTasksCounter" value="236" />
+    <task id="LOCAL-00236" summary="Guilherme- ListaAcessorio.php | ListaConsola.php | ListaOutlet.php | ListaJogo.php">
+      <created>1619432318114</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1619432318114</updated>
+    </task>
+    <option name="localTasksCounter" value="237" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,7 +572,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-Ajax links bootstrap" />
     <MESSAGE value="Commit-Logins" />
     <MESSAGE value="Commit-Logins/Perfil" />
     <MESSAGE value="Commit: &#10;  Frontoffice:&#10;  -Avatar&#10;  -Se for admin mostrar butão backoffice&#10;  -Carrinho com produtos inseridos da BD para simulação responsiva" />
@@ -599,6 +596,7 @@
     <MESSAGE value="Guilherme- jogos resize" />
     <MESSAGE value="Guilherme- random bullshit" />
     <MESSAGE value="Guilherme- Edita produto fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Edita produto fixed" />
+    <MESSAGE value="Guilherme- ListaAcessorio.php | ListaConsola.php | ListaOutlet.php | ListaJogo.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- ListaAcessorio.php | ListaConsola.php | ListaOutlet.php | ListaJogo.php" />
   </component>
 </project>
