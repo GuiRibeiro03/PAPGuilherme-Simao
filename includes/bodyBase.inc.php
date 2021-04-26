@@ -268,6 +268,7 @@ function top($menu=HOME){
                                             $k++;
                                             $i+=$dados2["produtoPreco"];
                                         }?>
+
                                         <?php
                                         $lista2="(0";
                                         if(isset($_SESSION['carrinho'])){
