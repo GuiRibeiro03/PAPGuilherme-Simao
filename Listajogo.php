@@ -28,7 +28,7 @@ $dados=mysqli_fetch_array($result);
                 <br>
                 <br>
                 <h3 class="card-title"><strong><span ><?php echo $dados["jogoPreco"] ?>€</span></strong> </h3>
-                <button class="btn btn-danger  cart-button" style="color: #dc3545;">
+                <button onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;">
                     <strong>
                         <span class="add-to-cart" style="color: #FFFFFF">Comprar &nbsp;<i class="fa fa-shopping-basket"> </i></span>
                         <br>
@@ -36,19 +36,7 @@ $dados=mysqli_fetch_array($result);
                     </strong>
                 </button>
             </div>
-            <script>
-                const cartButtons=document.querySelectorAll('.cart-button');
-                cartButtons.forEach(button => {
-                    button.addEventListener('click',cartClicker);
-                });
 
-                function cartClicker() {
-                    var cart=0;
-                    let button = this;
-                    button.classList.add('clicked');
-                    document.getElementById("bdg1").innerHTML = cart + 1;
-                }
-            </script>
 
 
 

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
-      <change afterPath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaAcessorio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -208,14 +206,8 @@
       <workItem from="1618955049084" duration="232000" />
       <workItem from="1618993686139" duration="5507000" />
       <workItem from="1619010506559" duration="7892000" />
-      <workItem from="1619428309708" duration="6394000" />
-    </task>
-    <task id="LOCAL-00188" summary="Guilherme-Perfil">
-      <created>1617912166622</created>
-      <option name="number" value="00188" />
-      <option name="presentableId" value="LOCAL-00188" />
-      <option name="project" value="LOCAL" />
-      <updated>1617912166622</updated>
+      <workItem from="1619428309708" duration="6486000" />
+      <workItem from="1619435376929" duration="359000" />
     </task>
     <task id="LOCAL-00189" summary="Guilherme-Perfil">
       <created>1617912180496</created>
@@ -553,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619432318114</updated>
     </task>
-    <option name="localTasksCounter" value="237" />
+    <task id="LOCAL-00237" summary="Guilherme- UI lista">
+      <created>1619435336104</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1619435336104</updated>
+    </task>
+    <option name="localTasksCounter" value="238" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -572,7 +571,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit-Logins" />
     <MESSAGE value="Commit-Logins/Perfil" />
     <MESSAGE value="Commit: &#10;  Frontoffice:&#10;  -Avatar&#10;  -Se for admin mostrar butão backoffice&#10;  -Carrinho com produtos inseridos da BD para simulação responsiva" />
     <MESSAGE value="Commit: &#10;  Frontoffice:&#10;  background: #ob0b0b0b" />
@@ -597,6 +595,7 @@
     <MESSAGE value="Guilherme- random bullshit" />
     <MESSAGE value="Guilherme- Edita produto fixed" />
     <MESSAGE value="Guilherme- ListaAcessorio.php | ListaConsola.php | ListaOutlet.php | ListaJogo.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- ListaAcessorio.php | ListaConsola.php | ListaOutlet.php | ListaJogo.php" />
+    <MESSAGE value="Guilherme- UI lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- UI lista" />
   </component>
 </project>
