@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Header">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylewhitemode.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylewhitemode.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +207,20 @@
       <workItem from="1618955049084" duration="232000" />
       <workItem from="1618993686139" duration="5507000" />
       <workItem from="1619010506559" duration="7892000" />
-      <workItem from="1619424406332" duration="1568000" />
+    </task>
+    <task id="LOCAL-00187" summary="Guilherme-Perfil">
+      <created>1617912152421</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1617912152421</updated>
+    </task>
+    <task id="LOCAL-00188" summary="Guilherme-Perfil">
+      <created>1617912166622</created>
+      <option name="number" value="00188" />
+      <option name="presentableId" value="LOCAL-00188" />
+      <option name="project" value="LOCAL" />
+      <updated>1617912166622</updated>
     </task>
     <task id="LOCAL-00189" summary="Guilherme-Perfil">
       <created>1617912180496</created>
@@ -536,21 +551,7 @@
       <option name="project" value="LOCAL" />
       <updated>1619187934852</updated>
     </task>
-    <task id="LOCAL-00236" summary="Guilherme- Header">
-      <created>1619191967229</created>
-      <option name="number" value="00236" />
-      <option name="presentableId" value="LOCAL-00236" />
-      <option name="project" value="LOCAL" />
-      <updated>1619191967229</updated>
-    </task>
-    <task id="LOCAL-00237" summary="Guilherme- Header">
-      <created>1619192202134</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1619192202134</updated>
-    </task>
-    <option name="localTasksCounter" value="238" />
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,6 +570,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit-Ajax links bootstrap" />
     <MESSAGE value="Commit-Logins" />
     <MESSAGE value="Commit-Logins/Perfil" />
     <MESSAGE value="Commit: &#10;  Frontoffice:&#10;  -Avatar&#10;  -Se for admin mostrar butão backoffice&#10;  -Carrinho com produtos inseridos da BD para simulação responsiva" />
@@ -593,7 +595,6 @@
     <MESSAGE value="Guilherme- jogos resize" />
     <MESSAGE value="Guilherme- random bullshit" />
     <MESSAGE value="Guilherme- Edita produto fixed" />
-    <MESSAGE value="Guilherme- Header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Header" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Edita produto fixed" />
   </component>
 </project>

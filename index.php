@@ -84,14 +84,14 @@ while ($i < 4 && $dadosJogos=mysqli_fetch_array($result2_2)){
     ?>
 
                 <div class="col-lg-3" >
-                    <div class="card" style="max-width: 20rem; width: auto; height:auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black; border-radius: 2%">
+                    <div class="card" style="width: 20rem; height: 100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black; border-radius: 2%">
                         <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><img src="img/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
                         <span class="badge badge-danger">Bom Negocio!</span>
 
                         <div class="card-body">
                             <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><h4 class="card-title"><strong><?php echo $dadosJogos["jogoNome"]?></strong> &nbsp; </h4></a>
                                 <h5  class="card-text"><?php echo $dadosJogos["jogoPreco"]?>€</h5>
-                            <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
+                            <button class="btn btn-danger  cart-button" style="color: #dc3545;"><strong>
                                 <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
                                 <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
                             </strong>
