@@ -189,4 +189,20 @@ function adicionaCarrinho(id){
     });
 }
 
+//*************************************Elimina Carrinho**************************************
+function confirmaEliminaCarrinho(idProduto) {
+    var nomeProduto;
+    $.ajax({
+        url:"AJAX/AJAXGetNameProduto.php",
+        type:"post",
+        data:{
+            idProduto:idProduto
+        },
+        success:function (result){
+            nomeProduto=result;
+            if(confirm('Confirma que deseja eliminar o produto:'+nomeProduto+'?'))
+                window.location="eliminaProduto.php?id=" + idProduto;
+        }
+    });
+}
 

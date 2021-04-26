@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaAcessorio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaConsola.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acessorios.php" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,14 +207,7 @@
       <workItem from="1618993686139" duration="5507000" />
       <workItem from="1619010506559" duration="7892000" />
       <workItem from="1619428309708" duration="6486000" />
-      <workItem from="1619435376929" duration="1178000" />
-    </task>
-    <task id="LOCAL-00190" summary="Guilherme-Perfil/Jogos /Pesquisa">
-      <created>1617922428781</created>
-      <option name="number" value="00190" />
-      <option name="presentableId" value="LOCAL-00190" />
-      <option name="project" value="LOCAL" />
-      <updated>1617922428781</updated>
+      <workItem from="1619435376929" duration="2034000" />
     </task>
     <task id="LOCAL-00191" summary="Guilherme-Perfil/Jogos /Pesquisa">
       <created>1617923203736</created>
@@ -557,7 +545,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619436019945</updated>
     </task>
-    <option name="localTasksCounter" value="239" />
+    <task id="LOCAL-00239" summary="Adiciona Carrinho">
+      <created>1619436661928</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1619436661928</updated>
+    </task>
+    <option name="localTasksCounter" value="240" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
