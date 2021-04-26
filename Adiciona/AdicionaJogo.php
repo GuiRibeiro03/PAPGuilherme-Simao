@@ -96,6 +96,12 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
     <label style="color:white; font-size: 15px" class="badge badge-dark">Preço:</label>
     <input type="text" name="jogoPreco" style="width: 100px"><hr>
 
+
+    <label style="color:white; font-size: 15px" class="badge badge-dark">Rating:</label>
+    <input type="text" name="jogoGlobalRating" style="width: 100px"><hr>
+
+
+
     <div class="row">
     <label style="color:white; font-size: 15px" class="badge badge-dark">Empresa</label>
     <select name="jogoEmpresaId">

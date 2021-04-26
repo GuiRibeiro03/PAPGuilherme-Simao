@@ -6,6 +6,7 @@ $jogoSinopse=addslashes($_POST["jogoSinopse"]);
 $jogoTrailer=addslashes($_POST["jogoTrailer"]);
 $jogoImagemURL=$_FILES["jogoImagemURL"]["name"];
 $jogoPreco=intval($_POST["jogoPreco"]);
+$jogoGlobalRating=addslashes($_POST['jogoGlobalRating']);
 $jogoempresaId=intval($_POST["jogoEmpresaId"]);
 $jogoPlataformaId=intval($_POST["jogoPlataformaId"]);
 $jogoGeneroId=intval($_POST["jogoGeneroId"]);
@@ -14,8 +15,8 @@ $jogoDestaque=addslashes($_POST["jogoDestaque"]);
 $novoNome="../img/jogos/".$jogoImagemURL;
 copy($_FILES['jogoImagemURL']['tmp_name'],$novoNome);
 
-echo $sql="insert into jogos (jogoNome,jogoSinopse,jogoTrailer,jogoImagemURL,jogoPreco,jogoEmpresaId, jogoDestaque) 
-values('".$jogoNome."','".$jogoSinopse."','".$jogoTrailer."','".$novoNome."', '".$jogoPreco."', '".$jogoempresaId."','".$jogoDestaque."')";
+echo $sql="insert into jogos (jogoNome,jogoSinopse,jogoTrailer,jogoImagemURL,jogoGlobalRating,jogoPreco,jogoEmpresaId, jogoDestaque) 
+values('".$jogoNome."','".$jogoSinopse."','".$jogoTrailer."','".$novoNome."','".$jogoGlobalRating."', '".$jogoPreco."', '".$jogoempresaId."','".$jogoDestaque."')";
 
 mysqli_query($con,$sql);
 

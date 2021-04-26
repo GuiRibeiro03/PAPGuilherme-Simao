@@ -24,38 +24,38 @@ $dados=mysqli_fetch_array($result);
 
                         <img src="img/<?php echo $dados["produtoImagemURL"] ?>" class="card-img-top" alt="...">
 
-                        <div class="card-body">
 
-                            <h5 class="card-title"><?php echo $dados["produtoNome"] ?></h5>
-
-                            <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["produtoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
-
-                            <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
-                                    <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
-                                    <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                                </strong>
-
-                            </button>
-
-                            <script>
-                                const cartButtons1=document.querySelectorAll('.cart-button');
-                                cartButtons1.forEach(button => {
-                                    button.addEventListener('click',cartClicker);
-                                });
-
-                                function cartClicker() {
-                                    var cart=0;
-                                    let button = this;
-                                    button.classList.add('clicked');
-                                    document.getElementById("bdg1").innerHTML = cart + 1;
-                                }
-                            </script>
-                        </div>
 
                     </div>
 
                 </div>
+            <div class="card-body">
 
+                <h5 class="card-title"><?php echo $dados["produtoNome"] ?></h5>
+
+                <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["produtoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
+
+                <button class="btn btn-danger  cart-button" style="color: #dc3545"><strong>
+                        <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
+                        <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
+                    </strong>
+
+                </button>
+
+                <script>
+                    const cartButtons1=document.querySelectorAll('.cart-button');
+                    cartButtons1.forEach(button => {
+                        button.addEventListener('click',cartClicker);
+                    });
+
+                    function cartClicker() {
+                        var cart=0;
+                        let button = this;
+                        button.classList.add('clicked');
+                        document.getElementById("bdg1").innerHTML = cart + 1;
+                    }
+                </script>
+            </div>
 
 
         </div>

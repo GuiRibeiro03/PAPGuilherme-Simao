@@ -164,7 +164,7 @@ function top($menu=HOME){
                             if(!isset($_SESSION['id'])){
 
                                 ?>
-                                <ul class="float-right">
+                                <ul class="float-right" style="margin-top: 15px">
                                     <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
                             <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span>
 
@@ -302,13 +302,13 @@ function top($menu=HOME){
 
 
 
-        <div class="nav-options" style="width: available; height: 120px">
+        <div class="nav-options" style="width: available; height: 140px; text-align: center">
             <div class="container">
 
                 <!-- <div class="nav-search search-switch">
                      <i class="fa fa-search"></i>
                  </div> -->
-                <div class="nav-menu" style="font-size: 20px; color: #fff; ">
+                <div class="nav-menu" style="font-size: 20px; color: #fff;margin-top: 15px ">
                     <ul>
                         <li><a href="./index.php"><span ><strong>Home</strong></span></a></li>
                         <li><a href="#"><span style="font-size: 20px; color: #fff; "><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
