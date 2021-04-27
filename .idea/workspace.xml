@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Elimina/eliminaProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/eliminaProdutoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +54,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Elimina" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papVolodymyr" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -208,13 +213,7 @@
       <workItem from="1619010506559" duration="7892000" />
       <workItem from="1619428309708" duration="6486000" />
       <workItem from="1619435376929" duration="6805000" />
-    </task>
-    <task id="LOCAL-00193" summary="Guilherme-Perfil/Jogos /Pesquisa">
-      <created>1617927026903</created>
-      <option name="number" value="00193" />
-      <option name="presentableId" value="LOCAL-00193" />
-      <option name="project" value="LOCAL" />
-      <updated>1617927026903</updated>
+      <workItem from="1619510272009" duration="2942000" />
     </task>
     <task id="LOCAL-00194" summary="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
       <created>1617994882023</created>
@@ -552,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619444051264</updated>
     </task>
-    <option name="localTasksCounter" value="242" />
+    <task id="LOCAL-00242" summary="Guilherme Checkout">
+      <created>1619449106796</created>
+      <option name="number" value="00242" />
+      <option name="presentableId" value="LOCAL-00242" />
+      <option name="project" value="LOCAL" />
+      <updated>1619449106796</updated>
+    </task>
+    <option name="localTasksCounter" value="243" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,7 +577,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit: &#10;  Frontoffice:&#10;  background: #ob0b0b0b" />
     <MESSAGE value="Commit: &#10;  bodyBlog" />
     <MESSAGE value="Border-Radius imagens index,blog,reviews" />
     <MESSAGE value="Guilherme- Commit 14/4/2021" />
@@ -596,6 +601,7 @@
     <MESSAGE value="Guilherme- UI lista" />
     <MESSAGE value="Adiciona Carrinho" />
     <MESSAGE value="Adiciona Carrinho / Elimina Carrinho" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adiciona Carrinho / Elimina Carrinho" />
+    <MESSAGE value="Guilherme Checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme Checkout" />
   </component>
 </project>

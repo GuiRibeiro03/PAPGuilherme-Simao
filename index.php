@@ -91,25 +91,9 @@ while ($i < 4 && $dadosJogos=mysqli_fetch_array($result2_2)){
                         <div class="card-body">
                             <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><h4 class="card-title"><strong><?php echo $dadosJogos["jogoNome"]?></strong> &nbsp; </h4></a>
                                 <h5  class="card-text"><?php echo $dadosJogos["jogoPreco"]?>€</h5>
-                            <button class="btn btn-danger  cart-button" style="color: #dc3545;"><strong>
-                                <span class="add-to-cart" style="color: #FFFFFF">Adicionar ao Carrinho</span>
-                                <span class="added" style="color: #FFFFFF">Adicionado<i class="fa fa-thumbs-up" aria-hidden="true"></i></span>
-                            </strong>
-                            </button>
+                            <a onclick="adicionaCarrinho(<?php echo $dadosJogos['jogoId']?>)"  style="color: #dc3545;">
+                                <input type="submit" class="btn-danger" value="Adicionar ao Carrinho"></a>
 
-                            <script>
-                                const cartButtons<?php echo $i + 1?>=document.querySelectorAll('.cart-button');
-                                cartButtons<?php echo $i + 1?>.forEach(button => {
-                                    button.addEventListener('click',cartClicker);
-                                });
-
-                                function cartClicker() {
-                                    var cart=0;
-                                    let button = this;
-                                    button.classList.add('clicked');
-                                    document.getElementById("bdg<?php echo $i + 1?>").innerHTML = cart + 1;
-                                }
-                            </script>
 
                         </div>
                     </div>

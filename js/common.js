@@ -207,3 +207,18 @@ function confirmaEliminaCarrinho(idProduto) {
     });
 }
 
+function confirmaEliminaCarrinhoJogo(idProduto) {
+    var nomeJogo;
+    $.ajax({
+        url:"AJAX/AJAXGetNameJogo.php",
+        type:"post",
+        data:{
+            idJogo:idJogo
+        },
+        success:function (result){
+            nomeJogo=result;
+            if(confirm('Confirma que deseja eliminar o produto:'+nomeJogo+'?'))
+                window.location="Elimina/eliminaProdutoCarrinho.php?id=" + idJogo;
+        }
+    });
+}

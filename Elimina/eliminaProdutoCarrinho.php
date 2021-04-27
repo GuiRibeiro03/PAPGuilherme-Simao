@@ -10,8 +10,8 @@ if(isset($_SESSION['carrinho'])){
 }
 $lista.=")";
 
-if(($key = array_search('produtoId', $lista)) !== false){
-   unset($lista[$key]);
+if(($key = array_search($id, $lista)) !== false){
+    unset($lista[$key]);
 }
 
 
