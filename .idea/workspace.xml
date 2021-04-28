@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaConsola.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papVolodymyr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FedBasquete" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -213,14 +211,7 @@
       <workItem from="1619517387113" duration="1341000" />
       <workItem from="1619598281203" duration="23000" />
       <workItem from="1619601469124" duration="1075000" />
-      <workItem from="1619617854401" duration="683000" />
-    </task>
-    <task id="LOCAL-00195" summary="Commit-Lista Consola/Outlet/Acessorio">
-      <created>1617999821223</created>
-      <option name="number" value="00195" />
-      <option name="presentableId" value="LOCAL-00195" />
-      <option name="project" value="LOCAL" />
-      <updated>1617999821223</updated>
+      <workItem from="1619617854401" duration="2131000" />
     </task>
     <task id="LOCAL-00196" summary="Commit-EditaJogo Link Trailer arranjado">
       <created>1618000630130</created>
@@ -558,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619514542990</updated>
     </task>
-    <option name="localTasksCounter" value="244" />
+    <task id="LOCAL-00244" summary="Guilherme- UI fixes">
+      <created>1619618740652</created>
+      <option name="number" value="00244" />
+      <option name="presentableId" value="LOCAL-00244" />
+      <option name="project" value="LOCAL" />
+      <updated>1619618740652</updated>
+    </task>
+    <option name="localTasksCounter" value="245" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +575,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Border-Radius imagens index,blog,reviews" />
     <MESSAGE value="Guilherme- Commit 14/4/2021" />
     <MESSAGE value="Guilherme- Comentarios" />
     <MESSAGE value="Guilherme- Genero Plataforma listaJogos" />
@@ -602,6 +599,7 @@
     <MESSAGE value="Adiciona Carrinho / Elimina Carrinho" />
     <MESSAGE value="Guilherme Checkout" />
     <MESSAGE value="Guilherme- Carrinho n ta funcionar n sei pk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Carrinho n ta funcionar n sei pk" />
+    <MESSAGE value="Guilherme- UI fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- UI fixes" />
   </component>
 </project>
