@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Elimina/eliminaProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/Elimina/eliminaProdutoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaConsola.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,14 +209,11 @@
       <workItem from="1619010506559" duration="7892000" />
       <workItem from="1619428309708" duration="6486000" />
       <workItem from="1619435376929" duration="6805000" />
-      <workItem from="1619510272009" duration="2942000" />
-    </task>
-    <task id="LOCAL-00194" summary="Commit-11/2/2021-Guilherme Backoffice/CRUD-Reviews">
-      <created>1617994882023</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1617994882024</updated>
+      <workItem from="1619510272009" duration="3004000" />
+      <workItem from="1619517387113" duration="1341000" />
+      <workItem from="1619598281203" duration="23000" />
+      <workItem from="1619601469124" duration="1075000" />
+      <workItem from="1619617854401" duration="683000" />
     </task>
     <task id="LOCAL-00195" summary="Commit-Lista Consola/Outlet/Acessorio">
       <created>1617999821223</created>
@@ -558,7 +551,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619449106796</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="Guilherme- Carrinho n ta funcionar n sei pk">
+      <created>1619514542989</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1619514542990</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +577,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit: &#10;  bodyBlog" />
     <MESSAGE value="Border-Radius imagens index,blog,reviews" />
     <MESSAGE value="Guilherme- Commit 14/4/2021" />
     <MESSAGE value="Guilherme- Comentarios" />
@@ -602,6 +601,7 @@
     <MESSAGE value="Adiciona Carrinho" />
     <MESSAGE value="Adiciona Carrinho / Elimina Carrinho" />
     <MESSAGE value="Guilherme Checkout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme Checkout" />
+    <MESSAGE value="Guilherme- Carrinho n ta funcionar n sei pk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Carrinho n ta funcionar n sei pk" />
   </component>
 </project>

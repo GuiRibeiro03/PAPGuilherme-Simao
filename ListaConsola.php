@@ -29,13 +29,13 @@ $dados=mysqli_fetch_array($result);
 
             </div>
 
-            <div class="card-body">
+            <div class="card-body" >
 
-                <h5 class="card-title"><?php echo $dados["produtoNome"] ?></h5>
+                <h3 class="card-title"><?php echo $dados["produtoNome"] ?></h3>
+<br>
+                <p class="card-text" style="font-size: 25px; color: #FFF"><strong><?php echo $dados["produtoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
-                <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["produtoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
-
-                <a href="#"  onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;">
+                <a href="#"  onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;margin-top: 10%">
                     <input type="submit" class="btn-danger" value="Adicionar ao Carrinho"></a>
             </div>
 
@@ -44,8 +44,7 @@ $dados=mysqli_fetch_array($result);
         <section class="store">
             <div style="height: 80%; width: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; margin-left: 10%">
                 <h2>Acerca do Produto:</h2>
-                <div>
-                    <h3>Resumo:</h3>
+                <div style="margin-top: 5%">
                     <?php echo $dados["produtoDescricao"] ?>
                 </div>
                 <hr>
