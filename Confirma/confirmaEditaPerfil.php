@@ -14,9 +14,10 @@ $novoNome = "img/pessoas/" . $perfilAvatarURL;
 
 
 $sql = "UPDATE perfis set perfilNome='".$perfilNome."' ";
+
 if ($perfilAvatarURL!=''){
-    $sql.=", perfilAvatarURL".$novoNome;
-    copy($_FILES['perfilAvatarURL']['tmp_name'] . $novoNome);
+    $sql.=", perfilAvatarURL='".$novoNome."' ";
+    copy($_FILES['perfilAvatarURL']['tmp_name'],$novoNome);
 }
 
 $sql.=", perfilMorada='".$perfilMorada."', perfilTelefone='".$perfilTele."', perfilEmail='".$perfilEmail."', perfilUserId='".$userId."' where perfilId=$id";

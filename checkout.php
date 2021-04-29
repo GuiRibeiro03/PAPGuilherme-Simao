@@ -8,7 +8,7 @@ top();
      <section class="store" style="margin-top: 20px; margin-bottom: 20px">
 
             <div class="container" style="background-color: #e7e7e7; width: 100% ">
-                <span style="color: black; font-size: 45px; font-weight: bold">Finalizar:</span>
+                <span style="color: black; font-size: 45px; font-weight: bold">Carrinho:</span>
                 <hr>
 
                 <?php

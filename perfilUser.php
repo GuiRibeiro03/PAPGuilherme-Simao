@@ -20,7 +20,7 @@ while ($dados=mysqli_fetch_array($result)){
             <div class="card-body">
                 <img src="<?php echo $dados["perfilAvatarURL"] ?>">
                 <hr>
-                <h4 class="card-title" style="text-align: center"><?php echo $dados["perfilNome"]?></h4>
+                <h5 class="card-title" style="text-align: center;"><?php echo $dados["perfilNome"]?></h5>
                 <hr>
                 <p class="card-text" style="font-size: 18px; margin-left: 10%"><strong></strong>&nbsp;&nbsp;<span class="badge bg-primary" style=" font-size: 100%"><?php echo $dados["userType"]?> &nbsp;<i class="fa fa-user-circle-o"></i></span></p>
                 <h4></h4>
@@ -37,7 +37,7 @@ while ($dados=mysqli_fetch_array($result)){
 
 
         <div  style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
-                <a href="editaPerfil.php"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Edita Perfil <i class="fa fa-edit"></i></button></a>
+                <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Edita Perfil <i class="fa fa-edit"></i></button></a>
                 <a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="margin-left: 20%; font-size: 100% ">Backoffice</button></a>
         </div>
 

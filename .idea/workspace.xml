@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
+      <change afterPath="$PROJECT_DIR$/includes/verificaUser.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +56,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FedBasquete" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papVolodymyr" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -211,14 +219,9 @@
       <workItem from="1619517387113" duration="1341000" />
       <workItem from="1619598281203" duration="23000" />
       <workItem from="1619601469124" duration="1075000" />
-      <workItem from="1619617854401" duration="2131000" />
-    </task>
-    <task id="LOCAL-00196" summary="Commit-EditaJogo Link Trailer arranjado">
-      <created>1618000630130</created>
-      <option name="number" value="00196" />
-      <option name="presentableId" value="LOCAL-00196" />
-      <option name="project" value="LOCAL" />
-      <updated>1618000630130</updated>
+      <workItem from="1619617854401" duration="2152000" />
+      <workItem from="1619684338645" duration="2126000" />
+      <workItem from="1619708583774" duration="2563000" />
     </task>
     <task id="LOCAL-00197" summary="Commit-Ajax links bootstrap">
       <created>1618229719722</created>
@@ -556,7 +559,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619618740652</updated>
     </task>
-    <option name="localTasksCounter" value="245" />
+    <task id="LOCAL-00245" summary="Guilherme- UI fixes">
+      <created>1619624983340</created>
+      <option name="number" value="00245" />
+      <option name="presentableId" value="LOCAL-00245" />
+      <option name="project" value="LOCAL" />
+      <updated>1619624983340</updated>
+    </task>
+    <option name="localTasksCounter" value="246" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

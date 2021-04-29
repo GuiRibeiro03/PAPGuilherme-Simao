@@ -7,7 +7,16 @@ error_reporting(E_ALL);
 
 session_start();
 
+if(isset($_GET['msg'])) {
 
+
+    alert("Nome de utilizador ou palavra-passe errada, tente de novo.");
+}
+if(isset($_GET['message'])) {
+
+
+    alertinativo("Esta conta foi desativada.");
+}
 
 
 function top($menu=HOME){
@@ -189,7 +198,7 @@ function top($menu=HOME){
                                 <li style="float: right"><div class="ht-widget"">
                                     <ul class="float-right">
                                         <div class="dropdown">
-                                            </span><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
+                                            </span><a href="#" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
                                             <div class="dropdown-content" style="background-color: #202020; color: #FFF">
 
                                                 <span><?php echo $dados["perfilNome"]?></span>
@@ -201,7 +210,8 @@ function top($menu=HOME){
                                                 $dados=mysqli_fetch_array($result);
                                                 if($dados["userType"]=="admin"){
                                                     ?>
-                                                    <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Backoffice</button></a></li>
+                                                    <li ><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="btn btn-danger" style="width: 90px"><i class="fa fa-id-badge"></i>&nbsp;Perfil</button></a></li>
+                                                    <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger"> Backoffice</button></a></li>
                                                     <li ><a href="adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
                                                     <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                     <?php
@@ -250,22 +260,22 @@ function top($menu=HOME){
                                         }
                                         $lista.=")";
 
-                                        $sql1="select * from produtos where produtoId in $lista";
+                                        $sql1="select * from produtos where produtoId in ".$lista;
 
                                         $result1=mysqli_query($con,$sql1);
                                         $i=0;
-                                        $k=0;
+                                        $k=1;
                                         while($dados2=mysqli_fetch_array($result1)){
 
                                             ?>
                                             <div >
-                                                <span style="color: #000000!important; font-size: 20px;"> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
+                                                <span style="color: #000000!important; font-size: 20px;"><span><strong> <?php $k++; ?></strong></span> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
                                                     <button onclick="confirmaEliminaCarrinho(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                                 <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                                                 <hr>
                                             </div>
                                             <?php
-                                            $k++;
+
                                             $i+=$dados2["produtoPreco"];
                                         }?>
                                         <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $i ?>&nbsp;€</span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
@@ -471,11 +481,12 @@ function bottom(){
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                 <img src="img/Game.png">
             </div>
-            <div class="container">
-                <select name="utilizador" >
+            <div class="container" style="text-align: center">
+                <!-- Login Select -->
+                <!--<select name="utilizador" >
                     <option value="-1">Utilizador...</option>
                     <?php
-                    $con=mysqli_connect("localhost","root","","pap2021gameon");
+                    /*$con=mysqli_connect("localhost","root","","pap2021gameon");
                     $sql="select * from users";
                     $res = mysqli_query($con,$sql);
                     while ($dados=mysqli_fetch_array($res)){
@@ -483,10 +494,41 @@ function bottom(){
                         <option value="<?php echo $dados['userId'] ?>"><?php echo $dados['userName'] ?></option>
 
                         <?php
-                    }
+                    }*/
                     ?>
                 </select>
-                <input type="submit" class="btn btn-danger" value="Entrar">
+                <input type="submit" class="btn btn-danger" value="Entrar">-->
+
+
+                <div class="container" style="text-align: center; ">
+                    <p><label class="badge badge-dark">Username:</label>
+                    <input type="text" name="user" style="width: 50%" placeholder="username.." required></p>
+                   <p> <label class="badge badge-dark" >Password:</label>
+                    <input type="password" name="password" style="width: 50%" placeholder="password.." required ></p>
+                    <?php
+                    $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
+                    $sql="select userName,userPassword from users";
+                    $res=mysqli_query($con,$sql);
+                    $dados=mysqli_fetch_array($res);
+                    if(isset($_POST['submit'])){
+
+                        $un=$_POST['user'];
+                        $pwd=$_POST['password'];
+
+                        if ($un== $dados['userName'] && $pwd==$dados['userPassword'] ){
+                            header("location:".$_SESSION['HTTP_REFERRER']);
+                            exit();
+                        }else{
+                            echo "<span style='color: red'>Invalid Username or Password</span>";
+                        }
+                    }
+
+                    ?>
+                    <input type="submit" value="Entrar" name="submit" id="sub" class="btn btn-primary">
+                </div>
+
+
+
                   <hr>
             </div>
 
