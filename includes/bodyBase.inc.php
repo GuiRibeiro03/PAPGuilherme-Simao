@@ -483,10 +483,10 @@ function bottom(){
             </div>
             <div class="container" style="text-align: center">
                 <!-- Login Select -->
-                <!--<select name="utilizador" >
+                <select name="utilizador" >
                     <option value="-1">Utilizador...</option>
                     <?php
-                    /*$con=mysqli_connect("localhost","root","","pap2021gameon");
+                    $con=mysqli_connect("localhost","root","","pap2021gameon");
                     $sql="select * from users";
                     $res = mysqli_query($con,$sql);
                     while ($dados=mysqli_fetch_array($res)){
@@ -494,19 +494,20 @@ function bottom(){
                         <option value="<?php echo $dados['userId'] ?>"><?php echo $dados['userName'] ?></option>
 
                         <?php
-                    }*/
+                    }
                     ?>
+
                 </select>
-                <input type="submit" class="btn btn-danger" value="Entrar">-->
+                <input type="submit" class="btn btn-danger" value="Entrar">
 
 
-                <div class="container" style="text-align: center; ">
+                <!--<div class="container" style="text-align: center; ">
                     <p><label class="badge badge-dark">Username:</label>
                     <input type="text" name="user" style="width: 50%" placeholder="username.." required></p>
                    <p> <label class="badge badge-dark" >Password:</label>
-                    <input type="password" name="password" style="width: 50%" placeholder="password.." required ></p>
+                    <input type="password" name="password" style="width: 50%" placeholder="password.." required ></p>-->
                     <?php
-                    $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
+                    /*$con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
                     $sql="select userName,userPassword from users";
                     $res=mysqli_query($con,$sql);
                     $dados=mysqli_fetch_array($res);
@@ -522,10 +523,10 @@ function bottom(){
                             echo "<span style='color: red'>Invalid Username or Password</span>";
                         }
                     }
-
+                        */
                     ?>
-                    <input type="submit" value="Entrar" name="submit" id="sub" class="btn btn-primary">
-                </div>
+                    <!--<input type="submit" value="Entrar" name="submit" id="sub" class="btn btn-primary">
+                </div>-->
 
 
 
