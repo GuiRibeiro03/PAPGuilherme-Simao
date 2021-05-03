@@ -9,7 +9,7 @@ $dados=mysqli_fetch_array($result);
 ?>
 
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="<?php echo $dados['reviewImagemURL']?>" style="height: 60%">
+    <section class="details-hero-section set-bg" data-setbg="<?php echo $dados['reviewImagemURL']?>" style="height: 70%; width: 100%">
         <div class="container">
             <div class="row">
                     <div class="details-hero-text">
@@ -39,8 +39,9 @@ $dados=mysqli_fetch_array($result);
                             &nbsp;
                             <span><?php echo $dados['reviewData']?></span>
                         </div>
-<br>
-                        <div class="dt-desc">
+
+                        <div class="dt-desc" style="margin-top: 5%">
+                            <label style="font-weight: bold; font-size: 20px">Análise:</label>
                             <p style="font-size: 16px;"><?php echo $dados['reviewTexto']?></p>
                         </div>
                         <div class="dt-overall-rating">

@@ -2,15 +2,15 @@
 include_once("includes/bodyBase.inc.php");
 top();
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
-$sql="select * from reviews  inner join jogos on jogoId = reviewJogoId";
+$sql="select * from reviews inner join jogos on jogoId = reviewJogoId";
 $result=mysqli_query($con,$sql);
 ?>
 
 
 
-<section class="store" style="height: auto; width: auto; ">
+<section class="store" style="height: 100%; width: 100%; ">
 
-        <div class="row" style="position: center;!important; margin-left: 10%">
+        <div class="row">
 
             <?php
             $i = 0;

@@ -185,7 +185,6 @@ function adicionaCarrinho(id){
         },
         success:function(result){
             alert(result);
-           location.reload();
         }
     });
 }
@@ -207,7 +206,7 @@ function confirmaEliminaCarrinho(idProduto) {
     });
 }
 
-function confirmaEliminaCarrinhoJogo(idProduto) {
+function confirmaEliminaCarrinhoJogo(idJogo) {
     var nomeJogo;
     $.ajax({
         url:"AJAX/AJAXGetNameJogo.php",

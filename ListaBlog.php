@@ -15,11 +15,11 @@ $result2=mysqli_query($con,$sql2);
 
 ?>
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="img/<?php echo $dados["noticiaImagemFundoURL"]?>" style="height: 80%">
+    <section class="details-hero-section set-bg" data-setbg="img/<?php echo $dados["noticiaImagemFundoURL"]?>" style="height: 70%; width: 100%">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="details-hero-text" >
+                    <div class="details-hero-text" style="">
                         <div class="label"><span>Notícia</span></div>
                         <h3 style=" font-size: 30px; color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><?php echo $dados["noticiaTitulo"]?></h3>
                         <ul>

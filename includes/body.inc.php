@@ -283,7 +283,7 @@ function top($menu=HOME){
 
                                         $result1=mysqli_query($con,$sql1);
                                         $i=0;
-                                        $k=1;
+                                        $k=0;
                                         while($dados2=mysqli_fetch_array($result1)){
                                             ?>
                                             <div >

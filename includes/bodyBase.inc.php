@@ -260,11 +260,11 @@ function top($menu=HOME){
                                         }
                                         $lista.=")";
 
-                                        $sql1="select * from produtos where produtoId in ".$lista;
+                                        $sql1="select * from produtos where produtoId in $lista";
 
                                         $result1=mysqli_query($con,$sql1);
                                         $i=0;
-                                        $k=1;
+                                        $k=0;
                                         while($dados2=mysqli_fetch_array($result1)){
 
                                             ?>
@@ -282,7 +282,7 @@ function top($menu=HOME){
 
                                         <?php
                                     }else{
-                                        $k=0;
+
                                         ?>
 
                                         <div class="row"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>

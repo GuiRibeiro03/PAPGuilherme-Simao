@@ -1,12 +1,12 @@
 <?php
 include_once ("includes/bodyBase.inc.php");
-
-top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET['id']);
 $sql="select * from produtos where produtoid=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
+
+top();
 ?>
     <a href="backoffice/produtoBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
     <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
@@ -35,8 +35,8 @@ $dados=mysqli_fetch_array($result);
 <br>
                 <p class="card-text" style="font-size: 25px; color: #FFF"><strong><?php echo $dados["produtoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
-                <a href="#"  onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;margin-top: 10%">
-                    <input type="submit" class="btn-danger" value="Adicionar ao Carrinho"></a>
+                <a href="#"  onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;margin-top: 10%; color: #FFF; font-weight: bold; font-size: 17px">
+                    Adicionar ao Carrinho</a>
             </div>
 
         </div>

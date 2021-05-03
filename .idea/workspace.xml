@@ -3,8 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaConsola.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +58,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FedBasquete" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papVolodymyr" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -216,14 +225,7 @@
       <workItem from="1619684338645" duration="2126000" />
       <workItem from="1619708583774" duration="2683000" />
       <workItem from="1619788527382" duration="1899000" />
-      <workItem from="1620029219262" duration="1030000" />
-    </task>
-    <task id="LOCAL-00198" summary="Commit-Ajax links bootstrap">
-      <created>1618242967314</created>
-      <option name="number" value="00198" />
-      <option name="presentableId" value="LOCAL-00198" />
-      <option name="project" value="LOCAL" />
-      <updated>1618242967314</updated>
+      <workItem from="1620029219262" duration="4119000" />
     </task>
     <task id="LOCAL-00199" summary="Commit-Logins">
       <created>1618263055296</created>
@@ -561,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619711272621</updated>
     </task>
-    <option name="localTasksCounter" value="247" />
+    <task id="LOCAL-00247" summary="Guilherme- Reversão Login">
+      <created>1620030892022</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1620030892022</updated>
+    </task>
+    <option name="localTasksCounter" value="248" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Comentarios" />
     <MESSAGE value="Guilherme- Genero Plataforma listaJogos" />
     <MESSAGE value="Guilherme- Adiciona Comentário a Funcionar!!" />
     <MESSAGE value="Guilherme- Comentários a ordenar por o mais recente" />
@@ -605,6 +613,7 @@
     <MESSAGE value="Guilherme- Carrinho n ta funcionar n sei pk" />
     <MESSAGE value="Guilherme- UI fixes" />
     <MESSAGE value="Guilherme- Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Login" />
+    <MESSAGE value="Guilherme- Reversão Login" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Reversão Login" />
   </component>
 </project>
