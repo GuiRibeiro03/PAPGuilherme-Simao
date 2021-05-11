@@ -181,7 +181,7 @@ function adicionaCarrinho(id){
         url:"AJAX/AJAXNovoProdutoCarrinho.php",
         type:"post",
         data: {
-            id:id
+            id:id,
         },
         success:function(result){
             alert(result);
@@ -189,6 +189,19 @@ function adicionaCarrinho(id){
     });
 }
 
+function adicionaCarrinhoJogo(id){
+    alert(id);
+    $.ajax({
+        url:"AJAX/AJAXNovoProdutoCarrinho.php",
+        type:"post",
+        data: {
+            id:id,
+        },
+        success:function(result){
+            alert(result);
+        }
+    });
+}
 //*************************************Elimina Carrinho**************************************
 function confirmaEliminaCarrinho(idProduto) {
     var nomeProduto;
@@ -196,7 +209,7 @@ function confirmaEliminaCarrinho(idProduto) {
         url:"AJAX/AJAXGetNameProduto.php",
         type:"post",
         data:{
-            idProduto:idProduto
+            idProduto:idProduto,
         },
         success:function (result){
             nomeProduto=result;
@@ -205,6 +218,10 @@ function confirmaEliminaCarrinho(idProduto) {
         }
     });
 }
+
+
+
+
 
 function confirmaEliminaCarrinhoJogo(idJogo) {
     var nomeJogo;
