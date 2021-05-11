@@ -91,10 +91,13 @@ while ($i < 4 && $dadosJogos=mysqli_fetch_array($result2_2)){
                         <div class="card-body">
                             <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><h4 class="card-title"><strong><?php echo $dadosJogos["jogoNome"]?></strong> &nbsp; </h4></a>
                                 <h5  class="card-text"><?php echo $dadosJogos["jogoPreco"]?>€</h5>
-                            <a onclick="adicionaCarrinho(<?php echo $dadosJogos['jogoId']?>)"  style="color: #dc3545;">
-                                <input type="submit" class="btn-danger" value="Adicionar ao Carrinho"></a>
 
 
+
+                        </div>
+                        <div style="text-align: center; margin-bottom: 20px">
+                        <a onclick="adicionaCarrinho(<?php echo $dadosJogos['jogoId']?>)"  style="color: #dc3545;">
+                            <input type="submit" class=" cart-button" value="Adicionar ao Carrinho"></a>
                         </div>
                     </div>
                 </div>

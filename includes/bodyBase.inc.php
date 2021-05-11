@@ -278,6 +278,35 @@ function top($menu=HOME){
 
                                             $i+=$dados2["produtoPreco"];
                                         }?>
+
+                                        <?php
+                                        $lista="(0";
+                                        if(isset($_SESSION['carrinho'])){
+                                            foreach ($_SESSION['carrinho'] as $produto){
+                                                $lista.=",".$produto;
+                                            }
+                                        }
+                                        $lista.=")";
+
+                                        $sql1="select * from jogos where jogoId in $lista";
+
+                                        $result1=mysqli_query($con,$sql1);
+                                        $i=0;
+                                        $k=0;
+                                        while($dados2=mysqli_fetch_array($result1)){
+
+                                            ?>
+                                            <div >
+                                                <span style="color: #000000!important; font-size: 20px;"><span><strong> <?php $k++; ?></strong></span> <img src="img/<?php echo $dados2["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["jogoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["jogoPreco"] ?>€</strong> </span>
+                                                    <button onclick="confirmaEliminaCarrinho(<?php echo $dados2["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                                <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                                <hr>
+                                            </div>
+                                            <?php
+
+                                            $i+=$dados2["produtoPreco"];
+                                        }?>
+
                                         <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $i ?>&nbsp;€</span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
 
                                         <?php
@@ -533,9 +562,8 @@ function bottom(){
                   <hr>
             </div>
 
-            <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">&nbsp;password?</a></span>
+            <div class="container" style="background-color:#f1f1f1; color: #0b0b0b">
+                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">&nbsp;<strong>password?</strong></a></span>
             </div>
         </form>
     </div>

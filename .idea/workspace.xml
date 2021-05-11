@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +49,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papVolodymyr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FedBasquete" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -216,14 +217,10 @@
       <workItem from="1619708583774" duration="2683000" />
       <workItem from="1619788527382" duration="1899000" />
       <workItem from="1620029219262" duration="5341000" />
-      <workItem from="1620203656038" duration="892000" />
-    </task>
-    <task id="LOCAL-00200" summary="Commit-Logins">
-      <created>1618263709195</created>
-      <option name="number" value="00200" />
-      <option name="presentableId" value="LOCAL-00200" />
-      <option name="project" value="LOCAL" />
-      <updated>1618263709195</updated>
+      <workItem from="1620203656038" duration="2960000" />
+      <workItem from="1620290101533" duration="17000" />
+      <workItem from="1620298672758" duration="1213000" />
+      <workItem from="1620737638991" duration="1643000" />
     </task>
     <task id="LOCAL-00201" summary="Commit-Logins">
       <created>1618266746433</created>
@@ -561,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620033394490</updated>
     </task>
-    <option name="localTasksCounter" value="249" />
+    <task id="LOCAL-00249" summary="Guilherme- Edita produto fixed">
+      <created>1620223360021</created>
+      <option name="number" value="00249" />
+      <option name="presentableId" value="LOCAL-00249" />
+      <option name="project" value="LOCAL" />
+      <updated>1620223360029</updated>
+    </task>
+    <option name="localTasksCounter" value="250" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +598,6 @@
     <MESSAGE value="Guilherme- Adicionar Perfil" />
     <MESSAGE value="Guilherme- jogos resize" />
     <MESSAGE value="Guilherme- random bullshit" />
-    <MESSAGE value="Guilherme- Edita produto fixed" />
     <MESSAGE value="Guilherme- ListaAcessorio.php | ListaConsola.php | ListaOutlet.php | ListaJogo.php" />
     <MESSAGE value="Guilherme- UI lista" />
     <MESSAGE value="Adiciona Carrinho" />
@@ -605,6 +608,7 @@
     <MESSAGE value="Guilherme- Login" />
     <MESSAGE value="Guilherme- Reversão Login" />
     <MESSAGE value="Guilherme- Carrinho, ListaBlog, ListaReview" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Carrinho, ListaBlog, ListaReview" />
+    <MESSAGE value="Guilherme- Edita produto fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Edita produto fixed" />
   </component>
 </project>
