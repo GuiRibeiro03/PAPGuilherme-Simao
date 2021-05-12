@@ -6,6 +6,8 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 session_start();
+$_SESSION['carrinho'][0]=-1;
+
 
 if(isset($_GET['msg'])) {
 
@@ -253,18 +255,24 @@ function top($menu=HOME){
                                             foreach ($_SESSION['carrinho'] as $produto){
                                                 $lista.=",".$produto;
                                             }
+                                            foreach($_SESSION['carrinho'] as $jogo){
+                                                $lista.=",".$jogo;
+                                            }
                                         }
                                         $lista.=")";
 
                                         $sql1="select * from produtos where produtoId in ".$lista;
+                                        $sql2="select * from jogos where jogoId in $lista";
+
 
                                         $result1=mysqli_query($con,$sql1);
-                                        $i=0;
+                                        $result2=mysqli_query($con,$sql2);
+                                        $precoTotal=0;
                                         $k=0;
-                                        while($dados2=mysqli_fetch_array($result1)){
+                                        while($dados2=mysqli_fetch_array($result1) or $dados3=mysqli_fetch_array($result2)){
 
                                             ?>
-                                            <div >
+                                            <div>
                                                 <span style="color: #000000!important; font-size: 20px;"><span><strong> <?php $k++; ?></strong></span> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
                                                     <button onclick="confirmaEliminaCarrinho(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                                 <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
@@ -272,43 +280,44 @@ function top($menu=HOME){
                                             </div>
                                             <?php
 
-                                            $i+=$dados2["produtoPreco"];
+                                            $precoTotal+=$dados2["produtoPreco"];
                                         }?>
+
+
 
                                         <?php
                                         $lista="(0";
                                         if(isset($_SESSION['carrinho'])){
-                                            foreach ($_SESSION['carrinho'] as $produto){
-                                                $lista.=",".$produto;
+                                            foreach ($_SESSION['carrinho'] as $jogo){
+                                                $lista.=",".$jogo;
                                             }
                                         }
                                         $lista.=")";
 
-                                        $sql2="select * from jogos where jogoId in ".$lista;
+                                        $sql2="select * from jogos where jogoId in $lista";
 
-                                        $result1=mysqli_query($con,$sql2);
-                                        $i=0;
-                                        $k=0;
-                                        while($dados3=mysqli_fetch_array($result1)){
 
-                                            ?>
-                                            <div >
-                                                <span style="color: #000000!important; font-size: 20px;"><span><strong> <?php $k++; ?></strong></span> <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
-                                                    <button onclick="confirmaEliminaCarrinho(<?php echo $dados3["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
-                                                <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
-                                                <hr>
+                                        $result2=mysqli_query($con,$sql2);
+
+                                        while($dados3=mysqli_fetch_array($result2)){
+
+                                                ?>
+                                                <div>
+                                                <span style="color: #000000!important; font-size: 20px;"><span><strong> <?php $k++; ?></strong></span> <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
+                                                    &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
+                                            <button onclick="confirmaEliminaCarrinho(<?php echo $dados3["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                            <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                            <hr>
                                             </div>
                                             <?php
 
-                                            $i+=$dados3["produtoPreco"];
+                                            $precoTotal+=$dados3["jogoPreco"];
                                         }?>
-
-                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $i ?>&nbsp;€</span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
 
                                         <?php
                                     }else{
-                                            $k=0;
-                                            $i=0;
+                                        $k=0;
                                         ?>
 
                                         <div class="row"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
@@ -401,7 +410,7 @@ function bottom(){
     ?>
 
 
-    <footer class="footer-section" >
+    <footer class="footer-section">
         <div class="container">
 
             <div class="footer-about">

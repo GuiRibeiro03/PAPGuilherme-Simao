@@ -9,16 +9,14 @@ $result=mysqli_query($con, $sql);
 ?>
 
 <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;color: #FFFFFF">
-    <div class="row" style="width: 300px; float: left; height: 100%">
-        <form action="jogos.php" method="post"  enctype="multipart/form-data" >
+
+    <div class=" container" style="width: 300px; float: left; height: 100%; position:relative;">
+
             <div class="row" style="width: 100%; outline: #5a6268">
                 <div style="color: #FFFFFF; margin-bottom: 20%; width: 50%">
                     <h5><strong>Preço:</strong></h5>
                     <br>
                 </div>
-
-
-
                 <div style="color: #FFFFFF;margin-left: 40px; margin-bottom: 30px">
                     <h5><strong>Generos:</strong></h5>
                     <br>
@@ -70,8 +68,7 @@ $result=mysqli_query($con, $sql);
                     ?>
                 </div>
             </div>
-            <button type="submit" class="btn btn-danger">Aplicar Filtros &nbsp;<i class="fa fa-check"></i></button>
-        </form>
+
     </div>
 
 
@@ -98,8 +95,8 @@ $result=mysqli_query($con, $sql);
 
                         <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["jogoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
-                        <a onclick="adicionaCarrinho(<?php echo $dados["jogoId"] ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;">
-                            <input type="submit" class="btn-danger" value="Adicionar ao Carrinho"></a>
+                        <a onclick="adicionaCarrinho(<?php echo $dados["jogoId"] ?>)"  style="color: #dc3545;">
+                            <input type="submit" class="cart-button" value="Adicionar ao Carrinho" style="height: 50px; font-weight: bold"></a>
                     </div>
 
                 </div>
@@ -124,5 +121,4 @@ $result=mysqli_query($con, $sql);
             <button type="button" class="btn btn-danger" style="font-size: 20px">Prox.&nbsp;<i class="fa fa-arrow-right" style="font-size: 20px"></i></button>
             <button type="button" class="btn btn-danger" style="font-size: 20px">Fim &nbsp;<i class="fa fa-fast-forward" style="font-size: 20px"></i></button>
         </div></div>
-
 </section>

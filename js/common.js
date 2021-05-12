@@ -184,7 +184,7 @@ function adicionaCarrinho(id){
             id:id
         },
         success:function(result){
-            alert(result);
+            location.reload();
         }
     });
 }
@@ -198,7 +198,7 @@ function adicionaCarrinhoJogo(id){
             id:id,
         },
         success:function(result){
-            alert(result);
+            location.reload();
         }
     });
 }
@@ -214,7 +214,7 @@ function confirmaEliminaCarrinho(idProduto) {
         success:function (result){
             nomeProduto=result;
             if(confirm('Confirma que deseja eliminar o produto:'+nomeProduto+'?'))
-                window.location="Elimina/eliminaProdutoCarrinho.php?id=" + idProduto;
+                window.location="AJAX/AJAXRemoverProdutoCarrinho.php?id=" + idProduto;
         }
     });
 }
