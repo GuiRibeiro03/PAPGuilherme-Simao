@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Edita produto fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +51,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FedBasquete" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papVolodymyr" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -220,14 +222,8 @@
       <workItem from="1620203656038" duration="2960000" />
       <workItem from="1620290101533" duration="17000" />
       <workItem from="1620298672758" duration="1213000" />
-      <workItem from="1620737638991" duration="2319000" />
-    </task>
-    <task id="LOCAL-00202" summary="Commit-Logins/Perfil">
-      <created>1618274466479</created>
-      <option name="number" value="00202" />
-      <option name="presentableId" value="LOCAL-00202" />
-      <option name="project" value="LOCAL" />
-      <updated>1618274466479</updated>
+      <workItem from="1620737638991" duration="2755000" />
+      <workItem from="1620808130174" duration="1203000" />
     </task>
     <task id="LOCAL-00203" summary="Commit: &#10;  Frontoffice:&#10;  -Avatar&#10;  -Se for admin mostrar butão backoffice&#10;  -Carrinho com produtos inseridos da BD para simulação responsiva">
       <created>1618334615628</created>
@@ -565,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620747581153</updated>
     </task>
-    <option name="localTasksCounter" value="251" />
+    <task id="LOCAL-00251" summary="Guilherme- Edita produto fixed">
+      <created>1620748431032</created>
+      <option name="number" value="00251" />
+      <option name="presentableId" value="LOCAL-00251" />
+      <option name="project" value="LOCAL" />
+      <updated>1620748431032</updated>
+    </task>
+    <option name="localTasksCounter" value="252" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

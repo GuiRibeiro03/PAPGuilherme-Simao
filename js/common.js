@@ -181,7 +181,7 @@ function adicionaCarrinho(id){
         url:"AJAX/AJAXNovoProdutoCarrinho.php",
         type:"post",
         data: {
-            id:id,
+            id:id
         },
         success:function(result){
             alert(result);

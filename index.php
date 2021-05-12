@@ -86,18 +86,21 @@ while ($i < 4 && $dadosJogos=mysqli_fetch_array($result2_2)){
                 <div class="col-lg-3" >
                     <div class="card" style="width: 20rem; height: 100%; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black; border-radius: 2%">
                         <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><img src="img/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
-                        <span class="badge badge-danger">Bom Negocio!</span>
+
 
                         <div class="card-body">
                             <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><h4 class="card-title"><strong><?php echo $dadosJogos["jogoNome"]?></strong> &nbsp; </h4></a>
-                                <h5  class="card-text"><?php echo $dadosJogos["jogoPreco"]?>€</h5>
-
-
 
                         </div>
-                        <div style="text-align: center; margin-bottom: 20px">
-                        <a onclick="adicionaCarrinho(<?php echo $dadosJogos['jogoId']?>)"  style="color: #dc3545;">
-                            <input type="submit" class=" cart-button" value="Adicionar ao Carrinho"></a>
+
+                        <div class="card-text" style="margin-bottom: 5%; margin-left: 5%">
+                            <h5  class="card-text"><strong><?php echo $dadosJogos["jogoPreco"]?>€</strong></h5>
+                        </div>
+
+                        <div style=" margin-left: 5%; margin-bottom: 20px">
+
+                        <a onclick="adicionaCarrinhoJogo(<?php echo $dadosJogos['jogoId']?>)"  style="color: #dc3545; ">
+                            <input type="submit" class=" cart-button" value="Adicionar ao Carrinho" style="font-weight: bold;height: 50px"></a>
                         </div>
                     </div>
                 </div>
