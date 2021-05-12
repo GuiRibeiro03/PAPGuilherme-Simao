@@ -229,7 +229,7 @@ function confirmaEliminaCarrinhoProduto(id) {
             id:id
         },
         success:function (result){
-            nomeJogo=result;
+            nomeProduto=result;
             if(confirm('Confirma que deseja eliminar o produto:'+nomeProduto+'?'))
                 window.location="AJAX/AJAXRemoverProdutosDoCarrinho?id=" + id;
         }
