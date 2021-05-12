@@ -1,5 +1,6 @@
 <?php
+$id=intval($_POST['id']);
 session_start();
-unset($_SESSION['carrinho']);
+unset($id);
 header("location: ".$_SERVER['HTTP_REFERER']);
 ?>

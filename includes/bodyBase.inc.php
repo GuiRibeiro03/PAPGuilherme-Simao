@@ -269,12 +269,12 @@ function top($menu=HOME){
                                         $result2=mysqli_query($con,$sql2);
                                         $precoTotal=0;
                                         $k=0;
-                                        while($dados2=mysqli_fetch_array($result1) or $dados3=mysqli_fetch_array($result2)){
+                                        while($dados2=mysqli_fetch_array($result1)){
 
                                             ?>
                                             <div>
-                                                <span style="color: #000000!important; font-size: 20px;"><span><strong> <?php $k++; ?></strong></span> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
-                                                    <button onclick="confirmaEliminaCarrinho(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                                <span style="color: #000000!important; font-size: 20px;"><span><strong> <?php echo $k++; ?></strong></span> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
+                                                    <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                                 <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                                                 <hr>
                                             </div>
@@ -303,7 +303,7 @@ function top($menu=HOME){
 
                                                 ?>
                                                 <div>
-                                                <span style="color: #000000!important; font-size: 20px;"><span><strong> <?php $k++; ?></strong></span> <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
+                                                <span style="color: #000000!important; font-size: 20px;"><span><strong> <?php echo $k++; ?></strong></span> <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
                                                     &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
                                             <button onclick="confirmaEliminaCarrinho(<?php echo $dados3["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                             <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
@@ -313,7 +313,8 @@ function top($menu=HOME){
 
                                             $precoTotal+=$dados3["jogoPreco"];
                                         }?>
-                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+
+                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span> <button onclick="confirmaEliminaCarrinho()"  style="color: #0b0b0b; margin-left: 50px">Remover Todos</button><a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
 
                                         <?php
                                     }else{

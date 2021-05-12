@@ -220,7 +220,21 @@ function confirmaEliminaCarrinho(idProduto) {
 }
 
 
-
+function confirmaEliminaCarrinhoProduto(id) {
+    var nomeProduto;
+    $.ajax({
+        url:"AJAX/AJAXGetNameProduto.php",
+        type:"post",
+        data:{
+            id:id
+        },
+        success:function (result){
+            nomeJogo=result;
+            if(confirm('Confirma que deseja eliminar o produto:'+nomeProduto+'?'))
+                window.location="AJAX/AJAXRemoverProdutosDoCarrinho?id=" + id;
+        }
+    });
+}
 
 
 function confirmaEliminaCarrinhoJogo(idJogo) {
