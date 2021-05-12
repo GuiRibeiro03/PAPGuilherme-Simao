@@ -243,7 +243,7 @@ function top($menu=HOME){
                                     <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
                                     <hr>
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                    <!-- Lista para o carrinho e mostrar os produtos/Jogos nele -->
+
                                     <?php
                                     if(isset($_SESSION['id'])){
 
@@ -268,7 +268,7 @@ function top($menu=HOME){
                                         $result1=mysqli_query($con,$sql1);
                                         $result2=mysqli_query($con,$sql2);
                                         $precoTotal=0;
-                                        $k=0;
+                                        $k=1;
                                         while($dados2=mysqli_fetch_array($result1)){
 
                                             ?>
@@ -314,7 +314,23 @@ function top($menu=HOME){
                                             $precoTotal+=$dados3["jogoPreco"];
                                         }?>
 
-                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span> <button onclick="confirmaEliminaCarrinho()"  style="color: #0b0b0b; margin-left: 50px">Remover Todos</button><a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+                                          <?php
+                                        if($k!=0){
+                                            ?>
+                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span>
+                                        <div style="float: right">
+                                        <button onclick="confirmaEliminaCarrinho()" class="btn btn-warning" style="color: #0b0b0b; ">Remover Todos</button>
+                                        <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+                                        </div>
+
+                                        <?php
+                                        }else{
+                                        ?>
+                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span>
+                                        <?php
+                                         }
+                                        ?>
+
 
                                         <?php
                                     }else{
@@ -342,7 +358,7 @@ function top($menu=HOME){
                                 </script>
 
 
-                                <span id="bdg1" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k; ?></span>
+                                <span id="bdg1" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k-1; ?></span>
 
                             </div>
                             <!--************************************** FIM CARRINHO*******************************************-->

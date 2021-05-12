@@ -203,18 +203,15 @@ function adicionaCarrinhoJogo(id){
     });
 }
 //*************************************Elimina Carrinho**************************************
-function confirmaEliminaCarrinho(idProduto) {
-    var nomeProduto;
+function confirmaEliminaCarrinho() {
+
     $.ajax({
         url:"AJAX/AJAXGetNameProduto.php",
         type:"post",
-        data:{
-            idProduto:idProduto,
-        },
         success:function (result){
-            nomeProduto=result;
-            if(confirm('Confirma que deseja eliminar o produto:'+nomeProduto+'?'))
-                window.location="AJAX/AJAXRemoverProdutoCarrinho.php?id=" + idProduto;
+
+            if(confirm('Confirma que deseja eliminar todos os produtos do carrinho ?'))
+                window.location="AJAX/AJAXRemoverProdutoCarrinho.php";
         }
     });
 }

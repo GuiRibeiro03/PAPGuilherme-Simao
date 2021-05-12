@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Carrinho works">
-      <change afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
@@ -224,21 +223,7 @@
       <workItem from="1620298672758" duration="1213000" />
       <workItem from="1620737638991" duration="2755000" />
       <workItem from="1620808130174" duration="2004000" />
-      <workItem from="1620812805015" duration="7345000" />
-    </task>
-    <task id="LOCAL-00205" summary="Commit: &#10;  bodyBlog">
-      <created>1618335633566</created>
-      <option name="number" value="00205" />
-      <option name="presentableId" value="LOCAL-00205" />
-      <option name="project" value="LOCAL" />
-      <updated>1618335633566</updated>
-    </task>
-    <task id="LOCAL-00206" summary="Border-Radius imagens index,blog,reviews">
-      <created>1618349459462</created>
-      <option name="number" value="00206" />
-      <option name="presentableId" value="LOCAL-00206" />
-      <option name="project" value="LOCAL" />
-      <updated>1618349459462</updated>
+      <workItem from="1620812805015" duration="7949000" />
     </task>
     <task id="LOCAL-00207" summary="Guilherme- Commit 14/4/2021">
       <created>1618412323858</created>
@@ -569,7 +554,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620832067138</updated>
     </task>
-    <option name="localTasksCounter" value="254" />
+    <task id="LOCAL-00254" summary="Guilherme- Carrinho works">
+      <created>1620833986278</created>
+      <option name="number" value="00254" />
+      <option name="presentableId" value="LOCAL-00254" />
+      <option name="project" value="LOCAL" />
+      <updated>1620833986278</updated>
+    </task>
+    <task id="LOCAL-00255" summary="Guilherme- Carrinho works">
+      <created>1620834217961</created>
+      <option name="number" value="00255" />
+      <option name="presentableId" value="LOCAL-00255" />
+      <option name="project" value="LOCAL" />
+      <updated>1620834217961</updated>
+    </task>
+    <option name="localTasksCounter" value="256" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
