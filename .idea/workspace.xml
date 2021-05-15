@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Carrinho works">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- width cards">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +49,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AJAX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -63,8 +62,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="D:\wamp\www\papGuiSimao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
@@ -217,13 +216,65 @@
       <workItem from="1619684338645" duration="2126000" />
       <workItem from="1619708583774" duration="2683000" />
       <workItem from="1619788527382" duration="1899000" />
-      <workItem from="1620029219262" duration="5341000" />
-      <workItem from="1620203656038" duration="2960000" />
-      <workItem from="1620290101533" duration="17000" />
-      <workItem from="1620298672758" duration="1213000" />
-      <workItem from="1620737638991" duration="2755000" />
-      <workItem from="1620808130174" duration="2004000" />
-      <workItem from="1620812805015" duration="7949000" />
+      <workItem from="1620029219262" duration="4119000" />
+      <workItem from="1621106539846" duration="36000" />
+      <workItem from="1621106835653" duration="1140000" />
+    </task>
+    <task id="LOCAL-00199" summary="Commit-Logins">
+      <created>1618263055296</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1618263055296</updated>
+    </task>
+    <task id="LOCAL-00200" summary="Commit-Logins">
+      <created>1618263709195</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1618263709195</updated>
+    </task>
+    <task id="LOCAL-00201" summary="Commit-Logins">
+      <created>1618266746433</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1618266746433</updated>
+    </task>
+    <task id="LOCAL-00202" summary="Commit-Logins/Perfil">
+      <created>1618274466479</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1618274466479</updated>
+    </task>
+    <task id="LOCAL-00203" summary="Commit: &#10;  Frontoffice:&#10;  -Avatar&#10;  -Se for admin mostrar butão backoffice&#10;  -Carrinho com produtos inseridos da BD para simulação responsiva">
+      <created>1618334615628</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1618334615628</updated>
+    </task>
+    <task id="LOCAL-00204" summary="Commit: &#10;  Frontoffice:&#10;  background: #ob0b0b0b">
+      <created>1618335214016</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1618335214016</updated>
+    </task>
+    <task id="LOCAL-00205" summary="Commit: &#10;  bodyBlog">
+      <created>1618335633566</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1618335633566</updated>
+    </task>
+    <task id="LOCAL-00206" summary="Border-Radius imagens index,blog,reviews">
+      <created>1618349459462</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1618349459462</updated>
     </task>
     <task id="LOCAL-00207" summary="Guilherme- Commit 14/4/2021">
       <created>1618412323858</created>
@@ -512,63 +563,7 @@
       <option name="project" value="LOCAL" />
       <updated>1620030892022</updated>
     </task>
-    <task id="LOCAL-00248" summary="Guilherme- Carrinho, ListaBlog, ListaReview">
-      <created>1620033394490</created>
-      <option name="number" value="00248" />
-      <option name="presentableId" value="LOCAL-00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1620033394490</updated>
-    </task>
-    <task id="LOCAL-00249" summary="Guilherme- Edita produto fixed">
-      <created>1620223360021</created>
-      <option name="number" value="00249" />
-      <option name="presentableId" value="LOCAL-00249" />
-      <option name="project" value="LOCAL" />
-      <updated>1620223360029</updated>
-    </task>
-    <task id="LOCAL-00250" summary="Guilherme- Edita produto fixed">
-      <created>1620747581153</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1620747581153</updated>
-    </task>
-    <task id="LOCAL-00251" summary="Guilherme- Edita produto fixed">
-      <created>1620748431032</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1620748431032</updated>
-    </task>
-    <task id="LOCAL-00252" summary="Guilherme- Carrinho/ Styles">
-      <created>1620809466926</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
-      <option name="project" value="LOCAL" />
-      <updated>1620809466926</updated>
-    </task>
-    <task id="LOCAL-00253" summary="Guilherme- Carrinho works">
-      <created>1620832067138</created>
-      <option name="number" value="00253" />
-      <option name="presentableId" value="LOCAL-00253" />
-      <option name="project" value="LOCAL" />
-      <updated>1620832067138</updated>
-    </task>
-    <task id="LOCAL-00254" summary="Guilherme- Carrinho works">
-      <created>1620833986278</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1620833986278</updated>
-    </task>
-    <task id="LOCAL-00255" summary="Guilherme- Carrinho works">
-      <created>1620834217961</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1620834217961</updated>
-    </task>
-    <option name="localTasksCounter" value="256" />
+    <option name="localTasksCounter" value="248" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -587,6 +582,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Guilherme- Genero Plataforma listaJogos" />
+    <MESSAGE value="Guilherme- Adiciona Comentário a Funcionar!!" />
+    <MESSAGE value="Guilherme- Comentários a ordenar por o mais recente" />
     <MESSAGE value="Guilherme- Carrinho não cria 2a scrollbar" />
     <MESSAGE value="Guilherme- Menu Paginas jogos" />
     <MESSAGE value="Guilherme- 16/4" />
@@ -599,6 +597,7 @@
     <MESSAGE value="Guilherme- Adicionar Perfil" />
     <MESSAGE value="Guilherme- jogos resize" />
     <MESSAGE value="Guilherme- random bullshit" />
+    <MESSAGE value="Guilherme- Edita produto fixed" />
     <MESSAGE value="Guilherme- ListaAcessorio.php | ListaConsola.php | ListaOutlet.php | ListaJogo.php" />
     <MESSAGE value="Guilherme- UI lista" />
     <MESSAGE value="Adiciona Carrinho" />
@@ -608,10 +607,6 @@
     <MESSAGE value="Guilherme- UI fixes" />
     <MESSAGE value="Guilherme- Login" />
     <MESSAGE value="Guilherme- Reversão Login" />
-    <MESSAGE value="Guilherme- Carrinho, ListaBlog, ListaReview" />
-    <MESSAGE value="Guilherme- Edita produto fixed" />
-    <MESSAGE value="Guilherme- Carrinho/ Styles" />
-    <MESSAGE value="Guilherme- Carrinho works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Carrinho works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Reversão Login" />
   </component>
 </project>
