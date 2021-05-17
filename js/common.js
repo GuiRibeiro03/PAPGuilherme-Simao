@@ -227,8 +227,8 @@ function confirmaEliminaCarrinhoProduto(id) {
         },
         success:function (result){
             nomeProduto=result;
-            if(confirm('Confirma que deseja eliminar o produto:'+nomeProduto+'?'))
-                window.location="AJAX/AJAXRemoverProdutosDoCarrinho?id=" + id;
+            if(confirm('Confirma que deseja eliminar o produto:'+result+'?'))
+                window.location="AJAX/AJAXRemoverProdutoCarrinho?id=" + id;
         }
     });
 }
