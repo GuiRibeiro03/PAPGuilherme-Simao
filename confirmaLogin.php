@@ -11,14 +11,6 @@ session_start();
 $_SESSION['id']=$dados['userId'];
 $_SESSION['nome']=$dados['userNome'];
 
-/*if($nome===$dados['userNome'] and $pwd===$dados['userPassword'] and $dados["userType"] == "ativo"){
-    session_start();
-    $_SESSION['id']=$dados['userId'];
-    $_SESSION['nome']=$dados['userNome'];
-}elseif($nome===$dados['userNome'] and $pwd===$dados['userPassword'] and $dados["userType"] == "inativo"){
-    $verificacao='sim';
-    header("location: login.php?message");
-}*/
 
 header("location: ".$_SERVER['HTTP_REFERER']);
 ?>

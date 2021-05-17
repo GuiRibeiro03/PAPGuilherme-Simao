@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Carrinho works">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,13 +226,6 @@
       <workItem from="1620737638991" duration="2755000" />
       <workItem from="1620808130174" duration="2004000" />
       <workItem from="1620812805015" duration="7949000" />
-    </task>
-    <task id="LOCAL-00208" summary="Guilherme- Commit 14/4/2021">
-      <created>1618412713325</created>
-      <option name="number" value="00208" />
-      <option name="presentableId" value="LOCAL-00208" />
-      <option name="project" value="LOCAL" />
-      <updated>1618412713325</updated>
     </task>
     <task id="LOCAL-00209" summary="Guilherme- Comentarios">
       <created>1618423494727</created>
@@ -569,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621248400810</updated>
     </task>
-    <option name="localTasksCounter" value="257" />
+    <task id="LOCAL-00257" summary="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo">
+      <created>1621250869122</created>
+      <option name="number" value="00257" />
+      <option name="presentableId" value="LOCAL-00257" />
+      <option name="project" value="LOCAL" />
+      <updated>1621250869122</updated>
+    </task>
+    <option name="localTasksCounter" value="258" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Carrinho não cria 2a scrollbar" />
     <MESSAGE value="Guilherme- Menu Paginas jogos" />
     <MESSAGE value="Guilherme- 16/4" />
     <MESSAGE value="Guilherme- 17/4" />
@@ -613,6 +613,7 @@
     <MESSAGE value="Guilherme- Edita produto fixed" />
     <MESSAGE value="Guilherme- Carrinho/ Styles" />
     <MESSAGE value="Guilherme- Carrinho works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Carrinho works" />
+    <MESSAGE value="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo" />
   </component>
 </project>
