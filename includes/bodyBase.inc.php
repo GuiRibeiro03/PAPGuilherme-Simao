@@ -9,17 +9,6 @@ session_start();
 $_SESSION['carrinho'][0]=-1;
 
 
-if(isset($_GET['msg'])) {
-
-
-    alert("Nome de utilizador ou palavra-passe errada, tente de novo.");
-}
-if(isset($_GET['message'])) {
-
-
-    alertinativo("Esta conta foi desativada.");
-}
-
 
 function top($menu=HOME){
 
@@ -233,7 +222,14 @@ function top($menu=HOME){
             </div>
 
             <!--************************************** FIM PERFIL*******************************************-->
-            
+
+
+
+
+
+
+
+            <!------------------------------------ CARRINHO INICIO --------------------------------------------->
             <div style=" text-align: left">
                 <div class="col-lg-12">
                     <div class="row">
@@ -270,7 +266,7 @@ function top($menu=HOME){
                                         while($dados2=mysqli_fetch_array($result1)){
 
                                             ?>
-                                            <div style="margin-left: 20px">
+                                            <div>
                                                 <?php  $k++; ?> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
                                                     <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right;margin-right: 20px; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                                 <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
@@ -300,7 +296,7 @@ function top($menu=HOME){
                                         while($dados3=mysqli_fetch_array($result2)){
 
                                                 ?>
-                                                <div style="margin-left: 20px">
+                                                <div>
                                                  <?php  $k++; ?> <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 70px; width: 60px;" > <?php echo $dados3["jogoNome"] ?>:</a>
                                                     &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
                                             <button onclick="confirmaEliminaCarrinhoJogo(<?php echo $dados3["jogoId"]?>)" style="float: right; margin-right: 20px; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
@@ -318,13 +314,13 @@ function top($menu=HOME){
                                         <span style="color: #000000!important; font-size: 20px; font-weight: 700; margin-left: 20px; ">Total ( <?php echo $k ?> Items): <?php echo $precoTotal ?>&nbsp;€</span>
                                         <div style="float: right">
                                         <button onclick="confirmaEliminaCarrinho()" class="btn btn-warning" style="color: #0b0b0b; ">Remover Todos</button>
-                                        <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+                                        <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Ver Carrinho</button></a>
                                         </div>
 
                                         <?php
                                         }else{
-                                        ?><div >
-                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400; margin-left: 20px">Total: <?php echo $precoTotal ?>&nbsp;€</span>
+                                        ?><div>
+                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400; ">Total: <?php echo $precoTotal ?>&nbsp;€</span>
                                         <?php
                                          }
                                         ?>
