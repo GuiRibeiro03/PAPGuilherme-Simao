@@ -6,7 +6,7 @@ $sql="select * from users";
 $res=mysqli_query($con,$sql);
 
 ?>
-<table class="table table-striped" style="color: #FFFFFF; font-weight: bold; font-size: 20px; text-align: center">
+<table class="table" style="color: #FFFFFF; font-weight: bold; font-size: 20px; text-align: center">
     <tr>
         <th>User Id</th>
         <th>User Nome</th>
@@ -67,8 +67,7 @@ $res=mysqli_query($con,$sql);
                     ?>
 
             </option>
-
-            <<option value="userType">
+                <option value="userType">
                     <?php
                     if($dados["userType"] == 'user' ){
                         echo "editor";
