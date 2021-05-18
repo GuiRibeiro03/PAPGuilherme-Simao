@@ -196,7 +196,7 @@ function top($menu=HOME){
                                 <li style="float: right"><div class="ht-widget"">
                                     <ul class="float-right">
                                         <div class="dropdown">
-                                            </span><a href="#" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
+                                            </span><a href="#" ><button class="dropdown-toggle" style="background-color: transparent"><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"></a><span style="margin-left: 10px"></span></button></a>
                                             <div class="dropdown-content" style="background-color: #202020; color: #FFF">
 
                                                 <span><?php echo $dados["perfilNome"]?></span>
@@ -208,8 +208,7 @@ function top($menu=HOME){
                                                 $dados=mysqli_fetch_array($result);
                                                 if($dados["userType"]=="admin"){
                                                     ?>
-                                                    <li ><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="btn btn-danger" style="width: 90px"><i class="fa fa-id-badge"></i>&nbsp;Perfil</button></a></li>
-                                                    <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger"> Backoffice</button></a></li>
+                                                    <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="fp"> Backoffice</button></a></li>
                                                     <li ><a href="adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
                                                     <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                     <?php
