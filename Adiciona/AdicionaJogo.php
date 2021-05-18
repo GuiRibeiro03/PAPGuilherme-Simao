@@ -146,8 +146,6 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
             <option value="<?php echo $dados['generoId']?>"><?php echo $dados['generoNome']?></option>
             <?php
         }
-
-
         ?>
     </select>
 

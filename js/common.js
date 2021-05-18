@@ -249,3 +249,23 @@ function confirmaEliminaCarrinhoJogo(idJogo) {
         }
     });
 }
+
+
+
+function updateEstado(userState){
+    alert(userState);
+    $.ajax({
+        url:"AJAX/AJAXUpdateState.php",
+        type:"post",
+        data:{
+            userState:userState
+        },
+        success:function () {
+            location.reload();
+
+        }
+
+
+    })
+
+}
