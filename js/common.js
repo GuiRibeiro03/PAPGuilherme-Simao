@@ -252,13 +252,13 @@ function confirmaEliminaCarrinhoJogo(idJogo) {
 
 
 
-function updateEstado(userState){
-    alert(userState);
+function updateEstado(userState,userId){
     $.ajax({
         url:"AJAX/AJAXUpdateState.php",
         type:"post",
         data:{
-            userState:userState
+            userId:userId,
+            userState:userState,
         },
         success:function () {
             location.reload();

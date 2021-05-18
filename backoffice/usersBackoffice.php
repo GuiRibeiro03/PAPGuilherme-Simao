@@ -20,7 +20,7 @@ $res=mysqli_query($con,$sql);
     <tr>
         <td><?php echo $dados["userId"]?></td>
         <td><?php echo $dados["userName"]?></td>
-        <td><select name="userState" onchange="updateEstado(<?php echo $dados["userState"]?>)">
+        <td><select name="userState" onchange="updateEstado(<?php echo $dados["userState"], $dados["userId"]?>)">
                 <option value="userState"><?php echo $dados["userState"]?></option>
                 <option value="userState">
                     <?php
