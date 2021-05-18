@@ -9,6 +9,17 @@ session_start();
 $_SESSION['carrinho'][0]=-1;
 
 
+if(isset($_GET['msg'])) {
+
+
+    alert("Nome de utilizador ou palavra-passe errada, tente de novo.");
+}
+if(isset($_GET['message'])) {
+
+
+    alertinativo("Esta conta foi desativada.");
+}
+
 
 function top($menu=HOME){
 
@@ -222,16 +233,14 @@ function top($menu=HOME){
             </div>
 
             <!--************************************** FIM PERFIL*******************************************-->
-
-            <!--************************************** CARRINHO INICIO*******************************************-->
-
+            
             <div style=" text-align: left">
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="ht-widget">
                             <div class="button-dropdown" style="margin-bottom:10%">
                                 <div id="mySidenav" class="sidenav" style="color: #0b0b0b!important; margin-left: 3px">
-                                    <h4  style="color: #0d0d0d; text-align: center"><strong>Carrinho de compras</strong></h4>
+                                    <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
                                     <hr>
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
@@ -246,24 +255,26 @@ function top($menu=HOME){
                                             foreach ($_SESSION['carrinho'] as $produto){
                                                 $lista.=",".$produto;
                                             }
-
+                                            foreach($_SESSION['carrinho'] as $jogo){
+                                                $lista.=",".$jogo;
+                                            }
                                         }
                                         $lista.=")";
 
                                         $sql1="select * from produtos where produtoId in ".$lista;
-
+                                        $sql2="select * from jogos where jogoId in $lista";
 
 
                                         $result1=mysqli_query($con,$sql1);
-
+                                        $result2=mysqli_query($con,$sql2);
                                         $precoTotal=0;
                                         $k=0;
                                         while($dados2=mysqli_fetch_array($result1)){
 
                                             ?>
-                                            <div style="margin-left: 20px">
+                                            <div>
                                                 <?php  $k++; ?> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
-                                                    <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right;margin-right: 20px; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                                    <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                                 <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                                                 <hr>
                                             </div>
@@ -291,10 +302,10 @@ function top($menu=HOME){
                                         while($dados3=mysqli_fetch_array($result2)){
 
                                                 ?>
-                                                <div style="margin-left: 20px">
-                                                 <?php  $k++; ?> <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 70px; width: 60px;" > <?php echo $dados3["jogoNome"] ?>:</a>
+                                                <div>
+                                                 <?php  $k++; ?> <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
                                                     &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
-                                            <button onclick="confirmaEliminaCarrinhoJogo(<?php echo $dados3["jogoId"]?>)" style="float: right; margin-right: 20px; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                            <button onclick="confirmaEliminaCarrinho(<?php echo $dados3["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                             <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                                             <hr>
                                             </div>
@@ -306,16 +317,16 @@ function top($menu=HOME){
                                           <?php
                                         if($k!=0){
                                             ?>
-                                        <span style="color: #000000!important; font-size: 20px; font-weight: 700; margin-left: 20px; ">Total ( <?php echo $k ?> Items): <?php echo $precoTotal ?>&nbsp;€</span>
+                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span>
                                         <div style="float: right">
                                         <button onclick="confirmaEliminaCarrinho()" class="btn btn-warning" style="color: #0b0b0b; ">Remover Todos</button>
-                                        <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Ver Carrinho</button></a>
+                                        <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
                                         </div>
 
                                         <?php
                                         }else{
-                                        ?><div >
-                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400; margin-left: 20px">Total: <?php echo $precoTotal ?>&nbsp;€</span>
+                                        ?>
+                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span>
                                         <?php
                                          }
                                         ?>
@@ -326,9 +337,7 @@ function top($menu=HOME){
                                         $k=0;
                                         ?>
 
-                                        <div class="row"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block'">
-                                                <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;">
-                                                    <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
+                                        <div class="row"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
 
                                         <?php
                                     }
@@ -347,25 +356,10 @@ function top($menu=HOME){
                                         document.getElementById("mySidenav").style.width = "0";
                                     }
                                 </script>
-    <?php
-if(isset($_SESSION['id'])){
-
-    ?>
-
-                                <span id="bdg1" class="badge badge-dark" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
-                                <span id="bdg2" class="badge badge-dark" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $precoTotal."€"; ?></span>
-    <?php
-}else{
-
-    ?>
-
-    <span id="bdg1" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
-    <?php
-}
-
-    ?>
 
 
+                                <span id="bdg1" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
+                                <span id="bdg2" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $precoTotal."€"; ?></span>
 
                             </div>
                             <!--************************************** FIM CARRINHO*******************************************-->
@@ -560,6 +554,35 @@ function bottom(){
                 <input type="submit" class="btn btn-danger" value="Entrar">
 
 
+                <!--<div class="container" style="text-align: center; ">
+                    <p><label class="badge badge-dark">Username:</label>
+                    <input type="text" name="user" style="width: 50%" placeholder="username.." required></p>
+                   <p> <label class="badge badge-dark" >Password:</label>
+                    <input type="password" name="password" style="width: 50%" placeholder="password.." required ></p>-->
+                    <?php
+                    /*$con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
+                    $sql="select userName,userPassword from users";
+                    $res=mysqli_query($con,$sql);
+                    $dados=mysqli_fetch_array($res);
+                    if(isset($_POST['submit'])){
+
+                        $un=$_POST['user'];
+                        $pwd=$_POST['password'];
+
+                        if ($un== $dados['userName'] && $pwd==$dados['userPassword'] ){
+                            header("location:".$_SESSION['HTTP_REFERRER']);
+                            exit();
+                        }else{
+                            echo "<span style='color: red'>Invalid Username or Password</span>";
+                        }
+                    }
+                        */
+                    ?>
+                    <!--<input type="submit" value="Entrar" name="submit" id="sub" class="btn btn-primary">
+                </div>-->
+
+
+
                   <hr>
             </div>
 
@@ -568,60 +591,6 @@ function bottom(){
             </div>
         </form>
     </div>
-
-
-
-
-
-    <div id="id03" class="modal">
-
-        <form class="modal-content animate" action="confirmaLogin2.php" method="post">
-            <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="img/Game.png">
-            </div>
-            <div class="container" style="text-align: center">
-                <!-- Login Select -->
-                <div class="container" style="text-align: center; ">
-                    <p><label class="badge badge-dark">Username:</label>
-                    <input type="text" name="user" style="width: 50%" placeholder="username.." required></p>
-                   <p> <label class="badge badge-dark" >Password:</label>
-                    <input type="password" name="password" style="width: 50%" placeholder="password.." required ></p>
-                <?php
-                $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
-                $sql="select userName,userPassword from users";
-                $res=mysqli_query($con,$sql);
-                $dados=mysqli_fetch_array($res);
-                if(isset($_POST['submit'])){
-
-                    $un=$_POST['user'];
-                    $pwd=$_POST['password'];
-
-                    if ($un == $dados['userName'] && $pwd == $dados['userPassword'] ){
-                        header("location:".$_SESSION['HTTP_REFERRER']);
-                        exit();
-                    }else{
-                        echo "<span style='color: red'>Invalid Username or Password</span>";
-                    }
-                }
-
-                ?>
-                <input type="submit" value="Entrar" name="submit" id="sub" class="btn btn-primary">
-            </div>
-
-
-
-                <hr>
-            </div>
-
-            <div class="container" style="background-color:#f1f1f1; color: #0b0b0b">
-                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">&nbsp;<strong>password?</strong></a></span>
-            </div>
-        </form>
-    </div>
-
-
-
 
     <script>
         // Get the modal

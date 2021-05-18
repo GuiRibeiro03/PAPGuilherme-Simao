@@ -176,7 +176,7 @@ function countClicks2() {
 
 //***********************************Adicionar ao Carrinho******************************
 function adicionaCarrinho(id){
-    alert(id);
+
     $.ajax({
         url:"AJAX/AJAXNovoProdutoCarrinho.php",
         type:"post",
@@ -190,7 +190,7 @@ function adicionaCarrinho(id){
 }
 
 function adicionaCarrinhoJogo(id){
-    alert(id);
+
     $.ajax({
         url:"AJAX/AJAXNovoProdutoCarrinho.php",
         type:"post",
