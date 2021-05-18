@@ -272,7 +272,7 @@ function top($menu=HOME){
                                         while($dados2=mysqli_fetch_array($result1)){
 
                                             ?>
-                                            <div>
+                                            <div style="margin-right: 20px; margin-left: 20px">
                                                 <?php  $k++; ?> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
                                                     <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                                 <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
@@ -302,7 +302,7 @@ function top($menu=HOME){
                                         while($dados3=mysqli_fetch_array($result2)){
 
                                                 ?>
-                                                <div>
+                                                <div style="margin-right: 20px; margin-left: 20px">
                                                  <?php  $k++; ?> <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
                                                     &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
                                             <button onclick="confirmaEliminaCarrinho(<?php echo $dados3["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
@@ -326,7 +326,7 @@ function top($menu=HOME){
                                         <?php
                                         }else{
                                         ?>
-                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span>
+                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal; ?>&nbsp;€</span>
                                         <?php
                                          }
                                         ?>
@@ -358,8 +358,20 @@ function top($menu=HOME){
                                 </script>
 
 
-                                <span id="bdg1" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
-                                <span id="bdg2" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $precoTotal."€"; ?></span>
+                                <?php
+                                if(isset($_SESSION['id'])){
+                                ?>
+                                <span id="bdg1" class="badge badge-dark" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
+                                <span id="bdg2" class="badge badge-dark" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $precoTotal."€"; ?></span>
+    <?php
+                                }else{
+    ?>
+
+    <?php
+                                }
+    ?>
+
+
 
                             </div>
                             <!--************************************** FIM CARRINHO*******************************************-->
