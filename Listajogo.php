@@ -28,8 +28,8 @@ $dados=mysqli_fetch_array($result);
                 <br>
                 <br>
                 <h3 class="card-title"><strong><span ><?php echo $dados["jogoPreco"] ?>€</span></strong> </h3>
-                <a onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;">
-                <input type="submit" class="btn-danger" value="Adicionar ao Carrinho"></a>
+                <a onclick="adicionaCarrinho(<?php echo $id ?>)"  style="color: #dc3545;">
+                <input type="submit" class="btn btn-danger  cart-button" value="Adicionar ao Carrinho"></a>
 
             </div>
 

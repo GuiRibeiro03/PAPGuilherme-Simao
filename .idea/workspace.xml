@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Update userState e userType">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Filtragem por tags workings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,14 +225,7 @@
       <workItem from="1620812805015" duration="7949000" />
       <workItem from="1621324708920" duration="4096000" />
       <workItem from="1621330342125" duration="10055000" />
-      <workItem from="1621412366454" duration="8493000" />
-    </task>
-    <task id="LOCAL-00220" summary="Guilherme- 16/4">
-      <created>1618584909093</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1618584909093</updated>
+      <workItem from="1621412366454" duration="9348000" />
     </task>
     <task id="LOCAL-00221" summary="Guilherme- 17/4">
       <created>1618658359809</created>
@@ -570,7 +563,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621416516070</updated>
     </task>
-    <option name="localTasksCounter" value="269" />
+    <task id="LOCAL-00269" summary="Guilherme- Filtragem por tags workings">
+      <created>1621422264304</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1621422264304</updated>
+    </task>
+    <option name="localTasksCounter" value="270" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +589,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Reviews&#10;-Comentários e Resultados Div Tamanho" />
     <MESSAGE value="Guilherme- Noticias&#10;-Imagens" />
     <MESSAGE value="Guilherme- Adicionar Perfil" />
     <MESSAGE value="Guilherme- jogos resize" />
@@ -614,6 +613,7 @@
     <MESSAGE value="Guilherme- Filtragem por tags ajax" />
     <MESSAGE value="Guilherme- Registar" />
     <MESSAGE value="Guilherme- Update userState e userType" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Update userState e userType" />
+    <MESSAGE value="Guilherme- Filtragem por tags workings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Filtragem por tags workings" />
   </component>
 </project>
