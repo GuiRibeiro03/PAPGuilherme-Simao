@@ -154,9 +154,6 @@ function top($menu=HOME){
 
     <header class="header-section" >
 
-
-
-
         <div class="logo" style="width: 100%;">
                 <div class="text-center">
                     <a href="index.php"><img src="img/gameOn.png" alt="LOGO"></a>
@@ -166,9 +163,9 @@ function top($menu=HOME){
 
 
 
-
-
             <!--************************************** CARRINHO*******************************************-->
+
+
         <div style="width: 20%; float: right; ">
             <div class="col-lg-12" >
                 <div class="ht-options">
