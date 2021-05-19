@@ -1,9 +1,7 @@
 <?php
 include_once ("../includes/body.inc.php");
+include_once ("../includes/config.inc.php");
 top();
-$con=mysqli_connect("localhost", "root","","pap2021gameon");
-$sql="select * from users";
-$res=mysqli_query($con,$sql);
 
 ?>
 <table class="table" style="color: #FFFFFF; font-weight: bold; font-size: 20px; text-align: center">
@@ -15,14 +13,20 @@ $res=mysqli_query($con,$sql);
     </tr>
 
         <?php
+        $con=mysqli_connect(HOST, USER,PASSWORD,DATABASE);
+        $sql="select * from users";
+        $res=mysqli_query($con,$sql);
         while ($dados=mysqli_fetch_array($res)){
         ?>
     <tr>
         <td><?php echo $dados["userId"]?></td>
         <td><?php echo $dados["userName"]?></td>
-        <td><select name="userState" onchange="updateEstado(<?php echo $dados["userState"], $dados["userId"]?>)">
-                <option value="userState"><?php echo $dados["userState"]?></option>
-                <option value="userState">
+
+        <form action="../AJAX/AJAXUpdateState.php?id=<?php echo $dados["userId"]; ?>" method="post" >
+        <td><select name="userState">
+                <option><?php echo $dados["userState"]?></option>
+
+                <option>
                     <?php
                     if($dados["userState"] == 'ativo' ){
                         echo "inativo";
@@ -36,7 +40,7 @@ $res=mysqli_query($con,$sql);
                     ?></option>
 
 
-                <option value="userState">
+                <option>
                     <?php
                     if($dados["userState"] == 'inativo' ){
                         echo "pendente";
@@ -54,7 +58,7 @@ $res=mysqli_query($con,$sql);
 
         <td><select name="userType">
             <option value="<?php echo $dados["userType"]?>"><?php echo $dados["userType"]?></option>
-            <option value="userType">
+            <option>
                 <?php
                 if($dados["userType"] == 'user' ){
                     echo "admin";
@@ -65,9 +69,9 @@ $res=mysqli_query($con,$sql);
                 }
 
                     ?>
-
             </option>
-                <option value="userType">
+
+                <option>
                     <?php
                     if($dados["userType"] == 'user' ){
                         echo "editor";
@@ -78,9 +82,10 @@ $res=mysqli_query($con,$sql);
                     }
 
                     ?>
-
                 </option>
             </select></td>
+        <td><button type="submit" class="btn btn-primary">Update</button></td>
+        </form>
     </tr>
         <?php
         }
