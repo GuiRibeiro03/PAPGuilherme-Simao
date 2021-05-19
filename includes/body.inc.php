@@ -6,22 +6,24 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 session_start();
+$_SESSION['carrinho'][0]=-1;
 
 
-$lista="(0";
-if(isset($_SESSION['carrinho'])){
-    foreach ($_SESSION['carrinho'] as $produto){
-        $lista.=",".$produto;
-    }
+if(isset($_GET['msg'])) {
+
+
+    alert("Nome de utilizador ou palavra-passe errada, tente de novo.");
 }
-$lista.=")";
+if(isset($_GET['message'])) {
 
 
-$sql1="select * from produtos where produtoId in ".$lista;
+    alertinativo("Esta conta foi desativada.");
+}
+
 
 function top($menu=HOME){
 
-?>
+    ?>
     <!DOCTYPE html>
     <html lang="pt">
 
@@ -233,8 +235,9 @@ function top($menu=HOME){
                                                     <li ><a href="../adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
                                                     <li ><a href="../logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                     <?php
-                                                }else{
+                                                }elseif($dados['userType']=='user'){
                                                     ?>
+                                                    <li ><a href="../adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
                                                     <li ><a href="../logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                     <?php
                                                 }

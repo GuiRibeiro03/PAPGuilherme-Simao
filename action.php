@@ -29,7 +29,7 @@ where jogoEmpresaId != '' ";
 
                 <div  class='card' style='max-width: 23rem; min-width: 15rem; width: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black'>
 
-                    <a href="Listajogo.php?id=''.$dados['jogoId'].'' "><img src="img/<?php echo $dados["jogoImagemURL"] ?>'"' class="card-img-top" alt="..." style="height: 400px"></a>
+                    <a href='Listajogo.php?id='".$dados['jogoId']."' '> <img src="img/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
                     <a href="\Listajogo.php?id="" \"></a>
 
 

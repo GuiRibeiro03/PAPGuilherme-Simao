@@ -487,25 +487,20 @@ function bottom(){
 
     <div id="id02" class="modal">
 
-        <form class="modal-content animate" action="/action_page.php" method="post">
+        <form class="modal-content animate" action="Adiciona/AdicionaUser.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-
             </div>
-
             <div class="container">
-                <label id="email"><b>Email</b></label>
-                <input type="text" placeholder="Introduza o seu Email" name="email" required>
 
                 <label id="userName"><b>Nome de Utilizador</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <input type="text" placeholder="Enter Username" name="userName" required>
 
                 <label id="password"><b>Palavra-passe</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <input type="password" placeholder="Enter Password" name="password" required>
 
-                <label id="password"><b>Repete a Palavra-passe</b></label>
-                <input type="password" placeholder="Enter Password" name="pswRepeat" required>
-
+                <label id="email"><b>Email</b></label>
+                <input type="text" placeholder="Introduza o seu Email" name="email" required>
 
 
                 <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button>
