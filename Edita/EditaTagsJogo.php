@@ -22,11 +22,11 @@ $sql1="select * from jogoplataformas where jogoPlataformaJogoId=".$id;
     <select class="form-select"  aria-label="Default select example" name="generoId">
         <option value="-1">Escolha o genero...</option>
         <?php
-        $sql2="select * from generos inner join jogogeneros on generoId=jogoGeneroGeneroId order by generoId";
+        $sql2="select * from generos ";
         $result=mysqli_query($con,$sql2);
         while ($dadosGeneros=mysqli_fetch_array($result)){
             ?>
-            <option value="<?php echo $dadosGeneros['jogoGeneroGeneroId']?>">
+            <option value="<?php echo $dadosGeneros['generoId']?>">
                 <?php echo $dadosGeneros["generoNome"] ?>
             </option>
             <?php
@@ -37,11 +37,11 @@ $sql1="select * from jogoplataformas where jogoPlataformaJogoId=".$id;
     <select class="form-select"  aria-label="Default select example" name="plataformaId">
         <option value="-1">Escolha a plataforma...</option>
         <?php
-        $sql3="select * from plataformas  inner join jogoplataformas on plataformaId  = jogoPlataformaPlataformaId order by plataformaId";
+        $sql3="select * from plataformas  ";
         $result2=mysqli_query($con,$sql3);
         while ($dadosPlataformas=mysqli_fetch_array($result2)){
             ?>
-            <option value="<?php echo $dadosPlataformas['jogoPlataformaPlataformaId']?>">
+            <option value="<?php echo $dadosPlataformas['plataformaId']?>">
                 <?php echo $dadosPlataformas["plataformaNome"] ?>
             </option>
             <?php
