@@ -199,11 +199,7 @@ function top($menu=HOME){
                                 ?>
                                 <ul class="float-right" style="margin-top: 15px">
                                     <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
-                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span>
-
-                                    </li>
-
-                                    <li>|</li>
+                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span> </li>
 
                                     <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
                             <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
@@ -219,7 +215,7 @@ function top($menu=HOME){
                                 <li style="float: right"><div class="ht-widget"">
                                     <ul class="float-right">
                                         <div class="dropdown">
-                                            </span><a href="../perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="../<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
+                                            </span><a href="#" ><button class="dropdown-toggle" style="background-color: transparent"><a href="../perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><img src="../    <?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"></a><span style="margin-left: 10px"></span></button></a>
                                             <div class="dropdown-content" style="background-color: #202020; color: #FFF">
 
                                                 <span><?php echo $dados["perfilNome"]?></span>
@@ -231,13 +227,12 @@ function top($menu=HOME){
                                                 $dados=mysqli_fetch_array($result);
                                                 if($dados["userType"]=="admin"){
                                                     ?>
-                                                    <li ><a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Backoffice</button></a></li>
+                                                    <li ><a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="fp"> Backoffice</button></a></li>
                                                     <li ><a href="../adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
                                                     <li ><a href="../logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                     <?php
-                                                }elseif($dados['userType']=='user'){
+                                                }else{
                                                     ?>
-                                                    <li ><a href="../adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
                                                     <li ><a href="../logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                     <?php
                                                 }
@@ -266,39 +261,96 @@ function top($menu=HOME){
                                     <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
                                     <hr>
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                                    <!-- Lista para o carrinho e mostrar os produtos/Jogos nele -->
+
                                     <?php
                                     if(isset($_SESSION['id'])){
 
                                         ?>
 
                                         <?php
-
                                         $lista="(0";
                                         if(isset($_SESSION['carrinho'])){
                                             foreach ($_SESSION['carrinho'] as $produto){
                                                 $lista.=",".$produto;
                                             }
+                                            foreach($_SESSION['carrinho'] as $jogo){
+                                                $lista.=",".$jogo;
+                                            }
                                         }
                                         $lista.=")";
 
                                         $sql1="select * from produtos where produtoId in ".$lista;
+                                        $sql2="select * from jogos where jogoId in $lista";
+
 
                                         $result1=mysqli_query($con,$sql1);
-                                        $i=0;
+                                        $result2=mysqli_query($con,$sql2);
+                                        $precoTotal=0;
                                         $k=0;
                                         while($dados2=mysqli_fetch_array($result1)){
+
                                             ?>
-                                            <div >
-                                                <span style="color: #000000!important; font-size: 20px;"><span><strong><?php echo $k++; ?></strong></span> <img src="../img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
-                                                    <button onclick="confirmaEliminaCarrinho(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                            <div style="margin-right: 20px; margin-left: 20px">
+                                                <?php  $k++; ?> <img src="../img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
+                                                <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                                <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                                <hr>
+                                            </div>
+
+
+
+                                            <?php
+                                            $precoTotal+=$dados2["produtoPreco"];
+                                        }?>
+
+
+
+                                        <?php
+                                        $lista="(0";
+                                        if(isset($_SESSION['carrinho'])){
+                                            foreach ($_SESSION['carrinho'] as $jogo){
+                                                $lista.=",".$jogo;
+                                            }
+                                        }
+                                        $lista.=")";
+
+                                        $sql2="select * from jogos where jogoId in $lista";
+
+
+                                        $result2=mysqli_query($con,$sql2);
+
+                                        while($dados3=mysqli_fetch_array($result2)){
+
+                                            ?>
+                                            <div style="margin-right: 20px; margin-left: 20px">
+                                                <?php  $k++; ?> <img src="../img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
+                                                &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
+                                                <button onclick="confirmaEliminaCarrinhoJogo(<?php echo $dados3["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                                 <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                                                 <hr>
                                             </div>
                                             <?php
-                                            $i+=$dados2["produtoPreco"];
+
+                                            $precoTotal+=$dados3["jogoPreco"];
                                         }?>
-                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $i ?>&nbsp;€</span> <a href="../checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+
+                                        <?php
+                                        if($k!=0){
+                                            ?>
+                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span>
+                                            <div style="float: right">
+                                                <button onclick="confirmaEliminaCarrinho()" class="btn btn-warning" style="color: #0b0b0b; ">Remover Todos</button>
+                                                <a href="../checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+                                            </div>
+
+                                            <?php
+                                        }else{
+                                            ?>
+                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal; ?>&nbsp;€</span>
+                                            <?php
+                                        }
+                                        ?>
+
 
                                         <?php
                                     }else{
@@ -326,7 +378,20 @@ function top($menu=HOME){
                                 </script>
 
 
-                                <span id="bdg1" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
+                                <?php
+                                if(isset($_SESSION['id'])){
+                                    ?>
+                                    <span id="bdg1" class="badge badge-dark" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
+                                    <span id="bdg2" class="badge badge-dark" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $precoTotal."€"; ?></span>
+                                    <?php
+                                }else{
+                                    ?>
+
+                                    <?php
+                                }
+                                ?>
+
+
 
                             </div>
                             <!--************************************** FIM CARRINHO*******************************************-->
@@ -444,24 +509,20 @@ function bottom(){
 
     <div id="id02" class="modal">
 
-        <form class="modal-content animate" action="/action_page.php" method="post">
+        <form class="modal-content animate" action="../Adiciona/AdicionaUser.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             </div>
-
             <div class="container">
-                <label id="email"><b>Email</b></label>
-                <input type="text" placeholder="Introduza o seu Email" name="email" required>
 
                 <label id="userName"><b>Nome de Utilizador</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
+                <input type="text" placeholder="Enter Username" name="userName" required>
 
                 <label id="password"><b>Palavra-passe</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
+                <input type="password" placeholder="Enter Password" name="password" required>
 
-                <label id="password"><b>Repete a Palavra-passe</b></label>
-                <input type="password" placeholder="Enter Password" name="pswRepeat" required>
-
+                <label id="email"><b>Email</b></label>
+                <input type="text" placeholder="Introduza o seu Email" name="email" required>
 
 
                 <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button>
@@ -471,7 +532,7 @@ function bottom(){
 
             <div class="container" style="background-color:#f1f1f1">
                 <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancelar</button>
-                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">password?</a></span>
+                <span class="password">Forgot <a href="#" style="color: #00aff1">password?</a></span>
             </div>
         </form>
     </div>
@@ -496,24 +557,65 @@ function bottom(){
 
     <div id="id01" class="modal">
 
-        <form class="modal-content animate" action="confirmaLogin.php" method="post">
+        <form class="modal-content animate" action="../confirmaLogin.php" method="post">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                 <img src="../img/Game.png">
             </div>
-            <div class="container">
-                <label class="badge badge-dark">Username:</label>
-                <input type="text" name="nome" placeholder="nome de utilizador..">
-                <label class="badge badge-dark">Password:</label>
-                <input type="text" name="password" placeholder="nome de utilizador..">
-                <br>
+            <div class="container" style="text-align: center">
+                <!-- Login Select -->
+                <select name="utilizador" >
+                    <option value="-1">Utilizador...</option>
+                    <?php
+                    $con=mysqli_connect("localhost","root","","pap2021gameon");
+                    $sql="select * from users";
+                    $res = mysqli_query($con,$sql);
+                    while ($dados=mysqli_fetch_array($res)){
+                        ?>
+                        <option value="<?php echo $dados['userId'] ?>"><?php echo $dados['userName'] ?></option>
+
+                        <?php
+                    }
+                    ?>
+
+                </select>
                 <input type="submit" class="btn btn-danger" value="Entrar">
+
+
+                <!--<div class="container" style="text-align: center; ">
+                    <p><label class="badge badge-dark">Username:</label>
+                    <input type="text" name="user" style="width: 50%" placeholder="username.." required></p>
+                   <p> <label class="badge badge-dark" >Password:</label>
+                    <input type="password" name="password" style="width: 50%" placeholder="password.." required ></p>-->
+                <?php
+                /*$con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
+                $sql="select userName,userPassword from users";
+                $res=mysqli_query($con,$sql);
+                $dados=mysqli_fetch_array($res);
+                if(isset($_POST['submit'])){
+
+                    $un=$_POST['user'];
+                    $pwd=$_POST['password'];
+
+                    if ($un== $dados['userName'] && $pwd==$dados['userPassword'] ){
+                        header("location:".$_SESSION['HTTP_REFERRER']);
+                        exit();
+                    }else{
+                        echo "<span style='color: red'>Invalid Username or Password</span>";
+                    }
+                }
+                    */
+                ?>
+                <!--<input type="submit" value="Entrar" name="submit" id="sub" class="btn btn-primary">
+            </div>-->
+
+
+
                 <hr>
             </div>
 
-            <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">&nbsp;password?</a></span>
+            <div class="container" style="background-color:#f1f1f1; color: #0b0b0b">
+                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">&nbsp;<strong>password?</strong></a></span>
             </div>
         </form>
     </div>

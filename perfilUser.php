@@ -18,7 +18,7 @@ $result=mysqli_query($con, $sql);
 while ($dados=mysqli_fetch_array($result)){
 ?>
             <div class="card-body">
-                <img src="<?php echo $dados["perfilAvatarURL"] ?>">
+                <img src="<?php echo $dados["perfilAvatarURL"] ?>" alt="Avatar">
                 <hr>
                 <h5 class="card-title" style="text-align: center;"><?php echo $dados["perfilNome"]?></h5>
                 <hr>

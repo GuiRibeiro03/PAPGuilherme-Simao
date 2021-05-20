@@ -498,10 +498,6 @@ function bottom(){
                 <label id="password"><b>Palavra-passe</b></label>
                 <input type="password" placeholder="Enter Password" name="password" required>
 
-                <label id="email"><b>Email</b></label>
-                <input type="text" placeholder="Introduza o seu Email" name="email" required>
-
-
                 <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button>
                 <hr>
 

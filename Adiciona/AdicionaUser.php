@@ -9,6 +9,9 @@ $userPass=addslashes($_POST['password']);
 $sql="insert into users(userId,userName,userPassword) values (0,'".$userName."','".$userPass."')";
 mysqli_query($con,$sql);
 
+session_start();
+$_SESSION['id']=mysqli_insert_id($sql);
+$_SESSION['nome']=$userName;
 
 
 header("location: ../Adiciona/AdicionaPerfil.php");
