@@ -10,7 +10,7 @@ $perfilMorada=addslashes($_POST['perfilMorada']);
 $perfilEmail=addslashes($_POST['perfilEmail']);
 $perfilTele=intval($_POST['perfilTele']);
 
-$novoNome="/img/pessoas/".$perfilAvatarURL;
+$novoNome="img/pessoas/".$perfilAvatarURL;
 copy($_FILES['perfilAvatarURL']['tmp_name'].$novoNome);
 
 $sql="insert into perfis(perfilNome, perfilAvatarURL,perfilMorada,perfilTelefone,perfilEmail,perfilUserId) 

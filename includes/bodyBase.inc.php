@@ -541,7 +541,7 @@ function bottom(){
                     <option value="-1">Utilizador...</option>
                     <?php
                     $con=mysqli_connect("localhost","root","","pap2021gameon");
-                    $sql="select * from users";
+                    $sql="select * from users ";
                     $res = mysqli_query($con,$sql);
                     while ($dados=mysqli_fetch_array($res)){
                         ?>

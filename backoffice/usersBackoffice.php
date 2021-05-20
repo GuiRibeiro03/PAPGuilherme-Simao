@@ -10,6 +10,7 @@ top();
         <th>User Nome</th>
         <th>User Estado</th>
         <th>User Tipo</th>
+        <th>Opções</th>
     </tr>
 
         <?php
@@ -23,7 +24,7 @@ top();
         <td><?php echo $dados["userName"]?></td>
 
         <form action="../AJAX/AJAXUpdateState.php?id=<?php echo $dados["userId"]; ?>" method="post" >
-        <td><select name="userState">
+        <td><select name="userState" id="select1" onchange="alterarTexto(<?php echo $dados["userState"]?>)">
                 <option><?php echo $dados["userState"]?></option>
 
                 <option>
@@ -56,7 +57,7 @@ top();
             </select></td>
 
 
-        <td><select name="userType">
+        <td><select name="userType" id="select2">
             <option value="<?php echo $dados["userType"]?>"><?php echo $dados["userType"]?></option>
             <option>
                 <?php
@@ -83,7 +84,7 @@ top();
 
                     ?>
                 </option>
-            </select></td>
+            </select><label style="color:#FFF;" id="textChange2"></label></td>
         <td><button type="submit" class="btn btn-primary">Update</button></td>
         </form>
     </tr>
@@ -92,6 +93,18 @@ top();
         ?>
 
 </table>
+
+
+<script>
+    function alterarTexto(value){
+        value = this.value
+        alert(  value  );
+        if(document.getElementById("#select1").valueOf(this) != value){
+            document.getElementById("#textChange2").innerText = "Alterações!";
+        }
+    }
+
+</script>
 
 
 <?php
