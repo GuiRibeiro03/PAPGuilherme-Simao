@@ -278,7 +278,6 @@ function top($menu=HOME){
 
 
                                             <?php
-
                                             $precoTotal+=$dados2["produtoPreco"];
                                         }?>
 

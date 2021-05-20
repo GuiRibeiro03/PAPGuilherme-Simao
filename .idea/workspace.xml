@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Filtragem por tags workings">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acessorios.php" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-    </list>
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Eliminar produto" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,14 +223,7 @@
       <workItem from="1620812805015" duration="7949000" />
       <workItem from="1621324708920" duration="4096000" />
       <workItem from="1621330342125" duration="10055000" />
-      <workItem from="1621412366454" duration="11962000" />
-    </task>
-    <task id="LOCAL-00222" summary="Guilherme- 19/4">
-      <created>1618851985445</created>
-      <option name="number" value="00222" />
-      <option name="presentableId" value="LOCAL-00222" />
-      <option name="project" value="LOCAL" />
-      <updated>1618851985446</updated>
+      <workItem from="1621412366454" duration="12140000" />
     </task>
     <task id="LOCAL-00223" summary="Guilherme- 19/4">
       <created>1618862928225</created>
@@ -574,7 +561,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621422997436</updated>
     </task>
-    <option name="localTasksCounter" value="271" />
+    <task id="LOCAL-00271" summary="Guilherme- Eliminar produto">
+      <created>1621438182657</created>
+      <option name="number" value="00271" />
+      <option name="presentableId" value="LOCAL-00271" />
+      <option name="project" value="LOCAL" />
+      <updated>1621438182658</updated>
+    </task>
+    <option name="localTasksCounter" value="272" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +587,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Noticias&#10;-Imagens" />
     <MESSAGE value="Guilherme- Adicionar Perfil" />
     <MESSAGE value="Guilherme- jogos resize" />
     <MESSAGE value="Guilherme- random bullshit" />
@@ -618,6 +611,7 @@
     <MESSAGE value="Guilherme- Registar" />
     <MESSAGE value="Guilherme- Update userState e userType" />
     <MESSAGE value="Guilherme- Filtragem por tags workings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Filtragem por tags workings" />
+    <MESSAGE value="Guilherme- Eliminar produto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Eliminar produto" />
   </component>
 </project>
