@@ -36,7 +36,7 @@ $result=mysqli_query($con,$sql);
     <div style="text-align: center">
     <input type="text" placeholder="Procura o jogo que desejas..." id="search" style="width: 30%;">
     </div>
-    <div id="tableContent" >
+    <div id="tableContent">
 
     </div>
 

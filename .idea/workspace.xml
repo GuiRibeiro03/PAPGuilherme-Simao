@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Login/Registar/CSS">
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillComentarios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,14 +231,7 @@
       <workItem from="1621330342125" duration="10055000" />
       <workItem from="1621412366454" duration="12140000" />
       <workItem from="1621498578554" duration="6587000" />
-      <workItem from="1621601136546" duration="4372000" />
-    </task>
-    <task id="LOCAL-00228" summary="Guilherme- Reviews&#10;-Endereço de imagem fixed&#10;-Reviews pagina fixed">
-      <created>1619011377850</created>
-      <option name="number" value="00228" />
-      <option name="presentableId" value="LOCAL-00228" />
-      <option name="project" value="LOCAL" />
-      <updated>1619011377859</updated>
+      <workItem from="1621601136546" duration="7233000" />
     </task>
     <task id="LOCAL-00229" summary="Guilherme- Reviews&#10;-Comentários e Resultados Div Tamanho">
       <created>1619013017796</created>
@@ -575,7 +569,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621607344039</updated>
     </task>
-    <option name="localTasksCounter" value="277" />
+    <task id="LOCAL-00277" summary="Guilherme-Login/Registar/CSS">
+      <created>1621608911958</created>
+      <option name="number" value="00277" />
+      <option name="presentableId" value="LOCAL-00277" />
+      <option name="project" value="LOCAL" />
+      <updated>1621608911958</updated>
+    </task>
+    <option name="localTasksCounter" value="278" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

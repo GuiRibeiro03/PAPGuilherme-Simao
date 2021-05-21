@@ -103,6 +103,20 @@ function fillJogosFrontoffice(txt = ''){
         }
     });
 }
+
+function fillComentarios(id){
+    $.ajax({
+        url:"AJAX/AJAXFillComentarios.php",
+        type:"post",
+        data:{
+            id:id
+        },
+        success:function (result){
+            $('#comentarios').html(result)
+        }
+    })
+}
+
 //******************************************EliminaFunções****************************************
 
 
