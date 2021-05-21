@@ -58,7 +58,7 @@ h6 {
 	color: #111111;
 	font-weight: 500;
 	 color: white;
-
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 h1 {
@@ -97,11 +97,14 @@ h7 {
 a{
 	color: #FFFFFF;
 	font-family: 'Lato',sans-serif;
+
 }
 
 #ta{
 	border: 0;
 }
+
+
 
 
 p {

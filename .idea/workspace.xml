@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Login/Registar/Users">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaTagsJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaTagsJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,14 +229,8 @@
       <workItem from="1621324708920" duration="4096000" />
       <workItem from="1621330342125" duration="10055000" />
       <workItem from="1621412366454" duration="12140000" />
-      <workItem from="1621498578554" duration="6557000" />
-    </task>
-    <task id="LOCAL-00226" summary="Guilherme- ListaJogo">
-      <created>1618955280435</created>
-      <option name="number" value="00226" />
-      <option name="presentableId" value="LOCAL-00226" />
-      <option name="project" value="LOCAL" />
-      <updated>1618955280437</updated>
+      <workItem from="1621498578554" duration="6587000" />
+      <workItem from="1621601136546" duration="2718000" />
     </task>
     <task id="LOCAL-00227" summary="Guilherme- ListaJogo">
       <created>1618999747387</created>
@@ -573,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621505540326</updated>
     </task>
-    <option name="localTasksCounter" value="275" />
+    <task id="LOCAL-00275" summary="Guilherme-Login/Registar/Users">
+      <created>1621524433996</created>
+      <option name="number" value="00275" />
+      <option name="presentableId" value="LOCAL-00275" />
+      <option name="project" value="LOCAL" />
+      <updated>1621524433996</updated>
+    </task>
+    <option name="localTasksCounter" value="276" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

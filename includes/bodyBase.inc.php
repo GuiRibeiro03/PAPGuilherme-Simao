@@ -392,16 +392,16 @@ function top($menu=HOME){
                 <!-- <div class="nav-search search-switch">
                      <i class="fa fa-search"></i>
                  </div> -->
-                <div class="nav-menu" style="font-size: 20px; color: #fff; margin-top: 15px ">
+                <div class="nav-menu" style="font-size: 20px; color: #fff; margin-top: 15px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; ">
                     <ul>
                         <li><a href="./index.php"><span ><strong>Home</strong></span></a></li>
                         <li><a href="#"><span style="font-size: 20px; color: #fff; "><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
                             <div class="dropdown">
-                                <ul>
-                                    <li><a href="consolas.php">Consolas</a></li>
-                                    <li><a href="jogos.php">Jogos</a></li>
-                                    <li><a href="acessorios.php">Acessórios</a></li>
-                                    <li><a href="outlet.php">Outlet</a></li>
+                                <ul >
+                                    <li ><a href="consolas.php" >Consolas</a></li>
+                                    <li><a href="jogos.php" >Jogos</a></li>
+                                    <li><a href="acessorios.php" >Acessórios</a></li>
+                                    <li><a href="outlet.php" >Outlet</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -486,26 +486,32 @@ function bottom(){
 
     <div id="id02" class="modal">
 
+
         <form class="modal-content animate" action="Adiciona/AdicionaUser.php" method="post">
             <div class="imgcontainer">
+                <img src="img/Game.png">
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             </div>
             <div class="container">
 
-                <label id="userName"><b>Nome de Utilizador</b></label>
-                <input type="text" placeholder="Enter Username" name="userName" required>
+                <div class="form-floating mb-3">
+                <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
+                <input type="text" class="form-control" id="floatingInput" name="userName"  required>
+                </div>
 
-                <label id="password"><b>Palavra-passe</b></label>
-                <input type="password" placeholder="Enter Password" name="password" required>
+                <div class="form-floating mb-3">
+                <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
+                <input type="password" class="form-control" id="floatingInput"       name="password" required>
+                </div>
+
 
                 <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button>
                 <hr>
 
             </div>
 
-            <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancelar</button>
-                <span class="password">Forgot <a href="#" style="color: #00aff1">password?</a></span>
+            <div class="container" style="background-color:#f1f1f1; color: #0d0d0d">
+                <span class="password">Esqueci-me da <a href="#" style="color: #00aff1">palavra-passe?</a></span>
             </div>
         </form>
     </div>
@@ -528,9 +534,9 @@ function bottom(){
 
     <!--*********** Modal Login-Inicio ************** -->
 
-    <div id="id01" class="modal">
+    <div id="id01" class="modal" style="width: 100%;">
 
-        <form class="modal-content animate" action="confirmaLogin.php" method="post">
+        <form class="modal-content animate" action="confirmaLogin.php" method="post" style="width: 50%; height: 50%">
             <div class="imgcontainer">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
                 <img src="img/Game.png">

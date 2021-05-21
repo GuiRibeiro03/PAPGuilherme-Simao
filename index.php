@@ -19,7 +19,7 @@ $result4=mysqli_query($con,$sql3);
 
 
     <!-- Update News Section Begin -->
-    <section class="update-news-section">
+    <section class="update-news-section" style="margin-bottom: 20px">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -113,7 +113,7 @@ $i = $i + 1;
         </div>
     </section>
 
-    <section class="instagram-post-section spad">
+    <section class="instagram-post-section spad" style="width: 100%">
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-md-7">
@@ -136,8 +136,8 @@ $i = $i + 1;
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="bp-text">
-                                        <h6><strong><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></strong></h6>
+                                    <div class="bp-text" style="width: 100%">
+                                        <h5><strong><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></strong></h5>
                                     </div>
                                 </div>
 
@@ -169,8 +169,8 @@ $i = $i + 1;
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="bp-text">
-                                        <h6 style="font-size: 22px"><strong><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></strong></h6>
+                                    <div class="bp-text" style="width: 100%">
+                                        <h5 style="font-size: 22px"><strong><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></strong></h5>
                                     </div>
                                 </div>
                                 <?php
@@ -199,7 +199,7 @@ $i = $i + 1;
                                 <a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"> <div class="lp-pic set-bg" data-setbg="<?php echo $dadosNoticias2["reviewImagemURL"] ?>" style="border-radius: 10px">
                                 </div></a>
                                 <div class="lp-text">
-                                    <h6><a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"><?php echo $dadosNoticias2['jogoNome']?></a></h6>
+                                    <h5><a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"><?php echo $dadosNoticias2['jogoNome']?></a></h5>
                         </div>
                             </div>
                         </div>
