@@ -45,10 +45,16 @@ $result4=mysqli_query($con,$sql3);
                                                 <div class="ub-text" >
                                                     <div class="label"><span>Notícias</span></div>
                                                     <h4 style=" color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="ListaBlog.php?id=<?php echo $dadosNoticias["noticiaId"] ?>"><?php echo $dadosNoticias["noticiaTitulo"]?></a></h4>
-                                                    <ul>
-                                                        <li>by <span>Admin</span></li>
-                                                        <li><i class="fa fa-clock-o"></i> <?php echo $dadosNoticias["noticiaData"]?></li>
-                                                        <li><i class="fa fa-comment-o"></i> 20</li>
+                                                    <ul >
+                                                        <li style="color:#FFF; font-size: 13px">by <span>Admin</span></li>
+                                                        <li style="color:#FFF; font-size: 13px"><i class="fa fa-clock-o"></i> <?php echo $dadosNoticias["noticiaData"]?></li>
+                                                        <li style="color:#FFF; font-size: 13px"><i class="fa fa-comment"></i>
+                                                            <?php
+                                                            $sql2="select count(comentarioId) as num1 from comentarios where comentarioEntidadeId=".$dadosNoticias['noticiaId'];
+                                                            $result=mysqli_query($con,$sql2);
+                                                            $dadosNoticias=mysqli_fetch_array($result);
+
+                                                            echo $dadosNoticias["num1"] ?> </li>
                                                     </ul>
                                                 </div>
                                             </div>

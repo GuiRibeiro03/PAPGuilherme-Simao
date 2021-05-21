@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Login/Registar/Users">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Login/Registar/CSS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logout.php" beforeDir="false" afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,14 +230,7 @@
       <workItem from="1621330342125" duration="10055000" />
       <workItem from="1621412366454" duration="12140000" />
       <workItem from="1621498578554" duration="6587000" />
-      <workItem from="1621601136546" duration="2718000" />
-    </task>
-    <task id="LOCAL-00227" summary="Guilherme- ListaJogo">
-      <created>1618999747387</created>
-      <option name="number" value="00227" />
-      <option name="presentableId" value="LOCAL-00227" />
-      <option name="project" value="LOCAL" />
-      <updated>1618999747389</updated>
+      <workItem from="1621601136546" duration="4372000" />
     </task>
     <task id="LOCAL-00228" summary="Guilherme- Reviews&#10;-Endereço de imagem fixed&#10;-Reviews pagina fixed">
       <created>1619011377850</created>
@@ -575,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621524433996</updated>
     </task>
-    <option name="localTasksCounter" value="276" />
+    <task id="LOCAL-00276" summary="Guilherme-Login/Registar/CSS">
+      <created>1621607344039</created>
+      <option name="number" value="00276" />
+      <option name="presentableId" value="LOCAL-00276" />
+      <option name="project" value="LOCAL" />
+      <updated>1621607344039</updated>
+    </task>
+    <option name="localTasksCounter" value="277" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -594,7 +594,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- random bullshit" />
     <MESSAGE value="Guilherme- ListaAcessorio.php | ListaConsola.php | ListaOutlet.php | ListaJogo.php" />
     <MESSAGE value="Guilherme- UI lista" />
     <MESSAGE value="Adiciona Carrinho" />
@@ -619,6 +618,7 @@
     <MESSAGE value="Guilherme- Eliminar produto" />
     <MESSAGE value="Guilherme" />
     <MESSAGE value="Guilherme-Login/Registar/Users" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Login/Registar/Users" />
+    <MESSAGE value="Guilherme-Login/Registar/CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Login/Registar/CSS" />
   </component>
 </project>

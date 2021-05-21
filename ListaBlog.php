@@ -34,9 +34,62 @@ $result2=mysqli_query($con,$sql2);
     </section>
     <!-- Details Hero Section End -->
 
+
+    <!--Mais noticias -->
+    <div class="" style="float: right; margin-top: 20px">
+    <div class="sidebar-option">
+
+        <div class="hardware-guides">
+            <div class="section-title">
+                <h5>Mais noticias</h5>
+            </div>
+            <?php
+            while($dados2=mysqli_fetch_array($result2)){
+                ?>
+                <div class="trending-item">
+                    <div class="ti-pic">
+                        <a href="ListaBlog.php?id=<?php echo $dados2["noticiaId"]?>"><img src="img/<?php echo $dados2["noticiaImagemFundoURL"]?>" style="height: 140px; width: 180px" alt=""></a>
+                    </div>
+                    <div class="ti-text" style="width: 40%">
+                        <h6><a href="ListaBlog.php?id=<?php echo $dados2["noticiaId"]?>"><?php echo $dados2["noticiaTitulo"]?></a>
+                        </h6>
+                        <ul>
+                            <li><i class="fa fa-clock-o"></i><?php echo $dados2["noticiaData"]?></li>
+                        </ul>
+                    </div>
+                </div>
+                <?php
+            }
+            ?>
+            <div class="hardware-guides">
+                <div class="section-title">
+                    <h5>Contacte um administrador</h5>
+                </div>
+                <div class="trending-item">
+                    <div class="ti-text">
+                        <ul>
+                            <li><i class="fa fa-envelope"></i>simaobercial80@gmail.com <br>
+                                <i class="fa fa-phone"></i>914064958</li>
+                        </ul>
+                        <br>
+                        <ul>
+                            <li><i class="fa fa-envelope"></i>guilhas.ribeiro23@yahoo.com <br>
+                                <i class="fa fa-phone"></i>227tiratirametemete</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
     <!-- Details Post Section Begin -->
-    <section class="details-post-section spad" style="width: 100%" >
-        <div class="container">
+    <section class="details-post-section spad" style="width: 100%">
+        <div class="container" style="width: 100%;">
             <div class="row">
                 <div class="col-lg-8 p-0">
                     <div class="details-text">
@@ -45,7 +98,7 @@ $result2=mysqli_query($con,$sql2);
                         </div>
 
                         <div class="dt-last-desc">
-                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="">
+                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="" style="height: 60%; width: 50%;">
                         </div>
                         <div class="dt-tags">
                             <a href="blog.php"><span><?php ?></span></a>
@@ -67,10 +120,9 @@ $result2=mysqli_query($con,$sql2);
 
                             <div class="dt-quote" style="width: 100%">
                                 <div style="color: white;">
-                                    <span><b><?php echo $dadosComents["perfilNome"]?></b></span>
+                                    <span><b><img src="<?php echo $dadosComents['perfilAvatarURL'];?>" style="border-radius: 50%; width: 50px; height: 50px"> &nbsp; <?php echo $dadosComents["perfilNome"]?></b></span>
                                     <span style="float: right"><b><?php echo $dadosComents["comentarioData"]?></b></span>
                                 </div>
-                                <hr>
                                 <br>
                                 <p><?php echo $dadosComents["comentarioTexto"]?></p>
 
@@ -116,53 +168,9 @@ $result2=mysqli_query($con,$sql2);
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-7">
-                    <div class="sidebar-option">
 
-                        <div class="hardware-guides">
-                            <div class="section-title">
-                                <h5>Mais noticias</h5>
-                            </div>
-                            <?php
-                            while($dados2=mysqli_fetch_array($result2)){
-                            ?>
-                            <div class="trending-item">
-                                <div class="ti-pic">
-                                    <a href="ListaBlog.php?id=<?php echo $dados2["noticiaId"]?>"><img src="img/<?php echo $dados2["noticiaImagemFundoURL"]?>" style="height: 140px; width: 180px" alt=""></a>
-                                </div>
-                                <div class="ti-text">
-                                    <h6><a href="ListaBlog.php?id=<?php echo $dados2["noticiaId"]?>"><?php echo $dados2["noticiaTitulo"]?></a>
-                                    </h6>
-                                    <ul>
-                                        <li><i class="fa fa-clock-o"></i><?php echo $dados2["noticiaData"]?></li>
-                                    </ul>
-                                </div>
-                            </div>
-                           <?php
-                            }
-                           ?>
-                        <div class="hardware-guides">
-                            <div class="section-title">
-                                <h5>Contacte um administrador</h5>
-                            </div>
-                            <div class="trending-item">
-                                <div class="ti-text">
-                                    <ul>
-                                        <li><i class="fa fa-envelope"></i>simaobercial80@gmail.com <br>
-                                            <i class="fa fa-phone"></i>914064958</li>
-                                    </ul>
-                                    <br>
-                                    <ul>
-                                        <li><i class="fa fa-envelope"></i>guilhas.ribeiro23@yahoo.com <br>
-                                            <i class="fa fa-phone"></i>227tiratirametemete</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
+
     </section>
     <!-- Details Post Section End -->
 
