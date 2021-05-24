@@ -20,6 +20,12 @@ if(isset($_GET['message'])) {
     alertinativo("Esta conta foi desativada.");
 }
 
+function alert($msg) {
+    echo "<script type='text/javascript'>alert('$msg');</script>";
+}
+function alertinativo($message) {
+    echo "<script type='text/javascript'>alert('$message');</script>";
+}
 
 function top($menu=HOME){
 
