@@ -33,14 +33,15 @@ where jogoEmpresaId != '' ";
    $dadosGeneros=mysqli_fetch_array($result2);
    $dadosPlataformas=mysqli_fetch_array($result4);
 
-    $output='';
+    $output='<button onclick="location.reload()" class="btn btn-primary">Voltar</button>';
 
     if($result->num_rows>0){
 
         while ($dados=$result->fetch_assoc()){
     $output .= '
 
-<button onclick="location.reload()" class="btn btn-primary">Voltar</button>
+
+
         <div class="row-cols-3" style="margin-left: 10%">
            
       
@@ -69,7 +70,8 @@ where jogoEmpresaId != '' ";
             </div>';
         }
         }else{
-        $output="<h3>Não foi possível econtrar um Jogo";
+        $output='<button onclick="location.reload()" class="btn btn-primary">Voltar</button>
+                <h3>Não foi possível econtrar um Jogo';
     }
 echo $output;
 

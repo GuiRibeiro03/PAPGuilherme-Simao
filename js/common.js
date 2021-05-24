@@ -190,14 +190,13 @@ function countClicks2() {
 
 //***********************************Adicionar ao Carrinho******************************
 function adicionaCarrinho(id){
-
     $.ajax({
         url:"AJAX/AJAXNovoProdutoCarrinho.php",
         type:"post",
         data: {
             id:id
         },
-        success:function(result){
+        success:function(){
             location.reload();
         }
     });
@@ -211,7 +210,7 @@ function adicionaCarrinhoJogo(id){
         data: {
             id:id,
         },
-        success:function(result){
+        success:function(){
             location.reload();
         }
     });
@@ -222,8 +221,7 @@ function confirmaEliminaCarrinho() {
     $.ajax({
         url:"AJAX/AJAXGetNameProduto.php",
         type:"post",
-        success:function (result){
-
+        success:function (){
             if(confirm('Confirma que deseja eliminar todos os produtos do carrinho ?'))
                 window.location="AJAX/AJAXRemoverProdutoCarrinho.php";
         }
