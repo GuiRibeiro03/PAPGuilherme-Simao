@@ -36,6 +36,11 @@ while ($dados=mysqli_fetch_array($result)){
 
 
 <?php
+
+$con=mysqli_connect("localhost","root","","pap2021gameon");
+$sql2="select * from perfis inner join users on perfilUserId=userId where perfilId=".$_GET["id"];
+$result2=mysqli_query($con, $sql2);
+$dados=mysqli_fetch_array($result2);
 if($dados['userType']=='admin'){
 ?>
         <div  style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">

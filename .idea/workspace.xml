@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Check Admin para entrar no Backoffice" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Check Admin para entrar no Backoffice">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acessorios.php" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,14 +232,7 @@
       <workItem from="1621412366454" duration="12140000" />
       <workItem from="1621498578554" duration="6587000" />
       <workItem from="1621601136546" duration="7264000" />
-      <workItem from="1621843093192" duration="4487000" />
-    </task>
-    <task id="LOCAL-00231" summary="Guilherme- Adicionar Perfil">
-      <created>1619018858709</created>
-      <option name="number" value="00231" />
-      <option name="presentableId" value="LOCAL-00231" />
-      <option name="project" value="LOCAL" />
-      <updated>1619018858709</updated>
+      <workItem from="1621843093192" duration="8449000" />
     </task>
     <task id="LOCAL-00232" summary="Guilherme- jogos resize">
       <created>1619099729197</created>
@@ -571,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621850662602</updated>
     </task>
-    <option name="localTasksCounter" value="280" />
+    <task id="LOCAL-00280" summary="Guilherme-Check Admin para entrar no Backoffice">
+      <created>1621850748844</created>
+      <option name="number" value="00280" />
+      <option name="presentableId" value="LOCAL-00280" />
+      <option name="project" value="LOCAL" />
+      <updated>1621850748844</updated>
+    </task>
+    <option name="localTasksCounter" value="281" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

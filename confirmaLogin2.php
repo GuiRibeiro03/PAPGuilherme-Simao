@@ -2,7 +2,7 @@
 
 $id=intval($_POST['utilizador']);
 $nome=addslashes($_POST['userName']);
-$pwd=addslashes($_POST['userPassword']);
+$pwd=addslashes($_POST['password']);
 
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from users where userId=".$id;
@@ -14,12 +14,6 @@ if($nome===$dados['userName'] and $pwd===$dados['userPassword'] and $dados["user
     session_start();
     $_SESSION['id']=$dados['userId'];
     $_SESSION['nome']=$dados['userName'];
-}/*elseif($nome===$dados['userNome'] and $pwd===$dados['userPassword'] and $dados["userType"] == "inativo"){
-    $verificacao='sim';
-    header("location: login.php?message");
-}*/
-
-
-
-header("location: ".$_SERVER['HTTP_REFERER']);
+    header("location: ".$_SERVER['HTTP_REFERER']);
+}
 ?>

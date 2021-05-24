@@ -530,7 +530,35 @@ function bottom(){
     </script>
     <!--*********** Modal Registar-FIM ************** -->
 
+    <div id="id02" class="modal">
 
+
+        <form class="modal-content animate" action="../confirmaLogin2.php" method="post">
+            <div class="imgcontainer">
+                <img src="img/Game.png">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+            <div class="container">
+
+                <div class="form-floating mb-3">
+                    <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
+                    <input type="text" class="form-control" id="floatingInput" name="userName"  required>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
+                    <input type="password" class="form-control" id="floatingInput"       name="password" required>
+                </div>
+                <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Login</strong></button>
+                <hr>
+
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1; color: #0d0d0d">
+                <span class="password">Esqueci-me da <a href="#" style="color: #00aff1">palavra-passe?</a></span>
+            </div>
+        </form>
+    </div>
 
 
     <!--*********** Modal Login-Inicio ************** -->
@@ -561,37 +589,7 @@ function bottom(){
                 </select>
                 <input type="submit" class="btn btn-danger" value="Entrar">
 
-
-                <!--<div class="container" style="text-align: center; ">
-                    <p><label class="badge badge-dark">Username:</label>
-                    <input type="text" name="user" style="width: 50%" placeholder="username.." required></p>
-                   <p> <label class="badge badge-dark" >Password:</label>
-                    <input type="password" name="password" style="width: 50%" placeholder="password.." required ></p>-->
-                    <?php
-                    /*$con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
-                    $sql="select userName,userPassword from users";
-                    $res=mysqli_query($con,$sql);
-                    $dados=mysqli_fetch_array($res);
-                    if(isset($_POST['submit'])){
-
-                        $un=$_POST['user'];
-                        $pwd=$_POST['password'];
-
-                        if ($un== $dados['userName'] && $pwd==$dados['userPassword'] ){
-                            header("location:".$_SESSION['HTTP_REFERRER']);
-                            exit();
-                        }else{
-                            echo "<span style='color: red'>Invalid Username or Password</span>";
-                        }
-                    }
-                        */
-                    ?>
-                    <!--<input type="submit" value="Entrar" name="submit" id="sub" class="btn btn-primary">
-                </div>-->
-
-
-
-                  <hr>
+                                  <hr>
             </div>
 
             <div class="container" style="background-color:#f1f1f1; color: #0b0b0b">
