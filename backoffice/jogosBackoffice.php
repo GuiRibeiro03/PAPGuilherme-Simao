@@ -5,6 +5,13 @@ top(GAMES);
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId order by jogoId asc  ";
 $result=mysqli_query($con, $sql);
+
+
+$sql2="select * from users where userId=".$_SESSION['id'];
+$res2=mysqli_query($con,$sql2);
+$dados=mysqli_fetch_array($res2);
+if($dados['userType']=='admin'){
+
 ?>
 
 
@@ -36,6 +43,8 @@ $result=mysqli_query($con, $sql);
 </div>
 
 <?php
+}else
+    header("location: index.php");
 bottom();
 ?>
 

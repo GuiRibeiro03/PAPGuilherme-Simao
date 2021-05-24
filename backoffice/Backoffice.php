@@ -2,6 +2,11 @@
 include_once("../includes/body.inc.php");
 top();
 
+$sql="select * from users where userId=".$_SESSION['id'];
+$res=mysqli_query($con,$sql);
+$dados=mysqli_fetch_array($res);
+if($dados['userType']=='admin'){
+
 ?>
 
 <section class="store" style="background-color: #0b0b0b" >
@@ -20,6 +25,8 @@ top();
     </div>
 </section>
 <?php
+}else
+    header("location: index.php");
 bottom();
 ?>
 

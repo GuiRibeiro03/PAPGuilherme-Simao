@@ -236,7 +236,7 @@ function top($menu=HOME){
                         <div class="ht-widget">
                             <div class="button-dropdown" style="margin-bottom:10%">
                                 <div id="mySidenav" class="sidenav" style="color: #0b0b0b!important; margin-left: 3px">
-                                    <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
+                                    <div style="width: 100%; text-align: center"><h3 style="color: #0d0d0d; font-family: 'Lato',sans-serif;">Carrinho:</h3></div>
                                     <hr>
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
@@ -335,7 +335,8 @@ function top($menu=HOME){
                                         $k=0;
                                         ?>
 
-                                        <div class="row"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
+                                        <div class="row" style="text-align: center"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block', closeNav();">
+                                                <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
 
                                         <?php
                                     }

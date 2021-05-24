@@ -5,6 +5,15 @@ top(PRODUCT);
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from produtos";
 $result=mysqli_query($con, $sql);
+
+
+$sql2="select * from users where userId=".$_SESSION['id'];
+$res2=mysqli_query($con,$sql2);
+$dados=mysqli_fetch_array($res2);
+if($dados['userType']=='admin'){
+
+?>
+
 ?>
 
 <a href="Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
@@ -30,6 +39,9 @@ $result=mysqli_query($con, $sql);
 </div>
 
 <?php
+}else
+    header("location: index.php");
+
 bottom();
 ?>
 

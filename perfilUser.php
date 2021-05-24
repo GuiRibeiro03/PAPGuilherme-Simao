@@ -63,10 +63,12 @@ if($dados['userType']=='admin'){
     ?>
 
         <?php
-        if($dados['userState']!='ativo'){
+        if($dados['userState']=='inativo'){
 
-            echo "<label class='l'></label>";
+            echo "<badge class='badge badge-danger'>User Inativo</badge>";
 
+        }elseif ($dados['userState']=='pendente'){
+            echo "<badge class='badge badge-warning'>User Pendente </badge>";
         }
 
         ?>

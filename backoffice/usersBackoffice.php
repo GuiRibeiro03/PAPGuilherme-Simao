@@ -3,6 +3,13 @@ include_once ("../includes/body.inc.php");
 include_once ("../includes/config.inc.php");
 top();
 
+
+$sql2="select * from users where userId=".$_SESSION['id'];
+$res2=mysqli_query($con,$sql2);
+$dados=mysqli_fetch_array($res2);
+if($dados['userType']=='admin'){
+
+
 ?>
 <table class="table" style="color: #FFFFFF; font-weight: bold; font-size: 20px; text-align: center">
     <tr>
@@ -108,5 +115,10 @@ top();
 
 
 <?php
+}else{
+    header("location: index.php");
+}
+
+
 bottom();
 ?>
