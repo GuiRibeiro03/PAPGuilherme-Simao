@@ -1,4 +1,5 @@
 <?php
+include_once ("includes/config.inc.php");
 
 $id=intval($_POST['utilizador']);
 $nome=addslashes($_POST['userName']);

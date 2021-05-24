@@ -530,10 +530,10 @@ function bottom(){
     </script>
     <!--*********** Modal Registar-FIM ************** -->
 
-    <div id="id02" class="modal">
+    <div id="id01" class="modal">
 
 
-        <form class="modal-content animate" action="../confirmaLogin2.php" method="post">
+        <form class="modal-content animate" action="confirmaLogin2.php" method="post">
             <div class="imgcontainer">
                 <img src="img/Game.png">
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -563,7 +563,7 @@ function bottom(){
 
     <!--*********** Modal Login-Inicio ************** -->
 
-    <div id="id01" class="modal" style="width: 100%;">
+    <!--<div id="id01" class="modal" style="width: 100%;">
 
         <form class="modal-content animate" action="confirmaLogin.php" method="post" style="width: 50%; height: 50%">
             <div class="imgcontainer">
@@ -571,7 +571,7 @@ function bottom(){
                 <img src="img/Game.png">
             </div>
             <div class="container" style="text-align: center">
-                <!-- Login Select -->
+
                 <select name="utilizador" >
                     <option value="-1">Utilizador...</option>
                     <?php
@@ -596,7 +596,7 @@ function bottom(){
                 <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">&nbsp;<strong>password?</strong></a></span>
             </div>
         </form>
-    </div>
+    </div>-->
 
     <script>
         // Get the modal
