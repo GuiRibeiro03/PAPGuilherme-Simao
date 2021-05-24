@@ -20,7 +20,12 @@ if(isset($_GET['message'])) {
     alertinativo("Esta conta foi desativada.");
 }
 
-
+function alert($msg) {
+    echo "<script type='text/javascript'>alert('$msg');</script>";
+}
+function alertinativo($message) {
+    echo "<script type='text/javascript'>alert('$message');</script>";
+}
 function top($menu=HOME){
 
     ?>
@@ -258,7 +263,7 @@ function top($menu=HOME){
                         <div class="ht-widget">
                             <div class="button-dropdown" style="margin-bottom:10%">
                                 <div id="mySidenav" class="sidenav" style="color: #0b0b0b!important; margin-left: 3px">
-                                    <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
+                                    <div style="width: 100%; text-align: center"><h3 style="color: #0d0d0d; font-family: 'Lato',sans-serif;">Carrinho:</h3></div>
                                     <hr>
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
@@ -414,7 +419,7 @@ function top($menu=HOME){
                 <!-- <div class="nav-search search-switch">
                      <i class="fa fa-search"></i>
                  </div> -->
-                <div class="nav-menu" style="font-size: 20px; color: #fff; margin-top: 15px ">
+                <div class="nav-menu" style="font-size: 20px; color: #fff; margin-top: 15px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; ">
                     <ul>
                         <li><a href="../index.php"><span ><strong>Home</strong></span></a></li>
                         <li><a href="#"><span style="font-size: 20px; color: #fff; "><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
@@ -521,9 +526,8 @@ function bottom(){
                 <label id="password"><b>Palavra-passe</b></label>
                 <input type="password" placeholder="Enter Password" name="password" required>
 
-                <label id="email"><b>Email</b></label>
-                <input type="text" placeholder="Introduza o seu Email" name="email" required>
-
+                <label id="imagem"><b>Imagem de Perfil:</b></label>
+                <input type="image" name="perfilAvatarURL" required>
 
                 <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button>
                 <hr>
@@ -555,70 +559,37 @@ function bottom(){
 
     <!--*********** Modal Login-Inicio ************** -->
 
-    <div id="id01" class="modal">
 
-        <form class="modal-content animate" action="../confirmaLogin.php" method="post">
-            <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="../img/Game.png">
-            </div>
-            <div class="container" style="text-align: center">
-                <!-- Login Select -->
-                <select name="utilizador" >
-                    <option value="-1">Utilizador...</option>
-                    <?php
-                    $con=mysqli_connect("localhost","root","","pap2021gameon");
-                    $sql="select * from users";
-                    $res = mysqli_query($con,$sql);
-                    while ($dados=mysqli_fetch_array($res)){
-                        ?>
-                        <option value="<?php echo $dados['userId'] ?>"><?php echo $dados['userName'] ?></option>
-
-                        <?php
-                    }
-                    ?>
-
-                </select>
-                <input type="submit" class="btn btn-danger" value="Entrar">
+        <div id="id01" class="modal">
 
 
-                <!--<div class="container" style="text-align: center; ">
-                    <p><label class="badge badge-dark">Username:</label>
-                    <input type="text" name="user" style="width: 50%" placeholder="username.." required></p>
-                   <p> <label class="badge badge-dark" >Password:</label>
-                    <input type="password" name="password" style="width: 50%" placeholder="password.." required ></p>-->
-                <?php
-                /*$con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
-                $sql="select userName,userPassword from users";
-                $res=mysqli_query($con,$sql);
-                $dados=mysqli_fetch_array($res);
-                if(isset($_POST['submit'])){
+            <form class="modal-content animate" action="../confirmaLogin2.php" method="post">
+                <div class="imgcontainer">
+                    <img src="../img/Game.png">
+                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                </div>
+                <div class="container">
 
-                    $un=$_POST['user'];
-                    $pwd=$_POST['password'];
+                    <div class="form-floating mb-3">
+                        <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
+                        <input type="text" class="form-control" id="floatingInput" name="nome"  required>
+                    </div>
 
-                    if ($un== $dados['userName'] && $pwd==$dados['userPassword'] ){
-                        header("location:".$_SESSION['HTTP_REFERRER']);
-                        exit();
-                    }else{
-                        echo "<span style='color: red'>Invalid Username or Password</span>";
-                    }
-                }
-                    */
-                ?>
-                <!--<input type="submit" value="Entrar" name="submit" id="sub" class="btn btn-primary">
-            </div>-->
+                    <div class="form-floating mb-3">
+                        <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
+                        <input type="password" class="form-control" id="floatingInput"   name="password" required>
+                    </div>
+                    <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Login</strong></button>
+                    <hr>
 
+                </div>
 
+                <div class="container" style="background-color:#f1f1f1; color: #0d0d0d">
+                    <span class="password">Esqueci-me da <a href="#" style="color: #00aff1">palavra-passe?</a></span>
+                </div>
+            </form>
+        </div>
 
-                <hr>
-            </div>
-
-            <div class="container" style="background-color:#f1f1f1; color: #0b0b0b">
-                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">&nbsp;<strong>password?</strong></a></span>
-            </div>
-        </form>
-    </div>
 
     <script>
         // Get the modal

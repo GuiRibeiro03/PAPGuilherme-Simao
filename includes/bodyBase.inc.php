@@ -494,7 +494,7 @@ function bottom(){
     <div id="id02" class="modal">
 
 
-        <form class="modal-content animate" action="Adiciona/AdicionaUser.php" method="post">
+        <form class="modal-content animate" action="confirmaRegistar.php" method="post">
             <div class="imgcontainer">
                 <img src="img/Game.png">
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -508,7 +508,13 @@ function bottom(){
 
                 <div class="form-floating mb-3">
                 <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
-                <input type="password" class="form-control" id="floatingInput"       name="password" required>
+                <input type="password" class="form-control" id="floatingInput"  name="password" required>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <label id="imagem"><b>Imagem de Perfil:</b></label>
+                    <input type="file" accept="image/*" name="perfilÃvatarURL" onchange="preview_image(event)" style="color: darkgray">
+                    <img id="output_image"/><hr>
                 </div>
 
 
