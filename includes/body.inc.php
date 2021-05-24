@@ -514,29 +514,38 @@ function bottom(){
 
     <div id="id02" class="modal">
 
-        <form class="modal-content animate" action="../Adiciona/AdicionaUser.php" method="post">
+
+        <form class="modal-content animate" action="confirmaRegistar.php" method="post">
             <div class="imgcontainer">
+                <img src="../img/Game.png">
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             </div>
             <div class="container">
 
-                <label id="userName"><b>Nome de Utilizador</b></label>
-                <input type="text" placeholder="Enter Username" name="userName" required>
+                <div class="form-floating mb-3">
+                    <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
+                    <input type="text" class="form-control" id="floatingInput" name="userName"  required>
+                </div>
 
-                <label id="password"><b>Palavra-passe</b></label>
-                <input type="password" placeholder="Enter Password" name="password" required>
+                <div class="form-floating mb-3">
+                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
+                    <input type="password" class="form-control" id="floatingInput"  name="password" required>
+                </div>
 
-                <label id="imagem"><b>Imagem de Perfil:</b></label>
-                <input type="image" name="perfilAvatarURL" required>
+                <div class="form-floating mb-3">
+                    <label id="imagem"><b>Imagem de Perfil:</b></label>
+                    <input type="file" accept="image/*" name="perfilAvatarURL" onchange="preview_image(event)" style="color: darkgray">
+                    <img id="output_image" style="height: 20%; width: 40%;"><hr>
+                </div>
+
 
                 <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button>
                 <hr>
 
             </div>
 
-            <div class="container" style="background-color:#f1f1f1">
-                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancelar</button>
-                <span class="password">Forgot <a href="#" style="color: #00aff1">password?</a></span>
+            <div class="container" style="background-color:#f1f1f1; color: #0d0d0d">
+                <span class="password">Esqueci-me da <a href="#" style="color: #00aff1">palavra-passe?</a></span>
             </div>
         </form>
     </div>

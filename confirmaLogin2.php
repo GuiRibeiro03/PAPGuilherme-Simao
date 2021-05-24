@@ -17,7 +17,7 @@ while ($dados=mysqli_fetch_array($res)){
         $verificacao='sim';
         header("location: ".$_SERVER['HTTP_REFERER']);
     }elseif(!isset($_SESSION['id']) AND !isset($verificacao)){
-        header("location: login.php?msg");
+        header("location: bodyBase.inc.php?msg");
     }
 
 

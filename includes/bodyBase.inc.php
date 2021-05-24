@@ -513,8 +513,8 @@ function bottom(){
 
                 <div class="form-floating mb-3">
                     <label id="imagem"><b>Imagem de Perfil:</b></label>
-                    <input type="file" accept="image/*" name="perfilÃvatarURL" onchange="preview_image(event)" style="color: darkgray">
-                    <img id="output_image"/><hr>
+                    <input type="file" accept="image/*" name="perfilAvatarURL" onchange="preview_image(event)" style="color: darkgray">
+                    <img id="output_image" style="height: 20%; width: 40%;"><hr>
                 </div>
 
 
@@ -573,56 +573,6 @@ function bottom(){
     </div>
 
 
-    <!--*********** Modal Login-Inicio ************** -->
-
-    <!--<div id="id01" class="modal" style="width: 100%;">
-
-        <form class="modal-content animate" action="confirmaLogin.php" method="post" style="width: 50%; height: 50%">
-            <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                <img src="img/Game.png">
-            </div>
-            <div class="container" style="text-align: center">
-
-                <select name="utilizador" >
-                    <option value="-1">Utilizador...</option>
-                    <?php
-                    $con=mysqli_connect("localhost","root","","pap2021gameon");
-                    $sql="select * from users ";
-                    $res = mysqli_query($con,$sql);
-                    while ($dados=mysqli_fetch_array($res)){
-                        ?>
-                        <option value="<?php echo $dados['userId'] ?>"><?php echo $dados['userName'] ?></option>
-
-                        <?php
-                    }
-                    ?>
-
-                </select>
-                <input type="submit" class="btn btn-danger" value="Entrar">
-
-                                  <hr>
-            </div>
-
-            <div class="container" style="background-color:#f1f1f1; color: #0b0b0b">
-                <span class="password">Esqueces-te da <a href="#" style="color: #00aff1">&nbsp;<strong>password?</strong></a></span>
-            </div>
-        </form>
-    </div>-->
-
-    <script>
-        // Get the modal
-        var modal = document.getElementById('id01');
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-
-    </script>
-    <!--*********** Modal Login-FIM ************** -->
 
 
 

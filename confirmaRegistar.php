@@ -5,7 +5,7 @@ $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
 
 $userName=addslashes($_POST['userName']);
 $userPass=addslashes($_POST['password']);
-$userAvatar=$_FILES['perfilAvatarURL']['name'];
+$userAvatar=$_FILES["perfilAvatarURL"]["name"];
 $novoNome="img/pessoas/".$userAvatar;
 copy($_FILES['perfilAvatarURL']['tmp_name'],$novoNome);
 
@@ -13,8 +13,8 @@ $sql="insert into users(userId,userName,userPassword) values (0,'".$userName."',
 mysqli_query($con,$sql);
 $lastId=mysqli_insert_id($con);
 
-$sql="insert into perfis(perfilId,perfilNome,perfilAvatarURL,perfilUserId) values (0,'".$userName."','".$novoNome."','".$lastId."')";
-mysqli_query($con,$sql);
+$sql2="insert into perfis(perfilId,perfilNome,perfilAvatarURL,perfilUserId) values (0,'".$userName."','".$novoNome."','".$lastId."')";
+mysqli_query($con,$sql2);
 
 session_start();
 $_SESSION['id']=$lastId;

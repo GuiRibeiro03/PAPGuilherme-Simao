@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme - Login">
-      <change afterPath="$PROJECT_DIR$/confirmaRegistar.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme - Registar USER">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaRegistar.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaRegistar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
@@ -237,13 +236,6 @@
       <workItem from="1621498578554" duration="6587000" />
       <workItem from="1621601136546" duration="7264000" />
       <workItem from="1621843093192" duration="9232000" />
-    </task>
-    <task id="LOCAL-00237" summary="Guilherme- UI lista">
-      <created>1619435336104</created>
-      <option name="number" value="00237" />
-      <option name="presentableId" value="LOCAL-00237" />
-      <option name="project" value="LOCAL" />
-      <updated>1619435336104</updated>
     </task>
     <task id="LOCAL-00238" summary="Adiciona Carrinho">
       <created>1619436019945</created>
@@ -581,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621893060085</updated>
     </task>
-    <option name="localTasksCounter" value="286" />
+    <task id="LOCAL-00286" summary="Guilherme - Registar USER">
+      <created>1621897845651</created>
+      <option name="number" value="00286" />
+      <option name="presentableId" value="LOCAL-00286" />
+      <option name="project" value="LOCAL" />
+      <updated>1621897845651</updated>
+    </task>
+    <option name="localTasksCounter" value="287" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +599,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adiciona Carrinho / Elimina Carrinho" />
     <MESSAGE value="Guilherme Checkout" />
     <MESSAGE value="Guilherme- Carrinho n ta funcionar n sei pk" />
     <MESSAGE value="Guilherme- UI fixes" />
@@ -625,6 +623,7 @@
     <MESSAGE value="Guilherme- Login" />
     <MESSAGE value="Guilherme - Action/Botão" />
     <MESSAGE value="Guilherme - Login" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme - Login" />
+    <MESSAGE value="Guilherme - Registar USER" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme - Registar USER" />
   </component>
 </project>
