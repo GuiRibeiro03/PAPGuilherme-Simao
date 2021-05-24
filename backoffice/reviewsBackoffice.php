@@ -10,7 +10,7 @@ $result=mysqli_query($con, $sql);
 $sql2="select * from users where userId=".$_SESSION['id'];
 $res2=mysqli_query($con,$sql2);
 $dados=mysqli_fetch_array($res2);
-if($dados['userType']=='admin' && $dados['userType']=='editor'){
+if($dados['userType']=='admin' || $dados['userType']=='editor'){
 
 ?>
 

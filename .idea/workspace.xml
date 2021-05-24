@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Login/Registar/CSS">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/Backoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/usersBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/usersBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
-    </list>
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Check Admin para entrar no Backoffice" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,14 +226,7 @@
       <workItem from="1621412366454" duration="12140000" />
       <workItem from="1621498578554" duration="6587000" />
       <workItem from="1621601136546" duration="7264000" />
-      <workItem from="1621843093192" duration="4167000" />
-    </task>
-    <task id="LOCAL-00230" summary="Guilherme- Noticias&#10;-Imagens">
-      <created>1619016427528</created>
-      <option name="number" value="00230" />
-      <option name="presentableId" value="LOCAL-00230" />
-      <option name="project" value="LOCAL" />
-      <updated>1619016427528</updated>
+      <workItem from="1621843093192" duration="4487000" />
     </task>
     <task id="LOCAL-00231" summary="Guilherme- Adicionar Perfil">
       <created>1619018858709</created>
@@ -584,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621612038704</updated>
     </task>
-    <option name="localTasksCounter" value="279" />
+    <task id="LOCAL-00279" summary="Guilherme-Check Admin para entrar no Backoffice">
+      <created>1621850662601</created>
+      <option name="number" value="00279" />
+      <option name="presentableId" value="LOCAL-00279" />
+      <option name="project" value="LOCAL" />
+      <updated>1621850662602</updated>
+    </task>
+    <option name="localTasksCounter" value="280" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,7 +590,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- ListaAcessorio.php | ListaConsola.php | ListaOutlet.php | ListaJogo.php" />
     <MESSAGE value="Guilherme- UI lista" />
     <MESSAGE value="Adiciona Carrinho" />
     <MESSAGE value="Adiciona Carrinho / Elimina Carrinho" />
@@ -628,6 +614,7 @@
     <MESSAGE value="Guilherme" />
     <MESSAGE value="Guilherme-Login/Registar/Users" />
     <MESSAGE value="Guilherme-Login/Registar/CSS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Login/Registar/CSS" />
+    <MESSAGE value="Guilherme-Check Admin para entrar no Backoffice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Check Admin para entrar no Backoffice" />
   </component>
 </project>
