@@ -9,6 +9,7 @@ top();
 
             <div class="container" style="background-color: #e7e7e7; width: 100% ">
                 <span style="color: black; font-size: 45px; font-weight: bold">Carrinho:</span>
+                <button onclick="confirmaEliminaCarrinho()" class="btn btn-warning" style="color: #0b0b0b; float: right ">Remover Todos</button>
                 <hr>
 
                 <?php
@@ -73,7 +74,9 @@ top();
                         $i+=$dados2["jogoPreco"];
                     }?>
 
-                    <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $i ?>&nbsp;€</span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $i ?>&nbsp;€</span>
+
+                        <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
 
                     <?php
                 }else{

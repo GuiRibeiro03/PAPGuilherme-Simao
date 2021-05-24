@@ -542,12 +542,12 @@ function bottom(){
 
                 <div class="form-floating mb-3">
                     <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
-                    <input type="text" class="form-control" id="floatingInput" name="userName"  required>
+                    <input type="text" class="form-control" id="floatingInput" name="nome"  required>
                 </div>
 
                 <div class="form-floating mb-3">
                     <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
-                    <input type="password" class="form-control" id="floatingInput"       name="password" required>
+                    <input type="password" class="form-control" id="floatingInput"   name="password" required>
                 </div>
                 <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Login</strong></button>
                 <hr>

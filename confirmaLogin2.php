@@ -1,20 +1,34 @@
 <?php
 include_once ("includes/config.inc.php");
+$con=mysqli_connect("localhost","root","","pap2021gameon");
+$sql="select * from users inner join perfis on userId = perfilUserId";
+$res=mysqli_query($con, $sql);
 
-$id=intval($_POST['utilizador']);
-$nome=addslashes($_POST['userName']);
+$nome=addslashes($_POST['nome']);
 $pwd=addslashes($_POST['password']);
 
-$con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from users where userId=".$id;
-$res=mysqli_query($con, $sql);
-$dados=mysqli_fetch_array($res);
-session_start();
+while ($dados=mysqli_fetch_array($res)){
+    if ($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'ativo') {
+        session_start();
+        $_SESSION['id'] = $dados['userId'];
+        $_SESSION['nome'] = $dados['userName'];
+        header("location: ".$_SERVER['HTTP_REFERER']);
+    }else if($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'inativo'){
+        $verificacao='sim';
+        header("location: ".$_SERVER['HTTP_REFERER']);
+    }elseif(!isset($_SESSION['id']) AND !isset($verificacao)){
+        header("location:login.php?msg");
+    }
 
-if($nome===$dados['userName'] and $pwd===$dados['userPassword'] and $dados["userType"] == "ativo"){
-    session_start();
-    $_SESSION['id']=$dados['userId'];
-    $_SESSION['nome']=$dados['userName'];
-    header("location: ".$_SERVER['HTTP_REFERER']);
+
 }
+
+
+
 ?>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/custom.js"></script>
