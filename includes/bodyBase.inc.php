@@ -494,7 +494,7 @@ function bottom(){
     <div id="id02" class="modal">
 
 
-        <form class="modal-content animate" action="confirmaRegistar.php" method="post">
+        <form class="modal-content animate" action="confirmaRegistar.php" method="post" enctype="multipart/form-data">
             <div class="imgcontainer">
                 <img src="img/Game.png">
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -514,7 +514,7 @@ function bottom(){
                 <div class="form-floating mb-3">
                     <label id="imagem"><b>Imagem de Perfil:</b></label>
                     <input type="file" accept="image/*" name="perfilAvatarURL" onchange="preview_image(event)" style="color: darkgray">
-                    <img id="output_image" style="height: 20%; width: 40%;"><hr>
+                    <img id="output_image" style="height: 20%; width: 40%;"/><hr>
                 </div>
 
 

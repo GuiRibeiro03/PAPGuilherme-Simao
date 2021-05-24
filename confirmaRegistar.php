@@ -20,7 +20,7 @@ session_start();
 $_SESSION['id']=$lastId;
 $_SESSION['nome']=$userName;
 
-header("location: ".$_SERVER['HTTP_REFERER']);
+header("location: index.php");
 
 
 ?>
