@@ -129,13 +129,9 @@ function top(){
                             if(!isset($_SESSION['id'])){
 
                                 ?>
-                                <ul class="float-right">
+                                <ul class="float-right" style="margin-top: 15px">
                                     <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
-                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span>
-
-                                    </li>
-
-                                    <li>|</li>
+                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span> </li>
 
                                     <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
                             <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
@@ -151,7 +147,7 @@ function top(){
                                 <li style="float: right"><div class="ht-widget"">
                                     <ul class="float-right">
                                         <div class="dropdown">
-                                            </span><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><button class="dropdown-toggle" style="background-color: transparent"><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"><span style="margin-left: 10px"></span></button></a>
+                                            </span><a href="#" ><button class="dropdown-toggle" style="background-color: transparent"><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"></a><span style="margin-left: 10px"></span></button></a>
                                             <div class="dropdown-content" style="background-color: #202020; color: #FFF">
 
                                                 <span><?php echo $dados["perfilNome"]?></span>
@@ -163,8 +159,7 @@ function top(){
                                                 $dados=mysqli_fetch_array($result);
                                                 if($dados["userType"]=="admin"){
                                                     ?>
-                                                    <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Backoffice</button></a></li>
-                                                    <li ><a href="adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
+                                                    <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="fp"> Backoffice</button></a></li>
                                                     <li ><a href="logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                     <?php
                                                 }else{
@@ -185,15 +180,16 @@ function top(){
                     </div>
                 </div>
             </div>
+
             <!--************************************** FIM PERFIL*******************************************-->
 
-            <div style="50%; text-align: left">
+            <div style=" text-align: left">
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="ht-widget">
-                            <div class="button-dropdown" >
+                            <div class="button-dropdown" style="margin-bottom:10%">
                                 <div id="mySidenav" class="sidenav" style="color: #0b0b0b!important; margin-left: 3px">
-                                    <h3 style="color: #0d0d0d; font-family: 'Arial Black'"><strong>Carrinho:</strong></h3>
+                                    <div style="width: 100%; text-align: center"><h3 style="color: #0d0d0d; font-family: 'Lato',sans-serif;">Carrinho:</h3></div>
                                     <hr>
                                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
@@ -203,32 +199,97 @@ function top(){
                                         ?>
 
                                         <?php
-                                        $con=mysqli_connect("localhost","root","","pap2021gameon");
-                                        $sqlprod="select * from produtos where produtoTipo='consola' ";
-                                        $resultprod=mysqli_query($con, $sqlprod);
-                                        $i=0;
+                                        $lista="(0";
+                                        if(isset($_SESSION['carrinho'])){
+                                            foreach ($_SESSION['carrinho'] as $produto){
+                                                $lista.=",".$produto;
+                                            }
+                                            foreach($_SESSION['carrinho'] as $jogo){
+                                                $lista.=",".$jogo;
+                                            }
+                                        }
+                                        $lista.=")";
+
+                                        $sql1="select * from produtos where produtoId in ".$lista;
+                                        $sql2="select * from jogos where jogoId in $lista";
+
+
+                                        $result1=mysqli_query($con,$sql1);
+                                        $result2=mysqli_query($con,$sql2);
+                                        $precoTotal=0;
                                         $k=0;
-                                        while($dadosprod=mysqli_fetch_array($resultprod)){
+                                        while($dados2=mysqli_fetch_array($result1)){
 
                                             ?>
-                                            <div >
-                                                <span style="color: #000000!important; font-size: 20px"> <img src="img/<?php echo $dadosprod["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dadosprod["produtoNome"] ?>: &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dadosprod["produtoPreco"] ?>€</strong> </span>
-                                                    <button style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                            <div style="margin-right: 20px; margin-left: 20px">
+                                                <?php  $k++; ?> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
+                                                <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                                <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                                <hr>
+                                            </div>
+
+
+
+                                            <?php
+                                            $precoTotal+=$dados2["produtoPreco"];
+                                        }?>
+
+
+
+                                        <?php
+                                        $lista="(0";
+                                        if(isset($_SESSION['carrinho'])){
+                                            foreach ($_SESSION['carrinho'] as $jogo){
+                                                $lista.=",".$jogo;
+                                            }
+                                        }
+                                        $lista.=")";
+
+                                        $sql2="select * from jogos where jogoId in $lista";
+
+
+                                        $result2=mysqli_query($con,$sql2);
+
+                                        while($dados3=mysqli_fetch_array($result2)){
+
+                                            ?>
+                                            <div style="margin-right: 20px; margin-left: 20px">
+                                                <?php  $k++; ?> <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
+                                                &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
+                                                <button onclick="confirmaEliminaCarrinhoJogo(<?php echo $dados3["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                                 <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                                                 <hr>
                                             </div>
                                             <?php
-                                            $k++;
-                                            $i+=$dadosprod["produtoPreco"];
+
+                                            $precoTotal+=$dados3["jogoPreco"];
                                         }?>
-                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $i ?>&nbsp;€</span> <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+
+                                        <?php
+                                        if($k!=0){
+                                            ?>
+                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span>
+                                            <div style="float: right">
+                                                <button onclick="confirmaEliminaCarrinho()" class="btn btn-warning" style="color: #0b0b0b; ">Remover Todos</button>
+                                                <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
+                                            </div>
+
+                                            <?php
+                                        }else{
+                                            ?>
+                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal; ?>&nbsp;€</span>
+                                            <?php
+                                        }
+                                        ?>
+
 
                                         <?php
                                     }else{
                                         $k=0;
                                         ?>
 
-                                        <div class="row"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
+                                        <div class="row" style="text-align: center"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block', closeNav();">
+                                                <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
 
                                         <?php
                                     }
@@ -249,7 +310,20 @@ function top(){
                                 </script>
 
 
-                                <span id="bdg1" class="badge badge-danger" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
+                                <?php
+                                if(isset($_SESSION['id'])){
+                                    ?>
+                                    <span id="bdg1" class="badge badge-dark" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $k ?></span>
+                                    <span id="bdg2" class="badge badge-dark" style="font-size: 15px; color: #FFFFFF!important;"><?php echo $precoTotal."€"; ?></span>
+                                    <?php
+                                }else{
+                                    ?>
+
+                                    <?php
+                                }
+                                ?>
+
+
 
                             </div>
                             <!--************************************** FIM CARRINHO*******************************************-->
@@ -266,22 +340,22 @@ function top(){
 
 
 
-        <div class="nav-options" style="width: available; height: 120px">
+        <div class="nav-options" style="width: available; height: 140px; text-align: center">
             <div class="container">
 
                 <!-- <div class="nav-search search-switch">
                      <i class="fa fa-search"></i>
                  </div> -->
-                <div class="nav-menu" style="font-size: 20px; color: #fff; ">
+                <div class="nav-menu" style="font-size: 20px; color: #fff; margin-top: 15px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; ">
                     <ul>
                         <li><a href="./index.php"><span ><strong>Home</strong></span></a></li>
                         <li><a href="#"><span style="font-size: 20px; color: #fff; "><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
                             <div class="dropdown">
-                                <ul>
-                                    <li><a href="consolas.php">Consolas</a></li>
-                                    <li><a href="jogos.php">Jogos</a></li>
-                                    <li><a href="acessorios.php">Acessórios</a></li>
-                                    <li><a href="outlet.php">Outlet</a></li>
+                                <ul >
+                                    <li ><a href="consolas.php" >Consolas</a></li>
+                                    <li><a href="jogos.php" >Jogos</a></li>
+                                    <li><a href="acessorios.php" >Acessórios</a></li>
+                                    <li><a href="outlet.php" >Outlet</a></li>
                                 </ul>
                             </div>
                         </li>
@@ -307,7 +381,6 @@ function top(){
 
         </div>
     </header>
-
     <?php
 }
 ?>
