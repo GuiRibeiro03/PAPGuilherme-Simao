@@ -3,12 +3,12 @@ include_once("includes/bodyBase.inc.php");
 top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
-$sql2="select * from noticias";
+$sql="select * from noticias";
 $sql_2="select * from jogos inner join reviews on jogoId=reviewJogoId where jogoGlobalRating=100";
 $sqlJogos="select * from jogos where jogoGlobalRating > 70 order  by jogoGlobalRating desc ";
 $sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
-$result=mysqli_query($con, $sql2);
+$result=mysqli_query($con, $sql);
 $result_2=mysqli_query($con,$sql_2);
 $result2=mysqli_query($con,$sqlJogos);
 $result2_2=mysqli_query($con,$sql2_2);

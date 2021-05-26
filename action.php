@@ -119,11 +119,10 @@ where jogoEmpresaId != '' ";
     $output .= '
 
 
-
-        <div class="row-cols-3" style="margin-left: 10%">
+        <div class="row" style="margin-left: 10%; width: 100%;">
            
       
-            <div id="content"  class="col-lg-4 col-md-3" style=" margin-bottom: 5%">
+            <div id="content"  class="col-lg-4 col-md-3" style="width: 100%; margin-bottom: 5%">
 
                 <div  class="card" style="max-width: 23rem; min-width: 15rem; width: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
                   <a href="Listajogo.php?id='.$dados['jogoId'].'  ">
