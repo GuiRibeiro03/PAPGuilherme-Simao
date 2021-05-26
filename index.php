@@ -24,12 +24,12 @@ $result4=mysqli_query($con,$sql3);
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h5><span>Notícias </span></h5>
+                        <a href="blog.php"><h5><span>Notícias </span></h5></a>
                     </div>
                     <div class="tab-elem">
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#news" role="tab">Noticias</a>
+                                <a " class="nav-link active" data-toggle="tab" href="#news" role="tab">Noticias</a>
                             </li>
                         </ul><!-- Tab panes -->
                         <div class="tab-content">
@@ -43,7 +43,6 @@ $result4=mysqli_query($con,$sql3);
                                             <div class="un-big-item set-bg" data-setbg="img/<?php echo $dadosNoticias["noticiaImagemFundoURL"] ?>" style="border-radius: 10px; ">
 
                                                 <div class="ub-text" >
-                                                    <div class="label"><span>Notícias</span></div>
                                                     <h4 style=" color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><a href="ListaBlog.php?id=<?php echo $dadosNoticias["noticiaId"] ?>"><?php echo $dadosNoticias["noticiaTitulo"]?></a></h4>
                                                     <ul >
                                                         <li style="color:#FFF; font-size: 13px">by <span>Admin</span></li>

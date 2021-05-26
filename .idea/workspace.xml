@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme - Registar USER">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- NOticias">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaAcessorio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Adiciona" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papVolodymyr" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -236,8 +234,6 @@
       <workItem from="1621498578554" duration="6587000" />
       <workItem from="1621601136546" duration="7264000" />
       <workItem from="1621843093192" duration="9232000" />
-      <workItem from="1621901038184" duration="13000" />
-      <workItem from="1621981910235" duration="4049000" />
     </task>
     <task id="LOCAL-00241" summary="Adiciona Carrinho / Elimina Carrinho">
       <created>1619444051264</created>
@@ -568,19 +564,19 @@
       <option name="project" value="LOCAL" />
       <updated>1621899512988</updated>
     </task>
-    <task id="LOCAL-00288" summary="Guilherme - Registar USER">
-      <created>1621900747828</created>
+    <task id="LOCAL-00288" summary="Guilherme- BodyBlog">
+      <created>1621931210249</created>
       <option name="number" value="00288" />
       <option name="presentableId" value="LOCAL-00288" />
       <option name="project" value="LOCAL" />
-      <updated>1621900747828</updated>
+      <updated>1621931210250</updated>
     </task>
-    <task id="LOCAL-00289" summary="Guilherme - Registar USER">
-      <created>1621901042737</created>
+    <task id="LOCAL-00289" summary="Guilherme- NOticias">
+      <created>1621932022877</created>
       <option name="number" value="00289" />
       <option name="presentableId" value="LOCAL-00289" />
       <option name="project" value="LOCAL" />
-      <updated>1621901042738</updated>
+      <updated>1621932022877</updated>
     </task>
     <option name="localTasksCounter" value="290" />
     <servers />
@@ -601,8 +597,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme Checkout" />
-    <MESSAGE value="Guilherme- Carrinho n ta funcionar n sei pk" />
     <MESSAGE value="Guilherme- UI fixes" />
     <MESSAGE value="Guilherme- Reversão Login" />
     <MESSAGE value="Guilherme- Carrinho, ListaBlog, ListaReview" />
@@ -626,6 +620,8 @@
     <MESSAGE value="Guilherme - Action/Botão" />
     <MESSAGE value="Guilherme - Login" />
     <MESSAGE value="Guilherme - Registar USER" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme - Registar USER" />
+    <MESSAGE value="Guilherme- BodyBlog" />
+    <MESSAGE value="Guilherme- NOticias" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- NOticias" />
   </component>
 </project>
