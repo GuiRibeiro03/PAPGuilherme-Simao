@@ -5,7 +5,7 @@ top();
 $sql="select * from users where userId=".$_SESSION['id'];
 $res=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($res);
-if($dados['userType']=='admin'){
+if($dados['userType']=='admin' ){
 
 ?>
 
@@ -25,8 +25,13 @@ if($dados['userType']=='admin'){
     </div>
 </section>
 <?php
-}else
+}elseif($dados['userType']!='admin'){
     header("location: index.php");
+}elseif(!isset($_SESSION['id'])){
+    header("location: index.php");
+}
+
+
 bottom();
 ?>
 
