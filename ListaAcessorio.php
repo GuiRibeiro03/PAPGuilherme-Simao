@@ -27,16 +27,14 @@ $dados=mysqli_fetch_array($result);
 
             </div>
 
-            <div  >
+            <div style="width: 1000px; ">
 
                 <h3 class="card-title" style="font-weight: bold"><?php echo $dados["produtoNome"] ?></h3>
                 <br>
                 <p class="card-text" style="font-size: 23px; color:#FFFFFF;"><strong><?php echo $dados["produtoPreco"] ?>€</strong>&nbsp;&nbsp;</p>
 
-
-
-                <a href="#" onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;">
-                    <input type="submit" class="btn-danger" value="Adicionar ao Carrinho"></a>
+                <a href="#" onclick="adicionaCarrinho(<?php echo $id ?>)"  style="color: #dc3545;">
+                    <input type="submit" class="btn btn-danger  cart-button" value="Adicionar ao Carrinho"></a>
             </div>
 
         </div>
