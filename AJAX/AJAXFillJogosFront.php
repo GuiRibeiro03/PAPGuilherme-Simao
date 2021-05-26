@@ -106,7 +106,7 @@ $result=mysqli_query($con,$sql);
     </div>
 
 
-
+    <div class="dropdown">
     <button onclick="myFunction()" class="dropbtn" style="background-color: #FFF;color: #0d0d0d; outline: solid 2px white; padding: 2px 5px; ">Ordenar produto por:</button>
     <div id="myDropdown" class="dropdown-content">
         <a href="jogos.php?ord=1" class="dropdown-item">A-Z</a>
