@@ -6,7 +6,7 @@ top();
 ?>
 <section class="store" >
 
-
+<div class="row-cols-lg-4">
 
     <div  class="col-lg-4 col-md-3" style="alignment: left">
 
@@ -97,6 +97,43 @@ if($dados['userType']=='admin'){
         ?>
 
     </div>
+
+
+    <div class="container-lg" style="width: 30%">
+        <div class="bp-item" style="margin-bottom: 5%">
+            <h4>Informações de Contacto</h4>
+
+            <hr>
+            <div>
+                <ul style="font-size: 20px; margin-bottom: 3%" >
+                <li><?php echo $dados['perfilNome']?></li>
+                <li><?php echo $dados['perfilEmail']?></li>
+                <li><?php echo $dados['perfilTelefone']?></li>
+                </ul>
+                <a style=" background-color: red; font-size: 20px; padding: 7px 7px">Editar</a>
+            </div>
+
+        </div>
+        <div class="bp-item" style="margin-bottom: 5%">
+
+            <h4>Informações de Morada</h4>
+            <hr>
+            <div>
+                <ul style="font-size: 20px;  margin-bottom: 3%" >
+                    <li><?php echo $dados['perfilMorada']?></li>
+                </ul>
+                <a style=" background-color: red; font-size: 20px; padding: 7px 7px">Editar</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
 
 
 </section>

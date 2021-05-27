@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme - filtrar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,13 +233,6 @@
       <workItem from="1621498578554" duration="6587000" />
       <workItem from="1621601136546" duration="7264000" />
       <workItem from="1621843093192" duration="9232000" />
-    </task>
-    <task id="LOCAL-00246" summary="Guilherme- Login">
-      <created>1619711272620</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1619711272621</updated>
     </task>
     <task id="LOCAL-00247" summary="Guilherme- Reversão Login">
       <created>1620030892022</created>
@@ -578,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622074578945</updated>
     </task>
-    <option name="localTasksCounter" value="295" />
+    <task id="LOCAL-00295" summary="Guilherme - filtrar">
+      <created>1622075511044</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1622075511044</updated>
+    </task>
+    <option name="localTasksCounter" value="296" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
