@@ -8,9 +8,9 @@ top();
 
 
 
-    <div  class="col-lg-4 col-md-3">
+    <div  class="col-lg-4 col-md-3" style="alignment: left">
 
-        <div  class="card" style="width: 19rem; margin-left: 10px; margin-right: 10px; margin-top: 10px; background-color: black">
+        <div  class="card" style="width: 19rem; margin-left: 20px; margin-right: 10px; margin-top: 5%;margin-bottom: 5%; background-color: black; box-shadow: 10px 10px 2px 1px rgba(255, 255, 255);">
 <?php
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from perfis inner join users on perfilUserId=userId where perfilId=".$_GET["id"];
@@ -33,10 +33,12 @@ while ($dados=mysqli_fetch_array($result)){
 
 
 
-        <div class="container">
-            <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; background-color: #0d0d0d; color: #FFF; font-weight: bold">
-                <li class="list-group-item"><h4>Painel da Conta</h4></li>
-            </ul>
+        <div class="container" >
+
+            <div class="coise" style="box-shadow: 10px 10px 2px 1px rgba(255, 255, 255);">
+                <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; background-color: #0d0d0d; color: #FFF; font-weight: bold">
+                    <li class="list-group-item"><h4>Painel da Conta</h4></li>
+                </ul>
 <?php
 
 $con=mysqli_connect("localhost","root","","pap2021gameon");
@@ -80,6 +82,7 @@ if($dados['userType']=='admin'){
     <?php
 }
     ?>
+            </div>
         </div>
 
         <?php
@@ -94,11 +97,6 @@ if($dados['userType']=='admin'){
         ?>
 
     </div>
-
-
-
-
-
 
 
 </section>
