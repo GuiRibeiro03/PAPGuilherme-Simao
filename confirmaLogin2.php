@@ -17,7 +17,7 @@ while ($dados=mysqli_fetch_array($res)){
         $verificacao = 'sim';
         header("location: " . $_SERVER['HTTP_REFERER']);
     }elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
-        header("location: bodyBase.inc.php?msg");
+
 
     }
 
