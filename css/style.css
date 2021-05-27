@@ -4718,6 +4718,7 @@ background-color: transparent;
 
 .list-group-item{
 	background-color: black;
-	font-weight: bold;
-	font-size: 20px;
+
+	color: #FFFFFF;!important;
+	font-size: 18px;
 }
