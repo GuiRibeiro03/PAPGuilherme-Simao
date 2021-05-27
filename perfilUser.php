@@ -4,13 +4,13 @@ top();
 
 
 ?>
-<section class="store">
+<section class="store" >
 
+<div class="row-cols-lg-4">
 
+    <div  class="col-lg-4 col-md-3" style="alignment: left">
 
-    <div  class="col-lg-4 col-md-3">
-
-        <div  class="card" style="width: 19rem; margin-left: 10px; margin-right: 10px; margin-top: 10px; background-color: black">
+        <div  class="card" style="width: 19rem; margin-left: 20px; margin-right: 10px; margin-top: 5%;margin-bottom: 5%; background-color: black; box-shadow: 10px 10px 2px 1px rgba(255, 255, 255);">
 <?php
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from perfis inner join users on perfilUserId=userId where perfilId=".$_GET["id"];
@@ -18,15 +18,13 @@ $result=mysqli_query($con, $sql);
 while ($dados=mysqli_fetch_array($result)){
 ?>
             <div class="card-body">
-                <img src="<?php echo $dados["perfilAvatarURL"] ?>" alt="Avatar">
-                <hr>
-                <h5 class="card-title" style="text-align: center;"><?php echo $dados["perfilNome"]?></h5>
-                <hr>
-                <p class="card-text" style="font-size: 18px; margin-left: 10%"><strong></strong>&nbsp;&nbsp;<span class="badge bg-primary" style=" font-size: 100%"><?php echo $dados["userType"]?> &nbsp;<i class="fa fa-user-circle-o"></i></span></p>
+                <!--<img src="<?php echo $dados["perfilAvatarURL"] ?>" alt="Avatar" >-->
+
+                <h5 class="card-title" style="text-align: center;">Olá, <?php echo $dados["perfilNome"]?></h5>
+<br>
+                <p class="card-text" style="font-size: 18px; width: 100%; float: left"><strong></strong>&nbsp;&nbsp;<span class="badge bg-primary" style=" font-size: 100%"><?php echo $dados["userType"]?> &nbsp;<i class="fa fa-user-circle-o"></i></span></p>
                 <h4></h4>
             </div>
-
-
             <?php
             }
             ?>
@@ -35,6 +33,12 @@ while ($dados=mysqli_fetch_array($result)){
 
 
 
+        <div class="container" >
+
+            <div class="coise" style="box-shadow: 10px 10px 2px 1px rgba(255, 255, 255);">
+                <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; background-color: #0d0d0d; color: #FFF; font-weight: bold">
+                    <li class="list-group-item"><h4>Painel da Conta</h4></li>
+                </ul>
 <?php
 
 $con=mysqli_connect("localhost","root","","pap2021gameon");
@@ -43,29 +47,43 @@ $result2=mysqli_query($con, $sql2);
 $dados=mysqli_fetch_array($result2);
 if($dados['userType']=='admin'){
 ?>
-        <div  style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
-                <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Definições de Perfil <i class="fa fa-edit"></i></button></a>
-                <a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="margin-left: 20%; font-size: 100% ">Backoffice</button></a>
-        </div>
+
+    <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: #0d0d0d; color: #FFF; font-weight: bold">
+        <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>" style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold"><li class="list-group-item">Definições de Perfil <i class="fa fa-edit"></i></li></a>
+        <a href="backoffice/Backoffice.php" style="color: #FFFFFF; font-weight: bold; background-color: black"><li class="list-group-item">Backoffice</li></a>
+        <li class="list-group-item">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+    </ul>
     <?php
 }elseif ($dados['userType']=='editor'){
     ?>
 
-    <div  style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
-        <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Definições de Perfil <i class="fa fa-edit"></i></button></a>
-        <a href="backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-danger" style="margin-left: 20%; font-size: 100% ">Reviews</button></a>
-    </div>
+    <ul class="list-group" style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
+        <li class="list-group-item"><a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Definições de Perfil <i class="fa fa-edit"></i></button></a></li>
+        <li class="list-group-item"><a href="backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-danger" style="margin-left: 20%; font-size: 100% ">Lista de desejos</button></a></li>
+        <li class="list-group-item">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+    </ul>
 
     <?php
 }elseif ($dados['userType']=='user'){
     ?>
-        <div  style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
-            <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Definições de Perfil <i class="fa fa-edit"></i></button></a>
-            <a href="backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-danger" style="margin-left: 20%; font-size: 100% ">Lista de desejos</button></a>
-        </div>
+
+    <ul class="list-group" style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
+        <li class="list-group-item"><a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Definições de Perfil <i class="fa fa-edit"></i></button></a></li>
+        <li class="list-group-item"><a href="backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-danger" style="margin-left: 20%; font-size: 100% ">Lista de desejos</button></a></li>
+        <li class="list-group-item">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+    </ul>
+
     <?php
 }
     ?>
+            </div>
+        </div>
 
         <?php
         if($dados['userState']=='inativo'){
@@ -81,7 +99,39 @@ if($dados['userType']=='admin'){
     </div>
 
 
+    <div class="container-lg" style="width: 30%">
+        <div class="bp-item" style="margin-bottom: 5%">
+            <h4>Informações de Contacto</h4>
 
+            <hr>
+            <div>
+                <ul style="font-size: 20px; margin-bottom: 3%" >
+                <li><?php echo $dados['perfilNome']?></li>
+                <li><?php echo $dados['perfilEmail']?></li>
+                <li><?php echo $dados['perfilTelefone']?></li>
+                </ul>
+                <a style=" background-color: red; font-size: 20px; padding: 7px 7px">Editar</a>
+            </div>
+
+        </div>
+        <div class="bp-item" style="margin-bottom: 5%">
+
+            <h4>Informações de Morada</h4>
+            <hr>
+            <div>
+                <ul style="font-size: 20px;  margin-bottom: 3%" >
+                    <li><?php echo $dados['perfilMorada']?></li>
+                </ul>
+                <a style=" background-color: red; font-size: 20px; padding: 7px 7px">Editar</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</div>
 
 
 

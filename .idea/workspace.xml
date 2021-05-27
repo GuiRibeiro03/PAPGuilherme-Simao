@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Div dropdown">
-      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme - filtrar">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -232,21 +233,6 @@
       <workItem from="1621498578554" duration="6587000" />
       <workItem from="1621601136546" duration="7264000" />
       <workItem from="1621843093192" duration="9232000" />
-      <workItem from="1622103744267" duration="2852000" />
-    </task>
-    <task id="LOCAL-00245" summary="Guilherme- UI fixes">
-      <created>1619624983340</created>
-      <option name="number" value="00245" />
-      <option name="presentableId" value="LOCAL-00245" />
-      <option name="project" value="LOCAL" />
-      <updated>1619624983340</updated>
-    </task>
-    <task id="LOCAL-00246" summary="Guilherme- Login">
-      <created>1619711272620</created>
-      <option name="number" value="00246" />
-      <option name="presentableId" value="LOCAL-00246" />
-      <option name="project" value="LOCAL" />
-      <updated>1619711272621</updated>
     </task>
     <task id="LOCAL-00247" summary="Guilherme- Reversão Login">
       <created>1620030892022</created>
@@ -563,21 +549,35 @@
       <option name="project" value="LOCAL" />
       <updated>1622038944372</updated>
     </task>
-    <task id="LOCAL-00292" summary="Guilherme- Div dropdown">
-      <created>1622040316128</created>
+    <task id="LOCAL-00292" summary="Guilherme - filtrar">
+      <created>1622070971182</created>
       <option name="number" value="00292" />
       <option name="presentableId" value="LOCAL-00292" />
       <option name="project" value="LOCAL" />
-      <updated>1622040316128</updated>
+      <updated>1622070971183</updated>
     </task>
-    <task id="LOCAL-00293" summary="Guilherme- Div dropdown">
-      <created>1622106467043</created>
+    <task id="LOCAL-00293" summary="Guilherme - filtrar">
+      <created>1622074372925</created>
       <option name="number" value="00293" />
       <option name="presentableId" value="LOCAL-00293" />
       <option name="project" value="LOCAL" />
-      <updated>1622106467043</updated>
+      <updated>1622074372926</updated>
     </task>
-    <option name="localTasksCounter" value="294" />
+    <task id="LOCAL-00294" summary="Guilherme - filtrar">
+      <created>1622074578945</created>
+      <option name="number" value="00294" />
+      <option name="presentableId" value="LOCAL-00294" />
+      <option name="project" value="LOCAL" />
+      <updated>1622074578945</updated>
+    </task>
+    <task id="LOCAL-00295" summary="Guilherme - filtrar">
+      <created>1622075511044</created>
+      <option name="number" value="00295" />
+      <option name="presentableId" value="LOCAL-00295" />
+      <option name="project" value="LOCAL" />
+      <updated>1622075511044</updated>
+    </task>
+    <option name="localTasksCounter" value="296" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +620,7 @@
     <MESSAGE value="Guilherme- BodyBlog" />
     <MESSAGE value="Guilherme- NOticias" />
     <MESSAGE value="Guilherme- Filtragem por preço,nome e mais recente" />
-    <MESSAGE value="Guilherme- Div dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Div dropdown" />
+    <MESSAGE value="Guilherme - filtrar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme - filtrar" />
   </component>
 </project>

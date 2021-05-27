@@ -3,7 +3,7 @@ include_once("../includes/body.inc.php");
 $txt=addslashes($_POST['txt']);
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from jogos where jogoNome like '%$txt%' ";
-$result=mysqli_query($con, $sql);
+
 
 $ord = 0;
 if (isset($_GET['ord'])) {
@@ -19,6 +19,7 @@ if (isset($_GET['ord'])) {
     }
 
 }
+
 $result=mysqli_query($con,$sql);
 ?>
 
@@ -42,7 +43,7 @@ $result=mysqli_query($con,$sql);
                     while ($dadosGeneros=mysqli_fetch_array($resultGeneros)){
                         ?>
                         <br>
-                        <li class="list-group-item" style="color: #0b0b0b">
+                        <li class="list-group-item" >
                             <label class="form-check-label">
                             <div class="form-check">
                                 <input type="checkbox" id="genero" class="form-check-input product_check" value="<?php echo $dadosGeneros["generoId"] ?>"> <?php echo $dadosGeneros["generoNome"] ?>
@@ -65,7 +66,7 @@ $result=mysqli_query($con,$sql);
                     while ($dadosPlataformas=mysqli_fetch_array($resultPlataformas)){
                         ?>
                         <br>
-                    <li class="list-group-item" style="color: #0b0b0b">
+                    <li class="list-group-item" >
                         <label class="form-check-label">
                             <div class="form-check">
                         <input id="plataforma" type="checkbox" class="form-check-input product_check" value="<?php echo $dadosPlataformas["plataformaId"] ?>"> <?php echo $dadosPlataformas["plataformaNome"] ?>
@@ -89,7 +90,7 @@ $result=mysqli_query($con,$sql);
                     while ($dadosEmpresas=mysqli_fetch_array($resultEmpresas)){
                         ?>
                         <br>
-                        <li class="list-group-item" style="color: #0b0b0b">
+                        <li class="list-group-item" >
                             <label class="form-check-label">
                                 <div class="form-check">
                         <input id="empresa" type="checkbox" class="form-check-input product_check" value="<?php echo $dadosEmpresas["empresaId"] ?>"> <?php echo $dadosEmpresas["empresaNome"] ?>
