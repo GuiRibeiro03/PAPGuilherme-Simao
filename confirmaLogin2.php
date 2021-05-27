@@ -7,17 +7,28 @@ $res=mysqli_query($con, $sql);
 $nome=addslashes($_POST['nome']);
 $pwd=addslashes($_POST['password']);
 
+
+
 while ($dados=mysqli_fetch_array($res)){
     if ($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'ativo') {
         session_start();
         $_SESSION['id'] = $dados['userId'];
         $_SESSION['nome'] = $dados['userName'];
         header("location: ".$_SERVER['HTTP_REFERER']);
-    }elseif($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'inativo') {
-        $verificacao = 'sim';
-        header("location: " . $_SERVER['HTTP_REFERER']);
-    }elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
 
+    }elseif($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'inativo' ) {
+        $verificacao = 'sim';
+        isset($message);
+        header("location: bodyBase.inc.php?message");
+
+    }elseif($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'pendente' ) {
+    $verificacao = 'sim';
+    isset($messageVerify);
+    header("location:bodyBase.inc.php??messageVerify");
+
+}elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
+        isset($msg);
+        header("location:bodyBase.inc.php??msg");
 
     }
 

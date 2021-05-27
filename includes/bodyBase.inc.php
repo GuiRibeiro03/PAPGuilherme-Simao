@@ -15,8 +15,14 @@ if(isset($_GET['msg'])) {
 }
 
 if(isset($_GET['message'])){
-    alertinativo("Esta conta foi desativada.");
+    alert("Esta conta foi desativada.");
 }
+
+
+if(isset($_GET['messageVerify'])){
+    alert("Esta conta ainda não foi ativada por um administrador.");
+}
+
 
 function alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
@@ -24,7 +30,9 @@ function alert($msg) {
 function alertinativo($message) {
     echo "<script type='text/javascript'>alert('$message');</script>";
 }
-
+function alertPendente($messageVerify) {
+    echo "<script type='text/javascript'>alert('$messageVerify');</script>";
+}
 function top($menu=HOME){
 
 ?>
