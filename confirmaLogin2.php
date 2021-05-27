@@ -13,9 +13,12 @@ while ($dados=mysqli_fetch_array($res)){
         $_SESSION['id'] = $dados['userId'];
         $_SESSION['nome'] = $dados['userName'];
         header("location: ".$_SERVER['HTTP_REFERER']);
-    }else if($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'inativo') {
+    }elseif($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'inativo') {
         $verificacao = 'sim';
         header("location: " . $_SERVER['HTTP_REFERER']);
+    }elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
+        header("location: bodyBase.inc.php?msg");
+
     }
 
 }

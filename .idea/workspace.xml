@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Filtragem por preço,nome e mais recente">
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Div dropdown">
+      <change afterPath="$PROJECT_DIR$/css/warning.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -232,13 +236,7 @@
       <workItem from="1621498578554" duration="6587000" />
       <workItem from="1621601136546" duration="7264000" />
       <workItem from="1621843093192" duration="9232000" />
-    </task>
-    <task id="LOCAL-00243" summary="Guilherme- Carrinho n ta funcionar n sei pk">
-      <created>1619514542989</created>
-      <option name="number" value="00243" />
-      <option name="presentableId" value="LOCAL-00243" />
-      <option name="project" value="LOCAL" />
-      <updated>1619514542990</updated>
+      <workItem from="1622103744267" duration="2456000" />
     </task>
     <task id="LOCAL-00244" summary="Guilherme- UI fixes">
       <created>1619618740652</created>
@@ -576,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622038944372</updated>
     </task>
-    <option name="localTasksCounter" value="292" />
+    <task id="LOCAL-00292" summary="Guilherme- Div dropdown">
+      <created>1622040316128</created>
+      <option name="number" value="00292" />
+      <option name="presentableId" value="LOCAL-00292" />
+      <option name="project" value="LOCAL" />
+      <updated>1622040316128</updated>
+    </task>
+    <option name="localTasksCounter" value="293" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +600,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Reversão Login" />
     <MESSAGE value="Guilherme- Carrinho, ListaBlog, ListaReview" />
     <MESSAGE value="Guilherme- Edita produto fixed" />
     <MESSAGE value="Guilherme- Carrinho/ Styles" />
@@ -620,6 +624,7 @@
     <MESSAGE value="Guilherme- BodyBlog" />
     <MESSAGE value="Guilherme- NOticias" />
     <MESSAGE value="Guilherme- Filtragem por preço,nome e mais recente" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Filtragem por preço,nome e mais recente" />
+    <MESSAGE value="Guilherme- Div dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Div dropdown" />
   </component>
 </project>
