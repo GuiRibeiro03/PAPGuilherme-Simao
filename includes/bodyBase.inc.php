@@ -326,7 +326,7 @@ function top($menu=HOME){
                                           <?php
                                         if($k!=0){
                                             ?>
-                                        <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal ?>&nbsp;€</span>
+                                        <span style="color: #000000!important; font-size: 16px; font-weight: 400">Total ( <?php echo $k; ?> ): <?php echo $precoTotal ?>&nbsp;€</span>
                                         <div style="float: right">
                                         <button onclick="confirmaEliminaCarrinho()" class="btn btn-warning" style="color: #0b0b0b; ">Remover Todos</button>
                                         <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
@@ -335,7 +335,7 @@ function top($menu=HOME){
                                         <?php
                                         }else{
                                         ?>
-                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total: <?php echo $precoTotal; ?>&nbsp;€</span>
+                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total : <?php echo $precoTotal; ?>&nbsp;€</span>
                                         <?php
                                          }
                                         ?>
@@ -346,7 +346,7 @@ function top($menu=HOME){
                                         $k=0;
                                         ?>
 
-                                        <div class="row" style="text-align: center"><span>Para adicionar produtos ao carrinho,</span><span onclick="document.getElementById('id01').style.display='block', closeNav();">
+                                        <div style="text-align: center"><span>Para adicionar produtos ao carrinho faça</span><span onclick="document.getElementById('id01').style.display='block', closeNav();">
                                                 <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 14px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span></div>
 
                                         <?php

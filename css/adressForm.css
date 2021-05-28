@@ -89,7 +89,7 @@ span.price {
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
 @media (max-width: 800px) {
     .row {
-        flex-direction: column-reverse;
+        flex-direction: row;
     }
     .col-25 {
         margin-bottom: 20px;
