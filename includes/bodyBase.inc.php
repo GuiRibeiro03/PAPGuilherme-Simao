@@ -11,14 +11,18 @@ $_SESSION['carrinho'][0]=-1;
 
 if(isset($_GET['msg'])) {
 
-
-    alert("Nome de utilizador ou palavra-passe errada, tente de novo.");
+    alert("Nome de utilizador ou palavra-passe errada! Tente de novo.");
 }
-if(isset($_GET['message'])) {
 
-
-    alertinativo("Esta conta foi desativada.");
+if(isset($_GET['message'])){
+    alert("Esta conta foi desativada.");
 }
+
+
+if(isset($_GET['messageVerify'])){
+    alert("Esta conta ainda não foi ativada por um administrador.");
+}
+
 
 function alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
@@ -26,7 +30,9 @@ function alert($msg) {
 function alertinativo($message) {
     echo "<script type='text/javascript'>alert('$message');</script>";
 }
-
+function alertPendente($messageVerify) {
+    echo "<script type='text/javascript'>alert('$messageVerify');</script>";
+}
 function top($menu=HOME){
 
 ?>
@@ -38,7 +44,7 @@ function top($menu=HOME){
 
 
 
-
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
         <meta name="description" content="Amin Template">
@@ -63,7 +69,7 @@ function top($menu=HOME){
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="shortcut icon" href="img/onbutton.ico">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+        <script src="sweetalert2.all.min.js"></script>
 
         <script src="js/jquery.min.js"></script>
         <script src="js/common.js"></script>
@@ -536,6 +542,13 @@ function bottom(){
     </script>
     <!--*********** Modal Registar-FIM ************** -->
 
+
+
+
+
+
+    <!--*********** Modal Login ************** -->
+
     <div id="id01" class="modal">
 
 
@@ -557,6 +570,7 @@ function bottom(){
                 </div>
                 <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Login</strong></button>
                 <hr>
+
 
             </div>
 

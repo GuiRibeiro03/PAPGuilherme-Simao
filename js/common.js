@@ -104,18 +104,6 @@ function fillJogosFrontoffice(txt = ''){
     });
 }
 
-function fillComentarios(id){
-    $.ajax({
-        url:"AJAX/AJAXFillComentarios.php",
-        type:"post",
-        data:{
-            id:id
-        },
-        success:function (result){
-            $('#comentarios').html(result)
-        }
-    })
-}
 
 //******************************************EliminaFunções****************************************
 
@@ -263,6 +251,7 @@ function confirmaEliminaCarrinhoJogo(idJogo) {
 }
 
 
+//**************************Filtros Função Dropdown*****************************
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }

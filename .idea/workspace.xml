@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme - Perfil">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme - filtrar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,10 +233,13 @@
       <workItem from="1621498578554" duration="6587000" />
       <workItem from="1621601136546" duration="7264000" />
       <workItem from="1621843093192" duration="9232000" />
-      <workItem from="1622151325343" duration="2000" />
-      <workItem from="1622227412804" duration="4000" />
-      <workItem from="1622228059402" duration="28000" />
-      <workItem from="1622230975883" duration="907000" />
+    </task>
+    <task id="LOCAL-00247" summary="Guilherme- Reversão Login">
+      <created>1620030892022</created>
+      <option name="number" value="00247" />
+      <option name="presentableId" value="LOCAL-00247" />
+      <option name="project" value="LOCAL" />
+      <updated>1620030892022</updated>
     </task>
     <task id="LOCAL-00248" summary="Guilherme- Carrinho, ListaBlog, ListaReview">
       <created>1620033394490</created>
@@ -574,14 +577,7 @@
       <option name="project" value="LOCAL" />
       <updated>1622075511044</updated>
     </task>
-    <task id="LOCAL-00296" summary="Guilherme - Perfil">
-      <created>1622076619849</created>
-      <option name="number" value="00296" />
-      <option name="presentableId" value="LOCAL-00296" />
-      <option name="project" value="LOCAL" />
-      <updated>1622076619849</updated>
-    </task>
-    <option name="localTasksCounter" value="297" />
+    <option name="localTasksCounter" value="296" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,6 +596,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Guilherme- Carrinho, ListaBlog, ListaReview" />
     <MESSAGE value="Guilherme- Edita produto fixed" />
     <MESSAGE value="Guilherme- Carrinho/ Styles" />
     <MESSAGE value="Guilherme- Carrinho works" />
@@ -624,7 +621,6 @@
     <MESSAGE value="Guilherme- NOticias" />
     <MESSAGE value="Guilherme- Filtragem por preço,nome e mais recente" />
     <MESSAGE value="Guilherme - filtrar" />
-    <MESSAGE value="Guilherme - Perfil" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme - Perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme - filtrar" />
   </component>
 </project>
