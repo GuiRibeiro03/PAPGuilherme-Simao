@@ -19,16 +19,16 @@ while ($dados=mysqli_fetch_array($res)){
     }elseif($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'inativo' ) {
         $verificacao = 'sim';
         isset($message);
-        header("location: bodyBase.inc.php?message");
+        header("location: ".$_SERVER['HTTP_REFERER']);
 
     }elseif($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'pendente' ) {
     $verificacao = 'sim';
     isset($messageVerify);
-    header("location:bodyBase.inc.php??messageVerify");
+        header("location: ".$_SERVER['HTTP_REFERER']);
 
 }elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
         isset($msg);
-        header("location:bodyBase.inc.php??msg");
+        header("location: ".$_SERVER['HTTP_REFERER']);
 
     }
 
