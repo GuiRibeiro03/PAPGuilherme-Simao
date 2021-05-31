@@ -12,7 +12,7 @@ $dados=mysqli_fetch_array($result);
 
 <div id="titulo" style="text-align: center; width: 100%; font-weight: bold; margin-top: 2%"><h2>Edita Perfil</h2></div>
     <hr>
-    <form action="Confirma/confirmaEditaPerfil.php?id=<?php echo $dados['perfilId'] ?>" style="color: #FFF; margin-left: 20%; margin-top: 5%;width: 50%" method="post" enctype="multipart/form-data">
+    <form action="Confirma/confirmaEditaPerfil.php?id=<?php echo $dados['perfilId'] ?>" style="color: #FFF; background-color: #1a1a1a; margin-left: 20%; margin-top: 5%;margin-bottom: 5%; width: 50%" method="post" enctype="multipart/form-data">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="badge badge-primary" style="font-size: 20px">Nome de Perfil: </label>
             <input type="text" class="form-control" name="perfilNome" value="<?php echo $dados['perfilNome'] ?>">
