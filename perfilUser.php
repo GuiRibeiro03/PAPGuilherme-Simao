@@ -6,11 +6,11 @@ top();
 ?>
 <section class="store" >
 
-<div class="row-cols-lg-4">
+<div class="row">
 
     <div  class="col-lg-4 col-md-3" style="alignment: left">
 
-        <div  class="card" style="width: 19rem; margin-left: 20px; margin-right: 10px; margin-top: 5%;margin-bottom: 5%; background-color: black; box-shadow: 10px 10px 2px 1px rgba(255, 255, 255);">
+        <div  class="card" style="width: 19rem; margin-left: 20px; margin-right: 10px; margin-top: 5%;margin-bottom: 5%; background-color: black; box-shadow: 10px 10px 2px 1px rgb(255, 255, 255) ;">
 <?php
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from perfis inner join users on perfilUserId=userId where perfilId=".$_GET["id"];
@@ -35,7 +35,7 @@ while ($dados=mysqli_fetch_array($result)){
 
         <div class="container" >
 
-            <div class="coise" style="box-shadow: 10px 10px 2px 1px rgba(255, 255, 255);">
+            <div class="coise" style="box-shadow: 10px 10px 2px 1px rgb(255, 255, 255);">
                 <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; background-color: #0d0d0d; color: #FFF; font-weight: bold">
                     <li class="list-group-item"><h4>Painel da Conta</h4></li>
                 </ul>
@@ -99,7 +99,7 @@ if($dados['userType']=='admin'){
     </div>
 
 
-    <div class="container-lg" style="width: 30%">
+    <div class="container-lg" style="width: 30%; margin-top: 5%">
         <div class="bp-item" style="margin-bottom: 5%">
             <h4>Informações de Contacto</h4>
 
@@ -110,7 +110,7 @@ if($dados['userType']=='admin'){
                 <li><?php echo $dados['perfilEmail']?></li>
                 <li><?php echo $dados['perfilTelefone']?></li>
                 </ul>
-                <a style=" background-color: red; font-size: 20px; padding: 7px 7px">Editar</a>
+                <a href="editaPerfil.php?id=<?php echo $dados['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px">Editar</button></a>
             </div>
 
         </div>
@@ -122,7 +122,7 @@ if($dados['userType']=='admin'){
                 <ul style="font-size: 20px;  margin-bottom: 3%" >
                     <li><?php echo $dados['perfilMorada']?></li>
                 </ul>
-                <a style=" background-color: red; font-size: 20px; padding: 7px 7px">Editar</a>
+                <a href="editaPerfil.php?id=<?php echo $dados['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px">Editar</button></a>
             </div>
 
         </div>
