@@ -10,7 +10,6 @@ $_SESSION['carrinho'][0]=-1;
 
 
 if(isset($_GET['msg'])) {
-
     alert("Nome de utilizador ou palavra-passe errada! Tente de novo.");
 }
 
@@ -33,6 +32,7 @@ function alertinativo($message) {
 function alertPendente($messageVerify) {
     echo "<script type='text/javascript'>alert('$messageVerify');</script>";
 }
+
 function top($menu=HOME){
 
 ?>
@@ -41,10 +41,6 @@ function top($menu=HOME){
 
     <head>
         <meta charset="UTF-8">
-
-
-
-        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 
         <meta name="description" content="Amin Template">
@@ -570,7 +566,6 @@ function bottom(){
                 </div>
                 <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Login</strong></button>
                 <hr>
-
 
             </div>
 
