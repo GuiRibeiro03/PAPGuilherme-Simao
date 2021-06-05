@@ -43,7 +43,7 @@ body {
 	height:100%;
 	margin:0 auto;
 	padding:0px;
-	background-color:#1a1a1a;
+	background-color: #0d0d0d;
 	color: #FFFFFF;
 
 }
@@ -799,7 +799,7 @@ ol {
 }
 
 .logo {
-	background: #1a1a1a;
+	background: #0d0d0d;
 	padding: 44px 0;
 	position: relative;
 }
@@ -1335,13 +1335,13 @@ ol {
 -------------------------*/
 
 .latest-preview-section {
-	background: #1a1a1a;
+	background: #0d0d0d;
 	padding-top: 65px;
 	padding-bottom: 34px;
 }
 
 .latest-preview-section.page-404 {
-	background: #1a1a1a;
+	background: #0d0d0d;
 	padding-bottom: 65px;
 }
 
@@ -1467,8 +1467,8 @@ ol {
 ------------------------*/
 
 .update-news-section {
-	background: #1a1a1a;
-	padding-top: 65px;
+	background: #0d0d0d;
+	padding-top: 25px;
 	padding-bottom: 30px;
 }
 
@@ -1875,7 +1875,7 @@ ol {
 -------------------------*/
 
 .instagram-post-section {
-	background: #1a1a1a;
+	background: #0d0d0d;
 	padding: 70px 0;
 }
 
@@ -2383,7 +2383,7 @@ ol {
 -----------------------*/
 
 .categories-grid-section {
-	background: #1a1a1a;
+	background: #0d0d0d;
 	padding: 70px 0;
 }
 
@@ -2483,7 +2483,7 @@ ol {
 -----------------------*/
 
 .categories-list-section {
-	background: #1a1a1a;
+	background: #0d0d0d;
 	padding: 70px 0;
 }
 
@@ -3515,7 +3515,7 @@ tr{
 -------------------------*/
 
 .details-gallery-section {
-	background: #1a1a1a;
+	background: #0d0d0d;
 	padding-top: 30px;
 }
 
@@ -4227,7 +4227,7 @@ tr{
 }
 
 .store{
-	background-color:#1a1a1a;
+	background-color:#0d0d0d;
 	width: 100%;
 }
 
@@ -4725,4 +4725,78 @@ background-color: transparent;
 .coise {
 	position: relative;
 	width: 20rem;
+}
+
+
+
+.progress-bar {
+	display: flex;
+	margin-bottom: 50px;
+	justify-content: space-between;
+}
+
+.step {
+	box-sizing: border-box;
+	position: relative;
+	z-index: 1;
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin-bottom: 30px;
+	border: 4px solid #fff;
+	border-radius: 50%;
+	background-color: #efefef;
+}
+
+.step:after {
+	position: absolute;
+	z-index: -1;
+	top: 5px;
+	left: 22px;
+	width: 225px;
+	height: 6px;
+	content: '';
+	background-color: #efefef;
+}
+
+.step:before {
+	color: #2e2e2e;
+	position: absolute;
+	top: 40px;
+}
+
+.step:last-child:after {
+	content: none;
+}
+
+.step.active {
+	background-color: #f62f5e;
+}
+.step.active:after {
+	background-color: #f62f5e;
+}
+.step.active:before {
+	color: #f62f5e;
+}
+.step.active + .step {
+	background-color: #f62f5e;
+}
+.step.active + .step:before {
+	color: #f62f5e;
+}
+
+.step:nth-child(1):before {
+	content: 'Delivery';
+}
+.step:nth-child(2):before {
+	right: -40px;
+	content: 'Confirmation';
+}
+.step:nth-child(3):before {
+	right: -30px;
+	content: 'Payment';
+}
+.step:nth-child(4):before {
+	right: 0;
+	content: 'Finish';
 }

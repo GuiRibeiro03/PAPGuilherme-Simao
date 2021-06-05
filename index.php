@@ -19,7 +19,7 @@ $result4=mysqli_query($con,$sql3);
 
 
     <!-- Update News Section Begin -->
-    <section class="update-news-section" style="margin-bottom: 20px">
+    <section class="update-news-section" >
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

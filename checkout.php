@@ -78,7 +78,7 @@ top();
 
                         <span style="color: #FFFFFF!important; font-size: 25px; font-weight: bold">Total (<?php echo $k?> Produtos): <?php echo $i ?>&nbsp;€</span>
 
-                        <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Próximo</button></a>
+                        <a href="checkout2.php"><button type="button" class="btn btn-danger" style="float: right">Próximo</button></a>
 
                     <?php
                 }else{
