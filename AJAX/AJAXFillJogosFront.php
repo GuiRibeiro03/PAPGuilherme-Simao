@@ -3,22 +3,26 @@ include_once("../includes/body.inc.php");
 $txt=addslashes($_POST['txt']);
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from jogos where jogoNome like '%$txt%' ";
+$sql2="select * from jogos ";
 
 
 $ord = 0;
 if (isset($_GET['ord'])) {
     $ord = $_GET['ord'];
     if ($ord == 1) {
-        $sql .= " order by jogoNome ASC";
+        $sql2 .= " order by jogoNome ASC";
     } elseif ($ord == 2)  {
-        $sql .= " order by jogoId DESC";
+        $sql2 .= " order by jogoId DESC";
     } elseif ($ord == 3)  {
-        $sql .= " order by jogoPreco ASC";
+        $sql2 .= " order by jogoPreco ASC";
     } elseif ($ord == 4)  {
-        $sql .= " order by jogoPreco DESC";
+        $sql2 .= " order by jogoPreco DESC";
     }
 
 }
+
+$result2=mysqli_query($con,$sql2);
+
 
 $result=mysqli_query($con,$sql);
 ?>
@@ -125,7 +129,6 @@ $result=mysqli_query($con,$sql);
 
 
 
-    <div class="row" >
 
 
 
@@ -138,7 +141,7 @@ $result=mysqli_query($con,$sql);
 
             <div id="content"  class="col-lg-4 col-md-3" style=" margin-bottom: 5%">
 
-                <div  class="card" style="max-width: 23rem; min-width: 15rem; width: auto; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
+                <div  class="card" style="width: 19rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
 
                     <a href="Listajogo.php?id=<?php echo $dados["jogoId"]?>"><img src="img/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
 
@@ -158,8 +161,39 @@ $result=mysqli_query($con,$sql);
 
             <?php
         }
+
+        if($ord != 0){
+
+        $i=0;
+        while ($dados2=mysqli_fetch_array($result2)){
+            $i+=1;
+
         ?>
 
+            <div id="content"  class="col-lg-4 col-md-3" style=" margin-bottom: 5%">
+
+                <div  class="card" style="width: 19rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
+
+                    <a href="Listajogo.php?id=<?php echo $dados2["jogoId"]?>"><img src="img/<?php echo $dados2["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
+
+                    <div class="card-body">
+
+                        <a href="Listajogo.php?id=<?php echo $dados2["jogoId"] ?>"><h5 class="card-title"><?php echo $dados2["jogoNome"] ?></h5></a>
+
+                        <p class="card-text" style="font-size: 18px"><strong><?php echo $dados2["jogoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
+
+                        <a onclick="adicionaCarrinho(<?php echo $dados2["jogoId"] ?>)"  style="color: #dc3545;">
+                            <input type="submit" class="cart-button" value="Adicionar ao Carrinho" style="height: 50px; font-weight: bold"></a>
+                    </div>
+
+                </div>
+
+            </div>
+        <?php
+        }
+        }
+        ?>
+    </div>
 
 
         <script type="text/javascript">
