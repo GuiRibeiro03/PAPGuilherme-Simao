@@ -43,7 +43,7 @@ body {
 	height:100%;
 	margin:0 auto;
 	padding:0px;
-	background-color:#0d0d0d;
+	background-color:#1a1a1a;
 	color: #FFFFFF;
 
 }
@@ -799,7 +799,7 @@ ol {
 }
 
 .logo {
-	background: #0d0d0d;
+	background: #1a1a1a;
 	padding: 44px 0;
 	position: relative;
 }
@@ -1335,13 +1335,13 @@ ol {
 -------------------------*/
 
 .latest-preview-section {
-	background: #0d0d0d;
+	background: #1a1a1a;
 	padding-top: 65px;
 	padding-bottom: 34px;
 }
 
 .latest-preview-section.page-404 {
-	background: #0d0d0d;
+	background: #1a1a1a;
 	padding-bottom: 65px;
 }
 
@@ -1467,7 +1467,7 @@ ol {
 ------------------------*/
 
 .update-news-section {
-	background: #0d0d0d;
+	background: #1a1a1a;
 	padding-top: 65px;
 	padding-bottom: 30px;
 }
@@ -1875,7 +1875,7 @@ ol {
 -------------------------*/
 
 .instagram-post-section {
-	background: #0d0d0d;
+	background: #1a1a1a;
 	padding: 70px 0;
 }
 
@@ -2383,7 +2383,7 @@ ol {
 -----------------------*/
 
 .categories-grid-section {
-	background: #0d0d0d;
+	background: #1a1a1a;
 	padding: 70px 0;
 }
 
@@ -2483,7 +2483,7 @@ ol {
 -----------------------*/
 
 .categories-list-section {
-	background: #0d0d0d;
+	background: #1a1a1a;
 	padding: 70px 0;
 }
 
@@ -3515,7 +3515,7 @@ tr{
 -------------------------*/
 
 .details-gallery-section {
-	background: #0d0d0d;
+	background: #1a1a1a;
 	padding-top: 30px;
 }
 
@@ -3549,7 +3549,7 @@ tr{
 -----------------------*/
 
 .contact-section {
-	background: #0d0d0d;
+	background: #1a1a1a;
 	padding: 70px 0;
 }
 
@@ -3623,7 +3623,7 @@ tr{
 -----------------------*/
 
 .section-404 {
-	background: #0d0d0d;
+	background: #1a1a1a;
 	padding-top: 70px;
 }
 
@@ -4227,7 +4227,7 @@ tr{
 }
 
 .store{
-	background-color:#0d0d0d;
+	background-color:#1a1a1a;
 	width: 100%;
 }
 
@@ -4698,7 +4698,7 @@ background-color: transparent;
 }
 
 .sidenav a:hover {
-	color: #0d0d0d;
+	color: #1a1a1a;
 }
 
 .sidenav .closebtn {
