@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Carrinho(array pop) &#10;Elimina Jogo(nome do jogo)" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme - AJAXFillJogosFront.php &amp; checkout">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,7 +53,7 @@
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../papVolodymyr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -55,13 +61,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
       <recent name="D:\wamp\www\papGuiSimao\AJAX" />
@@ -234,15 +241,11 @@
       <workItem from="1622227412804" duration="4000" />
       <workItem from="1622228059402" duration="28000" />
       <workItem from="1622230975883" duration="907000" />
-      <workItem from="1622234413174" duration="715000" />
-      <workItem from="1623159291220" duration="2720000" />
-    </task>
-    <task id="LOCAL-00251" summary="Guilherme- Edita produto fixed">
-      <created>1620748431032</created>
-      <option name="number" value="00251" />
-      <option name="presentableId" value="LOCAL-00251" />
-      <option name="project" value="LOCAL" />
-      <updated>1620748431032</updated>
+      <workItem from="1622234413174" duration="1425000" />
+      <workItem from="1622402356497" duration="596000" />
+      <workItem from="1622486734982" duration="387000" />
+      <workItem from="1622918924818" duration="2108000" />
+      <workItem from="1622921319258" duration="5845000" />
     </task>
     <task id="LOCAL-00252" summary="Guilherme- Carrinho/ Styles">
       <created>1620809466926</created>
@@ -559,28 +562,35 @@
       <option name="project" value="LOCAL" />
       <updated>1622076619849</updated>
     </task>
-    <task id="LOCAL-00297" summary="Guilherme- bodybase">
-      <created>1622449079523</created>
+    <task id="LOCAL-00297" summary="Guilherme - Perfil">
+      <created>1622235202499</created>
       <option name="number" value="00297" />
       <option name="presentableId" value="LOCAL-00297" />
       <option name="project" value="LOCAL" />
-      <updated>1622449079523</updated>
+      <updated>1622235202499</updated>
     </task>
-    <task id="LOCAL-00298" summary="Guilherme- bodybase">
-      <created>1622451104229</created>
+    <task id="LOCAL-00298" summary="Guilherme - AJAXFillJogosFront.php &amp; checkout">
+      <created>1622921046702</created>
       <option name="number" value="00298" />
       <option name="presentableId" value="LOCAL-00298" />
       <option name="project" value="LOCAL" />
-      <updated>1622451104229</updated>
+      <updated>1622921046702</updated>
     </task>
-    <task id="LOCAL-00299" summary="Guilherme- Carrinho(array pop) &#10;Elimina Jogo(nome do jogo)">
-      <created>1623165054712</created>
+    <task id="LOCAL-00299" summary="Guilherme - AJAXFillJogosFront.php &amp; checkout">
+      <created>1622921776839</created>
       <option name="number" value="00299" />
       <option name="presentableId" value="LOCAL-00299" />
       <option name="project" value="LOCAL" />
-      <updated>1623165054718</updated>
+      <updated>1622921776840</updated>
     </task>
-    <option name="localTasksCounter" value="300" />
+    <task id="LOCAL-00300" summary="Guilherme - AJAXFillJogosFront.php &amp; checkout">
+      <created>1622922836563</created>
+      <option name="number" value="00300" />
+      <option name="presentableId" value="LOCAL-00300" />
+      <option name="project" value="LOCAL" />
+      <updated>1622922836563</updated>
+    </task>
+    <option name="localTasksCounter" value="301" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,6 +609,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Guilherme- Carrinho/ Styles" />
     <MESSAGE value="Guilherme- Carrinho works" />
     <MESSAGE value="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo" />
     <MESSAGE value="Guilherme- Navbar fix" />
@@ -622,8 +633,7 @@
     <MESSAGE value="Guilherme- Filtragem por preço,nome e mais recente" />
     <MESSAGE value="Guilherme - filtrar" />
     <MESSAGE value="Guilherme - Perfil" />
-    <MESSAGE value="Guilherme- bodybase" />
-    <MESSAGE value="Guilherme- Carrinho(array pop) &#10;Elimina Jogo(nome do jogo)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Carrinho(array pop) &#10;Elimina Jogo(nome do jogo)" />
+    <MESSAGE value="Guilherme - AJAXFillJogosFront.php &amp; checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme - AJAXFillJogosFront.php &amp; checkout" />
   </component>
 </project>

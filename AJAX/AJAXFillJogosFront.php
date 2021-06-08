@@ -29,7 +29,7 @@ $result=mysqli_query($con,$sql);
 
 
 
-<section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;color: #FFFFFF">
+<section class="store" style="padding-top: 40px; margin-left: 100px;  background-color: #0d0d0d;color: #FFFFFF">
 
     <div class=" container" style="width: 300px; float: left; height: 100%; position:relative; ">
 
