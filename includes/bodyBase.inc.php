@@ -258,18 +258,14 @@ function top($menu=HOME){
                                             foreach ($_SESSION['carrinho'] as $produto){
                                                 $lista.=",".$produto;
                                             }
-                                            foreach($_SESSION['carrinho'] as $jogo){
-                                                $lista.=",".$jogo;
-                                            }
                                         }
                                         $lista.=")";
 
                                         $sql1="select * from produtos where produtoId in ".$lista;
-                                        $sql2="select * from jogos where jogoId in $lista";
+
 
 
                                         $result1=mysqli_query($con,$sql1);
-                                        $result2=mysqli_query($con,$sql2);
                                         $precoTotal=0;
                                         $k=0;
                                         while($dados2=mysqli_fetch_array($result1)){
@@ -322,7 +318,7 @@ function top($menu=HOME){
                                           <?php
                                         if($k!=0){
                                             ?>
-                                        <span style="color: #000000!important; font-size: 16px; font-weight: 400">Total ( <?php echo $k; ?> ): <?php echo $precoTotal ?>&nbsp;€</span>
+                                        <span style="color: #000000!important; font-size: 20px; font-weight: 500;margin-left: 20px">Total (<?php echo $k; ?>): <?php echo $precoTotal ?>&nbsp;€</span>
                                         <div style="float: right">
                                         <button onclick="confirmaEliminaCarrinho()" class="btn btn-warning" style="color: #0b0b0b; ">Remover Todos</button>
                                         <a href="checkout.php"><button type="button" class="btn btn-danger" style="float: right">Checkout</button></a>
@@ -331,7 +327,7 @@ function top($menu=HOME){
                                         <?php
                                         }else{
                                         ?>
-                                            <span style="color: #000000!important; font-size: 20px; font-weight: 400">Total : <?php echo $precoTotal; ?>&nbsp;€</span>
+                                            <span style="color: #000000!important; font-size: 20px; font-weight: 500; ">Total : <?php echo $precoTotal; ?>&nbsp;€</span>
                                         <?php
                                          }
                                         ?>
