@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- bodybase">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-    </list>
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- Carrinho(array pop) &#10;Elimina Jogo(nome do jogo)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,14 +235,7 @@
       <workItem from="1622228059402" duration="28000" />
       <workItem from="1622230975883" duration="907000" />
       <workItem from="1622234413174" duration="715000" />
-      <workItem from="1623159291220" duration="1757000" />
-    </task>
-    <task id="LOCAL-00250" summary="Guilherme- Edita produto fixed">
-      <created>1620747581153</created>
-      <option name="number" value="00250" />
-      <option name="presentableId" value="LOCAL-00250" />
-      <option name="project" value="LOCAL" />
-      <updated>1620747581153</updated>
+      <workItem from="1623159291220" duration="2720000" />
     </task>
     <task id="LOCAL-00251" summary="Guilherme- Edita produto fixed">
       <created>1620748431032</created>
@@ -585,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622451104229</updated>
     </task>
-    <option name="localTasksCounter" value="299" />
+    <task id="LOCAL-00299" summary="Guilherme- Carrinho(array pop) &#10;Elimina Jogo(nome do jogo)">
+      <created>1623165054712</created>
+      <option name="number" value="00299" />
+      <option name="presentableId" value="LOCAL-00299" />
+      <option name="project" value="LOCAL" />
+      <updated>1623165054718</updated>
+    </task>
+    <option name="localTasksCounter" value="300" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +599,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Carrinho/ Styles" />
     <MESSAGE value="Guilherme- Carrinho works" />
     <MESSAGE value="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo" />
     <MESSAGE value="Guilherme- Navbar fix" />
@@ -629,6 +623,7 @@
     <MESSAGE value="Guilherme - filtrar" />
     <MESSAGE value="Guilherme - Perfil" />
     <MESSAGE value="Guilherme- bodybase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- bodybase" />
+    <MESSAGE value="Guilherme- Carrinho(array pop) &#10;Elimina Jogo(nome do jogo)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- Carrinho(array pop) &#10;Elimina Jogo(nome do jogo)" />
   </component>
 </project>
