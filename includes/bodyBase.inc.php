@@ -9,6 +9,9 @@ session_start();
 $_SESSION['carrinho'][0]=-1;
 
 
+
+
+
 if(isset($_GET['msg'])) {
     alert("Nome de utilizador ou palavra-passe errada! Tente de novo.");
 }
@@ -36,6 +39,8 @@ function alertPendente($messageVerify) {
 function top($menu=HOME){
 
 ?>
+
+
     <!DOCTYPE html>
     <html lang="pt">
 

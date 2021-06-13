@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme - AJAXFillJogosFront.php &amp; checkout">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme -&#10;checkout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
@@ -52,6 +52,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowFile Transfer.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -246,13 +251,8 @@
       <workItem from="1622486734982" duration="387000" />
       <workItem from="1622918924818" duration="2108000" />
       <workItem from="1622921319258" duration="5845000" />
-    </task>
-    <task id="LOCAL-00252" summary="Guilherme- Carrinho/ Styles">
-      <created>1620809466926</created>
-      <option name="number" value="00252" />
-      <option name="presentableId" value="LOCAL-00252" />
-      <option name="project" value="LOCAL" />
-      <updated>1620809466926</updated>
+      <workItem from="1623265830531" duration="602000" />
+      <workItem from="1623612467918" duration="2458000" />
     </task>
     <task id="LOCAL-00253" summary="Guilherme- Carrinho works">
       <created>1620832067138</created>
@@ -590,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622922836563</updated>
     </task>
-    <option name="localTasksCounter" value="301" />
+    <task id="LOCAL-00301" summary="Guilherme -&#10;checkout">
+      <created>1623195729592</created>
+      <option name="number" value="00301" />
+      <option name="presentableId" value="LOCAL-00301" />
+      <option name="project" value="LOCAL" />
+      <updated>1623195729592</updated>
+    </task>
+    <option name="localTasksCounter" value="302" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +616,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Carrinho/ Styles" />
     <MESSAGE value="Guilherme- Carrinho works" />
     <MESSAGE value="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo" />
     <MESSAGE value="Guilherme- Navbar fix" />
@@ -634,6 +640,7 @@
     <MESSAGE value="Guilherme - filtrar" />
     <MESSAGE value="Guilherme - Perfil" />
     <MESSAGE value="Guilherme - AJAXFillJogosFront.php &amp; checkout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme - AJAXFillJogosFront.php &amp; checkout" />
+    <MESSAGE value="Guilherme -&#10;checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme -&#10;checkout" />
   </component>
 </project>
