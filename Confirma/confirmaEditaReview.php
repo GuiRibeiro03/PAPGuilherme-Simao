@@ -15,7 +15,7 @@ $novoNome2="img/wallpapers/".$img2;
 $sql="UPDATE reviews SET reviewAutor='".$reviewAutor."', reviewTexto='".$reviewText."',reviewJogoId='".$reviewJogoId."', reviewData='".$reviewData."'";
 
 if($img2!=''){
-    $sql.=", reviewImagemURL='".$novoNome2."'";
+    $sql.=", reviewImagemURL='".$novoNome2."' ";
     copy($_FILES['reviewImagemURL']['name'],$novoNome2);
 }
 

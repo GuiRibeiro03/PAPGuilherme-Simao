@@ -50,8 +50,8 @@ $result4=mysqli_query($con,$sql3);
                                                         <li style="color:#FFF; font-size: 13px"><i class="fa fa-comment"></i>
                                                             <?php
                                                             $sql2="select count(comentarioId) as num1 from comentarios where comentarioEntidadeId=".$dadosNoticias['noticiaId'];
-                                                            $result2=mysqli_query($con,$sql2);
-                                                            $numComentarios=mysqli_fetch_array($result2);
+                                                            $result7=mysqli_query($con,$sql2);
+                                                            $numComentarios=mysqli_fetch_array($result7);
 
                                                             echo $numComentarios["num1"] ?> </li>
                                                     </ul>

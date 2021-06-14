@@ -90,7 +90,7 @@ $dados=mysqli_fetch_array($result);
 
 
         <div id="wrapper" style="color: #FFFFFF; margin-bottom: 5%">
-            <div><img id="output_image" src="../<?php echo $dados["reviewImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; "/></div>
+            <div><img id="output_image" src="<?php echo $dados["reviewImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; "/></div>
             <input type="file" name="reviewImagemURL" accept="image/*" onclick="preview_image(event)">
         </div>
         <br>
@@ -104,7 +104,7 @@ $dados=mysqli_fetch_array($result);
 
         <div style="width: 70%;">
             <h4>Texto:</h4>
-            <textarea name="noticiaDesenvolvimento" id="myTextarea" content="<?php echo $dados["reviewTexto"] ?>"><?php echo $dados["reviewTexto"] ?></textarea>
+            <textarea name="noticiaDesenvolvimento" id="myTextarea" content="<?php echo $dados["reviewTexto"] ?>"></textarea>
         </div>
 
 
