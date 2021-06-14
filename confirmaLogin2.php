@@ -18,16 +18,16 @@ while ($dados=mysqli_fetch_array($res)){
 
     }elseif($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'inativo' ) {
         $verificacao = 'sim';
-        isset($message);
+        $_SESSION['message'] = "1";
         header("location: ".$_SERVER['HTTP_REFERER']);
 
     }elseif($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'pendente' ) {
     $verificacao = 'sim';
-    isset($messageVerify);
+        $_SESSION['msgVerify'] = "1";
         header("location: ".$_SERVER['HTTP_REFERER']);
 
 }elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
-        isset($msg);
+        $_SESSION['msg'] = "1";
         header("location: ".$_SERVER['HTTP_REFERER']);
 
     }

@@ -12,16 +12,15 @@ $_SESSION['carrinho'][0]=-1;
 
 
 
-if(isset($_GET['msg'])) {
+if(isset($_SESSION['msg'])) {
     alert("Nome de utilizador ou palavra-passe errada! Tente de novo.");
 }
 
-if(isset($_GET['message'])){
+if(isset($_SESSION['message'])){
     alert("Esta conta foi desativada.");
 }
 
-
-if(isset($_GET['messageVerify'])){
+if(isset($_SESSION['messageVerify'])){
     alert("Esta conta ainda não foi ativada por um administrador.");
 }
 
