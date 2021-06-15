@@ -10,8 +10,7 @@ $_SESSION['carrinho'][0]=-1;
 
 
 
-
-
+/*
 if(isset($_SESSION['msg'])) {
     alert("Nome de utilizador ou palavra-passe errada! Tente de novo.");
 }
@@ -34,6 +33,7 @@ function alertinativo($message) {
 function alertPendente($messageVerify) {
     echo "<script type='text/javascript'>alert('$messageVerify');</script>";
 }
+*/
 
 function top($menu=HOME){
 
