@@ -24,4 +24,4 @@ $sql.=", perfilMorada='".$perfilMorada."', perfilTelefone='".$perfilTele."', per
 
 print_r($sql);
 mysqli_query($con, $sql);
-header("location: ../perfilUser.php?id=$userId");
+header("location: ../perfilUser.php?id=".$id);
