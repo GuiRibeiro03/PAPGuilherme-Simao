@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Reviews">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-nurthing">
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,14 +253,7 @@
       <workItem from="1624447509230" duration="891000" />
       <workItem from="1624617148297" duration="11000" />
       <workItem from="1624621362879" duration="610000" />
-      <workItem from="1624867832467" duration="309000" />
-    </task>
-    <task id="LOCAL-00254" summary="Guilherme- Carrinho works">
-      <created>1620833986278</created>
-      <option name="number" value="00254" />
-      <option name="presentableId" value="LOCAL-00254" />
-      <option name="project" value="LOCAL" />
-      <updated>1620833986278</updated>
+      <workItem from="1624867832467" duration="653000" />
     </task>
     <task id="LOCAL-00255" summary="Guilherme- Carrinho works">
       <created>1620834217961</created>
@@ -601,7 +591,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624018260292</updated>
     </task>
-    <option name="localTasksCounter" value="303" />
+    <task id="LOCAL-00303" summary="Guilherme-nurthing">
+      <created>1624868320852</created>
+      <option name="number" value="00303" />
+      <option name="presentableId" value="LOCAL-00303" />
+      <option name="project" value="LOCAL" />
+      <updated>1624868320853</updated>
+    </task>
+    <option name="localTasksCounter" value="304" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +617,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo" />
     <MESSAGE value="Guilherme- Navbar fix" />
     <MESSAGE value="Guilherme- Reviews" />
     <MESSAGE value="Guilherme- User Alterar Estado e Tipo por selects" />
@@ -645,6 +641,7 @@
     <MESSAGE value="Guilherme - AJAXFillJogosFront.php &amp; checkout" />
     <MESSAGE value="Guilherme -&#10;checkout" />
     <MESSAGE value="Guilherme-ConfirmaEditaPerfil &#10;Header-perfiluser.php?id=&quot;.$id" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-ConfirmaEditaPerfil &#10;Header-perfiluser.php?id=&quot;.$id" />
+    <MESSAGE value="Guilherme-nurthing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-nurthing" />
   </component>
 </project>
