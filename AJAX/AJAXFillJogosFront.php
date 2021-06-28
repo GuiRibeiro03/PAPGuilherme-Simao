@@ -3,25 +3,24 @@ include_once("../includes/body.inc.php");
 $txt=addslashes($_POST['txt']);
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from jogos where jogoNome like '%$txt%' ";
-$sql2="select * from jogos ";
+
 
 
 $ord = 0;
 if (isset($_GET['ord'])) {
     $ord = $_GET['ord'];
     if ($ord == 1) {
-        $sql2 .= " order by jogoNome ASC";
+        $sql .= " order by jogoNome ASC";
     } elseif ($ord == 2)  {
-        $sql2 .= " order by jogoId DESC";
+        $sql .= " order by jogoId DESC";
     } elseif ($ord == 3)  {
-        $sql2 .= " order by jogoPreco ASC";
+        $sql .= " order by jogoPreco ASC";
     } elseif ($ord == 4)  {
-        $sql2 .= " order by jogoPreco DESC";
+        $sql .= " order by jogoPreco DESC";
     }
 
 }
 
-$result2=mysqli_query($con,$sql2);
 
 
 $result=mysqli_query($con,$sql);

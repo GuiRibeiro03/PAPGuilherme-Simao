@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-ConfirmaEditaPerfil &#10;Header-perfiluser.php?id=&quot;.$id">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Reviews">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,6 +253,10 @@
       <workItem from="1623265830531" duration="602000" />
       <workItem from="1623612467918" duration="2458000" />
       <workItem from="1624044476412" duration="1988000" />
+      <workItem from="1624447509230" duration="891000" />
+      <workItem from="1624617148297" duration="11000" />
+      <workItem from="1624621362879" duration="610000" />
+      <workItem from="1624867832467" duration="309000" />
     </task>
     <task id="LOCAL-00254" summary="Guilherme- Carrinho works">
       <created>1620833986278</created>

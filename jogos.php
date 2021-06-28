@@ -1,5 +1,4 @@
-
-.<?php
+<?php
 include_once("includes/bodyBase.inc.php");
 top(GAMESFRONT);
 
