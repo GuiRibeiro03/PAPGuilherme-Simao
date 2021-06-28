@@ -554,11 +554,10 @@ function bottom(){
 
     <div id="id01" class="modal">
 
-
         <form class="modal-content animate" action="confirmaLogin2.php" method="post">
             <div class="imgcontainer">
                 <img src="img/Game.png">
-                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
             </div>
             <div class="container">
 
@@ -577,7 +576,7 @@ function bottom(){
             </div>
 
             <div class="container" style="background-color:#f1f1f1; color: #0d0d0d">
-                <span class="password">Esqueci-me da <a href="#" style="color: #00aff1">palavra-passe?</a></span>
+                <span class="password">Esqueci-me da <a href="editaPassword.php" style="color: #00aff1">palavra-passe?</a></span>
             </div>
         </form>
     </div>

@@ -608,7 +608,7 @@ function bottom(){
                 </div>
 
                 <div class="container" style="background-color:#f1f1f1; color: #0d0d0d">
-                    <span class="password">Esqueci-me da <a href="#" style="color: #00aff1">palavra-passe?</a></span>
+                    <span class="password">Esqueci-me da <a href="editaPassword.php" style="color: #00aff1">palavra-passe?</a></span>
                 </div>
             </form>
         </div>

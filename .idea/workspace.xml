@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-nurthing">
-      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-AJAXFillFrontReviews">
+      <change afterPath="$PROJECT_DIR$/editaPassword.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/enviaEmail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaRegistar.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaRegistar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,21 +261,7 @@
       <workItem from="1624617148297" duration="11000" />
       <workItem from="1624621362879" duration="610000" />
       <workItem from="1624867832467" duration="653000" />
-      <workItem from="1624873408874" duration="5894000" />
-    </task>
-    <task id="LOCAL-00255" summary="Guilherme- Carrinho works">
-      <created>1620834217961</created>
-      <option name="number" value="00255" />
-      <option name="presentableId" value="LOCAL-00255" />
-      <option name="project" value="LOCAL" />
-      <updated>1620834217961</updated>
-    </task>
-    <task id="LOCAL-00256" summary="Guilherme- Carrinho works">
-      <created>1621248400809</created>
-      <option name="number" value="00256" />
-      <option name="presentableId" value="LOCAL-00256" />
-      <option name="project" value="LOCAL" />
-      <updated>1621248400810</updated>
+      <workItem from="1624873408874" duration="13442000" />
     </task>
     <task id="LOCAL-00257" summary="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo">
       <created>1621250869122</created>
@@ -610,7 +592,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624868320853</updated>
     </task>
-    <option name="localTasksCounter" value="304" />
+    <task id="LOCAL-00304" summary="Guilherme-AJAXFillFrontReviews">
+      <created>1624880434017</created>
+      <option name="number" value="00304" />
+      <option name="presentableId" value="LOCAL-00304" />
+      <option name="project" value="LOCAL" />
+      <updated>1624880434017</updated>
+    </task>
+    <task id="LOCAL-00305" summary="Guilherme-AJAXFillFrontReviews">
+      <created>1624880452908</created>
+      <option name="number" value="00305" />
+      <option name="presentableId" value="LOCAL-00305" />
+      <option name="project" value="LOCAL" />
+      <updated>1624880452908</updated>
+    </task>
+    <option name="localTasksCounter" value="306" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +625,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Navbar fix" />
     <MESSAGE value="Guilherme- Reviews" />
     <MESSAGE value="Guilherme- User Alterar Estado e Tipo por selects" />
     <MESSAGE value="Guilherme- Filtragem por tags ajax" />
@@ -654,6 +649,7 @@
     <MESSAGE value="Guilherme -&#10;checkout" />
     <MESSAGE value="Guilherme-ConfirmaEditaPerfil &#10;Header-perfiluser.php?id=&quot;.$id" />
     <MESSAGE value="Guilherme-nurthing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-nurthing" />
+    <MESSAGE value="Guilherme-AJAXFillFrontReviews" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-AJAXFillFrontReviews" />
   </component>
 </project>

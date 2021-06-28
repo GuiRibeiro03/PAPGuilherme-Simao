@@ -23,7 +23,8 @@ while ($dados=mysqli_fetch_array($res)){
 
     }elseif($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'pendente' ) {
         $verificacao = 'sim';
-        $_SESSION['msgVerify'] = "1";
+        $_SESSION['id'] = $dados['userId'];
+        $_SESSION['nome'] = $dados['userName'];
         header("location: ".$_SERVER['HTTP_REFERER']);
 
 }elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){

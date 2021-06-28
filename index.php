@@ -29,7 +29,7 @@ $result4=mysqli_query($con,$sql3);
                     <div class="tab-elem">
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item">
-                                <a class="nav-link active" data-toggle="tab" href="#news" role="tab">Noticias</a>
+                                <a class="nav-link active" data-toggle="tab" href="#news" role="tab"></a>
                             </li>
                         </ul><!-- Tab panes -->
                         <div class="tab-content">
