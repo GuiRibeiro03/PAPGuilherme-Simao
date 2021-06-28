@@ -12,5 +12,5 @@ define("COMPANIES", 6);
 define("GENRES", 7);
 define("PLATFORMS", 8);
 define("GAMESFRONT", 9);
-
+define("REVIEWSFRONT", 10);
 ?>

@@ -133,6 +133,13 @@ function top($menu=HOME){
                 });
                 fillJogosFrontoffice();
                 <?php
+                } elseif($menu==REVIEWSFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillReviewsFrontoffice(this.value);
+                });
+                fillReviewsFrontoffice();
+                <?php
                 }
                 ?>
             })

@@ -10,6 +10,7 @@ $entidadeId=intval($_GET["id"]);
 $entidadeTipo=addslashes($_POST["comentarioEntidade"]);
 $comentarioTexto=addslashes($_POST["comentarioTexto"]);
 $comentarioData=addslashes($_POST["comentarioData"]);
+
 //*********************************************************
 
 

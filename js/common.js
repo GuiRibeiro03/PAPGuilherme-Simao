@@ -105,6 +105,19 @@ function fillJogosFrontoffice(txt = ''){
 }
 
 
+function fillReviewsFrontoffice(txt = ''){
+    $.ajax({
+        url:"AJAX/AJAXFillFrontReviews.php",
+        type:"post",
+        data:{
+            txt:txt
+        },
+        success:function (result){
+            $('#tableContent').html(result);
+        }
+    });
+}
+
 //******************************************EliminaFunções****************************************
 
 
