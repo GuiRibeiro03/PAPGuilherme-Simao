@@ -496,7 +496,7 @@ function bottom(){
 
     <!--*********** Modal Registar **************-->
 
-    <div id="id02" class="modal">
+    <div id="id02" class="modal" >
 
 
         <form class="modal-content animate" action="confirmaRegistar.php" method="post" enctype="multipart/form-data">
@@ -505,19 +505,43 @@ function bottom(){
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             </div>
             <div class="container">
-
+                <h4>Registar:</h4>
+                <br>
                 <div class="form-floating mb-3">
                 <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
-                <input type="text" class="form-control" id="floatingInput" name="userName"  required>
+                <input type="text" class="form-control" id="floatingInput" name="userName"  required> <!-- PerfilNome -->
                 </div>
 
                 <div class="form-floating mb-3">
                 <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
-                <input type="password" class="form-control" id="floatingInput"  name="password" required>
+                <input type="password" class="form-control" id="floatingInput"  name="password" required> <!-- Password -->
+                </div>
+
+
+                <div class="form-floating mb-3">
+                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Morada:</b></label>
+                    <input type="text" class="form-control" id="floatingInput"  name="morada" required> <!-- Password -->
+                </div>
+
+
+                <div class="form-floating mb-3">
+                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Telefone:</b></label>
+                    <input type="number" class="form-control" id="floatingInput"  name="telefone" required> <!-- Password -->
+                </div>
+
+
+                <div class="form-floating mb-3">
+                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Email:</b></label>
+                    <input type="email" class="form-control" id="floatingInput"  name="morada" required> <!-- Password -->
+                </div>
+
+
+
                 </div>
 
                 <div class="form-floating mb-3">
-                    <label id="imagem"><b>Imagem de Perfil:</b></label>
+                    <label id="imagem"><b>Imagem de Perfil:</b></label> <!-- Imagem -->
+                </div>
                     <input type="file" accept="image/*" name="perfilAvatarURL" onchange="preview_image(event)" style="color: darkgray">
                     <img id="output_image" style="height: 20%; width: 40%;"/><hr>
                 </div>
@@ -562,7 +586,8 @@ function bottom(){
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
             </div>
             <div class="container">
-
+                <h4>Entrar:</h4>
+                <br>
                 <div class="form-floating mb-3">
                     <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
                     <input type="text" class="form-control" id="floatingInput" name="nome"  required>

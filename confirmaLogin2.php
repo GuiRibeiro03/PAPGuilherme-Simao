@@ -14,6 +14,7 @@ while ($dados=mysqli_fetch_array($res)){
         session_start();
         $_SESSION['id'] = $dados['userId'];
         $_SESSION['nome'] = $dados['userName'];
+        $_SESSION['perfilId'] = $dados['perfilId'];
         header("location: ".$_SERVER['HTTP_REFERER']);
 
     }elseif($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'inativo' ) {
@@ -25,6 +26,7 @@ while ($dados=mysqli_fetch_array($res)){
         $verificacao = 'sim';
         $_SESSION['id'] = $dados['userId'];
         $_SESSION['nome'] = $dados['userName'];
+        $_SESSION['perfilId'] = $dados['perfilId'];
         header("location: ".$_SERVER['HTTP_REFERER']);
 
 }elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){

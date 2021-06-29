@@ -51,7 +51,8 @@ if($dados['userType']=='admin'){
     <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: #0d0d0d; color: #FFF; font-weight: bold">
         <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>" style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold"><li class="list-group-item">Definições de Perfil <i class="fa fa-edit"></i></li></a>
         <a href="backoffice/Backoffice.php" style="color: #FFFFFF; font-weight: bold; background-color: black"><li class="list-group-item">Backoffice</li></a>
-            </ul>
+        <a href="#"><li class="list-group-item">Meus Anúncios</li></a>
+    </ul>
     <?php
 }elseif ($dados['userType']=='editor'){
     ?>
@@ -59,7 +60,6 @@ if($dados['userType']=='admin'){
     <ul class="list-group" style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
         <li class="list-group-item"><a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Definições de Perfil <i class="fa fa-edit"></i></button></a></li>
         <li class="list-group-item"><a href="backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-danger" style="margin-left: 20%; font-size: 100% ">Lista de desejos</button></a></li>
-
     </ul>
 
     <?php
@@ -67,8 +67,9 @@ if($dados['userType']=='admin'){
     ?>
 
     <ul class="list-group" style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
-        <li class="list-group-item"><a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"><button type="button" class="btn btn-info" style="margin-left: 20%; font-size: 100% ">Definições de Perfil <i class="fa fa-edit"></i></button></a></li>
-        <li class="list-group-item"><a href="backoffice/reviewsBackoffice.php"><button type="button" class="btn btn-danger" style="margin-left: 20%; font-size: 100% ">Lista de desejos</button></a></li>
+        <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>" style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold"><li class="list-group-item">Definições de Perfil <i class="fa fa-edit"></i></li></a>
+        <a href="#"><li class="list-group-item">Lista de desejos</li></a>
+        <a href="#"><li class="list-group-item">Meus Anúncios</li></a>
 
     </ul>
 
