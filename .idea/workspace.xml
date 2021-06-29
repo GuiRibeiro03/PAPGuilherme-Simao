@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- AJAX outlet">
+      <change afterPath="$PROJECT_DIR$/Elimina/eliminaComentario.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/AJAXFrontOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFrontOutlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,14 +262,7 @@
       <workItem from="1624621362879" duration="610000" />
       <workItem from="1624867832467" duration="653000" />
       <workItem from="1624873408874" duration="14342000" />
-      <workItem from="1624954023546" duration="6112000" />
-    </task>
-    <task id="LOCAL-00260" summary="Guilherme- Reviews">
-      <created>1621330227493</created>
-      <option name="number" value="00260" />
-      <option name="presentableId" value="LOCAL-00260" />
-      <option name="project" value="LOCAL" />
-      <updated>1621330227493</updated>
+      <workItem from="1624954023546" duration="7860000" />
     </task>
     <task id="LOCAL-00261" summary="Guilherme- Reviews">
       <created>1621330316117</created>
@@ -607,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624958263801</updated>
     </task>
-    <option name="localTasksCounter" value="309" />
+    <task id="LOCAL-00309" summary="Guilherme- AJAX outlet">
+      <created>1624960431487</created>
+      <option name="number" value="00309" />
+      <option name="presentableId" value="LOCAL-00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1624960431487</updated>
+    </task>
+    <option name="localTasksCounter" value="310" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

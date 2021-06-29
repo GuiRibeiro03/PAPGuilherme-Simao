@@ -77,7 +77,9 @@ $result2=mysqli_query($con,$sql2);
 
                                 <div class="row" style="margin-left: 5px">
                                     <span  id="btnLike" onclick="countClicks(this)" class="fa fa-thumbs-up text-secondary" style="font-size: 20px; margin-right: 5px"></span>
-                                    <span  id="btnDislike" onclick="countClicks2(this)" class="fa fa-thumbs-down text-secondary" style="font-size: 20px; margin-left: 5px"></span></div>
+                                    <span  id="btnDislike" onclick="countClicks2(this)" class="fa fa-thumbs-down text-secondary" style="font-size: 20px; margin-left: 5px"></span>
+                                    <span style="margin-left: 90%"><a href="Elimina/eliminaComentario.php?id=<?php echo $dadosComents['comentarioId'];?>" ><i class="fa fa-trash"></i></a></span>
+                                </div>
                             </div>
 
                             <?php
@@ -93,7 +95,7 @@ $result2=mysqli_query($con,$sql2);
 
                                 <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</strong> </span>
                                 <form action="Confirma/ConfirmaAdicionaComentarioNoticia.php?id=<?php echo $id?>" style="padding-top: 20px" method="post">
-                                    <input type="datetime-local" name="comentarioData" style="margin-bottom: 20px">
+
                                     <textarea required spellcheck="true" name="comentarioTexto"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px"></textarea>
                                     <input type="hidden" name="comentarioEntidade" value="noticia">
                                     <button type="submit">Comentar</button>
