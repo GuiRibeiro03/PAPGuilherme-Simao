@@ -171,6 +171,13 @@ function top($menu=HOME){
                 });
                 fillReviewsFrontoffice();
                 <?php
+                } elseif($menu==OUTLETFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillOutletFrontoffice(this.value);
+                });
+                fillOutletFrontoffice();
+                <?php
                 }
                 ?>
             })

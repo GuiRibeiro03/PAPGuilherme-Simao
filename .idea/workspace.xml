@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tags reviews">
-      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFrontOutlet.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme- AJAX outlet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFrontOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFrontOutlet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -261,14 +262,7 @@
       <workItem from="1624621362879" duration="610000" />
       <workItem from="1624867832467" duration="653000" />
       <workItem from="1624873408874" duration="14342000" />
-      <workItem from="1624954023546" duration="3901000" />
-    </task>
-    <task id="LOCAL-00259" summary="Guilherme- Navbar fix">
-      <created>1621324770662</created>
-      <option name="number" value="00259" />
-      <option name="presentableId" value="LOCAL-00259" />
-      <option name="project" value="LOCAL" />
-      <updated>1621324770662</updated>
+      <workItem from="1624954023546" duration="6112000" />
     </task>
     <task id="LOCAL-00260" summary="Guilherme- Reviews">
       <created>1621330227493</created>
@@ -606,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624957241521</updated>
     </task>
-    <option name="localTasksCounter" value="308" />
+    <task id="LOCAL-00308" summary="Guilherme- AJAX outlet">
+      <created>1624958263801</created>
+      <option name="number" value="00308" />
+      <option name="presentableId" value="LOCAL-00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1624958263801</updated>
+    </task>
+    <option name="localTasksCounter" value="309" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +626,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- User Alterar Estado e Tipo por selects" />
     <MESSAGE value="Guilherme- Filtragem por tags ajax" />
     <MESSAGE value="Guilherme- Registar" />
     <MESSAGE value="Guilherme- Update userState e userType" />
@@ -650,6 +650,7 @@
     <MESSAGE value="Guilherme-nurthing" />
     <MESSAGE value="Guilherme-AJAXFillFrontReviews" />
     <MESSAGE value="Guilherme-Tags reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tags reviews" />
+    <MESSAGE value="Guilherme- AJAX outlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme- AJAX outlet" />
   </component>
 </project>

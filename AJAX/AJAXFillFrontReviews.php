@@ -1,5 +1,6 @@
 <?php
 include_once("../includes/body.inc.php");
+
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $txt=addslashes($_POST['txt']);
 $sql="select * from reviews inner join jogos on jogoId = reviewJogoId where jogoNome like '%$txt%' ";

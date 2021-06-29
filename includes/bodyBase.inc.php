@@ -151,11 +151,6 @@ function top($menu=HOME){
                 ?>
             })
 
-
-
-
-
-
         </script>
 
 
