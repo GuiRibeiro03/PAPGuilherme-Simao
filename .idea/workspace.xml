@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Outlet">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-UserRegistar/Blog">
       <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaRegistar.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaRegistar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/verificaUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/verificaUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,14 +258,7 @@
       <workItem from="1624873408874" duration="14342000" />
       <workItem from="1624954023546" duration="7860000" />
       <workItem from="1624962021834" duration="39000" />
-      <workItem from="1624962263267" duration="10617000" />
-    </task>
-    <task id="LOCAL-00264" summary="Guilherme- User Alterar Estado e Tipo por selects">
-      <created>1621338070635</created>
-      <option name="number" value="00264" />
-      <option name="presentableId" value="LOCAL-00264" />
-      <option name="project" value="LOCAL" />
-      <updated>1621338070635</updated>
+      <workItem from="1624962263267" duration="10932000" />
     </task>
     <task id="LOCAL-00265" summary="Guilherme- Filtragem por tags ajax">
       <created>1621351259435</created>
@@ -610,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624977374940</updated>
     </task>
-    <option name="localTasksCounter" value="313" />
+    <task id="LOCAL-00313" summary="Guilherme-UserRegistar/Blog">
+      <created>1624980147219</created>
+      <option name="number" value="00313" />
+      <option name="presentableId" value="LOCAL-00313" />
+      <option name="project" value="LOCAL" />
+      <updated>1624980147219</updated>
+    </task>
+    <option name="localTasksCounter" value="314" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,7 +622,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Filtragem por tags workings" />
     <MESSAGE value="Guilherme- Eliminar produto" />
     <MESSAGE value="Guilherme" />
     <MESSAGE value="Guilherme-Login/Registar/Users" />
@@ -654,6 +646,7 @@
     <MESSAGE value="Comentários final" />
     <MESSAGE value="Guilherme-Correção Edita Reviews" />
     <MESSAGE value="Guilherme-Outlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Outlet" />
+    <MESSAGE value="Guilherme-UserRegistar/Blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-UserRegistar/Blog" />
   </component>
 </project>

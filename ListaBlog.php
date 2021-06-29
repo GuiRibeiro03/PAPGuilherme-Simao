@@ -80,6 +80,11 @@ $result2=mysqli_query($con,$sql2);
                                 </div>
                             </div>
 
+
+
+
+
+
                             <?php
                         }
                         ?>
@@ -120,6 +125,11 @@ $result2=mysqli_query($con,$sql2);
 
 
 
+                            <div class="row-cols-2" style="width: 100%;">
+                                <div class="details-hero-text" style="margin-bottom: 2%" >
+                                <div class="label"><span style="font-size: 20px">Mais Notícias:</span></div>
+                                </div>
+
 
                                     <?php
                                     while($dados2=mysqli_fetch_array($result2)){
@@ -141,6 +151,7 @@ $result2=mysqli_query($con,$sql2);
                                     }
                                     ?>
 
+</div>
 
     </section>
     <!-- Details Post Section End -->
