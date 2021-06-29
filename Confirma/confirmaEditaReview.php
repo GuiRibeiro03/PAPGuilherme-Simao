@@ -6,17 +6,16 @@ $reviewData=addslashes($_POST["reviewData"]);
 $reviewText=addslashes($_POST["reviewTexto"]);
 $reviewAutor=addslashes($_POST["reviewAutor"]);
 $reviewJogoId=intval($_POST["reviewJogoId"]);
-$img2=$_FILES['reviewImagemURL']["name"];
-$novoNome2="img/wallpapers/".$img2;
-
+$img=$_FILES["reviewImagemURL"]["name"];
+$novoNome="../img/wallpapers/".$img;
 
 
 
 $sql="UPDATE reviews SET reviewAutor='".$reviewAutor."', reviewTexto='".$reviewText."',reviewJogoId='".$reviewJogoId."', reviewData='".$reviewData."'";
 
-if($img2!=''){
-    $sql.=", reviewImagemURL='".$novoNome2."' ";
-    copy($_FILES['reviewImagemURL']['name'],$novoNome2);
+if($img!=''){
+    $sql.=", reviewImagemURL='".$novoNome."' ";
+    copy($_FILES['reviewImagemURL']['tmp_name'],$novoNome);
 }
 
 $sql.="where reviewId=".$id;

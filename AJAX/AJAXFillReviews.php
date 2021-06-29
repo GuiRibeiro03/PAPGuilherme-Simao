@@ -27,7 +27,7 @@ $result=mysqli_query($con, $sql);
 
     <tr>
         <td><?php echo $dados['reviewId'] ?></td>
-        <td> <img  style='width: 600px; height: 350px' src="../<?php echo $dados['reviewImagemURL']?>"></td>
+        <td> <img  style='width: 600px; height: 350px' src="<?php echo $dados['reviewImagemURL']?>"></td>
         <td><?php echo $dados['jogoNome'] ?></td>
         <td><a href="../Edita/EditaReview.php?id=<?php echo $dados['reviewId']?>"><button type='button' class='btn btn-primary'><i class='fa fa-edit'></i>&nbsp;Editar</button></a></td>
         <td><a href="#" onclick="confirmaEliminaReview(<?php echo $dados['reviewId']?>);"><button type='button' class='btn btn-danger'><i class='fa fa-trash'></i>&nbsp;Eliminar</button></a></td>
