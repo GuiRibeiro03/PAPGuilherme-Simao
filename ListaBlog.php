@@ -23,7 +23,7 @@ $result2=mysqli_query($con,$sql2);
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="details-hero-text" >
+                    <div class="details-hero-text" style="width: 1000px" >
                         <div class="label"><span>Notícia</span></div>
                         <h3 style=" font-size: 30px; color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><?php echo $dados["noticiaTitulo"]?></h3>
                         <ul>

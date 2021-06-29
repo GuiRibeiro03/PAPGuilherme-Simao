@@ -12,42 +12,34 @@ $dados=mysqli_fetch_array($result);
 
 
 
-    <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="<?php echo $dados['reviewImagemURL']?>" style="height: 70%; width: 100%">
-        <div class="container">
-            <div class="row">
-                    <div class="details-hero-text">
-                        <div class="label"><span>Análise</span></div>
-                        <h1 style="text-shadow: 2px 2px 0px #FF0000;"><?php echo $dados['jogoNome']?></h1>
-                        <ul>
-                            <li><span><?php echo $dados['reviewAutor']?></span></li>
-                            <li><i class="fa fa-clock-o"></i> <?php echo $dados['reviewData']?></li>
 
-                        </ul>
-                    </div>
-
-            </div>
-        </div>
-    </section>
     <!-- Details Hero Section End -->
 
     <!-- Details Post Section Begin -->
-    <section class="details-post-section" style="margin-left: auto">
+    <section class="details-post-section" style="margin-left: auto; margin-top: 3%">
         <div class="container">
+            <div class="row">
+                <div class="details-hero-text">
+                    <div class="label"><span>Análise</span></div>
+                    <h1 style="text-shadow: 2px 2px 0px #FF0000;"><?php echo $dados['jogoNome']?></h1>
+                    <ul>
+                        <li><span><?php echo $dados['reviewAutor']?></span></li>
+                        <li><i class="fa fa-clock-o"></i> <?php echo $dados['reviewData']?></li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="container"  ">
             <div class="row">
                     <div class="details-text"  style="width: 100%">
 
-                        <div style="color: white; font-size: 20px;">
-                            <span style="color: white;"><b>Analista:</b></span>
-                            <span><?php echo $dados['reviewAutor']?>   |</span>
-                            &nbsp;
-                            <span><?php echo $dados['reviewData']?></span>
-                        </div>
-
-                        <div class="dt-desc" style="margin-top: 5%">
-                            <label style="font-weight: bold; font-size: 20px">Análise:</label>
+                        <div class="dt-desc" style="margin-top: 5%; margin-bottom: 5%; ">
                             <p style="font-size: 16px;"><?php echo $dados['reviewTexto']?></p>
                         </div>
+
+
                         <div class="dt-overall-rating">
                             <div style="color: #FFFFFF; font-size: 40px; margin-left: 40%;"><strong><span><strong>RESULTADOS</strong></span></strong></div>
                             <hr>
@@ -151,6 +143,8 @@ $dados=mysqli_fetch_array($result);
                             &nbsp;
                             &nbsp;
                             <?php
+
+                            $con=mysqli_connect("localhost", "root","","pap2021gameon");
                             $sql2="select jogoNome,empresaNome,generoNome,plataformaNome from jogos 
 
 										inner join empresas on jogoEmpresaId=empresaId
@@ -158,6 +152,7 @@ $dados=mysqli_fetch_array($result);
 										inner join generos on jogoGeneroGeneroId=generoId
 										inner join jogoplataformas on jogoPlataformaJogoId=jogoId
 										inner join plataformas on jogoPlataformaPlataformaId=plataformaId
+                                        inner join reviews on reviewJogoId=jogoId
 																			
 										 where jogoId=".$dados['jogoId'];
 
@@ -166,9 +161,10 @@ $dados=mysqli_fetch_array($result);
                             while ($dados2=mysqli_fetch_array($res2)){
                             ?>
 
+
                             <a href="#"><span id="tag1"><?php $dados2['empresaNome'] ?></span></a>
-                            <a href="#"><span id="tag1"><?php $dados2['plataformaNome'] ?></span></a>
-                            <a href="#"><span id="tag1"><?php $dados2['generoNome'] ?></span></a>
+                            <a href="#"><span id="tag2"><?php $dados2['plataformaNome'] ?></span></a>
+                            <a href="#"><span id="tag3"><?php $dados2['generoNome'] ?></span></a>
                                 <?php
                             }
                                 ?>
