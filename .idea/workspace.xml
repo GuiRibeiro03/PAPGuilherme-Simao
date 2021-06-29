@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-AJAXFillFrontReviews">
-      <change afterPath="$PROJECT_DIR$/editaPassword.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/enviaEmail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enviaEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/enviaEmail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pcfarma" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -261,14 +258,8 @@
       <workItem from="1624617148297" duration="11000" />
       <workItem from="1624621362879" duration="610000" />
       <workItem from="1624867832467" duration="653000" />
-      <workItem from="1624873408874" duration="13442000" />
-    </task>
-    <task id="LOCAL-00257" summary="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo">
-      <created>1621250869122</created>
-      <option name="number" value="00257" />
-      <option name="presentableId" value="LOCAL-00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1621250869122</updated>
+      <workItem from="1624873408874" duration="14342000" />
+      <workItem from="1624954023546" duration="2986000" />
     </task>
     <task id="LOCAL-00258" summary="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo">
       <created>1621265313198</created>
@@ -606,7 +597,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624880452908</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="Guilherme-AJAXFillFrontReviews">
+      <created>1624893406742</created>
+      <option name="number" value="00306" />
+      <option name="presentableId" value="LOCAL-00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1624893406742</updated>
+    </task>
+    <option name="localTasksCounter" value="307" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

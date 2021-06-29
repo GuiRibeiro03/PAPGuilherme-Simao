@@ -23,5 +23,7 @@ if( $retval == true ) {
 }else {
     echo "Message could not be sent...";
 }
+
+header("Location: ")
 ?>
 
