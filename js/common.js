@@ -118,6 +118,20 @@ function fillReviewsFrontoffice(txt = ''){
     });
 }
 
+
+function fillOutletFrontoffice(txt = ''){
+    $.ajax({
+        url:"AJAX/AJAXFrontOutlet.php",
+        type:"post",
+        data:{
+            txt:txt
+        },
+        success:function (result){
+            $('#tableContent').html(result);
+        }
+    });
+}
+
 //******************************************EliminaFunções****************************************
 
 

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-AJAXFillFrontReviews">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tags reviews">
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFrontOutlet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/ConfirmaAdicionaComentarioNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enviaEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/enviaEmail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pcfarma" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -259,14 +261,7 @@
       <workItem from="1624621362879" duration="610000" />
       <workItem from="1624867832467" duration="653000" />
       <workItem from="1624873408874" duration="14342000" />
-      <workItem from="1624954023546" duration="2986000" />
-    </task>
-    <task id="LOCAL-00258" summary="Guilherme- Carrinho works MAS a navbar estragou-se pela alma do diabo">
-      <created>1621265313198</created>
-      <option name="number" value="00258" />
-      <option name="presentableId" value="LOCAL-00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1621265313198</updated>
+      <workItem from="1624954023546" duration="3901000" />
     </task>
     <task id="LOCAL-00259" summary="Guilherme- Navbar fix">
       <created>1621324770662</created>
@@ -604,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624893406742</updated>
     </task>
-    <option name="localTasksCounter" value="307" />
+    <task id="LOCAL-00307" summary="Guilherme-Tags reviews">
+      <created>1624957241520</created>
+      <option name="number" value="00307" />
+      <option name="presentableId" value="LOCAL-00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1624957241521</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -623,7 +625,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Reviews" />
     <MESSAGE value="Guilherme- User Alterar Estado e Tipo por selects" />
     <MESSAGE value="Guilherme- Filtragem por tags ajax" />
     <MESSAGE value="Guilherme- Registar" />
@@ -648,6 +649,7 @@
     <MESSAGE value="Guilherme-ConfirmaEditaPerfil &#10;Header-perfiluser.php?id=&quot;.$id" />
     <MESSAGE value="Guilherme-nurthing" />
     <MESSAGE value="Guilherme-AJAXFillFrontReviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-AJAXFillFrontReviews" />
+    <MESSAGE value="Guilherme-Tags reviews" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tags reviews" />
   </component>
 </project>
