@@ -194,7 +194,6 @@ function top($menu=HOME){
                         <div class="ht-widget">
                             <?php
                             if(!isset($_SESSION['id'])){
-
                                 ?>
                                 <ul class="float-right" style="margin-top: 15px">
                                     <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
@@ -505,28 +504,28 @@ function bottom(){
                 <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
             </div>
             <div class="container">
-                <h4>Registar:</h4>
+                <h4>Registar: </h4>
                 <br>
                 <div class="form-floating mb-3">
                 <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
-                <input type="text" class="form-control" id="floatingInput" name="userName"  required> <!-- PerfilNome -->
+                <input type="text" class="form-control" id="floatingInput" name="userName" placeholder="Introduza o seu nome.."  required> <!-- PerfilNome -->
                 </div>
 
                 <div class="form-floating mb-3">
                 <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
-                <input type="password" class="form-control" id="floatingInput"  name="password" required> <!-- Password -->
+                <input type="password" class="form-control" id="floatingInput"  name="password" placeholder="Introduza uma password que se lembre.."  required> <!-- Password -->
                 </div>
 
 
                 <div class="form-floating mb-3">
                     <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Morada:</b></label>
-                    <input type="text" class="form-control" id="floatingInput"  name="morada" required> <!-- Password -->
+                    <input type="text" class="form-control" id="floatingInput"  name="morada" placeholder="Introduza a sua morada" required> <!-- Password -->
                 </div>
 
 
                 <div class="form-floating mb-3">
                     <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Telefone:</b></label>
-                    <input type="number" class="form-control" id="floatingInput"  name="telefone" required> <!-- Password -->
+                    <input type="text" class="form-control" id="floatingInput"  name="telefone" placeholder="ex:953224231" maxlength="9" required> <!-- Password -->
                 </div>
 
 
@@ -537,24 +536,17 @@ function bottom(){
 
 
 
-                </div>
+
 
                 <div class="form-floating mb-3">
-                    <label id="imagem"><b>Imagem de Perfil:</b></label> <!-- Imagem -->
+                    <label id="imagem" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; padding: 5px 10px 5px 10px; border-radius: 4px; width: auto; text-align: center"><b>Imagem de Perfil:</b></label> <!-- Imagem -->
                 </div>
                     <input type="file" accept="image/*" name="perfilAvatarURL" onchange="preview_image(event)" style="color: darkgray">
-                    <img id="output_image" style="height: 20%; width: 40%;"/><hr>
+
+
+                <div style="float: right"> <button type="submit" style=" border-radius: 10px;background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button></div>
                 </div>
 
-
-                <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button>
-                <hr>
-
-            </div>
-
-            <div class="container" style="background-color:#f1f1f1; color: #0d0d0d">
-                <span class="password">Esqueci-me da <a href="#" style="color: #00aff1">palavra-passe?</a></span>
-            </div>
         </form>
     </div>
 

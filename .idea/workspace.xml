@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Correção Edita Reviews">
-      <change afterPath="$PROJECT_DIR$/Adiciona/AdicionaProdutoOutlet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Confirma/confirmaAdicionaProdutoOutlet.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Outlet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFrontOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFrontOutlet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/confirmaRegistar.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaRegistar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/verificaUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/verificaUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,14 +265,7 @@
       <workItem from="1624873408874" duration="14342000" />
       <workItem from="1624954023546" duration="7860000" />
       <workItem from="1624962021834" duration="39000" />
-      <workItem from="1624962263267" duration="7899000" />
-    </task>
-    <task id="LOCAL-00263" summary="Guilherme- User Alterar Estado e Tipo por selects">
-      <created>1621336907284</created>
-      <option name="number" value="00263" />
-      <option name="presentableId" value="LOCAL-00263" />
-      <option name="project" value="LOCAL" />
-      <updated>1621336907284</updated>
+      <workItem from="1624962263267" duration="10617000" />
     </task>
     <task id="LOCAL-00264" summary="Guilherme- User Alterar Estado e Tipo por selects">
       <created>1621338070635</created>
@@ -611,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624964278690</updated>
     </task>
-    <option name="localTasksCounter" value="312" />
+    <task id="LOCAL-00312" summary="Guilherme-Outlet">
+      <created>1624977374940</created>
+      <option name="number" value="00312" />
+      <option name="presentableId" value="LOCAL-00312" />
+      <option name="project" value="LOCAL" />
+      <updated>1624977374940</updated>
+    </task>
+    <option name="localTasksCounter" value="313" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +629,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Update userState e userType" />
     <MESSAGE value="Guilherme- Filtragem por tags workings" />
     <MESSAGE value="Guilherme- Eliminar produto" />
     <MESSAGE value="Guilherme" />
@@ -655,6 +653,7 @@
     <MESSAGE value="Guilherme- AJAX outlet" />
     <MESSAGE value="Comentários final" />
     <MESSAGE value="Guilherme-Correção Edita Reviews" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Correção Edita Reviews" />
+    <MESSAGE value="Guilherme-Outlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Outlet" />
   </component>
 </project>

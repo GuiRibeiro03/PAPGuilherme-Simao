@@ -15,7 +15,11 @@ $result2=mysqli_query($con,$sql2);
 
 ?>
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="img/<?php echo $dados["noticiaImagemFundoURL"]?>" style="height: 70%; width: 100%">
+
+    <!-- Details Hero Section End -->
+
+    <!-- Details Post Section Begin -->
+    <section class="details-post-section spad" style="width: 100%; margin-top: 2% " >
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
@@ -30,27 +34,21 @@ $result2=mysqli_query($con,$sql2);
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Details Hero Section End -->
 
-    <!-- Details Post Section Begin -->
-    <section class="details-post-section spad" style="width: 100%" >
-        <div class="container">
+        <div class="container" >
             <div class="row">
-                <div class="col-lg-8 p-0">
+
                     <div class="details-text">
                        <br>
                         <div class="dt-item" >
-                            <p style="color: #FFFFFF"> <?php echo $dados["noticiaDesenvolvimento"]?> </p>
+                            <span style="color: #FFFFFF"> <?php echo $dados["noticiaDesenvolvimento"]?> </span>
                         </div>
 
-                        <div class="dt-last-desc">
-                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="">
+                        <div class="dt-last-desc" style="text-align: center">
+                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="" style="width: 60%;">
                         </div>
                         <div class="dt-tags">
-                            <a href="blog.php"><span><?php ?></span></a>
-                            <a href="blog.php"><span>PC</span></a>
+                                                    <a href="blog.php"><span>PC</span></a>
                             <a href="blogTagExemplo.html"><span>Playstation</span></a>
                             <a href="blog.php"><span>CD Projekt Red</span></a>
                         </div>
@@ -118,18 +116,16 @@ $result2=mysqli_query($con,$sql2);
 
                             </div>
                         </div>
+                        </div>
 
-                        <div class="col-lg-4 col-md-7">
-                            <div class="sidebar-option">
 
-                                <div class="hardware-guides">
-                                    <div class="section-title">
-                                        <h5>Mais noticias</h5>
-                                    </div>
+
+
                                     <?php
                                     while($dados2=mysqli_fetch_array($result2)){
                                         ?>
                                         <div class="trending-item">
+
                                             <div class="ti-pic">
                                                 <a href="ListaBlog.php?id=<?php echo $dados2["noticiaId"]?>"><img src="img/<?php echo $dados2["noticiaImagemFundoURL"]?>" style="height: 140px; width: 180px" alt=""></a>
                                             </div>
@@ -144,28 +140,8 @@ $result2=mysqli_query($con,$sql2);
                                         <?php
                                     }
                                     ?>
-                                    <div class="hardware-guides">
-                                        <div class="section-title">
-                                            <h5>Contacte um administrador</h5>
-                                        </div>
-                                        <div class="trending-item">
-                                            <div class="ti-text">
-                                                <ul>
-                                                    <li><i class="fa fa-envelope"></i>simaobercial80@gmail.com <br>
-                                                        <i class="fa fa-phone"></i>914064958</li>
-                                                </ul>
-                                                <br>
-                                                <ul>
-                                                    <li><i class="fa fa-envelope"></i>guilhas.ribeiro23@yahoo.com <br>
-                                                        <i class="fa fa-phone"></i>227tiratirametemete</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+
     </section>
     <!-- Details Post Section End -->
 

@@ -9,18 +9,20 @@ session_start();
 $_SESSION['carrinho'][0]=-1;
 
 
+/*
 if(isset($_GET['msg'])) {
 
     alert("Nome de utilizador ou palavra-passe errada, tente de novo.");
 
 }
-if(isset($_GET['message'])) {
+elseif(isset($_GET['message'])) {
 
     alertinativo("Esta conta foi desativada.");
 }
-if(isset($_GET['messageVerify'])){
 
-    alert("Esta conta ainda não foi ativada por um administrador.");
+elseif(isset($_GET['messageVerify'])){
+
+    alertPendente("Esta conta ainda não foi ativada por um administrador.");
 }
 
 
@@ -33,6 +35,11 @@ function alertinativo($message) {
 function alertPendente($messageVerify) {
     echo "<script type='text/javascript'>alert('$messageVerify');</script>";
 }
+
+
+*/
+
+
 function top($menu=HOME){
 
     ?>

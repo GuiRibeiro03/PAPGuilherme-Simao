@@ -31,7 +31,7 @@ while ($dados=mysqli_fetch_array($res)){
 
 }elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
          $_SESSION['msg'] = "1";
-        header("location: ".$_SERVER['HTTP_REFERER']);
+         header("location: ".$_SERVER['HTTP_REFERER']);
 
     }
 
