@@ -206,7 +206,7 @@ function top($menu=HOME){
                                     <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
                             <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span> </li>
 
-                                    <li><span onclick="document.getElementById('id02').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
+                                    <li><span onclick="document.getElementById('id02').style.display='block'"><a href="registar.php" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
                             <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
                                 </ul>
                                 <?php
@@ -223,7 +223,7 @@ function top($menu=HOME){
                                             </span><a href="#" ><button class="dropdown-toggle" style="background-color: transparent"><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"></a><span style="margin-left: 10px"></span></button></a>
                                             <div class="dropdown-content" style="background-color: #202020; color: #FFF">
 
-                                                <span><?php echo $dados["perfilNome"]?></span>
+                                                <span><?php echo $dados["userName"]?></span>
                                                 <hr>
                                                 <?php
                                                 $con=mysqli_connect("localhost","root","","pap2021gameon");
@@ -502,7 +502,7 @@ function bottom(){
 
     <!--*********** Modal Registar **************-->
 
-    <div id="id02" class="modal" >
+    <!--<div id="id02" class="modal" >
 
 
         <form class="modal-content animate" action="confirmaRegistar.php" method="post" enctype="multipart/form-data">
@@ -515,38 +515,35 @@ function bottom(){
                 <br>
                 <div class="form-floating mb-3">
                 <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
-                <input type="text" class="form-control" id="floatingInput" name="userName" placeholder="Introduza o seu nome.."  required> <!-- PerfilNome -->
+                <input type="text" class="form-control" id="floatingInput" name="userName" placeholder="Introduza o seu nome.."  required>
                 </div>
 
                 <div class="form-floating mb-3">
                 <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
-                <input type="password" class="form-control" id="floatingInput"  name="password" placeholder="Introduza uma password que se lembre.."  required> <!-- Password -->
+                <input type="password" class="form-control" id="floatingInput"  name="password" placeholder="Introduza uma password que se lembre.."  required>
                 </div>
 
 
                 <div class="form-floating mb-3">
                     <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Morada:</b></label>
-                    <input type="text" class="form-control" id="floatingInput"  name="morada" placeholder="Introduza a sua morada" required> <!-- Password -->
+                    <input type="text" class="form-control" id="floatingInput"  name="morada" placeholder="Introduza a sua morada" required>
                 </div>
 
 
                 <div class="form-floating mb-3">
                     <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Telefone:</b></label>
-                    <input type="text" class="form-control" id="floatingInput"  name="telefone" placeholder="ex:953224231" maxlength="9" required> <!-- Password -->
+                    <input type="text" class="form-control" id="floatingInput"  name="telefone" placeholder="ex:953224231" maxlength="9" required>
                 </div>
 
 
                 <div class="form-floating mb-3">
                     <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Email:</b></label>
-                    <input type="email" class="form-control" id="floatingInput"  name="morada" required> <!-- Password -->
+                    <input type="email" class="form-control" id="floatingInput"  name="email" required>
                 </div>
 
 
-
-
-
                 <div class="form-floating mb-3">
-                    <label id="imagem" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; padding: 5px 10px 5px 10px; border-radius: 4px; width: auto; text-align: center"><b>Imagem de Perfil:</b></label> <!-- Imagem -->
+                    <label id="imagem" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; padding: 5px 10px 5px 10px; border-radius: 4px; width: auto; text-align: center"><b>Imagem de Perfil:</b></label>
                 </div>
                     <input type="file" accept="image/*" name="perfilAvatarURL" onchange="preview_image(event)" style="color: darkgray">
 
@@ -555,7 +552,7 @@ function bottom(){
                 </div>
 
         </form>
-    </div>
+    </div>-->
 
     <script>
         // Get the modal

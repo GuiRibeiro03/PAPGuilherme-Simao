@@ -33,16 +33,16 @@ $sql2="insert into perfis(perfilNome,perfilAvatarURL,perfilMorada,perfilTelefone
 mysqli_query($con,$sql2);
 
 
-
-
-
 session_start();
 $_SESSION['id']=$lastId;
 $_SESSION['nome']=$userName;
 
 error_reporting(E_ALL);
 
-//header("location:".$_SERVER['HTTP_REFERER']);
+print_r($sql);
+print_r($sql2);
+
+//header("location: index.php");
 
 
 ?>

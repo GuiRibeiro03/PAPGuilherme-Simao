@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-UserRegistar/Blog">
-      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontBlog.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Ajax Blog">
+      <change afterPath="$PROJECT_DIR$/registar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaLogin.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaRegistar.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaRegistar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/config.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/config.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +69,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -264,14 +265,7 @@
       <workItem from="1624954023546" duration="7860000" />
       <workItem from="1624962021834" duration="39000" />
       <workItem from="1624962263267" duration="12169000" />
-      <workItem from="1625041128226" duration="1598000" />
-    </task>
-    <task id="LOCAL-00267" summary="Guilherme- Registar">
-      <created>1621414741446</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1621414741447</updated>
+      <workItem from="1625041128226" duration="5323000" />
     </task>
     <task id="LOCAL-00268" summary="Guilherme- Update userState e userType">
       <created>1621416516070</created>
@@ -609,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624981627497</updated>
     </task>
-    <option name="localTasksCounter" value="316" />
+    <task id="LOCAL-00316" summary="Guilherme-Ajax Blog">
+      <created>1625046152237</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1625046152238</updated>
+    </task>
+    <option name="localTasksCounter" value="317" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +629,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Eliminar produto" />
     <MESSAGE value="Guilherme" />
     <MESSAGE value="Guilherme-Login/Registar/Users" />
     <MESSAGE value="Guilherme-Login/Registar/CSS" />
@@ -653,6 +653,7 @@
     <MESSAGE value="Guilherme-Correção Edita Reviews" />
     <MESSAGE value="Guilherme-Outlet" />
     <MESSAGE value="Guilherme-UserRegistar/Blog" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-UserRegistar/Blog" />
+    <MESSAGE value="Guilherme-Ajax Blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Ajax Blog" />
   </component>
 </project>
