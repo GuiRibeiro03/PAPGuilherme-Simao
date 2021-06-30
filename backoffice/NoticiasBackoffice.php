@@ -12,7 +12,7 @@ $dados=mysqli_fetch_array($res2);
 if($dados['userType']=='admin'){
 
 ?>
-?>
+
 
 <a href="Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 <section class="store" >

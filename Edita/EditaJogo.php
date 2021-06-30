@@ -84,9 +84,9 @@ $dados=mysqli_fetch_array($resultjogos);
     <a href="../backoffice/jogosBackoffice.php"><button type="button"  class="btn btn-primary">Voltar</button></a>
 <h2>Editar Jogo</h2>
 <hr>
-    <div><img id="output_image" src="<?php echo $dados["jogoImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width: 300px; height: 400px"/></div>
-    <input type="file" name="jogoImagemURL" accept="image/*" onclick="preview_image(event)">
 
+    <input type="file" name="jogoImagemURL" accept="image/*" onclick="preview_image(event)">
+    <div><img id="output_image" src="<?php echo $dados["jogoImagemURL"] ?>" style="margin-left: 20px; margin-bottom: 20px; width: 300px; height: 400px"/></div>
 
   <div style="margin-top: 20px">
 

@@ -2690,6 +2690,8 @@ tr {
 
 .details-text {
     margin-right: 40px;
+    width: auto;
+    text-align: justify;
 }
 
 
@@ -4561,7 +4563,6 @@ img.avatar {
 .container {
     padding: 16px;
 }
-
 span.psw {
     float: right;
     padding-top: 16px;

@@ -3,25 +3,24 @@ include_once("../includes/body.inc.php");
 $txt=addslashes($_POST['txt']);
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from jogos where jogoNome like '%$txt%' ";
-$sql2="select * from jogos ";
+
 
 
 $ord = 0;
 if (isset($_GET['ord'])) {
     $ord = $_GET['ord'];
     if ($ord == 1) {
-        $sql2 .= " order by jogoNome ASC";
+        $sql .= " order by jogoNome ASC";
     } elseif ($ord == 2)  {
-        $sql2 .= " order by jogoId DESC";
+        $sql .= " order by jogoId DESC";
     } elseif ($ord == 3)  {
-        $sql2 .= " order by jogoPreco ASC";
+        $sql .= " order by jogoPreco ASC";
     } elseif ($ord == 4)  {
-        $sql2 .= " order by jogoPreco DESC";
+        $sql .= " order by jogoPreco DESC";
     }
 
 }
 
-$result2=mysqli_query($con,$sql2);
 
 
 $result=mysqli_query($con,$sql);
@@ -29,7 +28,7 @@ $result=mysqli_query($con,$sql);
 
 
 
-<section class="store" style="padding-top: 40px; margin-left: 100px;  background-color: #0d0d0d;color: #FFFFFF">
+<section class="store" style="height:100%; padding-top: 40px; margin-left: 100px;  background-color: #0d0d0d;color: #FFFFFF">
 
     <div class=" container" style="width: 300px; float: left; height: 100%; position:relative; ">
 
@@ -112,7 +111,7 @@ $result=mysqli_query($con,$sql);
 
 
     <div class="dropdown">
-    <button onclick="myFunction()" class="dropbtn" style="background-color: #FFF;color: #0d0d0d; outline: solid 2px white; padding: 2px 5px; ">Ordenar produto por:</button>
+        <a href="jogos.php"><button onclick="myFunction()" class="dropbtn" style="background-color: #FFF;color: #0d0d0d; outline: solid 2px white; padding: 2px 5px; ">Ordenar produto por:</button></a>
     <div id="myDropdown" class="dropdown-content">
         <a href="jogos.php?ord=1" class="dropdown-item">A-Z</a>
         <a href="jogos.php?ord=2" class="dropdown-item">Mais recentes</a>
@@ -162,36 +161,6 @@ $result=mysqli_query($con,$sql);
             <?php
         }
 
-        if($ord != 0){
-
-        $i=0;
-        while ($dados2=mysqli_fetch_array($result2)){
-            $i+=1;
-
-        ?>
-
-            <div id="content"  class="col-lg-4 col-md-3" style=" margin-bottom: 5%">
-
-                <div  class="card" style="width: 19rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
-
-                    <a href="Listajogo.php?id=<?php echo $dados2["jogoId"]?>"><img src="img/<?php echo $dados2["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
-
-                    <div class="card-body">
-
-                        <a href="Listajogo.php?id=<?php echo $dados2["jogoId"] ?>"><h5 class="card-title"><?php echo $dados2["jogoNome"] ?></h5></a>
-
-                        <p class="card-text" style="font-size: 18px"><strong><?php echo $dados2["jogoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
-
-                        <a onclick="adicionaCarrinho(<?php echo $dados2["jogoId"] ?>)"  style="color: #dc3545;">
-                            <input type="submit" class="cart-button" value="Adicionar ao Carrinho" style="height: 50px; font-weight: bold"></a>
-                    </div>
-
-                </div>
-
-            </div>
-        <?php
-        }
-        }
         ?>
     </div>
 
@@ -240,15 +209,6 @@ $result=mysqli_query($con,$sql);
 
 
     </div>
-    <hr>
-    <div  class="align-center" style="width: 100%; margin-top: 20px; text-align: center">
-        <div class="btn-group" role="group" aria-label="Basic example" style="font-size: 20px; font-weight: bold">
-            <button type="button" class="btn btn-danger" style="font-size: 20px"><i class="fa fa-fast-backward" style="font-size: 20px"></i>&nbsp;Inicio.</button>
-            <button type="button" class="btn btn-danger" style="font-size: 20px"><i class="fa fa-arrow-left" style="font-size: 20px"></i>&nbsp;Ant.</button>
-            <button type="button" class="btn btn-danger" style="font-size: 20px">1</button>
-            <button type="button" class="btn btn-danger" style="font-size: 20px">2</button>
-            <button type="button" class="btn btn-danger" style="font-size: 20px">3</button>
-            <button type="button" class="btn btn-danger" style="font-size: 20px">Prox.&nbsp;<i class="fa fa-arrow-right" style="font-size: 20px"></i></button>
-            <button type="button" class="btn btn-danger" style="font-size: 20px">Fim &nbsp;<i class="fa fa-fast-forward" style="font-size: 20px"></i></button>
-        </div></div>
+
+
 </section>

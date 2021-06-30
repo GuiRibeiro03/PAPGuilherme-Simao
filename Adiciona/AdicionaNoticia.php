@@ -106,49 +106,57 @@ top();
     <a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
 
 <form action="../Confirma/confirmaNovaNoticia.php" method="post" enctype="multipart/form-data">
-    <h4>Titulo:</h4>
-    <input type="text" name="noticiaTitulo"  style="width: 50%;">
-    <br>
-    <br>
 
-
-    <div id="wrapper" style="color: #FFFFFF">
-        <span class="badge badge-dark">Imagem Fundo URL</span>
-        <input type="file" accept="image/*" name="noticiaImagemFundoURL" onchange="preview_image(event)">
-        <img id="output_image"/>
-    </div>
-    <br>
-    <div id="wrapper" style="color: #FFFFFF">
-        <span class="badge badge-dark">Imagem secundária URL</span>
-        <input type="file" accept="image/*" name="noticiaImagemURL" onchange="preview_image2(event)">
-        <img id="output_image2"/>
-    </div>
-    <br>
-
-    <div style="width: 70%;">
-        <h4>Desenvolvimento:</h4>
-        <textarea name="noticiaDesenvolvimento" id="myTextarea" ></textarea>
+    <div class="form-group" style="margin-bottom: 20px">
+        <label>Titulo:</label>
+        <input type="text" name="noticiaTitulo"  style="width: 50%;">
     </div>
 
 
-<br>
+    <div class="form-group" style="margin-bottom: 20px">
 
-    <div style="margin-top: 40px; margin-bottom: 40px">
-        <h4>Data:</h4>
+        <div id="wrapper" style="color: #FFFFFF">
+            <span class="badge badge-dark">Imagem Fundo URL</span>
+            <input type="file" accept="image/*" name="noticiaImagemFundoURL" onchange="preview_image(event)">
+            <img id="output_image"/>
+        </div>
+        <br>
+        <div id="wrapper" style="color: #FFFFFF">
+            <span class="badge badge-dark">Imagem secundária URL</span>
+            <input type="file" accept="image/*" name="noticiaImagemURL" onchange="preview_image2(event)">
+            <img id="output_image2"/>
+        </div>
+    </div>
+
+
+    <div class="form-group" style="margin-bottom: 20px">
+        <h5>Data:</h5>
         <input type="date" name="noticiaData">
-
     </div>
 
 
-    <div style="color: #FFFFFF; margin-top: 50px">
-        <label>Nossas Escolhas:</label>
+    <div class="form-group" style="margin-bottom: 20px">
+        <h5>Nossas Escolhas:</h5>
         <p><input type="radio" name="noticiaEscolha" value="sim" >&nbsp;Sim</p>
         <p><input type="radio" name="noticiaEscolha" value="nao" checked>&nbsp;Não</p>
     </div>
 
+    <div class="form-group" style="margin-bottom: 20px;margin-top: 20px">
+        <h5>Desenvolvimento:</h5>
+        <textarea name="noticiaDesenvolvimento" id="myTextarea" style="width: 70%"></textarea>
+    </div>
+
+
     <input type="Submit" class="btn btn-danger" value="Adiciona"><br>
 
 </form>
+
+
+
+
+
+
+
 </section>
 
 

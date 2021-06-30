@@ -33,7 +33,7 @@ where jogoEmpresaId != '' ";
    $dadosGeneros=mysqli_fetch_array($result2);
    $dadosPlataformas=mysqli_fetch_array($result4);
 
-    $output='<button onclick="location.reload()" class="btn btn-primary">Voltar</button>';
+    $output='<button onclick="location.reload()" class="btn btn-primary" style="margin-left: 5%">Voltar</button>';
 
     if($result->num_rows>0){
 

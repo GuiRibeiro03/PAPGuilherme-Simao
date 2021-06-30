@@ -15,11 +15,15 @@ $result2=mysqli_query($con,$sql2);
 
 ?>
     <!-- Details Hero Section Begin -->
-    <section class="details-hero-section set-bg" data-setbg="img/<?php echo $dados["noticiaImagemFundoURL"]?>" style="height: 70%; width: 100%">
+
+    <!-- Details Hero Section End -->
+
+    <!-- Details Post Section Begin -->
+    <section class="details-post-section spad" style="width: 100%; margin-top: 2% " >
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="details-hero-text" >
+                    <div class="details-hero-text" style="width: 1000px" >
                         <div class="label"><span>Notícia</span></div>
                         <h3 style=" font-size: 30px; color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><?php echo $dados["noticiaTitulo"]?></h3>
                         <ul>
@@ -30,27 +34,21 @@ $result2=mysqli_query($con,$sql2);
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Details Hero Section End -->
 
-    <!-- Details Post Section Begin -->
-    <section class="details-post-section spad" style="width: 100%" >
-        <div class="container">
+        <div class="container" >
             <div class="row">
-                <div class="col-lg-8 p-0">
+
                     <div class="details-text">
                        <br>
                         <div class="dt-item" >
-                            <p style="color: #FFFFFF"> <?php echo $dados["noticiaDesenvolvimento"]?> </p>
+                            <span style="color: #FFFFFF"> <?php echo $dados["noticiaDesenvolvimento"]?> </span>
                         </div>
 
-                        <div class="dt-last-desc">
-                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="">
+                        <div class="dt-last-desc" style="text-align: center">
+                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="" style="width: 60%;">
                         </div>
                         <div class="dt-tags">
-                            <a href="blog.php"><span><?php ?></span></a>
-                            <a href="blog.php"><span>PC</span></a>
+                                                    <a href="blog.php"><span>PC</span></a>
                             <a href="blogTagExemplo.html"><span>Playstation</span></a>
                             <a href="blog.php"><span>CD Projekt Red</span></a>
                         </div>
@@ -77,8 +75,15 @@ $result2=mysqli_query($con,$sql2);
 
                                 <div class="row" style="margin-left: 5px">
                                     <span  id="btnLike" onclick="countClicks(this)" class="fa fa-thumbs-up text-secondary" style="font-size: 20px; margin-right: 5px"></span>
-                                    <span  id="btnDislike" onclick="countClicks2(this)" class="fa fa-thumbs-down text-secondary" style="font-size: 20px; margin-left: 5px"></span></div>
+                                    <span  id="btnDislike" onclick="countClicks2(this)" class="fa fa-thumbs-down text-secondary" style="font-size: 20px; margin-left: 5px"></span>
+                                    <span style="margin-left: 90%"><a href="Elimina/eliminaComentario.php?id=<?php echo $dadosComents['comentarioId'];?>" ><i class="fa fa-trash"></i></a></span>
+                                </div>
                             </div>
+
+
+
+
+
 
                             <?php
                         }
@@ -93,7 +98,7 @@ $result2=mysqli_query($con,$sql2);
 
                                 <span style="font-size: 30px; color: #FFFFFF"> &nbsp;<strong>Deixa um comentário:</strong> </span>
                                 <form action="Confirma/ConfirmaAdicionaComentarioNoticia.php?id=<?php echo $id?>" style="padding-top: 20px" method="post">
-                                    <input type="datetime-local" name="comentarioData" style="margin-bottom: 20px">
+
                                     <textarea required spellcheck="true" name="comentarioTexto"  rows="100" placeholder="Message" style="color: #FFFFFF; font-size: 17px"></textarea>
                                     <input type="hidden" name="comentarioEntidade" value="noticia">
                                     <button type="submit">Comentar</button>
@@ -116,18 +121,21 @@ $result2=mysqli_query($con,$sql2);
 
                             </div>
                         </div>
+                        </div>
 
-                        <div class="col-lg-4 col-md-7">
-                            <div class="sidebar-option">
 
-                                <div class="hardware-guides">
-                                    <div class="section-title">
-                                        <h5>Mais noticias</h5>
-                                    </div>
+
+                            <div class="row-cols-2" style="width: 100%;">
+                                <div class="details-hero-text" style="margin-bottom: 2%" >
+                                <div class="label"><span style="font-size: 20px">Mais Notícias:</span></div>
+                                </div>
+
+
                                     <?php
                                     while($dados2=mysqli_fetch_array($result2)){
                                         ?>
                                         <div class="trending-item">
+
                                             <div class="ti-pic">
                                                 <a href="ListaBlog.php?id=<?php echo $dados2["noticiaId"]?>"><img src="img/<?php echo $dados2["noticiaImagemFundoURL"]?>" style="height: 140px; width: 180px" alt=""></a>
                                             </div>
@@ -142,28 +150,9 @@ $result2=mysqli_query($con,$sql2);
                                         <?php
                                     }
                                     ?>
-                                    <div class="hardware-guides">
-                                        <div class="section-title">
-                                            <h5>Contacte um administrador</h5>
-                                        </div>
-                                        <div class="trending-item">
-                                            <div class="ti-text">
-                                                <ul>
-                                                    <li><i class="fa fa-envelope"></i>simaobercial80@gmail.com <br>
-                                                        <i class="fa fa-phone"></i>914064958</li>
-                                                </ul>
-                                                <br>
-                                                <ul>
-                                                    <li><i class="fa fa-envelope"></i>guilhas.ribeiro23@yahoo.com <br>
-                                                        <i class="fa fa-phone"></i>227tiratirametemete</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
+</div>
+
     </section>
     <!-- Details Post Section End -->
 

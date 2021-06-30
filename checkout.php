@@ -36,7 +36,7 @@ top();
 
                         ?>
                         <div style="width: 100%;  color: #FFFFFF;font-size:25px!important;">
-                        <span style="color: #FFFFFF!important;"> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #FFFFFF; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
+                        <span style="color: #FFFFFF!important;"> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #FFFFFF; font-size: 20px"><?php echo $dados2["produtoPreco"] ?>€ </span>
                             <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                             <p style="color: #FFFFFF!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
                             <hr>
@@ -76,9 +76,29 @@ top();
                     }?>
 
 
-                        <span style="color: #FFFFFF!important; font-size: 25px; font-weight: bold">Total (<?php echo $k?> Produto(os) ): <?php echo $i ?>&nbsp;€</span>
+                    <?php
+                    if($k == 0){
+                    ?> <span style="color: #FFFFFF!important; font-size: 25px; font-weight: bold">Total ( <?php echo $k?> Produtos): <?php echo $i ?>&nbsp;€</span>
+
+                        <?php
+                    }elseif ($k < 2){
+
+                        ?>
+                        <span style="color: #FFFFFF!important; font-size: 25px; font-weight: bold">Total ( <?php echo $k?> Produto): <?php echo $i ?>&nbsp;€</span>
 
                         <a href="checkout2.php"><button type="button" class="btn btn-danger" style="float: right">Próximo</button></a>
+                        <?php
+                    }elseif ($k > 1){
+                        ?>
+                        <span style="color: #FFFFFF!important; font-size: 25px; font-weight: bold">Total ( <?php echo $k?> Produtos): <?php echo $i ?>&nbsp;€</span>
+
+                    <a href="checkout2.php"><button type="button" class="btn btn-danger" style="float: right">Próximo</button></a>
+
+                <?php
+                }
+                ?>
+
+
 
                     <?php
                 }else{

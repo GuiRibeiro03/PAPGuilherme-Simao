@@ -9,18 +9,20 @@ session_start();
 $_SESSION['carrinho'][0]=-1;
 
 
+/*
 if(isset($_GET['msg'])) {
 
     alert("Nome de utilizador ou palavra-passe errada, tente de novo.");
 
 }
-if(isset($_GET['message'])) {
+elseif(isset($_GET['message'])) {
 
     alertinativo("Esta conta foi desativada.");
 }
-if(isset($_GET['messageVerify'])){
 
-    alert("Esta conta ainda não foi ativada por um administrador.");
+elseif(isset($_GET['messageVerify'])){
+
+    alertPendente("Esta conta ainda não foi ativada por um administrador.");
 }
 
 
@@ -33,6 +35,11 @@ function alertinativo($message) {
 function alertPendente($messageVerify) {
     echo "<script type='text/javascript'>alert('$messageVerify');</script>";
 }
+
+
+*/
+
+
 function top($menu=HOME){
 
     ?>
@@ -163,6 +170,20 @@ function top($menu=HOME){
                     fillJogosFrontoffice(this.value);
                 });
                 fillJogosFrontoffice();
+                <?php
+                } elseif($menu==REVIEWSFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillReviewsFrontoffice(this.value);
+                });
+                fillReviewsFrontoffice();
+                <?php
+                } elseif($menu==OUTLETFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillOutletFrontoffice(this.value);
+                });
+                fillOutletFrontoffice();
                 <?php
                 }
                 ?>
@@ -601,7 +622,7 @@ function bottom(){
                 </div>
 
                 <div class="container" style="background-color:#f1f1f1; color: #0d0d0d">
-                    <span class="password">Esqueci-me da <a href="#" style="color: #00aff1">palavra-passe?</a></span>
+                    <span class="password">Esqueci-me da <a href="editaPassword.php" style="color: #00aff1">palavra-passe?</a></span>
                 </div>
             </form>
         </div>

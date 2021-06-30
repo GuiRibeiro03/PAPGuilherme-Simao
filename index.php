@@ -4,7 +4,7 @@ top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql="select * from noticias";
-$sql_2="select * from jogos inner join reviews on jogoId=reviewJogoId where jogoGlobalRating=100";
+$sql_2="select * from jogos inner join reviews on jogoId=reviewJogoId where jogoGlobalRating=100 limit 3";
 $sqlJogos="select * from jogos where jogoGlobalRating > 70 order  by jogoGlobalRating desc ";
 $sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
 $sql3="select * from reviews";
@@ -29,7 +29,7 @@ $result4=mysqli_query($con,$sql3);
                     <div class="tab-elem">
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item">
-                                <a " class="nav-link active" data-toggle="tab" href="#news" role="tab">Noticias</a>
+                                <a class="nav-link active" data-toggle="tab" href="#news" role="tab"></a>
                             </li>
                         </ul><!-- Tab panes -->
                         <div class="tab-content">
@@ -201,7 +201,7 @@ $i = $i + 1;
                     ?>
                         <div class="ec-item">
                             <div class="lp-item">
-                                <a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"> <div class="lp-pic set-bg" data-setbg="<?php echo $dadosNoticias2["reviewImagemURL"] ?>" style="border-radius: 10px">
+                                <a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"> <div class="lp-pic set-bg" data-setbg="img/<?php echo $dadosNoticias2["reviewImagemURL"] ?>" style="border-radius: 10px">
                                 </div></a>
                                 <div class="lp-text">
                                     <h5><a href="ListaJogo.php?id=<?php echo $dadosNoticias2['jogoId']?>"><?php echo $dadosNoticias2['jogoNome']?></a></h5>
