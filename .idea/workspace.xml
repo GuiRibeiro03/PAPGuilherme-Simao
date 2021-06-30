@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Registar">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaBlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +57,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Confirma" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,14 +66,14 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
     </key>
@@ -265,8 +261,29 @@
       <workItem from="1624873408874" duration="14342000" />
       <workItem from="1624954023546" duration="7860000" />
       <workItem from="1624962021834" duration="39000" />
-      <workItem from="1624962263267" duration="12169000" />
-      <workItem from="1625041128226" duration="7070000" />
+      <workItem from="1624962263267" duration="11878000" />
+      <workItem from="1625076856192" duration="941000" />
+    </task>
+    <task id="LOCAL-00266" summary="Guilherme- Filtragem por tags ajax">
+      <created>1621352776588</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1621352776588</updated>
+    </task>
+    <task id="LOCAL-00267" summary="Guilherme- Registar">
+      <created>1621414741446</created>
+      <option name="number" value="00267" />
+      <option name="presentableId" value="LOCAL-00267" />
+      <option name="project" value="LOCAL" />
+      <updated>1621414741447</updated>
+    </task>
+    <task id="LOCAL-00268" summary="Guilherme- Update userState e userType">
+      <created>1621416516070</created>
+      <option name="number" value="00268" />
+      <option name="presentableId" value="LOCAL-00268" />
+      <option name="project" value="LOCAL" />
+      <updated>1621416516070</updated>
     </task>
     <task id="LOCAL-00269" summary="Guilherme- Filtragem por tags workings">
       <created>1621422264304</created>
@@ -590,28 +607,7 @@
       <option name="project" value="LOCAL" />
       <updated>1624980544732</updated>
     </task>
-    <task id="LOCAL-00315" summary="Guilherme-UserRegistar/Blog">
-      <created>1624981627497</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1624981627497</updated>
-    </task>
-    <task id="LOCAL-00316" summary="Guilherme-Ajax Blog">
-      <created>1625046152237</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1625046152238</updated>
-    </task>
-    <task id="LOCAL-00317" summary="Guilherme-Registar">
-      <created>1625052017860</created>
-      <option name="number" value="00317" />
-      <option name="presentableId" value="LOCAL-00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1625052017860</updated>
-    </task>
-    <option name="localTasksCounter" value="318" />
+    <option name="localTasksCounter" value="315" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,6 +626,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Guilherme- Eliminar produto" />
+    <MESSAGE value="Guilherme" />
     <MESSAGE value="Guilherme-Login/Registar/Users" />
     <MESSAGE value="Guilherme-Login/Registar/CSS" />
     <MESSAGE value="Guilherme-Check Admin para entrar no Backoffice" />
@@ -653,8 +651,6 @@
     <MESSAGE value="Guilherme-Correção Edita Reviews" />
     <MESSAGE value="Guilherme-Outlet" />
     <MESSAGE value="Guilherme-UserRegistar/Blog" />
-    <MESSAGE value="Guilherme-Ajax Blog" />
-    <MESSAGE value="Guilherme-Registar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Registar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-UserRegistar/Blog" />
   </component>
 </project>

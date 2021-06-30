@@ -2658,6 +2658,7 @@ width: 100%;
 	background: #0d0d0d;
 	z-index: 1;
 	width: 100%;
+	outline: solid 2px white;
 }
 
 
