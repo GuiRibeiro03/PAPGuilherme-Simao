@@ -147,6 +147,13 @@ function top($menu=HOME){
                 });
                 fillOutletFrontoffice();
                 <?php
+                } elseif($menu==NOTICIASFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillBlogFrontOffice(this.value);
+                });
+                fillBlogFrontOffice();
+                <?php
                 }
                 ?>
             })
