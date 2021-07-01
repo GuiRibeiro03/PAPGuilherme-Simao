@@ -146,6 +146,19 @@ function fillBlogFrontOffice(txt = ''){
     });
 }
 
+function fillConsolasFrontOffice(txt = ''){
+    $.ajax({
+        url:"AJAX/AJAXFillFrontConsolas.php",
+        type:"post",
+        data:{
+            txt:txt
+        },
+        success:function (result){
+            $('#tableContent').html(result);
+        }
+    });
+}
+
 //******************************************EliminaFunções****************************************
 
 

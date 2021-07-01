@@ -154,6 +154,13 @@ function top($menu=HOME){
                 });
                 fillBlogFrontOffice();
                 <?php
+                } elseif($menu==CONSOLASFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillConsolasFrontOffice(this.value);
+                });
+                fillConsolasFrontOffice();
+                <?php
                 }
                 ?>
             })

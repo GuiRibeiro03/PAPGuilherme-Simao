@@ -185,6 +185,20 @@ function top($menu=HOME){
                 });
                 fillOutletFrontoffice();
                 <?php
+                } elseif($menu==NOTICIASFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillBlogFrontOffice(this.value);
+                });
+                fillBlogFrontOffice();
+                <?php
+                } elseif($menu==CONSOLASFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillConsolasFrontOffice(this.value);
+                });
+                fillConsolasFrontOffice();
+                <?php
                 }
                 ?>
             })

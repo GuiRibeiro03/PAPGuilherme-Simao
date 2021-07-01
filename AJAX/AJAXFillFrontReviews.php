@@ -20,7 +20,7 @@ $result=mysqli_query($con,$sql);
             while ($dados=mysqli_fetch_array($result)){
             ?>
             <div class="lp-item">
-                <a href="ListaReview.php?id=<?php echo $dados['reviewId']?>"><img src="img/<?php echo $dados["reviewImagemURL"] ?>" style="border-radius: 10px">
+                <a href="ListaReview.php?id=<?php echo $dados['reviewId']?>"><img src="<?php echo $dados["reviewImagemURL"] ?>" style="border-radius: 10px">
 
                     </img></a>
                 <div class="lp-text">
