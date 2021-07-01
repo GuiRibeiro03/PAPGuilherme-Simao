@@ -13,7 +13,7 @@ top();
         <div  class="card" style="width: 19rem; margin-left: 20px; margin-right: 10px; margin-top: 5%;margin-bottom: 5%; background-color: black; box-shadow: 10px 10px 2px 1px rgb(255, 255, 255) ;">
 <?php
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from perfis inner join users on perfilUserId=userId inner join moradas on perfilId=moradaPerfilId where perfilId=".$_GET["id"];
+$sql="select * from perfis inner join users on perfilUserId=userId  where perfilId=".$_GET["id"];
 $result=mysqli_query($con, $sql);
 while ($dados=mysqli_fetch_array($result)){
 ?>
@@ -113,19 +113,45 @@ if($dados['userType']=='admin'){
         </div>
         <div class="bp-item" style="margin-bottom: 5%">
 
-            <h4>Informações de Morada</h4>
+
+            <h4>Informações de Morada <i class="fa fa-arrow-down"></i></h4>
             <hr>
             <div>
+                <a href="AdicionaMorada.php?id=<?php echo $_GET['id']?>"><button style="background-color: forestgreen; font-size: 20px; padding: 7px 7px;">Adicionar Morada</button></a>
+<?php
+$sql4="select * from moradas inner join perfis on moradaPerfilId=perfilId where perfilId=".$_GET['id'];
+$res=mysqli_query($con,$sql4);
+while ($dados2=mysqli_fetch_array($res)){
+    ?>
+
+
+
                 <ul style="font-size: 20px;  margin-bottom: 3%" >
-                    <li><?php echo $dados['moradaTexto']?></li>
-                    <li><?php echo $dados['moradaTelefone']?></li>
+                    <span><strong>Morada:</strong> <?php echo $dados2['moradaTexto']?></span>
+                    <p><strong>Telefone:</strong> <?php echo $dados2['moradaTelefone']?></p>
                 </ul>
-                <a href="editaPerfil.php?id=<?php echo $dados['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px">Editar</button></a>
-            </div>
+                <a href="editaMorada.php?id=<?php echo $dados2['perfilId']?>"><button style="background-color: cornflowerblue; font-size: 20px; padding: 7px 7px">Editar</button></a>
+                <a href="eliminaMorada.php?id=<?php echo $dados2['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px; ">Eliminar</button></a>
+<hr>
+
+
+
+
+
+                <?php
+                }
+
+                    ?>
+
+        </div>
+
 
         </div>
 
     </div>
+
+
+
 
 
 

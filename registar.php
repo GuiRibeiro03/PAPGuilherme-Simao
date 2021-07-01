@@ -23,17 +23,6 @@ if(!isset($_SESSION['id'])){
             </div>
 
 
-            <div class="form-floating mb-3">
-                <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Morada:</b></label>
-                <input type="text" class="form-control" id="floatingInput"  name="morada" placeholder="Introduza a sua morada" required> <!-- Password -->
-            </div>
-
-
-            <div class="form-floating mb-3">
-                <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Telefone:</b></label>
-                <input type="text" class="form-control" id="floatingInput"  name="telefone" placeholder="ex:953224231" maxlength="9" required> <!-- Password -->
-            </div>
-
 
             <div class="form-floating mb-3">
                 <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Email:</b></label>
