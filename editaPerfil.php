@@ -53,9 +53,9 @@ $dados=mysqli_fetch_array($result);
     $dados2=mysqli_fetch_array($res);
 
     ?>
-    <form action="Confirma/confirmaEditaPerfilPass.php?id=<?php echo $dados2['userId'] ?>" style="color: #FFF; margin-left: 20%; margin-top: 5%;margin-bottom: 5%; width: 50%" method="post" enctype="multipart/form-data">
+    <form action="Confirma/confirmaEditaPerfilPass.php?id=<?php echo $dados2['userId'] ?>" style="color: #FFF;font-size: 20px; margin-left: 20%; margin-top: 5%;margin-bottom: 5%; width: 50%" method="post" enctype="multipart/form-data">
         <div class="mb-3">
-            <label for="exampleInputPassword1" class="badge badge-primary" style="font-size: 20px">Palavra-Passe:</label>
+            <label for="exampleInputPassword1" class="badge badge-primary" style="font-size: 20px">Palavra-Passe atual:</label>
             <input type="password" class="form-control" id="exampleInputPassword1" name="oldPass" required>
         </div>
         <div class="mb-3">

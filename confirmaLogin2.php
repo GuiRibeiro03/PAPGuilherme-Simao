@@ -10,7 +10,7 @@ $pwd=addslashes($_POST['password']);
 
 
 while ($dados=mysqli_fetch_array($res)){
-    if ($nome === $dados['userName'] AND $pwd === $dados['userPassword'] AND $dados['userState'] == 'ativo') {
+    if ($nome === $dados['userName'] AND $pwd == $dados['userPassword'] AND $dados['userState'] == 'ativo') {
         session_start();
         $_SESSION['id'] = $dados['userId'];
         $_SESSION['nome'] = $dados['userName'];
