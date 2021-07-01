@@ -29,7 +29,7 @@ mysqli_query($con,$sql);
 $lastId=mysqli_insert_id($con);
 
 $sql2="insert into perfis(perfilNome,perfilAvatarURL,perfilMorada,perfilTelefone,perfilEmail,perfilUserId)
-                    values ('".$userName."','".$novoNome."','".$perfilMorada."','".$telefone."',,'".$email."','".$lastId."')";
+                    values ('".$userName."','".$novoNome."','".$perfilMorada."','".$telefone."','".$email."','".$lastId."')";
 mysqli_query($con,$sql2);
 
 
