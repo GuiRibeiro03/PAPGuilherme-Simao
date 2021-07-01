@@ -25,6 +25,9 @@ $ctt = '';
 
     <section class="store" id="storeStyleCheckout" style="color: #0d0d0d ">
         <br>
+        <h4 style="font-weight: bold; color: #FFFFFF">Morada de Entrega</h4>
+
+
 
         <div class="row">
 
@@ -35,20 +38,21 @@ $ctt = '';
             while ($dados = mysqli_fetch_array($res)) {
                 ?>
                 <div id="morada">
-                    <h4 style="font-weight: bold; color: #FFFFFF">Morada de Entrega:</h4>
+
                     <div>
                         <p style="color: black"><?php echo $dados['perfilNome'] ?></p>
                         <p style="color: black"><?php echo $dados['moradaTexto'] ?></p>
                         <p style="color: black"><?php echo $dados['moradaTelefone'] ?></p>
                     </div>
-                    <div style="float: right; padding-bottom: 5px"><input type="radio"
-                                                                          style="width: 20px; height: 20px;" checked>
-                    </div>
+                    <div style="float: right; padding-bottom: 5px"><input type="radio" name="radio" value="checked"  >  </div>
+
                 </div>
                 <?php
             }
             ?>
             <!-- **************************DIV MORADA***************END********  -->
+            <span onclick="document.getElementById('morada').style.display='block' "><a href="#" style=" background-color: forestgreen; font-size: 20px; padding: 7px 7px;">
+                            <span style="color: #FFF; font-size: 16px">Adiciona Morada</span></a></span>
 
         </div>
 
@@ -246,6 +250,35 @@ $ctt = '';
 
 
     </section>
+
+
+
+
+    <div id="morada" class="modal">
+
+        <form class="modal-content animate" action="confirmaAdicionaMorada.php?id=<?php echo $_SESSION['id']; ?>" method="post">
+            <div class="imgcontainer">
+                <img src="img/Game.png">
+                <span onclick="document.getElementById('morada').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+            <div class="container">
+            <div class="form-group">
+                <label>Endereço de Morada:</label>
+                <input type="text"  class="form-control"  name="moradaTexto" placeholder="ex: rua principal...">
+
+            </div>
+            <div class="form-group">
+                <label>Número de Telefone:</label>
+                <input type="text"  class="form-control" name="moradaTelefone" placeholder="ex: rua principal..." maxlength="9">
+            </div>
+                <button type="submit" class="btn btn-danger" >Adicionar</button>
+
+            </div>
+
+
+        </form>
+
+    </div>
 
 
     <!-- Footer Section Begin -->
