@@ -4302,6 +4302,7 @@ tr {
 .store {
     background-color: #0d0d0d;
     width: 100%;
+    height: auto;
 }
 
 
@@ -4928,7 +4929,7 @@ span.psw {
 #storeStyleCheckout {
     margin-top: 20px;
     margin-bottom: 10%;
-    height: 100%;
+    height: auto;
     width: 100%;
     color: #FFFFFF;
     background-color: #0d0d0d;
