@@ -21,4 +21,4 @@ $sql2="insert into outlet(outletProdutoId,outletPerfilId) values('".$lastid."','
 mysqli_query($con,$sql2);
 print_r($sql);
 print_r($sql2);
-//header("location: ../outlet.php");
+header("location: ../outlet.php");

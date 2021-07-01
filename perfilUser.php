@@ -51,7 +51,7 @@ if($dados['userType']=='admin'){
     <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: #0d0d0d; color: #FFF; font-weight: bold">
         <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>" style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold"><li class="list-group-item">Definições de Perfil <i class="fa fa-edit"></i></li></a>
         <a href="backoffice/Backoffice.php" style="color: #FFFFFF; font-weight: bold; background-color: black"><li class="list-group-item">Backoffice</li></a>
-        <a href="#"><li class="list-group-item">Meus Anúncios</li></a>
+        <a href="meusAnuncios.php?id=<?php echo $_GET['id']?>"><li class="list-group-item">Meus Anúncios</li></a>
     </ul>
     <?php
 }elseif ($dados['userType']=='editor'){

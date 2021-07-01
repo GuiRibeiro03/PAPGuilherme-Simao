@@ -210,6 +210,10 @@ function confirmaEliminaPlataforma(id) {
         window.location="../Elimina/eliminaPlataforma?id=" + id;
 }
 
+function confirmaEliminaOutlet(id) {
+    if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
+        window.location="Elimina/eliminaProduto?id=" + id;
+}
 
 //***********FunçõesPreviewImagem***********************
 function preview_image(event)
