@@ -51,8 +51,35 @@ $ctt = '';
             }
             ?>
             <!-- **************************DIV MORADA***************END********  -->
-            <span onclick="document.getElementById('morada').style.display='block' "><a href="#" style=" background-color: forestgreen; font-size: 20px; padding: 7px 7px;">
+            <span ><a onclick="document.getElementById('morada').style.display='block' " href="#" style=" background-color: forestgreen; font-size: 20px; padding: 7px 7px;">
                             <span style="color: #FFF; font-size: 16px">Adiciona Morada</span></a></span>
+
+            <div id="morada" class="modal">
+
+                <form class="modal-content animate" action="confirmaAdicionaMorada.php?id=<?php echo $_SESSION['id']; ?>" method="post">
+                    <div class="imgcontainer">
+                        <img src="img/Game.png">
+                        <span onclick="document.getElementById('morada').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    </div>
+                    <div class="container">
+                        <div class="form-group">
+                            <label>Endereço de Morada:</label>
+                            <input type="text"  class="form-control"  name="moradaTexto" placeholder="ex: rua principal...">
+
+                        </div>
+                        <div class="form-group">
+                            <label>Número de Telefone:</label>
+                            <input type="text"  class="form-control" name="moradaTelefone" placeholder="ex: rua principal..." maxlength="9">
+                        </div>
+                        <button type="submit" class="btn btn-danger" >Adicionar</button>
+
+                    </div>
+
+
+                </form>
+
+            </div>
+
 
         </div>
 
@@ -254,31 +281,7 @@ $ctt = '';
 
 
 
-    <div id="morada" class="modal">
 
-        <form class="modal-content animate" action="confirmaAdicionaMorada.php?id=<?php echo $_SESSION['id']; ?>" method="post">
-            <div class="imgcontainer">
-                <img src="img/Game.png">
-                <span onclick="document.getElementById('morada').style.display='none'" class="close" title="Close Modal">&times;</span>
-            </div>
-            <div class="container">
-            <div class="form-group">
-                <label>Endereço de Morada:</label>
-                <input type="text"  class="form-control"  name="moradaTexto" placeholder="ex: rua principal...">
-
-            </div>
-            <div class="form-group">
-                <label>Número de Telefone:</label>
-                <input type="text"  class="form-control" name="moradaTelefone" placeholder="ex: rua principal..." maxlength="9">
-            </div>
-                <button type="submit" class="btn btn-danger" >Adicionar</button>
-
-            </div>
-
-
-        </form>
-
-    </div>
 
 
     <!-- Footer Section Begin -->
