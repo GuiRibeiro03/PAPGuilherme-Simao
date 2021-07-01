@@ -5,9 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaRegistar.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaRegistar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/editaPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,14 +267,7 @@
       <workItem from="1624962263267" duration="11878000" />
       <workItem from="1625076856192" duration="941000" />
       <workItem from="1625158419502" duration="892000" />
-      <workItem from="1625162788354" duration="7751000" />
-    </task>
-    <task id="LOCAL-00267" summary="Guilherme- Registar">
-      <created>1621414741446</created>
-      <option name="number" value="00267" />
-      <option name="presentableId" value="LOCAL-00267" />
-      <option name="project" value="LOCAL" />
-      <updated>1621414741447</updated>
+      <workItem from="1625162788354" duration="8375000" />
     </task>
     <task id="LOCAL-00268" summary="Guilherme- Update userState e userType">
       <created>1621416516070</created>
@@ -611,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625160624218</updated>
     </task>
-    <option name="localTasksCounter" value="316" />
+    <task id="LOCAL-00316" summary="Guilherme">
+      <created>1625178229418</created>
+      <option name="number" value="00316" />
+      <option name="presentableId" value="LOCAL-00316" />
+      <option name="project" value="LOCAL" />
+      <updated>1625178229418</updated>
+    </task>
+    <option name="localTasksCounter" value="317" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

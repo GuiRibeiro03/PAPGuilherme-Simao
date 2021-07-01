@@ -13,7 +13,7 @@ top();
         <div  class="card" style="width: 19rem; margin-left: 20px; margin-right: 10px; margin-top: 5%;margin-bottom: 5%; background-color: black; box-shadow: 10px 10px 2px 1px rgb(255, 255, 255) ;">
 <?php
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from perfis inner join users on perfilUserId=userId where perfilId=".$_GET["id"];
+$sql="select * from perfis inner join users on perfilUserId=userId inner join moradas on perfilId=moradaPerfilId where perfilId=".$_GET["id"];
 $result=mysqli_query($con, $sql);
 while ($dados=mysqli_fetch_array($result)){
 ?>
@@ -23,7 +23,19 @@ while ($dados=mysqli_fetch_array($result)){
                 <h5 class="card-title" style="text-align: center;">Olá, <?php echo $dados["perfilNome"]?></h5>
 <br>
                 <p class="card-text" style="font-size: 18px; width: 100%; float: left"><strong></strong>&nbsp;&nbsp;<span class="badge bg-primary" style=" font-size: 100%"><?php echo $dados["userType"]?> &nbsp;<i class="fa fa-user-circle-o"></i></span></p>
-                <h4></h4>
+                <?php
+                if($dados['userState']=='inativo'){
+
+                    echo "<badge class='badge badge-danger'>User Inativo</badge>";
+
+                }elseif ($dados['userState']=='pendente'){
+                    echo "<badge class='badge badge-warning'>User Pendente </badge>";
+
+                }elseif ($dados['userState']=='ativo'){
+                    echo "<badge class='badge badge-success'>User Ativo </badge>";
+                }
+
+                ?>
             </div>
             <?php
             }
@@ -42,7 +54,7 @@ while ($dados=mysqli_fetch_array($result)){
 <?php
 
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql2="select * from perfis inner join users on perfilUserId=userId where perfilId=".$_GET["id"];
+$sql2="select * from perfis inner join users on perfilUserId=userId inner join moradas on perfilId=moradaPerfilId where perfilId=".$_GET["id"];
 $result2=mysqli_query($con, $sql2);
 $dados=mysqli_fetch_array($result2);
 if($dados['userType']=='admin'){
@@ -79,16 +91,7 @@ if($dados['userType']=='admin'){
             </div>
         </div>
 
-        <?php
-        if($dados['userState']=='inativo'){
 
-            echo "<badge class='badge badge-danger'>User Inativo</badge>";
-
-        }elseif ($dados['userState']=='pendente'){
-            echo "<badge class='badge badge-warning'>User Pendente </badge>";
-        }
-
-        ?>
 
     </div>
 
@@ -102,7 +105,7 @@ if($dados['userType']=='admin'){
                 <ul style="font-size: 20px; margin-bottom: 3%" >
                 <li><?php echo $dados['perfilNome']?></li>
                 <li><?php echo $dados['perfilEmail']?></li>
-                <li><?php echo $dados['perfilTelefone']?></li>
+                    <li><?php echo $dados['moradaTelefone']?></li>
                 </ul>
                 <a href="editaPerfil.php?id=<?php echo $dados['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px">Editar</button></a>
             </div>
@@ -114,7 +117,8 @@ if($dados['userType']=='admin'){
             <hr>
             <div>
                 <ul style="font-size: 20px;  margin-bottom: 3%" >
-                    <li><?php echo $dados['perfilMorada']?></li>
+                    <li><?php echo $dados['moradaTexto']?></li>
+                    <li><?php echo $dados['moradaTelefone']?></li>
                 </ul>
                 <a href="editaPerfil.php?id=<?php echo $dados['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px">Editar</button></a>
             </div>

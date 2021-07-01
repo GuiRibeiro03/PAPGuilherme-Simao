@@ -48,7 +48,7 @@ $dados=mysqli_fetch_array($result);
 
             <?php
             $sql2="select * from users inner join perfis on userId=perfilUserId 
-                        inner join outlet on perfilId=outletPerfilId";
+                        inner join outlet on perfilId=outletPerfilId inner join moradas on perfilId=moradaPerfilId";
             $res2=mysqli_query($con,$sql2);
             $dados2=mysqli_fetch_array($res2);
 
@@ -61,7 +61,7 @@ $dados=mysqli_fetch_array($result);
                 <span>&nbsp;<u><?php echo $dados2['perfilNome'] ?></u> </span>
                 <br>
                 <br>
-                <p><span style="width: 100%;"> Contacto: &nbsp; <?php echo $dados2['perfilTelefone'] ?></span></p>
+                <p><span style="width: 100%;"> Contacto: &nbsp; <?php echo $dados2['moradaTelefone'] ?></span></p>
                 <p><span style="width: 100%;"> Email: <?php echo $dados2['perfilEmail'] ?></span></p>
             </div>
             </div>

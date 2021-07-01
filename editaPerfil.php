@@ -31,16 +31,6 @@ $dados=mysqli_fetch_array($result);
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="perfilEmail" value="<?php echo $dados['perfilEmail'] ?>">
 
         </div>
-        <div class="mb-3">
-            <label for="exampleInputPassword1" class="badge badge-primary" style="font-size: 20px">Morada:</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" name="perfilMorada" value="<?php echo $dados['perfilMorada'] ?>">
-
-
-        </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="badge badge-primary" style="font-size: 20px">Numero de Telemóvel:</label>
-            <input type="text" class="form-control" maxlength="9" style="width: 50%;" placeholder="+351..." name="perfilTele" value="<?php echo $dados['perfilTelefone'] ?>">
-        </div>
         <button type="submit" class="btn btn-success">Editar Perfil</button>
     </form>
 
