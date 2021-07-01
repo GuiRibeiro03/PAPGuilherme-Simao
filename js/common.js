@@ -159,6 +159,19 @@ function fillConsolasFrontOffice(txt = ''){
     });
 }
 
+function fillAcessoriosFrontOffice(txt = ''){
+    $.ajax({
+        url:"AJAX/AJAXFillFrontAcessorios.php",
+        type:"post",
+        data:{
+            txt:txt
+        },
+        success:function (result){
+            $('#tableContent').html(result);
+        }
+    });
+}
+
 //******************************************EliminaFunções****************************************
 
 

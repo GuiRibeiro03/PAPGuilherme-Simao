@@ -161,6 +161,13 @@ function top($menu=HOME){
                 });
                 fillConsolasFrontOffice();
                 <?php
+                } elseif($menu==ACESSORIOSFRONT){
+                ?>
+                $('#search').keyup(function (){
+                    fillAcessoriosFrontOffice(this.value);
+                });
+                fillAcessoriosFrontOffice();
+                <?php
                 }
                 ?>
             })

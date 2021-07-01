@@ -16,4 +16,5 @@ define("REVIEWSFRONT", 10);
 define("OUTLETFRONT", 11);
 define("NOTICIASFRONT", 12);
 define("CONSOLASFRONT", 13);
+define("ACESSORIOSFRONT", 14);
 ?>
