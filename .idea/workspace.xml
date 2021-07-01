@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-UserRegistar/Blog">
-      <change afterPath="$PROJECT_DIR$/meusAnuncios.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontAcessorios.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaAdicionaProdutoOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaAdicionaProdutoOutlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acessorios.php" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +261,13 @@
       <workItem from="1624954023546" duration="7860000" />
       <workItem from="1624962021834" duration="39000" />
       <workItem from="1624962263267" duration="11878000" />
-      <workItem from="1625137848787" duration="1500000" />
+    </task>
+    <task id="LOCAL-00266" summary="Guilherme- Filtragem por tags ajax">
+      <created>1621352776588</created>
+      <option name="number" value="00266" />
+      <option name="presentableId" value="LOCAL-00266" />
+      <option name="project" value="LOCAL" />
+      <updated>1621352776588</updated>
     </task>
     <task id="LOCAL-00267" summary="Guilherme- Registar">
       <created>1621414741446</created>
@@ -600,14 +605,7 @@
       <option name="project" value="LOCAL" />
       <updated>1624980544732</updated>
     </task>
-    <task id="LOCAL-00315" summary="AJAXFrontAcessorios">
-      <created>1625130971080</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1625130971080</updated>
-    </task>
-    <option name="localTasksCounter" value="316" />
+    <option name="localTasksCounter" value="315" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,6 +624,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Guilherme- Eliminar produto" />
     <MESSAGE value="Guilherme" />
     <MESSAGE value="Guilherme-Login/Registar/Users" />
     <MESSAGE value="Guilherme-Login/Registar/CSS" />
@@ -650,7 +649,6 @@
     <MESSAGE value="Guilherme-Correção Edita Reviews" />
     <MESSAGE value="Guilherme-Outlet" />
     <MESSAGE value="Guilherme-UserRegistar/Blog" />
-    <MESSAGE value="AJAXFrontAcessorios" />
-    <option name="LAST_COMMIT_MESSAGE" value="AJAXFrontAcessorios" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-UserRegistar/Blog" />
   </component>
 </project>
