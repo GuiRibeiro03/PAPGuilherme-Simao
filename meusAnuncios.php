@@ -8,7 +8,8 @@ $sql="select * from produtos inner join outlet on produtoId = outletProdutoId wh
 $result = mysqli_query($con,$sql);
 ?>
 
-<br>
+<button class="btn btn-success " style="margin-left: 5%; margin-top: 5%"><a href="Adiciona/AdicionaProdutoOutlet.php?id=<?php echo $_SESSION['id']?>">Adicionar anúncio</a></button>
+
 
 <?php
 while ($dados=mysqli_fetch_array($result)){
@@ -29,6 +30,7 @@ while ($dados=mysqli_fetch_array($result)){
                 <button class="btn btn-danger" onclick="confirmaEliminaOutlet(<?php echo $dados["produtoId"] ?>)">
                         <i class='fa fa-trash'></i> Eliminar Produto
                 </button>
+                <a href="Edita/EditaProdutoOutlet.php?id=<?php echo $dados['produtoId'] ?>"><button type='button' class='btn btn-primary' ><i class='fa fa-edit'></i></button></a>
 
             </div>
 

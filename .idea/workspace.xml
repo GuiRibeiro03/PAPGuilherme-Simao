@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-UserRegistar/Blog">
-      <change afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontAcessorios.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Confirma/confirmaEditaProdutoOutlet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Edita/EditaProdutoOutlet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acessorios.php" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meusAnuncios.php" beforeDir="false" afterPath="$PROJECT_DIR$/meusAnuncios.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AJAX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Confirma" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,11 +71,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Edita" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
