@@ -8,7 +8,7 @@ $sql="select * from produtos where produtoid=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 ?>
-    <a href="backoffice/produtoBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
+
     <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
 
 
@@ -29,14 +29,34 @@ $dados=mysqli_fetch_array($result);
                     </div>
 
                 </div>
-            <div class="card-body">
+            <div class="card-body" style="height: 100%;">
 
                 <h5 class="card-title"><?php echo $dados["produtoNome"] ?></h5>
 
                 <p class="card-text" style="font-size: 18px"><strong><?php echo $dados["produtoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
-                <a href="#" onclick="adicionaCarrinho(<?php echo $id ?>)"  style="color: #dc3545;">
+                <a href="#" onclick="adicionaCarrinho(<?php echo $id ?>)"  style="color: #dc3545; float: left">
                     <input type="submit" class="btn btn-danger  cart-button" value="Adicionar ao Carrinho"></a>
+
+
+                <?php
+                $sql2="select * from users inner join perfis on userId=perfilUserId 
+                        inner join outlet on perfilId=outletPerfilId";
+                $res2=mysqli_query($con,$sql2);
+                $dados2=mysqli_fetch_array($res2);
+
+                ?>
+
+
+                <div class="container" style="outline: solid 2px gray; background-color: dimgray; width: 300px; height: auto; float: left; margin-top: 6%">
+                    <p><img src="<?php echo $dados2['perfilAvatarURL'] ?>" style="width: 30%; border-radius: 50px; margin-top: 10px"></p>
+                    <span>&nbsp;<?php echo $dados2['perfilNome'] ?> </span>
+                    <br>
+                    <br>
+                    <p><span style="width: 100%;"> Contacto: &nbsp; <?php echo $dados2['perfilTelefone'] ?></span></p>
+                    <p><span style="width: 100%;"> Email: <?php echo $dados2['perfilEmail'] ?></span></p>
+                </div>
+
             </div>
 
 
@@ -52,6 +72,8 @@ $dados=mysqli_fetch_array($result);
                 <hr>
             </div>
         </section>
+
+
     </section>
 
 
