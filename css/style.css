@@ -2690,7 +2690,7 @@ tr {
 
 .details-text {
     margin-right: 40px;
-    width: auto;
+    width: 100%;
     text-align: justify;
 }
 

@@ -30,7 +30,7 @@ $result=mysqli_query($con,$sql);
 
 <section class="store" style="height:100%; padding-top: 40px; margin-left: 100px;  background-color: #0d0d0d;color: #FFFFFF">
 
-    <div class=" container" style="width: 300px; float: left; height: 100%; position:relative; ">
+    <div class="container" style="width: 300px; float: left; height: 100%; position:relative; ">
 
             <div class="row" style="width: 100%; outline: #5a6268; ">
                 <div style="color: #FFFFFF; margin-bottom: 20%; width: 50%">
