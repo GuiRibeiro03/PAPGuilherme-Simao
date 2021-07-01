@@ -84,7 +84,7 @@ $result4=mysqli_query($con,$sql3);
             <div class="row">
 <?php
 $i = 0;
-while ($i < 4 && $dadosJogos=mysqli_fetch_array($result2_2)){
+while ($dadosJogos=mysqli_fetch_array($result2_2)){
 
     ?>
 

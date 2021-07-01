@@ -19,8 +19,9 @@ $result2=mysqli_query($con,$sql2);
     <!-- Details Hero Section End -->
 
     <!-- Details Post Section Begin -->
-    <section class="details-post-section spad" style="width: 100%; margin-top: 2% " >
-        <div class="container">
+    <section class="details-post-section spad" style="text-align: justify">
+
+        <div class="container" style="width: 2000px; margin-top: 2% " >
             <div class="row">
                 <div class="col-lg-6">
                     <div class="details-hero-text" style="width: 1000px" >
@@ -35,28 +36,35 @@ $result2=mysqli_query($con,$sql2);
                 </div>
             </div>
 
-        <div class="container" >
+        <div class="container" style="text-align: center;">
             <div class="row">
 
                     <div class="details-text">
+                        <div class="dt-last-desc" style="text-align: center">
+                            <img src="img/<?php echo $dados["noticiaImagemFundoURL"] ?>" alt="" style="width: 60%;">
+                        </div>
+
                        <br>
                         <div class="dt-item" >
                             <span style="color: #FFFFFF"> <?php echo $dados["noticiaDesenvolvimento"]?> </span>
                         </div>
 
                         <div class="dt-last-desc" style="text-align: center">
-                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="" style="width: 60%;">
+                            <img src="img/<?php echo $dados["noticiaImagemURL"] ?>" alt="" style="width: 50%;">
                         </div>
                         <div class="dt-tags">
                                                     <a href="blog.php"><span>PC</span></a>
                             <a href="blogTagExemplo.html"><span>Playstation</span></a>
                             <a href="blog.php"><span>CD Projekt Red</span></a>
                         </div>
+                        </div>
+
 
 
 
                         <!-- ***********************************Comentários section******************************-->
 
+                <div class="details-text">
                         <?php
                         $sql="select * from comentarios inner join perfis on comentarioPerfilId=perfilid where comentarioEntidade like 'noticia' and comentarioEntidadeId=$id order by comentarioData desc";
                         $resultComents=mysqli_query($con,$sql);
@@ -152,7 +160,8 @@ $result2=mysqli_query($con,$sql2);
                                     ?>
 
 </div>
-
+</div>
+        </div>
     </section>
     <!-- Details Post Section End -->
 

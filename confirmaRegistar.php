@@ -29,11 +29,8 @@ mysqli_query($con,$sql);
 $lastId=mysqli_insert_id($con);
 
 $sql2="insert into perfis(perfilNome,perfilAvatarURL,perfilMorada,perfilTelefone,perfilEmail,perfilUserId)
-                    values ('".$userName."','".$novoNome."','".$perfilMorada."','".$telefone."',,'".$email."','".$lastId."')";
+                    values ('".$userName."','".$novoNome."','".$perfilMorada."','".$telefone."','".$email."','".$lastId."')";
 mysqli_query($con,$sql2);
-
-
-
 
 
 session_start();
@@ -42,7 +39,10 @@ $_SESSION['nome']=$userName;
 
 error_reporting(E_ALL);
 
-//header("location:".$_SERVER['HTTP_REFERER']);
+print_r($sql);
+print_r($sql2);
+
+//header("location: index.php");
 
 
 ?>

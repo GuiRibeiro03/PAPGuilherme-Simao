@@ -29,11 +29,11 @@ while ($dados=mysqli_fetch_array($res)){
         $_SESSION['perfilId'] = $dados['perfilId'];
         header("location: ".$_SERVER['HTTP_REFERER']);
 
-}elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
-         $_SESSION['msg'] = "1";
-         header("location: ".$_SERVER['HTTP_REFERER']);
+    }elseif($nome != $dados['userName'] OR $pwd != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
+             $_SESSION['msg'] = "1";
+             header("location: ".$_SERVER['HTTP_REFERER']);
 
-    }
+        }
 
 }
 
