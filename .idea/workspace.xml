@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Registar">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Registar works">
+      <change afterPath="$PROJECT_DIR$/Confirma/confirmaEditaPerfilPass.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaRegistar.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaRegistar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/editaPerfil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +56,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Confirma" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -70,8 +70,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
@@ -262,13 +262,6 @@
       <workItem from="1624962021834" duration="39000" />
       <workItem from="1624962263267" duration="12169000" />
       <workItem from="1625041128226" duration="7070000" />
-    </task>
-    <task id="LOCAL-00269" summary="Guilherme- Filtragem por tags workings">
-      <created>1621422264304</created>
-      <option name="number" value="00269" />
-      <option name="presentableId" value="LOCAL-00269" />
-      <option name="project" value="LOCAL" />
-      <updated>1621422264304</updated>
     </task>
     <task id="LOCAL-00270" summary="Guilherme- Filtragem por tags workings">
       <created>1621422997436</created>
@@ -606,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625052017860</updated>
     </task>
-    <option name="localTasksCounter" value="318" />
+    <task id="LOCAL-00318" summary="Guilherme-Registar works">
+      <created>1625129250317</created>
+      <option name="number" value="00318" />
+      <option name="presentableId" value="LOCAL-00318" />
+      <option name="project" value="LOCAL" />
+      <updated>1625129250317</updated>
+    </task>
+    <option name="localTasksCounter" value="319" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +625,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Login/Registar/Users" />
     <MESSAGE value="Guilherme-Login/Registar/CSS" />
     <MESSAGE value="Guilherme-Check Admin para entrar no Backoffice" />
     <MESSAGE value="Guilherme- Login" />
@@ -650,6 +649,7 @@
     <MESSAGE value="Guilherme-UserRegistar/Blog" />
     <MESSAGE value="Guilherme-Ajax Blog" />
     <MESSAGE value="Guilherme-Registar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Registar" />
+    <MESSAGE value="Guilherme-Registar works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Registar works" />
   </component>
 </project>
