@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Registar works">
-      <change afterPath="$PROJECT_DIR$/Confirma/confirmaEditaPerfilPass.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Update Password">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/editaPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaPerfilPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaPerfilPass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,13 +262,6 @@
       <workItem from="1624962021834" duration="39000" />
       <workItem from="1624962263267" duration="12169000" />
       <workItem from="1625041128226" duration="7070000" />
-    </task>
-    <task id="LOCAL-00270" summary="Guilherme- Filtragem por tags workings">
-      <created>1621422997436</created>
-      <option name="number" value="00270" />
-      <option name="presentableId" value="LOCAL-00270" />
-      <option name="project" value="LOCAL" />
-      <updated>1621422997436</updated>
     </task>
     <task id="LOCAL-00271" summary="Guilherme- Eliminar produto">
       <created>1621438182657</created>
@@ -606,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625129250317</updated>
     </task>
-    <option name="localTasksCounter" value="319" />
+    <task id="LOCAL-00319" summary="Guilherme-Update Password">
+      <created>1625130988668</created>
+      <option name="number" value="00319" />
+      <option name="presentableId" value="LOCAL-00319" />
+      <option name="project" value="LOCAL" />
+      <updated>1625130988668</updated>
+    </task>
+    <option name="localTasksCounter" value="320" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +625,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Login/Registar/CSS" />
     <MESSAGE value="Guilherme-Check Admin para entrar no Backoffice" />
     <MESSAGE value="Guilherme- Login" />
     <MESSAGE value="Guilherme - Action/Botão" />
@@ -650,6 +649,7 @@
     <MESSAGE value="Guilherme-Ajax Blog" />
     <MESSAGE value="Guilherme-Registar" />
     <MESSAGE value="Guilherme-Registar works" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Registar works" />
+    <MESSAGE value="Guilherme-Update Password" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Update Password" />
   </component>
 </project>
