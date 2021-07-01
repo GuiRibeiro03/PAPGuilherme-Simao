@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Logout" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-img Reviews">
+      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -258,20 +260,6 @@
       <workItem from="1624962021834" duration="39000" />
       <workItem from="1624962263267" duration="12169000" />
       <workItem from="1625041128226" duration="7070000" />
-    </task>
-    <task id="LOCAL-00272" summary="Guilherme">
-      <created>1621499110074</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1621499110074</updated>
-    </task>
-    <task id="LOCAL-00273" summary="Guilherme">
-      <created>1621501355509</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1621501355509</updated>
     </task>
     <task id="LOCAL-00274" summary="Guilherme-Login/Registar/Users">
       <created>1621505540326</created>
@@ -602,7 +590,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625134935828</updated>
     </task>
-    <option name="localTasksCounter" value="321" />
+    <task id="LOCAL-00321" summary="Guilherme-img Reviews">
+      <created>1625135278143</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1625135278143</updated>
+    </task>
+    <task id="LOCAL-00322" summary="Guilherme-img Reviews">
+      <created>1625135482303</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1625135482303</updated>
+    </task>
+    <option name="localTasksCounter" value="323" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,7 +623,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Login" />
     <MESSAGE value="Guilherme - Action/Botão" />
     <MESSAGE value="Guilherme - Login" />
     <MESSAGE value="Guilherme - Registar USER" />
@@ -646,6 +647,7 @@
     <MESSAGE value="Guilherme-Registar works" />
     <MESSAGE value="Guilherme-Update Password" />
     <MESSAGE value="Guilherme-Logout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Logout" />
+    <MESSAGE value="Guilherme-img Reviews" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-img Reviews" />
   </component>
 </project>
