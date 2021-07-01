@@ -7,7 +7,7 @@ $reviewData= addslashes($_POST["reviewData"]);
 $reviewImagemURL = $_FILES["reviewImagemURL"]["name"];
 $reviewJogoId = intval($_POST["reviewJogoId"]);
 $reviewAutor = addslashes($_POST["reviewAutor"]);
-$novoNome="img/wallpapers/".$reviewImagemURL;
+$novoNome="../img/wallpapers/".$reviewImagemURL;
 copy($_FILES['reviewImagemURL']['tmp_name'],$novoNome);
 
 echo $sql = "insert into reviews (reviewData,reviewAutor,reviewTexto,reviewJogoId,reviewImagemURL) 
