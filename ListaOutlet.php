@@ -29,6 +29,8 @@ $dados=mysqli_fetch_array($result);
                     </div>
 
                 </div>
+
+            <div class="row">
             <div class="card-body" style="height: 100%;">
 
                 <h5 class="card-title"><?php echo $dados["produtoNome"] ?></h5>
@@ -39,6 +41,12 @@ $dados=mysqli_fetch_array($result);
                     <input type="submit" class="btn btn-danger  cart-button" value="Adicionar ao Carrinho"></a>
 
 
+
+
+
+            </div>
+
+            <div class="container" style="outline: solid 2px gray; background-color: dimgray; height: 250px; width: 300px; float: left">
                 <?php
                 $sql2="select * from users inner join perfis on userId=perfilUserId 
                         inner join outlet on perfilId=outletPerfilId";
@@ -46,20 +54,15 @@ $dados=mysqli_fetch_array($result);
                 $dados2=mysqli_fetch_array($res2);
 
                 ?>
-
-
-                <div class="container" style="outline: solid 2px gray; background-color: dimgray; width: 300px; height: auto; float: left; margin-top: 6%">
-                    <p><img src="<?php echo $dados2['perfilAvatarURL'] ?>" style="width: 30%; border-radius: 50px; margin-top: 10px"></p>
-                    <span>&nbsp;<?php echo $dados2['perfilNome'] ?> </span>
-                    <br>
-                    <br>
-                    <p><span style="width: 100%;"> Contacto: &nbsp; <?php echo $dados2['perfilTelefone'] ?></span></p>
-                    <p><span style="width: 100%;"> Email: <?php echo $dados2['perfilEmail'] ?></span></p>
-                </div>
-
+                <p><img src="<?php echo $dados2['perfilAvatarURL'] ?>" style="width: 30%; border-radius: 50px; margin-top: 10px"></p>
+                <span>&nbsp;<?php echo $dados2['perfilNome'] ?> </span>
+                <br>
+                <br>
+                <p><span style="width: 100%;"> Contacto: &nbsp; <?php echo $dados2['perfilTelefone'] ?></span></p>
+                <p><span style="width: 100%;"> Email: <?php echo $dados2['perfilEmail'] ?></span></p>
             </div>
 
-
+            </div>
         </div>
 
         <section class="store">

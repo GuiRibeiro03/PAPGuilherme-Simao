@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Pass login md5">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Perfil Outlet">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meusAnuncios.php" beforeDir="false" afterPath="$PROJECT_DIR$/meusAnuncios.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,13 +261,6 @@
       <workItem from="1624962021834" duration="39000" />
       <workItem from="1624962263267" duration="12169000" />
       <workItem from="1625041128226" duration="7070000" />
-    </task>
-    <task id="LOCAL-00275" summary="Guilherme-Login/Registar/Users">
-      <created>1621524433996</created>
-      <option name="number" value="00275" />
-      <option name="presentableId" value="LOCAL-00275" />
-      <option name="project" value="LOCAL" />
-      <updated>1621524433996</updated>
     </task>
     <task id="LOCAL-00276" summary="Guilherme-Login/Registar/CSS">
       <created>1621607344039</created>
@@ -606,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625135696880</updated>
     </task>
-    <option name="localTasksCounter" value="324" />
+    <task id="LOCAL-00324" summary="Perfil Outlet">
+      <created>1625149936283</created>
+      <option name="number" value="00324" />
+      <option name="presentableId" value="LOCAL-00324" />
+      <option name="project" value="LOCAL" />
+      <updated>1625149936283</updated>
+    </task>
+    <option name="localTasksCounter" value="325" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +624,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme - Login" />
     <MESSAGE value="Guilherme - Registar USER" />
     <MESSAGE value="Guilherme- BodyBlog" />
     <MESSAGE value="Guilherme- NOticias" />
@@ -650,6 +648,7 @@
     <MESSAGE value="Guilherme-Logout" />
     <MESSAGE value="Guilherme-img Reviews" />
     <MESSAGE value="Guilherme-Pass login md5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Pass login md5" />
+    <MESSAGE value="Perfil Outlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Perfil Outlet" />
   </component>
 </project>
