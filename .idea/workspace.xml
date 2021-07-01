@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Update Password">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaPerfilPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaPerfilPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
-    </list>
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Logout" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -262,13 +258,6 @@
       <workItem from="1624962021834" duration="39000" />
       <workItem from="1624962263267" duration="12169000" />
       <workItem from="1625041128226" duration="7070000" />
-    </task>
-    <task id="LOCAL-00271" summary="Guilherme- Eliminar produto">
-      <created>1621438182657</created>
-      <option name="number" value="00271" />
-      <option name="presentableId" value="LOCAL-00271" />
-      <option name="project" value="LOCAL" />
-      <updated>1621438182658</updated>
     </task>
     <task id="LOCAL-00272" summary="Guilherme">
       <created>1621499110074</created>
@@ -606,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625130988668</updated>
     </task>
-    <option name="localTasksCounter" value="320" />
+    <task id="LOCAL-00320" summary="Guilherme-Logout">
+      <created>1625134935828</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1625134935828</updated>
+    </task>
+    <option name="localTasksCounter" value="321" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,7 +621,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Check Admin para entrar no Backoffice" />
     <MESSAGE value="Guilherme- Login" />
     <MESSAGE value="Guilherme - Action/Botão" />
     <MESSAGE value="Guilherme - Login" />
@@ -650,6 +645,7 @@
     <MESSAGE value="Guilherme-Registar" />
     <MESSAGE value="Guilherme-Registar works" />
     <MESSAGE value="Guilherme-Update Password" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Update Password" />
+    <MESSAGE value="Guilherme-Logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Logout" />
   </component>
 </project>
