@@ -12,6 +12,6 @@ $sql="update morada set moradaTexto='".$moradaTexto."',moradaTelefone= '".$morad
 
 mysqli_query($con,$sql);
 
-header("Location: perfilUser.php?id=".$perfilId);
+//header("Location: perfilUser.php?id=".$perfilId);
 
 ?>

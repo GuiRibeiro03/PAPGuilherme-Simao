@@ -19,7 +19,7 @@ $dados=mysqli_fetch_array($res);
     <h3>Adiciona Morada</h3>
 
 
-    <form style="color: #FFF; margin-left: 20%; margin-top: 5%;margin-bottom: 5%; width: 50%" action="confirmaEditaMorada.php?id=<?php echo $id; ?>&id2=<?php echo $_SESSION['id']?>" method="post">
+    <form style="color: #FFF; margin-left: 20%; margin-top: 5%;margin-bottom: 5%; width: 50%" action="confirmaEditaMorada.php?id=<?php echo $id;?>&id2=<?php echo $perfilId ?>" method="post">
         <div class="form-group">
             <label>Endereço de Morada:</label>
             <input type="text"  class="form-control"  name="moradaTexto" placeholder="ex: rua principal..." value="<?php echo $dados['moradaTexto'];?>">

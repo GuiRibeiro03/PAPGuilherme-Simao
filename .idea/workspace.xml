@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Checkout modal moradas">
-      <change afterPath="$PROJECT_DIR$/confirmaEditaMorada.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/editaMorada.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaEditaMorada.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaEditaMorada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editaMorada.php" beforeDir="false" afterPath="$PROJECT_DIR$/editaMorada.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,13 +263,6 @@
       <workItem from="1624962021834" duration="39000" />
       <workItem from="1624962263267" duration="12169000" />
       <workItem from="1625041128226" duration="7070000" />
-    </task>
-    <task id="LOCAL-00277" summary="Guilherme-Login/Registar/CSS">
-      <created>1621608911958</created>
-      <option name="number" value="00277" />
-      <option name="presentableId" value="LOCAL-00277" />
-      <option name="project" value="LOCAL" />
-      <updated>1621608911958</updated>
     </task>
     <task id="LOCAL-00278" summary="Guilherme-Login/Registar/CSS">
       <created>1621612038704</created>
@@ -607,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625214960977</updated>
     </task>
-    <option name="localTasksCounter" value="326" />
+    <task id="LOCAL-00326" summary="Guilherme-Checkout modal moradas">
+      <created>1625215855132</created>
+      <option name="number" value="00326" />
+      <option name="presentableId" value="LOCAL-00326" />
+      <option name="project" value="LOCAL" />
+      <updated>1625215855132</updated>
+    </task>
+    <option name="localTasksCounter" value="327" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
