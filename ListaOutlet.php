@@ -42,34 +42,37 @@ $dados=mysqli_fetch_array($result);
 
 
 
-
-
             </div>
 
-            <div class="container" style="outline: solid 2px gray; background-color: dimgray; height: 250px; width: 300px; float: left">
-                <?php
-                $sql2="select * from users inner join perfis on userId=perfilUserId 
-                        inner join outlet on perfilId=outletPerfilId";
-                $res2=mysqli_query($con,$sql2);
-                $dados2=mysqli_fetch_array($res2);
 
-                ?>
-                <p><img src="<?php echo $dados2['perfilAvatarURL'] ?>" style="width: 30%; border-radius: 50px; margin-top: 10px"></p>
-                <span>&nbsp;<?php echo $dados2['perfilNome'] ?> </span>
+
+            <?php
+            $sql2="select * from users inner join perfis on userId=perfilUserId 
+                        inner join outlet on perfilId=outletPerfilId inner join moradas on perfilId=moradaPerfilId";
+            $res2=mysqli_query($con,$sql2);
+            $dados2=mysqli_fetch_array($res2);
+
+            ?>
+
+
+            <div class="container" style="outline: solid 2px gray; background-color: dimgray; width: 300px; height: auto; float: left; margin-top: 6%">
+                <p>Utilizador</p>
+                <img src="<?php echo $dados2['perfilAvatarURL'] ?>" style="width: 30%; border-radius: 50px;">
+                <span>&nbsp;<u><?php echo $dados2['perfilNome'] ?></u> </span>
                 <br>
                 <br>
-                <p><span style="width: 100%;"> Contacto: &nbsp; <?php echo $dados2['perfilTelefone'] ?></span></p>
+                <p><span style="width: 100%;"> Contacto: &nbsp; <?php echo $dados2['moradaTelefone'] ?></span></p>
                 <p><span style="width: 100%;"> Email: <?php echo $dados2['perfilEmail'] ?></span></p>
             </div>
-
             </div>
         </div>
 
         <section class="store">
             <div style="height: 80%; width: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; margin-left: 10%">
                 <h2>Acerca do Produto:</h2>
-                <div>
-                    <h3>Resumo:</h3>
+                <div style="margin-top: 2%;">
+
+                    <br>
                     <?php echo $dados["produtoDescricao"] ?>
                 </div>
                 <hr>

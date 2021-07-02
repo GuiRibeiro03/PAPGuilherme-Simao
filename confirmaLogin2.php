@@ -22,7 +22,7 @@ while ($dados=mysqli_fetch_array($res)){
         header("location: ".$_SERVER['HTTP_REFERER']);
 
     }elseif($nome === $dados['userName'] AND md5($pwd) === $dados['userPassword'] AND $dados['userState'] == 'pendente' ) {
-        $verificacao = 'sim';
+        session_start();
         $_SESSION['id'] = $dados['userId'];
         $_SESSION['nome'] = $dados['userName'];
         $_SESSION['perfilId'] = $dados['perfilId'];

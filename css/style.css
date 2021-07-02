@@ -2183,6 +2183,7 @@ ol {
     background: #080808;
     width: 100%;
 
+
 }
 
 .footer-about {
@@ -4904,25 +4905,29 @@ span.psw {
 #ctt {
     border-radius: 3px;
     background-color: #FFFFFF;
-    color: black;
+    color: black;!important;
     border: solid 3px gray;
     width: 400px;
-    height: 60px;
+    height: auto;
     padding: 10px 10px;
     font-weight: 500;
     font-size: 20px;
+    margin-left: 20px;
+    margin-top: 3%;
 }
 
 #morada {
     border-radius: 3px;
-    border: solid 3px gray;
     background-color: #FFFFFF;
+    color: black;!important;
+    border: solid 3px gray;
     width: 400px;
-    height: 230px;
+    height: auto;
     padding: 10px 10px;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 20px;
-    margin-top: 3%
+    margin-left: 20px;
+    margin-top: 3%;
 }
 
 
@@ -4939,11 +4944,13 @@ span.psw {
 
 
 #detalhesPedido{
-    height: 100px;
-    width: 400px;
+    height: auto;
+    width: 500px;
     outline: solid 4px gray;
     padding: 10px 10px;
     background-color: #FFFFFF;
     color: #000;
     margin-top: 3%;
+    margin-right:16%;!important;
+
 }

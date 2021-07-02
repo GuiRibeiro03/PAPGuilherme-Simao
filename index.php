@@ -6,7 +6,7 @@ $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql="select * from noticias";
 $sql_2="select * from jogos inner join reviews on jogoId=reviewJogoId where jogoGlobalRating=100 limit 3";
 $sqlJogos="select * from jogos where jogoGlobalRating > 70 order  by jogoGlobalRating desc ";
-$sql2_2="select * from jogos where jogoDestaque LIKE 'sim' ";
+$sql2_2="select * from jogos where jogoDestaque LIKE 'sim' order by jogoId desc ";
 $sql3="select * from reviews";
 $result=mysqli_query($con, $sql);
 $result_2=mysqli_query($con,$sql_2);
@@ -26,7 +26,7 @@ $result4=mysqli_query($con,$sql3);
                     <div class="section-title">
                         <a href="blog.php"><h5><span>Notícias </span></h5></a>
                     </div>
-                    <div class="tab-elem">
+                        <div class="tab-elem">
                         <ul class="nav nav-tabs" role="tablist">
                             <li class="nav-item">
                                 <a class="nav-link active" data-toggle="tab" href="#news" role="tab"></a>
@@ -84,7 +84,7 @@ $result4=mysqli_query($con,$sql3);
             <div class="row">
 <?php
 $i = 0;
-while ($dadosJogos=mysqli_fetch_array($result2_2)){
+while ($i < 4 and $dadosJogos=mysqli_fetch_array($result2_2)){
 
     ?>
 

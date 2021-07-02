@@ -11,8 +11,6 @@ $userPassEncrypt=md5($userPass);
 
 
 //Variaveis perfil
-$perfilMorada=addslashes($_POST['morada']);
-$telefone=intval($_POST['telefone']);
 $email=addslashes($_POST['email']);
 
 $perfilAvatar=$_FILES["perfilAvatarURL"]["name"];
@@ -28,8 +26,8 @@ mysqli_query($con,$sql);
 
 $lastId=mysqli_insert_id($con);
 
-$sql2="insert into perfis(perfilNome,perfilAvatarURL,perfilMorada,perfilTelefone,perfilEmail,perfilUserId)
-                    values ('".$userName."','".$novoNome."','".$perfilMorada."','".$telefone."','".$email."','".$lastId."')";
+$sql2="insert into perfis(perfilNome,perfilAvatarURL,perfilEmail,perfilUserId)
+                    values ('".$userName."','".$novoNome."','".$email."','".$lastId."')";
 mysqli_query($con,$sql2);
 
 
