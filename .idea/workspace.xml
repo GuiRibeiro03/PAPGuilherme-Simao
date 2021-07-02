@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Carrinho Elimina">
-      <change afterPath="$PROJECT_DIR$/eliminaMorada.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Morada Elimina">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaEditaMorada.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaEditaMorada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editaMorada.php" beforeDir="false" afterPath="$PROJECT_DIR$/editaMorada.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,14 +262,7 @@
       <workItem from="1624962021834" duration="39000" />
       <workItem from="1624962263267" duration="12169000" />
       <workItem from="1625041128226" duration="7070000" />
-      <workItem from="1625226051079" duration="2375000" />
-    </task>
-    <task id="LOCAL-00281" summary="Guilherme- Login">
-      <created>1621870965148</created>
-      <option name="number" value="00281" />
-      <option name="presentableId" value="LOCAL-00281" />
-      <option name="project" value="LOCAL" />
-      <updated>1621870965148</updated>
+      <workItem from="1625226051079" duration="2982000" />
     </task>
     <task id="LOCAL-00282" summary="Guilherme - Action/Botão">
       <created>1621884778005</created>
@@ -608,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625229287149</updated>
     </task>
-    <option name="localTasksCounter" value="330" />
+    <task id="LOCAL-00330" summary="Guilherme-Morada Elimina">
+      <created>1625236207185</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1625236207185</updated>
+    </task>
+    <option name="localTasksCounter" value="331" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +626,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Filtragem por preço,nome e mais recente" />
     <MESSAGE value="Guilherme - filtrar" />
     <MESSAGE value="Guilherme - Perfil" />
     <MESSAGE value="Guilherme - AJAXFillJogosFront.php &amp; checkout" />
@@ -652,6 +650,7 @@
     <MESSAGE value="Guilherme-Checkout modal moradas" />
     <MESSAGE value="Guilherme-Jogos" />
     <MESSAGE value="Guilherme-Carrinho Elimina" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Carrinho Elimina" />
+    <MESSAGE value="Guilherme-Morada Elimina" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Morada Elimina" />
   </component>
 </project>
