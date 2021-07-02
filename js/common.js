@@ -177,43 +177,50 @@ function fillAcessoriosFrontOffice(txt = ''){
 
 function confirmaElimina(id) {
     if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-        window.location="../Elimina/eliminaJogo?id=" + id;
+        window.location="../Elimina/eliminaJogo.php?id=" + id;
 }
 
 function confirmaEliminaReview(id) {
     if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-        window.location="../Elimina/eliminaReview?id=" + id;
+        window.location="../Elimina/eliminaReview.php?id=" + id;
 }
 
 function confirmaEliminaNoticia(id) {
     if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-        window.location="../Elimina/eliminaNoticia?id=" + id;
+        window.location="../Elimina/eliminaNoticia.php?id=" + id;
 }
 
 function confirmaEliminaProduto(id) {
     if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-        window.location="../Elimina/eliminaProduto?id=" + id;
+        window.location="../Elimina/eliminaProduto.php?id=" + id;
 }
 
 function confirmaEliminaEmpresa(id) {
     if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-        window.location="../Elimina/eliminaEmpresa?id=" + id;
+        window.location="../Elimina/eliminaEmpresa.php?id=" + id;
 }
 
 function confirmaEliminaGenero(id) {
     if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-        window.location="../Elimina/eliminaGenero?id=" + id;
+        window.location="../Elimina/eliminaGenero.php?id=" + id;
 }
 
 function confirmaEliminaPlataforma(id) {
     if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-        window.location="../Elimina/eliminaPlataforma?id=" + id;
+        window.location="../Elimina/eliminaPlataforma.php?id=" + id;
 }
 
 function confirmaEliminaOutlet(id) {
     if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
-        window.location="Elimina/eliminaProduto?id=" + id;
+        window.location="Elimina/eliminaProduto.php?id=" + id;
 }
+
+function confirmaEliminaMorada(id) {
+    if(confirm('Confirma que deseja eliminar o registo com o ID #'+id+"?"))
+        window.location="eliminaMorada.php?id=" + id;
+}
+
+
 
 //***********FunçõesPreviewImagem***********************
 function preview_image(event)

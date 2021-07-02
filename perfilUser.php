@@ -102,20 +102,16 @@ if($dados['userType']=='admin'){
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from perfis inner join users on perfilUserId=userId inner join moradas on perfilId=moradaPerfilId where perfilId=".$_GET["id"];
 $result=mysqli_query($con, $sql);
-while ($dados=mysqli_fetch_array($result)){
+$dados=mysqli_fetch_array($result);
     ?>
             <hr>
             <div>
                 <ul style="font-size: 20px; margin-bottom: 3%" >
                 <li><?php echo $dados['perfilNome']?></li>
                 <li><?php echo $dados['perfilEmail']?></li>
-                    <li><?php echo $dados['moradaTelefone']?></li>
                 </ul>
                 <a href="editaPerfil.php?id=<?php echo $dados['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px">Editar</button></a>
             </div>
-    <?php
-}
-    ?>
 
         </div>
         <div class="bp-item" style="margin-bottom: 5%">
@@ -139,7 +135,7 @@ while ($dados2=mysqli_fetch_array($res)){
                 </ul>
 
                 <a href="editaMorada.php?id=<?php echo $dados2['moradaId']?>"><button style="background-color: cornflowerblue; font-size: 20px; padding: 7px 7px">Editar</button></a>
-                <a href="eliminaMorada.php?id=<?php echo $dados2['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px; ">Eliminar</button></a>
+                <a onclick="confirmaEliminaMorada(<?php echo $dados2['moradaId']?>)"><button style="background-color: red; font-size: 20px; padding: 7px 7px; ">Eliminar</button></a>
 <hr>
 
 
