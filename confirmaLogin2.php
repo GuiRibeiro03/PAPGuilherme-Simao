@@ -6,36 +6,40 @@ $res=mysqli_query($con, $sql);
 
 $nome=addslashes($_POST['nome']);
 $pwd=addslashes($_POST['password']);
+session_start();
 
 
 while ($dados=mysqli_fetch_array($res)){
     if ($nome === $dados['userName'] AND md5($pwd) == $dados['userPassword'] AND $dados['userState'] == 'ativo') {
-        session_start();
         $_SESSION['id'] = $dados['userId'];
         $_SESSION['nome'] = $dados['userName'];
         $_SESSION['perfilId'] = $dados['perfilId'];
-        header("location: ".$_SERVER['HTTP_REFERER']);
+        //header("location: ".$_SERVER['HTTP_REFERER']);
 
     }elseif($nome === $dados['userName'] AND md5($pwd) === $dados['userPassword'] AND $dados['userState'] == 'inativo' ) {
-        $verificacao = 'sim';
-        $_SESSION['message'] = "1";
-        header("location: ".$_SERVER['HTTP_REFERER']);
+        $_SESSION['message'] = 1;
+      //  header("location: ".$_SERVER['HTTP_REFERER']);
 
     }elseif($nome === $dados['userName'] AND md5($pwd) === $dados['userPassword'] AND $dados['userState'] == 'pendente' ) {
-        session_start();
         $_SESSION['id'] = $dados['userId'];
         $_SESSION['nome'] = $dados['userName'];
         $_SESSION['perfilId'] = $dados['perfilId'];
-        header("location: ".$_SERVER['HTTP_REFERER']);
+        $_SESSION['messageVer'] = 1;
+      //  header("location: ".$_SERVER['HTTP_REFERER']);
 
     }elseif($nome != $dados['userName'] OR md5($pwd) != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
-             $_SESSION['msg'] = "1";
-             header("location: ".$_SERVER['HTTP_REFERER']);
+        $_SESSION['message'] = 2;
+      //  header("location: ".$_SERVER['HTTP_REFERER']);
 
         }
 
 }
-
+if (isset($_SESSION['message'])){
+    echo "mensagem é ".$_SESSION['message'];
+}
+if (isset($_SESSION['messageVer'])){
+    echo "mensagem verificação é".$_SESSION['messageVer'];
+}
 
 
 ?>

@@ -9,22 +9,22 @@ session_start();
 $_SESSION['carrinho'][0]=-1;
 
 
+
+if(isset($_SESSION['message']) AND $_SESSION['message'] = 2) {
+    echo '<script>alert("Nome de utilizador ou palavra-passe errada, tente de novo.")</script>';
+    unset($_SESSION['message']);
+}
+elseif(isset($_SESSION['message']) AND $_SESSION['message'] = 1) {
+    echo '<script>alert("Esta conta foi desativada.")</script>';
+    unset($_SESSION['message']);
+}
+elseif(isset($_SESSION['message']) AND $_SESSION['message'] = 3){
+    echo '<script>alert("Esta conta ainda não foi ativada por um administrador.")</script>';
+    unset($_SESSION['message']);
+}
+
+
 /*
-if(isset($_GET['msg'])) {
-
-    alert("Nome de utilizador ou palavra-passe errada, tente de novo.");
-
-}
-elseif(isset($_GET['message'])) {
-
-    alertinativo("Esta conta foi desativada.");
-}
-
-elseif(isset($_GET['messageVerify'])){
-
-    alertPendente("Esta conta ainda não foi ativada por um administrador.");
-}
-
 
 function alert($msg) {
     echo "<script type='text/javascript'>alert('$msg');</script>";
