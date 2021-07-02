@@ -110,25 +110,10 @@ $result=mysqli_query($con,$sql);
     </div>
 
 
-    <div class="dropdown">
-        <a href="jogos.php"><button onclick="myFunction()" class="dropbtn" style="background-color: #FFF;color: #0d0d0d; outline: solid 2px white; padding: 2px 5px; ">Ordenar produto por:</button></a>
-    <div id="myDropdown" class="dropdown-content">
-        <a href="jogos.php?ord=1" class="dropdown-item">A-Z</a>
-        <a href="jogos.php?ord=2" class="dropdown-item">Mais recentes</a>
-        <a href="jogos.php?ord=3" class="dropdown-item">Preço Ascendente</a>
-        <a href="jogos.php?ord=4" class="dropdown-item">Preço Decrescente</a>
-    </div>
-
-    </div>
 
 
 
     <div class="row" style="margin-top: 2%">
-
-
-
-
-
 
 
         <?php
@@ -208,7 +193,6 @@ $result=mysqli_query($con,$sql);
 
 
 
-    </div>
 
 
 </section>

@@ -10,7 +10,7 @@ top();
 
     <div  class="col-lg-4 col-md-3" style="alignment: left">
 
-        <div  class="card" style="width: 19rem; margin-left: 20px; margin-right: 10px; margin-top: 5%;margin-bottom: 5%; background-color: black; box-shadow: 10px 10px 2px 1px rgb(255, 255, 255) ;">
+        <div  class="card" style="width: 19rem; margin-left: 20px; margin-right: 10px; margin-top: 5%;margin-bottom: 5%; background-color: black; ">
 <?php
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $sql="select * from perfis inner join users on perfilUserId=userId  where perfilId=".$_GET["id"];
@@ -47,7 +47,7 @@ while ($dados=mysqli_fetch_array($result)){
 
         <div class="container" >
 
-            <div class="coise" style="box-shadow: 10px 10px 2px 1px rgb(255, 255, 255);">
+            <div class="coise">
                 <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; background-color: #0d0d0d; color: #FFF; font-weight: bold">
                     <li class="list-group-item"><h4>Painel da Conta</h4></li>
                 </ul>
@@ -80,8 +80,7 @@ if($dados['userType']=='admin'){
 
     <ul class="list-group" style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
         <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>" style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold"><li class="list-group-item">Definições de Perfil <i class="fa fa-edit"></i></li></a>
-        <a href="#"><li class="list-group-item">Lista de desejos</li></a>
-        <a href="#"><li class="list-group-item">Meus Anúncios</li></a>
+        <a href="meusAnuncios.php?id=<?php echo $_GET['id']?>"><li class="list-group-item">Meus Anúncios</li></a>
 
     </ul>
 
@@ -99,7 +98,12 @@ if($dados['userType']=='admin'){
     <div class="container-lg" style="width: 30%; margin-top: 5%">
         <div class="bp-item" style="margin-bottom: 5%">
             <h4>Informações de Contacto</h4>
-
+<?php
+$con=mysqli_connect("localhost","root","","pap2021gameon");
+$sql="select * from perfis inner join users on perfilUserId=userId inner join moradas on perfilId=moradaPerfilId where perfilId=".$_GET["id"];
+$result=mysqli_query($con, $sql);
+while ($dados=mysqli_fetch_array($result)){
+    ?>
             <hr>
             <div>
                 <ul style="font-size: 20px; margin-bottom: 3%" >
@@ -109,6 +113,9 @@ if($dados['userType']=='admin'){
                 </ul>
                 <a href="editaPerfil.php?id=<?php echo $dados['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px">Editar</button></a>
             </div>
+    <?php
+}
+    ?>
 
         </div>
         <div class="bp-item" style="margin-bottom: 5%">
