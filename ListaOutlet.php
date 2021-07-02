@@ -49,6 +49,7 @@ $dados=mysqli_fetch_array($result);
             <?php
             $sql2="select * from users inner join perfis on userId=perfilUserId 
                         inner join outlet on perfilId=outletPerfilId inner join moradas on perfilId=moradaPerfilId";
+
             $res2=mysqli_query($con,$sql2);
             $dados2=mysqli_fetch_array($res2);
 

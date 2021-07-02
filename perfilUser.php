@@ -114,7 +114,7 @@ if($dados['userType']=='admin'){
         <div class="bp-item" style="margin-bottom: 5%">
 
 
-            <h4>Informações de Morada <i class="fa fa-arrow-down"></i></h4>
+            <h4>Informações de Morada </h4>
             <hr>
             <div>
                 <a href="AdicionaMorada.php?id=<?php echo $_GET['id']?>"><button style="background-color: forestgreen; font-size: 20px; padding: 7px 7px;">Adicionar Morada</button></a>
@@ -130,6 +130,7 @@ while ($dados2=mysqli_fetch_array($res)){
                     <span><strong>Morada:</strong> <?php echo $dados2['moradaTexto']?></span>
                     <p><strong>Telefone:</strong> <?php echo $dados2['moradaTelefone']?></p>
                 </ul>
+
                 <a href="editaMorada.php?id=<?php echo $dados2['perfilId']?>"><button style="background-color: cornflowerblue; font-size: 20px; padding: 7px 7px">Editar</button></a>
                 <a href="eliminaMorada.php?id=<?php echo $dados2['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px; ">Eliminar</button></a>
 <hr>

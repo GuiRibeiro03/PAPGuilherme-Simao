@@ -13,7 +13,7 @@ mysqli_query($con,$sql);
 
 print_r($sql);
 
-header("Location: ".$_SERVER['HTTP_REFERER']);
+header("Location: checkout2.php");
 
 ?>
 

@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Perfil Outlet">
+      <change afterPath="$PROJECT_DIR$/confirmaAdicionaMoradaCheckout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaAdicionaMorada.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaAdicionaMorada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,20 +70,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -260,45 +265,8 @@
       <workItem from="1624873408874" duration="14342000" />
       <workItem from="1624954023546" duration="7860000" />
       <workItem from="1624962021834" duration="39000" />
-      <workItem from="1624962263267" duration="11878000" />
-      <workItem from="1625076856192" duration="941000" />
-      <workItem from="1625158419502" duration="892000" />
-      <workItem from="1625162788354" duration="11638000" />
-    </task>
-    <task id="LOCAL-00271" summary="Guilherme- Eliminar produto">
-      <created>1621438182657</created>
-      <option name="number" value="00271" />
-      <option name="presentableId" value="LOCAL-00271" />
-      <option name="project" value="LOCAL" />
-      <updated>1621438182658</updated>
-    </task>
-    <task id="LOCAL-00272" summary="Guilherme">
-      <created>1621499110074</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1621499110074</updated>
-    </task>
-    <task id="LOCAL-00273" summary="Guilherme">
-      <created>1621501355509</created>
-      <option name="number" value="00273" />
-      <option name="presentableId" value="LOCAL-00273" />
-      <option name="project" value="LOCAL" />
-      <updated>1621501355509</updated>
-    </task>
-    <task id="LOCAL-00274" summary="Guilherme-Login/Registar/Users">
-      <created>1621505540326</created>
-      <option name="number" value="00274" />
-      <option name="presentableId" value="LOCAL-00274" />
-      <option name="project" value="LOCAL" />
-      <updated>1621505540326</updated>
-    </task>
-    <task id="LOCAL-00275" summary="Guilherme-Login/Registar/Users">
-      <created>1621524433996</created>
-      <option name="number" value="00275" />
-      <option name="presentableId" value="LOCAL-00275" />
-      <option name="project" value="LOCAL" />
-      <updated>1621524433996</updated>
+      <workItem from="1624962263267" duration="12169000" />
+      <workItem from="1625041128226" duration="7070000" />
     </task>
     <task id="LOCAL-00276" summary="Guilherme-Login/Registar/CSS">
       <created>1621607344039</created>
@@ -573,42 +541,77 @@
       <option name="project" value="LOCAL" />
       <updated>1624980544732</updated>
     </task>
-    <task id="LOCAL-00315" summary="Guilherme">
-      <created>1625160624218</created>
+    <task id="LOCAL-00315" summary="Guilherme-UserRegistar/Blog">
+      <created>1624981627497</created>
       <option name="number" value="00315" />
       <option name="presentableId" value="LOCAL-00315" />
       <option name="project" value="LOCAL" />
-      <updated>1625160624218</updated>
+      <updated>1624981627497</updated>
     </task>
-    <task id="LOCAL-00316" summary="Guilherme">
-      <created>1625178229418</created>
+    <task id="LOCAL-00316" summary="Guilherme-Ajax Blog">
+      <created>1625046152237</created>
       <option name="number" value="00316" />
       <option name="presentableId" value="LOCAL-00316" />
       <option name="project" value="LOCAL" />
-      <updated>1625178229418</updated>
+      <updated>1625046152238</updated>
     </task>
-    <task id="LOCAL-00317" summary="Guilherme">
-      <created>1625178735463</created>
+    <task id="LOCAL-00317" summary="Guilherme-Registar">
+      <created>1625052017860</created>
       <option name="number" value="00317" />
       <option name="presentableId" value="LOCAL-00317" />
       <option name="project" value="LOCAL" />
-      <updated>1625178735464</updated>
+      <updated>1625052017860</updated>
     </task>
-    <task id="LOCAL-00318" summary="Guilherme">
-      <created>1625180719128</created>
+    <task id="LOCAL-00318" summary="Guilherme-Registar works">
+      <created>1625129250317</created>
       <option name="number" value="00318" />
       <option name="presentableId" value="LOCAL-00318" />
       <option name="project" value="LOCAL" />
-      <updated>1625180719128</updated>
+      <updated>1625129250317</updated>
     </task>
-    <task id="LOCAL-00319" summary="Guilherme">
-      <created>1625181981063</created>
+    <task id="LOCAL-00319" summary="Guilherme-Update Password">
+      <created>1625130988668</created>
       <option name="number" value="00319" />
       <option name="presentableId" value="LOCAL-00319" />
       <option name="project" value="LOCAL" />
-      <updated>1625181981063</updated>
+      <updated>1625130988668</updated>
     </task>
-    <option name="localTasksCounter" value="320" />
+    <task id="LOCAL-00320" summary="Guilherme-Logout">
+      <created>1625134935828</created>
+      <option name="number" value="00320" />
+      <option name="presentableId" value="LOCAL-00320" />
+      <option name="project" value="LOCAL" />
+      <updated>1625134935828</updated>
+    </task>
+    <task id="LOCAL-00321" summary="Guilherme-img Reviews">
+      <created>1625135278143</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1625135278143</updated>
+    </task>
+    <task id="LOCAL-00322" summary="Guilherme-img Reviews">
+      <created>1625135482303</created>
+      <option name="number" value="00322" />
+      <option name="presentableId" value="LOCAL-00322" />
+      <option name="project" value="LOCAL" />
+      <updated>1625135482303</updated>
+    </task>
+    <task id="LOCAL-00323" summary="Guilherme-Pass login md5">
+      <created>1625135696880</created>
+      <option name="number" value="00323" />
+      <option name="presentableId" value="LOCAL-00323" />
+      <option name="project" value="LOCAL" />
+      <updated>1625135696880</updated>
+    </task>
+    <task id="LOCAL-00324" summary="Perfil Outlet">
+      <created>1625149936283</created>
+      <option name="number" value="00324" />
+      <option name="presentableId" value="LOCAL-00324" />
+      <option name="project" value="LOCAL" />
+      <updated>1625149936283</updated>
+    </task>
+    <option name="localTasksCounter" value="325" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,13 +630,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- Eliminar produto" />
-    <MESSAGE value="Guilherme-Login/Registar/Users" />
-    <MESSAGE value="Guilherme-Login/Registar/CSS" />
-    <MESSAGE value="Guilherme-Check Admin para entrar no Backoffice" />
-    <MESSAGE value="Guilherme- Login" />
-    <MESSAGE value="Guilherme - Action/Botão" />
-    <MESSAGE value="Guilherme - Login" />
     <MESSAGE value="Guilherme - Registar USER" />
     <MESSAGE value="Guilherme- BodyBlog" />
     <MESSAGE value="Guilherme- NOticias" />
@@ -651,7 +647,14 @@
     <MESSAGE value="Guilherme-Correção Edita Reviews" />
     <MESSAGE value="Guilherme-Outlet" />
     <MESSAGE value="Guilherme-UserRegistar/Blog" />
-    <MESSAGE value="Guilherme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme" />
+    <MESSAGE value="Guilherme-Ajax Blog" />
+    <MESSAGE value="Guilherme-Registar" />
+    <MESSAGE value="Guilherme-Registar works" />
+    <MESSAGE value="Guilherme-Update Password" />
+    <MESSAGE value="Guilherme-Logout" />
+    <MESSAGE value="Guilherme-img Reviews" />
+    <MESSAGE value="Guilherme-Pass login md5" />
+    <MESSAGE value="Perfil Outlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Perfil Outlet" />
   </component>
 </project>

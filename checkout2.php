@@ -13,7 +13,6 @@ $res2 = mysqli_query($con, $sql2);
 $dados2 = mysqli_fetch_array($res2);
 
 
-
 $ctt = '';
 ?>
 
@@ -27,8 +26,13 @@ $ctt = '';
         <br>
         <h4 style="font-weight: bold; color: #FFFFFF">Morada de Entrega</h4>
 
+        <span onclick="document.getElementById('morada2').style.display='block'">
+        <a href="#"><button style="background-color: forestgreen; font-size: 20px; padding: 7px 7px;">Adicionar Morada</button></a>
+        </span>
 
 
+
+        data-toggle="modal" data-target="#morada"
         <div class="row">
 
             <!-- **************************DIV MORADA**************START*********  -->
@@ -44,41 +48,44 @@ $ctt = '';
                         <p style="color: black"><?php echo $dados['moradaTexto'] ?></p>
                         <p style="color: black"><?php echo $dados['moradaTelefone'] ?></p>
                     </div>
-                    <div style="float: right; padding-bottom: 5px"><input type="radio" name="radio" value="checked"  >  </div>
+                    <div style="float: right; padding-bottom: 5px"><input type="radio" name="radio" value="checked">
+                    </div>
 
                 </div>
                 <?php
             }
             ?>
             <!-- **************************DIV MORADA***************END********  -->
-            <span ><a onclick="document.getElementById('morada').style.display='block' " href="#" style=" background-color: forestgreen; font-size: 20px; padding: 7px 7px;">
-                            <span style="color: #FFF; font-size: 16px">Adiciona Morada</span></a></span>
 
-            <div id="morada" class="modal">
+            <!-- **************************MODAL***************START********  -->
+            <div id="morada2" class="modal">
 
-                <form class="modal-content animate" action="confirmaAdicionaMorada.php?id=<?php echo $_SESSION['id']; ?>" method="post">
+                <form class="modal-content animate"
+                      action="confirmaAdicionaMoradaCheckout.php?id=<?php echo $_SESSION['id']; ?>" method="post">
                     <div class="imgcontainer">
                         <img src="img/Game.png">
-                        <span onclick="document.getElementById('morada').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        <span onclick="document.getElementById('morada2').style.display='none'" class="close"
+                              title="Close Modal">&times;</span>
                     </div>
                     <div class="container">
                         <div class="form-group">
                             <label>Endereço de Morada:</label>
-                            <input type="text"  class="form-control"  name="moradaTexto" placeholder="ex: rua principal...">
+                            <input type="text" class="form-control" name="moradaTexto"
+                                   placeholder="ex: rua principal...">
 
                         </div>
                         <div class="form-group">
                             <label>Número de Telefone:</label>
-                            <input type="text"  class="form-control" name="moradaTelefone" placeholder="ex: rua principal..." maxlength="9">
+                            <input type="text" class="form-control" name="moradaTelefone"
+                                   placeholder="ex: rua principal..." maxlength="9">
                         </div>
-                        <button type="submit" class="btn btn-danger" >Adicionar</button>
-
+                        <button type="submit" class="btn btn-danger">Adicionar</button>
                     </div>
-
-
                 </form>
-
             </div>
+
+
+            <!-- **************************MODAL***************END********  -->
 
 
         </div>
@@ -89,14 +96,17 @@ $ctt = '';
                 <h4 style="font-weight: bold; color: #FFFFFF">Metodo de Envio:</h4>
                 <div style="margin-top: 20px">
                     <span>CTT- Expresso: 3,90€</span>
-                    <div style="float: right;"><input type="radio" name="jogoDestaque" id="<?php $ctt ?>" value="sim" <?php if ($ctt == 'sim') { echo "checked";} ?>></div>
+                    <div style="float: right;"><input type="radio" name="jogoDestaque" id="<?php $ctt ?>"
+                                                      value="sim" <?php if ($ctt == 'sim') {
+                            echo "checked";
+                        } ?>></div>
                 </div>
 
                 <div style="margin-top: 20px">
-                 <span>Recolher em Loja:</span>
-                    <div style="float: right;"><input type="radio" name="jogoDestaque" value="nao"  ></div>
+                    <span>Recolher em Loja:</span>
+                    <div style="float: right;"><input type="radio" name="jogoDestaque" value="nao"></div>
 
-                        <p style="margin-top: 10px"><select>
+                    <p style="margin-top: 10px"><select>
                             <option value="Leiria">Leiria</option>
                             <option value="Leiria">Lisboa</option>
                             <option value="Leiria">Coimbra</option>
@@ -143,12 +153,12 @@ $ctt = '';
                     <span id="preco"
                           style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
                     <?php
-                    if($ctt=='checked') {
-                        $precoTotal+=3.90;
-?>
+                    if ($ctt == 'checked') {
+                        $precoTotal += 3.90;
+                        ?>
                         <span style="color: #0b0b0b; font-size: 20px">Envio: 3,90€</span>
 
-                            <?php
+                        <?php
                     }
                     ?>
 
@@ -185,8 +195,8 @@ $ctt = '';
                     <span id="preco"
                           style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
                     <?php
-                    if($ctt=='checked') {
-                        $precoTotal+=3.90;
+                    if ($ctt == 'checked') {
+                        $precoTotal += 3.90;
                         ?>
                         <span style="color: #0b0b0b; font-size: 20px">Envio: 3,90€</span>
 
@@ -196,16 +206,12 @@ $ctt = '';
                 </div>
 
 
-
                 <?php
 
                 $precoTotal += $dados3["jogoPreco"];
 
 
-
-
             }
-
 
 
             ?>
@@ -277,11 +283,6 @@ $ctt = '';
 
 
     </section>
-
-
-
-
-
 
 
     <!-- Footer Section Begin -->
