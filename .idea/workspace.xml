@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Perfil Outlet">
-      <change afterPath="$PROJECT_DIR$/confirmaAdicionaMoradaCheckout.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Checkout modal moradas">
+      <change afterPath="$PROJECT_DIR$/confirmaEditaMorada.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editaMorada.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaAdicionaMorada.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaAdicionaMorada.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -267,13 +263,6 @@
       <workItem from="1624962021834" duration="39000" />
       <workItem from="1624962263267" duration="12169000" />
       <workItem from="1625041128226" duration="7070000" />
-    </task>
-    <task id="LOCAL-00276" summary="Guilherme-Login/Registar/CSS">
-      <created>1621607344039</created>
-      <option name="number" value="00276" />
-      <option name="presentableId" value="LOCAL-00276" />
-      <option name="project" value="LOCAL" />
-      <updated>1621607344039</updated>
     </task>
     <task id="LOCAL-00277" summary="Guilherme-Login/Registar/CSS">
       <created>1621608911958</created>
@@ -611,7 +600,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625149936283</updated>
     </task>
-    <option name="localTasksCounter" value="325" />
+    <task id="LOCAL-00325" summary="Guilherme-Checkout modal moradas">
+      <created>1625214960976</created>
+      <option name="number" value="00325" />
+      <option name="presentableId" value="LOCAL-00325" />
+      <option name="project" value="LOCAL" />
+      <updated>1625214960977</updated>
+    </task>
+    <option name="localTasksCounter" value="326" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -630,7 +626,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme - Registar USER" />
     <MESSAGE value="Guilherme- BodyBlog" />
     <MESSAGE value="Guilherme- NOticias" />
     <MESSAGE value="Guilherme- Filtragem por preço,nome e mais recente" />
@@ -655,6 +650,7 @@
     <MESSAGE value="Guilherme-img Reviews" />
     <MESSAGE value="Guilherme-Pass login md5" />
     <MESSAGE value="Perfil Outlet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Perfil Outlet" />
+    <MESSAGE value="Guilherme-Checkout modal moradas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Checkout modal moradas" />
   </component>
 </project>

@@ -131,7 +131,7 @@ while ($dados2=mysqli_fetch_array($res)){
                     <p><strong>Telefone:</strong> <?php echo $dados2['moradaTelefone']?></p>
                 </ul>
 
-                <a href="editaMorada.php?id=<?php echo $dados2['perfilId']?>"><button style="background-color: cornflowerblue; font-size: 20px; padding: 7px 7px">Editar</button></a>
+                <a href="editaMorada.php?id=<?php echo $dados2['moradaId']?>"><button style="background-color: cornflowerblue; font-size: 20px; padding: 7px 7px">Editar</button></a>
                 <a href="eliminaMorada.php?id=<?php echo $dados2['perfilId']?>"><button style="background-color: red; font-size: 20px; padding: 7px 7px; ">Eliminar</button></a>
 <hr>
 
