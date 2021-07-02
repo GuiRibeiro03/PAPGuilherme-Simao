@@ -3307,7 +3307,6 @@ tr {
 
 .details-text .dt-overall-rating,
 .contact-form .dt-overall-rating {
-    border: 1px solid #252525;
     overflow: hidden;
     margin-bottom: 25px;
 }
