@@ -28,6 +28,7 @@ $lastId=mysqli_insert_id($con);
 
 $sql2="insert into perfis(perfilNome,perfilAvatarURL,perfilEmail,perfilUserId)
                     values ('".$userName."','".$novoNome."','".$email."','".$lastId."')";
+
 mysqli_query($con,$sql2);
 
 

@@ -531,7 +531,10 @@ function bottom(){
 
 <div id="id02" class="modal">
     <form  class="modal-content animate" action="confirmaRegistar.php" method="post" enctype="multipart/form-data" >
+        <div class="imgcontainer">
             <div style="width: 100%; text-align: center"><img src="img/Game.png" style="width: 30%"></div>
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+        </div>
         <div class="container" style="margin-top: 5%;margin-bottom: 2%">
 
             <div class="form-floating mb-3">

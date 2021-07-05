@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Morada ConfirmaEdita">
-      <change afterPath="$PROJECT_DIR$/AJAXUSER/AJAXConfirmaLogin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registar.php" beforeDir="false" afterPath="$PROJECT_DIR$/registar.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Lagin Menssagens">
+      <change beforePath="$PROJECT_DIR$/confirmaRegistar.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaRegistar.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,14 +261,7 @@
       <workItem from="1624962263267" duration="12169000" />
       <workItem from="1625041128226" duration="7070000" />
       <workItem from="1625226051079" duration="4770000" />
-      <workItem from="1625472498171" duration="4993000" />
-    </task>
-    <task id="LOCAL-00284" summary="Guilherme - Login">
-      <created>1621893018432</created>
-      <option name="number" value="00284" />
-      <option name="presentableId" value="LOCAL-00284" />
-      <option name="project" value="LOCAL" />
-      <updated>1621893018432</updated>
+      <workItem from="1625472498171" duration="5337000" />
     </task>
     <task id="LOCAL-00285" summary="Guilherme - Login">
       <created>1621893060084</created>
@@ -612,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625490950415</updated>
     </task>
-    <option name="localTasksCounter" value="333" />
+    <task id="LOCAL-00333" summary="Guilherme-Lagin Menssagens">
+      <created>1625493672236</created>
+      <option name="number" value="00333" />
+      <option name="presentableId" value="LOCAL-00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1625493672236</updated>
+    </task>
+    <option name="localTasksCounter" value="334" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -631,7 +625,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme - Perfil" />
     <MESSAGE value="Guilherme - AJAXFillJogosFront.php &amp; checkout" />
     <MESSAGE value="Guilherme -&#10;checkout" />
     <MESSAGE value="Guilherme-ConfirmaEditaPerfil &#10;Header-perfiluser.php?id=&quot;.$id" />
@@ -656,6 +649,7 @@
     <MESSAGE value="Guilherme-Carrinho Elimina" />
     <MESSAGE value="Guilherme-Morada Elimina" />
     <MESSAGE value="Guilherme-Morada ConfirmaEdita" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Morada ConfirmaEdita" />
+    <MESSAGE value="Guilherme-Lagin Menssagens" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Lagin Menssagens" />
   </component>
 </project>
