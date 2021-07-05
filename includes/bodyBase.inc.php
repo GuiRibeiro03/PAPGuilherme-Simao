@@ -10,9 +10,7 @@ $_SESSION['carrinho'][0]=-1;
 
 if(isset($_GET['message'])){
 
-if($_GET['message'] == 1) {
-    alertMsg("Esta conta foi desativada.");
-}elseif($_GET['message'] == 2){
+if($_GET['message'] == 2) {
     alertMsg("Username ou password incorretas!");
 }
 
@@ -567,7 +565,7 @@ function bottom(){
 
     <div id="id01" class="modal">
 
-        <form class="modal-content animate" action="confirmaLogin2.php" method="post"  id="frmConfirma">
+        <form class="modal-content animate" action="confirmaLogin2.php" method="post"  id="frmConfirma" >
             <div class="imgcontainer">
                 <img src="img/Game.png">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>

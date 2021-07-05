@@ -1,39 +1,37 @@
 <?php
 include_once ("includes/config.inc.php");
 $con=mysqli_connect("localhost","root","","pap2021gameon");
-$sql="select * from users inner join perfis on userId = perfilUserId";
-$res=mysqli_query($con, $sql);
 
+session_start();
 $nome=addslashes($_POST['nome']);
 $pwd=addslashes($_POST['password']);
+$pwd=md5($pwd);
+
+//1º ir buscar o id DO login
+
+$sql="select userId from users where userName='$nome' AND userState='ativo' OR userState='pendente' ";
+$res=mysqli_query($con,$sql);
+$dados=mysqli_fetch_array($res);
+$id=$dados['userId'];
+// id=$sql="select userId from users where userName='$nome' AND userState='ativo' OR userState='pendente' ";
+
+//2º ir buscar à BD os dados do Id obtido
+$sql2="select userId, userName, userPassword from users where userId='$id'";
+// buscar dados
+$res2=mysqli_query($con,$sql2);
+$dados2=mysqli_fetch_array($res2);
+
+//3º comparar o que enviaram com este últimos dados IF
 
 
-while ($dados=mysqli_fetch_array($res)){
-    if ($nome === $dados['userName'] AND md5($pwd) == $dados['userPassword'] AND $dados['userState'] == 'ativo') {
-        session_start();
-        $_SESSION['id'] = $dados['userId'];
-        $_SESSION['nome'] = $dados['userName'];
-        $_SESSION['perfilId'] = $dados['perfilId'];
-        header("location:index.php?message=0");
-    }elseif($nome === $dados['userName'] AND md5($pwd) === $dados['userPassword'] AND $dados['userState'] == 'inativo' ) {
-        $verificacao='sim';
-        header("location:index.php?message=1");
+     if($nome == $dados2['userName'] AND $pwd == $dados2['userPassword']) {
+     $_SESSION['id'] = $dados['userId'];
+     $_SESSION['nome'] = $dados['userNome'];
+     header("location:index.php");
 
-    }elseif($nome === $dados['userName'] AND md5($pwd) === $dados['userPassword'] AND $dados['userState'] == 'pendente' ) {
-        session_start();
-        $_SESSION['id'] = $dados['userId'];
-        $_SESSION['nome'] = $dados['userName'];
-        $_SESSION['perfilId'] = $dados['perfilId'];
-        header("location:index.php?message=0");
-
-    }elseif($nome != $dados['userName'] OR md5($pwd) != $dados['userPassword']){
-        $verificacao='sim';
-        header("location:index.php?message=2");
-    }
-
-}
-
-
+ }else{
+         header("location:index.php?message=2");
+ }
 
 ?>
 
