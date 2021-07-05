@@ -17,8 +17,8 @@ while ($dados=mysqli_fetch_array($res)){
         //header("location: ".$_SERVER['HTTP_REFERER']);
 
     }elseif($nome === $dados['userName'] AND md5($pwd) === $dados['userPassword'] AND $dados['userState'] == 'inativo' ) {
-        $_SESSION['message'] = 1;
-      //  header("location: ".$_SERVER['HTTP_REFERER']);
+        $verificacao='sim';
+        header("location:index.php?message");
 
     }elseif($nome === $dados['userName'] AND md5($pwd) === $dados['userPassword'] AND $dados['userState'] == 'pendente' ) {
         $_SESSION['id'] = $dados['userId'];
@@ -28,18 +28,13 @@ while ($dados=mysqli_fetch_array($res)){
       //  header("location: ".$_SERVER['HTTP_REFERER']);
 
     }elseif($nome != $dados['userName'] OR md5($pwd) != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
-        $_SESSION['message'] = 2;
-      //  header("location: ".$_SERVER['HTTP_REFERER']);
+        $verificacao='sim';
+        header("location:index.php?message2");
 
         }
 
 }
-if (isset($_SESSION['message'])){
-    echo "mensagem é ".$_SESSION['message'];
-}
-if (isset($_SESSION['messageVer'])){
-    echo "mensagem verificação é".$_SESSION['messageVer'];
-}
+
 
 
 ?>

@@ -10,31 +10,28 @@ $_SESSION['carrinho'][0]=-1;
 
 
 
+if (isset($_GET['message'])) {
 
-if(isset($_SESSION['message']) AND $_SESSION['message'] = 2) {
-    echo '<script>alert("Nome de utilizador ou palavra-passe errada, tente de novo.")</script>';
-    unset($_SESSION['message']);
-}
-elseif(isset($_SESSION['message']) AND $_SESSION['message'] = 1) {
-    echo '<script>alert("Esta conta foi desativada.")</script>';
-    unset($_SESSION['message']);
-}
-elseif(isset($_SESSION['messageVer']) AND $_SESSION['messageVer'] = 1){
-    echo '<script>alert("Esta conta ainda não foi ativada por um administrador.")</script>';
-    unset($_SESSION['messageVer']);
+    alertinativo("Esta conta foi desativada.");
 }
 
-/*
-function alert($msg) {
-    echo "<script type='text/javascript'>alert('$msg');</script>";
+if(isset($_GET['message2'])){
+    alertErrado("Username ou password incorretas!!!!!!!");
+
 }
-function alertinativo($message) {
+
+function alertinativo($message)
+{
     echo "<script type='text/javascript'>alert('$message');</script>";
 }
-function alertPendente($messageVerify) {
-    echo "<script type='text/javascript'>alert('$messageVerify');</script>";
+
+function alertErrado($message2)
+{
+    echo "<script type='text/javascript'>alert('$message2');</script>";
 }
-*/
+
+
+
 
 function top($menu=HOME){
 
@@ -218,11 +215,11 @@ function top($menu=HOME){
                             if(!isset($_SESSION['id'])){
                                 ?>
                                 <ul class="float-right" style="margin-top: 15px">
-                                    <li> <span onclick="document.getElementById('id01').style.display='block'"><a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
+                                    <li> <span onclick="document.getElementById('id01').style.display='block'">
                             <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span> </li>
 
-                                    <li><span onclick="document.getElementById('id02').style.display='block'"><a href="registar.php" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">
-                            <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
+                                    <li><span onclick="document.getElementById('id02').style.display='block'">
+                                            <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"> <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
                                 </ul>
                                 <?php
                             }else{
@@ -517,57 +514,7 @@ function bottom(){
 
     <!--*********** Modal Registar **************-->
 
-    <!--<div id="id02" class="modal" >
 
-
-        <form class="modal-content animate" action="confirmaRegistar.php" method="post" enctype="multipart/form-data">
-            <div class="imgcontainer">
-                <img src="img/Game.png">
-                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-            </div>
-            <div class="container">
-                <h4>Registar: </h4>
-                <br>
-                <div class="form-floating mb-3">
-                <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
-                <input type="text" class="form-control" id="floatingInput" name="userName" placeholder="Introduza o seu nome.."  required>
-                </div>
-
-                <div class="form-floating mb-3">
-                <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
-                <input type="password" class="form-control" id="floatingInput"  name="password" placeholder="Introduza uma password que se lembre.."  required>
-                </div>
-
-
-                <div class="form-floating mb-3">
-                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Morada:</b></label>
-                    <input type="text" class="form-control" id="floatingInput"  name="morada" placeholder="Introduza a sua morada" required>
-                </div>
-
-
-                <div class="form-floating mb-3">
-                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Telefone:</b></label>
-                    <input type="text" class="form-control" id="floatingInput"  name="telefone" placeholder="ex:953224231" maxlength="9" required>
-                </div>
-
-
-                <div class="form-floating mb-3">
-                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Email:</b></label>
-                    <input type="email" class="form-control" id="floatingInput"  name="email" required>
-                </div>
-
-
-                <div class="form-floating mb-3">
-                    <label id="imagem" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; padding: 5px 10px 5px 10px; border-radius: 4px; width: auto; text-align: center"><b>Imagem de Perfil:</b></label>
-                </div>
-                    <input type="file" accept="image/*" name="perfilAvatarURL" onchange="preview_image(event)" style="color: darkgray">
-
-
-                <div style="float: right"> <button type="submit" style=" border-radius: 10px;background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button></div>
-                </div>
-
-        </form>
-    </div>-->
 
     <script>
         // Get the modal
@@ -582,16 +529,48 @@ function bottom(){
     </script>
     <!--*********** Modal Registar-FIM ************** -->
 
+<div id="id02" class="modal">
+    <form  class="modal-content animate" action="confirmaRegistar.php" method="post" enctype="multipart/form-data" >
+            <div style="width: 100%; text-align: center"><img src="img/Game.png" style="width: 30%"></div>
+        <div class="container" style="margin-top: 5%;margin-bottom: 2%">
+
+            <div class="form-floating mb-3">
+                <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
+                <input type="text" class="form-control" id="floatingInput" name="userName" placeholder="Introduza o seu nome.."  required> <!-- PerfilNome -->
+            </div>
+
+            <div class="form-floating mb-3">
+                <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
+                <input type="password" class="form-control" id="floatingInput"  name="password" placeholder="Introduza uma password que se lembre.."  required> <!-- Password -->
+            </div>
 
 
 
+            <div class="form-floating mb-3">
+                <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Email:</b></label>
+                <input type="email" class="form-control" id="floatingInput"  name="email" placeholder="ex: teste@gmail.com" required> <!-- Password -->
+            </div>
+
+
+            <div class="form-floating mb-3">
+                <label id="imagem" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; padding: 5px 10px 5px 10px; border-radius: 4px; width: auto; text-align: center"><b>Imagem de Perfil:</b></label> <!-- Imagem -->
+            </div>
+            <input type="file" accept="image/*" name="perfilAvatarURL" onchange="preview_image(event)" style="color: darkgray">
+
+
+            <div style="float: right"> <button type="submit" style=" border-radius: 10px;background-color: #FF0000; height: 45px; width: 100px"><strong>Registar</strong></button></div>
+        </div>
+
+    </form>
+
+    </div>
 
 
     <!--*********** Modal Login ************** -->
 
     <div id="id01" class="modal">
 
-        <form class="modal-content animate" action="confirmaLogin2.php" method="post">
+        <form class="modal-content animate" action="confirmaLogin2.php" method="post"  id="frmConfirma">
             <div class="imgcontainer">
                 <img src="img/Game.png">
                 <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
@@ -600,15 +579,15 @@ function bottom(){
                 <h4>Entrar:</h4>
                 <br>
                 <div class="form-floating mb-3">
-                    <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
-                    <input type="text" class="form-control" id="floatingInput" name="nome"  required>
+                    <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b><span id="NoName"></span></label>
+                    <input type="text" class="form-control"  name="nome"  id="nome" required>
                 </div>
 
                 <div class="form-floating mb-3">
-                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
-                    <input type="password" class="form-control" id="floatingInput"   name="password" required>
+                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b> <span id="NoPass"></span></label>
+                    <input type="password" class="form-control"  id="password"  name="password" required>
                 </div>
-                <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Login</strong></button>
+                <button onclick="entrar()" type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Login</strong></button>
                 <hr>
 
             </div>

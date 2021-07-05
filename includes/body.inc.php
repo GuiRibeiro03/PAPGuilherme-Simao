@@ -617,53 +617,35 @@ function bottom(){
 
     <!--*********** Modal Login-Inicio ************** -->
 
+    <div id="id01" class="modal">
 
-        <div id="id01" class="modal">
-
-
-            <form class="modal-content animate" action="../confirmaLogin2.php" method="post">
-                <div class="imgcontainer">
-                    <img src="../img/Game.png">
-                    <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-                </div>
-                <div class="container">
-
-                    <div class="form-floating mb-3">
-                        <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b></label>
-                        <input type="text" class="form-control" id="floatingInput" name="nome"  required>
-                    </div>
-
-                    <div class="form-floating mb-3">
-                        <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b></label>
-                        <input type="password" class="form-control" id="floatingInput"   name="password" required>
-                    </div>
-                    <button type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Login</strong></button>
-                    <hr>
-
+        <form class="modal-content animate" action="../confirmaLogin2.php" method="post"  id="frmConfirma">
+            <div class="imgcontainer">
+                <img src="../img/Game.png">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+            <div class="container">
+                <h4>Entrar:</h4>
+                <br>
+                <div class="form-floating mb-3">
+                    <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b><span id="NoName"></span></label>
+                    <input type="text" class="form-control"  name="nome"  id="nome" required>
                 </div>
 
-                <div class="container" style="background-color:#f1f1f1; color: #0d0d0d">
-                    <span class="password">Esqueci-me da <a href="editaPassword.php" style="color: #00aff1">palavra-passe?</a></span>
+                <div class="form-floating mb-3">
+                    <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b> <span id="NoPass"></span></label>
+                    <input type="password" class="form-control"  id="password"  name="password" required>
                 </div>
-            </form>
-        </div>
+                <button onclick="entrar()" type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Login</strong></button>
+                <hr>
 
+            </div>
 
-    <script>
-        // Get the modal
-        var modal = document.getElementById('id01');
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-
-    </script>
-    <!--*********** Modal Login-FIM ************** -->
-
-
+            <div class="container" style="background-color:#f1f1f1; color: #0d0d0d">
+                <span class="password">Esqueci-me da <a href="editaPassword.php" style="color: #00aff1">palavra-passe?</a></span>
+            </div>
+        </form>
+    </div>
 
 
 

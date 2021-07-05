@@ -40,7 +40,7 @@ error_reporting(E_ALL);
 print_r($sql);
 print_r($sql2);
 
-//header("location: index.php");
+header("location: index.php");
 
 
 ?>
