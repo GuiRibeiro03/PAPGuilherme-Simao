@@ -71,8 +71,10 @@ $dados=mysqli_fetch_array($result);
                                         </div>
                                     </div>
                                 </div>
-
-
+<hr>
+                                <div style=" text-align: center; max-width: 1920px;!important; min-width: 400px;!important; height: auto;!important; " >
+                                    <?php echo $dados["jogoTrailer"] ?>
+                                </div>
 
                             </div>
 
@@ -87,7 +89,8 @@ $dados=mysqli_fetch_array($result);
                         while ($dadosComents=mysqli_fetch_array($resultComents)){
                         ?>
 
-                        <div class="dt-quote" style="width: 100%; ">
+                        <div class="dt-quote" style="width: 100%; margin-top: 10%">
+
                             <div style="color: white;">
                                 <span><b><?php echo $dadosComents["perfilNome"]?></b></span>
                                 <span style="float: right"><b><?php echo $dadosComents["comentarioData"]?></b></span>

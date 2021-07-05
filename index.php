@@ -174,10 +174,12 @@ $i = $i + 1;
                                             </div>
                                         </div>
                                     </div>
+
                                     <div class="bp-text" style="width: 100%">
                                         <h5 style="font-size: 22px"><strong><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></strong></h5>
                                     </div>
                                 </div>
+
                                 <?php
                                 $i = $i + 1;
                             }

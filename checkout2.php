@@ -240,9 +240,9 @@ $ctt = '';
                         <div class="row"
                              style="outline: solid 3px gray; background-color: #FFFFFF; width: 70%; padding: 5px 20px 15px 20px; color: #0d0d0d ">
 
-                            <div class="col-50">
+                            <div class="col-50" >
 
-                                <label for="fname">Accepted Cards</label>
+                                <label for="fname">Métodos Aceites:</label>
                                 <div class="icon-container">
                                     <i class="fa fa-cc-visa" style="color:navy;"></i>
                                     <i class="fa fa-cc-amex" style="color:blue;"></i>
