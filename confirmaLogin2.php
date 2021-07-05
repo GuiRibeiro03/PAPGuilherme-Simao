@@ -6,31 +6,30 @@ $res=mysqli_query($con, $sql);
 
 $nome=addslashes($_POST['nome']);
 $pwd=addslashes($_POST['password']);
-session_start();
 
 
 while ($dados=mysqli_fetch_array($res)){
     if ($nome === $dados['userName'] AND md5($pwd) == $dados['userPassword'] AND $dados['userState'] == 'ativo') {
+        session_start();
         $_SESSION['id'] = $dados['userId'];
         $_SESSION['nome'] = $dados['userName'];
         $_SESSION['perfilId'] = $dados['perfilId'];
-        header("location: ".$_SERVER['HTTP_REFERER']);
-
+        header("location:index.php?message=0");
     }elseif($nome === $dados['userName'] AND md5($pwd) === $dados['userPassword'] AND $dados['userState'] == 'inativo' ) {
         $verificacao='sim';
-        header("location:index.php?message");
+        header("location:index.php?message=1");
 
     }elseif($nome === $dados['userName'] AND md5($pwd) === $dados['userPassword'] AND $dados['userState'] == 'pendente' ) {
+        session_start();
         $_SESSION['id'] = $dados['userId'];
         $_SESSION['nome'] = $dados['userName'];
         $_SESSION['perfilId'] = $dados['perfilId'];
-        header("location: ".$_SERVER['HTTP_REFERER']);
+        header("location:index.php?message=0");
 
-    }elseif($nome != $dados['userName'] OR md5($pwd) != $dados['userPassword'] AND $dados['userState'] == 'ativo'){
+    }elseif($nome != $dados['userName'] OR md5($pwd) != $dados['userPassword']){
         $verificacao='sim';
-        header("location:index.php?message2");
-
-        }
+        header("location:index.php?message=2");
+    }
 
 }
 

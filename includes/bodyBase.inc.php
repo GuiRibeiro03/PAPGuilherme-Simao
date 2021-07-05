@@ -8,27 +8,21 @@ error_reporting(E_ALL);
 session_start();
 $_SESSION['carrinho'][0]=-1;
 
+if(isset($_GET['message'])){
 
-
-if (isset($_GET['message'])) {
-
-    alertinativo("Esta conta foi desativada.");
+if($_GET['message'] == 1) {
+    alertMsg("Esta conta foi desativada.");
+}elseif($_GET['message'] == 2){
+    alertMsg("Username ou password incorretas!");
 }
 
-if(isset($_GET['message2'])){
-    alertErrado("Username ou password incorretas!!!!!!!");
-
 }
 
-function alertinativo($message)
+function alertMsg($message)
 {
     echo "<script type='text/javascript'>alert('$message');</script>";
 }
 
-function alertErrado($message2)
-{
-    echo "<script type='text/javascript'>alert('$message2');</script>";
-}
 
 
 
