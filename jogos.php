@@ -28,7 +28,7 @@ $result=mysqli_query($con,$sql);
 
 
 
-<div style=" margin-left: 35%; width: 100%; ">
+<div style="text-align: center; width: 100%; margin-left: 20%">
     <input type="text" placeholder="Procura o jogo que desejas..." id="search" style="width: 30%;">
     </div>
 

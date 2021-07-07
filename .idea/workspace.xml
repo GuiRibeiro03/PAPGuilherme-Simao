@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Login WORKS!!">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
-    </list>
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -268,14 +261,7 @@
       <workItem from="1625226051079" duration="4770000" />
       <workItem from="1625472498171" duration="11661000" />
       <workItem from="1625559119785" duration="5133000" />
-      <workItem from="1625646121279" duration="1131000" />
-    </task>
-    <task id="LOCAL-00288" summary="Guilherme- BodyBlog">
-      <created>1621931210249</created>
-      <option name="number" value="00288" />
-      <option name="presentableId" value="LOCAL-00288" />
-      <option name="project" value="LOCAL" />
-      <updated>1621931210250</updated>
+      <workItem from="1625646121279" duration="1348000" />
     </task>
     <task id="LOCAL-00289" summary="Guilherme- NOticias">
       <created>1621932022877</created>
@@ -613,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625500358347</updated>
     </task>
-    <option name="localTasksCounter" value="337" />
+    <task id="LOCAL-00337" summary="Guilherme-Tweaks">
+      <created>1625653496454</created>
+      <option name="number" value="00337" />
+      <option name="presentableId" value="LOCAL-00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1625653496454</updated>
+    </task>
+    <option name="localTasksCounter" value="338" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -632,7 +625,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-nurthing" />
     <MESSAGE value="Guilherme-AJAXFillFrontReviews" />
     <MESSAGE value="Guilherme-Tags reviews" />
     <MESSAGE value="Guilherme- AJAX outlet" />
@@ -657,6 +649,7 @@
     <MESSAGE value="Guilherme-Login Mensagens" />
     <MESSAGE value="vou implodir" />
     <MESSAGE value="Guilherme-Login WORKS!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Login WORKS!!" />
+    <MESSAGE value="Guilherme-Tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks" />
   </component>
 </project>
