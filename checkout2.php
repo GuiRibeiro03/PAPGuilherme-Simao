@@ -14,6 +14,15 @@ $dados2 = mysqli_fetch_array($res2);
 
 
 $ctt = '';
+
+
+
+
+
+
+
+
+
 ?>
 
 
@@ -287,5 +296,6 @@ $ctt = '';
 
     <!-- Footer Section Begin -->
 <?php
+
 bottom();
 ?>

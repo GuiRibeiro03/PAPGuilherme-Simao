@@ -125,7 +125,7 @@ $result=mysqli_query($con,$sql);
 
             <div id="content"  class="col-lg-4 col-md-3" style=" margin-bottom: 5%">
 
-                <div  class="card" style="width: 19rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
+                <div  class="card" style="min-width: 15rem;max-width:21rem; padding-left: 10px; padding-right: 10px; padding-top: 10px; background-color: black">
 
                     <a href="Listajogo.php?id=<?php echo $dados["jogoId"]?>"><img src="img/<?php echo $dados["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
 

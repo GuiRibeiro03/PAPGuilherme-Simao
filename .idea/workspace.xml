@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="vou implodir">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Login WORKS!!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -263,14 +266,9 @@
       <workItem from="1624962263267" duration="12169000" />
       <workItem from="1625041128226" duration="7070000" />
       <workItem from="1625226051079" duration="4770000" />
-      <workItem from="1625472498171" duration="11365000" />
-    </task>
-    <task id="LOCAL-00287" summary="Guilherme - Registar USER">
-      <created>1621899512988</created>
-      <option name="number" value="00287" />
-      <option name="presentableId" value="LOCAL-00287" />
-      <option name="project" value="LOCAL" />
-      <updated>1621899512988</updated>
+      <workItem from="1625472498171" duration="11661000" />
+      <workItem from="1625559119785" duration="5133000" />
+      <workItem from="1625646121279" duration="1131000" />
     </task>
     <task id="LOCAL-00288" summary="Guilherme- BodyBlog">
       <created>1621931210249</created>
@@ -608,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625496382109</updated>
     </task>
-    <option name="localTasksCounter" value="336" />
+    <task id="LOCAL-00336" summary="Guilherme-Login WORKS!!">
+      <created>1625500358347</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1625500358347</updated>
+    </task>
+    <option name="localTasksCounter" value="337" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,7 +632,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-ConfirmaEditaPerfil &#10;Header-perfiluser.php?id=&quot;.$id" />
     <MESSAGE value="Guilherme-nurthing" />
     <MESSAGE value="Guilherme-AJAXFillFrontReviews" />
     <MESSAGE value="Guilherme-Tags reviews" />
@@ -652,6 +656,7 @@
     <MESSAGE value="Guilherme-Lagin Menssagens" />
     <MESSAGE value="Guilherme-Login Mensagens" />
     <MESSAGE value="vou implodir" />
-    <option name="LAST_COMMIT_MESSAGE" value="vou implodir" />
+    <MESSAGE value="Guilherme-Login WORKS!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Login WORKS!!" />
   </component>
 </project>

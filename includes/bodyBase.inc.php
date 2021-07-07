@@ -208,7 +208,7 @@ function top($menu=HOME){
                                 ?>
                                 <ul class="float-right" style="margin-top: 15px">
                                     <li> <span onclick="document.getElementById('id01').style.display='block'">
-                            <span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span> </li>
+                            <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span> </li>
 
                                     <li><span onclick="document.getElementById('id02').style.display='block'">
                                             <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"> <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>

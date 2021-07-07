@@ -101,7 +101,7 @@ $dados=mysqli_fetch_array($resultjogos);
       <hr>
       <div style="width: 70%;">
           <h4>Sinopse:</h4>
-          <textarea name="jogoSinopse" id="myTextarea"  content="<?php echo $dados["jogoSinopse"] ?>"><?php echo $dados["jogoSinopse"] ?></textarea>
+          <textarea name="jogoSinopse" id="myTextarea"  content="<?php echo $dados["jogoSinopse"] ?>"></textarea>
       </div>
       <hr>
 
