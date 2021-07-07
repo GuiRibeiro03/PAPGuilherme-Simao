@@ -8,9 +8,9 @@ $sql="select * from produtos where produtoid=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
 ?>
-    <a href="backoffice/produtoBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
-    <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
 
+    <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
+        <a href="<?php echo $_SERVER['HTTP_REFERER']; ?>"><button type="button" class="btn btn-light"><i class="arrow_back"></i>&nbsp;Voltar</button></a>
 
 
 

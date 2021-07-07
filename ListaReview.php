@@ -17,6 +17,7 @@ $dados=mysqli_fetch_array($result);
 
     <!-- Details Post Section Begin -->
     <section class="details-post-section" style="margin-left: auto; margin-top: 3%">
+        <a href="<?php echo $_SERVER['HTTP_REFERER']; ?>" style="margin-left: 2%"><button type="button" class="btn btn-light"><i class="arrow_back"></i>&nbsp;Voltar</button></a>
         <div class="container">
             <div class="row">
                 <div class="details-hero-text">

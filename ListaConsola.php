@@ -8,10 +8,10 @@ $dados=mysqli_fetch_array($result);
 
 top();
 ?>
-    <a href="backoffice/produtoBackoffice.php"><button type="button" class="btn btn-primary">Backoffice</button></a>
+
     <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
 
-
+        <a href="<?php echo $_SERVER['HTTP_REFERER']; ?>"><button type="button" class="btn btn-light"><i class="arrow_back"></i>&nbsp;Voltar</button></a>
 
 
         <div class="row">

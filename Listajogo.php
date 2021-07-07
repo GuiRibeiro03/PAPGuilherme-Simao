@@ -11,6 +11,8 @@ $dados=mysqli_fetch_array($result);
 
 
     <section class="store" style="margin-left: 15%">
+        <a href="<?php echo $_SERVER['HTTP_REFERER']; ?>"><button type="button" class="btn btn-light"><i class="arrow_back"></i>&nbsp;Voltar</button></a>
+
     </div>
         <br>
         <br>
