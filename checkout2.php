@@ -247,7 +247,7 @@ $ctt = '';
                     <form action="/action_page.php">
 
                         <div class="row"
-                             style="outline: solid 3px gray; background-color: #FFFFFF; width: 70%; padding: 5px 20px 15px 20px; color: #0d0d0d ">
+                             style="outline: solid 3px gray; background-color: #FFFFFF; font-size: 23px; width: 100%;  padding: 5px 20px 15px 20px; color: #0d0d0d ">
 
                             <div class="col-50" >
 
@@ -258,24 +258,24 @@ $ctt = '';
                                     <i class="fa fa-cc-mastercard" style="color:red;"></i>
                                     <i class="fa fa-cc-discover" style="color:orange;"></i>
                                 </div>
-
-                                <label for="cname">Name on Card</label>
+                                <div class="col-20" style="margin-top: 5%; ">
+                                <label for="cname">Nome do Utente:</label>
                                 <input type="text" id="cname" name="cardname" placeholder="John More Doe">
-                                <label for="ccnum">Credit card number</label>
+                                </div>
+                                <div class="col-20" style="margin-top: 5%; ">
+                                <label for="ccnum">Numero do Cartão:</label>
                                 <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
-                                <label for="expmonth">Exp Month</label>
-                                <input type="text" id="expmonth" name="expmonth" placeholder="September">
+                                </div>
 
-                                <div class="row" style="padding: 5px 20px 15px 20px;">
-                                    <div class="col-50">
-                                        <label for="expyear">Exp Year</label>
-                                        <input type="text" id="expyear" name="expyear" placeholder="2018">
+                                    <div class="col-20" style="margin-top: 5%; ">
+                                <label for="expmonth">Validade:</label>
+                                <input type="date" id="exp" name="expmonth" placeholder="September">
                                     </div>
-                                    <div class="col-50">
+
+                                <div class="col-20" style="margin-top: 5%; width: 40%;">
                                         <label for="cvv">CVV</label>
                                         <input type="text" id="cvv" name="cvv" placeholder="352">
                                     </div>
-                                </div>
                             </div>
 
                             <input type="submit"

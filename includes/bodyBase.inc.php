@@ -208,10 +208,10 @@ function top($menu=HOME){
                                 ?>
                                 <ul class="float-right" style="margin-top: 15px">
                                     <li> <span onclick="document.getElementById('id01').style.display='block'">
-                            <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><span class="badge badge-light" style="color: black; font-size: 16px">Login</span></a></span> </li>
+                            <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><span class="badge badge-light" style="color: black; font-size: 16px">Entrar</span></a></span> </li>
 
                                     <li><span onclick="document.getElementById('id02').style.display='block'">
-                                            <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"> <span class="badge badge-danger" style="font-size: 16px">Register</span></a></span></li>
+                                            <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"> <span class="badge badge-danger" style="font-size: 16px">Registar</span></a></span></li>
                                 </ul>
                                 <?php
                             }else{
@@ -575,12 +575,12 @@ function bottom(){
                 <br>
                 <div class="form-floating mb-3">
                     <label for="floatingInput"  id="userName" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px;width: 180px; text-align: center"><b>Nome de Utilizador:</b><span id="NoName"></span></label>
-                    <input type="text" class="form-control"  name="nome"  id="nome" required>
+                    <input type="text" class="form-control"  name="nome"  id="nome" placeholder="username" required>
                 </div>
 
                 <div class="form-floating mb-3">
                     <label id="password" for="floatingInput" style="color: #FFF; background-color: #0d0d0d; border-radius: 4px; width: 130px; text-align: center"><b>Palavra-passe:</b> <span id="NoPass"></span></label>
-                    <input type="password" class="form-control"  id="password"  name="password" required>
+                    <input type="password" class="form-control"  id="password" placeholder="password"  name="password" required>
                 </div>
                 <button onclick="entrar()" type="submit" style="background-color: #FF0000; height: 45px; width: 100px"><strong>Login</strong></button>
                 <hr>

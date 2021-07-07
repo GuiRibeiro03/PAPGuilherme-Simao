@@ -15,10 +15,7 @@ $dados=mysqli_fetch_array($result);
 
 
         <div class="row">
-
-
-
-                <div class="col-lg-4 col-md-3">
+             <div class="col-lg-4 col-md-3">
 
                     <div class="card" style="width: 19rem; margin-left: 30%; margin-right: 10px; margin-top: 10px; background-color: black">
 
@@ -56,7 +53,7 @@ $dados=mysqli_fetch_array($result);
             ?>
 
 
-            <div class="container" style="outline: solid 2px gray; background-color: dimgray; width: 300px; height: auto; float: left; margin-top: 6%">
+            <div class="container" style="outline: solid 2px gray; background-color: #0d0d0d; width: 300px; height: auto;">
                 <p>Utilizador</p>
                 <img src="<?php echo $dados2['perfilAvatarURL'] ?>" style="width: 30%; border-radius: 50px;">
                 <span>&nbsp;<u><?php echo $dados2['perfilNome'] ?></u> </span>

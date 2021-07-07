@@ -147,8 +147,8 @@ $dados=mysqli_fetch_array($result);
                             &nbsp;
                             <?php
 
-                            $con=mysqli_connect("localhost", "root","","pap2021gameon");
-                            $sql2="select jogoNome,empresaNome,generoNome,plataformaNome from jogos 
+                            $con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
+                            $sql2="select empresaNome,generoNome,plataformaNome from jogos 
 
 										inner join empresas on jogoEmpresaId=empresaId
 										inner join jogogeneros on jogoId=jogoGeneroJogoId
@@ -162,12 +162,14 @@ $dados=mysqli_fetch_array($result);
 
                             $res2=mysqli_query($con,$sql2);
                             while ($dados2=mysqli_fetch_array($res2)){
+
                             ?>
 
 
-                            <a href="#"><span id="tag1"><?php $dados2['empresaNome'] ?></span></a>
-                            <a href="#"><span id="tag2"><?php $dados2['plataformaNome'] ?></span></a>
-                            <a href="#"><span id="tag3"><?php $dados2['generoNome'] ?></span></a>
+                            <a href="#"><span id="tag1"><?php echo $dados2['empresaNome'] ?></span></a>
+                            <a href="#"><span id="tag2"><?php echo $dados2['generoNome'] ?></span></a>
+                            <a href="#"><span id="tag3"><?php echo $dados2['plataformaNome'] ?></span></a>
+
                                 <?php
                             }
                                 ?>
