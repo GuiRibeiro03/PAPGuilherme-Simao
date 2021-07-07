@@ -7,9 +7,7 @@ $id=intval($_GET['id']);
 $userId = intval($_SESSION['id']);
 $perfilNome = addslashes($_POST['perfilNome']);
 $perfilAvatarURL = $_FILES['perfilAvatarURL']['name'];
-$perfilMorada = addslashes($_POST['perfilMorada']);
 $perfilEmail = addslashes($_POST['perfilEmail']);
-$perfilTele = intval($_POST['perfilTele']);
 $novoNome = "img/pessoas/" . $perfilAvatarURL;
 
 
@@ -20,7 +18,7 @@ if ($perfilAvatarURL!=''){
     copy($_FILES['perfilAvatarURL']['tmp_name'],$novoNome);
 }
 
-$sql.=", perfilMorada='".$perfilMorada."', perfilTelefone='".$perfilTele."', perfilEmail='".$perfilEmail."', perfilUserId='".$userId."' where perfilId=$id";
+$sql.=",  perfilEmail='".$perfilEmail."', perfilUserId='".$userId."' where perfilId=$id";
 
 print_r($sql);
 mysqli_query($con, $sql);

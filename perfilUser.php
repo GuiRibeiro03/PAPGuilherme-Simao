@@ -57,11 +57,12 @@ top();
                         </ul>
                         <?php
 
-                        $con = mysqli_connect("localhost", "root", "", "pap2021gameon");
-                        $sql2 = "select * from perfis inner join users on perfilUserId=userId inner join moradas on perfilId=moradaPerfilId where perfilId=" . $_GET["id"];
+                        $con = mysqli_connect(HOST,USER,PASSWORD,DATABASE);
+                        $sql2 = "select * from perfis inner join users on perfilUserId=userId  where perfilId=" . $_GET["id"];
                         $result2 = mysqli_query($con, $sql2);
-                        $dados = mysqli_fetch_array($result2);
-                        if ($dados['userType'] == 'admin') {
+                        $dados2 = mysqli_fetch_array($result2);
+
+                        if ($dados2['userType'] == 'admin') {
                             ?>
 
                             <ul class="list-group"
@@ -78,6 +79,7 @@ top();
                                     <li class="list-group-item">Meus Anúncios</li>
                                 </a>
                             </ul>
+
                             <?php
                         } elseif ($dados['userType'] == 'editor') {
                             ?>
@@ -113,6 +115,8 @@ top();
                             </ul>
 
                             <?php
+                        }else{
+                            echo "";
                         }
                         ?>
                     </div>
@@ -127,7 +131,7 @@ top();
                     <h4>Informações de Contacto</h4>
                     <?php
                     $con = mysqli_connect("localhost", "root", "", "pap2021gameon");
-                    $sql = "select * from perfis inner join users on perfilUserId=userId inner join moradas on perfilId=moradaPerfilId where perfilId=" . $_GET["id"];
+                    $sql = "select * from perfis inner join users on perfilUserId=userId  where perfilId=" . $_GET["id"];
                     $result = mysqli_query($con, $sql);
                     $dados = mysqli_fetch_array($result);
                     ?>
@@ -157,22 +161,22 @@ top();
                         </a>
                         <?php
                         $sql4 = "select * from moradas inner join perfis on moradaPerfilId=perfilId where perfilId=" . $_GET['id'];
-                        $res = mysqli_query($con, $sql4);
-                        while ($dados2 = mysqli_fetch_array($res)) {
+                        $res3 = mysqli_query($con, $sql4);
+                        while ($dados3 = mysqli_fetch_array($res3)) {
                             ?>
 
 
                             <ul style="font-size: 20px;  margin-bottom: 3%">
-                                <span><strong>Morada:</strong> <?php echo $dados2['moradaTexto'] ?></span>
-                                <p><strong>Telefone:</strong> <?php echo $dados2['moradaTelefone'] ?></p>
+                                <span><strong>Morada:</strong> <?php echo $dados3['moradaTexto'] ?></span>
+                                <p><strong>Telefone:</strong> <?php echo $dados3['moradaTelefone'] ?></p>
                             </ul>
 
-                            <a href="editaMorada.php?id=<?php echo $dados2['moradaId'] ?>">
+                            <a href="editaMorada.php?id=<?php echo $dados3['moradaId'] ?>">
                                 <button style=" font-size: 20px;" class="btn btn-primary">
                                     Editar
                                 </button>
                             </a>
-                            <a onclick="confirmaEliminaMorada(<?php echo $dados2['moradaId'] ?>)">
+                            <a onclick="confirmaEliminaMorada(<?php echo $dados3['moradaId'] ?>)">
                                 <button style="background-color: red;  font-size: 20px;" class="btn btn-danger">Eliminar
                                 </button>
                             </a>

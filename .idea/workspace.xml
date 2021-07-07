@@ -3,20 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Botão voltar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillEmpresas.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillEmpresas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acessorios.php" beforeDir="false" afterPath="$PROJECT_DIR$/acessorios.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consolas.php" beforeDir="false" afterPath="$PROJECT_DIR$/consolas.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/jogos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/outlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/reviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdicionaMorada.php" beforeDir="false" afterPath="$PROJECT_DIR$/AdicionaMorada.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,13 +269,7 @@
       <workItem from="1625646121279" duration="1348000" />
       <workItem from="1625653962817" duration="4915000" />
       <workItem from="1625667464205" duration="2056000" />
-    </task>
-    <task id="LOCAL-00291" summary="Guilherme- Filtragem por preço,nome e mais recente">
-      <created>1622038944372</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1622038944372</updated>
+      <workItem from="1625691432609" duration="779000" />
     </task>
     <task id="LOCAL-00292" summary="Guilherme - filtrar">
       <created>1622070971182</created>
@@ -624,7 +607,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625686263111</updated>
     </task>
-    <option name="localTasksCounter" value="340" />
+    <task id="LOCAL-00340" summary="Guilherme-Botão voltar">
+      <created>1625688393188</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1625688393188</updated>
+    </task>
+    <option name="localTasksCounter" value="341" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
