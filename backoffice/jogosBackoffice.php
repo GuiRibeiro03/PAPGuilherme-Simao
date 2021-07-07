@@ -33,7 +33,7 @@ if($dados['userType']=='admin'){
         </div>
 
 
-    <div style="width: 100%"><input type="text" placeholder="Procurar..." id="search"  style="width: 45%;"></div>
+    <div style="width: 100%"><input type="text" placeholder="Procurar..." id="search"  style="width: 45%; height: 40px; border-radius: 10px"></div>
 
 
     </div>

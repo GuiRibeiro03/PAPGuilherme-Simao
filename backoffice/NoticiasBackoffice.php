@@ -27,7 +27,7 @@ if($dados['userType']=='admin'){
             <a href="tagPlataformaBackoffice.php"><button type="button" class="btn btn-light">Plataformas</button></a>
         </div>
 
-        <div style="width: 100%"><input type="text" placeholder="Procurar..." id="search"  style="width: 45%;"></div>
+        <div style="width: 100%"><input type="text" placeholder="Procurar..." id="search"  style="width: 45%; height: 40px; border-radius: 10px"></div>
 
     </div>
 </section>
