@@ -4,7 +4,7 @@ top();
 
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $sql="select * from noticias";
-$sql_2="select * from jogos inner join reviews on jogoId=reviewJogoId where jogoGlobalRating=100 limit 3";
+$sql_2="select * from jogos inner join reviews on jogoId=reviewJogoId where jogoGlobalRating=100 limit 3 ";
 $sqlJogos="select * from jogos where jogoGlobalRating > 70 order  by jogoGlobalRating desc ";
 $sql2_2="select * from jogos where jogoDestaque LIKE 'sim' order by jogoId desc ";
 $sql3="select * from reviews";
@@ -137,12 +137,12 @@ $i = $i + 1;
                                         <div class="loader-circle-wrap">
                                             <div class="loader-circle">
                                                 <span class="circle-progress-1" data-cpid="id-<?php echo $i + 1?>" data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"]?>" data-cpcolor="#c20000"></span>
-                                                <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"]?></div>
+                                                <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"]?>%</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="bp-text" style="width: 100%">
-                                        <h5><strong><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></strong></h5>
+                                        <h5 style="font-size: 22px"><strong><a href="Listajogo.php?id=<?php echo $dadosJogos2["jogoId"]?>"><?php echo $dadosJogos2["jogoNome"]?></a></strong></h5>
                                     </div>
                                 </div>
 
@@ -162,7 +162,7 @@ $i = $i + 1;
                             </div>
                             <?php
                             $i = 0;
-                            while ($i < 6   && $dadosJogos2=mysqli_fetch_array($result2)){
+                            while ($i < 6  && $dadosJogos2=mysqli_fetch_array($result2)){
 
                                 ?>
                                 <div class="bp-item">
@@ -170,7 +170,7 @@ $i = $i + 1;
                                         <div class="loader-circle-wrap">
                                             <div class="loader-circle">
                                                 <span class="circle-progress-1" data-cpid="id-<?php echo $i + 1?>" data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"]?>" data-cpcolor="#c20000"></span>
-                                                <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"]?></div>
+                                                <div class="review-point" style="margin-right: 20px!important;"><?php echo $dadosJogos2["jogoGlobalRating"]?>%</div>
                                             </div>
                                         </div>
                                     </div>

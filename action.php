@@ -42,7 +42,7 @@ where jogoEmpresaId != '' ";
 
         while ($dados = $result->fetch_assoc()) {
             $output .= '
-        <div id="content"  class="col-lg-4 col-md-3" style="margin-bottom: 5%; margin-right: 3%">
+        <div id="content"  class="col-lg-4 col-md-4" style="margin-bottom: 5%; padding-left: 5%">
 
                 <div  class="card" style="width: 19rem; padding: 10px 10px 10px 10px; background-color: black">
 

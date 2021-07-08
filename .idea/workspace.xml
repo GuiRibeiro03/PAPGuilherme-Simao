@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Botão voltar">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillFrontBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontBlog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.php" beforeDir="false" afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBlog.inc.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,13 +273,6 @@
       <workItem from="1625653962817" duration="4915000" />
       <workItem from="1625667464205" duration="2056000" />
       <workItem from="1625691432609" duration="779000" />
-    </task>
-    <task id="LOCAL-00292" summary="Guilherme - filtrar">
-      <created>1622070971182</created>
-      <option name="number" value="00292" />
-      <option name="presentableId" value="LOCAL-00292" />
-      <option name="project" value="LOCAL" />
-      <updated>1622070971183</updated>
     </task>
     <task id="LOCAL-00293" summary="Guilherme - filtrar">
       <created>1622074372925</created>
@@ -614,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625688393188</updated>
     </task>
-    <option name="localTasksCounter" value="341" />
+    <task id="LOCAL-00341" summary="Guilherme-Tweaks">
+      <created>1625733825089</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1625733825089</updated>
+    </task>
+    <option name="localTasksCounter" value="342" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -656,8 +659,8 @@
     <MESSAGE value="Guilherme-Login Mensagens" />
     <MESSAGE value="vou implodir" />
     <MESSAGE value="Guilherme-Login WORKS!!" />
-    <MESSAGE value="Guilherme-Tweaks" />
     <MESSAGE value="Guilherme-Botão voltar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Botão voltar" />
+    <MESSAGE value="Guilherme-Tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks" />
   </component>
 </project>

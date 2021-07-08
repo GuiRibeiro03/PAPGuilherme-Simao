@@ -128,13 +128,13 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
         <br>
 
-
+<!--
         <div class="form-check" style="margin-bottom: 5%; margin-top: 3%">
             <label class="badge badge-dark">Data:</label>
             <input type="date" name="reviewData">
             <br>
         </div>
-
+-->
 
 
         <input type="Submit" class="btn btn-danger" value="Adicionar">

@@ -11,9 +11,9 @@ $result=mysqli_query($con,$sql);
 
 
 
-<section class="store" style="height: 100%; width: 100%;  text-align: center; margin-bottom: 5%;margin-top: 5%">
+<section class="store" style="height: 100%; width: 100%;  text-align: center; margin-bottom: 5%; margin-top: 5%">
 
-        <div class="row" style="height: 100%; width: 100%;  text-align: center">
+        <div class="row" style="height: 100%; width: 100%; padding-left: 5% ">
 
             <?php
             $i = 0;
