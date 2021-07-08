@@ -84,7 +84,7 @@ $dados=mysqli_fetch_array($result);
             </div>
         </div>
         <hr>
-            <div style=" text-align: center; max-width: 1920px;!important; min-width: 400px;!important; height: auto;!important; " >
+            <div style=" text-align: center; max-width: 1800px;!important; min-width: 400px;!important; height: auto;!important; " >
                 <?php echo $dados["jogoTrailer"] ?>
             </div>
         <hr>
@@ -105,7 +105,7 @@ $dados=mysqli_fetch_array($result);
         $result1=mysqli_query($con,$sql1);
         $dados1=mysqli_fetch_array($result1);
         ?>
-        <div class="row" style="margin-left: 20%">
+        <div class="row" style="width: 100%; text-align: center; margin-left: 10%">
             <h4 style="margin-left: 30px">Empresa:</h4><span>&nbsp;<?php echo $dados["empresaNome"] ?></span>
             <h4 style="margin-left: 30px">Género: </h4><span>&nbsp;<?php echo $dados1["generoNome"] ?></span>
             <h4 style="margin-left: 30px">Plataforma: </h4><span>&nbsp;<?php echo $dados1["plataformaNome"] ?></span>
