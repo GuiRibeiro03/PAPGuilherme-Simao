@@ -35,7 +35,7 @@ top();
 <br>
                 <p class="card-text" style="font-size: 25px; color: #FFF"><strong><?php echo $dados["produtoPreco"] ?>€</strong>&nbsp;&nbsp;<span class="badge bg-success"><i class="fa fa-check"></i></span></p>
 
-                <a href="#"  onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style="color: #dc3545;margin-top: 10%; color: #FFF; font-weight: bold; font-size: 17px">
+                <a href="#"  onclick="adicionaCarrinho(<?php echo $id ?>)" class="btn btn-danger  cart-button" style=" float: left">
                     Adicionar ao Carrinho</a>
             </div>
 
