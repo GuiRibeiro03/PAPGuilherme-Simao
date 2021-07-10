@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks(user-outlet)">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-tweaks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaConsola.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -270,6 +268,8 @@
       <workItem from="1625653962817" duration="4915000" />
       <workItem from="1625667464205" duration="2056000" />
       <workItem from="1625691432609" duration="779000" />
+      <workItem from="1625857190402" duration="1000" />
+      <workItem from="1625874721514" duration="1142000" />
     </task>
     <task id="LOCAL-00295" summary="Guilherme - filtrar">
       <created>1622075511044</created>

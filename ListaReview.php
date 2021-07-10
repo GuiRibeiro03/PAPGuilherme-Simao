@@ -93,7 +93,7 @@ $dados=mysqli_fetch_array($result);
                         <div class="dt-quote" style="width: 100%; margin-top: 10%">
 
                             <div style="color: white;">
-                                <span><b><?php echo $dadosComents["perfilNome"]?></b></span>
+                                <span><img src="<?php echo $dadosComents['perfilAvatarURL'] ?>" style="border-radius: 50%; width: 50px; height: 50px">&nbsp;&nbsp;&nbsp;<b><?php echo $dadosComents["perfilNome"]?></b></span>
                                 <span style="float: right"><b><?php echo $dadosComents["comentarioData"]?></b></span>
                             </div>
                             <hr>
