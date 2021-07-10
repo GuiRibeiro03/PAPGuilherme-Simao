@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-tweaks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,14 +268,7 @@
       <workItem from="1625667464205" duration="2056000" />
       <workItem from="1625691432609" duration="779000" />
       <workItem from="1625857190402" duration="1000" />
-      <workItem from="1625874721514" duration="1142000" />
-    </task>
-    <task id="LOCAL-00295" summary="Guilherme - filtrar">
-      <created>1622075511044</created>
-      <option name="number" value="00295" />
-      <option name="presentableId" value="LOCAL-00295" />
-      <option name="project" value="LOCAL" />
-      <updated>1622075511044</updated>
+      <workItem from="1625874721514" duration="1701000" />
     </task>
     <task id="LOCAL-00296" summary="Guilherme - Perfil">
       <created>1622076619849</created>
@@ -614,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625742953440</updated>
     </task>
-    <option name="localTasksCounter" value="344" />
+    <task id="LOCAL-00344" summary="Guilherme-tweaks">
+      <created>1625875959979</created>
+      <option name="number" value="00344" />
+      <option name="presentableId" value="LOCAL-00344" />
+      <option name="project" value="LOCAL" />
+      <updated>1625875959979</updated>
+    </task>
+    <option name="localTasksCounter" value="345" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -633,7 +632,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme- AJAX outlet" />
     <MESSAGE value="Comentários final" />
     <MESSAGE value="Guilherme-Correção Edita Reviews" />
     <MESSAGE value="Guilherme-Outlet" />
@@ -658,6 +656,7 @@
     <MESSAGE value="Guilherme-Botão voltar" />
     <MESSAGE value="Guilherme-Tweaks" />
     <MESSAGE value="Guilherme-Tweaks(user-outlet)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks(user-outlet)" />
+    <MESSAGE value="Guilherme-tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-tweaks" />
   </component>
 </project>
