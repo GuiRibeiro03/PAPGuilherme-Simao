@@ -86,7 +86,7 @@ $dados=mysqli_fetch_array($result);
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Imagem:</label>
         <div id="wrapper" style="color: #FFFFFF">
             <input type="file" accept="image/*" name="produtoImagemURL" onchange="preview_image(event)">
-            <div style="max-height: 100px; margin: 10%">
+            <div style="width: 60%; margin: 10%">
                 <img id="output_image" src="<?php echo $dados["produtoImagemURL"]?>"/>
             </div>
 
@@ -97,7 +97,7 @@ $dados=mysqli_fetch_array($result);
 
     <br>
 
-    <button type="submit" class="btn btn-primary">Edita</button>
+    <button type="submit" class="btn btn-primary"  style="z-index: 99999">Edita</button>
 </form>
 
 
