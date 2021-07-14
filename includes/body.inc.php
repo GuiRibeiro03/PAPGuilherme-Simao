@@ -275,7 +275,6 @@ function top($menu=HOME){
                                                 if($dados["userType"]=="admin"){
                                                     ?>
                                                     <li ><a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="fp"> Backoffice</button></a></li>
-                                                    <li ><a href="../adiciona/AdicionaPerfil.php"><button type="button" class="btn btn-info">Add Perfil</button></a></li>
                                                     <li ><a href="../logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                     <?php
                                                 }else{

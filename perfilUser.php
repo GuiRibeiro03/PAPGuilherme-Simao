@@ -28,20 +28,15 @@ top();
                                         class="badge bg-primary"
                                         style=" font-size: 100%"><?php echo $dados["userType"] ?> &nbsp;<i
                                             class="fa fa-user-circle-o"></i></span></p>
+                        </div>
                             <?php
-                            if ($dados['userState'] == 'inativo') {
+                           if ($dados['userState'] == 'pendente') {
+                                echo "<badge class='badge badge-warning' style='font-size: 13px;  '>User Pendente </badge>";
 
-                                echo "<badge class='badge badge-danger'>User Inativo</badge>";
-
-                            } elseif ($dados['userState'] == 'pendente') {
-                                echo "<badge class='badge badge-warning'>User Pendente </badge>";
-
-                            } elseif ($dados['userState'] == 'ativo') {
-                                echo "<badge class='badge badge-success'>User Ativo </badge>";
                             }
 
                             ?>
-                        </div>
+
                         <?php
                     }
                     ?>
