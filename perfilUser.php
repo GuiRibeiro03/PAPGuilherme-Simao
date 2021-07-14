@@ -86,6 +86,10 @@ top();
                                                 style="margin-left: 20%; font-size: 100% ">Definições de Perfil <i
                                                     class="fa fa-edit"></i></button>
                                     </a></li>
+                                <a href="backoffice/Backoffice.php"
+                                   style="color: #FFFFFF; font-weight: bold; background-color: black">
+                                    <li class="list-group-item">Backoffice</li>
+                                </a>
                                 <li class="list-group-item"><a href="backoffice/reviewsBackoffice.php">
                                         <button type="button" class="btn btn-danger"
                                                 style="margin-left: 20%; font-size: 100% ">Lista de desejos

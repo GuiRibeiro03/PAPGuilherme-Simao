@@ -15,7 +15,8 @@ if($dados['userType']=='admin'){
 ?>
 
 
-<a href="Backoffice.php"><button type="button" class="btn btn-danger">Voltar</button></a>
+
+    <a href="Backoffice.php" style="margin-left: 3%; margin-top: 3%"><button type="button" class="btn btn-light"><i class="arrow_back"></i>Voltar</button></a>
 <section class="store" >
     <div style="margin-left: 35%">
         <div class="btn-group" >

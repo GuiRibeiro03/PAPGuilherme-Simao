@@ -3,9 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaProdutoOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaProdutoOutlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meusAnuncios.php" beforeDir="false" afterPath="$PROJECT_DIR$/meusAnuncios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/Backoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/Backoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/NoticiasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/jogosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/produtoBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/reviewsBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagEmpresasBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagGenerosBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/tagPlataformaBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/usersBackoffice.php" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/usersBackoffice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,14 +280,7 @@
       <workItem from="1625857190402" duration="1000" />
       <workItem from="1625874721514" duration="1701000" />
       <workItem from="1626176572123" duration="36000" />
-      <workItem from="1626253008301" duration="6630000" />
-    </task>
-    <task id="LOCAL-00297" summary="Guilherme - Perfil">
-      <created>1622235202499</created>
-      <option name="number" value="00297" />
-      <option name="presentableId" value="LOCAL-00297" />
-      <option name="project" value="LOCAL" />
-      <updated>1622235202499</updated>
+      <workItem from="1626253008301" duration="11048000" />
     </task>
     <task id="LOCAL-00298" summary="Guilherme - AJAXFillJogosFront.php &amp; checkout">
       <created>1622921046702</created>
@@ -618,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626270178113</updated>
     </task>
-    <option name="localTasksCounter" value="346" />
+    <task id="LOCAL-00346" summary="Guilherme-Tweaks">
+      <created>1626273602759</created>
+      <option name="number" value="00346" />
+      <option name="presentableId" value="LOCAL-00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1626273602759</updated>
+    </task>
+    <option name="localTasksCounter" value="347" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

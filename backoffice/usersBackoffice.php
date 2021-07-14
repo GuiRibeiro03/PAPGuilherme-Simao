@@ -11,6 +11,8 @@ if($dados['userType']=='admin'){
 
 
 ?>
+
+
 <table class="table" style="color: #FFFFFF; font-weight: bold; font-size: 20px; text-align: center">
     <tr>
         <th>User Id</th>
@@ -31,7 +33,7 @@ if($dados['userType']=='admin'){
         <td><?php echo $dados["userName"]?></td>
 
         <form action="../AJAX/AJAXUpdateState.php?id=<?php echo $dados["userId"]; ?>" method="post" >
-        <td><select name="userState" id="select1" onchange="alterarTexto(<?php echo $dados["userState"]?>)">
+        <td><select name="userState" id="select1" onchange="alterarTexto(<?php echo $dados["userState"]; ?>)">
                 <option><?php echo $dados["userState"]?></option>
 
                 <option>
@@ -78,7 +80,7 @@ if($dados['userType']=='admin'){
 
                     ?>
             </option>
-
+                <label style="color:#FFF;" id="textChange2">Boas</label>
                 <option>
                     <?php
                     if($dados["userType"] == 'user' ){
@@ -91,7 +93,7 @@ if($dados['userType']=='admin'){
 
                     ?>
                 </option>
-            </select><label style="color:#FFF;" id="textChange2"></label></td>
+            </select></td>
         <td><button type="submit" class="btn btn-primary">Update</button></td>
         </form>
     </tr>
@@ -104,10 +106,9 @@ if($dados['userType']=='admin'){
 
 <script>
     function alterarTexto(value){
-        value = this.value
-        alert(  value  );
+
         if(document.getElementById("#select1").valueOf(this) != value){
-            document.getElementById("#textChange2").innerText = "Alterações!";
+            document.getElementById("#textChange2").innerHTML = "Alterações!";
         }
     }
 
