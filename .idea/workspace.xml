@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks Filtros Dropdown">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -274,14 +272,7 @@
       <workItem from="1626176572123" duration="36000" />
       <workItem from="1626253008301" duration="11190000" />
       <workItem from="1626339783211" duration="3391000" />
-      <workItem from="1626344174892" duration="13416000" />
-    </task>
-    <task id="LOCAL-00306" summary="Guilherme-AJAXFillFrontReviews">
-      <created>1624893406742</created>
-      <option name="number" value="00306" />
-      <option name="presentableId" value="LOCAL-00306" />
-      <option name="project" value="LOCAL" />
-      <updated>1624893406742</updated>
+      <workItem from="1626344174892" duration="13716000" />
     </task>
     <task id="LOCAL-00307" summary="Guilherme-Tags reviews">
       <created>1624957241520</created>
@@ -619,7 +610,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626364398579</updated>
     </task>
-    <option name="localTasksCounter" value="355" />
+    <task id="LOCAL-00355" summary="Guilherme-Tweaks Filtros Dropdown">
+      <created>1626364820181</created>
+      <option name="number" value="00355" />
+      <option name="presentableId" value="LOCAL-00355" />
+      <option name="project" value="LOCAL" />
+      <updated>1626364820181</updated>
+    </task>
+    <option name="localTasksCounter" value="356" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
