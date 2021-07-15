@@ -264,7 +264,6 @@ function top($menu=HOME){
                                         <div class="dropdown">
                                             </span><a href="#" ><button class="dropdown-toggle" style="background-color: transparent"><a href="../perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><img src="../<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"></a><span style="margin-left: 10px"></span></button></a>
                                             <div class="dropdown-content" style="background-color: #202020; color: #FFF">
-
                                                 <span><?php echo $dados["perfilNome"]?></span>
                                                 <hr>
                                                 <?php
@@ -273,18 +272,21 @@ function top($menu=HOME){
                                                 $result=mysqli_query($con, $sql);
                                                 $dados=mysqli_fetch_array($result);
                                                 if($dados["userType"]=="admin"){
-                                                    ?>
-                                                    <li ><a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="fp"> Backoffice</button></a></li>
-                                                    <li ><a href="../logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
-                                                    <?php
+                                                ?>
+                                                <li><a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="background-color: red"> Backoffice</button></a></li>
+                                                <li><a href="../logout.php"><button class="btn btn-primary" style="background-color: dodgerblue"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
+                                                <?php
+                                                }elseif($dados["userType"]=="editor"){
+                                                ?>
+                                                <li><a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="background-color: red"> Backoffice</button></a></li>
+                                                <li><a href="../logout.php"><button class="btn btn-primary" style="background-color: dodgerblue"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
+                                                <?php
                                                 }else{
-                                                    ?>
-                                                    <li ><a href="../logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
-                                                    <?php
+                                                ?>
+                                                <li><a href="../logout.php"><button class="btn btn-primary"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
+                                                <?php
                                                 }
                                                 ?>
-
-
                                             </div>
                                         </div>
                                     </ul>
@@ -411,7 +413,7 @@ function top($menu=HOME){
                                 </div>
 
 
-                                <span style="font-size:30px; cursor:pointer" onclick="openNav()"><i class="fa fa-shopping-cart" style="font-size: 1em"></i></span>
+                                <span style="font-size:25px; cursor:pointer" onclick="openNav()"><i class="fa fa-shopping-cart" ></i></span>
 
                                 <script>
                                     function openNav() {
