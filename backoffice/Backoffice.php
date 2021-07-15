@@ -30,9 +30,7 @@ if($dados['userType']=='admin' ){
 
     ?>
     <section class="store" style="background-color: #0b0b0b; margin-left: 10%" >
-        <div style="width: 100%; text-align: center"><h2 style="text-decoration: underline" style="margin-top: 2%;">Backoffice</h2></div>
-
-            <div class="btn-group" role="group" aria-label="Basic example" style="width:100%; text-align:center; margin-top: 20px; margin-bottom: 40px">
+                 <div class="btn-group" role="group" aria-label="Basic example" style="margin-left: 32%; margin-top: 6%; margin-bottom: 40px">
                 <a href="reviewsBackoffice.php"><button type="button" class="btn btn-light" style="width: 100px;">Reviews</button></a>
                 <a href="NoticiasBackoffice.php"><button type="button" class="btn btn-light" style="width: 100px; margin-left: 4%">Noticias</button></a>
             </div>

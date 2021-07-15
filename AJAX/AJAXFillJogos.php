@@ -6,6 +6,10 @@ $sql="select * from jogos inner join empresas on jogoEmpresaId=empresaId where j
 $result=mysqli_query($con, $sql);
 
 ?>
+
+
+
+
 <table class="table table-striped" style=" color: #FFFFFF; font-weight: bold; font-size: 20px; width: 100%; height: 100%; margin-left: 20px; margin-bottom: 30px; margin-right: 20px" >
 
 

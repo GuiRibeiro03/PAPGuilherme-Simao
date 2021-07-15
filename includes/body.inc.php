@@ -442,7 +442,7 @@ function top($menu=HOME){
 
 
                             </div>
-                            <!--************************************** FIM CARRINHO*******************************************-->
+
                         </div>
                     </div>
 
@@ -459,9 +459,6 @@ function top($menu=HOME){
         <div class="nav-options" style="width: available; height: 140px; text-align: center">
             <div class="container">
 
-                <!-- <div class="nav-search search-switch">
-                     <i class="fa fa-search"></i>
-                 </div> -->
                 <div class="nav-menu" style="font-size: 20px; color: #fff; margin-top: 15px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; ">
                     <ul>
                         <li><a href="../index.php"><span ><strong>Home</strong></span></a></li>
@@ -476,24 +473,20 @@ function top($menu=HOME){
                             </div>
                         </li>
 
-
-
                         <li><a href="../reviews.php"><span><strong>Reviews</strong> </span></a></li>
 
                         <li><a href="../blog.php"><span><strong>Blog</strong> </span></a></li>
-
 
 
                     </ul>
 
                 </div>
 
-
             </div>
         </div>
         </div>
         </div>
-        <!--************************************** PERFIL*******************************************-->
+
 
         </div>
     </header>
@@ -526,8 +519,8 @@ function bottom(){
             <hr>
          <div class="footer-about">
             <div class=" footer-about fa-social">
-                <a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/igndotcom/"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i>
+                <a href="https://www.instagram.com/igndotcom/"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
         </div>
@@ -553,7 +546,7 @@ function bottom(){
 
 
 
-    <!--*********** Modal Registar **************-->
+
 
     <div id="id02" class="modal">
 
