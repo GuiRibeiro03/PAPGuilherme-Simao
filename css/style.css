@@ -4682,28 +4682,47 @@ span.psw {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #0d0d0d;
+    color: #FFFFFF;
     min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 2;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
+
+
 
 /* Change color of dropdown links on hover */
 
 
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-    display: block;
+
+
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #c20000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
+/* Dropdown button on hover & focus */
+.dropbtn:hover {
+    background-color: #c20000;
 }
+
+
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+
 
 .pagination {
     background-color: transparent;
@@ -4812,10 +4831,8 @@ span.psw {
 
 .list-group-item {
     background-color: black;
-
-    color: #FFFFFF;
-!important;
-    font-size: 18px;
+        color: #FFFFFF;!important;
+    font-size: 20px;
 }
 
 .coise {
@@ -4950,9 +4967,12 @@ span.psw {
     width: 500px;
     outline: solid 4px gray;
     padding: 10px 10px;
-    background-color: #FFFFFF;
+    background-color: transparent;
     color: #000;
     margin-top: 3%;
     margin-right:16%;!important;
 
 }
+
+
+

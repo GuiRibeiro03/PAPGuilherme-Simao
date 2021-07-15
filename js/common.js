@@ -334,6 +334,10 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+function myFunction2() {
+    document.getElementById("myDropdown2").classList.toggle("show");
+}
+
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {

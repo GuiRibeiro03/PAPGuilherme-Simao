@@ -6,21 +6,6 @@ $sql="select * from jogos where jogoNome like '%$txt%' ";
 
 
 
-$ord = 0;
-if (isset($_GET['ord'])) {
-    $ord = $_GET['ord'];
-    if ($ord == 1) {
-        $sql .= " order by jogoNome ASC";
-    } elseif ($ord == 2)  {
-        $sql .= " order by jogoId DESC";
-    } elseif ($ord == 3)  {
-        $sql .= " order by jogoPreco ASC";
-    } elseif ($ord == 4)  {
-        $sql .= " order by jogoPreco DESC";
-    }
-
-}
-
 
 
 $result=mysqli_query($con,$sql);
@@ -30,14 +15,13 @@ $result=mysqli_query($con,$sql);
 
 <section class="store" style="height:100%; padding-top: 40px; margin-left: 100px;  background-color: #0d0d0d;color: #FFFFFF">
 
-    <div class="container" style="width: 300px; float: left; height: 100%; position:relative; ">
+    <div  class="container dropdown" style="width: 300px; float: left; height: 100%;   ">
+            <button onclick="myFunction2()" class="dropbtn">Filtros &nbsp;<i class="fa fa-arrow-down"></i></button>
 
-            <div class="row" style="width: 100%; outline: #5a6268; ">
-                <div style="color: #FFFFFF; margin-bottom: 20%; width: 50%">
-                    <h5><strong>Preço:</strong></h5>
-                    <br>
-                </div>
-                <div style="color: #FFFFFF;margin-left: 40px; margin-bottom: 30px">
+        <div id="myDropdown2" class="dropdown-content" >
+            <div class="row " style="width: 100%; ">
+
+                <div style="color: #FFFFFF;margin-left: 40px; margin-bottom: 30px;outline: solid 2px white; padding: 20px; box-shadow: 5px 10px #1d2124; ">
                     <h5><strong>Generos:</strong></h5>
                     <br>
                     <?php
@@ -46,7 +30,7 @@ $result=mysqli_query($con,$sql);
                     while ($dadosGeneros=mysqli_fetch_array($resultGeneros)){
                         ?>
                         <br>
-                        <li class="list-group-item" >
+                        <li class="list-group-item" style="background-color: transparent" >
                             <label class="form-check-label">
                             <div class="form-check">
                                 <input type="checkbox" id="genero" class="form-check-input product_check" value="<?php echo $dadosGeneros["generoId"] ?>"> <?php echo $dadosGeneros["generoNome"] ?>
@@ -59,8 +43,8 @@ $result=mysqli_query($con,$sql);
                     ?>
                 </div>
 
-                <div style="color: #FFFFFF; margin-left: 40px;margin-bottom: 30px">
-                    <hr>
+                <div style="color: #FFFFFF; margin-left: 40px;margin-bottom: 30px;outline: solid 2px white; padding: 20px; box-shadow: 5px 10px #1d2124;">
+
                     <h5><strong>Plataformas:</strong></h5>
                     <br>
                     <?php
@@ -69,7 +53,7 @@ $result=mysqli_query($con,$sql);
                     while ($dadosPlataformas=mysqli_fetch_array($resultPlataformas)){
                         ?>
                         <br>
-                    <li class="list-group-item" >
+                    <li class="list-group-item" style="background-color: transparent" >
                         <label class="form-check-label">
                             <div class="form-check">
                         <input id="plataforma" type="checkbox" class="form-check-input product_check" value="<?php echo $dadosPlataformas["plataformaId"] ?>"> <?php echo $dadosPlataformas["plataformaNome"] ?>
@@ -82,8 +66,8 @@ $result=mysqli_query($con,$sql);
                     ?>
                 </div>
 
-                <div style="color: #FFFFFF; margin-left: 40px;  margin-bottom: 30px;">
-                    <hr>
+                <div style="color: #FFFFFF; margin-left: 40px;  margin-bottom: 30px;outline: solid 2px white; padding: 20px; box-shadow: 5px 10px #1d2124;">
+
                     <h5><strong>Empresas:</strong></h5>
                     <br>
                     <?php
@@ -93,7 +77,7 @@ $result=mysqli_query($con,$sql);
                     while ($dadosEmpresas=mysqli_fetch_array($resultEmpresas)){
                         ?>
                         <br>
-                        <li class="list-group-item" >
+                        <li class="list-group-item"style="background-color: transparent"  >
                             <label class="form-check-label">
                                 <div class="form-check">
                         <input id="empresa" type="checkbox" class="form-check-input product_check" value="<?php echo $dadosEmpresas["empresaId"] ?>"> <?php echo $dadosEmpresas["empresaNome"] ?>
@@ -108,6 +92,7 @@ $result=mysqli_query($con,$sql);
             </div>
 
     </div>
+    </div>
 
 
 
@@ -117,6 +102,7 @@ $result=mysqli_query($con,$sql);
 
 
         <?php
+        if ($result->num_rows > 0) {
         $i=0;
         while ($dados=mysqli_fetch_array($result)){
             $i+=1;
@@ -145,6 +131,14 @@ $result=mysqli_query($con,$sql);
 
             <?php
         }
+
+        }else{
+            ?>
+
+            <section class="store">
+                <div style=" margin-left: 10%; margin-top: 4%; margin-bottom: 3%"><h3>Não foi possível econtrar um Jogo</h3></div></section>
+            <?php
+            }
 
         ?>
     </div>
