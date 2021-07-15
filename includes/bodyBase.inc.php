@@ -236,7 +236,7 @@ function top($menu=HOME){
                                                 $dados=mysqli_fetch_array($result);
                                                 if($dados["userType"]=="admin"){
                                                     ?>
-                                                    <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="background-color: red"> Backoffice</button></a></li>
+                                                    <li ><a href="backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="background-color: red; width: 100%;"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px; ">Backoffice</span></button></a></li>
                                                     <li ><a href="logout.php"><button class="btn btn-primary" style="background-color: dodgerblue"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px; "><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                     <?php
                                                 }elseif($dados["userType"]=="editor"){
