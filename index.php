@@ -90,7 +90,7 @@ $result4 = mysqli_query($con, $sql3);
             </div>
 
             <div class="row">
-                <div class="lp-slider owl-carousel" style="background-color: black; margin-bottom: 4%">
+                <div class="lp-slider owl-carousel" style="background-color: black; height: auto; border-radius: 1%">
                     <?php
                     $i = 0;
                     while ($dadosJogos = mysqli_fetch_array($result2_2)) {
@@ -98,35 +98,27 @@ $result4 = mysqli_query($con, $sql3);
                         ?>
 
 
+
                         <div class="row-cols-lg-1">
+                            <div class="card" style="width: 21rem; height: 100%; padding: 10px; background-color: black; ">
+                                <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><img src="img/<?php echo $dadosJogos["jogoImagemURL"] ?>" class="card-img-top" alt="..." style="height: 400px"></a>
 
-                                <div class="card"
-                                     style="width: 21rem; height: 650px; padding: 10px; background-color: black; border-radius: 2%">
 
-
+                                <div class="card-body" style="margin-bottom: 20px">
                                     <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>">
-                                        <img  src="img/<?php echo $dadosJogos["jogoImagemURL"] ?>"
-                                                class="card-img-top" alt="..." style="height: 400px"></a>
+                                        <h6 style="height: 27px" id="titulo" class="card-title" ><strong><?php echo $dadosJogos["jogoNome"]?></strong></h6></a>
 
-                                    <div class="lp-text">
-                                        <a href="Listajogo.php?id=<?php echo $dadosJogos["jogoId"] ?>"><h4
-                                                    class="card-title">
-                                                <strong><?php echo $dadosJogos["jogoNome"] ?></strong> &nbsp; </h4></a>
-
-                                        <div class="card-text" style="margin-bottom: 5%; margin-left: 5%">
-                                            <h5 class="card-text"><strong><?php echo $dadosJogos["jogoPreco"] ?>
-                                                    €</strong></h5>
-                                        </div>
-
-                                        <div style=" margin-left: 5%; margin-bottom: 20px; margin-top: 5%">
-                                            <a onclick="adicionaCarrinhoJogo(<?php echo $dadosJogos['jogoId'] ?>)"
-                                               style="color: #dc3545; ">
-                                                <input type="submit" class=" cart-button" value="Adicionar ao Carrinho"
-                                                       style="font-weight: bold;height: 50px"></a>
-                                        </div>
-                                    </div>
                                 </div>
 
+                                <div class="card-text" style="margin: 3%;">
+                                    <h5  class="card-text"><strong><?php echo $dadosJogos["jogoPreco"]?>€</strong></h5>
+                                </div>
+
+                                <div id="altura">
+                                    <a onclick="adicionaCarrinhoJogo(<?php echo $dadosJogos['jogoId']?>)"  style="color: #dc3545; ">
+                                        <input type="submit" class="cart-button" value="Adicionar ao Carrinho" style="font-weight: bold; height: 50px"></a>
+                                </div>
+                            </div>
                         </div>
 
 
@@ -135,10 +127,15 @@ $result4 = mysqli_query($con, $sql3);
                         <?php
                     }
                     ?>
+
+
+
+
                 </div>
             </div>
         </div>
     </section>
+
 
 
     <section class="instagram-post-section spad" style="width: 100%">
