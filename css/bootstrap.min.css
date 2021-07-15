@@ -213,10 +213,7 @@ button {
     border-radius: 0
 }
 
-button:focus {
-    outline: 1px dotted;
-    outline: 5px auto -webkit-focus-ring-color
-}
+
 
 button, input, optgroup, select, textarea {
     margin: 0;
