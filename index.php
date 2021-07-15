@@ -144,7 +144,6 @@ $result4 = mysqli_query($con, $sql3);
     <section class="instagram-post-section spad" style="width: 100%">
         <div class="container">
             <div class="row">
-
                 <div class="col-lg-4 col-md-7">
                     <div class="sidebar-option">
                         <div class="best-of-post">
