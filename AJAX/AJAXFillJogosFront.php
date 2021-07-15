@@ -13,7 +13,7 @@ $result=mysqli_query($con,$sql);
 
 
 
-<section class="store" style="height:100%; padding-top: 40px; margin-left: 100px;  background-color: #0d0d0d;color: #FFFFFF">
+<section class="store" style="height:100%; padding-top: 40px; margin-left: 50px;  background-color: #0d0d0d;color: #FFFFFF">
 
     <div  class="container dropdown" style="width: 300px; float: left; height: 100%;   ">
             <button onclick="myFunction2()" class="dropbtn">Filtros &nbsp;<i class="fa fa-arrow-down"></i></button>
@@ -32,7 +32,8 @@ $result=mysqli_query($con,$sql);
                         <br>
                         <li class="list-group-item" style="background-color: transparent" >
                             <label class="form-check-label">
-                            <div class="form-check">
+                            <div class="form-check" style="font-size: 18px">
+
                                 <input type="checkbox" id="genero" class="form-check-input product_check" value="<?php echo $dadosGeneros["generoId"] ?>"> <?php echo $dadosGeneros["generoNome"] ?>
                             </div>
                             </label>

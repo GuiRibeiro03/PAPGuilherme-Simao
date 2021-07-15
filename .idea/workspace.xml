@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks Carousel jogos em destaque">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks Filtros Dropdown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,14 +274,7 @@
       <workItem from="1626176572123" duration="36000" />
       <workItem from="1626253008301" duration="11190000" />
       <workItem from="1626339783211" duration="3391000" />
-      <workItem from="1626344174892" duration="12813000" />
-    </task>
-    <task id="LOCAL-00305" summary="Guilherme-AJAXFillFrontReviews">
-      <created>1624880452908</created>
-      <option name="number" value="00305" />
-      <option name="presentableId" value="LOCAL-00305" />
-      <option name="project" value="LOCAL" />
-      <updated>1624880452908</updated>
+      <workItem from="1626344174892" duration="13416000" />
     </task>
     <task id="LOCAL-00306" summary="Guilherme-AJAXFillFrontReviews">
       <created>1624893406742</created>
@@ -620,7 +612,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626361727559</updated>
     </task>
-    <option name="localTasksCounter" value="354" />
+    <task id="LOCAL-00354" summary="Guilherme-Tweaks Filtros Dropdown">
+      <created>1626364398579</created>
+      <option name="number" value="00354" />
+      <option name="presentableId" value="LOCAL-00354" />
+      <option name="project" value="LOCAL" />
+      <updated>1626364398579</updated>
+    </task>
+    <option name="localTasksCounter" value="355" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -639,7 +638,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Outlet" />
     <MESSAGE value="Guilherme-UserRegistar/Blog" />
     <MESSAGE value="Guilherme-Ajax Blog" />
     <MESSAGE value="Guilherme-Registar" />
@@ -664,6 +662,7 @@
     <MESSAGE value="Guilherme-Tweaks" />
     <MESSAGE value="Guilherme-Tweaks Editor" />
     <MESSAGE value="Guilherme-Tweaks Carousel jogos em destaque" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks Carousel jogos em destaque" />
+    <MESSAGE value="Guilherme-Tweaks Filtros Dropdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks Filtros Dropdown" />
   </component>
 </project>
