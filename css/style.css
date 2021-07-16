@@ -119,17 +119,10 @@ img {
     max-width: 100%;
 }
 
-input:focus,
-select:focus,
-button:focus,
-textarea:focus {
-
-}
 
 a:hover,
 a:focus {
     text-decoration: none;
-
     color: #fff;
 }
 
@@ -4086,7 +4079,7 @@ tr {
 
     .ht-options .ht-widget {
         text-align: center;
-        margin-bottom: 10px;;
+        margin-bottom: 10px;
     }
 
     .ht-options .ht-social {
@@ -4689,12 +4682,10 @@ span.psw {
     z-index: 2;
 }
 
-/* Change color of dropdown links on hover */
 
-
-
-
-
+/* Show the dropdown menu on hover */
+.dropdown:hover  {display: block;}
+.dropdown:hover #perfil {display: block;}
 
 
 /* Dropdown Button */
@@ -4707,10 +4698,6 @@ span.psw {
     cursor: pointer;
 }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover {
-    background-color: #c20000;
-}
 
 
 

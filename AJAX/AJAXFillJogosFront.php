@@ -16,9 +16,9 @@ $result=mysqli_query($con,$sql);
 <section class="store" style="height:100%; padding-top: 40px; margin-left: 50px;  background-color: #0d0d0d;color: #FFFFFF">
 
     <div  class="container dropdown" style="width: 300px; float: left; height: 100%;   ">
-            <button onclick="myFunction2()" class="dropbtn">Filtros &nbsp;<i class="fa fa-arrow-down"></i></button>
+            <button onclick="myFunction()" class="dropbtn">Filtros &nbsp;<i class="fa fa-arrow-down"></i></button>
 
-        <div id="myDropdown2" class="dropdown-content" >
+        <div id="myDropdown" class="dropdown-content" >
             <div class="row " style="width: 100%; ">
 
                 <div style="color: #FFFFFF;margin-left: 40px; margin-bottom: 30px;outline: solid 2px white; padding: 20px; box-shadow: 5px 10px #1d2124; ">

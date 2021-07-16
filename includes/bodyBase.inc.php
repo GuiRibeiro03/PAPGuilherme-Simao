@@ -224,8 +224,8 @@ function top($menu=HOME){
                                 <li style="float: right; font-size: 20px"><div class="ht-widget"">
                                     <ul class="float-right">
                                         <div class="dropdown" >
-                                            </span><a href="#" ><button class="dropdown-toggle"  onclick="myFunction()" style="background-color: transparent"><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"></a><span style="margin-left: 10px"></span></button></a>
-                                            <div id="myDropdown" class="dropdown-content" style="background-color: #202020; color: #FFF">
+                                            </span><a href="#" ><button class="dropdown-toggle" id="btnPerfil"  style="background-color: transparent"><a href="perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><img src="<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"></a><span style="margin-left: 10px"></span></button></a>
+                                            <div id="perfil" class="dropdown-content" style="background-color: #202020; color: #FFF">
 
                                                 <span><?php echo $dados["perfilNome"]?></span>
                                                 <hr>

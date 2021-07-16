@@ -259,11 +259,11 @@ function top($menu=HOME){
                             $dados=mysqli_fetch_array($result);
                             ?>
                             <ul>
-                                <li style="float: right"><div class="ht-widget"">
+                                <li style="float: right; font-size: 20px"><div class="ht-widget">
                                     <ul class="float-right">
                                         <div class="dropdown">
-                                            </span><a href="#" ><button class="dropdown-toggle" style="background-color: transparent"><a href="../perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><img src="../<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"></a><span style="margin-left: 10px"></span></button></a>
-                                            <div class="dropdown-content" style="background-color: #202020; color: #FFF; width: 100%;">
+                                            </span><a href="#" ><button class="dropdown-toggle"  style="background-color: transparent"><a href="../perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><img src="../<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"></a><span style="margin-left: 10px"></span></button></a>
+                                            <div id="myDropdown" class="dropdown-content" style="background-color: #202020; color: #FFF">
                                                 <span><?php echo $dados["perfilNome"]?></span>
                                                 <hr>
                                                 <?php
@@ -273,12 +273,12 @@ function top($menu=HOME){
                                                 $dados=mysqli_fetch_array($result);
                                                 if($dados["userType"]=="admin"){
                                                 ?>
-                                                    <li><a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="background-color: red"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Backoffice</span></button></a></li>
+                                                <li><a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="background-color: red"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;">Backoffice</span></button></a></li>
                                                 <li><a href="../logout.php"><button class="btn btn-primary" style="background-color: dodgerblue"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                 <?php
                                                 }elseif($dados["userType"]=="editor"){
                                                 ?>
-                                                    <li><a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="background-color: red"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-gear"></i> Backoffice</span></button></a></li>
+                                                <li><a href="../backoffice/Backoffice.php"><button type="button" class="btn btn-danger" style="background-color: red"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-gear"></i> Backoffice</span></button></a></li>
                                                 <li><a href="../logout.php"><button class="btn btn-primary" style="background-color: dodgerblue"><span  style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><i class="fa fa-sign-out"></i>Sign out</span></button></a></li>
                                                 <?php
                                                 }else{

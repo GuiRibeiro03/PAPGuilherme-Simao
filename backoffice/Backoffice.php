@@ -10,7 +10,7 @@ if($dados['userType']=='admin' ){
 ?>
 
 <section class="store" style="background-color: #0b0b0b; " >
-    <h2 style="text-decoration: underline">Backoffice</h2>
+
     <div style="width: 100%; height: 100%; margin-top: 5%; margin-bottom: 5%;">
         <div class="btn-group" role="group" aria-label="Basic example" style="margin-left: 32%; margin-top: 20px; margin-bottom: 20px">
             <a href="jogosBackoffice.php"><button type="button" class="btn btn-light">Jogos</button></a>
