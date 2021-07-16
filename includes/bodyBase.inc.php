@@ -478,7 +478,7 @@ function bottom(){
                     <a href="index.php"><img src="img/gameOn.png">
                         <p>Podes nos seguir na nossa Redes Sociais para seguires</p>
                         <p> as novidades da loja e do mundo do gaming à tua volta.</p></a>
-                    <a href="https://www.igdb.com/discover" style="margin-left: 20%;"><img src="img/igdb2.png" style="width: 200px; height: 200px"><p>The data was freely <pro></pro>vided by </p><a href="https://www.igdb.com/discover">IGDB.com</a></a>
+
                 </div>
             </div>
             <hr>

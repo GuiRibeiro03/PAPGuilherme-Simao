@@ -54,14 +54,6 @@ function top($menu=HOME){
         <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">
 
         <!-- Css Styles -->
-        <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
-        <link rel="stylesheet" href="../css/elegant-icons.css" type="text/css">
-        <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
-        <link rel="stylesheet" href="../css/barfiller.css" type="text/css">
-        <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
-        <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
-        <link rel="stylesheet" href="../css/style.css" type="text/css">
         <link rel="shortcut icon" href="../img/onbutton.ico">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -83,7 +75,7 @@ function top($menu=HOME){
         <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap"
               rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
               integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
@@ -95,13 +87,13 @@ function top($menu=HOME){
       -->  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
         <!-- Css Styles -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-        <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-        <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-        <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-        <link rel="stylesheet" href="css/barfiller.css" type="text/css">
-        <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-        <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/elegant-icons.css" type="text/css">
+        <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
+        <link rel="stylesheet" href="../css/barfiller.css" type="text/css">
+        <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+        <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
         <link rel="stylesheet" href="../css/style.css" type="text/css">
         <script src="../js/jquery.min.js"></script>
         <script src="../js/common.js"></script>
@@ -263,7 +255,7 @@ function top($menu=HOME){
                                     <ul class="float-right">
                                         <div class="dropdown">
                                             </span><a href="#" ><button class="dropdown-toggle"  style="background-color: transparent"><a href="../perfilUser.php?id=<?php echo $dados["perfilId"] ?>" ><img src="../<?php echo $dados["perfilAvatarURL"] ?>" style="width: 60px; height: 60px; border-radius: 50%; float: left;"></a><span style="margin-left: 10px"></span></button></a>
-                                            <div id="myDropdown" class="dropdown-content" style="background-color: #202020; color: #FFF">
+                                            <div id="perfil" class="dropdown-content" style="background-color: #202020; color: #FFF">
                                                 <span><?php echo $dados["perfilNome"]?></span>
                                                 <hr>
                                                 <?php
@@ -510,8 +502,6 @@ function bottom(){
                         <p>Podes nos seguir na nossa Redes Sociais para seguires</p>
                         <p> as novidades da loja e do mundo do gaming à tua volta.</p></a>
 
-
-                    <a href="index.php" style="margin-left: 20%;"><img src="../img/igdb2.png" style="width: 200px; height: 200px"><p>The data was freely provided by IGDB.com</p></a>
                 </div>
 
 
