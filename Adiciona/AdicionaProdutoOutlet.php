@@ -72,27 +72,31 @@ top();
 
 </script>
 
-<form action="../Confirma/confirmaAdicionaProdutoOutlet.php" method="post"  enctype="multipart/form-data" style="color: #FFFFFF; margin: 20px">
+<a href="../outlet.php" ><button type="button" class="btn btn-light" style="margin-top: 3%; margin-left: 4%"><i class="arrow_back"></i>Voltar</button></a>
+
+<form action="../Confirma/confirmaAdicionaProdutoOutlet.php" method="post"  enctype="multipart/form-data" style="color: #FFFFFF; margin:3%">
     <div class="mb-3">
-        <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Nome:</label>
-        <input type="text" class="form-control" id="exampleInputEmail1" name="produtoNome">
+        <label style="color:white; font-size: 15px; margin-top: 2%" class="badge badge-dark">Nome:</label>
+        <br>
+        <input type="text" class="form-control" id="exampleInputEmail1" name="produtoNome" style="width: 30%">
     </div>
-    <div class="mb-3">
-        <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Descrição:</label>
-        <textarea name="produtoDescricao" id="myTextarea"></textarea>
+    <div class="mb-3" style="color:white; font-size: 15px; margin-top: 5%">
+        <label class="badge badge-dark" style="color:white; font-size: 15px; margin-top: 5%">Descrição:</label>
+        <textarea name="produtoDescricao" id="myTextarea" style="width: 50%;"></textarea>
     </div>
     <div class="mb-3">
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Preço:</label>
-        <input type="text" class="form-control" name="produtoPreco" >
+        <br>
+        <input type="text" class="form-control" name="produtoPreco" style="width: 30%">
     </div>
-    <div class="mb-3">
+    <div class="mb-3" style="margin-top: 3%">
         <div id="wrapper" style="color: #FFFFFF">
             <input type="file" accept="image/*" name="produtoImagemURL" onchange="preview_image(event)">
             <div style="height: 20px"></div>
             <img id="output_image"/>
         </div>
     </div>
-    <button type="submit" class="btn btn-primary">Adiciona</button>
+    <button type="submit" class="btn btn-success"><i class="fa fa-check"></i>&nbsp; Adicionar Produto</button>
 </form>
 
 
