@@ -27,7 +27,7 @@ $dados=mysqli_fetch_array($resultjogos);
         $result2=mysqli_query($con,$sql2);
         while ($dadosGeneros=mysqli_fetch_array($result2)){
             ?>
-            <option value="<?php echo $dadosGeneros['generoId']?>"
+            <option name="generoId" value="<?php echo $dadosGeneros['generoId']?>"
                 <?php
                 if($dados["jogoGeneroGeneroId"]==$dadosGeneros["generoId"])
                     echo "Selected" ;
@@ -47,7 +47,7 @@ $dados=mysqli_fetch_array($resultjogos);
         $result3=mysqli_query($con,$sql3);
         while ($dadosPlataformas=mysqli_fetch_array($result3)){
             ?>
-            <option value="<?php echo $dadosPlataformas['plataformaId']?>"
+            <option name="plataformaId" value="<?php echo $dadosPlataformas['plataformaId']?>"
                 <?php
                 if($dados["jogoPlataformaPlataformaId"]==$dadosPlataformas["plataformaId"])
                     echo "Selected" ;

@@ -130,8 +130,6 @@ $dados=mysqli_fetch_array($resultjogos);
               </option>
               <?php
           }
-
-
           ?>
       </select>
 
