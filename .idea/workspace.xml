@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-tweaks">
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaTagsJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaTagsJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaTagsJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaTagsJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

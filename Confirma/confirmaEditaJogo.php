@@ -14,7 +14,7 @@ $novoNome="../img/jogos/".$img;
 
 
 
-$sql="UPDATE jogos SET jogoNome='".$jogoNome."', jogoSinopse='".$jogoSinopse."', jogoTrailer='".$jogoTrailer."',jogoPreco='".$jogoPreco."', jogoEmpresaId='".$empresaId."', jogoDestaque='".$produtoDestaque."' ";
+$sql="UPDATE jogos SET jogoNome='".$jogoNome."', jogoSinopse='".$jogoSinopse."', jogoTrailer='".$jogoTrailer."', jogoPreco='".$jogoPreco."', jogoEmpresaId='".$empresaId."', jogoDestaque='".$produtoDestaque."' ";
 
 if($img!=''){
     $sql.=", jogoImagemURL='".$novoNome."' ";

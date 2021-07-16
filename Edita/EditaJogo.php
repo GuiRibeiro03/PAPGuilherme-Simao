@@ -5,7 +5,8 @@ top();
 
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET["id"]);
-$sql="select * from jogos where jogoId=".$id;
+$sql="select * from jogos inner join jogogeneros on jogoId=jogoGeneroJogoId
+                            inner join jogoplataformas on jogoId=jogoPlataformaJogoId where jogoId=".$id;
 $resultjogos=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($resultjogos);
 
@@ -112,7 +113,6 @@ $dados=mysqli_fetch_array($resultjogos);
       <label style="color:white; font-size: 15px" class="badge badge-dark">Empresa</label>
 
 
-
       <select class="form-select"  aria-label="Default select example" name="jogoEmpresaId">
           <option value="-1">Escolha a empresa...</option>
           <?php
@@ -121,13 +121,12 @@ $dados=mysqli_fetch_array($resultjogos);
           while ($dadosEmpresas=mysqli_fetch_array($result)){
               ?>
               <option value="<?php echo $dadosEmpresas['empresaId']?>"
-              <?php
-              if($dados["jogoEmpresaId"]==$dadosEmpresas["empresaId"])
-                    echo "Selected" ;
-
+                  <?php
+                  if($dados["jogoEmpresaId"]==$dadosEmpresas["empresaId"])
+                      echo "Selected" ;
                   ?>
-                  >
-                <?php echo $dadosEmpresas["empresaNome"] ?>
+              >
+                  <?php echo $dadosEmpresas["empresaNome"] ?>
               </option>
               <?php
           }

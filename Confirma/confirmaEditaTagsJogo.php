@@ -8,7 +8,10 @@ $jogoPlataformaPlataformaId=addslashes($_POST["plataformaId"]);
 
 
 $sql="UPDATE jogogeneros SET jogoGeneroGeneroId='".$jogoGeneroGeneroId."', jogoGeneroJogoId='".$id."'";
+
 $sql2="UPDATE jogoplataformas SET jogoPlataformaPlataformaId='".$jogoPlataformaPlataformaId."', jogoPlataformaJogoId='".$id."'";
+
+
 
 
 mysqli_query($con,$sql);
