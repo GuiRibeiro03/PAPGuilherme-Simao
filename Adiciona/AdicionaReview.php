@@ -104,7 +104,7 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
         </div>
         <div class="mb-3" style="width: 70%;">
             <h4> <label  class="badge badge-dark">Desenvolvimento:</label></h4>
-            <textarea name="reviewTexto" id="myTextarea" ></textarea>
+            <textarea name="reviewTexto" id="myTextarea"style="width: 60%" ></textarea>
         </div>
 
 
