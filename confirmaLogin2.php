@@ -1,6 +1,6 @@
 <?php
 include_once ("includes/config.inc.php");
-$con=mysqli_connect("localhost","root","","pap2021gameon");
+$con=mysqli_connect(HOST,USER,PASSWORD,DATABASE);
 
 session_start();
 $nome=addslashes($_POST['nome']);
@@ -27,6 +27,9 @@ $dados2=mysqli_fetch_array($res2);
      if($nome == $dados2['userName'] AND $pwd == $dados2['userPassword']) {
      $_SESSION['id'] = $dados['userId'];
      $_SESSION['nome'] = $dados['userNome'];
+     $_SESSION['carrinho'][0][0]=-1;
+     $teste=array(0 => 0);
+     array_push($_SESSION['carrinho'],$teste);
      header("location:index.php");
 
  }else{

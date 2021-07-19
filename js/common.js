@@ -253,7 +253,7 @@ function countClicks2() {
 }
 
 
-
+/*
 //***********************************Adicionar ao Carrinho******************************
 function adicionaCarrinho(id){
     $.ajax({
@@ -327,7 +327,7 @@ function confirmaEliminaCarrinhoJogo(idJogo) {
         }
     });
 }
-
+*/
 
 //**************************Filtros Função Dropdown*****************************
 function myFunction() {
@@ -384,4 +384,102 @@ function entrar() {
             }
         });
     }
+}
+
+
+
+
+function eliminaCarrinhoTodo(){
+    if(confirm('Confirma que deseja eliminar todos os produtos do carrinho ?'))
+        window.location="AJAX/AJAXRemoverProdutoCarrinho.php";
+}
+
+
+
+function adicionaCarrinho(id){
+
+    $.ajax({
+        url:"AJAX/AJAXNovoProdutoCarrinho.php",
+        type:"post",
+        data: {
+            idPrd:id
+        },
+        success:function(result){
+            location.reload();
+        },
+    });
+}
+
+
+function confirmaEliminaCarrinhoProduto(idProduto) {
+    var nomeProduto;
+    $.ajax({
+        url:"AJAX/AJAXGetNameProduto.php",
+        type:"post",
+        data:{
+            idProduto:idProduto
+        },
+        success:function (result){
+            nomeProduto=result;
+            if(confirm('Confirma que deseja eliminar o produto:'+nomeProduto+'?')){
+                $.ajax({
+                    url:"AJAX/AJAXRemoverProdutosDoCarrinho.php",
+                    type:"post",
+                    data: {
+                        idPrd:idProduto
+                    },
+                    success:function(){
+                    location.reload();
+                    },
+                });
+            }
+        }
+    });
+}
+
+function confirmaEliminaCarrinhoJogo(idJogo) {
+    var nomeJogo;
+    $.ajax({
+        url:"AJAX/AJAXGetNameJogo.php",
+        type:"post",
+        data:{
+            idJogo:idJogo
+        },
+        success:function (result){
+            nomeJogo=result;
+            if(confirm('Confirma que deseja eliminar o produto:'+nomeJogo+'?')){
+                $.ajax({
+                    url:"AJAX/AJAXRemoverProdutosDoCarrinho.php",
+                    type:"post",
+                    data: {
+                        idPrd:idJogo
+                    },
+                    success:function(result){
+                        location.reload();
+                    },
+                });
+            }
+        }
+    });
+}
+
+
+
+
+function atualizaCarrinho(valor,idProduto){
+    if(valor>0){
+        $.ajax({
+            url:"AJAX/AJAXAtualizaCarrinho.php",
+            type:"post",
+            data:{
+                idPrd:idProduto,
+                quant:valor
+            },
+            success:function (result){
+                location.reload();
+            }
+        });
+    }
+
+
 }

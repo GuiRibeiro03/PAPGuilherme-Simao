@@ -1,6 +1,6 @@
 <?php
 include_once("includes/bodyBase.inc.php");
-top();
+
 $con = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
 
 $sql = "select * from moradas inner join perfis on perfilId=moradaPerfilId where perfilId=" . $_SESSION['id'];
@@ -12,17 +12,9 @@ $sql2 = "select * from produtos ";
 $res2 = mysqli_query($con, $sql2);
 $dados2 = mysqli_fetch_array($res2);
 
+$ctt='';
 
-$ctt = 'sim';
-
-
-
-
-
-
-
-
-
+top();
 ?>
 
 
@@ -99,54 +91,46 @@ $ctt = 'sim';
 
         </div>
 
-        <div class="row" style="margin-top: 5%;">
+        <div class="row" style="margin-top: 5%;" onload="envio()">
             <div id="ctt">
 
                 <h4 style="font-weight: bold; color: #FFFFFF">Metodo de Envio:</h4>
                 <div style="margin-top: 20px">
                     <span>CTT- Expresso: 3,90€</span>
+
                     <div style="float: right;">
-                        <input type="radio" name="ctt2" id="ctt2" value="sim" >
-                        <script>
-                            const btn = document.getElementById("ctt2");
-                            // handle button click
-                            btn.onclick = function () {
-                                const rbs = document.querySelectorAll('input[name="ctt2"]');
-                                for (const rb of rbs) {
-                                    if (rb.checked) {
-
-                                        <?php echo $ctt = 'sim'; ?>
-
-                                    }else{
-
-                                        <?php echo $ctt = 'nao';?>
-
-                                    }
-                                }
-
-                            };
-                        </script>
+                        <input type="radio" name="opcao" id="btn1" value="sim">
                     </div>
                 </div>
 
                 <div style="margin-top: 20px">
                     <span>Recolher em Loja:</span>
-                    <div style="float: right;"><input type="radio" name="loja" id="loja2" value="sim"></div>
+
+                    <div style="float: right;">
+                        <input type="radio" name="opcao" id="btn2" value="nao" >
+                    </div>
 
                     <p style="margin-top: 10px"><select>
                             <option value="Leiria">Leiria</option>
-                            <option value="Leiria">Lisboa</option>
-                            <option value="Leiria">Coimbra</option>
-                            <option value="Leiria">Aveiro</option>
-                            <option value="Leiria">Setúbal</option>
-                            <option value="Leiria">Faro</option>
-                            <option value="Leiria">Porto</option>
+                            <option value="Lisboa">Lisboa</option>
+                            <option value="Coimbra">Coimbra</option>
+                            <option value="Aveiro">Aveiro</option>
+                            <option value="Setúbal">Setúbal</option>
+                            <option value="Faro">Faro</option>
+                            <option value="Porto">Porto</option>
                         </select></p>
+
                 </div>
+
+                <button id="btn" class="btn btn-danger" style="color: black; font-size: 15px">Guardar</button>
+
 
 
             </div>
         </div>
+
+
+
 
 
         <!-- **************************DIV DETALHES***************START********  -->
@@ -156,95 +140,65 @@ $ctt = 'sim';
             <div style="width: 100%; margin-bottom: 20px; text-align: center"><span style="font-weight: bold; ">Detalhes do pedido &nbsp;<i
                             class="fa fa-arrow-down"></i></span></div>
             <?php
-            $lista = "(0";
-            if (isset($_SESSION['carrinho'])) {
-                foreach ($_SESSION['carrinho'] as $produto) {
-                    $lista .= "," . $produto;
+            $total=0;
+            $k=0;
+            if(isset($_SESSION['carrinho'])){
+                foreach ($_SESSION['carrinho'] as $produto){
+                    foreach ($produto as $prdId => $quant){
+                        $sql2="select * from produtos where produtoId = ".$prdId;
+                        $result2=mysqli_query($con,$sql2);
+                        if(mysqli_affected_rows($con)>0){
+                            $dados2=mysqli_fetch_array($result2);
+                            ?>
+                            <div style="margin-right: 20px; margin-left: 20px">
+                              <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
+                                <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                <p style="color: #000000!important;"><input type="number" name="quantidade" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                <hr>
+                            </div>
+
+
+
+                            <?php
+                            $k++;
+                            $total+=$dados2["produtoPreco"]*$quant;
+                        }
+                    }
                 }
             }
-            $lista .= ")";
-
-            $sql1 = "select * from produtos where produtoId in " . $lista;
-
-
-            $result1 = mysqli_query($con, $sql1);
-            $precoTotal = 0;
-            $k = 0;
-
-            while ($dados2 = mysqli_fetch_array($result1)) {
-
-                ?>
-                <div style="margin-right: 20px; margin-left: 20px">
-                    <?php $k++; ?> <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="width: 20%;"> <span
-                            style="font-weight: bold"><?php echo $dados2["produtoNome"] ?></span>:</a>
-                    <span id="preco"
-                          style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
-                    <?php
-                    if ($ctt == 'sim' ) {
-                        $precoTotal += 3.90;
-                        ?>
-                        <span style="color: #0b0b0b; font-size: 20px">Envio: 3,90€</span>
-
-                        <?php
-                    }
-                    ?>
-
-                </div>
-
-
-                <?php
-                $precoTotal += $dados2["produtoPreco"];
-            } ?>
+            ?>
 
 
 
             <?php
-            $lista = "(0";
-            if (isset($_SESSION['carrinho'])) {
-                foreach ($_SESSION['carrinho'] as $jogo) {
-                    $lista .= "," . $jogo;
+
+            if(isset($_SESSION['carrinho'])){
+                foreach ($_SESSION['carrinho'] as $produto){
+                    foreach ($produto as $prdId => $quant){
+                        $sql2="select * from jogos where jogoId =".$prdId;
+                        $result2=mysqli_query($con,$sql2);
+                        if(mysqli_affected_rows($con)>0){
+                            $dados3=mysqli_fetch_array($result2);
+
+                            ?>
+                            <div style="margin-right: 20px; margin-left: 20px">
+                           <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
+                                &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
+                                <button onclick="confirmaEliminaCarrinhoJogo(<?php echo $dados3["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                <hr>
+                            </div>
+
+                            <?php
+                            $k++;
+                            $total+=$dados3["produtoPreco"]*$quant;
+                        }
+                    }
                 }
             }
-            $lista .= ")";
-
-            $sql2 = "select * from jogos where jogoId in $lista";
-
-
-            $result2 = mysqli_query($con, $sql2);
-
-            while ($dados3 = mysqli_fetch_array($result2)) {
-
-                ?>
-                <div style="margin-right: 20px; margin-left: 20px; margin-bottom: 5%; margin-top: 5%">
-                    <?php $k++; ?> <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style=" width: 20%; "> <span
-                            style="font-weight: bold; margin-left: 20px"> <?php echo $dados3["jogoNome"] ?></span>:
-                    &nbsp;</a>
-                    <span id="preco"
-                          style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
-                    <?php
-                    if ($ctt == 'sim' ) {
-                        $precoTotal += 3.90;
-                        ?>
-
-                        <span style="color: #0b0b0b; font-size: 17px; margin-left: 26%; font-weight: bold">Envio: 3,90€</span>
-
-                        <?php
-                    }
-                    ?>
-                </div>
-
-
-                <?php
-
-                $precoTotal += $dados3["jogoPreco"];
-
-
-            }
-
-
             ?>
             <div style="width: 100%;"><span
-                        style="font-weight: bold; color: #0d0d0d; font-size: 20px; margin-left: 20px">Total: <?php echo $precoTotal ?>€</span>
+                        style="font-weight: bold; color: #0d0d0d; font-size: 20px; margin-left: 20px">Total: <?php echo $total ?>€</span>
                 <a>
                     <a href="AJAX/finalizarEncomenda.php"><button type="button" class="btn btn-danger" style="float: right; background-color: red">
                         Encomendar
@@ -309,7 +263,35 @@ $ctt = 'sim';
 
     </section>
 
+    <script>
 
+
+
+            const btn = document.querySelector('#btn');
+            // handle button click
+            btn.onclick = function () {
+                const rbs = document.querySelectorAll('input[name="opcao"]');
+                let selectedValue;
+                for (const rb of rbs) {
+                    if (rb.checked && rb.value == 'sim') {
+                        selectedValue = rb.value;
+                        document.getElementById("textContent").innerHTML ='<span style="color: #0b0b0b; font-size: 16px; font-weight: bold">Envio: 3,90€</span>';
+                        let valor=3.90;
+                        break;
+
+
+                    } else if (rb.checked && rb.value == 'nao') {
+                        selectedValue = rb.value;
+                        document.getElementById("textContent").innerHTML = '';
+                        break;
+                    }
+                }
+
+
+
+            };
+
+    </script>
     <!-- Footer Section Begin -->
 <?php
 

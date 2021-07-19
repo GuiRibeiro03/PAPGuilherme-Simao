@@ -35,6 +35,9 @@ mysqli_query($con,$sql2);
 session_start();
 $_SESSION['id']=$lastId;
 $_SESSION['nome']=$userName;
+$_SESSION['carrinho'][0][0]=-1;
+$teste=array(0 => 0);
+array_push($_SESSION['carrinho'],$teste);
 
 error_reporting(E_ALL);
 

@@ -2,30 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks">
-      <change beforePath="$PROJECT_DIR$/img/KG3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/breadcrumb-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/dvm5.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/f-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/g-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/igdb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/igdb2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/infinito.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/telma.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/thelastofusIGN.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/theweeknd.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/trending/Ratchet.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/trending/editor-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/trending/godWar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/trending/silverhand.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/trending/spiderman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/trending/thelastofus2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/TheWitcherNumers.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/assassinsCreedWall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/batmanwWall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/godofwar1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/watchdogsLegion.jpg" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/AJAX/AJAXAtualizaCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaJogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaLogin2.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaLogin2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confirmaRegistar.php" beforeDir="false" afterPath="$PROJECT_DIR$/confirmaRegistar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +68,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/AJAX" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PAPGuilherme-Simao2" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -297,13 +288,7 @@
       <workItem from="1626339783211" duration="3391000" />
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
-    </task>
-    <task id="LOCAL-00318" summary="Guilherme-Registar works">
-      <created>1625129250317</created>
-      <option name="number" value="00318" />
-      <option name="presentableId" value="LOCAL-00318" />
-      <option name="project" value="LOCAL" />
-      <updated>1625129250317</updated>
+      <workItem from="1626701723722" duration="6625000" />
     </task>
     <task id="LOCAL-00319" summary="Guilherme-Update Password">
       <created>1625130988668</created>
@@ -641,7 +626,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626697943902</updated>
     </task>
-    <option name="localTasksCounter" value="367" />
+    <task id="LOCAL-00367" summary="Guilherme-Tweaks">
+      <created>1626698072204</created>
+      <option name="number" value="00367" />
+      <option name="presentableId" value="LOCAL-00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1626698072204</updated>
+    </task>
+    <option name="localTasksCounter" value="368" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

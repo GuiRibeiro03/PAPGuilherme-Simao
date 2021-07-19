@@ -115,7 +115,7 @@ $result4 = mysqli_query($con, $sql3);
                                 </div>
 
                                 <div id="altura">
-                                    <a onclick="adicionaCarrinhoJogo(<?php echo $dadosJogos['jogoId']?>)"  style="color: #dc3545; ">
+                                    <a onclick="adicionaCarrinho(<?php echo $dadosJogos['jogoId']?>)"  style="color: #dc3545; ">
                                         <input type="submit" class="cart-button" value="Adicionar ao Carrinho" style="font-weight: bold; height: 50px"></a>
                                 </div>
                             </div>
