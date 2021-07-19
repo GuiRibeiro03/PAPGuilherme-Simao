@@ -406,7 +406,7 @@ function adicionaCarrinho(idJogo){
         },
         success:function(){
             location.reload();
-        },
+        }
     });
 }
 
@@ -430,7 +430,7 @@ function confirmaEliminaCarrinhoProduto(idProduto) {
                     },
                     success:function(){
                     location.reload();
-                    },
+                    }
                 });
             }
         }

@@ -291,19 +291,19 @@ function top($menu=HOME){
                                                 $result2=mysqli_query($con,$sql2);
                                             if(mysqli_affected_rows($con)>0){
                                                 $dados2=mysqli_fetch_array($result2);
-
                                             ?>
                                             <div style="margin-right: 20px; margin-left: 20px">
                                                  <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
-                                                    <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $prdId?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
-                                                <p style="color: #000000!important;"><input onclick="atualizaCarrinho(this.value,<?php echo $prdId?>)" type="number"  value="<?php echo $quant?>" min="1" style="width: 50px; height: 40px; margin-top: 20px;text-align: center"></p>
+                                                    <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $prdId; ?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                                <p style="color: #000000!important;"><input onclick="atualizaCarrinho(this.value,<?php echo $prdId; ?>)" type="number"  value="<?php echo $quant?>" min="1" style="width: 50px; height: 40px; margin-top: 20px;text-align: center"></p>
                                                 <hr>
                                             </div>
 
 
 
                                             <?php
-                                                $k++;
+                                                $k+=$quant;
+
                                                 $total+=$dados2["produtoPreco"]*$quant;
                                             }else{
                                                 ?>
@@ -325,7 +325,7 @@ function top($menu=HOME){
                                             $result2=mysqli_query($con,$sql2);
                                             if(mysqli_affected_rows($con)>0){
                                             $dados3=mysqli_fetch_array($result2);
-
+                                                $k++;
                                                 ?>
                                                 <div style="margin-right: 20px; margin-left: 20px">
                                                   <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
@@ -336,7 +336,8 @@ function top($menu=HOME){
                                             </div>
 
                                                 <?php
-                                                $k++;
+
+                                                $k+=$quant;
                                                 $total+=$dados3["jogoPreco"]*$quant;
                                             }else{
                                                 ?>
