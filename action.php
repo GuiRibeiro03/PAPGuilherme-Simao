@@ -4,8 +4,7 @@ $con = mysqli_connect(HOST, USER, PASSWORD, DATABASE);
 if (isset($_POST['action'])) {
     $sql = "select * from jogos 
     inner join jogogeneros on jogoId=jogoGeneroJogoId 
-    inner join jogoplataformas on jogoId=jogoPlataformaJogoId 
-where jogoEmpresaId != '' ";
+    inner join jogoplataformas on jogoId=jogoPlataformaJogoId ";
 
 
     $sql2 = "select * from generos";
@@ -15,7 +14,7 @@ where jogoEmpresaId != '' ";
 
     if (isset($_POST['genero'])) {
         $genero = implode('","', $_POST['genero']);
-        $sql .= "AND  jogoGeneroGeneroId IN('" . $genero . "')";
+        $sql .= "where  jogoGeneroGeneroId IN('" . $genero . "')";
     }
     if (isset($_POST['plataforma'])) {
         $plataforma = implode('","', $_POST['plataforma']);

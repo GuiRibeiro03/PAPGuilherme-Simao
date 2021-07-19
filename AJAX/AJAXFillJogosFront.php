@@ -162,7 +162,6 @@ $result=mysqli_query($con,$sql);
                 success:function (result){
                     $("#tableContent").html(result);
 
-                    $("#textChange").text("Filtered Products");
                 }
 
             })

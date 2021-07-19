@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks tags" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,13 +276,6 @@
       <workItem from="1626339783211" duration="3391000" />
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
-    </task>
-    <task id="LOCAL-00311" summary="Guilherme-Correção Edita Reviews">
-      <created>1624964278689</created>
-      <option name="number" value="00311" />
-      <option name="presentableId" value="LOCAL-00311" />
-      <option name="project" value="LOCAL" />
-      <updated>1624964278690</updated>
     </task>
     <task id="LOCAL-00312" summary="Guilherme-Outlet">
       <created>1624977374940</created>
@@ -616,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626450903122</updated>
     </task>
-    <option name="localTasksCounter" value="360" />
+    <task id="LOCAL-00360" summary="Guilherme-Tweaks">
+      <created>1626682921475</created>
+      <option name="number" value="00360" />
+      <option name="presentableId" value="LOCAL-00360" />
+      <option name="project" value="LOCAL" />
+      <updated>1626682921475</updated>
+    </task>
+    <option name="localTasksCounter" value="361" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -655,11 +659,11 @@
     <MESSAGE value="Guilherme-Botão voltar" />
     <MESSAGE value="Guilherme-Tweaks(user-outlet)" />
     <MESSAGE value="Guilherme-tweaks" />
-    <MESSAGE value="Guilherme-Tweaks" />
     <MESSAGE value="Guilherme-Tweaks Editor" />
     <MESSAGE value="Guilherme-Tweaks Carousel jogos em destaque" />
     <MESSAGE value="Guilherme-Tweaks Filtros Dropdown" />
     <MESSAGE value="Guilherme-Tweaks tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks tags" />
+    <MESSAGE value="Guilherme-Tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks" />
   </component>
 </project>
