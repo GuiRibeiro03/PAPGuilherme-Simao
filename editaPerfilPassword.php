@@ -12,6 +12,8 @@ $dados=mysqli_fetch_array($result);
 <section >
         <a href="perfilUser.php?id=<?php echo $id?>"><button type="button" class="btn btn-light" style="margin-left: 5%; margin-top: 2%"><i class="arrow_back"></i>&nbsp;Voltar</button></a>
 
+    <div id="titulo" style="text-align: center; width: 100%; font-weight: bold; margin-top: 2%"><h2>Edita Password</h2></div>
+    <hr>
     <?php
     $sql2="select * from users where userId=".$id;
     $res=mysqli_query($con,$sql2);
