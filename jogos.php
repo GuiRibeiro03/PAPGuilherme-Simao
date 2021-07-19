@@ -29,7 +29,7 @@ $result=mysqli_query($con,$sql);
 
 
 <div style="text-align: center; width: 100%; margin-left: 20%">
-    <input type="text" placeholder="Procura o jogo que desejas..." id="search" style="width: 30%; height: 40px; border-radius: 10px; margin-top: 3%">
+    <input type="text" placeholder="Procura o jogo que desejas..." id="search" style="width: 30%; height: 40px; border-radius: 10px; margin-top: 3%; margin-right: 40%">
     </div>
 
 <!--<div class="dropdown" style="margin-left: 22%">
