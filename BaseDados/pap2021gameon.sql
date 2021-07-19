@@ -151,7 +151,7 @@ CREATE TABLE `jogos`  (
   `jogoSinopse` text CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
   `jogoTrailer` text CHARACTER SET utf8 COLLATE utf8_general_ci NULL,
   `jogoImagemURL` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
-  `jogoGlobalRating` varchar(45) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT 'N/A',
+  `reviewGlobalRating` varchar(45) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT 'N/A',
   `jogoUserRating` varchar(45) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT 'N/A',
   `jogoPreco` decimal(10, 2) NOT NULL DEFAULT 0.00,
   `jogoEmpresaId` int(11) NOT NULL,

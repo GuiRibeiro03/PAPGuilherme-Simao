@@ -3,7 +3,7 @@ include_once ("includes/bodyBase.inc.php");
 top();
 $con=mysqli_connect("localhost", "root","","pap2021gameon");
 $id=intval($_GET['id']);
-$sql="select * from reviews inner join jogos on jogoId = reviewJogoId where reviewId=".$id;
+$sql="select * from reviews inner join jogos on reviewJogoId = jogoId where reviewId=".$id;
 
 
 $result=mysqli_query($con,$sql);
@@ -50,10 +50,10 @@ $dados=mysqli_fetch_array($result);
 
                                         <div class="loader-circle-wrap" style="border-radius: 50%">
                                             <div class="loader-circle" >
-                                                <span class="circle-progress-2" data-cpid="circle1" data-cpvalue="<?php echo $dados['jogoGlobalRating']?>"  data-cpcolor="#4bcf13" ></span>
+                                                <span class="circle-progress-2" data-cpid="circle1" data-cpvalue="<?php echo $dados['reviewGlobalRating']?>"  data-cpcolor="#4bcf13" ></span>
                                                 <div class="review-point" >
                                                     <span style="padding-left: 10px; color: #FFFFFF">Global Rating:</span>
-                                                    <div style="margin-right:10px; margin-top: 10px; font-size: 50px"><?php echo $dados['jogoGlobalRating']?>%</div>
+                                                    <div style="margin-right:10px; margin-top: 10px; font-size: 50px"><?php echo $dados['reviewGlobalRating']?>%</div>
 
                                                 </div>
                                             </div>
@@ -63,10 +63,10 @@ $dados=mysqli_fetch_array($result);
 
                                         <div class="loader-circle-wrap" style="border-radius: 50%">
                                             <div class="loader-circle">
-                                                <span class="circle-progress-2" data-cpid="circle2" data-cpvalue="<?php echo $dados['jogoUserRating']?>"  data-cpcolor="#c20000"></span>
+                                                <span class="circle-progress-2" data-cpid="circle2" data-cpvalue="<?php echo $dados['reviewUserRating']?>"  data-cpcolor="#c20000"></span>
                                                 <div class="review-point">
                                                     <span style="padding-left: 10px; color: #FFFFFF">User Rating:</span>
-                                                    <div style="padding-left: 10px; padding-top: 10px; font-size: 50px"><?php echo $dados['jogoUserRating']?>%</div>
+                                                    <div style="font-size: 50px; text-align: center"><?php if( $dados['reviewUserRating'] != 'N/A'){ echo $dados['reviewUserRating']."<span>%</span>";   }else{ echo "N/A"; } ?></div>
                                                 </div>
                                             </div>
                                         </div>

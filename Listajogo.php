@@ -76,7 +76,7 @@ $dados=mysqli_fetch_array($result);
                                         <span class="circle-progress-2" data-cpid="circle2" data-cpvalue="<?php echo $dados['reviewUserRating']?>"  data-cpcolor="#c20000"></span>
                                         <div class="review-point">
                                             <span style="padding-left: 10px; color: #FFFFFF">User Rating:</span>
-                                            <div style="font-size: 50px; text-align: center"><?php if( $dados['reviewUserRating'] != 'N/A'){ echo $dados['reviewUserRating']."<span>%</span>";   }else{ echo $dados['jogoUserRating']; } ?></div>
+                                            <div style="font-size: 50px; text-align: center"><?php if( $dados['reviewUserRating'] != 'N/A'){ echo $dados['reviewUserRating']."<span>%</span>";   }else{ echo "N/A"; } ?></div>
                                         </div>
                                     </div>
                                 </div>

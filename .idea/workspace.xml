@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-tweaks">
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/modeloGameOn_3.0.mwb.bak" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/pap2021gameon.sql" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/pap2021gameon.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
-    <list id="02865c03-fa17-423d-ba08-6379545d22c4" name="Guilherme-tweaks" comment="Guilherme-tweaks" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +92,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="" />
-      <changelist id="02865c03-fa17-423d-ba08-6379545d22c4" name="Guilherme-tweaks" comment="" />
+      <changelist id="" name="Guilherme-tweaks" comment="" />
       <created>1612956646111</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -283,14 +284,7 @@
       <workItem from="1626726354307" duration="1000" />
       <workItem from="1626726399790" duration="429000" />
       <workItem from="1626727163466" duration="1917000" />
-      <workItem from="1626731333521" duration="3422000" />
-    </task>
-    <task id="LOCAL-00316" summary="Guilherme-Ajax Blog">
-      <created>1625046152237</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1625046152238</updated>
+      <workItem from="1626731333521" duration="3727000" />
     </task>
     <task id="LOCAL-00317" summary="Guilherme-Registar">
       <created>1625052017860</created>
@@ -628,7 +622,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626734509732</updated>
     </task>
-    <option name="localTasksCounter" value="365" />
+    <task id="LOCAL-00365" summary="Guilherme-tweaks">
+      <created>1626734849665</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1626734849665</updated>
+    </task>
+    <option name="localTasksCounter" value="366" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

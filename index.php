@@ -4,8 +4,8 @@ top();
 
 $con = mysqli_connect("localhost", "root", "", "pap2021gameon");
 $sql = "select * from noticias";
-$sql_2 = "select * from jogos inner join reviews on jogoId=reviewJogoId where jogoGlobalRating=100 limit 3 ";
-$sqlJogos = "select * from jogos inner join reviews on jogoId=reviewJogoId where jogoGlobalRating >= 70 order by jogoGlobalRating desc ";
+$sql_2 = "select * from jogos inner join reviews on jogoId=reviewJogoId where reviewGlobalRating=100 limit 3 ";
+$sqlJogos = "select * from jogos inner join reviews on jogoId=reviewJogoId where reviewGlobalRating >= 70 order by reviewGlobalRating desc ";
 $sql2_2 = "select * from jogos  where jogoDestaque LIKE 'sim' order by jogoId desc ";
 $sql3 = "select * from reviews";
 $result = mysqli_query($con, $sql);
@@ -152,16 +152,16 @@ $result4 = mysqli_query($con, $sql3);
                             while ($i < 5 && $dadosJogos2 = mysqli_fetch_array($result2)) {
 
                                 ?>
-                                <?php if($dadosJogos2["jogoGlobalRating"] != 100){?>
+                                <?php if($dadosJogos2["reviewGlobalRating"] != 100){?>
                                 <div class="bp-item">
                                     <div class="bp-loader">
                                         <div class="loader-circle-wrap">
                                             <div class="loader-circle">
                                                 <span class="circle-progress-1" data-cpid="id-<?php echo $i + 1 ?>"
-                                                      data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"] ?>"
+                                                      data-cpvalue="<?php echo $dadosJogos2["reviewGlobalRating"] ?>"
                                                       data-cpcolor="#c20000"></span>
 
-                                                <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"] ?>%</div>
+                                                <div class="review-point"><?php echo $dadosJogos2["reviewGlobalRating"] ?>%</div>
 
                                             </div>
                                         </div>
@@ -197,16 +197,16 @@ $result4 = mysqli_query($con, $sql3);
 
                                 ?>
 
-                                <?php if($dadosJogos2["jogoGlobalRating"] != 100){?>
+                                <?php if($dadosJogos2["reviewGlobalRating"] != 100){?>
                                 <div class="bp-item">
                                     <div class="bp-loader">
                                         <div class="loader-circle-wrap">
                                             <div class="loader-circle">
                                                 <span class="circle-progress-1" data-cpid="id-<?php echo $i + 1 ?>"
-                                                      data-cpvalue="<?php echo $dadosJogos2["jogoGlobalRating"] ?>"
+                                                      data-cpvalue="<?php echo $dadosJogos2["reviewGlobalRating"] ?>"
                                                       data-cpcolor="#c20000"></span>
 
-                                                    <div class="review-point"><?php echo $dadosJogos2["jogoGlobalRating"] ?>%</div>
+                                                    <div class="review-point"><?php echo $dadosJogos2["reviewGlobalRating"] ?>%</div>
 
 
                                             </div>

@@ -3,7 +3,7 @@ $con = mysqli_connect("localhost", "root", "","pap2021gameon");
 
 $id=intval($_GET["id"]);
 $reviewData=addslashes($_POST["reviewData"]);
-$reviewRating= addslashes($_POST["jogoGlobalRating"]);
+$reviewRating= addslashes($_POST["reviewGlobalRating"]);
 $reviewText=addslashes($_POST["reviewTexto"]);
 $reviewAutor=addslashes($_POST["reviewAutor"]);
 $reviewJogoId=intval($_POST["reviewJogoId"]);
@@ -19,7 +19,7 @@ if($img!=''){
     copy($_FILES['reviewImagemURL']['tmp_name'],$novoNome);
 }
 
-$sql.=", jogoGlobalRating='".$reviewRating."' where reviewId=".$id;
+$sql.=", reviewGlobalRating='".$reviewRating."' where reviewId=".$id;
 
 mysqli_query($con,$sql);
 print_r($sql);
