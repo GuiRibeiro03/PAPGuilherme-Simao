@@ -6,7 +6,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 session_start();
-$_SESSION['carrinho'][0]=-1;
+
 
 
 
