@@ -107,8 +107,10 @@ $dados=mysqli_fetch_array($result);
             <textarea name="reviewTexto" id="myTextarea" content="<?php echo $dados["reviewTexto"] ?>"><?php echo $dados["reviewTexto"] ?></textarea>
         </div>
 
-
-
+        <div style="width: 70%;">
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Rating:</label>
+        <input type="text" name="jogoGlobalRating" style="width: 100px">
+        </div>
 
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Jogo:</label>
         <select name="reviewJogoId" >

@@ -107,9 +107,6 @@ $con = mysqli_connect("localhost", "root", "", "pap2021gameon");
         <hr>
 
 
-        <label style="color:white; font-size: 15px" class="badge badge-dark">Rating:</label>
-        <input type="text" name="jogoGlobalRating" style="width: 100px">
-        <hr>
 
 
         <div class="row">

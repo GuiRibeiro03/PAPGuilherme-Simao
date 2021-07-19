@@ -128,7 +128,14 @@ $con=mysqli_connect("localhost","root","","pap2021gameon");
 
         <br>
 
+
+
+        <label style="color:white; font-size: 15px" class="badge badge-dark">Rating:</label>
+        <input type="text" name="jogoGlobalRating" style="width: 100px">
+        <hr>
+
 <!--
+
         <div class="form-check" style="margin-bottom: 5%; margin-top: 3%">
             <label class="badge badge-dark">Data:</label>
             <input type="date" name="reviewData">

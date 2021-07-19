@@ -3,15 +3,15 @@ $con = mysqli_connect("localhost", "root", "", "pap2021gameon");
 
 
 $reviewTexto = addslashes($_POST["reviewTexto"]);
-//$reviewData= addslashes($_POST["reviewData"]);
+$reviewRating= addslashes($_POST["jogoGlobalRating"]);
 $reviewImagemURL = $_FILES["reviewImagemURL"]["name"];
 $reviewJogoId = intval($_POST["reviewJogoId"]);
 $reviewAutor = addslashes($_POST["reviewAutor"]);
 $novoNome="../img/wallpapers/".$reviewImagemURL;
 copy($_FILES['reviewImagemURL']['tmp_name'],$novoNome);
 
-echo $sql = "insert into reviews (reviewData,reviewAutor,reviewTexto,reviewJogoId,reviewImagemURL) 
-values(NOW(),'" . $reviewAutor . "','" . $reviewTexto . "','" . $reviewJogoId  . "','" . $novoNome . "')";
+echo $sql = "insert into reviews (reviewData,reviewAutor,reviewTexto,reviewJogoId,reviewImagemURL,jogoGlobalRating) 
+values(NOW(),'" . $reviewAutor . "','" . $reviewTexto . "','" . $reviewJogoId  . "','" . $novoNome . "','" . $reviewRating . "')";
 
 mysqli_query($con, $sql);
 header("location: ../backoffice/reviewsBackoffice.php");
