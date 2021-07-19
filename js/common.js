@@ -437,13 +437,13 @@ function confirmaEliminaCarrinhoProduto(idProduto) {
     });
 }
 
-function confirmaEliminaCarrinhoJogo(idJogo) {
+function confirmaEliminaCarrinhoJogo(idProduto) {
     var nomeJogo;
     $.ajax({
         url:"AJAX/AJAXGetNameJogo.php",
         type:"post",
         data:{
-            idJogo:idJogo
+            idJogo:idProduto
         },
         success:function (result){
             nomeJogo=result;
@@ -452,9 +452,9 @@ function confirmaEliminaCarrinhoJogo(idJogo) {
                     url:"AJAX/AJAXEliminaProdutoCarrinho.php",
                     type:"post",
                     data: {
-                        idPrd:idJogo
+                        idPrd:idProduto
                     },
-                    success:function(result){
+                    success:function(){
                         location.reload();
                     },
                 });

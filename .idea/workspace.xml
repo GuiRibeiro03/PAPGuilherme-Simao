@@ -4,7 +4,6 @@
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks Carrinho nº produtos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/AJAXAtualizaCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXAtualizaProdutoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutoCarrinho.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXEliminaProdutoCarrinho.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
@@ -280,14 +279,7 @@
       <workItem from="1626339783211" duration="3391000" />
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
-      <workItem from="1626701723722" duration="11417000" />
-    </task>
-    <task id="LOCAL-00325" summary="Guilherme-Checkout modal moradas">
-      <created>1625214960976</created>
-      <option name="number" value="00325" />
-      <option name="presentableId" value="LOCAL-00325" />
-      <option name="project" value="LOCAL" />
-      <updated>1625214960977</updated>
+      <workItem from="1626701723722" duration="11731000" />
     </task>
     <task id="LOCAL-00326" summary="Guilherme-Checkout modal moradas">
       <created>1625215855132</created>
@@ -625,7 +617,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626712027802</updated>
     </task>
-    <option name="localTasksCounter" value="374" />
+    <task id="LOCAL-00374" summary="Guilherme-Tweaks Carrinho nº produtos">
+      <created>1626713915520</created>
+      <option name="number" value="00374" />
+      <option name="presentableId" value="LOCAL-00374" />
+      <option name="project" value="LOCAL" />
+      <updated>1626713915520</updated>
+    </task>
+    <option name="localTasksCounter" value="375" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
