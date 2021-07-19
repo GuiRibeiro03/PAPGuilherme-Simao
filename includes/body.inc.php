@@ -328,7 +328,7 @@ function top($menu=HOME){
 
 
                                                         <?php
-                                                        $k++;
+                                                        $k+=$quant;
                                                         $total+=$dados2["produtoPreco"]*$quant;
                                                     }
                                                 }
@@ -343,7 +343,7 @@ function top($menu=HOME){
                                         if(isset($_SESSION['carrinho'])){
                                             foreach ($_SESSION['carrinho'] as $produto){
                                                 foreach ($produto as $prdId => $quant){
-                                                    $sql2="select * from jogos where jogoId =".$prdId;
+                                                    $sql2="select * from jogos where jogoId = ".$prdId;
                                                     $result2=mysqli_query($con,$sql2);
                                                     if(mysqli_affected_rows($con)>0){
                                                         $dados3=mysqli_fetch_array($result2);
@@ -358,7 +358,7 @@ function top($menu=HOME){
                                                         </div>
 
                                                         <?php
-                                                        $k++;
+                                                        $k+=$quant;
                                                         $total+=$dados3["jogoPreco"]*$quant;
                                                     }else{
                                                         ?>
