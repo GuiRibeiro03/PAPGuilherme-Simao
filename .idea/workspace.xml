@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks">
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogosFront.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/action.php" beforeDir="false" afterPath="$PROJECT_DIR$/action.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillFrontBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontBlog.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/jogos/telma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/produtos/11571242_koala.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/produtos/airmax97.4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/produtos/chefa.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/produtos/deusVult.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/produtos/transferir (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/produtos/transferir.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/Leiria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/Se a liberdade de expressão for tirada, então, burros e silenciosos, podemos ser levados, como ovelhas para a sua matança..png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/algarve2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/fig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/naa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/tenor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/unnamed.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -275,20 +290,6 @@
       <workItem from="1626339783211" duration="3391000" />
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
-    </task>
-    <task id="LOCAL-00314" summary="Guilherme-UserRegistar/Blog">
-      <created>1624980544732</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1624980544732</updated>
-    </task>
-    <task id="LOCAL-00315" summary="Guilherme-UserRegistar/Blog">
-      <created>1624981627497</created>
-      <option name="number" value="00315" />
-      <option name="presentableId" value="LOCAL-00315" />
-      <option name="project" value="LOCAL" />
-      <updated>1624981627497</updated>
     </task>
     <task id="LOCAL-00316" summary="Guilherme-Ajax Blog">
       <created>1625046152237</created>
@@ -619,7 +620,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626685807404</updated>
     </task>
-    <option name="localTasksCounter" value="363" />
+    <task id="LOCAL-00363" summary="Guilherme-Tweaks">
+      <created>1626686230255</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1626686230255</updated>
+    </task>
+    <task id="LOCAL-00364" summary="Guilherme-Tweaks">
+      <created>1626686531886</created>
+      <option name="number" value="00364" />
+      <option name="presentableId" value="LOCAL-00364" />
+      <option name="project" value="LOCAL" />
+      <updated>1626686531886</updated>
+    </task>
+    <option name="localTasksCounter" value="365" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -47,7 +47,7 @@ $result=mysqli_query($con,$sql);
                 ?>
 
                 <section class="store">
-                    <div style=" margin-left: 10%; margin-top: 4%; margin-bottom: 3%"><h3>Não foi possível econtrar um Jogo</h3></div>
+                    <div style=" margin-left: 10%; margin-top: 4%; margin-bottom: 3%"><h3>Não foi possível econtrar uma review</h3></div>
                 </section>
 
 
