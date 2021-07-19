@@ -43,11 +43,11 @@ top();
                 </div>
 
 
-                <div class="container">
+                <div class="container" style="">
 
-                    <div class="coise">
+                    <div class="coise" >
                         <ul class="list-group"
-                            style="width: 19rem; margin-left: 10px; margin-right: 10px; background-color: #0d0d0d; color: #FFF; font-weight: bold">
+                            style="width: 19rem; margin-left: 10px; margin-right: 10px; background-color: black; color: #FFF; font-weight: bold">
                             <li class="list-group-item"><h4>Painel da Conta</h4></li>
                         </ul>
                         <?php
@@ -60,11 +60,15 @@ top();
                         if ($dados2['userType'] == 'admin') {
                             ?>
 
-                            <ul class="list-group"
-                                style="width: 19rem; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: #0d0d0d; color: #FFF; font-weight: bold">
+                            <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black; color: #FFF; font-weight: bold">
+
                                 <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"
                                    style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
                                     <li class="list-group-item">Definições de Perfil <i class="fa fa-edit"></i></li>
+                                </a>
+                                <a href="editaPerfilPassword.php?id=<?php echo $_GET['id'] ?>"
+                                   style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
+                                    <li class="list-group-item">Alterar Palavra-Passe <i class="fa fa-edit"></i></li>
                                 </a>
                                 <a href="backoffice/Backoffice.php"
                                    style="color: #FFFFFF; font-weight: bold; background-color: black">
@@ -86,6 +90,10 @@ top();
                                                 style="margin-left: 20%; font-size: 100% ">Definições de Perfil <i
                                                     class="fa fa-edit"></i></button>
                                     </a></li>
+                                <a href="editaPerfilPassword.php?id=<?php echo $_GET['id'] ?>"
+                                   style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
+                                    <li class="list-group-item">Alterar Palavra-Passe <i class="fa fa-edit"></i></li>
+                                </a>
                                 <a href="backoffice/Backoffice.php"
                                    style="color: #FFFFFF; font-weight: bold; background-color: black">
                                     <li class="list-group-item">Backoffice</li>
@@ -106,6 +114,10 @@ top();
                                 <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"
                                    style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
                                     <li class="list-group-item">Definições de Perfil <i class="fa fa-edit"></i></li>
+                                </a>
+                                <a href="editaPerfilPassword.php?id=<?php echo $_GET['id'] ?>"
+                                   style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
+                                    <li class="list-group-item">Alterar Palavra-Passe <i class="fa fa-edit"></i></li>
                                 </a>
                                 <a href="meusAnuncios.php?id=<?php echo $_GET['id'] ?>">
                                     <li class="list-group-item">Meus Anúncios</li>

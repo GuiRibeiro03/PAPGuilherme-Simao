@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-tweaks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillJogos.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillJogos.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editaPerfilPassword.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editaPerfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/editaPerfil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +56,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PAPGuilherme-Simao2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -278,13 +276,6 @@
       <workItem from="1626339783211" duration="3391000" />
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
-    </task>
-    <task id="LOCAL-00308" summary="Guilherme- AJAX outlet">
-      <created>1624958263801</created>
-      <option name="number" value="00308" />
-      <option name="presentableId" value="LOCAL-00308" />
-      <option name="project" value="LOCAL" />
-      <updated>1624958263801</updated>
     </task>
     <task id="LOCAL-00309" summary="Guilherme- AJAX outlet">
       <created>1624960431487</created>
@@ -622,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626365215457</updated>
     </task>
-    <option name="localTasksCounter" value="357" />
+    <task id="LOCAL-00357" summary="Guilherme-tweaks">
+      <created>1626721278545</created>
+      <option name="number" value="00357" />
+      <option name="presentableId" value="LOCAL-00357" />
+      <option name="project" value="LOCAL" />
+      <updated>1626721278546</updated>
+    </task>
+    <option name="localTasksCounter" value="358" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -661,11 +659,11 @@
     <MESSAGE value="Guilherme-Login WORKS!!" />
     <MESSAGE value="Guilherme-Botão voltar" />
     <MESSAGE value="Guilherme-Tweaks(user-outlet)" />
-    <MESSAGE value="Guilherme-tweaks" />
     <MESSAGE value="Guilherme-Tweaks" />
     <MESSAGE value="Guilherme-Tweaks Editor" />
     <MESSAGE value="Guilherme-Tweaks Carousel jogos em destaque" />
     <MESSAGE value="Guilherme-Tweaks Filtros Dropdown" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks Filtros Dropdown" />
+    <MESSAGE value="Guilherme-tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-tweaks" />
   </component>
 </project>
