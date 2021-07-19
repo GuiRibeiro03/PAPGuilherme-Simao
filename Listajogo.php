@@ -4,9 +4,14 @@ include_once ("includes/bodyBase.inc.php");
 top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET['id']);
-$sql="select * from jogos inner join reviews on jogoId=reviewJogoId inner join empresas on jogoEmpresaId=empresaId where jogoId=".$id;
+$sql="select * from jogos  
+    inner join reviews on jogoId=reviewJogoId 
+    inner join empresas on jogoEmpresaId=empresaId 
+    where jogoId=".$id;
+
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
+
 ?>
 
 
@@ -60,8 +65,6 @@ $dados=mysqli_fetch_array($result);
                                         <div class="review-point">
                                             <span style="padding-left: 5px; color: #FFFFFF">Global Rating:</span>
                                             <div style="margin-right:10px; margin-top: 10px; font-size: 50px"><?php echo $dados['jogoGlobalRating']?>%</div>
-
-
                                         </div>
                                     </div>
                                 </div>
@@ -95,7 +98,7 @@ $dados=mysqli_fetch_array($result);
         <hr>
         <?php
 
-        $sql1="SELECT * FROM jogos 
+        $sql1="SELECT * FROM jogos
                 inner join jogogeneros on jogoId=jogoGeneroJogoId 
                 inner join jogoplataformas on jogoId=jogoPlataformaJogoId
                 inner join generos on jogoGeneroGeneroId=generoId
