@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks">
+      <change afterPath="$PROJECT_DIR$/AJAX/finalizarEncomenda.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillFrontBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontBlog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXFillFrontReviews.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/telma.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/11571242_koala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/airmax97.4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/chefa.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/deusVult.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/transferir (1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/transferir.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/Leiria.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/Se a liberdade de expressão for tirada, então, burros e silenciosos, podemos ser levados, como ovelhas para a sua matança..png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/algarve2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/fig.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/naa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/tenor.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/unnamed.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +59,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../amin-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AJAX" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -84,10 +73,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -290,13 +279,6 @@
       <workItem from="1626339783211" duration="3391000" />
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
-    </task>
-    <task id="LOCAL-00316" summary="Guilherme-Ajax Blog">
-      <created>1625046152237</created>
-      <option name="number" value="00316" />
-      <option name="presentableId" value="LOCAL-00316" />
-      <option name="project" value="LOCAL" />
-      <updated>1625046152238</updated>
     </task>
     <task id="LOCAL-00317" summary="Guilherme-Registar">
       <created>1625052017860</created>
@@ -634,7 +616,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626686531886</updated>
     </task>
-    <option name="localTasksCounter" value="365" />
+    <task id="LOCAL-00365" summary="Guilherme-Tweaks">
+      <created>1626686941512</created>
+      <option name="number" value="00365" />
+      <option name="presentableId" value="LOCAL-00365" />
+      <option name="project" value="LOCAL" />
+      <updated>1626686941512</updated>
+    </task>
+    <option name="localTasksCounter" value="366" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

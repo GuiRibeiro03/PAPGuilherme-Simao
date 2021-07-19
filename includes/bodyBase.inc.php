@@ -211,7 +211,7 @@ function top($menu=HOME){
                             <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"><span class="badge badge-light" style="color: black; font-size: 16px">Entrar</span></a></span> </li>
 
                                     <li><span onclick="document.getElementById('id02').style.display='block'">
-                                            <a href="#" style="font-family: 'Montserrat', sans-serif; color: #FFFFFF; font-size: 17px;"> <span class="badge badge-danger" style="font-size: 16px">Registar</span></a></span></li>
+                                            <a href="#" style="font-family: 'Montserrat', sans-serif; color: #000000; font-size: 17px;"> <span class="badge badge-light" style="font-size: 16px; color: black">Registar</span></a></span></li>
                                 </ul>
                                 <?php
                             }else{

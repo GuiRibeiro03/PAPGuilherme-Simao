@@ -13,7 +13,7 @@ $res2 = mysqli_query($con, $sql2);
 $dados2 = mysqli_fetch_array($res2);
 
 
-$ctt = '';
+$ctt = 'sim';
 
 
 
@@ -105,15 +105,33 @@ $ctt = '';
                 <h4 style="font-weight: bold; color: #FFFFFF">Metodo de Envio:</h4>
                 <div style="margin-top: 20px">
                     <span>CTT- Expresso: 3,90€</span>
-                    <div style="float: right;"><input type="radio" name="jogoDestaque" id="<?php $ctt ?>"
-                                                      value="sim" <?php if ($ctt == 'sim') {
-                            echo "checked";
-                        } ?>></div>
+                    <div style="float: right;">
+                        <input type="radio" name="ctt2" id="ctt2" value="sim" >
+                        <script>
+                            const btn = document.getElementById("ctt2");
+                            // handle button click
+                            btn.onclick = function () {
+                                const rbs = document.querySelectorAll('input[name="ctt2"]');
+                                for (const rb of rbs) {
+                                    if (rb.checked) {
+
+                                        <?php echo $ctt = 'sim'; ?>
+
+                                    }else{
+
+                                        <?php echo $ctt = 'nao';?>
+
+                                    }
+                                }
+
+                            };
+                        </script>
+                    </div>
                 </div>
 
                 <div style="margin-top: 20px">
                     <span>Recolher em Loja:</span>
-                    <div style="float: right;"><input type="radio" name="jogoDestaque" value="nao"></div>
+                    <div style="float: right;"><input type="radio" name="loja" id="loja2" value="sim"></div>
 
                     <p style="margin-top: 10px"><select>
                             <option value="Leiria">Leiria</option>
@@ -133,7 +151,7 @@ $ctt = '';
 
         <!-- **************************DIV DETALHES***************START********  -->
 
-        <div id="detalhesPedido" style=" float:right; position: relative;">
+        <div id="detalhesPedido" style=" float:right; position: relative; background-color: #FFFFFF">
 
             <div style="width: 100%; margin-bottom: 20px; text-align: center"><span style="font-weight: bold; ">Detalhes do pedido &nbsp;<i
                             class="fa fa-arrow-down"></i></span></div>
@@ -162,7 +180,7 @@ $ctt = '';
                     <span id="preco"
                           style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
                     <?php
-                    if ($ctt == 'checked') {
+                    if ($ctt == 'sim' ) {
                         $precoTotal += 3.90;
                         ?>
                         <span style="color: #0b0b0b; font-size: 20px">Envio: 3,90€</span>
@@ -204,10 +222,11 @@ $ctt = '';
                     <span id="preco"
                           style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
                     <?php
-                    if ($ctt == 'checked') {
+                    if ($ctt == 'sim' ) {
                         $precoTotal += 3.90;
                         ?>
-                        <span style="color: #0b0b0b; font-size: 20px">Envio: 3,90€</span>
+
+                        <span style="color: #0b0b0b; font-size: 17px; margin-left: 26%; font-weight: bold">Envio: 3,90€</span>
 
                         <?php
                     }
@@ -227,9 +246,9 @@ $ctt = '';
             <div style="width: 100%;"><span
                         style="font-weight: bold; color: #0d0d0d; font-size: 20px; margin-left: 20px">Total: <?php echo $precoTotal ?>€</span>
                 <a>
-                    <button type="button" class="btn btn-danger" style="float: right; background-color: red">
+                    <a href="AJAX/finalizarEncomenda.php"><button type="button" class="btn btn-danger" style="float: right; background-color: red">
                         Encomendar
-                    </button>
+                    </button></a>
                 </a></div>
 
         </div>
@@ -247,7 +266,7 @@ $ctt = '';
                     <form action="/action_page.php">
 
                         <div class="row"
-                             style="outline: solid 3px gray; background-color: #FFFFFF; font-size: 23px; width: 100%;  padding: 5px 20px 15px 20px; color: #0d0d0d ">
+                             style="outline: solid 3px gray; background-color: #FFFFFF; font-size: 20px; width: 63%;  padding: 5px 20px 15px 20px; color: #0d0d0d ">
 
                             <div class="col-50" >
 
@@ -260,29 +279,26 @@ $ctt = '';
                                 </div>
                                 <div class="col-20" style="margin-top: 5%; ">
                                 <label for="cname">Nome do Utente:</label>
-                                <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+                                <input type="text" id="cname" name="cardname" required>
                                 </div>
                                 <div class="col-20" style="margin-top: 5%; ">
                                 <label for="ccnum">Numero do Cartão:</label>
-                                <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                                <input type="text" id="ccnum" name="cardnumber" maxlength="19" placeholder="1111-2222-3333-4444" required>
                                 </div>
 
-                                    <div class="col-20" style="margin-top: 5%; ">
+                                    <div class="col-20" style="margin-top: 5%; width: 30% ">
                                 <label for="expmonth">Validade:</label>
-                                <input type="date" id="exp" name="expmonth" placeholder="September">
+                                <input type="text" maxlength="2" id="exp" name="expmonth" placeholder="Mês: 01" required>
+                                <input type="text" maxlength="4" id="exp" name="expmonth" placeholder="Ano: 2021" required>
                                     </div>
 
                                 <div class="col-20" style="margin-top: 5%; width: 40%;">
                                         <label for="cvv">CVV</label>
-                                        <input type="text" id="cvv" name="cvv" placeholder="352">
+                                        <input type="text" id="cvv" name="cvv" placeholder="Ex.: 111" maxlength="3" required>
                                     </div>
                             </div>
 
-                            <input type="submit"
-                                   style="background-color: red; color:#FFFFFF; margin-top: 5%; height: auto; padding: 5px 10px; float: right"
-                                   value="Guardar">
                         </div>
-
 
                     </form>
                 </div>
