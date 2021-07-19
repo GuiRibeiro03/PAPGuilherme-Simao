@@ -18,11 +18,11 @@ if (isset($_POST['action'])) {
     }
     if (isset($_POST['plataforma'])) {
         $plataforma = implode('","', $_POST['plataforma']);
-        $sql .= "AND  jogoPlataformaPlataformaId IN('" . $plataforma . "')";
+        $sql .= "where  jogoPlataformaPlataformaId IN('" . $plataforma . "')";
     }
     if (isset($_POST['empresa'])) {
         $empresa = implode('","', $_POST['empresa']);
-        $sql .= "AND  jogoEmpresaId IN('" . $empresa . "')";
+        $sql .= "where  jogoEmpresaId IN('" . $empresa . "')";
     }
 
 
