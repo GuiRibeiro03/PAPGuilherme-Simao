@@ -5,12 +5,12 @@ top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET['id']);
 $sql="select * from jogos  
-    inner join reviews on jogoId=reviewJogoId 
+    inner join reviews on jogoId=reviewJogoId
     inner join empresas on jogoEmpresaId=empresaId 
     where jogoId=".$id;
-
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
+
 
 ?>
 
@@ -64,7 +64,7 @@ $dados=mysqli_fetch_array($result);
                                         <span class="circle-progress-2" data-cpid="circle1" data-cpvalue="<?php echo $dados['reviewGlobalRating']?>"  data-cpcolor="#4bcf13"></span>
                                         <div class="review-point">
                                             <span style="padding-left: 5px; color: #FFFFFF">Global Rating:</span>
-                                            <div style="margin-right:10px; margin-top: 10px; font-size: 50px"><?php echo $dados['reviewGlobalRating']?>%</div>
+                                            <div style="font-size: 50px; text-align: center"><?php if( $dados['reviewGlobalRating'] != 'N/A'){ echo $dados['reviewGlobalRating']."<span style='font-size: 50px; text-align: center; color:#FFFFFF;'>%</span>";   }else{ echo "N/A"; } ?></div>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@ $dados=mysqli_fetch_array($result);
                                         <span class="circle-progress-2" data-cpid="circle2" data-cpvalue="<?php echo $dados['reviewUserRating']?>"  data-cpcolor="#c20000"></span>
                                         <div class="review-point">
                                             <span style="padding-left: 10px; color: #FFFFFF">User Rating:</span>
-                                            <div style="font-size: 50px; text-align: center"><?php if( $dados['reviewUserRating'] != 'N/A'){ echo $dados['reviewUserRating']."<span>%</span>";   }else{ echo "N/A"; } ?></div>
+                                            <div style="font-size: 50px; text-align: center"><?php if( $dados['reviewUserRating'] != 'N/A'){ echo $dados['reviewUserRating']."<span style='font-size: 50px; text-align: center; color:#FFFFFF;'>%</span>%</span>";   }else{ echo "N/A"; } ?></div>
                                         </div>
                                     </div>
                                 </div>

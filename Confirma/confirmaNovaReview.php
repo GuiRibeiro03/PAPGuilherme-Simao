@@ -6,7 +6,7 @@ $reviewTexto = addslashes($_POST["reviewTexto"]);
 $reviewRating= addslashes($_POST["reviewGlobalRating"]);
 $reviewImagemURL = $_FILES["reviewImagemURL"]["name"];
 $reviewJogoId = intval($_POST["reviewJogoId"]);
-$reviewAutor = addslashes($_POST["reviewAutor"]);
+$reviewAutor = addslashes($_SESSION['nome']);
 $novoNome="../img/wallpapers/".$reviewImagemURL;
 copy($_FILES['reviewImagemURL']['tmp_name'],$novoNome);
 

@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-tweaks">
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/pap2021gameon.sql" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/pap2021gameon.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,14 +280,7 @@
       <workItem from="1626726354307" duration="1000" />
       <workItem from="1626726399790" duration="429000" />
       <workItem from="1626727163466" duration="1917000" />
-      <workItem from="1626731333521" duration="3727000" />
-    </task>
-    <task id="LOCAL-00317" summary="Guilherme-Registar">
-      <created>1625052017860</created>
-      <option name="number" value="00317" />
-      <option name="presentableId" value="LOCAL-00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1625052017860</updated>
+      <workItem from="1626731333521" duration="5121000" />
     </task>
     <task id="LOCAL-00318" summary="Guilherme-Registar works">
       <created>1625129250317</created>
@@ -629,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626734849665</updated>
     </task>
-    <option name="localTasksCounter" value="366" />
+    <task id="LOCAL-00366" summary="Guilherme-tweaks">
+      <created>1626735183378</created>
+      <option name="number" value="00366" />
+      <option name="presentableId" value="LOCAL-00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1626735183378</updated>
+    </task>
+    <option name="localTasksCounter" value="367" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
