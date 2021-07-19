@@ -1,15 +1,15 @@
 <?php
 include_once("../includes/body.inc.php");
-top();
-
 
 $con=mysqli_connect("localhost","root","","pap2021gameon");
+
 $id=intval($_GET["id"]);
-$sql="select * from jogos inner join jogogeneros on jogoId=jogoGeneroJogoId
+$sql="select * from jogos inner join reviews on jogoId=reviewJogoId 
+                            inner join jogogeneros on jogoId=jogoGeneroJogoId
                             inner join jogoplataformas on jogoId=jogoPlataformaJogoId where jogoId=".$id;
 $resultjogos=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($resultjogos);
-
+top();
 
 ?>
 
@@ -79,7 +79,10 @@ $dados=mysqli_fetch_array($resultjogos);
 
 
 
-<form action="../Confirma/confirmaEditaJogo.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
+<form action="../Confirma/confirmaEditaJogo.php?id=<?php echo $id; ?>" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
+
+
+
     <a href="../backoffice/jogosBackoffice.php"><button type="button"  class="btn btn-primary">Voltar</button></a>
 <h2>Editar Jogo</h2>
 <hr>

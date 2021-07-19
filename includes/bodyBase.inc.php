@@ -49,7 +49,7 @@ function top($menu=HOME){
         <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">
 
         <!-- Css Styles -->
-        <script src="https://kit.fontawesome.com/e67a04fb44.js" crossorigin="anonymous"></script>
+
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
         <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
@@ -296,7 +296,7 @@ function top($menu=HOME){
 
                                             <div style="margin-right: 20px; margin-left: 20px">
                                                  <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
-                                                    <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $prdId; ?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                                    <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $prdId; ?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red!important; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                                 <p style="color: #000000!important;"><input onclick="atualizaCarrinho(this.value,<?php echo $prdId; ?>)" type="number"  value="<?php echo $quant?>" min="1" style="width: 50px; height: 40px; margin-top: 20px;text-align: center"></p>
                                                 <hr>
                                             </div>
@@ -332,7 +332,7 @@ function top($menu=HOME){
                                                 <div style="margin-right: 20px; margin-left: 20px">
                                                   <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
                                                     &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
-                                            <button onclick="confirmaEliminaCarrinhoJogo(<?php echo $prdId; ?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
+                                            <button onclick="confirmaEliminaCarrinhoJogo(<?php echo $prdId; ?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red!important; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                             <p style="color: #000000!important;"><input onclick="atualizaCarrinho(this.value,<?php echo $prdId?>)" type="number" value="<?php echo $quant;?>" min="1" style="width: 50px; text-align: center">   </p>
                                             <hr>
                                             </div>
