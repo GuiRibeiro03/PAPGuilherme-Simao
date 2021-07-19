@@ -67,10 +67,13 @@ top();
                                     ?>
 
                                     <div style="margin-right: 20px; margin-left: 20px">
-                                        <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
-                                        &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
+                                        <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" >
+                                        <span style="color: #FFFFFF; font-size: 20px"><?php echo $dados3["jogoNome"] ?>:</span>
+                                        &nbsp;<span id="preco" style="color: #FFFFFF; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
                                         <button onclick="confirmaEliminaCarrinhoJogo(<?php echo $prdId?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
-                                        <p style="color: #000000!important;"><input onclick="atualizaCarrinho(this.value,<?php echo $prdId?>)" type="number" value="<?php echo $quant?>" min="1" style="width: 50px; text-align: center">   </p>
+
+                                        <p style="margin-top: 3%"><span>Quantidade: &nbsp;<?php echo $quant?></span></p>
+
                                         <hr>
                                     </div>
 

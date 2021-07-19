@@ -10,6 +10,7 @@ $sql="select * from jogos inner join jogogeneros on jogoId=jogoGeneroJogoId
 $resultjogos=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($resultjogos);
 
+
 ?>
 
 <link href="summernote.css" rel="stylesheet">
@@ -76,9 +77,6 @@ $dados=mysqli_fetch_array($resultjogos);
 </script>
 
 
-
-<div style="color: #FFFFFF" xmlns="http://www.w3.org/1999/html">
-</div>
 
 
 <form action="../Confirma/confirmaEditaJogo.php?id=<?php echo $id ?>" method="post" enctype="multipart/form-data" style="color: #FFFFFF; margin-left: 30px">
