@@ -14,6 +14,7 @@ $result=mysqli_query($con,$sql);
 
 
 <section class="store" style="height:100%; padding-top: 40px; margin-left: 50px;  background-color: #0d0d0d;color: #FFFFFF">
+    <span id="textChange"></span>
 
     <div  class="container dropdown" style="width: 300px; float: left; height: 100%;   ">
             <button onclick="myFunction()" class="dropbtn">Filtros &nbsp;<i class="fa fa-arrow-down"></i></button>

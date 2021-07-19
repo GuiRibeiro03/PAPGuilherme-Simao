@@ -35,7 +35,10 @@ if (isset($_POST['action'])) {
     $dadosPlataformas = mysqli_fetch_array($result4);
 
     $output = '<button onclick="location.reload()" class="btn btn-light" style="margin-left: 5%"><i class="arrow_back"></i>&nbsp;Voltar</button>
-                <div class="row" style="margin-top: 2%; margin-left: 5%">';
+                <span id="textChange"></span>
+                <div class="row" style="margin-top: 2%; margin-left: 5%">
+             
+                ';
 
     if ($result->num_rows > 0) {
 
