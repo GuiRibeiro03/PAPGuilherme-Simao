@@ -16,6 +16,8 @@ $result=mysqli_query($con,$sql);
         <div class="row" style="text-align: center;">
 
             <?php
+            if($result->num_rows>0){
+
             $i = 0;
             while ($dados=mysqli_fetch_array($result)){
             ?>
@@ -39,6 +41,19 @@ $result=mysqli_query($con,$sql);
             </div>
             <?php
             $i = $i + 1;
+            }
+
+            }else{
+                ?>
+
+                <section class="store">
+                    <div style=" margin-left: 10%; margin-top: 4%; margin-bottom: 3%"><h3>Não foi possível econtrar um Jogo</h3></div>
+                </section>
+
+
+
+
+            <?php
             }
             ?>
 
