@@ -10,7 +10,7 @@ top();
             <div class="container" style=" width: 100%;  color: #FFFFFF; font-weight: bold;  ">
                 <span style="color: white; font-size: 45px; font-weight: bold">Carrinho:</span>
 
-                <button onclick="confirmaEliminaCarrinho()" class="btn btn-warning" style="color: #0b0b0b; float: right ">Remover Todos</button>
+                <button onclick="eliminaCarrinhoTodo()" class="btn btn-warning" style="color: #0b0b0b; float: right ">Remover Todos</button>
                 <hr>
 
                 <?php
@@ -88,7 +88,7 @@ top();
                     ?>
 
                     <span style="font-size: 25px; font-weight: bold">Total ( <?php echo $k?> Produto<?php echo $k!=1?'s':''?>): <?php echo $total ?>&nbsp;€</span>
-
+                    <a href="checkout2.php"><button type="button" class="btn btn-danger" style="float: right; background-color: red">Próximo</button></a>
 
                     <?php
                 }else{

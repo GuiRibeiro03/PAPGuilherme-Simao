@@ -396,15 +396,15 @@ function eliminaCarrinhoTodo(){
 
 
 
-function adicionaCarrinho(id){
+function adicionaCarrinho(idJogo){
 
     $.ajax({
         url:"AJAX/AJAXNovoProdutoCarrinho.php",
         type:"post",
         data: {
-            idPrd:id
+            idPrd:idJogo
         },
-        success:function(result){
+        success:function(){
             location.reload();
         },
     });

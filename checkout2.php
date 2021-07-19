@@ -191,7 +191,7 @@ top();
 
                             <?php
                             $k++;
-                            $total+=$dados3["produtoPreco"]*$quant;
+                            $total+=$dados3["jogoPreco"]*$quant;
                         }
                     }
                 }
