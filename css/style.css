@@ -3250,8 +3250,8 @@ tr {
     margin-right: 0;
 }
 
-.details-text .dt-leave-comment form ,
-.contact-form .dt-leave-comment form  {
+.details-text .dt-leave-comment form textarea,
+.contact-form .dt-leave-comment form  textarea{
     width: 100%;
     height: 190px;
     background: transparent;

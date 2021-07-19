@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks Carrinho nº produtos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXAtualizaCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXAtualizaProdutoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXEliminaProdutoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks Carrinho is a workings">
+      <change beforePath="$PROJECT_DIR$/Edita/EditaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,14 +275,7 @@
       <workItem from="1626339783211" duration="3391000" />
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
-      <workItem from="1626701723722" duration="11731000" />
-    </task>
-    <task id="LOCAL-00326" summary="Guilherme-Checkout modal moradas">
-      <created>1625215855132</created>
-      <option name="number" value="00326" />
-      <option name="presentableId" value="LOCAL-00326" />
-      <option name="project" value="LOCAL" />
-      <updated>1625215855132</updated>
+      <workItem from="1626701723722" duration="12046000" />
     </task>
     <task id="LOCAL-00327" summary="Guilherme-Checkout modal moradas">
       <created>1625216615272</created>
@@ -624,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626713915520</updated>
     </task>
-    <option name="localTasksCounter" value="375" />
+    <task id="LOCAL-00375" summary="Guilherme-Tweaks Carrinho is a workings">
+      <created>1626714117327</created>
+      <option name="number" value="00375" />
+      <option name="presentableId" value="LOCAL-00375" />
+      <option name="project" value="LOCAL" />
+      <updated>1626714117327</updated>
+    </task>
+    <option name="localTasksCounter" value="376" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,7 +639,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Registar works" />
     <MESSAGE value="Guilherme-Update Password" />
     <MESSAGE value="Guilherme-Logout" />
     <MESSAGE value="Guilherme-img Reviews" />
@@ -668,6 +663,7 @@
     <MESSAGE value="Guilherme-Tweaks" />
     <MESSAGE value="Guilherme-Tweaks Carrinho novo" />
     <MESSAGE value="Guilherme-Tweaks Carrinho nº produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks Carrinho nº produtos" />
+    <MESSAGE value="Guilherme-Tweaks Carrinho is a workings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks Carrinho is a workings" />
   </component>
 </project>
