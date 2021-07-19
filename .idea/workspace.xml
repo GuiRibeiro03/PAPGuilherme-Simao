@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks">
-      <change afterPath="$PROJECT_DIR$/AJAX/finalizarEncomenda.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/KG3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/breadcrumb-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dvm5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/f-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/g-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/igdb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/igdb2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/infinito.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/telma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/thelastofusIGN.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/theweeknd.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/trending/Ratchet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/trending/editor-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/trending/godWar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/trending/silverhand.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/trending/spiderman.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/trending/thelastofus2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/TheWitcherNumers.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/assassinsCreedWall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/batmanwWall.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/godofwar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/wallpapers/watchdogsLegion.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,13 +297,6 @@
       <workItem from="1626339783211" duration="3391000" />
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
-    </task>
-    <task id="LOCAL-00317" summary="Guilherme-Registar">
-      <created>1625052017860</created>
-      <option name="number" value="00317" />
-      <option name="presentableId" value="LOCAL-00317" />
-      <option name="project" value="LOCAL" />
-      <updated>1625052017860</updated>
     </task>
     <task id="LOCAL-00318" summary="Guilherme-Registar works">
       <created>1625129250317</created>
@@ -623,7 +634,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626686941512</updated>
     </task>
-    <option name="localTasksCounter" value="366" />
+    <task id="LOCAL-00366" summary="Guilherme-Tweaks">
+      <created>1626697943902</created>
+      <option name="number" value="00366" />
+      <option name="presentableId" value="LOCAL-00366" />
+      <option name="project" value="LOCAL" />
+      <updated>1626697943902</updated>
+    </task>
+    <option name="localTasksCounter" value="367" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
