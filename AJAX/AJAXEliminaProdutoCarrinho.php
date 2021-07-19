@@ -16,6 +16,8 @@ foreach ($_SESSION['carrinho'] as $prod){
     $cont++;
 }
 
-return true;
+print_r($_SESSION['carrinho']);
 
+
+//header("location:".$_SERVER['HTTP_REFERER']);
 ?>

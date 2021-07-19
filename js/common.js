@@ -306,7 +306,7 @@ function confirmaEliminaCarrinhoProduto(id) {
         success:function (result){
             nomeProduto=result;
             if(confirm('Confirma que deseja eliminar o produto:'+nomeProduto+'?'))
-                window.location="AJAX/AJAXRemoverProdutosDoCarrinho.php?id=" + id;
+                window.location="AJAX/AJAXEliminaProdutoCarrinho.php?id=" + id;
         }
     });
 }
@@ -323,7 +323,7 @@ function confirmaEliminaCarrinhoJogo(idJogo) {
         success:function (result){
             nomeJogo=result;
             if(confirm('Confirma que deseja eliminar o produto:'+nomeJogo+'?'))
-                window.location="AJAX/AJAXRemoverProdutosDoCarrinho.php?id=" + idJogo;
+                window.location="AJAX/AJAXEliminaProdutoCarrinho.php?id=" + idJogo;
         }
     });
 }
@@ -396,15 +396,15 @@ function eliminaCarrinhoTodo(){
 
 
 
-function adicionaCarrinho(idJogo){
+function adicionaCarrinho(id){
 
     $.ajax({
         url:"AJAX/AJAXNovoProdutoCarrinho.php",
         type:"post",
         data: {
-            idPrd:idJogo
+            idPrd:id
         },
-        success:function(){
+        success:function(result){
             location.reload();
         }
     });
@@ -423,13 +423,13 @@ function confirmaEliminaCarrinhoProduto(idProduto) {
             nomeProduto=result;
             if(confirm('Confirma que deseja eliminar o produto:'+nomeProduto+'?')){
                 $.ajax({
-                    url:"AJAX/AJAXRemoverProdutosDoCarrinho.php",
+                    url:"AJAX/AJAXEliminaProdutoCarrinho.php",
                     type:"post",
                     data: {
                         idPrd:idProduto
                     },
                     success:function(){
-                    location.reload();
+                        location.reload();
                     }
                 });
             }
@@ -449,7 +449,7 @@ function confirmaEliminaCarrinhoJogo(idJogo) {
             nomeJogo=result;
             if(confirm('Confirma que deseja eliminar o produto:'+nomeJogo+'?')){
                 $.ajax({
-                    url:"AJAX/AJAXRemoverProdutosDoCarrinho.php",
+                    url:"AJAX/AJAXEliminaProdutoCarrinho.php",
                     type:"post",
                     data: {
                         idPrd:idJogo
@@ -469,11 +469,11 @@ function confirmaEliminaCarrinhoJogo(idJogo) {
 function atualizaCarrinho(valor,idProduto){
     if(valor>0){
         $.ajax({
-            url:"AJAX/AJAXAtualizaCarrinho.php",
+            url:"AJAX/AJAXAtualizaProdutoCarrinho.php",
             type:"post",
             data:{
-                idPrd:idProduto,
-                quant:valor
+                quant:valor,
+                idPrd:idProduto
             },
             success:function (result){
                 location.reload();

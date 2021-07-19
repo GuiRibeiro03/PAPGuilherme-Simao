@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks Carrinho nº produtos">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/404.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXGetNameProduto.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXAtualizaCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXAtualizaProdutoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXNovoProdutoCarrinho.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutoCarrinho.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/body.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/body.inc.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AJAX/AJAXRemoverProdutosDoCarrinho.php" beforeDir="false" afterPath="$PROJECT_DIR$/AJAX/AJAXEliminaProdutoCarrinho.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -279,14 +280,7 @@
       <workItem from="1626339783211" duration="3391000" />
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
-      <workItem from="1626701723722" duration="9623000" />
-    </task>
-    <task id="LOCAL-00324" summary="Perfil Outlet">
-      <created>1625149936283</created>
-      <option name="number" value="00324" />
-      <option name="presentableId" value="LOCAL-00324" />
-      <option name="project" value="LOCAL" />
-      <updated>1625149936283</updated>
+      <workItem from="1626701723722" duration="11417000" />
     </task>
     <task id="LOCAL-00325" summary="Guilherme-Checkout modal moradas">
       <created>1625214960976</created>
@@ -624,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626710907472</updated>
     </task>
-    <option name="localTasksCounter" value="373" />
+    <task id="LOCAL-00373" summary="Guilherme-Tweaks Carrinho nº produtos">
+      <created>1626712027802</created>
+      <option name="number" value="00373" />
+      <option name="presentableId" value="LOCAL-00373" />
+      <option name="project" value="LOCAL" />
+      <updated>1626712027802</updated>
+    </task>
+    <option name="localTasksCounter" value="374" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
