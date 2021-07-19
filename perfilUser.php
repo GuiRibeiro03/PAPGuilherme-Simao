@@ -64,11 +64,11 @@ top();
 
                                 <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"
                                    style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
-                                    <li class="list-group-item">Definições de Perfil <i class="fa fa-edit"></i></li>
+                                    <li class="list-group-item">Definições de Perfil <i class="fas fa-user-edit"></i></li>
                                 </a>
                                 <a href="editaPerfilPassword.php?id=<?php echo $_GET['id'] ?>"
                                    style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
-                                    <li class="list-group-item">Alterar Palavra-Passe <i class="fa fa-edit"></i></li>
+                                    <li class="list-group-item">Alterar Palavra-Passe <i class="fas fa-key"></i></li>
                                 </a>
                                 <a href="backoffice/Backoffice.php"
                                    style="color: #FFFFFF; font-weight: bold; background-color: black">

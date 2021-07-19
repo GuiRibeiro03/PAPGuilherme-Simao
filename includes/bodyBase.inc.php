@@ -49,6 +49,7 @@ function top($menu=HOME){
         <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900&display=swap" rel="stylesheet">
 
         <!-- Css Styles -->
+        <script src="https://kit.fontawesome.com/e67a04fb44.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
         <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
         <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
