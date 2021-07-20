@@ -3,8 +3,15 @@ include_once ("includes/bodyBase.inc.php");
 
 top();
 $id=intval($_GET['id']);
+
 $sql="select * from jogos  
-    inner join reviews on jogoId=reviewJogoId
+    inner join empresas on jogoEmpresaId=empresaId 
+    where jogoId=".$id;
+$result=mysqli_query($con,$sql);
+$dados=mysqli_fetch_array($result);
+
+
+$sql="select * from jogos  
     inner join empresas on jogoEmpresaId=empresaId 
     where jogoId=".$id;
 $result=mysqli_query($con,$sql);
@@ -97,6 +104,7 @@ $dados=mysqli_fetch_array($result);
         <hr>
         <?php
         $con=mysqli_connect("localhost","root","","pap2021gameon");
+
         $sql1="SELECT * FROM jogos
                 inner join jogogeneros on jogoId=jogoGeneroJogoId 
                 inner join jogoplataformas on jogoId=jogoPlataformaJogoId
