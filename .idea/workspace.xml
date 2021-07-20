@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks Carrinho is a workings">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaTagsJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaTagsJogo.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -276,14 +277,7 @@
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
       <workItem from="1626701723722" duration="12046000" />
-      <workItem from="1626769705483" duration="1792000" />
-    </task>
-    <task id="LOCAL-00328" summary="Guilherme-Jogos">
-      <created>1625226011929</created>
-      <option name="number" value="00328" />
-      <option name="presentableId" value="LOCAL-00328" />
-      <option name="project" value="LOCAL" />
-      <updated>1625226011929</updated>
+      <workItem from="1626769705483" duration="5233000" />
     </task>
     <task id="LOCAL-00329" summary="Guilherme-Carrinho Elimina">
       <created>1625229287149</created>
@@ -621,7 +615,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626771270046</updated>
     </task>
-    <option name="localTasksCounter" value="377" />
+    <task id="LOCAL-00377" summary="Guilherme-Tweaks Carrinho is a workings">
+      <created>1626772525597</created>
+      <option name="number" value="00377" />
+      <option name="presentableId" value="LOCAL-00377" />
+      <option name="project" value="LOCAL" />
+      <updated>1626772525597</updated>
+    </task>
+    <option name="localTasksCounter" value="378" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

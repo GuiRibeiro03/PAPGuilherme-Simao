@@ -79,7 +79,7 @@ $dados=mysqli_fetch_array($result);
                                         <span class="circle-progress-2" data-cpid="circle2" data-cpvalue="<?php echo $dados['reviewUserRating']?>"  data-cpcolor="#c20000"></span>
                                         <div class="review-point">
                                             <span style="padding-left: 10px; color: #FFFFFF">User Rating:</span>
-                                            <div style="font-size: 50px; text-align: center"><?php if( $dados['reviewUserRating'] != 'N/A'){ echo $dados['reviewUserRating']."<span style='font-size: 50px; text-align: center; color:#FFFFFF;'>%</span>%</span>";   }else{ echo "N/A"; } ?></div>
+                                            <div style="font-size: 50px; text-align: center"><?php if( $dados['reviewUserRating'] != 'N/A'){ echo $dados['reviewUserRating']."<span style='font-size: 50px; text-align: center; color:#FFFFFF;'>%</span>";   }else{ echo "N/A"; } ?></div>
                                         </div>
                                     </div>
                                 </div>
@@ -102,7 +102,8 @@ $dados=mysqli_fetch_array($result);
         <?php
         $con=mysqli_connect("localhost","root","","pap2021gameon");
 
-        $sql1="SELECT * FROM jogos
+        $sql1="SELECT jogos.*, IFNULL(plataformaNome,'N/A') as plataformaNome,
+                IFNULL(generoNome,'N/A') as generoNome FROM jogos
                 inner join jogogeneros on jogoId=jogoGeneroJogoId 
                 inner join jogoplataformas on jogoId=jogoPlataformaJogoId
                 inner join generos on jogoGeneroGeneroId=generoId
@@ -113,9 +114,9 @@ $dados=mysqli_fetch_array($result);
         $dados1=mysqli_fetch_array($result1);
         ?>
         <div class="row" style="width: 100%; text-align: center; margin-left: 10%">
-            <h4 style="margin-left: 30px">Empresa:</h4><span>&nbsp;<?php echo $dados["empresaNome"] ?></span>
-            <h4 style="margin-left: 30px">Género: </h4><span>&nbsp;<?php echo $dados1["generoNome"] ?></span>
-            <h4 style="margin-left: 30px">Plataforma: </h4><span>&nbsp;<?php echo $dados1["plataformaNome"] ?></span>
+            <h4 style="margin-left: 30px">Empresa:</h4><span>&nbsp;<?php echo $dados['empresaNome']; ?></span>
+            <h4 style="margin-left: 30px">Género: </h4><span>&nbsp;<?php echo $dados['generoNome'];  ?></span>
+            <h4 style="margin-left: 30px">Plataforma: </h4><span>&nbsp;<?php echo $dados['plataformaNome']; ?></span>
         </div>
     </div>
     </section>
