@@ -23,7 +23,7 @@ top();
     </div>
 
 
-    <section class="store" id="storeStyleCheckout" style="color: #0d0d0d ">
+    <section class="store" onload="ctt()" id="storeStyleCheckout" style="color: #0d0d0d ">
         <br>
         <h4 style="font-weight: bold; color: #FFFFFF">Morada de Entrega</h4>
 
@@ -97,9 +97,8 @@ top();
                 <h4 style="font-weight: bold; color: #FFFFFF">Metodo de Envio:</h4>
                 <div style="margin-top: 20px">
                     <span>CTT- Expresso: 3,90€</span>
-
                     <div style="float: right;">
-                        <input type="radio" name="opcao" id="btn1" value="sim">
+                        <input type="radio" name="choice" id="btn1" value="sim">
                     </div>
                 </div>
 
@@ -107,7 +106,7 @@ top();
                     <span>Recolher em Loja:</span>
 
                     <div style="float: right;">
-                        <input type="radio" name="opcao" id="btn2" value="nao" >
+                        <input type="radio" name="choice" id="btn2" value="nao" >
                     </div>
 
                     <p style="margin-top: 10px"><select>
@@ -121,14 +120,27 @@ top();
                         </select></p>
 
                 </div>
-
-                <button id="btn" class="btn btn-danger" style="color: black; font-size: 15px">Guardar</button>
-
-
-
+                <button id="btn" class="btn btn-danger">Mostra Valor</button>
             </div>
-        </div>
 
+        </div>
+        <script>
+
+            const btn = document.querySelector('#btn');
+            // handle button click
+            btn.onclick = function () {
+                const rbs = document.querySelectorAll('input[name="choice"]');
+                let selectedValue;
+                for (const rb of rbs) {
+                    if (rb.checked) {
+                        <?php echo $ctt = 'sim'?>
+
+                        break;
+                    }
+                }
+                alert(selectedValue);
+            };
+        </script>
 
 
 
@@ -153,7 +165,7 @@ top();
                             <div style="margin-right: 20px; margin-left: 20px">
                               <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
                                 <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
-                                <p style="color: #000000!important;"><input type="number" name="quantidade" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                <p style="margin-top: 3%;color: black"><span>Quantidade: &nbsp;<?php echo $quant?></span></p>
                                 <hr>
                             </div>
 
@@ -185,7 +197,7 @@ top();
                            <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
                                 &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
                                 <button onclick="confirmaEliminaCarrinhoJogo(<?php echo $dados3["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
-                                <p style="color: #000000!important;"><input type="number" value="1" min="1" style="width: 50px; text-align: center">&nbsp;&nbsp;<button type="submit" class="btn btn-primary" style="width: 100px; height: 30px">Atualizar</button></p>
+                                <p style="margin-top: 3%; color: black"><span>Quantidade: &nbsp;<?php echo $quant?></span></p>
                                 <hr>
                             </div>
 
@@ -197,6 +209,24 @@ top();
                 }
             }
             ?>
+
+            <?php
+            if($ctt == 'sim'){
+
+            ?>
+            <div>
+
+                 <span style="color:#000; font-size: 17px; margin-left: 4%; ">Envio: 3.90€</span>
+
+            </div>
+            <?php
+                $total+=3.90;
+            }else{
+                echo '';
+            }
+            ?>
+
+
             <div style="width: 100%;"><span
                         style="font-weight: bold; color: #0d0d0d; font-size: 20px; margin-left: 20px">Total: <?php echo $total ?>€</span>
                 <a>
@@ -263,35 +293,7 @@ top();
 
     </section>
 
-    <script>
 
-
-
-            const btn = document.querySelector('#btn');
-            // handle button click
-            btn.onclick = function () {
-                const rbs = document.querySelectorAll('input[name="opcao"]');
-                let selectedValue;
-                for (const rb of rbs) {
-                    if (rb.checked && rb.value == 'sim') {
-                        selectedValue = rb.value;
-                        document.getElementById("textContent").innerHTML ='<span style="color: #0b0b0b; font-size: 16px; font-weight: bold">Envio: 3,90€</span>';
-                        let valor=3.90;
-                        break;
-
-
-                    } else if (rb.checked && rb.value == 'nao') {
-                        selectedValue = rb.value;
-                        document.getElementById("textContent").innerHTML = '';
-                        break;
-                    }
-                }
-
-
-
-            };
-
-    </script>
     <!-- Footer Section Begin -->
 <?php
 
