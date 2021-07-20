@@ -2,7 +2,6 @@
 include_once ("includes/bodyBase.inc.php");
 
 top();
-$con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET['id']);
 $sql="select * from jogos  
     inner join reviews on jogoId=reviewJogoId
@@ -97,7 +96,7 @@ $dados=mysqli_fetch_array($result);
         </div>
         <hr>
         <?php
-
+        $con=mysqli_connect("localhost","root","","pap2021gameon");
         $sql1="SELECT * FROM jogos
                 inner join jogogeneros on jogoId=jogoGeneroJogoId 
                 inner join jogoplataformas on jogoId=jogoPlataformaJogoId
