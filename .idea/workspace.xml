@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks tags lista jogo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaEditaTagsJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaEditaTagsJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Edita/EditaTagsJogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaTagsJogo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,14 +275,7 @@
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
       <workItem from="1626701723722" duration="12046000" />
-      <workItem from="1626769705483" duration="9267000" />
-    </task>
-    <task id="LOCAL-00330" summary="Guilherme-Morada Elimina">
-      <created>1625236207185</created>
-      <option name="number" value="00330" />
-      <option name="presentableId" value="LOCAL-00330" />
-      <option name="project" value="LOCAL" />
-      <updated>1625236207185</updated>
+      <workItem from="1626769705483" duration="10040000" />
     </task>
     <task id="LOCAL-00331" summary="Guilherme-Morada ConfirmaEdita">
       <created>1625236874882</created>
@@ -624,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626775494418</updated>
     </task>
-    <option name="localTasksCounter" value="379" />
+    <task id="LOCAL-00379" summary="Guilherme-Tweaks tags lista jogo">
+      <created>1626784041600</created>
+      <option name="number" value="00379" />
+      <option name="presentableId" value="LOCAL-00379" />
+      <option name="project" value="LOCAL" />
+      <updated>1626784041600</updated>
+    </task>
+    <option name="localTasksCounter" value="380" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
