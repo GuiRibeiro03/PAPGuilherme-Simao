@@ -4,15 +4,12 @@ include_once ("includes/bodyBase.inc.php");
 top();
 $id=intval($_GET['id']);
 
-$sql="select * from jogos  
-    inner join empresas on jogoEmpresaId=empresaId 
-    where jogoId=".$id;
-$result=mysqli_query($con,$sql);
-$dados=mysqli_fetch_array($result);
 
 
-$sql="select * from jogos  
+$sql="select jogos.*, empresaNome, IFNULL(reviewGlobalRating,'N/A') as reviewGlobalRating
+     , IFNULL(reviewUserRating,'N/A') as reviewUserRating from jogos  
     inner join empresas on jogoEmpresaId=empresaId 
+    left join reviews on jogoId=reviewJogoId
     where jogoId=".$id;
 $result=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($result);
