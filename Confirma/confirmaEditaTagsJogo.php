@@ -15,19 +15,23 @@ WHERE jogoGeneroJogoId=".$id." AND jogoPlataformaJogoId=".$id;
 mysqli_query($con,$sql);
 
 
+
+echo "<p>".mysqli_affected_rows($con)."</p>";
+
+
 if(mysqli_affected_rows($con)==0){
 
-$sql2="insert into jogogeneros (jogoGeneroGeneroId,jogoGeneroJogoId)  values('".$jogoGeneroGeneroId."','".$id."');
-    insert into jogoplataformas (jogoPlataformaPlataformaId,jogoPlataformaJogoId) values('".$jogoPlataformaPlataformaId."','".$id."');";
-
+$sql2="insert into jogogeneros (jogoGeneroGeneroId,jogoGeneroJogoId)  values('".$jogoGeneroGeneroId."','".$id."')";
+    mysqli_query($con,$sql2);    echo "<p>".mysqli_affected_rows($con)."</p>";
+ $sql2="insert into jogoplataformas (jogoPlataformaPlataformaId,jogoPlataformaJogoId) values('".$jogoPlataformaPlataformaId."','".$id."');";
     mysqli_query($con,$sql2);
-
+    echo "<p>".mysqli_affected_rows($con)."</p>";
 }
 
 
 
 
-header("location: ../backoffice/jogosBackoffice.php");
+//header("location: ../backoffice/jogosBackoffice.php");
 
 
 
