@@ -8,14 +8,15 @@ $jogoPlataformaPlataformaId=addslashes($_POST["plataformaId"]);
 
 
 
-$sql="UPDATE jogogeneros,jogoplataformas SET jogoGeneroGeneroId='".$jogoGeneroGeneroId."', jogoGeneroJogoId='".$id."',
-jogoPlataformaPlataformaId='".$jogoPlataformaPlataformaId."', jogoPlataformaJogoId='".$id."' where jogoPlataformaJogoId=$id AND jogoGeneroJogoId=$id";
+$sql="UPDATE jogogeneros,jogoplataformas SET jogoGeneroGeneroId='".$jogoGeneroGeneroId."', jogoGeneroJogoId='".$id."', 
+            jogoPlataformaPlataformaId='".$jogoPlataformaPlataformaId."', jogoPlataformaJogoId='".$id."' where jogoId=".$id;
+
 
 mysqli_query($con,$sql);
 
 print_r($sql);
 
-header("location: ../backoffice/jogosBackoffice.php");
+//header("location: ../backoffice/jogosBackoffice.php");
 
 
 

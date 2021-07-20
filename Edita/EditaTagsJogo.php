@@ -4,8 +4,8 @@ top();
 $con=mysqli_connect("localhost","root","","pap2021gameon");
 $id=intval($_GET["id"]);
 
-$sql="select * from jogos inner join jogogeneros on jogoId=jogoGeneroJogoId
-                            inner join jogoplataformas on jogoId=jogoPlataformaJogoId where jogoId=".$id;
+$sql="select * from jogos left join jogogeneros on jogoId=jogoGeneroJogoId
+                            left join jogoplataformas on jogoId=jogoPlataformaJogoId where jogoId=".$id;
 $resultjogos=mysqli_query($con,$sql);
 $dados=mysqli_fetch_array($resultjogos);
 

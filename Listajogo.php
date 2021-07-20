@@ -102,12 +102,11 @@ $dados=mysqli_fetch_array($result);
         <?php
         $con=mysqli_connect("localhost","root","","pap2021gameon");
 
-        $sql1="SELECT jogos.*, IFNULL(plataformaNome,'N/A') as plataformaNome,
-                IFNULL(generoNome,'N/A') as generoNome FROM jogos
-                inner join jogogeneros on jogoId=jogoGeneroJogoId 
-                inner join jogoplataformas on jogoId=jogoPlataformaJogoId
-                inner join generos on jogoGeneroGeneroId=generoId
-                inner join plataformas on jogoPlataformaPlataformaId=plataformaId
+        $sql1="SELECT * FROM jogos
+                left join jogogeneros on jogoId=jogoGeneroJogoId 
+                left join jogoplataformas on jogoId=jogoPlataformaJogoId    
+                left join generos on jogoGeneroGeneroId=generoId
+                left join plataformas on jogoPlataformaPlataformaId=plataformaId
                 where jogoId=".$id;
 
         $result1=mysqli_query($con,$sql1);
@@ -115,8 +114,8 @@ $dados=mysqli_fetch_array($result);
         ?>
         <div class="row" style="width: 100%; text-align: center; margin-left: 10%">
             <h4 style="margin-left: 30px">Empresa:</h4><span>&nbsp;<?php echo $dados['empresaNome']; ?></span>
-            <h4 style="margin-left: 30px">Género: </h4><span>&nbsp;<?php echo $dados['generoNome'];  ?></span>
-            <h4 style="margin-left: 30px">Plataforma: </h4><span>&nbsp;<?php echo $dados['plataformaNome']; ?></span>
+            <h4 style="margin-left: 30px">Género: </h4><span>&nbsp;<?php echo $dados1['generoNome'];  ?></span>
+            <h4 style="margin-left: 30px">Plataforma: </h4><span>&nbsp;<?php echo $dados1['plataformaNome']; ?></span>
         </div>
     </div>
     </section>

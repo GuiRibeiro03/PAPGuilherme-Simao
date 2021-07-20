@@ -104,7 +104,7 @@ $dados=mysqli_fetch_array($result);
 
                                 <span  id="btnLike" onclick="countClicks(this)" class="fa fa-thumbs-up text-secondary" style="font-size: 20px; margin-right: 5px"></span>
                                 <span  id="btnDislike" onclick="countClicks2(this)" class="fa fa-thumbs-down text-secondary" style="font-size: 20px; margin-left: 5px"></span>
-                                <span style="margin-left: 90%"><a href="Elimina/eliminaComentario.php?id=<?php echo $dadosComents['comentarioId'];?>" ><i class="fa fa-trash"></i></a></span>
+                                <?php if($_SESSION['id'] == $dadosComents['perfilId']){?><span style="margin-left: 90%"><a href="Elimina/eliminaComentario.php?id=<?php echo $dadosComents['comentarioId'];?>" ><i class="fa fa-trash"></i></a></span><?php } ?>
                             </div>
 
                         </div>
