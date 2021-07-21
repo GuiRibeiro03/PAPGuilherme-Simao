@@ -11,9 +11,9 @@ top();
 
     <section class="store" style="padding-top: 40px; margin-left: 100px; background-color: #0d0d0d;">
 
+
+
         <a href="<?php echo $_SERVER['HTTP_REFERER']; ?>"><button type="button" class="btn btn-light"><i class="arrow_back"></i>&nbsp;Voltar</button></a>
-
-
         <div class="row">
 
 
@@ -42,7 +42,8 @@ top();
         </div>
 
         <section class="store">
-            <div style="height: 80%; width: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; margin-left: 10%">
+            <div style="height: 80%; width: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; margin-left: 5%">
+
                 <h2>Acerca do Produto:</h2>
                 <div style="margin-top: 5%">
                     <?php echo $dados["produtoDescricao"] ?>
