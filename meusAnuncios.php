@@ -3,7 +3,7 @@ include_once("includes/bodyBase.inc.php");
 top();
 $con = mysqli_connect("localhost", "root", "", "pap2021gameon");
 $id = $_GET['id'];
-$sql = "select * from produtos inner join outlet on produtoId = outletProdutoId where produtoTipo = 'outlet' and outletPerfilId = " . $id;
+$sql = "select * from produtos inner join outlet on produtoId = outletProdutoId  where produtoTipo = 'outlet' and outletPerfilId = " . $id;
 $result = mysqli_query($con, $sql);
 ?>
 
@@ -17,7 +17,7 @@ $result = mysqli_query($con, $sql);
 
 
 <br>
-
+<div class="row">
 <?php
 while ($dados = mysqli_fetch_array($result)) {
     ?>
@@ -44,5 +44,9 @@ while ($dados = mysqli_fetch_array($result)) {
     </div>
     <?php
 }
+?>
+</div>
+
+<?php
 bottom();
 ?>

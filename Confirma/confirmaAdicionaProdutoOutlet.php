@@ -4,7 +4,7 @@ session_start();
 $prodNome=addslashes($_POST["produtoNome"]);
 $prodPreco=addslashes($_POST["produtoPreco"]);
 $prodDesc=addslashes($_POST["produtoDescricao"]);
-$perfilId= $_SESSION['perfilId'];
+$perfilId=$_SESSION['id'];
 $prodImagem=$_FILES["produtoImagemURL"]["name"];
 $novoNome="../img/produtos/".$prodImagem;
 copy($_FILES['produtoImagemURL']['tmp_name'],$novoNome);

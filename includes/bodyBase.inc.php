@@ -304,8 +304,7 @@ function top($menu=HOME){
 
 
                                             <?php
-                                                $k++;
-
+                                                $k+=$quant;
                                                 $total+=$dados2["produtoPreco"]*$quant;
                                             }else{
                                                 ?>
@@ -338,7 +337,7 @@ function top($menu=HOME){
                                             </div>
 
                                                 <?php
-                                                $k++;
+                                                    $k+=$quant;
                                                 $total+=$dados3["jogoPreco"]*$quant;
                                             }else{
                                                 ?>
