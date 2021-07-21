@@ -118,12 +118,6 @@ $dados=mysqli_fetch_array($result)
 
         <br>
 
-        <div style="margin-top: 40px; margin-bottom: 40px">
-            <h4>Data:</h4>
-            <input type="date" name="noticiaData" value="<?php echo $dados["noticiaData"]?>">
-
-        </div>
-
         <div style="color: #FFFFFF; margin-top: 50px">
             <label>Nossas Escolhas:</label>
             <p><input type="radio" name="noticiaEscolha" value="sim" <?php if ($dados['noticiaEscolha'] == 'sim') { echo "checked";} ?>>&nbsp;Sim</p>
