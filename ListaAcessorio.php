@@ -40,7 +40,7 @@ $dados=mysqli_fetch_array($result);
         </div>
 
         <section class="store">
-            <div style="height: 80%; width: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; margin-left: 10%">
+            <div style="height: 80%; width: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; margin-left: 5%">
                 <div style="text-align: center; width: 100%">
                 <h2>Acerca do Produto</h2>
                 </div>
