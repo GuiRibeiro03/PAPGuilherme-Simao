@@ -76,7 +76,7 @@ $dados=mysqli_fetch_array($result);
     </div>
     <div class="mb-3">
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Descrição:</label>
-        <textarea name="produtoDescricao" id="myTextarea"  content="<?php echo $dados["produtoDescricao"]?>"></textarea>
+        <textarea name="produtoDescricao" id="myTextarea"  content="<?php echo $dados["produtoDescricao"]?>"><?php echo $dados["produtoDescricao"]?></textarea>
     </div>
     <div class="mb-3">
         <label style="color:white; font-size: 15px; margin-top: 5%" class="badge badge-dark">Preço:</label>
