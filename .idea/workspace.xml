@@ -1,91 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks tags lista jogo">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/GhostofTsushima.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/TheWitcherNumers.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/TloU2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/beyondtwosouls.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cyberpunk2077.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/demonioAlmas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/demonsouls.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/demonsouls2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/devilmaycry5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/91E0M+IZRlL.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/Acham que Portugal possuí um mercado livre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/assassinsValhalla.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/beyondtwosouls.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/coverTomb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/cyberpunk2077.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/cyberpunk2077.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/demonsouls.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/godofwar1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/heavyrain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/indice.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/kg3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/kingdomHearts3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/locoroco.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/lol.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/milesmorales.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/sekiro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jogos/wallpapersgodofwar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/lol.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/miles.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/miles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/milesCapa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pessoas/11571242_koala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pessoas/aw.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pessoas/bacano8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pessoas/bacano9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pessoas/bruce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pessoas/chefa.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pessoas/deusVult.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/pessoas/telma.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/TloU2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/headsetsPlatinum.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/headsetsPlatinum.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/magalhaes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/portoWine.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/ps4pro2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/turtlebeach400.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/produtos/volante1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ps4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ps4pro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ps4pro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ps5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/reviewIMG/godofwar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/reviewIMG/kingdomhearts3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/reviewIMG/spiderman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/reviewIMG/thelastofus2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/reviewIMG/thewitcher3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/reviewIMG/uncharted4mini.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/thewitcher.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/thewitcher3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/transferir.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/GhostofTsushima.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/KG3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/assassinscreed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/cyberpunk2077.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/ghost.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/god.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/godofwar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/godofwar2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/hoi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/iphone8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/kingdomhearts3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/leagueoflegends.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/milesmorales.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/sekiro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/thelastofus2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/thewitcher.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/uncharted4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapers/uncharted4mini.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/wallpapersgodofwar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/xboxs.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/xboxx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meusAnuncios.php" beforeDir="false" afterPath="$PROJECT_DIR$/meusAnuncios.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseDados/pap2021gameon.sql" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/pap2021gameon.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -359,14 +279,8 @@
       <workItem from="1626365249402" duration="312000" />
       <workItem from="1626701723722" duration="12046000" />
       <workItem from="1626769705483" duration="18237000" />
-      <workItem from="1626855020917" duration="1244000" />
-    </task>
-    <task id="LOCAL-00334" summary="Guilherme-Login Mensagens">
-      <created>1625494715492</created>
-      <option name="number" value="00334" />
-      <option name="presentableId" value="LOCAL-00334" />
-      <option name="project" value="LOCAL" />
-      <updated>1625494715492</updated>
+      <workItem from="1626855020917" duration="3363000" />
+      <workItem from="1626873844844" duration="2000" />
     </task>
     <task id="LOCAL-00335" summary="vou implodir">
       <created>1625496382109</created>
@@ -704,7 +618,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626800423020</updated>
     </task>
-    <option name="localTasksCounter" value="383" />
+    <task id="LOCAL-00383" summary="Guilherme-Tweaks">
+      <created>1626856753370</created>
+      <option name="number" value="00383" />
+      <option name="presentableId" value="LOCAL-00383" />
+      <option name="project" value="LOCAL" />
+      <updated>1626856753370</updated>
+    </task>
+    <option name="localTasksCounter" value="384" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -743,11 +664,11 @@
     <MESSAGE value="Guilherme-Tweaks Carousel jogos em destaque" />
     <MESSAGE value="Guilherme-Tweaks Filtros Dropdown" />
     <MESSAGE value="Guilherme-Tweaks tags" />
-    <MESSAGE value="Guilherme-Tweaks" />
     <MESSAGE value="Guilherme-Tweaks Carrinho novo" />
     <MESSAGE value="Guilherme-Tweaks Carrinho nº produtos" />
     <MESSAGE value="Guilherme-Tweaks Carrinho is a workings" />
     <MESSAGE value="Guilherme-Tweaks tags lista jogo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks tags lista jogo" />
+    <MESSAGE value="Guilherme-Tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks" />
   </component>
 </project>

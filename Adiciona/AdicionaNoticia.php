@@ -135,11 +135,6 @@ top();
     </div>
 
 
-    <div class="form-group" style="margin-bottom: 20px">
-        <h5>Nossas Escolhas:</h5>
-        <p><input type="radio" name="noticiaEscolha" value="sim" >&nbsp;Sim</p>
-        <p><input type="radio" name="noticiaEscolha" value="nao" checked>&nbsp;Não</p>
-    </div>
 
     <div class="form-group" style="margin-bottom: 20px;margin-top: 20px">
         <h5>Desenvolvimento:</h5>

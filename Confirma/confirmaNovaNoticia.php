@@ -6,7 +6,7 @@ $noticiaDesenvolvimento=addslashes($_POST["noticiaDesenvolvimento"]);
 $noticiaData=addslashes($_POST["noticiaData"]);
 $noticiaImagemFundoURL=$_FILES["noticiaImagemFundoURL"]["name"];
 $noticiaImagemURL=$_FILES["noticiaImagemURL"]["name"];
-$noticiaEscolha=addslashes($_POST["noticiaEscolha"]);
+$noticiaEscolha=addslashes("nao");
 
 $novoNome="../img/wallpapers/".$noticiaImagemFundoURL;
 copy($_FILES['noticiaImagemFundoURL']['tmp_name'],$novoNome);
