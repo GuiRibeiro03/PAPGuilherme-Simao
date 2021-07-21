@@ -26,11 +26,15 @@ $result2=mysqli_query($con,$sql2);
                 <div class="col-lg-6">
                     <div class="details-hero-text" style="width: 1000px" >
                         <div class="label"><span>Notícia</span></div>
-                        <h3 style=" font-size: 30px; color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><?php echo $dados["noticiaTitulo"]?></h3>
+                        <h3 style=" font-size: 30px; color: white;  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;"><?php echo $dados["noticiaTitulo"] ?></h3>
                         <ul>
-                            <li>by <span>Admin</span></li>
                             <li><i class="fa fa-clock-o"></i> <?php echo $dados["noticiaData"]?></li>
-                            <li><i class="fa fa-comment-o"></i> 20</li>
+                            <li><i class="fa fa-comment-o"></i> <?php
+                                $sql2="select count(comentarioId) as num1 from comentarios where comentarioEntidadeId=".$dados['noticiaId'];
+                                $result2=mysqli_query($con,$sql2);
+                                $dados2=mysqli_fetch_array($result2);
+
+                                echo $dados2["num1"] ?></li>
                         </ul>
                     </div>
                 </div>
