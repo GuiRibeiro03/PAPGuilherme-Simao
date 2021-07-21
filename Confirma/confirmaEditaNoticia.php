@@ -23,7 +23,7 @@ if($noticiaImagemURL!=''){
     copy($_FILES['noticiaImagemURL']['tmp_name'],$novoNome2);
 }
 
-$sql.=", noticiaData='".$noticiaData."', noticiaDesenvolvimento='".$noticiaDesenvolvimento."' where noticiaId=".$id;
+$sql.=", noticiaData=NOW(), noticiaDesenvolvimento='".$noticiaDesenvolvimento."' where noticiaId=".$id;
 
 
 print_r($sql);
