@@ -46,7 +46,7 @@ $dados=mysqli_fetch_array($result);
                 </div>
                 <br>
                 <div>
-
+                    <h3>Resumo:</h3>
                     <div style="width: 100%"><?php echo $dados["produtoDescricao"] ?></div>
                 </div>
                 <hr>
