@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-Tweaks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Adiciona/AdicionaNoticia.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseDados/pap2021gameon.sql" beforeDir="false" afterPath="$PROJECT_DIR$/BaseDados/pap2021gameon.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaNoticia.php" afterDir="false" />
-    </list>
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="dump" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -281,13 +276,7 @@
       <workItem from="1626769705483" duration="18237000" />
       <workItem from="1626855020917" duration="3363000" />
       <workItem from="1626873844844" duration="2000" />
-    </task>
-    <task id="LOCAL-00335" summary="vou implodir">
-      <created>1625496382109</created>
-      <option name="number" value="00335" />
-      <option name="presentableId" value="LOCAL-00335" />
-      <option name="project" value="LOCAL" />
-      <updated>1625496382109</updated>
+      <workItem from="1626874725487" duration="17000" />
     </task>
     <task id="LOCAL-00336" summary="Guilherme-Login WORKS!!">
       <created>1625500358347</created>
@@ -625,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626856753370</updated>
     </task>
-    <option name="localTasksCounter" value="384" />
+    <task id="LOCAL-00384" summary="dump">
+      <created>1626874736138</created>
+      <option name="number" value="00384" />
+      <option name="presentableId" value="LOCAL-00384" />
+      <option name="project" value="LOCAL" />
+      <updated>1626874736138</updated>
+    </task>
+    <option name="localTasksCounter" value="385" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +640,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Logout" />
     <MESSAGE value="Guilherme-img Reviews" />
     <MESSAGE value="Guilherme-Pass login md5" />
     <MESSAGE value="Perfil Outlet" />
@@ -669,6 +664,7 @@
     <MESSAGE value="Guilherme-Tweaks Carrinho is a workings" />
     <MESSAGE value="Guilherme-Tweaks tags lista jogo" />
     <MESSAGE value="Guilherme-Tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-Tweaks" />
+    <MESSAGE value="dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="dump" />
   </component>
 </project>
