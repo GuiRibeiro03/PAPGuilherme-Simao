@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-tweaks margin left acerca">
-      <change beforePath="$PROJECT_DIR$/ListaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaAcessorio.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout2.php" beforeDir="false" afterPath="$PROJECT_DIR$/checkout2.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="" />
-      <changelist id="" name="Guilherme-tweaks" comment="" />
       <created>1612956646111</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -280,27 +280,7 @@
       <workItem from="1626726399790" duration="429000" />
       <workItem from="1626727163466" duration="1917000" />
       <workItem from="1626731333521" duration="5121000" />
-    </task>
-    <task id="LOCAL-00320" summary="Guilherme-Logout">
-      <created>1625134935828</created>
-      <option name="number" value="00320" />
-      <option name="presentableId" value="LOCAL-00320" />
-      <option name="project" value="LOCAL" />
-      <updated>1625134935828</updated>
-    </task>
-    <task id="LOCAL-00321" summary="Guilherme-img Reviews">
-      <created>1625135278143</created>
-      <option name="number" value="00321" />
-      <option name="presentableId" value="LOCAL-00321" />
-      <option name="project" value="LOCAL" />
-      <updated>1625135278143</updated>
-    </task>
-    <task id="LOCAL-00322" summary="Guilherme-img Reviews">
-      <created>1625135482303</created>
-      <option name="number" value="00322" />
-      <option name="presentableId" value="LOCAL-00322" />
-      <option name="project" value="LOCAL" />
-      <updated>1625135482303</updated>
+      <workItem from="1626896588714" duration="2770000" />
     </task>
     <task id="LOCAL-00323" summary="Guilherme-Pass login md5">
       <created>1625135696880</created>
@@ -624,7 +604,28 @@
       <option name="project" value="LOCAL" />
       <updated>1626896052289</updated>
     </task>
-    <option name="localTasksCounter" value="369" />
+    <task id="LOCAL-00369" summary="Guilherme-tweaks margin left acerca">
+      <created>1626896093553</created>
+      <option name="number" value="00369" />
+      <option name="presentableId" value="LOCAL-00369" />
+      <option name="project" value="LOCAL" />
+      <updated>1626896093553</updated>
+    </task>
+    <task id="LOCAL-00370" summary="Guilherme-tweaks margin left acerca">
+      <created>1626896113455</created>
+      <option name="number" value="00370" />
+      <option name="presentableId" value="LOCAL-00370" />
+      <option name="project" value="LOCAL" />
+      <updated>1626896113455</updated>
+    </task>
+    <task id="LOCAL-00371" summary="Guilherme-tweaks margin left acerca">
+      <created>1626896310621</created>
+      <option name="number" value="00371" />
+      <option name="presentableId" value="LOCAL-00371" />
+      <option name="project" value="LOCAL" />
+      <updated>1626896310621</updated>
+    </task>
+    <option name="localTasksCounter" value="372" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

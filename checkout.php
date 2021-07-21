@@ -5,7 +5,7 @@ top();
 
    <body style=" background-color: #0d0d0d">
 
-     <section class="store" style="margin-top: 20px; margin-bottom: 20px; color: #FFFFFF;background-color: #0d0d0d">
+     <section class="store" style="margin-top: 20px; margin-bottom: 20px; color: #FFFFFF; background-color: #0d0d0d">
 
             <div class="container" style=" width: 100%;  color: #FFFFFF; font-weight: bold;  ">
                 <span style="color: white; font-size: 45px; font-weight: bold">Carrinho:</span>
@@ -32,7 +32,7 @@ top();
 
                                     ?>
                                     <div style="margin-right: 20px; margin-left: 20px">
-                                        <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
+                                        <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
                                         <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $prdId?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                         <p style="color: #000000!important;"><input onclick="atualizaCarrinho(this.value,<?php echo $prdId?>)" type="number"  value="<?php echo $quant?>" min="1" style="width: 50px; text-align: center"></p>
                                         <hr>

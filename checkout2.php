@@ -31,9 +31,6 @@ top();
         <a href="#"><button style="background-color: forestgreen; font-size: 20px; padding: 7px 7px;">Adicionar Morada</button></a>
         </span>
 
-
-
-        data-toggle="modal" data-target="#morada"
         <div class="row">
 
             <!-- **************************DIV MORADA**************START*********  -->
@@ -49,7 +46,7 @@ top();
                         <p style="color: black"><?php echo $dados['moradaTexto'] ?></p>
                         <p style="color: black"><?php echo $dados['moradaTelefone'] ?></p>
                     </div>
-                    <div style="float: right; padding-bottom: 5px"><input type="radio" name="radio" value="checked">
+                    <div style="float: right; padding-bottom: 5px"><input type="radio" name="radio" value="checked" required>
                     </div>
 
                 </div>
@@ -93,12 +90,11 @@ top();
 
         <div class="row" style="margin-top: 5%;" onload="envio()">
             <div id="ctt">
-
                 <h4 style="font-weight: bold; color: #FFFFFF">Metodo de Envio:</h4>
                 <div style="margin-top: 20px">
                     <span>CTT- Expresso: 3,90€</span>
                     <div style="float: right;">
-                        <input type="radio" name="choice" id="btn1" value="sim">
+                        <input type="radio" name="choice" id="btn1" value="sim" required>
                     </div>
                 </div>
 
@@ -106,7 +102,7 @@ top();
                     <span>Recolher em Loja:</span>
 
                     <div style="float: right;">
-                        <input type="radio" name="choice" id="btn2" value="nao" >
+                        <input type="radio" name="choice" id="btn2" value="nao" required>
                     </div>
 
                     <p style="margin-top: 10px"><select>
@@ -118,29 +114,11 @@ top();
                             <option value="Faro">Faro</option>
                             <option value="Porto">Porto</option>
                         </select></p>
-
                 </div>
-                <button id="btn" class="btn btn-danger">Mostra Valor</button>
+                <button id="btn"class="btn btn-danger">Selecionar</button>
             </div>
 
         </div>
-        <script>
-
-            const btn = document.querySelector('#btn');
-            // handle button click
-            btn.onclick = function () {
-                const rbs = document.querySelectorAll('input[name="choice"]');
-                let selectedValue;
-                for (const rb of rbs) {
-                    if (rb.checked) {
-                        <?php echo $ctt = 'sim'?>
-
-                        break;
-                    }
-                }
-                alert(selectedValue);
-            };
-        </script>
 
 
 
@@ -163,7 +141,7 @@ top();
                             $dados2=mysqli_fetch_array($result2);
                             ?>
                             <div style="margin-right: 20px; margin-left: 20px">
-                              <img src="img/<?php echo $dados2["produtoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"] ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
+                              <img src="img/<?php echo $dados2["produtoImagemURL"]; ?>" style="height: 60px; width: 70px;" > <?php echo $dados2["produtoNome"]; ?>:</a> &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados2["produtoPreco"] ?>€</strong> </span>
                                 <button onclick="confirmaEliminaCarrinhoProduto(<?php echo $dados2["produtoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                 <p style="margin-top: 3%;color: black"><span>Quantidade: &nbsp;<?php echo $quant?></span></p>
                                 <hr>
@@ -194,7 +172,7 @@ top();
 
                             ?>
                             <div style="margin-right: 20px; margin-left: 20px">
-                           <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style="height: 60px; width: 70px;" > <?php echo $dados3["jogoNome"] ?>:</a>
+                           <img src="img/<?php echo $dados3["jogoImagemURL"] ?>" style=" width: 13%;" > <?php echo $dados3["jogoNome"] ?>:</a>
                                 &nbsp;<span id="preco" style="color: #0b0b0b; font-size: 20px"><strong><?php echo $dados3["jogoPreco"] ?>€</strong> </span>
                                 <button onclick="confirmaEliminaCarrinhoJogo(<?php echo $dados3["jogoId"]?>)" style="float: right; background-color: transparent;color: #FFF"><i class="fa fa-trash" style="color: red; background-color: transparent; margin-top: 40px; font-size: 20px"></i></button></span>
                                 <p style="margin-top: 3%; color: black"><span>Quantidade: &nbsp;<?php echo $quant?></span></p>
@@ -209,26 +187,36 @@ top();
                 }
             }
             ?>
+            <input type="hidden" id="hiddenvalue" name="hiddencontainer"/>
+            <script>
 
-            <?php
-            if($ctt == 'sim'){
+                const btn = document.querySelector('#btn');
+                // handle button click
+                btn.onclick = function () {
+                    const rbs = document.querySelectorAll('input[name="choice"]');
+                    let selectedValue;
+                    for (const rb of rbs) {
+                        if (rb.checked) {
+                            selectedValue=rb.value;
+                            if(selectedValue=='sim'){
+                                document.getElementById("envio").innerHTML='<span style="color:#000; font-size: 17px; margin-left: 4%; ">Envio: 3.90€</span>';
+                            }else{
+                                document.getElementById("envio").innerHTML='';
+                            }
 
-            ?>
-            <div>
+                        }
+                    }
+                };
+            </script>
+            <div id="envio">
 
-                 <span style="color:#000; font-size: 17px; margin-left: 4%; ">Envio: 3.90€</span>
+
 
             </div>
-            <?php
-                $total+=3.90;
-            }else{
-                echo '';
-            }
-            ?>
-
 
             <div style="width: 100%;"><span
-                        style="font-weight: bold; color: #0d0d0d; font-size: 20px; margin-left: 20px">Total: <?php echo $total ?>€</span>
+                        style="font-weight: bold; color: #0d0d0d; font-size: 20px; margin-left: 20px">Total: <?php  echo $total ?>€</span>
+
                 <a>
                     <a href="AJAX/finalizarEncomenda.php"><button type="button" class="btn btn-danger" style="float: right; background-color: red">
                         Encomendar
