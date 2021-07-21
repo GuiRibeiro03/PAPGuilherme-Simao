@@ -113,6 +113,7 @@ top();
     </div>
 
 
+
     <div class="form-group" style="margin-bottom: 20px">
 
         <div id="wrapper" style="color: #FFFFFF">
@@ -129,17 +130,22 @@ top();
     </div>
 
 
-    <div class="form-group" style="margin-bottom: 20px">
-        <h5>Data:</h5>
-        <input type="date" name="noticiaData">
-    </div>
-
-
-
     <div class="form-group" style="margin-bottom: 20px;margin-top: 20px">
         <h5>Desenvolvimento:</h5>
         <textarea name="noticiaDesenvolvimento" id="myTextarea" style="width: 70%"></textarea>
     </div>
+
+
+    <div class="form-check" style="margin-top: 5%; margin-bottom: 3%">
+        <h5 style="margin-bottom: 1em">Noticia em Destaque:</h5>
+        <p><input type="radio" name="noticiaEscolha" id="radio1" value="sim">Sim</p>
+        <p><input type="radio" name="noticiaEscolha" id="radio1" value="nao">Nao</p>
+    </div>
+
+
+
+
+
 
 
     <input type="Submit" class="btn btn-danger" value="Adiciona"><br>

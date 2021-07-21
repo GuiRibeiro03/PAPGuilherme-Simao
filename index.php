@@ -3,7 +3,7 @@ include_once("includes/bodyBase.inc.php");
 top();
 
 $con = mysqli_connect("localhost", "root", "", "pap2021gameon");
-$sql = "select * from noticias";
+$sql = "select * from noticias where noticiaEscolha like 'sim' order by noticiaId desc ";
 $sql_2 = "select * from jogos inner join reviews on jogoId=reviewJogoId where reviewGlobalRating=100 limit 3 ";
 $sqlJogos = "select * from jogos inner join reviews on jogoId=reviewJogoId where reviewGlobalRating >= 70 order by reviewGlobalRating desc ";
 $sql2_2 = "select * from jogos  where jogoDestaque LIKE 'sim' order by jogoId desc ";
