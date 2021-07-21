@@ -31,7 +31,7 @@ $sql2="insert into jogogeneros (jogoGeneroGeneroId,jogoGeneroJogoId)  values('".
 
 
 
-//header("location: ../backoffice/jogosBackoffice.php");
+header("location: ../backoffice/jogosBackoffice.php");
 
 
 
