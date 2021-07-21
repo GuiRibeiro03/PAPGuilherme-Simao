@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-tweaks">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Confirma/confirmaNovaReview.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Listajogo.php" beforeDir="false" afterPath="$PROJECT_DIR$/Listajogo.php" afterDir="false" />
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-tweaks margin left acerca">
+      <change beforePath="$PROJECT_DIR$/ListaAcessorio.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaAcessorio.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaOutlet.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaOutlet.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,20 +280,6 @@
       <workItem from="1626726399790" duration="429000" />
       <workItem from="1626727163466" duration="1917000" />
       <workItem from="1626731333521" duration="5121000" />
-    </task>
-    <task id="LOCAL-00318" summary="Guilherme-Registar works">
-      <created>1625129250317</created>
-      <option name="number" value="00318" />
-      <option name="presentableId" value="LOCAL-00318" />
-      <option name="project" value="LOCAL" />
-      <updated>1625129250317</updated>
-    </task>
-    <task id="LOCAL-00319" summary="Guilherme-Update Password">
-      <created>1625130988668</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1625130988668</updated>
     </task>
     <task id="LOCAL-00320" summary="Guilherme-Logout">
       <created>1625134935828</created>
@@ -625,7 +610,21 @@
       <option name="project" value="LOCAL" />
       <updated>1626735183378</updated>
     </task>
-    <option name="localTasksCounter" value="367" />
+    <task id="LOCAL-00367" summary="Guilherme-tweaks">
+      <created>1626895978356</created>
+      <option name="number" value="00367" />
+      <option name="presentableId" value="LOCAL-00367" />
+      <option name="project" value="LOCAL" />
+      <updated>1626895978357</updated>
+    </task>
+    <task id="LOCAL-00368" summary="Guilherme-tweaks margin left acerca">
+      <created>1626896052289</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1626896052289</updated>
+    </task>
+    <option name="localTasksCounter" value="369" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,7 +643,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-UserRegistar/Blog" />
     <MESSAGE value="Guilherme-Ajax Blog" />
     <MESSAGE value="Guilherme-Registar" />
     <MESSAGE value="Guilherme-Registar works" />
@@ -669,6 +667,7 @@
     <MESSAGE value="Guilherme-Tweaks Carousel jogos em destaque" />
     <MESSAGE value="Guilherme-Tweaks Filtros Dropdown" />
     <MESSAGE value="Guilherme-tweaks" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-tweaks" />
+    <MESSAGE value="Guilherme-tweaks margin left acerca" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-tweaks margin left acerca" />
   </component>
 </project>

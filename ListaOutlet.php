@@ -67,7 +67,6 @@ $dados=mysqli_fetch_array($result);
             <div style="height: 80%; width: 80%; border: 1px #FFFFFF; background-color: black; padding: 10px 50px; color: #FFFFFF; font-size: 25px; margin-top: 200px; margin-bottom: 200px; margin-left: 5%">
                 <h2>Acerca do Produto:</h2>
                 <div style="margin-top: 2%;">
-
                     <br>
                     <?php echo $dados["produtoDescricao"] ?>
                 </div>
