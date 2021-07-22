@@ -16,6 +16,7 @@ top();
                     $con = mysqli_connect("localhost", "root", "", "pap2021gameon");
                     $sql = "select * from perfis inner join users on perfilUserId=userId  where perfilId=" . $_GET["id"];
                     $result = mysqli_query($con, $sql);
+
                     while ($dados = mysqli_fetch_array($result)) {
                         ?>
                         <div class="card-body">
@@ -31,7 +32,7 @@ top();
                         </div>
                             <?php
                            if ($dados['userState'] == 'pendente') {
-                                echo "<badge class='badge badge-warning' style='font-size: 13px;  '>User Pendente </badge>";
+                                echo "<badge class='badge badge-warning' style='font-size: 13px;'>User Pendente </badge>";
 
                             }
 
@@ -52,8 +53,8 @@ top();
                         </ul>
                         <?php
 
-                        $con = mysqli_connect(HOST,USER,PASSWORD,DATABASE);
-                        $sql2 = "select * from perfis inner join users on perfilUserId=userId  where perfilId=" . $_GET["id"];
+                        $con = mysqli_connect("localhost", "root", "", "pap2021gameon");
+                        $sql2 = "select * from users  where userId=" . $_SESSION['id'];
                         $result2 = mysqli_query($con, $sql2);
                         $dados2 = mysqli_fetch_array($result2);
 
@@ -80,49 +81,40 @@ top();
                             </ul>
 
                             <?php
-                        } elseif ($dados['userType'] == 'editor') {
+                        } elseif ($dados2['userType'] == 'editor') {
                             ?>
 
-                            <ul class="list-group"
-                                style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
-                                <li class="list-group-item"><a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>">
-                                        <button type="button" class="btn btn-info"
-                                                style="margin-left: 20%; font-size: 100% ">Definições de Perfil <i
-                                                    class="fa fa-edit"></i></button>
-                                    </a></li>
-                                <a href="editaPerfilPassword.php?id=<?php echo $_GET['id'] ?>"
-                                   style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
-                                    <li class="list-group-item">Alterar Palavra-Passe <i class="fa fa-edit"></i></li>
-                                </a>
-                                <a href="backoffice/Backoffice.php"
-                                   style="color: #FFFFFF; font-weight: bold; background-color: black">
-                                    <li class="list-group-item">Backoffice</li>
-                                </a>
-                                <li class="list-group-item"><a href="backoffice/reviewsBackoffice.php">
-                                        <button type="button" class="btn btn-danger"
-                                                style="margin-left: 20%; font-size: 100% ">Lista de desejos
-                                        </button>
-                                    </a></li>
-                            </ul>
+                            <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black; color: #FFF; font-weight: bold">
 
-                            <?php
-                        } elseif ($dados['userType'] == 'user') {
-                            ?>
-
-                            <ul class="list-group"
-                                style="width:19rem;margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black">
                                 <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"
                                    style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
                                     <li class="list-group-item">Definições de Perfil <i class="fa fa-edit"></i></li>
                                 </a>
                                 <a href="editaPerfilPassword.php?id=<?php echo $_GET['id'] ?>"
                                    style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
-                                    <li class="list-group-item">Alterar Palavra-Passe <i class="fa fa-edit"></i></li>
+                                    <li class="list-group-item">Alterar Palavra-Passe <i class="fa fa-key"></i></li>
                                 </a>
                                 <a href="meusAnuncios.php?id=<?php echo $_GET['id'] ?>">
                                     <li class="list-group-item">Meus Anúncios</li>
                                 </a>
+                            </ul>
+                            <?php
+                        } elseif ($dados2['userType'] == 'user') {
+                            ?>
 
+                            <ul class="list-group" style="width: 19rem; margin-left: 10px; margin-right: 10px; margin-bottom: 20px; background-color: black; color: #FFF; font-weight: bold">
+
+                                <a href="editaPerfil.php?id=<?php echo $_GET['id'] ?>"
+                                   style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
+                                    <li class="list-group-item">Definições de Perfil <i class="fa fa-edit"></i></li>
+                                </a>
+                                <a href="editaPerfilPassword.php?id=<?php echo $_GET['id'] ?>"
+                                   style="color: #FFFFFF; background-color: #0d0d0d; font-weight: bold">
+                                    <li class="list-group-item">Alterar Palavra-Passe <i class="fa fa-key"></i></li>
+                                </a>
+                                <a href="meusAnuncios.php?id=<?php echo $_GET['id'] ?>">
+                                    <li class="list-group-item">Meus Anúncios</li>
+                                </a>
                             </ul>
 
                             <?php
@@ -142,17 +134,17 @@ top();
                     <h4>Informações de Contacto</h4>
                     <?php
                     $con = mysqli_connect("localhost", "root", "", "pap2021gameon");
-                    $sql = "select * from perfis inner join users on perfilUserId=userId  where perfilId=" . $_GET["id"];
-                    $result = mysqli_query($con, $sql);
-                    $dados = mysqli_fetch_array($result);
+                    $sql3 = "select * from perfis inner join users on perfilUserId=userId  where perfilId=" . $_GET["id"];
+                    $result3 = mysqli_query($con, $sql3);
+                    $dados3 = mysqli_fetch_array($result3);
                     ?>
                     <hr>
                     <div>
                         <ul style="font-size: 20px; margin-bottom: 3%">
-                            <li><?php echo $dados['perfilNome'] ?></li>
-                            <li><?php echo $dados['perfilEmail'] ?></li>
+                            <li><?php echo $dados3['perfilNome'] ?></li>
+                            <li><?php echo $dados3['perfilEmail'] ?></li>
                         </ul>
-                        <a href="editaPerfil.php?id=<?php echo $dados['perfilId'] ?>">
+                        <a href="editaPerfil.php?id=<?php echo $dados3['perfilId'] ?>">
                             <button style="  font-size: 20px;" class="btn btn-primary">Editar
                             </button>
                         </a>
