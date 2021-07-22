@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-EditaJogo">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-PASTA">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/perfilUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/perfilUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,27 +282,9 @@
       <workItem from="1626881247011" duration="97000" />
       <workItem from="1626881947037" duration="656000" />
       <workItem from="1626883119116" duration="1064000" />
-    </task>
-    <task id="LOCAL-00339" summary="Guilherme-Botão voltar">
-      <created>1625686263111</created>
-      <option name="number" value="00339" />
-      <option name="presentableId" value="LOCAL-00339" />
-      <option name="project" value="LOCAL" />
-      <updated>1625686263111</updated>
-    </task>
-    <task id="LOCAL-00340" summary="Guilherme-Botão voltar">
-      <created>1625688393188</created>
-      <option name="number" value="00340" />
-      <option name="presentableId" value="LOCAL-00340" />
-      <option name="project" value="LOCAL" />
-      <updated>1625688393188</updated>
-    </task>
-    <task id="LOCAL-00341" summary="Guilherme-Tweaks">
-      <created>1625733825089</created>
-      <option name="number" value="00341" />
-      <option name="presentableId" value="LOCAL-00341" />
-      <option name="project" value="LOCAL" />
-      <updated>1625733825089</updated>
+      <workItem from="1626949633133" duration="428000" />
+      <workItem from="1626950078728" duration="31000" />
+      <workItem from="1626950134809" duration="13000" />
     </task>
     <task id="LOCAL-00342" summary="Guilherme-Tweaks">
       <created>1625742170537</created>
@@ -627,7 +608,28 @@
       <option name="project" value="LOCAL" />
       <updated>1626883817779</updated>
     </task>
-    <option name="localTasksCounter" value="388" />
+    <task id="LOCAL-00388" summary="Guilherme-User">
+      <created>1626949315465</created>
+      <option name="number" value="00388" />
+      <option name="presentableId" value="LOCAL-00388" />
+      <option name="project" value="LOCAL" />
+      <updated>1626949315466</updated>
+    </task>
+    <task id="LOCAL-00389" summary="Guilherme-PASTA">
+      <created>1626950100308</created>
+      <option name="number" value="00389" />
+      <option name="presentableId" value="LOCAL-00389" />
+      <option name="project" value="LOCAL" />
+      <updated>1626950100308</updated>
+    </task>
+    <task id="LOCAL-00390" summary="Guilherme-PASTA">
+      <created>1626950140690</created>
+      <option name="number" value="00390" />
+      <option name="presentableId" value="LOCAL-00390" />
+      <option name="project" value="LOCAL" />
+      <updated>1626950140690</updated>
+    </task>
+    <option name="localTasksCounter" value="391" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,8 +648,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Guilherme-Pass login md5" />
-    <MESSAGE value="Perfil Outlet" />
     <MESSAGE value="Guilherme-Checkout modal moradas" />
     <MESSAGE value="Guilherme-Jogos" />
     <MESSAGE value="Guilherme-Carrinho Elimina" />
@@ -671,6 +671,8 @@
     <MESSAGE value="Guilherme-Tweaks" />
     <MESSAGE value="dump" />
     <MESSAGE value="Guilherme-EditaJogo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-EditaJogo" />
+    <MESSAGE value="Guilherme-User" />
+    <MESSAGE value="Guilherme-PASTA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-PASTA" />
   </component>
 </project>

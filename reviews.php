@@ -9,7 +9,7 @@ $result=mysqli_query($con,$sql);
 ?>
 
 <div style=" margin-left: 35%; width: 100%; ">
-    <input type="text" placeholder="Procura a review que desejas..." id="search" style="width: 30%; height: 40px; border-radius: 10px; margin-top: 3%">
+    <input type="text" placeholder="Procura a review que desejas..." id="search" style="width: 30%; height: 40px; border-radius: 10px; margin-top: 3%; margin-right: 40%">
 </div>
 
 <div id="tableContent">
