@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="Guilherme-PASTA">
+    <list default="true" id="ef3a44c0-2f81-40f4-a117-2962d6643332" name="Default Changelist" comment="sql dump">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Edita/EditaReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/Edita/EditaReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListaConsola.php" beforeDir="false" afterPath="$PROJECT_DIR$/ListaConsola.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/bodyBase.inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/bodyBase.inc.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,10 +75,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Confirma" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Adiciona" />
+      <recent name="C:\wamp64\www\PAPGuilherme-Simao\AJAX" />
       <recent name="C:\wamp64\www\PAPGuilherme-Simao\Elimina" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -274,17 +281,137 @@
       <workItem from="1626339783211" duration="3391000" />
       <workItem from="1626344174892" duration="13877000" />
       <workItem from="1626365249402" duration="312000" />
-      <workItem from="1626701723722" duration="12046000" />
-      <workItem from="1626769705483" duration="18237000" />
-      <workItem from="1626855020917" duration="3363000" />
-      <workItem from="1626873844844" duration="2000" />
-      <workItem from="1626874725487" duration="17000" />
-      <workItem from="1626881247011" duration="97000" />
-      <workItem from="1626881947037" duration="656000" />
-      <workItem from="1626883119116" duration="1064000" />
-      <workItem from="1626949633133" duration="428000" />
-      <workItem from="1626950078728" duration="31000" />
-      <workItem from="1626950134809" duration="13000" />
+      <workItem from="1626726354307" duration="1000" />
+      <workItem from="1626726399790" duration="429000" />
+      <workItem from="1626727163466" duration="1917000" />
+      <workItem from="1626731333521" duration="5121000" />
+      <workItem from="1626896588714" duration="3696000" />
+      <workItem from="1626903785615" duration="303000" />
+      <workItem from="1627323391974" duration="152000" />
+      <workItem from="1627323553649" duration="698000" />
+      <workItem from="1627664320275" duration="72000" />
+      <workItem from="1627664480450" duration="12000" />
+      <workItem from="1627666325505" duration="5563000" />
+      <workItem from="1627851917155" duration="301000" />
+    </task>
+    <task id="LOCAL-00325" summary="Guilherme-Checkout modal moradas">
+      <created>1625214960976</created>
+      <option name="number" value="00325" />
+      <option name="presentableId" value="LOCAL-00325" />
+      <option name="project" value="LOCAL" />
+      <updated>1625214960977</updated>
+    </task>
+    <task id="LOCAL-00326" summary="Guilherme-Checkout modal moradas">
+      <created>1625215855132</created>
+      <option name="number" value="00326" />
+      <option name="presentableId" value="LOCAL-00326" />
+      <option name="project" value="LOCAL" />
+      <updated>1625215855132</updated>
+    </task>
+    <task id="LOCAL-00327" summary="Guilherme-Checkout modal moradas">
+      <created>1625216615272</created>
+      <option name="number" value="00327" />
+      <option name="presentableId" value="LOCAL-00327" />
+      <option name="project" value="LOCAL" />
+      <updated>1625216615273</updated>
+    </task>
+    <task id="LOCAL-00328" summary="Guilherme-Jogos">
+      <created>1625226011929</created>
+      <option name="number" value="00328" />
+      <option name="presentableId" value="LOCAL-00328" />
+      <option name="project" value="LOCAL" />
+      <updated>1625226011929</updated>
+    </task>
+    <task id="LOCAL-00329" summary="Guilherme-Carrinho Elimina">
+      <created>1625229287149</created>
+      <option name="number" value="00329" />
+      <option name="presentableId" value="LOCAL-00329" />
+      <option name="project" value="LOCAL" />
+      <updated>1625229287149</updated>
+    </task>
+    <task id="LOCAL-00330" summary="Guilherme-Morada Elimina">
+      <created>1625236207185</created>
+      <option name="number" value="00330" />
+      <option name="presentableId" value="LOCAL-00330" />
+      <option name="project" value="LOCAL" />
+      <updated>1625236207185</updated>
+    </task>
+    <task id="LOCAL-00331" summary="Guilherme-Morada ConfirmaEdita">
+      <created>1625236874882</created>
+      <option name="number" value="00331" />
+      <option name="presentableId" value="LOCAL-00331" />
+      <option name="project" value="LOCAL" />
+      <updated>1625236874882</updated>
+    </task>
+    <task id="LOCAL-00332" summary="Guilherme-Morada ConfirmaEdita">
+      <created>1625490950415</created>
+      <option name="number" value="00332" />
+      <option name="presentableId" value="LOCAL-00332" />
+      <option name="project" value="LOCAL" />
+      <updated>1625490950415</updated>
+    </task>
+    <task id="LOCAL-00333" summary="Guilherme-Lagin Menssagens">
+      <created>1625493672236</created>
+      <option name="number" value="00333" />
+      <option name="presentableId" value="LOCAL-00333" />
+      <option name="project" value="LOCAL" />
+      <updated>1625493672236</updated>
+    </task>
+    <task id="LOCAL-00334" summary="Guilherme-Login Mensagens">
+      <created>1625494715492</created>
+      <option name="number" value="00334" />
+      <option name="presentableId" value="LOCAL-00334" />
+      <option name="project" value="LOCAL" />
+      <updated>1625494715492</updated>
+    </task>
+    <task id="LOCAL-00335" summary="vou implodir">
+      <created>1625496382109</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1625496382109</updated>
+    </task>
+    <task id="LOCAL-00336" summary="Guilherme-Login WORKS!!">
+      <created>1625500358347</created>
+      <option name="number" value="00336" />
+      <option name="presentableId" value="LOCAL-00336" />
+      <option name="project" value="LOCAL" />
+      <updated>1625500358347</updated>
+    </task>
+    <task id="LOCAL-00337" summary="Guilherme-Tweaks">
+      <created>1625653496454</created>
+      <option name="number" value="00337" />
+      <option name="presentableId" value="LOCAL-00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1625653496454</updated>
+    </task>
+    <task id="LOCAL-00338" summary="Guilherme-Tweaks">
+      <created>1625654255938</created>
+      <option name="number" value="00338" />
+      <option name="presentableId" value="LOCAL-00338" />
+      <option name="project" value="LOCAL" />
+      <updated>1625654255938</updated>
+    </task>
+    <task id="LOCAL-00339" summary="Guilherme-Botão voltar">
+      <created>1625686263111</created>
+      <option name="number" value="00339" />
+      <option name="presentableId" value="LOCAL-00339" />
+      <option name="project" value="LOCAL" />
+      <updated>1625686263111</updated>
+    </task>
+    <task id="LOCAL-00340" summary="Guilherme-Botão voltar">
+      <created>1625688393188</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1625688393188</updated>
+    </task>
+    <task id="LOCAL-00341" summary="Guilherme-Tweaks">
+      <created>1625733825089</created>
+      <option name="number" value="00341" />
+      <option name="presentableId" value="LOCAL-00341" />
+      <option name="project" value="LOCAL" />
+      <updated>1625733825089</updated>
     </task>
     <task id="LOCAL-00342" summary="Guilherme-Tweaks">
       <created>1625742170537</created>
@@ -391,245 +518,126 @@
       <option name="project" value="LOCAL" />
       <updated>1626365215457</updated>
     </task>
-    <task id="LOCAL-00357" summary="Guilherme-Tweaks tags">
-      <created>1626434469914</created>
+    <task id="LOCAL-00357" summary="Guilherme-tweaks">
+      <created>1626721278545</created>
       <option name="number" value="00357" />
       <option name="presentableId" value="LOCAL-00357" />
       <option name="project" value="LOCAL" />
-      <updated>1626434469914</updated>
+      <updated>1626721278546</updated>
     </task>
-    <task id="LOCAL-00358" summary="Guilherme-Tweaks tags">
-      <created>1626435882817</created>
+    <task id="LOCAL-00358" summary="Guilherme-tweaks">
+      <created>1626721645786</created>
       <option name="number" value="00358" />
       <option name="presentableId" value="LOCAL-00358" />
       <option name="project" value="LOCAL" />
-      <updated>1626435882817</updated>
+      <updated>1626721645786</updated>
     </task>
-    <task id="LOCAL-00359" summary="Guilherme-Tweaks tags">
-      <created>1626450903122</created>
+    <task id="LOCAL-00359" summary="Guilherme-tweaks">
+      <created>1626722165592</created>
       <option name="number" value="00359" />
       <option name="presentableId" value="LOCAL-00359" />
       <option name="project" value="LOCAL" />
-      <updated>1626450903122</updated>
+      <updated>1626722165592</updated>
     </task>
-    <task id="LOCAL-00360" summary="Guilherme-Tweaks">
-      <created>1626682921475</created>
+    <task id="LOCAL-00360" summary="Guilherme-tweaks">
+      <created>1626726822625</created>
       <option name="number" value="00360" />
       <option name="presentableId" value="LOCAL-00360" />
       <option name="project" value="LOCAL" />
-      <updated>1626682921475</updated>
+      <updated>1626726822625</updated>
     </task>
-    <task id="LOCAL-00361" summary="Guilherme-Tweaks">
-      <created>1626685798230</created>
+    <task id="LOCAL-00361" summary="Guilherme-tweaks">
+      <created>1626727843006</created>
       <option name="number" value="00361" />
       <option name="presentableId" value="LOCAL-00361" />
       <option name="project" value="LOCAL" />
-      <updated>1626685798230</updated>
+      <updated>1626727843006</updated>
     </task>
-    <task id="LOCAL-00362" summary="Guilherme-Tweaks">
-      <created>1626685807404</created>
+    <task id="LOCAL-00362" summary="Guilherme-tweaks">
+      <created>1626729973007</created>
       <option name="number" value="00362" />
       <option name="presentableId" value="LOCAL-00362" />
       <option name="project" value="LOCAL" />
-      <updated>1626685807404</updated>
+      <updated>1626729973008</updated>
     </task>
-    <task id="LOCAL-00363" summary="Guilherme-Tweaks">
-      <created>1626686230255</created>
+    <task id="LOCAL-00363" summary="Guilherme-tweaks">
+      <created>1626734477095</created>
       <option name="number" value="00363" />
       <option name="presentableId" value="LOCAL-00363" />
       <option name="project" value="LOCAL" />
-      <updated>1626686230255</updated>
+      <updated>1626734477095</updated>
     </task>
-    <task id="LOCAL-00364" summary="Guilherme-Tweaks">
-      <created>1626686531886</created>
+    <task id="LOCAL-00364" summary="Guilherme-tweaks">
+      <created>1626734509732</created>
       <option name="number" value="00364" />
       <option name="presentableId" value="LOCAL-00364" />
       <option name="project" value="LOCAL" />
-      <updated>1626686531886</updated>
+      <updated>1626734509732</updated>
     </task>
-    <task id="LOCAL-00365" summary="Guilherme-Tweaks">
-      <created>1626686941512</created>
+    <task id="LOCAL-00365" summary="Guilherme-tweaks">
+      <created>1626734849665</created>
       <option name="number" value="00365" />
       <option name="presentableId" value="LOCAL-00365" />
       <option name="project" value="LOCAL" />
-      <updated>1626686941512</updated>
+      <updated>1626734849665</updated>
     </task>
-    <task id="LOCAL-00366" summary="Guilherme-Tweaks">
-      <created>1626697943902</created>
+    <task id="LOCAL-00366" summary="Guilherme-tweaks">
+      <created>1626735183378</created>
       <option name="number" value="00366" />
       <option name="presentableId" value="LOCAL-00366" />
       <option name="project" value="LOCAL" />
-      <updated>1626697943902</updated>
+      <updated>1626735183378</updated>
     </task>
-    <task id="LOCAL-00367" summary="Guilherme-Tweaks">
-      <created>1626698072204</created>
+    <task id="LOCAL-00367" summary="Guilherme-tweaks">
+      <created>1626895978356</created>
       <option name="number" value="00367" />
       <option name="presentableId" value="LOCAL-00367" />
       <option name="project" value="LOCAL" />
-      <updated>1626698072204</updated>
+      <updated>1626895978357</updated>
     </task>
-    <task id="LOCAL-00368" summary="Guilherme-Tweaks Carrinho novo">
-      <created>1626708506454</created>
+    <task id="LOCAL-00368" summary="Guilherme-tweaks margin left acerca">
+      <created>1626896052289</created>
       <option name="number" value="00368" />
       <option name="presentableId" value="LOCAL-00368" />
       <option name="project" value="LOCAL" />
-      <updated>1626708506454</updated>
+      <updated>1626896052289</updated>
     </task>
-    <task id="LOCAL-00369" summary="Guilherme-Tweaks Carrinho novo">
-      <created>1626709066447</created>
+    <task id="LOCAL-00369" summary="Guilherme-tweaks margin left acerca">
+      <created>1626896093553</created>
       <option name="number" value="00369" />
       <option name="presentableId" value="LOCAL-00369" />
       <option name="project" value="LOCAL" />
-      <updated>1626709066447</updated>
+      <updated>1626896093553</updated>
     </task>
-    <task id="LOCAL-00370" summary="Guilherme-Tweaks Carrinho novo">
-      <created>1626710170369</created>
+    <task id="LOCAL-00370" summary="Guilherme-tweaks margin left acerca">
+      <created>1626896113455</created>
       <option name="number" value="00370" />
       <option name="presentableId" value="LOCAL-00370" />
       <option name="project" value="LOCAL" />
-      <updated>1626710170369</updated>
+      <updated>1626896113455</updated>
     </task>
-    <task id="LOCAL-00371" summary="Guilherme-Tweaks Carrinho novo">
-      <created>1626710349693</created>
+    <task id="LOCAL-00371" summary="Guilherme-tweaks margin left acerca">
+      <created>1626896310621</created>
       <option name="number" value="00371" />
       <option name="presentableId" value="LOCAL-00371" />
       <option name="project" value="LOCAL" />
-      <updated>1626710349693</updated>
+      <updated>1626896310621</updated>
     </task>
-    <task id="LOCAL-00372" summary="Guilherme-Tweaks Carrinho nº produtos">
-      <created>1626710907472</created>
+    <task id="LOCAL-00372" summary="Guilherme-tweaks margin left acerca">
+      <created>1626899551747</created>
       <option name="number" value="00372" />
       <option name="presentableId" value="LOCAL-00372" />
       <option name="project" value="LOCAL" />
-      <updated>1626710907472</updated>
+      <updated>1626899551748</updated>
     </task>
-    <task id="LOCAL-00373" summary="Guilherme-Tweaks Carrinho nº produtos">
-      <created>1626712027802</created>
+    <task id="LOCAL-00373" summary="Guilherme-tweaks margin left acerca">
+      <created>1626899667237</created>
       <option name="number" value="00373" />
       <option name="presentableId" value="LOCAL-00373" />
       <option name="project" value="LOCAL" />
-      <updated>1626712027802</updated>
+      <updated>1626899667237</updated>
     </task>
-    <task id="LOCAL-00374" summary="Guilherme-Tweaks Carrinho nº produtos">
-      <created>1626713915520</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
-      <option name="project" value="LOCAL" />
-      <updated>1626713915520</updated>
-    </task>
-    <task id="LOCAL-00375" summary="Guilherme-Tweaks Carrinho is a workings">
-      <created>1626714117327</created>
-      <option name="number" value="00375" />
-      <option name="presentableId" value="LOCAL-00375" />
-      <option name="project" value="LOCAL" />
-      <updated>1626714117327</updated>
-    </task>
-    <task id="LOCAL-00376" summary="Guilherme-Tweaks Carrinho is a workings">
-      <created>1626771270046</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
-      <option name="project" value="LOCAL" />
-      <updated>1626771270046</updated>
-    </task>
-    <task id="LOCAL-00377" summary="Guilherme-Tweaks Carrinho is a workings">
-      <created>1626772525597</created>
-      <option name="number" value="00377" />
-      <option name="presentableId" value="LOCAL-00377" />
-      <option name="project" value="LOCAL" />
-      <updated>1626772525597</updated>
-    </task>
-    <task id="LOCAL-00378" summary="Guilherme-Tweaks tags lista jogo">
-      <created>1626775494418</created>
-      <option name="number" value="00378" />
-      <option name="presentableId" value="LOCAL-00378" />
-      <option name="project" value="LOCAL" />
-      <updated>1626775494418</updated>
-    </task>
-    <task id="LOCAL-00379" summary="Guilherme-Tweaks tags lista jogo">
-      <created>1626784041600</created>
-      <option name="number" value="00379" />
-      <option name="presentableId" value="LOCAL-00379" />
-      <option name="project" value="LOCAL" />
-      <updated>1626784041600</updated>
-    </task>
-    <task id="LOCAL-00380" summary="Guilherme-Tweaks tags lista jogo">
-      <created>1626791884375</created>
-      <option name="number" value="00380" />
-      <option name="presentableId" value="LOCAL-00380" />
-      <option name="project" value="LOCAL" />
-      <updated>1626791884375</updated>
-    </task>
-    <task id="LOCAL-00381" summary="Guilherme-Tweaks tags lista jogo">
-      <created>1626798320043</created>
-      <option name="number" value="00381" />
-      <option name="presentableId" value="LOCAL-00381" />
-      <option name="project" value="LOCAL" />
-      <updated>1626798320043</updated>
-    </task>
-    <task id="LOCAL-00382" summary="Guilherme-Tweaks tags lista jogo">
-      <created>1626800423020</created>
-      <option name="number" value="00382" />
-      <option name="presentableId" value="LOCAL-00382" />
-      <option name="project" value="LOCAL" />
-      <updated>1626800423020</updated>
-    </task>
-    <task id="LOCAL-00383" summary="Guilherme-Tweaks">
-      <created>1626856753370</created>
-      <option name="number" value="00383" />
-      <option name="presentableId" value="LOCAL-00383" />
-      <option name="project" value="LOCAL" />
-      <updated>1626856753370</updated>
-    </task>
-    <task id="LOCAL-00384" summary="dump">
-      <created>1626874736138</created>
-      <option name="number" value="00384" />
-      <option name="presentableId" value="LOCAL-00384" />
-      <option name="project" value="LOCAL" />
-      <updated>1626874736138</updated>
-    </task>
-    <task id="LOCAL-00385" summary="Guilherme-EditaJogo">
-      <created>1626881320768</created>
-      <option name="number" value="00385" />
-      <option name="presentableId" value="LOCAL-00385" />
-      <option name="project" value="LOCAL" />
-      <updated>1626881320768</updated>
-    </task>
-    <task id="LOCAL-00386" summary="Guilherme-EditaJogo">
-      <created>1626883599002</created>
-      <option name="number" value="00386" />
-      <option name="presentableId" value="LOCAL-00386" />
-      <option name="project" value="LOCAL" />
-      <updated>1626883599002</updated>
-    </task>
-    <task id="LOCAL-00387" summary="Guilherme-EditaJogo">
-      <created>1626883817779</created>
-      <option name="number" value="00387" />
-      <option name="presentableId" value="LOCAL-00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1626883817779</updated>
-    </task>
-    <task id="LOCAL-00388" summary="Guilherme-User">
-      <created>1626949315465</created>
-      <option name="number" value="00388" />
-      <option name="presentableId" value="LOCAL-00388" />
-      <option name="project" value="LOCAL" />
-      <updated>1626949315466</updated>
-    </task>
-    <task id="LOCAL-00389" summary="Guilherme-PASTA">
-      <created>1626950100308</created>
-      <option name="number" value="00389" />
-      <option name="presentableId" value="LOCAL-00389" />
-      <option name="project" value="LOCAL" />
-      <updated>1626950100308</updated>
-    </task>
-    <task id="LOCAL-00390" summary="Guilherme-PASTA">
-      <created>1626950140690</created>
-      <option name="number" value="00390" />
-      <option name="presentableId" value="LOCAL-00390" />
-      <option name="project" value="LOCAL" />
-      <updated>1626950140690</updated>
-    </task>
-    <option name="localTasksCounter" value="391" />
+    <option name="localTasksCounter" value="374" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -648,6 +656,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="Guilherme-Ajax Blog" />
+    <MESSAGE value="Guilherme-Registar" />
+    <MESSAGE value="Guilherme-Registar works" />
+    <MESSAGE value="Guilherme-Update Password" />
+    <MESSAGE value="Guilherme-Logout" />
+    <MESSAGE value="Guilherme-img Reviews" />
+    <MESSAGE value="Guilherme-Pass login md5" />
+    <MESSAGE value="Perfil Outlet" />
     <MESSAGE value="Guilherme-Checkout modal moradas" />
     <MESSAGE value="Guilherme-Jogos" />
     <MESSAGE value="Guilherme-Carrinho Elimina" />
@@ -659,20 +675,12 @@
     <MESSAGE value="Guilherme-Login WORKS!!" />
     <MESSAGE value="Guilherme-Botão voltar" />
     <MESSAGE value="Guilherme-Tweaks(user-outlet)" />
-    <MESSAGE value="Guilherme-tweaks" />
+    <MESSAGE value="Guilherme-Tweaks" />
     <MESSAGE value="Guilherme-Tweaks Editor" />
     <MESSAGE value="Guilherme-Tweaks Carousel jogos em destaque" />
     <MESSAGE value="Guilherme-Tweaks Filtros Dropdown" />
-    <MESSAGE value="Guilherme-Tweaks tags" />
-    <MESSAGE value="Guilherme-Tweaks Carrinho novo" />
-    <MESSAGE value="Guilherme-Tweaks Carrinho nº produtos" />
-    <MESSAGE value="Guilherme-Tweaks Carrinho is a workings" />
-    <MESSAGE value="Guilherme-Tweaks tags lista jogo" />
-    <MESSAGE value="Guilherme-Tweaks" />
-    <MESSAGE value="dump" />
-    <MESSAGE value="Guilherme-EditaJogo" />
-    <MESSAGE value="Guilherme-User" />
-    <MESSAGE value="Guilherme-PASTA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-PASTA" />
+    <MESSAGE value="Guilherme-tweaks" />
+    <MESSAGE value="Guilherme-tweaks margin left acerca" />
+    <option name="LAST_COMMIT_MESSAGE" value="Guilherme-tweaks margin left acerca" />
   </component>
 </project>

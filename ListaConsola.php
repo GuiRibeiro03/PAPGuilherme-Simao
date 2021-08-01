@@ -13,7 +13,7 @@ top();
 
 
 
-        <a href="<?php echo $_SERVER['HTTP_REFERER']; ?>"><button type="button" class="btn btn-light"><i class="arrow_back"></i>&nbsp;Voltar</button></a>
+        <a href="<?php echo $_SERVER['HTTP_REFERER']; ?>"><button id="botao-voltar" type="button" class="btn btn-light"><i class="arrow_back"></i>&nbsp;Voltar</button></a>
         <div class="row">
 
 

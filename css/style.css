@@ -4302,6 +4302,12 @@ tr {
 }
 
 
+#botao-voltar:hover{
+    background-color: #e10000;
+    color: #FFFFFF;
+    outline: #e10000;
+}
+
 .cart-button {
     position: relative;
     padding: 10px;
@@ -4316,13 +4322,18 @@ tr {
     overflow: hidden;
 }
 
+.cart-button:hover{
+    background-color: #c50202;
+
+}
+
 
 .cart-button:active {
     transform: scale(.9);
 }
 
 .cart-button.clicked {
-    background-color: #e10000;
+    background-color: #c50202;
 }
 
 

@@ -59,8 +59,7 @@ function top($menu=HOME){
         <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="shortcut icon" href="img/onbutton.ico">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="sweetalert2.all.min.js"></script>
+
 
         <script src="js/jquery.min.js"></script>
         <script src="js/common.js"></script>
@@ -437,7 +436,7 @@ function top($menu=HOME){
                         <li><a href="#"><span style="font-size: 20px; color: #fff; "><strong>Loja</strong><i class="fa fa-angle-down"></i></span></a>
                             <div class="dropdown">
                                 <ul >
-                                    <li ><a href="consolas.php" >Consolas</a></li>
+                                    <li><a href="consolas.php" >Consolas</a></li>
                                     <li><a href="jogos.php" >Jogos</a></li>
                                     <li><a href="acessorios.php" >Acessórios</a></li>
                                     <li><a href="outlet.php" >Outlet</a></li>
@@ -450,9 +449,6 @@ function top($menu=HOME){
                         <li><a href="reviews.php"><span><strong>Reviews</strong> </span></a></li>
 
                         <li><a href="blog.php"><span><strong>Blog</strong> </span></a></li>
-
-
-
                     </ul>
 
                 </div>
@@ -499,7 +495,6 @@ function bottom(){
         <div class="copyright-area"  style="text-align: center" >
             <div class="row">
                 <div class="col-lg-6">
-
                     <div class="ca-text" style="margin-left: 25px"><p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p></div>

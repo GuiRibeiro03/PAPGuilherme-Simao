@@ -95,7 +95,6 @@ $dados=mysqli_fetch_array($result);
         </div>
         <br>
 
-
         <div class="mb-3">
             <label  class="form-label">Autor:</label>
             <input value="<?php echo $dados["reviewAutor"] ?>" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Titulo" name="reviewAutor"  style="width: 40%" autofocus>
